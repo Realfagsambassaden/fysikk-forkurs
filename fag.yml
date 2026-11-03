@@ -1,0 +1,8 @@
+# Om faget. Dette er det eneste du MÅ fylle ut før faget dukker opp på nettsiden.
+nettsted: fysikkhjelp          # fysikkhjelp | matematikkhjelp | kjemihjelp | biologihjelp
+tittel: "Navn på faget"        # f.eks. "Mekanikk" eller "Kalkulus 1"
+kortnavn: navn-pa-faget        # brukes i nettadressen: fysikkhjelp.no/navn-pa-faget/
+beskrivelse: "Én setning om hva faget handler om og hvem det er for."
+ansvarlig: "Ditt navn"
+status: skjult                 # skjult (vises ikke) | arbeid (vises med «under arbeid») | klar
+bilde: bilder/forside.webp     # valgfritt: en tegning som vises på fagkortet

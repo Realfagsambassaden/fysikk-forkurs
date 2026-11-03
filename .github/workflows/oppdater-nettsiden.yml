@@ -1,0 +1,14 @@
+# Sier fra til plattformen at faget er endret, så nettsiden bygges på nytt (tar ca. 3–4 minutter).
+name: Oppdater nettsiden
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  ring-pa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Si fra til Realfagsambassaden/plattform
+        env:
+          GH_TOKEN: ${{ secrets.PLATTFORM_TOKEN }}
+        run: gh api repos/Realfagsambassaden/plattform/dispatches -f event_type=kilde-oppdatert
