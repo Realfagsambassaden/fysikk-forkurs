@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="no"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Comic;src:url(../_verktoy/ComicNeue-Regular.ttf)}
+@font-face{font-family:Comic;font-weight:700;src:url(../_verktoy/ComicNeue-Bold.ttf)}
+@font-face{font-family:Mont;font-weight:900;src:url(../_verktoy/Montserrat-Black.ttf)}
+@font-face{font-family:Mont;font-weight:800;src:url(../_verktoy/Montserrat-ExtraBold.ttf)}
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#0d1110}
+body{font-family:Comic;color:#ecefe6}
+#bg{position:absolute;inset:0;background:url(../_verktoy/tavle-bakgrunn.webp) center/cover;opacity:.09}
+#logo{position:absolute;right:40px;top:30px;height:46px;opacity:.85}
+.scene{position:absolute;inset:0;display:none}
+.a{position:absolute}
+.tittel{font:900 132px/1.05 Mont;letter-spacing:-1px}
+.h2{font:800 64px/1.1 Mont}
+.eyebrow{font:700 30px Comic;letter-spacing:.16em;text-transform:uppercase;color:#6ef04a}
+.hand{font:700 46px/1.25 Comic}
+.liten{font:400 34px/1.3 Comic;color:#9aa49e}
+.panel{border:3px solid #2a3330;border-radius:22px;background:rgba(20,26,24,.6)}
+.lab{font:700 36px Comic;text-align:center;width:100%;bottom:16px}
+.node{border:4px solid;border-radius:20px;padding:14px 26px;font:700 42px Comic;background:#0d1110;white-space:nowrap;transform:translate(-50%,-50%)}
+.kort{width:360px;height:290px}
+.kort img{position:absolute;left:20px;top:18px;width:320px;height:140px;object-fit:contain}
+.kort svg{position:absolute;left:20px;top:18px}
+.kort .kt{position:absolute;left:0;right:0;top:170px;text-align:center;font:800 34px Mont}
+.kort .ks{position:absolute;left:12px;right:12px;top:218px;text-align:center;font:400 28px/1.2 Comic;color:#9aa49e}
+.kap{font:700 42px Comic;white-space:nowrap}
+svg{overflow:visible}
+#sone{position:absolute;left:1300px;top:420px;width:620px;height:660px;border:4px dashed #f19c2c;box-sizing:border-box;display:none;color:#f19c2c;font:700 36px Comic;text-align:center;padding-top:280px}
+</style></head><body>
+<div id="bg"></div><img id="logo" src="../_verktoy/fh-logo-linje.png">
+
+<!-- 1 INTRO -->
+<div class="scene" id="s1">
+  <div class="a eyebrow" id="s1e" style="left:130px;top:300px">Forkurs i fysikk · Kapittel 1</div>
+  <div class="a tittel" id="s1t" style="left:120px;top:350px"></div>
+  <svg class="a" style="left:125px;top:510px" width="900" height="40"><path id="s1u" d="M0 20 C200 8 500 32 880 14" stroke="#6ef04a" stroke-width="9" fill="none" stroke-linecap="round" pathLength="1"/></svg>
+  <div class="a hand" id="s1s" style="left:130px;top:600px;color:#9aa49e">… et spørsmål som høres enkelt ut</div>
+</div>
+
+<!-- 2 OVERALT -->
+<div class="scene" id="s2">
+  <div class="a panel" id="p1" style="left:80px;top:110px;width:540px;height:300px">
+    <svg class="a" style="left:0;top:0" width="540" height="300">
+      <line x1="30" y1="230" x2="510" y2="230" stroke="#9aa49e" stroke-width="3"/>
+      <path id="bane" d="M50 225 Q270 -60 490 225" stroke="#ecefe6" stroke-width="3" stroke-dasharray="10 10" fill="none" pathLength="1"/>
+      <circle id="ball" r="16" fill="#f19c2c"/>
+    </svg>
+    <div class="a lab">Ball i bue</div>
+  </div>
+  <div class="a panel" id="p2" style="left:690px;top:110px;width:540px;height:300px">
+    <svg class="a" style="left:0;top:0" width="540" height="300">
+      <rect id="krets" x="90" y="50" width="360" height="170" rx="6" stroke="#ecefe6" stroke-width="4" fill="none"/>
+      <rect x="250" y="205" width="40" height="30" fill="#0d1110"/>
+      <line x1="258" y1="196" x2="258" y2="244" stroke="#ecefe6" stroke-width="5"/>
+      <line x1="282" y1="208" x2="282" y2="232" stroke="#ecefe6" stroke-width="9"/>
+      <circle id="glod" cx="270" cy="50" r="70" fill="#eee462" opacity="0"/>
+      <circle cx="270" cy="50" r="26" fill="#0d1110" stroke="#eee462" stroke-width="4"/>
+      <path d="M258 58 l6 -16 l6 12 l6 -12 l6 16" stroke="#eee462" stroke-width="3" fill="none"/>
+      <g id="elektroner"></g>
+    </svg>
+    <div class="a lab">Strøm i en krets</div>
+  </div>
+  <div class="a panel" id="p3" style="left:1300px;top:110px;width:540px;height:300px">
+    <svg class="a" style="left:0;top:0" width="540" height="300">
+      <ellipse cx="270" cy="130" rx="210" ry="85" stroke="#2f4a44" stroke-width="3" fill="none" stroke-dasharray="6 8"/>
+      <circle cx="270" cy="130" r="34" fill="#eee462"/>
+      <circle id="jord" r="15" fill="#56d7b8"/>
+    </svg>
+    <div class="a lab">Jorda rundt sola</div>
+  </div>
+  <div class="a h2" id="s2c" style="left:120px;top:560px;width:1150px">Fysikk = jakten på<br><span style="color:#6ef04a">naturens lover</span></div>
+</div>
+
+<!-- 3 METODEN -->
+<div class="scene" id="s3">
+  <div class="a h2" id="s3t" style="left:110px;top:60px">Fysikkens metode</div>
+  <svg class="a" style="left:0;top:0" width="1920" height="1080">
+    <defs><marker id="pil" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#9aa49e"/></marker></defs>
+    <path id="b1" d="M800 300 A330 250 0 0 1 1060 470" stroke="#9aa49e" stroke-width="5" fill="none" marker-end="url(#pil)" pathLength="1"/>
+    <path id="b2" d="M1060 650 A330 250 0 0 1 855 845" stroke="#9aa49e" stroke-width="5" fill="none" marker-end="url(#pil)" pathLength="1"/>
+    <path id="b3" d="M500 820 A330 250 0 0 1 240 650" stroke="#9aa49e" stroke-width="5" fill="none" marker-end="url(#pil)" pathLength="1"/>
+    <path id="b4" d="M240 470 A330 250 0 0 1 500 300" stroke="#9aa49e" stroke-width="5" fill="none" marker-end="url(#pil)" pathLength="1"/>
+    <ellipse id="rund" cx="650" cy="560" rx="410" ry="300" fill="none" stroke="none" pathLength="1"/>
+    <circle id="prikk" r="14" fill="#6ef04a" opacity="0"/>
+  </svg>
+  <div class="a node" id="n1" style="left:650px;top:260px;border-color:#56d7b8;color:#56d7b8">1 · Observer</div>
+  <div class="a node" id="n2" style="left:1060px;top:560px;border-color:#eee462;color:#eee462">2 · Still et spørsmål</div>
+  <div class="a node" id="n3" style="left:650px;top:860px;border-color:#6ef04a;color:#6ef04a">3 · Lag en modell</div>
+  <div class="a node" id="n4" style="left:240px;top:560px;border-color:#f19c2c;color:#f19c2c">4 · Mål og test</div>
+  <div class="a liten" id="s3m" style="left:1340px;top:150px;width:500px"><b style="color:#6ef04a">Modell</b> = en forenklet beskrivelse av naturen, ofte en formel.</div>
+  <div class="a hand" id="s3f" style="left:470px;top:500px;width:360px;text-align:center;font-size:40px;color:#f19c2c">Stemmer det ikke?<br>Forbedre modellen!</div>
+</div>
+
+<!-- 4 EKSEMPEL -->
+<div class="scene" id="s4">
+  <div class="a liten" style="left:150px;top:90px;width:260px;text-align:center" id="s4l">Ballen slippes</div>
+  <svg class="a" style="left:0;top:0" width="1920" height="1080">
+    <line x1="280" y1="150" x2="280" y2="880" stroke="#2a3330" stroke-width="3" stroke-dasharray="8 10"/>
+    <g id="spok"></g>
+    <circle id="fball" cx="280" cy="160" r="20" fill="#f19c2c"/>
+    <g id="graf">
+      <line x1="520" y1="680" x2="1200" y2="680" stroke="#ecefe6" stroke-width="3"/>
+      <line x1="520" y1="680" x2="520" y2="140" stroke="#ecefe6" stroke-width="3"/>
+      <g id="ticks" font-family="Comic" font-size="28" fill="#9aa49e"></g>
+      <text x="1205" y="690" font-family="Comic" font-size="34" font-weight="700" fill="#ecefe6">t (s)</text>
+      <text x="470" y="125" font-family="Comic" font-size="34" font-weight="700" fill="#ecefe6">s (m)</text>
+    </g>
+    <line id="rett" stroke="#9aa49e" stroke-width="4" stroke-dasharray="14 10" opacity="0"/>
+    <path id="kurve" stroke="#eee462" stroke-width="6" fill="none" pathLength="1"/>
+    <g id="punkt"></g>
+    <line id="vlin" stroke="#6ef04a" stroke-width="3" stroke-dasharray="8 8" opacity="0"/>
+    <line id="hlin" stroke="#6ef04a" stroke-width="3" stroke-dasharray="8 8" opacity="0"/>
+    <circle id="spaa" r="14" fill="none" stroke="#6ef04a" stroke-width="5" opacity="0"/>
+    <circle id="maalt" r="10" fill="#ecefe6" opacity="0"/>
+  </svg>
+  <div class="a hand" id="s4ikke" style="left:880px;top:560px;font-size:38px;color:#9aa49e">rett linje? Nei!</div>
+  <img class="a" id="f1" src="f1.png" style="left:1380px;top:110px">
+  <img class="a" id="f2" src="f2.png" style="left:1390px;top:260px">
+  <div class="a liten" id="s4sp" style="left:1395px;top:150px;display:none"></div>
+  <img class="a" id="f3" src="f3.png" style="left:450px;top:780px">
+  <div class="a hand" id="s4ok" style="left:1140px;top:275px;color:#6ef04a;font-size:40px">✓ målt!</div>
+</div>
+
+<!-- 5 OMRÅDER -->
+<div class="scene" id="s5">
+  <div class="a h2" id="s5t" style="left:110px;top:60px">Fysikkens områder</div>
+  <div class="a panel kort" id="k1" style="left:100px;top:190px"><img src="kjelke.webp"><div class="kt">Mekanikk</div><div class="ks">bevegelse og krefter</div></div>
+  <div class="a panel kort" id="k2" style="left:500px;top:190px"><img src="hydraulikk.webp"><div class="kt">Fluidmekanikk</div><div class="ks">væsker og gasser</div></div>
+  <div class="a panel kort" id="k3" style="left:900px;top:190px"><img src="rakett.webp"><div class="kt">Termofysikk</div><div class="ks">varme og temperatur</div></div>
+  <div class="a panel kort" id="k4" style="left:100px;top:530px"><img src="e-felt.webp"><div class="kt" style="font-size:30px">Elektromagnetisme</div><div class="ks">ladning, strøm, magnetisme</div></div>
+  <div class="a panel kort" id="k5" style="left:500px;top:530px"><svg width="320" height="140"><path id="bolge" stroke="#56d7b8" stroke-width="6" fill="none"/></svg><div class="kt">Bølger og optikk</div><div class="ks">lyd og lys</div></div>
+  <div class="a panel kort" id="k6" style="left:900px;top:530px"><svg width="320" height="140"><g transform="translate(160 70) scale(0.58)" fill="none" stroke="#ecefe6" stroke-width="4"><ellipse rx="110" ry="34"/><ellipse rx="110" ry="34" transform="rotate(60)"/><ellipse rx="110" ry="34" transform="rotate(-60)"/><circle r="12" fill="#f19c2c" stroke="none"/><circle id="elek" r="9" fill="#56d7b8" stroke="none"/></g></svg><div class="kt">Moderne fysikk</div><div class="ks">relativitet og kvanter</div></div>
+</div>
+
+<!-- 6 AVSLUTNING -->
+<div class="scene" id="s6">
+  <div class="a h2" id="s6t" style="left:110px;top:60px">Veien videre</div>
+  <div class="a kap" id="c1" style="left:130px;top:200px"><span style="color:#6ef04a">✓</span> 1 · Hva er fysikk?</div>
+  <div class="a kap" id="c2" style="left:130px;top:290px">2 · Størrelser og enheter</div>
+  <div class="a kap" id="c3" style="left:130px;top:380px;color:#9aa49e">3 · Tall, måling og usikkerhet</div>
+  <div class="a kap" id="c4" style="left:130px;top:470px;color:#9aa49e">4 · Matematiske verktøy</div>
+  <div class="a kap" id="c5" style="left:130px;top:560px;color:#9aa49e">5 · Vektorer</div>
+  <div class="a kap" id="c6" style="left:130px;top:650px;color:#9aa49e">…</div>
+  <div class="a hand" id="neste" style="left:630px;top:282px;color:#eee462">← neste!</div>
+  <div class="a h2" id="prov" style="left:1000px;top:120px;width:860px;font-size:58px;color:#6ef04a;text-align:right">Prøv oppgavene<br>under videoen!</div>
+  <img class="a" id="slogo" src="../_verktoy/fh-logo-linje.png" style="left:130px;top:830px;height:110px">
+</div>
+<div id="sone">Her står du</div>
+
+<script>
+const S=[["s1",14],["s2",30],["s3",34],["s4",42],["s5",28],["s6",17]];
+const cl=x=>Math.max(0,Math.min(1,x)), ez=x=>x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2;
+const p=(t,a,d=.6)=>ez(cl((t-a)/d));
+const $=id=>document.getElementById(id);
+function inn(id,t,a,d=.6,dy=25){const e=$(id),k=p(t,a,d);e.style.opacity=k;e.style.translate=`0 ${(1-k)*dy}px`;}
+function tegn(id,t,a,d){$(id).style.strokeDasharray=1;$(id).style.strokeDashoffset=1-p(t,a,d);}
+const NS="http://www.w3.org/2000/svg";
+function el(tag,at,par){const e=document.createElementNS(NS,tag);for(const k in at)e.setAttribute(k,at[k]);par.appendChild(e);return e;}
+// graf-oppsett
+const gx=t=>520+t/2.2*660, gy=s=>680-s/24*520;
+for(const t of [0.5,1,1.5,2]){el('line',{x1:gx(t),y1:680,x2:gx(t),y2:692,stroke:'#9aa49e','stroke-width':3},$('ticks'));el('text',{x:gx(t)-18,y:725},$('ticks')).textContent=String(t).replace('.',',');}
+for(const s of [5,10,15,20]){el('line',{x1:508,y1:gy(s),x2:520,y2:gy(s),stroke:'#9aa49e','stroke-width':3},$('ticks'));el('text',{x:465,y:gy(s)+9},$('ticks')).textContent=s;}
+const MT=[0.2,0.4,0.6,0.8,1.0,1.2,1.4], STOY=[0.05,-0.08,0.1,-0.12,0.15,-0.1,0.2];
+const MS=MT.map((t,i)=>4.9*t*t+STOY[i]);
+const P=MT.map((t,i)=>el('circle',{cx:gx(t),cy:gy(MS[i]),r:10,fill:'#ecefe6',opacity:0},$('punkt')));
+const sy=s=>160+s*70;
+const G=MT.map((t,i)=>el('circle',{cx:280,cy:sy(MS[i]),r:20,fill:'#f19c2c',opacity:0},$('spok')));
+let d='M'+gx(0)+' '+gy(0);for(let i=1;i<=100;i++){const t=2.15*i/100;d+=' L'+gx(t).toFixed(1)+' '+gy(4.9*t*t).toFixed(1);}
+$('kurve').setAttribute('d',d);
+const R=$('rett');R.setAttribute('x1',gx(0));R.setAttribute('y1',gy(0));R.setAttribute('x2',gx(1.6));R.setAttribute('y2',gy(MS[6]*1.6/1.4));
+// elektroner
+const E=[...Array(14)].map(()=>el('circle',{r:7,fill:'#56d7b8'},$('elektroner')));
+let bd='M30 70';for(let i=0;i<=80;i++){const x=30+260*i/80;bd+=' L'+x+' '+(70+42*Math.sin(i/80*4*Math.PI));}$('bolge').setAttribute('d',bd);
+
+function render(n,t){
+  S.forEach(([id],i)=>$(id).style.display=i===n?'block':'none');
+  const dur=S[n][1], sc=$(S[n][0]);
+  sc.style.opacity=Math.min(cl(t/.4),cl((dur-t)/.4));
+  if(n===0){
+    const T='Hva er fysikk?';$('s1t').textContent=T.slice(0,Math.round(cl((t-1)/1.6)*T.length));
+    inn('s1e',t,.6);tegn('s1u',t,2.8,.9);inn('s1s',t,5);
+  }
+  if(n===1){
+    inn('p1',t,1.5);inn('p2',t,7);inn('p3',t,12.5);inn('s2c',t,21,.8);
+    const b=$('bane');tegn('bane',t,2.5,1.2);
+    const u=((t-2.5)%2.4)/2.4; if(t>2.5){const pt=b.getPointAtLength(b.getTotalLength()*u);$('ball').setAttribute('cx',pt.x);$('ball').setAttribute('cy',pt.y-10);}else{$('ball').setAttribute('cx',50);$('ball').setAttribute('cy',215);}
+    const on=p(t,9,.3);$('glod').setAttribute('opacity',.35*on);
+    const k=$('krets'),L=2*(360+170);
+    E.forEach((e,i)=>{let s=(i/E.length*L+on*(t-9)*120)%L;let x,y;if(s<360){x=90+s;y=50}else if(s<530){x=450;y=50+s-360}else if(s<890){x=450-(s-530);y=220}else{x=90;y=220-(s-890)}e.setAttribute('cx',x);e.setAttribute('cy',y);e.setAttribute('opacity',.25+.75*on);});
+    const a=(t-12.5)*0.9;$('jord').setAttribute('cx',270+210*Math.cos(a));$('jord').setAttribute('cy',130+85*Math.sin(a));
+  }
+  if(n===2){
+    inn('s3t',t,.3);inn('n1',t,5.5,.5,0);tegn('b1',t,7,1);inn('n2',t,8.5,.5,0);tegn('b2',t,10,1);inn('n3',t,11.5,.5,0);inn('s3m',t,13);tegn('b3',t,16,1);inn('n4',t,17.5,.5,0);tegn('b4',t,20,1);inn('s3f',t,24);
+    const r=$('rund'),k=p(t,25.5,.5);$('prikk').setAttribute('opacity',k);
+    const u=(((t-25.5)/3.2)%1+1)%1-0.25;const pt=r.getPointAtLength(r.getTotalLength()*((u+1)%1));$('prikk').setAttribute('cx',pt.x);$('prikk').setAttribute('cy',pt.y);
+  }
+  if(n===3){
+    inn('s4l',t,.4);
+    const tf=cl((t-1)/2.4)*1.4; $('fball').setAttribute('cy',sy(4.9*tf*tf));$('fball').setAttribute('opacity',t<4.2?1:1-p(t,4.2,.5));
+    G.forEach((g,i)=>g.setAttribute('opacity',tf>=MT[i]?.45:0));
+    P.forEach((c,i)=>c.setAttribute('opacity',p(t,6+i*0.8,.3)));
+    $('rett').setAttribute('opacity',p(t,13,.6)*(1-p(t,18,.6)));inn('s4ikke',t,13.6);$('s4ikke').style.opacity*=1-p(t,18,.6);
+    tegn('kurve',t,19,2.5);inn('f1',t,21);inn('f2',t,25);
+    const v=p(t,28,.8);[['vlin',gx(2),680,gx(2),gy(19.6)],['hlin',520,gy(19.6),gx(2),gy(19.6)]].forEach(([id,a,b,c,e])=>{const l=$(id);l.setAttribute('x1',a);l.setAttribute('y1',b);l.setAttribute('x2',a+(c-a)*v);l.setAttribute('y2',b+(e-b)*v);l.setAttribute('opacity',v);});
+    $('spaa').setAttribute('cx',gx(2));$('spaa').setAttribute('cy',gy(19.6));$('spaa').setAttribute('opacity',p(t,29.5,.4));
+    inn('f3',t,31);
+    $('maalt').setAttribute('cx',gx(2));$('maalt').setAttribute('cy',gy(19.4));$('maalt').setAttribute('opacity',p(t,35,.3));inn('s4ok',t,35.5);
+  }
+  if(n===4){
+    inn('s5t',t,.3);[3,7,10.5,15,17.5,20].forEach((a,i)=>inn('k'+(i+1),t,a,.6,30));
+    $('bolge').setAttribute('transform',`translate(${-((t*60)%65)} 0)`);
+    $('elek').setAttribute('cx',110*Math.cos(t*2.5));$('elek').setAttribute('cy',34*Math.sin(t*2.5));
+  }
+  if(n===5){
+    inn('s6t',t,.3);[1,2,3,3.8,4.6,5.4].forEach((a,i)=>inn('c'+(i+1),t,a,.5,0));
+    inn('neste',t,6.5);$('neste').style.translate=`${8*Math.sin(t*5)*p(t,6.5)}px 0`;
+    inn('prov',t,10);inn('slogo',t,13.5);
+  }
+}
+window.render=render;window.S=S;
+</script></body></html>
