@@ -1,0 +1,235 @@
+---
+title: "Overslag og størrelsesordener"
+emne: hva-er-fysikk
+---
+
+<!-- video: kommer (manus i video/01-02-overslag/manus.md) -->
+
+<!-- tillegg: Claude -->
+Hvor mye vann bruker hele Norge til dusjing hver dag? Ingen har målt det nøyaktig, og du finner det neppe i en tabell. Likevel kan du finne et ganske godt svar på et par minutter – med noen runde tall og litt sunn fornuft. Det kalles et **overslag**, og det er et av de nyttigste verktøyene en fysiker eller ingeniør har.
+
+## Hvorfor overslag?
+
+Et overslag er et grovt anslag der vi bare bryr oss om å få svaret **omtrent** riktig. Det er nyttig av to grunner:
+
+- **Du får et svar raskt**, også når du ikke har alle tallene.
+- **Du kan sjekke et svar.** Har du regnet ut at en bil veier $12\ \mathrm{kg}$ eller at et menneske løper $300\ \mathrm{km/h}$, sier et overslag deg med en gang at noe er galt.
+
+Den siste grunnen er kanskje den viktigste. Gjør det til en vane å spørre deg selv: *Er svaret rimelig?*
+
+## Tierpotenser
+
+I fysikk møter vi både veldig store og veldig små tall. Da er det lurt å skrive dem med **tierpotenser**:
+
+::: {.graa}
+| Tierpotens | Betyr | Tierpotens | Betyr |
+|---|---|---|---|
+| $10^{1}$ | $10$ | $10^{-1}$ | $0{,}1$ |
+| $10^{2}$ | $100$ | $10^{-2}$ | $0{,}01$ |
+| $10^{3}$ | $1000$ | $10^{-3}$ | $0{,}001$ |
+| $10^{6}$ | $1\,000\,000$ (en million) | $10^{-6}$ | $0{,}000\,001$ (en milliondel) |
+| $10^{0}$ | $1$ | | |
+:::
+
+Eksponenten forteller hvor mange plasser kommaet flyttes: mot høyre for positiv eksponent, mot venstre for negativ. Et tall skrevet som $5{,}6\cdot 10^{6}$ (i stedet for $5\,600\,000$) står på **standardform**. Du lærer mer om standardform i kapittel 3.
+
+Når vi ganger og deler tierpotenser, legger vi sammen og trekker fra eksponentene:
+
+::: {.graa}
+$$
+10^{a}\cdot 10^{b} = 10^{a+b}
+\qquad\qquad
+\frac{10^{a}}{10^{b}} = 10^{a-b}
+$$
+:::
+
+For eksempel er $10^{3}\cdot 10^{4} = 10^{7}$ og $\dfrac{10^{8}}{10^{2}} = 10^{6}$.
+
+## Størrelsesorden
+
+::: {.callout-note title="Definisjon: Størrelsesorden"}
+**Størrelsesordenen** til et tall er den tierpotensen som ligger nærmest tallet.
+:::
+
+Høyden til et menneske, omtrent $1{,}7\ \mathrm{m}$, har størrelsesorden $10^{0}\ \mathrm{m} = 1\ \mathrm{m}$. Høyden til Galdhøpiggen, $2469\ \mathrm{m} \approx 2{,}5\cdot10^{3}\ \mathrm{m}$, har størrelsesorden $10^{3}\ \mathrm{m}$.
+
+Skriv tallet på standardform. Er tallet foran tierpotensen mindre enn omtrent $3$, beholder vi tierpotensen. Er det større enn omtrent $3$, runder vi opp til neste tierpotens.[^grense] Så $2{,}5\cdot10^3$ blir $10^3$, mens $6{,}4\cdot10^6$ blir $10^7$.
+
+[^grense]: Den nøyaktige grensen er $\sqrt{10} \approx 3{,}16$, som ligger midt mellom $1$ og $10$ når vi tenker i tierpotenser.
+
+Naturen spenner over utrolig mange størrelsesordener:
+
+::: {.graa}
+| Ting | Lengde | Størrelsesorden |
+|---|---|---|
+| atom | $1\cdot10^{-10}\ \mathrm{m}$ | $10^{-10}\ \mathrm{m}$ |
+| menneskecelle | $2\cdot10^{-5}\ \mathrm{m}$ | $10^{-5}\ \mathrm{m}$ |
+| menneske | $1{,}7\ \mathrm{m}$ | $10^{0}\ \mathrm{m}$ |
+| Galdhøpiggen (høyde) | $2{,}5\cdot10^{3}\ \mathrm{m}$ | $10^{3}\ \mathrm{m}$ |
+| jordas radius | $6{,}4\cdot10^{6}\ \mathrm{m}$ | $10^{7}\ \mathrm{m}$ |
+| avstanden til sola | $1{,}5\cdot10^{11}\ \mathrm{m}$ | $10^{11}\ \mathrm{m}$ |
+:::
+
+To ting som skiller seg med en faktor $10$, sier vi skiller seg med **én størrelsesorden**. Jordas radius er omtrent $2600$ ganger større enn høyden til Galdhøpiggen – drøyt tre størrelsesordener.
+
+## Fire steg til et godt overslag
+
+::: {.callout-tip title="Fire steg som alltid virker"}
+1. **Hva skal vi finne?** Skriv det opp, med enhet.
+2. **Del opp** problemet i mindre biter du kan gjette på.
+3. **Anslå** hver bit med runde tall. Ett gjeldende siffer holder.
+4. **Regn ut** og spør: *Er svaret rimelig?* Oppgi svaret med ett siffer eller som størrelsesorden.
+:::
+
+Det overraskende er at feilene ofte jevner seg ut. Gjetter du litt for høyt på én bit og litt for lavt på en annen, havner svaret likevel nær det riktige.
+
+::: {.eksempel}
+**Eksempel: Dusjvann i Norge.** Lag et overslag over hvor mange liter vann som brukes til dusjing i Norge i løpet av én dag.
+
+::: {.losning}
+**1. Hva skal vi finne?** Vannmengden $V$ i liter per dag.
+
+**2. Del opp.** Vannmengden er
+
+$$
+V = (\text{antall dusjer per dag})\cdot(\text{minutter per dusj})\cdot(\text{liter per minutt})
+$$
+
+**3. Anslå.**
+
+- Norge har omtrent $5\cdot10^{6}$ innbyggere. Vi antar at hver person dusjer én gang om dagen: $5\cdot10^{6}$ dusjer.
+- En dusj varer kanskje $8\ \mathrm{min}$.
+- En vanlig dusj gir omtrent $10\ \mathrm{L}$ vann i minuttet.
+
+**4. Regn ut.**
+
+$$
+V = 5\cdot10^{6}\cdot 8\ \mathrm{min}\cdot 10\ \mathrm{L/min}
+  = 400\cdot10^{6}\ \mathrm{L}
+  = 4\cdot10^{8}\ \mathrm{L}
+$$
+
+$$
+V \approx \underline{\underline{4\cdot10^{8}\ \mathrm{L}}}
+$$
+
+**Er det rimelig?** $4\cdot10^8\ \mathrm{L}$ er $4\cdot10^5\ \mathrm{m^3}$ (det går $1000\ \mathrm{L}$ på en kubikkmeter). Et olympisk svømmebasseng rommer omtrent $2500\ \mathrm{m^3}$, så dette er omtrent $160$ svømmebassenger med vann hver dag. Det høres mye ut, men vi er jo mange! Svaret er nok riktig innenfor en faktor 2–3, og størrelsesordenen er $10^{9}\ \mathrm{L}$.
+:::
+:::
+
+## Prøv selv: din egen dusjberegning
+
+Endre tallene i programmet til det du selv tror er riktig, og trykk **Kjør**. Hvor mye endrer svaret seg hvis du dobler ett av tallene?
+
+```{.python .kjor}
+import math
+
+innbyggere = 5e6        # antall personer
+dusjer_per_dag = 1      # dusjer per person per dag
+minutter = 8            # minutter per dusj
+liter_per_minutt = 10   # vannføring i dusjen
+
+V = innbyggere * dusjer_per_dag * minutter * liter_per_minutt
+orden = round(math.log10(V))
+
+print(f"Vann per dag: {V:.1e} liter")
+print(f"Det er {V/1000/2500:.0f} olympiske svømmebassenger")
+print(f"Størrelsesorden: 10^{orden} liter")
+```
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Finn størrelsesordenen"}
+Skriv tallene på standardform og finn størrelsesordenen.
+
+a) Avstanden Oslo–Trondheim langs veien, $490\ \mathrm{km}$, i meter.
+b) Massen til en mygg, $0{,}0000025\ \mathrm{kg}$.
+c) Antall innbyggere i verden, omtrent $8\,200\,000\,000$.
+
+::: {.losning}
+a) $490\ \mathrm{km} = 490\,000\ \mathrm{m} = 4{,}9\cdot10^{5}\ \mathrm{m}$. Tallet foran, $4{,}9$, er større enn $3$, så vi runder opp: størrelsesorden $\underline{\underline{10^{6}\ \mathrm{m}}}$.
+
+b) $0{,}0000025\ \mathrm{kg} = 2{,}5\cdot10^{-6}\ \mathrm{kg}$ (kommaet flyttes 6 plasser mot høyre). $2{,}5$ er mindre enn $3$: størrelsesorden $\underline{\underline{10^{-6}\ \mathrm{kg}}}$.
+
+c) $8\,200\,000\,000 = 8{,}2\cdot10^{9}$. $8{,}2$ er større enn $3$: størrelsesorden $\underline{\underline{10^{10}}}$.
+:::
+:::
+
+::: {.oppgave tittel="Sekunder i et år"}
+Hvor mange sekunder er det i et år? Regn først med runde tall i hodet, og så nøyaktig.
+
+::: {.losning}
+Et år har $365$ døgn, et døgn har $24$ timer, en time har $60$ minutter og et minutt har $60$ sekunder.
+
+**Overslag i hodet:** $400 \cdot 25 \cdot 60 \cdot 60 = 10\,000\cdot 3600 = 3{,}6\cdot10^{7}\ \mathrm{s}$.
+
+**Nøyaktig:**
+$$
+365\cdot 24\cdot 60\cdot 60\ \mathrm{s} = 31\,536\,000\ \mathrm{s} \approx \underline{\underline{3{,}2\cdot10^{7}\ \mathrm{s}}}
+$$
+
+Overslaget bommet med drøyt $10\ \%$ – mer enn godt nok til å få riktig størrelsesorden, $10^{7}\ \mathrm{s}$. Mange fysikere husker tallet som «omtrent $\pi\cdot10^{7}$ sekunder».
+:::
+:::
+
+::: {.oppgave tittel="Hjerteslag i et liv"}
+Hjertet til et voksent menneske slår omtrent $70$ ganger i minuttet. Lag et overslag over hvor mange ganger hjertet slår i løpet av et liv på $80$ år.
+
+::: {.losning}
+**Del opp:** antall slag $= (\text{slag per minutt})\cdot(\text{minutter i et liv})$.
+
+Minutter i et år: $365\cdot24\cdot60 = 525\,600 \approx 5{,}3\cdot10^{5}$.
+
+Minutter i 80 år: $80\cdot 5{,}3\cdot10^{5} \approx 4{,}2\cdot10^{7}$.
+
+Antall slag:
+$$
+N = 70\cdot 4{,}2\cdot10^{7} \approx 2{,}9\cdot10^{9}
+$$
+
+Hjertet slår omtrent $\underline{\underline{3\cdot10^{9}}}$ ganger – rundt tre milliarder slag. Pulsen varierer mye (lavere i søvn, høyere under trening), så ett siffer er nok.
+:::
+:::
+
+::: {.oppgave tittel="Lufta i klasserommet" niva="Middels"}
+Et klasserom er $8\ \mathrm{m}$ langt, $6\ \mathrm{m}$ bredt og $3\ \mathrm{m}$ høyt. En kubikkmeter luft har massen $1{,}2\ \mathrm{kg}$. Hvor mye veier lufta i rommet? Sammenlign med noe du kjenner.
+
+::: {.losning}
+Volumet av rommet:
+$$
+V = 8\ \mathrm{m}\cdot 6\ \mathrm{m}\cdot 3\ \mathrm{m} = 144\ \mathrm{m^3}
+$$
+
+Hver kubikkmeter har massen $1{,}2\ \mathrm{kg}$, så
+$$
+m = 144\ \mathrm{m^3}\cdot 1{,}2\ \mathrm{kg/m^3} = 173\ \mathrm{kg} \approx \underline{\underline{2\cdot10^{2}\ \mathrm{kg}}}
+$$
+
+Det er omtrent like mye som to–tre voksne mennesker! Lufta føles vektløs fordi vi er omgitt av den på alle kanter, men den har masse.
+:::
+:::
+
+::: {.oppgave tittel="Tennisballer i klasserommet" niva="Utfordrende"}
+Hvor mange tennisballer får plass i klasserommet fra forrige oppgave? En tennisball har en diameter på omtrent $6{,}7\ \mathrm{cm}$. Bruk de fire stegene.
+
+::: {.losning}
+**1. Hva skal vi finne?** Antall baller $N$ (et rent tall).
+
+**2. Del opp:** $N = \dfrac{\text{volumet av rommet}}{\text{plassen hver ball tar}}$.
+
+**3. Anslå.** Ballene kan ikke fylle rommet helt; det blir luft mellom dem. En enkel modell er at hver ball tar like mye plass som en terning med sider lik diameteren:
+$$
+V_\text{ball} \approx (0{,}067\ \mathrm{m})^3 = 3{,}0\cdot10^{-4}\ \mathrm{m^3}
+$$
+Rommet har $V = 144\ \mathrm{m^3} \approx 1{,}4\cdot10^{2}\ \mathrm{m^3}$.
+
+**4. Regn ut.**
+$$
+N \approx \frac{1{,}4\cdot10^{2}\ \mathrm{m^3}}{3{,}0\cdot10^{-4}\ \mathrm{m^3}} \approx 0{,}48\cdot10^{6} \approx \underline{\underline{5\cdot10^{5}}}
+$$
+
+Det får plass omtrent en halv million tennisballer. Legger vi dem tettere (slik appelsiner stables i butikken), får vi plass til inntil $40\ \%$ flere, men størrelsesordenen er fortsatt $10^{6}$. Pulter og stoler tar også litt plass, så $5\cdot10^5$ er et godt overslag.
+:::
+:::
+
+::::
