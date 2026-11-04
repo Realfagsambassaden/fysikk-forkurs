@@ -22,7 +22,7 @@ Leses i rolig tempo, ca. 140 ord i minuttet. Animasjonen er laget for at du stå
 
 > Til overslag bruker vi tierpotenser. Ti i tredje er tusen, ti i minus tredje er en tusendel. Størrelsesordenen til et tall er den tierpotensen som ligger nærmest. Et atom er omtrent ti i minus tiende meter. Et menneske er ti i null – rundt én meter. Galdhøpiggen er ti i tredje meter høy, jordas radius er omtrent ti i sjuende, og avstanden til sola er ti i ellevte meter.
 
-*På skjermen:* Formelen 10³ = 1000 og 10⁻³ = 0,001 (0:40). En tallinje med tierpotenser (0:48), og så atom (0:53), menneske (0:57), Galdhøpiggen (1:01), jorda (1:04) og sola (1:07) settes på linja.
+*På skjermen:* Formelen 10³ = 1000 og 10⁻³ = 0.001 (0:40). En tallinje med tierpotenser (0:48), og så atom (0:53), menneske (0:57), Galdhøpiggen (1:01), jorda (1:04) og sola (1:07) settes på linja.
 
 ### 4. Fire steg (1:10–1:36)
 

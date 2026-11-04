@@ -29,12 +29,12 @@ Leses i rolig tempo, ca. 140 ord i minuttet. Animasjonen er laget for at du stå
 > La oss prøve med en ball vi slipper. Vi måler hvor langt den har falt etter ulike tider.
 > *(kort pause)*
 > Punktene ligger ikke på en rett linje. Ballen faller fortere og fortere.
-> En modell som passer, er *s er lik en halv g t i andre*, der g er omtrent ni komma åtte meter per sekund i andre.
+> En modell som passer, er *s er lik en halv g t i andre*, der g er ni komma åtte én meter per sekund i andre.
 > Nå kan vi spå: etter to sekunder har ballen falt omtrent tjue meter.
 > *(pause)*
 > Og det stemmer når vi måler.
 
-*På skjermen:* Ballen faller med «spøkelsesbilder» (1:19), målepunktene settes i grafen (1:24), en rett linje som *ikke* passer (1:31), kurven og formelen (1:37), g ≈ 9,8 m/s² (1:43), spådommen ved t = 2 s (1:46), regnestykket (1:49) og målingen med hake (1:53).
+*På skjermen:* Ballen faller med «spøkelsesbilder» (1:19), målepunktene settes i grafen (1:24), en rett linje som *ikke* passer (1:31), kurven og formelen (1:37), g = 9.81 m/s² (1:43), spådommen ved t = 2 s (1:46), regnestykket (1:49) og målingen med hake (1:53).
 
 ### 5. Fysikkens områder (2:00–2:28)
 
