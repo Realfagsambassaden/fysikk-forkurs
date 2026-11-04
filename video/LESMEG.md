@@ -1,12 +1,21 @@
 # Videoer
 
-Hver emneside får en video på 2–3 minutter (maks 5). Assistenten lager en **videopakke**:
+Hver emneside får en video på 2–3 minutter (maks 5). Videoene lages i en **egen videochat** (ferdigheten `fysikkhjelp-video`), ikke av nattjobben.
 
-- `manus.md`: manus til innlesing (ca. 140 ord i minuttet) med tidskoder for hva som skjer på skjermen.
-- `anim.html`: animasjonen, i tavlestilen fra fysikkhjelp.no.
-- en ferdig `.mp4` uten lyd. Den sendes til læreren og lagres ikke i git.
+## Arbeidsflyt
 
-Læreren leser inn manuset og står selv i bildet **nede i høyre hjørne**. Sonen fra x = 1300 og y = 420 i et 1920×1080-bilde (ca. nederste høyre tredjedel) er alltid tom i animasjonen. Den ferdige videoen lastes opp til YouTube og legges inn på siden med `{{< video https://www.youtube.com/watch?v=… >}}`.
+1. **Nattjobben** lager siden og legger inn en plassholder der videoen skal stå:
+   ```
+   <!-- video: kommer (manus i video/<mappe>/manus.md) -->
+   ![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+   ```
+2. **Videochatten** lager videopakken sammen med læreren:
+   - `manus.md`: manus til innlesing (ca. 140 ord i minuttet) med tidskoder for hva som skjer på skjermen.
+   - `anim.html`: animasjonen, i tavlestilen fra fysikkhjelp.no.
+   - en ferdig `.mp4` uten lyd. Den sendes til læreren og lagres ikke i git.
+3. **Læreren** leser inn manuset og står selv i bildet **nede i høyre hjørne**, og laster opp til YouTube. Sonen fra x = 1300 og y = 420 i et 1920×1080-bilde (ca. nederste høyre tredjedel) er alltid tom i animasjonen.
+4. **Videochatten** legger YouTube-lenken inn i `video/ferdige.yml` (`<mappe>: <lenke>`).
+5. **Nattjobben** bytter plassholderen (begge linjene) ut med `{{< video <lenke> >}}` på siden. Først da vises videoen.
 
 ## Mapper
 

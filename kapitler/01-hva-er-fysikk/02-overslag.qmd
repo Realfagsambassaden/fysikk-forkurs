@@ -4,6 +4,7 @@ emne: hva-er-fysikk
 ---
 
 <!-- video: kommer (manus i video/01-02-overslag/manus.md) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
 
 <!-- tillegg: Claude -->
 Hvor mye vann bruker hele Norge til dusjing hver dag? Ingen har målt det nøyaktig, og du finner det neppe i en tabell. Likevel kan du finne et ganske godt svar på et par minutter – med noen runde tall og litt sunn fornuft. Det kalles et **overslag**, og det er et av de nyttigste verktøyene en fysiker eller ingeniør har.

@@ -4,6 +4,7 @@ emne: hva-er-fysikk
 ---
 
 <!-- video: kommer (manus i video/01-hva-er-fysikk/manus.md) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
 
 <!-- tillegg: Claude -->
 Kast en ball, og den følger en fin bue før den lander. Skru på lyset, og lampa lyser med en gang. Se på himmelen, og du vet at sola står opp i morgen også. Alt dette skjer på samme måte hver gang. Naturen følger altså **regler**. Fysikk er jakten på disse reglene.
