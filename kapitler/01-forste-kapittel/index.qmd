@@ -1,5 +1,0 @@
----
-title: "Første kapittel"
----
-
-En kort introduksjon til kapittelet. Hver `.qmd`-fil i denne mappen blir én side, sortert etter filnavn.
