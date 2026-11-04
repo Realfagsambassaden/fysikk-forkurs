@@ -1,0 +1,27 @@
+---
+title: "Elektrisitet"
+toc: false
+tegning: e-felt
+aliases: ["/forkurs/09-elektrisitet/index.html"]
+---
+
+::: {.callout-warning title="Under arbeid"}
+Dette kapittelet skrives fortsatt. Innholdet kan endre seg.
+:::
+
+::: {.intro}
+
+Dette er en introtekst, hvor vi henviser til[@OleBrumm] for mer informasjon. Dette er altså en flott tekst som fungerer som et slags sammendrag / motivasjon for innholdet i kapitlet.
+
+:::
+
+::: {.spm}
+[Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
+
+1.  Hva er elektrisk ladning og elektrisk strøm?
+
+2.  Hva er sammenhengen mellom spenning, strøm og motstand (Ohms lov)?
+
+3.  Hvordan fungerer serie- og parallellkoblinger i en krets?
+
+:::

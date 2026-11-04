@@ -1,0 +1,123 @@
+---
+title: "Tilstandslikningen for idealgass"
+emne: gasser
+delemne: idealgass
+aliases: ["/forkurs/08-termofysikk/05-tilstandslikningen-for-idealgass.html"]
+---
+
+::: {.callout-warning title="Under arbeid"}
+Dette kapittelet skrives fortsatt.
+:::
+
+:::: {.oppgaver}
+
+For en idealgass er det en enkel sammenheng mellom trykk $p$, volum $V$ og absolutt temperatur $T$. Før vi skriver den opp, skal vi se hvorfor den må se ut som den gjør.
+
+Se først på enhetene til produktet $pV$: $$[pV] = \mathrm{Pa}\cdot\mathrm{m}^{3} = \frac{\mathrm{N}}{\mathrm{m}^{2}}\cdot\mathrm{m}^{3} = \mathrm{N}\,\mathrm{m} = \mathrm{J}$$ Produktet av trykk og volum er altså en *energi*. Hvilken energi kan det være? En idealgass består av molekyler som farer rundt og bare påvirker hverandre når de kolliderer. Den viktigste energien gassen har, er derfor bevegelsesenergien til molekylene. Hvert molekyl har i gjennomsnitt translasjonsenergien $\tfrac{3}{2}k_\text{B}T$, så en gass med $N$ molekyler har til sammen translasjonsenergien $$N\cdot\tfrac{3}{2}k_\text{B}T$$ Det er derfor rimelig at $pV$ er proporsjonal med $Nk_\text{B}T$. Det stemmer også med det vi forventer fysisk. Trykket skyldes at molekylene treffer veggene. Flere molekyler (større $N$) og raskere molekyler (høyere $T$) gir flere og hardere treff, og dermed høyere trykk. Et større volum betyr at molekylene treffer veggene sjeldnere, og da blir trykket lavere. Kinetisk gassteori viser at $pV$ er nøyaktig to tredjedeler av den samlede translasjonsenergien: $$pV = \tfrac{2}{3}\cdot N\cdot\tfrac{3}{2}k_\text{B}T = Nk_\text{B}T$$
+
+::: {.callout-important title="Merk: Utledning for de spesielt interesserte"}
+
+Se på ett molekyl med masse $m$ i en kubeformet boks med sidekant $L$. Fartskomponenten mot høyre vegg er $v_x$. Når molekylet spretter elastisk tilbake fra veggen, endres bevegelsesmengden fra $mv_x$ til $-mv_x$, altså med $2mv_x$. Molekylet treffer den samme veggen igjen etter tiden $\Delta t = 2L/v_x$. Kraft ganger tid er lik endringen i bevegelsesmengde (se kapittel ), så den gjennomsnittlige kraften fra molekylet på veggen er $$F = \frac{2mv_x}{2L/v_x} = \frac{mv_x^2}{L}$$ Med $N$ molekyler blir kraften $F = Nm\overline{v_x^2}/L$, der $\overline{v_x^2}$ er gjennomsnittet av $v_x^2$. Trykket er kraft per areal, $p = F/L^2$, og $L^3 = V$: $$p = \frac{Nm\overline{v_x^2}}{V}$$ Molekylene beveger seg like mye i alle tre retninger, så $\overline{v^2} = \overline{v_x^2} + \overline{v_y^2} + \overline{v_z^2} = 3\,\overline{v_x^2}$. Da er $$pV = \tfrac{1}{3}Nm\overline{v^2} = \tfrac{2}{3}N\cdot\tfrac{1}{2}m\overline{v^2} = \tfrac{2}{3}N\bar{E}_\text{K}$$ Med $\bar{E}_\text{K} = \tfrac{3}{2}k_\text{B}T$ får vi $pV = Nk_\text{B}T$. Historisk gikk man faktisk den andre veien: Tilstandslikningen var kjent fra målinger, og utledningen over viste da at $\bar{E}_\text{K} = \tfrac{3}{2}k_\text{B}T$.
+
+:::
+
+Vi bruker $N$ for antall molekyler og $k_\text{B}$ for Boltzmanns konstant:
+
+::: {.callout-note title="Definisjon: Tilstandslikningen for idealgass"}
+
+$$pV = N k_\text{B} T$$ Alle fire størrelser $p$, $V$, $N$, $T$ er koblet: holder man to konstante, bestemmer de to andre hverandre.
+
+:::
+
+::: {.callout-important title="Merk: Molform: $pV = nRT$"}
+
+Er antall *mol* $n$ gitt i stedet for antall molekyler $N$, bruker man gasskonstanten $R = 8.314\,\mathrm{J}\,\mathrm{(}^{-1}\,\mathrm{mol}\,\mathrm{K}\,\mathrm{)}$: $pV = nRT$. Sammenhengen er $N k_\text{B} = n R$.
+
+:::
+
+::: {.eksempel}
+[Eksempel 8.11: Oppvarming av gass i lukket beholder]{.eks-tittel}
+
+En luftbobble med volum $V_1 = 30\,\mathrm{dm}^{3}$ er ved trykk $p_1 = 100\,\mathrm{kPa}$ og temperatur $T_1 = 300\,\mathrm{K}$ (lukket beholder, $V =$ konst.). Trykket økes til $p_2 = 180\,\mathrm{kPa}$. Finn den nye temperaturen $T_2$.
+
+:::
+
+::: {.callout-note .svar collapse="true" title="Vis løsning"}
+
+Siden $N$ og $V$ er konstante, gir tilstandslikningen: $$\frac{p_1}{T_1} = \frac{p_2}{T_2}
+  \implies
+  T_2 = T_1 \cdot \frac{p_2}{p_1}
+      = 300\,\mathrm{K} \cdot \frac{180\,\mathrm{kPa}}{100\,\mathrm{kPa}}
+      = 540\,\mathrm{K} = \underline{\underline{267\,{}^{\circ}\mathrm{C}}}$$
+
+:::
+
+::: {.eksempel}
+[Eksempel 8.12: Molekyler i en ballong]{.eks-tittel}
+
+En ballong har volumet $5.0\,\mathrm{L}$. Trykket i ballongen er $1.0\cdot 10^{5}\,\mathrm{Pa}$, og temperaturen er $20\,^\circ$C. Hvor mange molekyler er det i ballongen?
+
+:::
+
+::: {.callout-note .svar collapse="true" title="Vis løsning"}
+
+Vi gjør om til SI-enheter: $V = 5.0\,\mathrm{L} = 5.0\cdot 10^{-3}\,\mathrm{m}^{3}$ og $T = 20 + 273 = 293\,\mathrm{K}$. Vi løser tilstandslikningen for $N$: $$N = \frac{pV}{k_\text{B}T} = \frac{1.0\cdot 10^{5}\,\mathrm{Pa}\cdot5.0\cdot 10^{-3}\,\mathrm{m}^{3}}{1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot293\,\mathrm{K}} = 1.24\cdot 10^{23} \approx \underline{\underline{1.2\cdot 10^{23}}}$$ Det er et enormt tall, selv for en liten ballong. Det tilsvarer omtrent $0.2$ mol.
+
+:::
+
+::: {.oppgave tittel="Sylindereksperiment"}
+[Sylindereksperiment]{.oppg-tittel}
+
+En gass i en sylinder har volum $V_1 = 30\,\mathrm{dm}^{3}$, trykk $p_1 = 100\,\mathrm{kPa}$ og temperatur $T_1 = 300\,\mathrm{K}$. Stempelet beveger seg slik at gassen utvider seg ved konstant trykk (isobart), helt til temperaturen er $T_2 = 600\,\mathrm{K}$.
+
+a)  Hva er det nye volumet $V_2$?
+
+b)  Hva skjer med den indre energien til gassen? Må gassen få tilført varme?
+
+::: {.losning}
+
+**a)** Antall molekyler og trykket er konstant. Tilstandslikningen $pV = Nk_\text{B}T$ gir da at $V/T$ er konstant: $$\frac{V_1}{T_1} = \frac{V_2}{T_2}
+  \quad\implies\quad
+  V_2 = V_1\cdot\frac{T_2}{T_1} = 30\,\mathrm{dm}^{3}\cdot\frac{600\,\mathrm{K}}{300\,\mathrm{K}} = \underline{\underline{60\,\mathrm{dm}^{3}}}$$
+
+**b)** Den absolutte temperaturen dobles, og dermed dobles også den gjennomsnittlige kinetiske energien til molekylene. Den indre energien **øker**, $\Delta U > 0$.
+
+Samtidig utvider gassen seg og skyver stempelet ut. Gassen gjør altså arbeid på omgivelsene, og $W < 0$ i termodynamikkens 1. lov. Da gir $$Q = \Delta U - W$$ at $Q$ er positiv og *større* enn $\Delta U$. Gassen **må få tilført varme**: noe av varmen øker den indre energien, og resten går med til arbeidet på stempelet.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Bildekk om vinteren"}
+[Bildekk om vinteren]{.oppg-tittel}
+
+Et bildekk blir fylt med luft i en garasje som holder $20\,^\circ$C. Det absolutte trykket i dekket er da $3.0\cdot 10^{5}\,\mathrm{Pa}$, og volumet av lufta i dekket er $0.030\,\mathrm{m}^{3}$. Så kjøres bilen ut i kulda, der det er $-15\,^\circ$C. Anta at volumet av dekket ikke endres.
+
+a)  Hvor mange luftmolekyler er det i dekket?
+
+b)  Hva blir det absolutte trykket i dekket når lufta har fått samme temperatur som omgivelsene?
+
+c)  En dekktrykkmåler viser *overtrykket*, altså forskjellen mellom trykket i dekket og lufttrykket utenfor, $p_0 = 1.0\cdot 10^{5}\,\mathrm{Pa}$. Hva viser måleren før og etter? Hvor mange prosent har overtrykket sunket?
+
+::: {.losning}
+
+Temperaturene i kelvin er $T_1 = 20 + 273 = 293\,\mathrm{K}$ og $T_2 = -15 + 273 = 258\,\mathrm{K}$.
+
+**a)** Vi løser tilstandslikningen for $N$: $$N = \frac{p_1V}{k_\text{B}T_1} = \frac{3.0\cdot 10^{5}\,\mathrm{Pa}\cdot0.030\,\mathrm{m}^{3}}{1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot293\,\mathrm{K}} = \underline{\underline{2.2\cdot 10^{24}}}$$
+
+**b)** $N$ og $V$ er konstante, så $p/T$ er konstant: $$\frac{p_1}{T_1} = \frac{p_2}{T_2}
+  \quad\implies\quad
+  p_2 = p_1\cdot\frac{T_2}{T_1} = 3.0\cdot 10^{5}\,\mathrm{Pa}\cdot\frac{258\,\mathrm{K}}{293\,\mathrm{K}} = 2.64\cdot 10^{5}\,\mathrm{Pa} \approx \underline{\underline{2.6\cdot 10^{5}\,\mathrm{Pa}}}$$
+
+**c)** Før: $p_1 - p_0 = 3.0\cdot 10^{5}\,\mathrm{Pa} - 1.0\cdot 10^{5}\,\mathrm{Pa} = \underline{\underline{2.0\cdot 10^{5}\,\mathrm{Pa}}}$.
+
+Etter: $p_2 - p_0 = 2.64\cdot 10^{5}\,\mathrm{Pa} - 1.0\cdot 10^{5}\,\mathrm{Pa} = 1.64\cdot 10^{5}\,\mathrm{Pa} \approx \underline{\underline{1.6\cdot 10^{5}\,\mathrm{Pa}}}$.
+
+Overtrykket har sunket med $$\frac{2.0\cdot 10^{5}\,\mathrm{Pa} - 1.64\cdot 10^{5}\,\mathrm{Pa}}{2.0\cdot 10^{5}\,\mathrm{Pa}} = 0.18 = \underline{\underline{18\,\%}}$$ Det absolutte trykket sank bare med omtrent $12\,\%$, men måleren viser overtrykket, og det synker mer. Derfor bør man sjekke dekktrykket når det blir kaldt.
+
+:::
+
+:::
+
+
+::::

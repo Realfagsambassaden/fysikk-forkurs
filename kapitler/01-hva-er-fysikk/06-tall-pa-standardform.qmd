@@ -1,0 +1,106 @@
+---
+title: "Tall på standardform"
+emne: maling-og-usikkerhet
+delemne: standardform
+aliases: ["/forkurs/01-hva-er-fysikk/05-tall-pa-standardform.html"]
+---
+
+:::: {.oppgaver}
+
+{{< video https://www.youtube.com/watch?v=UP4GI5vN_-A >}}
+
+Standardform er en måte å skrive tall på som tydeliggjør både antall siffer og størrelsesorden. Et tall $T$ skrevet på standardform har følgende form: $$\textrm{T}=t \cdot 10^n,$$ hvor $t$ er et flyt-tall mellom 1 og 10. Eksemplet under tydeliggjør forhåpentligvis konseptet.
+
+::: {.eksempel}
+[Eksempel 1.8: Standardform]{.eks-tittel}
+
+Skriv a) 0.07 b) 112 og c) 56 700 000 på standardform:
+
+::: {.losning}
+**Løsning:**
+
+**a)** Tallet 0.07 har kun ett siffers signifikans. På standardform blir det da $\underline{\underline{7\cdot 10^{-2}}}$.
+
+**b)** Tallet 112 har tre siffers signifikans. På standardform får vi da $\underline{\underline{1.12\cdot 10^2}}$.
+
+**c)** Tallet 56 700 000 er et godt eksempel på et tall som er tvetydig slik det står. Tallet består av 8 siffer. Er dette et tall med 8 siffers signifikans, eller er det bare et veldig stort tall? Dersom tallet representerer antallet personer estimert i en folkemengde så er det nok ikke ment veldig nøyaktig. Dersom det representerer solgte varer i en butikk så er det nok helt nøyaktig, da butikken gjerne har et register over nøyaktig hvor mye som er solgt. I så tilfelle blir det $5.6700000\cdot 10^7$ på standardform. Siden vi blir usikre, ringer vi rundt og får vite at dette tallet er et estimat på antall sandkorn i en sandhaug, og tallet har 2 siffers signifikans. Da er riktig skrivemåte $$\underline{\underline{5.7\cdot 10^7}}.$$ Merk at vi her rundet opp fra 6 til 7, siden tallet til høyre for 6-tallet var større enn 4. Nå er både tallets nøyaktighet og størrelse lett å lese.
+:::
+:::
+
+::: {.oppgave tittel="Standardform"}
+[Standardform]{.oppg-tittel}
+
+Skriv følgende tall på standardform:
+
+a)  $0.000\,045$
+
+b)  $3\,750\,000$
+
+c)  $0.100$
+
+d)  $299\,792\,458$
+
+Oppgi også antall signifikante siffer i hvert tall, slik du tolker det.
+
+:::
+
+## Dekadiske prefikser {#dekadiske-prefikser .unnumbered}
+
+Å skrive tall på standardform er spesielt nyttig når tallene er veldig små eller veldig store. Da kan det også være nyttig å bruke såkalte *dekadiske prefikser* som forkortelse for 10er-potensene. Tabellen oppsummerer disse.
+
+|   $10^n$   | Prefiks | Symbol |      Navn      |            Desimaltall            |
+|:----------:|:-------:|:------:|:--------------:|:---------------------------------:|
+| $10^{24}$  |  yotta  |   Y    |   kvadrilion   | 1 000 000 000 000 000 000 000 000 |
+| $10^{21}$  |  zetta  |   Z    |   trilliard    |   1 000 000 000 000 000 000 000   |
+| $10^{18}$  |   exa   |   E    |    trillion    |     1 000 000 000 000 000 000     |
+| $10^{15}$  |  peta   |   P    |    billiard    |       1 000 000 000 000 000       |
+| $10^{12}$  |  tera   |   T    |    billion     |         1 000 000 000 000         |
+|  $10^{9}$  |  giga   |   G    |    milliard    |           1 000 000 000           |
+|  $10^{6}$  |  mega   |   M    |    million     |             1 000 000             |
+|  $10^{3}$  |  kilo   |   k    |     tusen      |               1 000               |
+|  $10^{2}$  |  hekto  |   h    |     hundre     |                100                |
+|  $10^{1}$  |  deka   |   da   |       ti       |                10                 |
+| $10^{-1}$  |  desi   |   d    |     tidel      |                0.1                |
+| $10^{-2}$  |  centi  |   c    |   hundredel    |               0.01                |
+| $10^{-3}$  |  milli  |   m    |    tusendel    |               0.001               |
+| $10^{-6}$  |  mikro  | $\mu$  |   milliondel   |             0.000001              |
+| $10^{-9}$  |  nano   |   n    |  milliarddel   |            0.000000001            |
+| $10^{-12}$ |  piko   |   p    |   billiondel   |          0.000000000001           |
+| $10^{-15}$ |  femto  |   f    |  billiarddel   |         0.000000000000001         |
+| $10^{-18}$ |  atto   |   a    |  trilliondel   |       0.000000000000000001        |
+| $10^{-21}$ |  zepto  |   z    |  trilliarddel  |      0.000000000000000000001      |
+| $10^{-24}$ |  yocto  |   y    | kvadrilliondel |    0.000000000000000000000001     |
+
+: SI-prefikser for potenser av ti.
+
+::: {.eksempel}
+[Eksempel 1.9: Dekadiske prefikser]{.eks-tittel}
+
+En viruspartikkel har diameter $d = 90\,\mathrm{nm}$.
+
+a)  Skriv diameteren i mikrometer ($\mu\mathrm{m}$).
+
+b)  Skriv diameteren på standardform i meter.
+
+::: {.losning}
+**Løsning:**
+
+**a)** Siden $1\,\mathrm{\mu m} = 10^{3}\,\mathrm{nm}$, får vi $$90\,\mathrm{nm} = \frac{90}{1000}\,\mathrm{\mu m} = \underline{\underline{0.090\,\mathrm{\mu m}}}.$$
+
+**b)** Vi vet at $1\,\mathrm{nm} = 10^{-9}\,\mathrm{m}$, så $$90\,\mathrm{nm} = 90 \cdot 10^{-9}\,\mathrm{m} = \underline{\underline{9.0 \cdot 10^{-8}\,\mathrm{m}}}.$$
+:::
+:::
+
+::: {.oppgave tittel="Dekadiske prefikser"}
+[Dekadiske prefikser]{.oppg-tittel}
+
+a)  Et batteri har kapasitet $4\,200\,\mathrm{mA}\,\mathrm{h}$ (milliamperetimer). Skriv dette som et tall i Ah og på standardform.
+
+b)  En avstand måles til $0.043\,\mathrm{mm}$. Skriv dette i $\mu\textrm{m}$ (mikrometer) og i nm (nanometer).
+
+c)  Lyset bruker ca. $499\,\mathrm{s}$ fra solen til jorda. Lyset har fart $c = 3.00 \cdot 10^8\,\mathrm{m}\,\mathrm{s}^{-1}$. Finn avstanden fra solen til jorda i km og skriv svaret på standardform.
+
+:::
+
+
+::::

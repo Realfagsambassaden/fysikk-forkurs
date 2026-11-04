@@ -1,0 +1,27 @@
+---
+title: "Dynamikk"
+toc: false
+tegning: bokser
+aliases: ["/forkurs/04-krefter/index.html"]
+---
+
+::: {.intro}
+
+— årsaken til bevegelse
+
+:::
+
+::: {.intro}
+
+Så langt har vi tatt bevegelse for gitt, og studert hvordan legemer beveger seg. Vi har ikke spurt oss hvorfor de beveger seg, eller hva som er årsaken til bevegelsen. I dette kapitlet skal vi jobbe med den *mekaniske årsaken til bevegelse.* Da blir begrep som *bevegelsesmengde* og ikke minst *kraft* viktige.
+
+:::
+
+::: {.spm}
+[Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
+
+1.  “May the force be with you!´´ Takk, men... hva er egentlig en kraft (“force” på engelsk)?
+
+2.  Hvorfor er det verre å krasje med en buss som kjører i 5 km/t enn en flue som flyr i 5 km/t?
+
+:::

@@ -1,0 +1,19 @@
+---
+title: "Bølger og bølgeegenskaper"
+emne: bolger-og-lyd
+delemne: bolger
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om bølger. Temaet er en del av forkurspensumet og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Tverrbølger og langsbølger
+- Bølgelengde, frekvens og bølgefart: $v = \lambda f$
+- Lyd som bølge
+- Refleksjon og interferens
+- Eksempler og oppgaver med løsning

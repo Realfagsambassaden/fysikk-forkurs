@@ -1,0 +1,19 @@
+---
+title: "Termodynamikkens 2. lov"
+emne: termodynamikk
+delemne: andre-lov
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om termodynamikkens 2. lov. Temaet er en del av forkurspensumet og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Hvorfor varme av seg selv går fra varmt til kaldt
+- Varmekraftmaskiner og virkningsgrad
+- Varmepumper og kjøleskap
+- Entropi forklart uten formler
+- Eksempler og oppgaver med løsning

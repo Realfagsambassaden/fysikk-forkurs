@@ -1,0 +1,126 @@
+---
+title: "Ekstraoppgaver"
+emne: statikk
+delemne: oppgaver
+aliases: ["/forkurs/06-statikk/05-ekstraoppgaver.html"]
+---
+
+:::: {.oppgaver}
+
+Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+
+::: {.oppgave tittel="Bilde på vegg"}
+[Bilde på vegg]{.oppg-tittel}
+
+Et bilde med masse $m = 1.5\,\mathrm{kg}$ henger i en snor over en spiker. De to delene av snora danner like store vinkler $\alpha$ med horisontalen.
+
+a)  Finn snorkraften når $\alpha = 15^\circ$.
+
+b)  Finn snorkraften når $\alpha = 45^\circ$.
+
+c)  Hvorfor er det lurt å ikke stramme snora for mye når man henger opp et tungt bilde?
+
+::: {.losning}
+
+Dette er samme situasjon som eksempelet *Trafikklys* i kompendiet. De horisontale komponentene opphever hverandre, og de vertikale komponentene må til sammen bære tyngden: $$2S\sin\alpha = m\mathrm{g}
+    \quad\implies\quad
+    S = \frac{m\mathrm{g}}{2\sin\alpha}$$
+
+**a)** $$S = \frac{1.5\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}{2\sin 15^\circ} = \underline{\underline{28\,\mathrm{N}}}$$
+
+**b)** $$S = \frac{1.5\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}{2\sin 45^\circ} = \underline{\underline{10\,\mathrm{N}}}$$
+
+**c)** En stram snor gir en liten vinkel $\alpha$, og da blir $\sin\alpha$ liten og snorkraften stor. Med $\alpha = 15^\circ$ er snorkraften nesten dobbelt så stor som tyngden til bildet. En for stram snor kan derfor ryke, eller rive spikeren ut av veggen.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Vippehuske"}
+[Vippehuske]{.oppg-tittel}
+
+En vippehuske er $4.0\,\mathrm{m}$ lang og har støttepunktet på midten. Se bort fra massen til selve vippa. Et barn med masse $25\,\mathrm{kg}$ sitter helt ytterst på den ene siden.
+
+a)  Hvor langt fra støttepunktet må en voksen med masse $80\,\mathrm{kg}$ sitte for at vippa skal balansere?
+
+b)  Hvor stor kraft virker det fra støttepunktet på vippa når den balanserer?
+
+::: {.losning}
+
+**a)** Vi tar momenter om støttepunktet. Barnet sitter $2.0\,\mathrm{m}$ fra støttepunktet. For at vippa skal balansere, må momentene på hver side være like store: $$m_\text{barn}\mathrm{g}\cdot d_\text{barn} = m_\text{voksen}\mathrm{g}\cdot d_\text{voksen}
+    \quad\implies\quad
+    d_\text{voksen} = \frac{25\,\mathrm{kg}\cdot2.0\,\mathrm{m}}{80\,\mathrm{kg}} = \underline{\underline{0.63\,\mathrm{m}}}$$
+
+**b)** Kraftlikevekt vertikalt: kraften fra støttepunktet må bære begge personene: $$N = (25\,\mathrm{kg} + 80\,\mathrm{kg})\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 1.03\,\mathrm{kN} \approx \underline{\underline{1.0\,\mathrm{kN}}}$$
+
+:::
+
+:::
+
+::: {.oppgave tittel="To personer bærer en planke"}
+[To personer bærer en planke]{.oppg-tittel}
+
+To personer bærer en ensartet planke som er $3.0\,\mathrm{m}$ lang og har masse $30\,\mathrm{kg}$. Person A holder i den venstre enden, og person B holder $0.50\,\mathrm{m}$ fra den høyre enden. En kasse med masse $20\,\mathrm{kg}$ står på planken, $1.0\,\mathrm{m}$ fra den venstre enden.
+
+Finn hvor stor kraft hver av personene må løfte med. (Hint: velg dreiepunkt der person A holder.)
+
+::: {.losning}
+
+Vi måler avstander fra den venstre enden, der person A holder. Tyngdekraften på planken angriper midt på, $1.5\,\mathrm{m}$ fra A. Kassen står $1.0\,\mathrm{m}$ fra A, og person B holder $3.0\,\mathrm{m} - 0.50\,\mathrm{m} = 2.5\,\mathrm{m}$ fra A.
+
+**Momentlikning om A** (positiv dreieretning mot klokken): $$F_B\cdot2.5\,\mathrm{m} - 30\,\mathrm{kg}\cdot\mathrm{g}\cdot1.5\,\mathrm{m} - 20\,\mathrm{kg}\cdot\mathrm{g}\cdot1.0\,\mathrm{m} = 0$$ $$F_B = \frac{(45\,\mathrm{kg}\,\mathrm{m} + 20\,\mathrm{kg}\,\mathrm{m})\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}{2.5\,\mathrm{m}} = 255\,\mathrm{N} \approx \underline{\underline{2.6\cdot 10^{2}\,\mathrm{N}}}$$
+
+**Kraftlikevekt vertikalt:** $$F_A = (30\,\mathrm{kg} + 20\,\mathrm{kg})\cdot\mathrm{g} - F_B = 490.5\,\mathrm{N} - 255\,\mathrm{N} = 235\,\mathrm{N} \approx \underline{\underline{2.4\cdot 10^{2}\,\mathrm{N}}}$$ Person B bærer litt mer enn A. B holder nærmere midten av planken enn A, men kassen står nærmest A, så forskjellen blir liten.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Massesenteret til jorda og månen"}
+[Massesenteret til jorda og månen]{.oppg-tittel}
+
+Jorda har masse $5.97\cdot 10^{24}\,\mathrm{kg}$ og radius $6.37\cdot 10^{6}\,\mathrm{m}$. Månen har masse $7.35\cdot 10^{22}\,\mathrm{kg}$, og avstanden mellom sentrene til jorda og månen er $3.84\cdot 10^{8}\,\mathrm{m}$.
+
+a)  Finn massesenteret til jord–måne-systemet, målt fra jordas sentrum.
+
+b)  Ligger massesenteret inne i jorda eller utenfor?
+
+::: {.losning}
+
+**a)** Vi legger $x = 0$ i sentrum av jorda og $x = d = 3.84\cdot 10^{8}\,\mathrm{m}$ i sentrum av månen: $$x_\text{ms} = \frac{m_J\cdot 0 + m_M\cdot d}{m_J + m_M}
+    = \frac{7.35\cdot 10^{22}\,\mathrm{kg}\cdot3.84\cdot 10^{8}\,\mathrm{m}}{5.97\cdot 10^{24}\,\mathrm{kg} + 7.35\cdot 10^{22}\,\mathrm{kg}}
+    = \underline{\underline{4.67\cdot 10^{6}\,\mathrm{m}}}$$
+
+**b)** Jordas radius er $6.37\cdot 10^{6}\,\mathrm{m}$, så massesenteret ligger **inne i jorda**, omtrent $1700\,\mathrm{km}$ under overflaten. Det er rundt dette punktet både jorda og månen går i bane.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Mutter som sitter fast"}
+[Mutter som sitter fast]{.oppg-tittel}
+
+En mutter sitter fast, og det trengs et kraftmoment på $50\,\mathrm{N}\,\mathrm{m}$ for å løsne den. Du har en skiftenøkkel som er $30\,\mathrm{cm}$ lang.
+
+a)  Hvor stor kraft må du minst bruke, og i hvilken retning bør du dra?
+
+b)  Hvor stor kraft trengs dersom kraften danner en vinkel på $60^\circ$ med skaftet på nøkkelen?
+
+c)  Du setter et rør over skaftet slik at armen blir $60\,\mathrm{cm}$ lang. Hvor stor kraft trengs nå, når du drar vinkelrett?
+
+::: {.losning}
+
+Vi bruker $\tau = r\cdot F\cdot\sin\theta$, der $\theta$ er vinkelen mellom skaftet og kraften.
+
+**a)** Kraften blir minst når $\sin\theta$ er størst, altså når du drar **vinkelrett på skaftet** ($\theta = 90^\circ$): $$F = \frac{\tau}{r} = \frac{50\,\mathrm{N}\,\mathrm{m}}{0.30\,\mathrm{m}} = 167\,\mathrm{N} \approx \underline{\underline{1.7\cdot 10^{2}\,\mathrm{N}}}$$
+
+**b)** $$F = \frac{\tau}{r\sin 60^\circ} = \frac{50\,\mathrm{N}\,\mathrm{m}}{0.30\,\mathrm{m}\cdot 0.866} = 192\,\mathrm{N} \approx \underline{\underline{1.9\cdot 10^{2}\,\mathrm{N}}}$$
+
+**c)** $$F = \frac{\tau}{r} = \frac{50\,\mathrm{N}\,\mathrm{m}}{0.60\,\mathrm{m}} = \underline{\underline{83\,\mathrm{N}}}$$ Dobbelt så lang arm gir halvparten så stor kraft.
+
+:::
+
+:::
+
+
+::::

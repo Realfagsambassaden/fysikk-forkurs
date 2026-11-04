@@ -1,0 +1,18 @@
+---
+title: "Varmetransport"
+emne: temperatur-og-varme
+delemne: varmetransport
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om varmetransport: ledning, strømning og stråling. Temaet er en del av forkurspensumet og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Tre måter varme flyttes på: ledning, konveksjon og stråling
+- Varmeledning gjennom en vegg, og hva isolasjon gjør
+- Varmetap fra hus og kropp i hverdagen
+- Eksempler og oppgaver med løsning

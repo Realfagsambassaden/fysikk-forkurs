@@ -1,0 +1,97 @@
+---
+title: "Ekstraoppgaver"
+emne: temperatur-og-varme
+delemne: oppgaver
+aliases: ["/forkurs/08-termofysikk/07-ekstraoppgaver.html"]
+---
+
+::: {.callout-warning title="Under arbeid"}
+Dette kapittelet skrives fortsatt.
+:::
+
+:::: {.oppgaver}
+
+Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+
+::: {.oppgave tittel="Bremser som blir varme"}
+[Bremser som blir varme]{.oppg-tittel}
+
+En bil med masse $1.2\cdot 10^{3}\,\mathrm{kg}$ kjører i $72\,\mathrm{km}\,\mathrm{h}^{-1}$ og bremser helt ned til stillstand. Anta at all den kinetiske energien blir til indre energi i de fire bremseskivene av jern, som har en samlet masse på $12\,\mathrm{kg}$.
+
+a)  Finn den kinetiske energien til bilen før bremsingen.
+
+b)  Hvor mye stiger temperaturen i bremseskivene? *($c_\text{jern} = 0.45\,\mathrm{kJ/(kg}\,\mathrm{,K)}$.)*
+
+::: {.losning}
+
+**a)** Farten er $v = 72\,\mathrm{km}\,\mathrm{h}^{-1} = \frac{72}{3.6}\,\mathrm{m}\,\mathrm{s}^{-1} = 20\,\mathrm{m}\,\mathrm{s}^{-1}$: $$E_\text{K} = \frac{1}{2}mv^2 = \frac{1}{2}\cdot1.2\cdot 10^{3}\,\mathrm{kg}\cdot(20\,\mathrm{m}\,\mathrm{s}^{-1})^2 = \underline{\underline{2.4\cdot 10^{5}\,\mathrm{J}}}$$
+
+**b)** All den kinetiske energien blir til indre energi i bremseskivene, $Q = c\,m\,\Delta T = E_\text{K}$: $$\Delta T = \frac{E_\text{K}}{c\,m} = \frac{2.4\cdot 10^{5}\,\mathrm{J}}{450\,\mathrm{J}\,\mathrm{(}^{-1}\,\mathrm{kg}\,\mathrm{K}\,\mathrm{)}\cdot12\,\mathrm{kg}} = 44.4\,\mathrm{K} \approx \underline{\underline{44\,\mathrm{K}}}$$ Strengt tatt er dette *arbeid* (friksjon), ikke varme, men regningen blir den samme.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Isbiter i te"}
+[Isbiter i te]{.oppg-tittel}
+
+Du har $0.30\,\mathrm{kg}$ te med temperatur $80\,^\circ$C, men vil drikke den ved $50\,^\circ$C. Du legger i is med temperatur $0\,^\circ$C. Hvor mye is må du bruke? Anta at teen oppfører seg termisk som vann, og se bort fra koppen og varmetap til omgivelsene. *($c_\text{vann} = 4.2\,\mathrm{kJ/(kg}\,\mathrm{,K)}$, $\ell_\text{smelte} = 334\,\mathrm{kJ/kg}$.)*
+
+::: {.losning}
+
+Teen kjøles fra $80\,^\circ$C til $50\,^\circ$C og avgir varmen $$Q_\text{te} = c_\text{vann}\,m_\text{te}\,\Delta T = 4.2\,\mathrm{kJ/(kg}\,\mathrm{,K)}\cdot0.30\,\mathrm{kg}\cdot30\,\mathrm{K} = 37.8\,\mathrm{kJ}$$ Isen med masse $m$ må først smelte ved $0\,^\circ$C, og så må smeltevannet varmes opp til $50\,^\circ$C: $$Q_\text{is} = \ell_\text{smelte}\,m + c_\text{vann}\,m\cdot50\,\mathrm{K}
+  = m\,(334\,\mathrm{kJ/kg} + 210\,\mathrm{kJ/kg}) = m\cdot544\,\mathrm{kJ/kg}$$ Varmen teen avgir, er lik varmen isen tar opp: $$m = \frac{37.8\,\mathrm{kJ}}{544\,\mathrm{kJ/kg}} = 0.0695\,\mathrm{kg} \approx \underline{\underline{69\,\mathrm{g}}}$$
+
+:::
+
+:::
+
+::: {.oppgave tittel="Ballong i fryseren"}
+[Ballong i fryseren]{.oppg-tittel}
+
+En ballong har volumet $3.0\,\mathrm{L}$ ved $22\,^\circ$C. Den legges i en fryser som holder $-18\,^\circ$C. Anta at trykket i ballongen er konstant. Hva blir volumet til ballongen når lufta inni har fått samme temperatur som fryseren?
+
+::: {.losning}
+
+Temperaturene i kelvin er $T_1 = 22 + 273 = 295\,\mathrm{K}$ og $T_2 = -18 + 273 = 255\,\mathrm{K}$. Trykket og antall molekyler er konstant, så $V/T$ er konstant: $$V_2 = V_1\cdot\frac{T_2}{T_1} = 3.0\,\mathrm{L}\cdot\frac{255\,\mathrm{K}}{295\,\mathrm{K}} = 2.59\,\mathrm{L} \approx \underline{\underline{2.6\,\mathrm{L}}}$$ Ballongen krymper litt, men ikke så mye som man kanskje skulle tro. Det er temperaturen i kelvin som teller, og den synker bare med omtrent $14\,\%$.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Molekyler i et klasserom"}
+[Molekyler i et klasserom]{.oppg-tittel}
+
+Et klasserom er $8.0\,\mathrm{m}$ langt, $6.0\,\mathrm{m}$ bredt og $3.0\,\mathrm{m}$ høyt. Lufttrykket er $1.0\cdot 10^{5}\,\mathrm{Pa}$, og temperaturen er $20\,^\circ$C.
+
+a)  Hvor mange luftmolekyler er det i rommet?
+
+b)  Temperaturen stiger til $25\,^\circ$C, mens trykket er det samme fordi døra står på gløtt. Omtrent hvor mange molekyler har forlatt rommet?
+
+::: {.losning}
+
+**a)** Volumet er $V = 8.0\,\mathrm{m}\cdot6.0\,\mathrm{m}\cdot3.0\,\mathrm{m} = 144\,\mathrm{m}^{3}$, og $T_1 = 20 + 273 = 293\,\mathrm{K}$: $$N_1 = \frac{pV}{k_\text{B}T_1} = \frac{1.0\cdot 10^{5}\,\mathrm{Pa}\cdot144\,\mathrm{m}^{3}}{1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot293\,\mathrm{K}} = 3.56\cdot 10^{27}\, \approx \underline{\underline{3.6\cdot 10^{27}}}$$
+
+**b)** Ved $T_2 = 25 + 273 = 298\,\mathrm{K}$, med samme $p$ og $V$: $$N_2 = \frac{pV}{k_\text{B}T_2} = N_1\cdot\frac{T_1}{T_2} = 3.56\cdot 10^{27}\cdot\frac{293}{298} = 3.50\cdot 10^{27}$$ Antall molekyler som har forlatt rommet: $$N_1 - N_2 = 3.56\cdot 10^{27} - 3.50\cdot 10^{27} \approx \underline{\underline{6.0\cdot 10^{25}}}$$ Det er bare omtrent $1.7\,\%$ av molekylene, men likevel et enormt tall.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Kobber i vann"}
+[Kobber i vann]{.oppg-tittel}
+
+Et lodd av kobber med masse $0.20\,\mathrm{kg}$ blir varmet opp til $100\,^\circ$C i kokende vann. Så slippes det ned i en godt isolert beholder med $0.50\,\mathrm{kg}$ vann med temperatur $15\,^\circ$C. Se bort fra beholderen. Hva blir slutt-temperaturen? *($c_\text{kobber} = 0.39\,\mathrm{kJ/(kg}\,\mathrm{,K)}$, $c_\text{vann} = 4.2\,\mathrm{kJ/(kg}\,\mathrm{,K)}$.)*
+
+::: {.losning}
+
+Kobberet avgir varme og kjøles fra $100\,^\circ$C til slutt-temperaturen $t$. Vannet tar opp varmen og varmes fra $15\,^\circ$C til $t$. Varmen kobberet avgir, er lik varmen vannet tar opp: $$c_\text{k}\,m_\text{k}\,(100 - t) = c_\text{v}\,m_\text{v}\,(t - 15)$$ Med tallene inn (i kJ/K): $$0.39\cdot 0.20\cdot(100 - t) = 4.2\cdot 0.50\cdot(t - 15)$$ $$7.8 - 0.078\,t = 2.1\,t - 31.5
+  \quad\implies\quad
+  t = \frac{7.8 + 31.5}{2.1 + 0.078} = 18.0\,{}^{\circ}\mathrm{C} \approx \underline{\underline{18\,{}^{\circ}\mathrm{C}}}$$ Vannet blir bare litt varmere. Vann har mye større spesifikk varmekapasitet enn kobber, og det er i tillegg mer vann enn kobber.
+
+:::
+
+:::
+
+
+::::

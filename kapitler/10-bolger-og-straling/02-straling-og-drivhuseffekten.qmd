@@ -1,0 +1,19 @@
+---
+title: "Stråling og drivhuseffekten"
+emne: bolger-og-lyd
+delemne: straling
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om stråling og drivhuseffekten. Temaet er en del av forkurspensumet og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Det elektromagnetiske spekteret
+- Varmestråling: varme ting lyser, og varmere ting lyser mer
+- Jordas strålingsbalanse
+- Drivhuseffekten og drivhusgasser
+- Eksempler og oppgaver med løsning

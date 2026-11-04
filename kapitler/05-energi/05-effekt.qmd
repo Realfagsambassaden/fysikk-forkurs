@@ -1,0 +1,81 @@
+---
+title: "Effekt"
+emne: arbeid-og-energi
+delemne: effekt
+aliases: ["/forkurs/05-energi/05-effekt.html"]
+---
+
+:::: {.oppgaver}
+
+Effekt $P$ er et mål på hvor raskt energi omformes eller utfører arbeid. Den defineres som mengden energi som overføres per tidsenhet, eller arbeidet som utføres per tidsenhet.
+
+::: {.callout-note title="Definisjon: Effekt som arbeid per tidsenhet"}
+
+Effekt $P$ kan uttrykkes som: $$\begin{aligned}
+        P = \frac{W}{t}
+\end{aligned}$$ hvor $W$ er arbeidet eller energien som overføres, og $t$ er tiden det tar. Enheten for effekt er watt (W). For dere som kan å derivere: Den enda mer presise formuleringen av effekt er at $P=\text{d}W/\text{d}t$.
+
+:::
+
+Enheten for effekt er watt (W). Samtidig ser vi fra formelen over at vi må ha sammenhengen $1 \, \text{W} = 1 \, \text{J/s}$. Dette betyr at én watt tilsvarer at én joule energi overføres hvert sekund. I senere kapittel skal vi vise at effekt i elektrisk sammenheng, er $P=U\cdot I$, der $U$ er spenning og $I$ er strømstyrke. I det tilfellet er det snakk om elektrisk energi (elektrisk arbeid) som overføres per tidsenhet. Men selve begrepet
+
+Effekt kan også uttrykkes i sammenheng med kraft og hastighet. Hvis en konstant kraft $F$ virker på et objekt som beveger seg med en hastighet $v$, kan effekten skrives som:
+
+::: {.callout-note title="Definisjon: Effekt som kraft ganger hastighet"}
+
+Når en konstant kraft virker på et objekt i bevegelse, er effekten gitt ved: $$\begin{aligned}
+        P = F \cdot v
+\end{aligned}$$ hvor $F$ er kraften som virker på objektet, og $v$ er hastigheten.
+
+:::
+
+Denne formelen viser at jo større kraft eller hastighet, desto mer arbeid utføres per tidsenhet, og dermed større effekt.
+
+::: {.oppgave tittel="Løpe opp trappene"}
+[Løpe opp trappene]{.oppg-tittel}
+
+Eva har masse $m = 70\,\mathrm{kg}$ og løper opp trappene fra første til fjerde etasje. Høydeforskjellen er $h = 9.0\,\mathrm{m}$, og det tar henne $t = 12\,\mathrm{s}$.
+
+a)  Hvor stort arbeid gjør Eva mot tyngdekraften?
+
+b)  Hvor stor er den gjennomsnittlige effekten hennes?
+
+c)  En vanlig vannkoker har effekt på omtrent $2000\,\mathrm{W}$. Sammenlikn med svaret i b).
+
+::: {.losning}
+
+**a)** Arbeidet mot tyngdekraften er økningen i potensiell energi: $$W = m\mathrm{g}h = 70\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot9.0\,\mathrm{m} = \underline{\underline{6.2\,\mathrm{kJ}}}$$
+
+**b)** $$P = \frac{W}{t} = \frac{6180\,\mathrm{J}}{12\,\mathrm{s}} = 515\,\mathrm{W} \approx \underline{\underline{5.2\cdot 10^{2}\,\mathrm{W}}}$$
+
+**c)** Effekten hennes er omtrent en firedel av effekten til en vannkoker. Et menneske kan levere en slik effekt bare i korte perioder.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Bil i konstant fart"}
+[Bil i konstant fart]{.oppg-tittel}
+
+En bil kjører med konstant fart $v = 90\,\mathrm{km}\,\mathrm{h}^{-1}$ på flat vei. Luftmotstand og rullemotstand gir til sammen en kraft på $F = 600\,\mathrm{N}$ mot bevegelsen.
+
+a)  Hvor stor kraft må hjulene skyve bilen fremover med for at farten skal være konstant? Forklar med Newtons 1. lov.
+
+b)  Hvor stor effekt må motoren levere til hjulene?
+
+c)  Hvor mye energi går med til å holde farten konstant i én time?
+
+::: {.losning}
+
+**a)** Farten er konstant, så akselerasjonen er null. Newtons 1. lov sier at kraftsummen da må være null. Kraften fremover må derfor være like stor som motstanden: **$F = 600\,\mathrm{N}$**.
+
+**b)** Vi bruker $P = F\cdot v$ med $v = 90\,\mathrm{km}\,\mathrm{h}^{-1} = 25\,\mathrm{m}\,\mathrm{s}^{-1}$: $$P = 600\,\mathrm{N}\cdot25\,\mathrm{m}\,\mathrm{s}^{-1} = \underline{\underline{15\,\mathrm{kW}}}$$
+
+**c)** $$E = P\cdot t = 15000\,\mathrm{W}\cdot3600\,\mathrm{s} = \underline{\underline{54\,\mathrm{MJ}}}$$
+
+:::
+
+:::
+
+
+::::

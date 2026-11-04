@@ -1,0 +1,171 @@
+---
+title: "Termodynamikkens 1. lov"
+emne: termodynamikk
+delemne: forste-lov
+aliases: ["/forkurs/08-termofysikk/04-termodynamikkens-1-lov.html"]
+---
+
+::: {.callout-warning title="Under arbeid"}
+Dette kapittelet skrives fortsatt.
+:::
+
+:::: {.oppgaver}
+
+Den indre energien $U$ til et system kan endres på to måter: varme $Q$ tilføres (eller avgis), og arbeid $W$ utføres på (eller av) systemet. Termodynamikkens 1. lov er energibevaringsloven uttrykt for termodynamiske systemer:
+
+::: {.callout-note title="Definisjon: Termodynamikkens 1. lov"}
+
+Endringen i den indre energien $\Delta U$ er lik summen av tilført varme $Q$ og arbeid $W$ utført *på* systemet: $$\Delta U = Q + W$$
+
+:::
+
+::: tcolorbox
+**Fortegnskonvensjon:**
+
+-   $\Delta U > 0$: indre energi øker (systemet lagrer mer energi)
+
+-   $Q > 0$: varme strømmer *inn* i systemet
+
+-   $Q < 0$: systemet avgir varme til omgivelsene
+
+-   $W > 0$: arbeid utføres *på* systemet (f.eks. stempelet komprimerer gassen)
+
+-   $W < 0$: systemet gjør arbeid *på* omgivelsene (f.eks. gassen ekspanderer og løfter et stempel)
+:::
+
+Figuren viser et typisk termodynamisk system: en gass i en sylinder med bevegelig stempel. Varme $Q > 0$ kan tilføres fra en varmekilde. Stempelet kan gjøre arbeid $W > 0$ på gassen ved å komprimere den — eller gassen kan ekspandere og løfte stempelet ($W < 0$). Endringen $\Delta U$ samler opp begge bidragene.
+
+![](../../bilder/figurer/k8-03-5ae5d7401965.svg){.tikz-fig style="width:263px"}
+
+[Gass i sylinder. Varme $Q$ tilføres fra en varmekilde, og stempelet gjør arbeid $W$ på gassen.]{.figurtekst}
+
+## Arbeid gjort av en gass {#arbeid-gjort-av-en-gass .unnumbered}
+
+Hvor stort arbeid gjør en gass når den utvider seg? Se på en gass i en sylinder med et bevegelig stempel med areal $A$. Gassen har trykket $p$, så den presser på stempelet med kraften $$F = p\cdot A$$ Anta at trykket holdes konstant mens gassen utvider seg og skyver stempelet et lite stykke $\Delta x$ utover. Kraften og bevegelsen har samme retning, så arbeidet gassen gjør på stempelet, er kraft ganger strekning: $$W_\text{gass} = F\cdot\Delta x = p\cdot A\cdot\Delta x$$ Men $A\cdot\Delta x$ er nettopp økningen i volumet til gassen, $\Delta V$ (se figuren). Dermed er arbeidet gassen gjør
+
+::: {.graa}
+
+$\displaystyle W_\text{gass} = p\,\Delta V$(når $p=$konst).
+
+:::
+
+::: center
+![](../../bilder/figurer/k8-04-c84df11400fa.svg){.tikz-fig style="width:392px"}
+
+[Gassen skyver stempelet $\Delta x$ utover med kraften $F = pA$. Volumet øker med $\Delta V = A\,\Delta x$ (det fargede området), og gassen gjør arbeidet $W_\text{gass} = F\,\Delta x = p\,\Delta V$.]{.figurtekst}
+:::
+
+::: {.callout-important title="Merk: $p\,\Delta V$, ikke $\Delta p\, V$"}
+
+Arbeid krever at noe flytter seg. Det er derfor volum*endringen* $\Delta V$ som inngår. Øker trykket mens volumet er konstant (en isokor prosess), flytter ikke stempelet seg, og gassen gjør *ingen* arbeid, selv om trykket endres. $\Delta p\,V$ er altså ikke et arbeid. Formelen $W_\text{gass} = p\,\Delta V$ gjelder når trykket er konstant. Endres trykket underveis, må vi regne annerledes. Det ser vi på i delkapittel .
+
+:::
+
+I termodynamikkens 1. lov er $W$ arbeidet som gjøres *på* gassen. Når gassen utvider seg ($\Delta V > 0$), gjør den arbeid på omgivelsene, og $W = -p\,\Delta V$ er negativ. Når gassen presses sammen, er $W$ positiv.
+
+::: {.eksempel}
+[Eksempel 8.10: Gass i sylinder]{.eks-tittel}
+
+$Q = 500\,\mathrm{J}$ tilføres en gass i en sylinder. Den indre energien øker med $\Delta U = 100\,\mathrm{J}$.
+
+a)  Hvor stort arbeid gjør stempelet på gassen?
+
+b)  Stempelet sitter på toppen av sylinderen, som i figuren, og har masse $m = 50\,\mathrm{kg}$. Gassen løfter stempelet rett opp. Hvor langt flyttes det? Se bort fra lufttrykket over stempelet og friksjon.
+
+:::
+
+::: {.callout-note .svar collapse="true" title="Vis løsning"}
+
+**a)** Fra 1. lov løser vi for $W$: $$\Delta U = Q + W \implies W = \Delta U - Q = 100\,\mathrm{J} - 500\,\mathrm{J}
+  = \underline{\underline{-400\,\mathrm{J}}}$$ Det negative fortegnet viser at stempelet *ikke* gjør arbeid på gassen — det er gassen som gjør $400\,\mathrm{J}$ arbeid på stempelet og løfter det oppover.
+
+**b)** Gassen gjør $400\,\mathrm{J}$ arbeid på stempelet. Dette arbeidet brukes til å løfte stempelet mot tyngdekraften ($W = \Delta E_{\text{pot}} = m\mathrm{g}y$): $$y = \frac{W}{m\mathrm{g}} = \frac{400\,\mathrm{J}}{50\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}
+  = \underline{\underline{0.82\,\mathrm{m}}}$$ Stempelet flyttes $82\,\mathrm{cm}$.
+
+:::
+
+### Adiabatisk prosess {#adiabatisk-prosess .unnumbered}
+
+En *adiabatisk* prosess er en prosess uten varmeoverføring: $Q = 0$. Da gir 1. lov: $$\Delta U = W$$ I en slik prosess skyldes all endring i indre energi arbeid. Eksempler: en **sykkelpumpe** (komprimering skjer for raskt til at varme rekker å slippe ut — pumpa blir varm), og **dieselmotorer** (luften komprimeres adiabatisk inntil temperaturen er høy nok til at drivstoffet antennes av seg selv, uten tennplugg).
+
+::: {.oppgave tittel="Varme eller arbeid?"}
+[Varme eller arbeid?]{.oppg-tittel}
+
+Avgjør om energien overføres til systemet som *varme* $Q$ eller som *arbeid* $W$. Systemet står i parentes.
+
+a)  Du gnir hendene hardt mot hverandre (hendene).
+
+b)  En gryte med vann står på en varm kokeplate (vannet).
+
+c)  Lufta i en sykkelpumpe blir presset sammen av stempelet (lufta).
+
+d)  Sola varmer opp en stein på stranda (steinen).
+
+e)  En elektrisk mikser rører i en bolle med kakedeig (deigen).
+
+::: {.losning}
+
+Varme er energi som overføres *bare* på grunn av en temperaturforskjell. All annen energioverføring, der noe skyver, drar eller rører, er arbeid.
+
+**a)** **Arbeid**. Friksjonskraften virker langs bevegelsen og gjør arbeid på hendene.
+
+**b)** **Varme**. Kokeplata er varmere enn gryta og vannet, og energien går fra det varme til det kalde.
+
+**c)** **Arbeid**. Stempelet skyver på lufta og presser den sammen.
+
+**d)** **Varme**. Sola er mye varmere enn steinen. Energien kommer som stråling, og det regner vi som varme.
+
+**e)** **Arbeid**. Mikseren skyver deigen rundt. Deigen blir litt varmere, selv om ingenting varmt er i kontakt med den.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Sykkelpumpe"}
+[Sykkelpumpe]{.oppg-tittel}
+
+En sykkelpumpe komprimerer luft raskt, slik at prosessen er tilnærmet adiabatisk. Et arbeid på $W = 30\,\mathrm{J}$ utføres på lufta.
+
+a)  Hva er endringen i den indre energien til lufta?
+
+b)  Stiger eller synker temperaturen i pumpa? Forklar hvorfor.
+
+::: {.losning}
+
+**a)** Prosessen er adiabatisk, så $Q = 0$. Termodynamikkens 1. lov gir $$\Delta U = Q + W = 0 + 30\,\mathrm{J} = \underline{\underline{+30\,\mathrm{J}}}$$
+
+**b)** $\Delta U > 0$, så den indre energien øker. Den indre energien til lufta er knyttet til bevegelsen til molekylene, og dermed til temperaturen. Temperaturen **stiger**. Stempelet beveger seg mot molekylene og gir dem større fart når de spretter mot det. Du kan kjenne at pumpa blir varm etter bruk.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Gass som komprimeres"}
+[Gass som komprimeres]{.oppg-tittel}
+
+Et stempel presser sammen en gass i en sylinder og gjør et arbeid på $250\,\mathrm{J}$ på gassen. Samtidig avgir gassen $80\,\mathrm{J}$ varme til omgivelsene. Anta at den indre energien til gassen bare avhenger av temperaturen.
+
+a)  Finn endringen $\Delta U$ i den indre energien til gassen.
+
+b)  Stiger eller synker temperaturen til gassen?
+
+c)  Hvor mye varme måtte gassen ha avgitt for at temperaturen skulle vært uendret?
+
+d)  Senere tilføres gassen $600\,\mathrm{J}$ varme. Gassen utvider seg og løfter stempelet, som har masse $25\,\mathrm{kg}$, rett opp. Den indre energien øker med $450\,\mathrm{J}$. Hvor høyt løftes stempelet? Se bort fra lufttrykket over stempelet og friksjon.
+
+::: {.losning}
+
+**a)** Arbeidet utføres *på* gassen, så $W = +250\,\mathrm{J}$. Gassen *avgir* varme, så $Q = -80\,\mathrm{J}$. Termodynamikkens 1. lov gir $$\Delta U = Q + W = -80\,\mathrm{J} + 250\,\mathrm{J} = \underline{\underline{+170\,\mathrm{J}}}$$
+
+**b)** Den indre energien øker. Siden den indre energien bare avhenger av temperaturen, **stiger temperaturen**.
+
+**c)** Temperaturen er uendret når $\Delta U = 0$: $$0 = Q + W \quad\implies\quad Q = -W = \underline{\underline{-250\,\mathrm{J}}}$$ Gassen måtte altså ha avgitt $250\,\mathrm{J}$ varme, like mye som arbeidet stempelet gjør på den.
+
+**d)** Nå er $Q = +600\,\mathrm{J}$ og $\Delta U = +450\,\mathrm{J}$. Termodynamikkens 1. lov gir $$W = \Delta U - Q = 450\,\mathrm{J} - 600\,\mathrm{J} = -150\,\mathrm{J}$$ Det negative fortegnet betyr at gassen gjør $150\,\mathrm{J}$ arbeid på stempelet. Arbeidet går til å løfte stempelet mot tyngdekraften, $W_\text{gass} = m\mathrm{g}h$: $$h = \frac{W_\text{gass}}{m\mathrm{g}} = \frac{150\,\mathrm{J}}{25\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = 0.612\,\mathrm{m} \approx \underline{\underline{0.61\,\mathrm{m}}}$$
+
+:::
+
+:::
+
+
+::::

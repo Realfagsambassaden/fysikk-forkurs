@@ -1,0 +1,27 @@
+---
+title: "Termofysikk"
+toc: false
+tegning: rakett
+aliases: ["/forkurs/08-termofysikk/index.html"]
+---
+
+::: {.callout-warning title="Under arbeid"}
+Dette kapittelet skrives fortsatt. Innholdet kan endre seg.
+:::
+
+::: {.intro}
+
+Er det så farlig om temperaturen i havet stiger med en grad eller to da? Ja, for temperatur handler om energi. Den delen av fysikken som beskriver det, kalles termofysikk, og handler om varme, temperatur og energioverføring. I dette kapitlet ser vi derfor på hva varme egentlig er på mikroskopisk nivå, hva som skjer med energien til et system når vi varmer det opp, og hva som foregår under faseoverganger som smelting og fordamping. Disse ideene er grunnleggende for å forstå alt fra klimaendringer og forbrenningmotorer til kjøleskap og koking av mat.
+
+:::
+
+::: {.spm}
+[Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
+
+1.  Hva er forskjellen på varme og temperatur?
+
+2.  Hva er sammenhengen mellom temperatur og energi?
+
+3.  Hvordan beregner vi energien som trengs for å varme opp eller smelte et stoff?
+
+:::

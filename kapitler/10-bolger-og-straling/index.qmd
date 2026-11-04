@@ -1,0 +1,21 @@
+---
+title: "Bølger og stråling"
+toc: false
+tegning: kvante-tidsutvikling
+---
+
+<!-- tillegg: Claude -->
+::: {.intro}
+
+Lyd, lys og varmestråling er bølger som frakter energi fra ett sted til et annet. I dette kapittelet ser vi på hva en bølge er, og hvordan stråling fra sola og jorda gir oss drivhuseffekten.
+
+:::
+
+::: {.spm}
+[Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
+
+1.  Hva er en bølge, og hvordan beskriver vi den?
+
+2.  Hvordan henger strålingen fra sola og jorda sammen med drivhuseffekten?
+
+:::

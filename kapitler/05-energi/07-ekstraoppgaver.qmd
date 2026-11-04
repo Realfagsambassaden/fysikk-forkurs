@@ -1,0 +1,146 @@
+---
+title: "Ekstraoppgaver"
+emne: arbeid-og-energi
+delemne: oppgaver
+aliases: ["/forkurs/05-energi/07-ekstraoppgaver.html"]
+---
+
+:::: {.oppgaver}
+
+Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+
+::: {.oppgave tittel="Arbeid eller ikke?"}
+[Arbeid eller ikke?]{.oppg-tittel}
+
+Avgjør om kraften i hvert av tilfellene under gjør et positivt, negativt eller null arbeid. Begrunn svarene.
+
+a)  Du holder en tung sekk stille over hodet. (Kraften fra armene dine på sekken.)
+
+b)  Du bærer sekken bortover et flatt gulv med konstant fart. (Kraften fra armene dine, som peker rett opp.)
+
+c)  Du løfter sekken opp fra gulvet. (Kraften fra armene dine.)
+
+d)  En bil bremser. (Friksjonskraften fra veien på bilen.)
+
+e)  En satellitt går i sirkelbane rundt jorda. (Tyngdekraften på satellitten.)
+
+::: {.losning}
+
+Arbeid krever både en kraft og en forflytning med en komponent langs kraften: $W = F\cdot s\cdot\cos\theta$.
+
+**a)** **Null.** Sekken flytter seg ikke, så $s = 0$. (Musklene dine blir slitne, men det skyldes prosesser inne i kroppen, ikke arbeid på sekken.)
+
+**b)** **Null.** Kraften peker rett opp, mens forflytningen er horisontal. Vinkelen er $90^\circ$, så $\cos\theta = 0$.
+
+**c)** **Positivt.** Kraften og forflytningen peker begge oppover ($\theta = 0^\circ$). Arbeidet øker den potensielle energien til sekken.
+
+**d)** **Negativt.** Friksjonskraften peker bakover, mens bilen beveger seg fremover ($\theta = 180^\circ$). Arbeidet reduserer den kinetiske energien til bilen.
+
+**e)** **Null.** I en sirkelbane peker tyngdekraften inn mot jordas sentrum, mens bevegelsen hele tiden går langs sirkelen. Kraften står vinkelrett på bevegelsen, så farten til satellitten endrer seg ikke.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Fjærkanon"}
+[Fjærkanon]{.oppg-tittel}
+
+En leketøyskanon har en fjær med fjærkonstant $k = 500\,\mathrm{N}\,\mathrm{m}^{-1}$. Fjæra presses sammen $x = 8.0\,\mathrm{cm}$, og kanonen skyter en kule med masse $m = 50\,\mathrm{g}$ rett opp. Se bort fra luftmotstand og fra den lille høydeendringen mens fjæra strekker seg ut.
+
+a)  Hvor mye energi er lagret i fjæra før skuddet?
+
+b)  Hvor høyt over utskytingspunktet kommer kula?
+
+c)  Hvor høyt kommer kula dersom fjæra bare presses sammen halvparten så mye?
+
+::: {.losning}
+
+**a)** $$E_p = \frac{1}{2}kx^2 = \frac{1}{2}\cdot500\,\mathrm{N}\,\mathrm{m}^{-1}\cdot(0.080\,\mathrm{m})^2 = \underline{\underline{1.6\,\mathrm{J}}}$$
+
+**b)** All elastisk potensiell energi blir til gravitasjonspotensiell energi i toppunktet: $$\frac{1}{2}kx^2 = m\mathrm{g}h
+    \quad\implies\quad
+    h = \frac{1.6\,\mathrm{J}}{0.050\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = \underline{\underline{3.3\,\mathrm{m}}}$$
+
+**c)** Halvparten så stor kompresjon gir $(\tfrac{1}{2})^2 = \tfrac{1}{4}$ av energien, og dermed en firedel av høyden: $$h = \frac{3.26\,\mathrm{m}}{4} = \underline{\underline{0.82\,\mathrm{m}}}$$
+
+:::
+
+:::
+
+::: {.oppgave tittel="Aking med friksjon"}
+[Aking med friksjon]{.oppg-tittel}
+
+Mia og akebrettet har til sammen masse $m = 30\,\mathrm{kg}$. Hun starter i ro på toppen av en bakke som er $h = 8.0\,\mathrm{m}$ høy. Bakken er $40\,\mathrm{m}$ lang, målt langs bakken. I bunnen har hun farten $v = 9.0\,\mathrm{m}\,\mathrm{s}^{-1}$.
+
+a)  Hvor stor fart ville hun hatt i bunnen uten friksjon og luftmotstand?
+
+b)  Hvor mye mekanisk energi gikk tapt på vei ned?
+
+c)  Anta at hele energitapet skyldes en konstant friksjonskraft langs bakken. Hvor stor er denne kraften?
+
+::: {.losning}
+
+**a)** Uten tap blir all potensiell energi til kinetisk energi: $$v = \sqrt{2\mathrm{g}h} = \sqrt{2\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot8.0\,\mathrm{m}} = 12.5\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{13\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+
+**b)** Energitapet er forskjellen mellom potensiell energi på toppen og kinetisk energi i bunnen: $$\Delta E = m\mathrm{g}h - \frac{1}{2}mv^2 = 2354\,\mathrm{J} - 1215\,\mathrm{J} = 1.14\,\mathrm{kJ} \approx \underline{\underline{1.1\,\mathrm{kJ}}}$$
+
+**c)** En konstant friksjonskraft $R$ langs hele bakken gjør arbeidet $-R\cdot s$. Dette arbeidet er like stort som energitapet: $$R = \frac{\Delta E}{s} = \frac{1139\,\mathrm{J}}{40\,\mathrm{m}} = \underline{\underline{28\,\mathrm{N}}}$$
+
+:::
+
+:::
+
+::: {.oppgave tittel="Heis"}
+[Heis]{.oppg-tittel}
+
+En heis med passasjerer har til sammen masse $m = 800\,\mathrm{kg}$. Heisen løftes $30\,\mathrm{m}$ med konstant fart på $20\,\mathrm{s}$.
+
+a)  Hvor stort arbeid gjør heismotoren?
+
+b)  Hvor stor effekt leverer motoren?
+
+c)  Regn ut effekten på en annen måte, med $P = F\cdot v$, og sjekk at du får samme svar.
+
+::: {.losning}
+
+**a)** Farten er konstant, så motorkraften er lik tyngdekraften, og arbeidet er økningen i potensiell energi: $$W = m\mathrm{g}h = 800\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot30\,\mathrm{m} = 235\,\mathrm{kJ} \approx \underline{\underline{2.4\cdot 10^{2}\,\mathrm{kJ}}}$$
+
+**b)** $$P = \frac{W}{t} = \frac{235440\,\mathrm{J}}{20\,\mathrm{s}} = 11.8\,\mathrm{kW} \approx \underline{\underline{12\,\mathrm{kW}}}$$
+
+**c)** Farten er $v = 30\,\mathrm{m}/20\,\mathrm{s} = 1.5\,\mathrm{m}\,\mathrm{s}^{-1}$, og kraften er $F = m\mathrm{g} = 7848\,\mathrm{N}$: $$P = F\cdot v = 7848\,\mathrm{N}\cdot1.5\,\mathrm{m}\,\mathrm{s}^{-1} = 11.8\,\mathrm{kW} \approx \underline{\underline{12\,\mathrm{kW}}}$$ Vi får samme svar som i b).
+
+:::
+
+:::
+
+::: {.oppgave tittel="Ballistisk pendel"}
+[Ballistisk pendel]{.oppg-tittel}
+
+En ballistisk pendel brukes til å måle farten til en kule. En kule med masse $m = 10\,\mathrm{g}$ skytes inn i en trekloss med masse $M = 2.0\,\mathrm{kg}$ som henger i en snor. Kula blir sittende fast i klossen, og klossen svinger ut slik at den stiger $h = 5.0\,\mathrm{cm}$.
+
+a)  Bruk bevaring av mekanisk energi til å finne farten til klossen (med kula) rett etter støtet.
+
+b)  Bruk bevaring av bevegelsesmengde til å finne farten til kula før den traff klossen.
+
+c)  Hvorfor kan vi ikke bruke bevaring av mekanisk energi for selve støtet?
+
+::: {.losning}
+
+Vi kaller farten til kula før støtet $v$, og den felles farten til klossen og kula rett etter støtet $u$.
+
+**a)** Etter støtet svinger klossen (med kula) opp. Nå virker bare tyngdekraften og snorkraften, og snorkraften gjør ikke arbeid. Mekanisk energi er derfor bevart: $$\frac{1}{2}(m+M)u^2 = (m+M)\mathrm{g}h
+    \quad\implies\quad
+    u = \sqrt{2\mathrm{g}h}$$ $$u = \sqrt{2\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot0.050\,\mathrm{m}} = \underline{\underline{0.99\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+
+**b)** Under selve støtet er bevegelsesmengden bevart: $$mv = (m+M)\,u
+    \quad\implies\quad
+    v = \frac{(m+M)\,u}{m}$$ $$v = \frac{2.01\,\mathrm{kg}\cdot0.990\,\mathrm{m}\,\mathrm{s}^{-1}}{0.010\,\mathrm{kg}} = 199\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{2.0\cdot 10^{2}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+
+**c)** Støtet er uelastisk: kula blir sittende fast i klossen. Mesteparten av den kinetiske energien til kula blir omdannet til varme og deformasjon av treverket. (Her er $E_\text{K}$ før støtet omtrent $198\,\mathrm{J}$, mens den bare er omtrent $0.99\,\mathrm{J}$ rett etter.) Derfor kan vi bare bruke bevaring av bevegelsesmengde for selve støtet, og bevaring av mekanisk energi for svingningen etterpå.
+
+:::
+
+:::
+
+
+::::

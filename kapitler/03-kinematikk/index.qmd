@@ -1,0 +1,23 @@
+---
+title: "Kinematikk"
+toc: false
+tegning: fotball
+aliases: ["/forkurs/03-kinematikk/index.html"]
+---
+
+::: {.intro}
+
+En stor del av fysikken handler om å beskrive og forutsi posisjon og bevegelse for objekter (legemer). Kinematikk er læren om *hvordan*legemer beveger seg. I kinematikken konsentrerer vi oss derfor om begreper som posisjon ($\vec{s}$), hastighet ($\vec{v}$) og akselerasjon ($\vec{a}$), som er verktøyene vi trenger for å beskrive bevegelse. Dette gir det rette grunnlaget for *dynamikken* (/kraftlære), som kommer i neste kapittel, og handler om *årsaken* legemers bevegelse.
+
+:::
+
+::: {.spm}
+[Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
+
+1.  Hva er sammenhengen mellom posisjon, hastighet og akselerasjon?
+
+2.  Hvordan beskriver vi bevegelse med matematikk?
+
+3.  Hva er forskjellen på beskriven av bevegelse i 1 dimensjon og flere dimensjoner?
+
+:::

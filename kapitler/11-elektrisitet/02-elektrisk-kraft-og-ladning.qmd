@@ -1,0 +1,48 @@
+---
+title: "Elektrisk kraft og ladning"
+emne: elektrisk-felt
+delemne: ladning
+aliases: ["/forkurs/09-elektrisitet/02-elektrisk-kraft-og-ladning.html"]
+---
+
+::: {.callout-warning title="Under arbeid"}
+Dette kapittelet skrives fortsatt.
+:::
+
+:::: {.oppgaver}
+
+Elektrisk ladning er det som gir opphav til elektriske krefter. To ladede legemer tiltrekker eller frastøter hverandre — akkurat som gravitasjon tiltrekker to masser, men med en viktig forskjell: elektrisk kraft kan *både* tiltrekke og frastøte.
+
+::: {.callout-note title="Definisjon: Coulombs lov"}
+
+Kraften mellom to punktladninger $q_1$ og $q_2$ med avstand $r$ er: $$F_e = k \frac{|q_1|\,|q_2|}{r^2}, \qquad k = 8.99\cdot 10^{9}\,\mathrm{N}\,\mathrm{m}^{2}\,\mathrm{C}^{-2}$$ Kraften er *tiltrekkende* dersom ladningene har motsatt fortegn, og *frastøtende* dersom de har likt fortegn.
+
+:::
+
+::: tcolorbox
+**Gravitasjon vs. elektrisitet — to naturkrefter med samme form**
+
+|  | **Gravitasjon** | **Elektrisitet** |
+|:---|:---|:---|
+| Formel | $F_g = G\,\dfrac{m_1 m_2}{r^2}$ | $F_e = k\,\dfrac{|q_1||q_2|}{r^2}$ |
+| «Ladning» | Masse $m$ | Elektrisk ladning $q$ |
+| Konstant | $G = 6.67\cdot 10^{-11}\,$ | $k = 8.99\cdot 10^{9}\,$ |
+| Retning | Alltid tiltrekkende | Tiltrekker (±) eller frastøter (++) |
+
+Merk at $k$ er *enorm* sammenliknet med $G$ — elektrisk kraft er typisk mange størrelsesordener sterkere enn gravitasjon på atomnivå.
+:::
+
+::: {.eksempel}
+[Eksempel 9.1: Kraft mellom to ladninger]{.eks-tittel}
+To ladninger $q_1 = +2.0\,\mathrm{\mu C}$ og $q_2 = -3.0\,\mathrm{\mu C}$ befinner seg $r = 0.10\,\mathrm{m}$ fra hverandre. Finn kraften mellom dem.
+
+::: {.losning}
+$$F_e = k\frac{|q_1||q_2|}{r^2}
+      = 8.99\cdot 10^{9}\,\mathrm{N}\,\mathrm{m}^{2}\,\mathrm{C}^{-2}
+        \cdot \frac{2.0\cdot 10^{-6}\,\mathrm{C}\cdot3.0\cdot 10^{-6}\,\mathrm{C}}{(0.10\,\mathrm{m})^2}
+      = \underline{\underline{5.4\,\mathrm{N}}}$$ Siden ladningene har motsatt fortegn, er kraften *tiltrekkende*.
+:::
+:::
+
+
+::::

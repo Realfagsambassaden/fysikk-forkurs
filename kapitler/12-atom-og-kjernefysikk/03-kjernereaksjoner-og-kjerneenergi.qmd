@@ -1,0 +1,18 @@
+---
+title: "Kjernereaksjoner og kjerneenergi"
+emne: atom-og-kjerne
+delemne: kjerneenergi
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om kjernereaksjoner og kjerneenergi. Temaet er en del av forkurspensumet og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Masse og energi: $E = mc^2$
+- Bindingsenergi
+- Fisjon (kjernekraft) og fusjon (sola)
+- Eksempler og oppgaver med løsning
