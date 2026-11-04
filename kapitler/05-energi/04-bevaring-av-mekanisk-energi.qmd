@@ -22,7 +22,7 @@ Når et legme beveger seg under påvirkning av kun tyngdekraft og/ eller fjærkr
 :::
 
 ::: {.eksempel}
-[Eksempel 5.6: Fallende stein]{.eks-tittel}
+[Eksempel: Fallende stein]{.eks-tittel}
 
 En person holder en stein på en høyde $1.60 \, \text{m}$ over bakken og slipper den. Vi skal regne ut steinens hastighet rett før den treffer bakken. Vi antar at luftmotstanden er neglisjerbar.
 
@@ -41,7 +41,7 @@ Vi bruker bevaring av mekanisk energi, som sier at total energien før og etter 
 :::
 
 ::: {.eksempel}
-[Eksempel 5.7: Fjærkanon i tyngdefeltet - Finn fjærkonstanten $k$]{.eks-tittel}
+[Eksempel: Fjærkanon i tyngdefeltet - Finn fjærkonstanten $k$]{.eks-tittel}
 
 En fjærkanon skyter en kanonkule med masse $0.20 \, \text{kg}$ rett opp i luften etter at fjæren har blitt komprimert med $x = 0.15 \, \text{m}$. Kanonkulen når en maksimal høyde på $h = 5.0 \, \text{m}$ før den faller tilbake ned igjen. Anta at all fjærens elastiske potensielle energi omformes til kanonkulas potensielle energi på toppen. Vi skal finne fjærkonstanten $k$ for fjæren.
 
@@ -58,7 +58,7 @@ Vi bruker bevaring av mekanisk energi, som sier at all elastisk potensiell energ
 :::
 
 ::: {.eksempel}
-[Eksempel 5.8: Kollisjon mellom legeme og fjær]{.eks-tittel}
+[Eksempel: Kollisjon mellom legeme og fjær]{.eks-tittel}
 
 Et legeme med masse $100 \, \text{g}$ glir fra ro nedover en friksjonsfri bane og kolliderer med en elastisk fjær med fjærkonstanten $k = 300 \, \text{N/m}$. Startpunktet for legemet er $60 \, \text{cm}$ over den horisontale delen av banen. Vi skal først finne farten til legemet idet det treffer fjæren, og deretter finne hvor langt fjæren blir maksimalt presset inn under kollisjonen.
 
@@ -80,7 +80,7 @@ Nå overføres all den kinetiske energien fra legemet til fjæren, som blir maks
 :::
 
 ::: {.eksempel}
-[Eksempel 5.9: Loop-the-loop]{.eks-tittel}
+[Eksempel: Loop-the-loop]{.eks-tittel}
 En ball med masse $m = 1.0\,\mathrm{kg}$ slippes fra ro fra en høyde $H = 10.0\,\mathrm{m}$ over bunnen av en friksjonsfri sirkularloop med radius $R = 2.0\,\mathrm{m}$. Beregn normalkraften på ballen i de tre markerte posisjonene: **1** bunn av loopen ($h = 0$), **2** halvveis opp på siden ($h = R$), og **3** toppen av loopen ($h = 2R$).
 
 ::: center
@@ -118,7 +118,7 @@ Normalkraften er størst i bunnen og minst på toppen. For at ballen skal holde 
 :::
 
 ::: {.eksempel}
-[Eksempel 5.10: Skrått kast]{.eks-tittel}
+[Eksempel: Skrått kast]{.eks-tittel}
 
 En kanonkule skytes ut med fart $v_0 = 20\,\mathrm{m}\,\mathrm{s}^{-1}$ i en vinkel $\theta = 30^\circ$ over horisontalen. Se bort fra luftmotstand.
 

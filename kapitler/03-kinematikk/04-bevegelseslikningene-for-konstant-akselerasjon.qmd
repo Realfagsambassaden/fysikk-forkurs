@@ -76,7 +76,7 @@ Likning 1 og 2 kan også utledes ved integrasjon. Siden $a$ er konstant, integre
 Disse fire likningene gir et komplett sett med verktøy for å analysere bevegelse under konstant akselerasjon. Det er imidlertid avgjørende å huske at de bare gjelder når akselerasjonen ikke varierer. Hvis akselerasjonen endrer seg, blir bevegelsen mer kompleks, og disse likningene vil ikke lenger være gyldige.
 
 ::: {.eksempel}
-[Eksempel 3.7: Bremseavstand]{.eks-tittel}
+[Eksempel: Bremseavstand]{.eks-tittel}
 
 En bil har en startfart på $30 \, \mathrm{m}\,\mathrm{s}^{-1}$ og bremser med en konstant akselerasjon på $-5.0 \, \mathrm{m}\,\mathrm{s}^{-2}$. Hvor langt beveger bilen seg før den stopper helt?
 
@@ -86,7 +86,7 @@ En bil har en startfart på $30 \, \mathrm{m}\,\mathrm{s}^{-1}$ og bremser med e
 :::
 
 ::: {.eksempel}
-[Eksempel 3.8: Sykkeltur]{.eks-tittel}
+[Eksempel: Sykkeltur]{.eks-tittel}
 
 Du sykler med en startfart på $5.0 \, \mathrm{m}\,\mathrm{s}^{-1}$ og akselererer til $15 \, \mathrm{m}\,\mathrm{s}^{-1}$ over en tidsperiode på $10$ sekunder. Hvor langt syklet du i denne perioden?
 
@@ -109,7 +109,7 @@ $\displaystyle \text{Tyngdens akselerasjon:}\quad\mathrm{g} = 9.81\,\mathrm{m}\,
 
 I videoen slippes en stein fra en bro for å måle brohøyden — akkurat dette scenarioet går vi gjennom numerisk (med og uten luftmotstand) i notatboken det er lenket til under.
 
-*Kodefil: [TRES0312 Python/Kap3_Kinematikk/K3_steinkast_luftmotstand.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap3_Kinematikk/K3_steinkast_luftmotstand.ipynb)*
+*Kodefil: [K3_steinkast_luftmotstand.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap3_Kinematikk/K3_steinkast_luftmotstand.ipynb)*
 
 Legemer som kun er under påvirkning av tyngdekraften, sies å være i **fritt fall**. En bergknaus som faller fra fjellet og nedover mot fjorden er for eksempel i fritt fall. Eller — ikke helt; vi må jo huske luftmotstanden, som også påvirker knausens bevegelse gjennom lufta. Noen ganger simulerer man vektløshet i fly. Dette er å simulere fritt fall. Inne i flyet så fallre jo lufta sammen med deg, og du påvirkes derfor ikke av luftmotstand heller. Dermed får man til fritt fall, som altså er det samme som vektløshet. Hadde du tatt med en baderomsvekt opp i flyet, ville du sett at vekten viste 0 kg under fritt fall! Fin (men kortvarig) jubel over vektnedgang ;)
 
@@ -120,7 +120,7 @@ Dersom alle legemer faller med lik akselerasjon under fritt fall, hvorfor faller
 :::
 
 ::: {.eksempel}
-[Eksempel 3.9: Hastighetsendring]{.eks-tittel}
+[Eksempel: Hastighetsendring]{.eks-tittel}
 
 Tenk deg at du kaster en ball rett opp i luften med en startfart på $10 \, \mathrm{m}\,\mathrm{s}^{-1}$. Tyngdekraften gir ballen en konstant akselerasjon på $-9.81 \, \mathrm{m}\,\mathrm{s}^{-2}$. Hvor raskt beveger ballen seg etter $2.0$ sekunder?
 
@@ -130,7 +130,7 @@ Tenk deg at du kaster en ball rett opp i luften med en startfart på $10 \, \mat
 :::
 
 ::: {.eksempel}
-[Eksempel 3.10: Fallende objekt]{.eks-tittel}
+[Eksempel: Fallende objekt]{.eks-tittel}
 
 En stein blir sluppet fra en bro $35 \, \mathrm{m}$ over bakken. Hvor høyt over bakken er steinen etter $2.0$ sekunder? Tyngdens akselerasjon er $9.81 \, \mathrm{m}\,\mathrm{s}^{-2}$, og startfarten er $v_0 = 0$. Vi ser bort fra luftmotstand.
 
@@ -149,7 +149,7 @@ b)  En sten kastes rett oppover, og faller rett ned igjen. Hva er akselerasjonen
 
 ::: {.losning}
 
-**a)** Når vi ser bort fra luftmotstand, er den eneste kraften som virker på steinen tyngdekraften. Alle legemer i fritt fall har da samme akselerasjon, tyngdens akselerasjon (se *Fritt fall som eksempel* i kompendiet): $$a = \underline{\underline{\mathrm g = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}}}\ \text{(rettet nedover)}$$
+**a)** Når vi ser bort fra luftmotstand, er den eneste kraften som virker på steinen tyngdekraften. Alle legemer i fritt fall har da samme akselerasjon, tyngdens akselerasjon (se *Fritt fall som eksempel*): $$a = \underline{\underline{\mathrm g = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}}}\ \text{(rettet nedover)}$$
 
 **b)** Så lenge luftmotstand ses bort fra, er steinen i fritt fall under hele kastet – både på vei opp, på toppen og på vei ned. Akselerasjonen er derfor **konstant lik $\mathrm g$, rettet nedover, i alle tre tilfeller**. Det som endrer seg er *farten*, ikke akselerasjonen:
 
@@ -216,7 +216,7 @@ Husk at når du dekomponerer så er alle fortegn avhengig av hva du har valt som
 La oss nå se på eksempler for å lære dette med dekomponering ordentlig.
 
 ::: {.eksempel}
-[Eksempel 3.11: Straffespark]{.eks-tittel}
+[Eksempel: Straffespark]{.eks-tittel}
 
 Håland skal skyte et straffespark, og skyter ballen med en utgangsvinkel på $18^\circ$ i forhold til bakken, se figuren. Straffemerket ligger $11\,\mathrm{m}$ fra mållinjen. Et fotballmål er internasjonalt standardisert til å være $2.44\,\mathrm{m}$ høyt (avstanden fra bakken til undersiden av tverrliggeren). Ballen har imidlertid selv en viss utstrekning, så det holder at *senteret* av ballen befinner seg i høyden $2.30\,\mathrm{m}$ for at ballen så vidt skal passere under tverrliggeren. Håland ønsker å skyte ballen slik at den passerer rett under tverrliggeren, akkurat idet den når mållinjen. Vi ser bort fra luftmotstand. Hvor stor må utgangsfarten $v_0$ være?\
 
@@ -239,7 +239,7 @@ Håland skal skyte et straffespark, og skyter ballen med en utgangsvinkel på $1
 :::
 
 ::: {.eksempel}
-[Eksempel 3.12: Rallybil kjører utfor]{.eks-tittel}
+[Eksempel: Rallybil kjører utfor]{.eks-tittel}
 
 En rallybil kjører utfor banen. Den starter med farten $v_0 = 80\,\mathrm{km}\,\mathrm{h}^{-1}$. Fordi den kjører over et jorde og gjennom noen busker, bremses farten, slik at den til slutt er $v_1 = 30\,\mathrm{km}\,\mathrm{h}^{-1}$. Vi antar at denne oppbremsingen skjer med konstant akselerasjon over en strekning på $50\,\mathrm{m}$. Deretter kjører bilen utfor en klippe og lander $5.0\,\mathrm{m}$ lenger nede, se figuren.
 
@@ -282,7 +282,7 @@ c)  Finn farten (størrelsen av hastighetsvektoren) rett før ballen treffer bak
 
 ::: {.losning}
 
-Ballens bane er krumlinjet, så vi dekomponerer bevegelsen i en horisontal ($x$) og vertikal ($y$) retning, slik som i eksempelet *Rallybil kjører utfor* (figuren) i kompendiet. Vi lar $x_0=0$ ved klippekanten og $y_0=h=5.0\,\mathrm{m}$ være høyden over bakken der ballen lander ($y=0$). Ballen kastes horisontalt, så $$\vec v_0 = [v_{0x}, v_{0y}] = [10\,\mathrm{m}\,\mathrm{s}^{-1},\,0], \qquad \vec a = [a_x,a_y] = [0,\,-\mathrm g].$$ Komponentvis gir den generelle posisjonslikningen $\vec s(t) = \vec s_0+\vec v_0 t+\tfrac12\vec a t^2$: $$x(t) = v_0 t, \qquad y(t) = h - \tfrac12 \mathrm g t^2.$$
+Ballens bane er krumlinjet, så vi dekomponerer bevegelsen i en horisontal ($x$) og vertikal ($y$) retning, slik som i eksempelet *Rallybil kjører utfor* (figuren). Vi lar $x_0=0$ ved klippekanten og $y_0=h=5.0\,\mathrm{m}$ være høyden over bakken der ballen lander ($y=0$). Ballen kastes horisontalt, så $$\vec v_0 = [v_{0x}, v_{0y}] = [10\,\mathrm{m}\,\mathrm{s}^{-1},\,0], \qquad \vec a = [a_x,a_y] = [0,\,-\mathrm g].$$ Komponentvis gir den generelle posisjonslikningen $\vec s(t) = \vec s_0+\vec v_0 t+\tfrac12\vec a t^2$: $$x(t) = v_0 t, \qquad y(t) = h - \tfrac12 \mathrm g t^2.$$
 
 **a)** Ballen treffer bakken når $y(t)=0$: $$0 = h - \tfrac12\mathrm g t^2 \quad\Rightarrow\quad t = \sqrt{\frac{2h}{\mathrm g}} = \sqrt{\frac{2\cdot5.0\,\mathrm{m}}{9.81\,\mathrm{m}\,\mathrm{s}^{-2}}} = 1.01\,\mathrm{s} \approx \underline{\underline{1.0\,\mathrm{s}}}$$
 
@@ -311,7 +311,7 @@ d)  Skriv sluttposisjonen som en vektor $[x,\,y]$.
 
 ::: {.losning}
 
-Dette er samme type dekomponering som i eksempelet *Straffespark* (figuren) i kompendiet, men nå helt generelt og symbolsk.
+Dette er samme type dekomponering som i eksempelet *Straffespark* (figuren), men nå helt generelt og symbolsk.
 
 **a)** Prosjektilet starter i origo, $\vec s_0=[x_0,y_0]=[0,0]$, med utgangsfart dekomponert som $\vec v_0=[v_0\cos\theta,\,v_0\sin\theta]$, og akselerasjon $\vec a=[0,-\mathrm g]$ (kun tyngdekraften). Fra posisjonslikningen $\vec s(t)=\vec s_0+\vec v_0 t+\tfrac12\vec a t^2$, komponentvis: $$x(t) = v_0\cos\theta\cdot t, \qquad y(t) = v_0\sin\theta\cdot t - \tfrac12\mathrm g t^2.$$
 

@@ -6,12 +6,14 @@ aliases: ["/forkurs/09-elektrisitet/01-begreper.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}
-Dette kapittelet skrives fortsatt.
+
+Denne siden skrives fortsatt.
+
 :::
 
 :::: {.oppgaver}
 
-Her kommer noen begreper som er relevante å forstå for dette kapittelet.
+Her kommer noen begreper som er nyttige å forstå i elektrisitetslæren.
 
 **Elektrisitet**\
 Elektrisitet er små partikler med positive eller negative ladninger.\
@@ -22,11 +24,15 @@ Elektrisk strøm er partikler i bevegelse. Strøm har symbolet *I* og enhet ampe
 Strømmen i en krets kan illustreres slik:\
 
 :::: figure
+
 ![](../../bilder/tres/strom-illustrering.png){.kompendium-bilde}
 
 ::: caption
+
 Caption
+
 :::
+
 ::::
 
 **Spenning**\
@@ -41,35 +47,47 @@ Spenningen $U$ mellom to punkter er arbeidet som kreves for å flytte ladningen 
 Spenningskilden i en krets tegnes typisk to forskjellige måter vist i Figuren og Figuren.
 
 :::: figure
+
 ![](../../bilder/tres/spenningskilde-1.png){.kompendium-bilde}
 
 ![](../../bilder/tres/spenningskilde-2.png){.kompendium-bilde}
 
 ::: caption
+
 Spenningskilde 2
+
 :::
+
 ::::
 
 **Seriekobling**\
 En seriekobling er en krets som er koblet slik at strømmen bare kan gå "en vei". I Figuren er R1, R2, og R3 resistanser og V1 er en spenningskilde. Strømmen vil gå inn og gjennom i R1, R2 og R3. Siden strømmen bare "har en vei" å gå, vil det i teorien være like mye strøm over hele området i seriekoblingen som vises i Figuren. Strømmen har ingen plass å dele seg.
 
 :::: figure
+
 ![](../../bilder/tres/seriekobling.png){.kompendium-bilde}
 
 ::: caption
+
 Seriekobling
+
 :::
+
 ::::
 
 **Parallellkobling**\
 Parallellkobling er en måte å koble en krets slik at komponentene ligger "over" hverandre. I Figuren vises en parallellkobling, der R1 og R2 er resistanser og U er en spenningskilde. I denne kretsen vil strømmen vil gå fra spenningskilden og "dele" seg utover resistansene.\
 
 :::: figure
+
 ![](../../bilder/tres/parallellkobling.png){.kompendium-bilde}
 
 ::: caption
+
 Parallellkobling
+
 :::
+
 ::::
 
 **Leder, isolator og halvleder**\
@@ -91,12 +109,16 @@ I en **parallellkobling**, derimot, deler veien seg og elektronene kan "velge" m
 :::
 
 :::: figure
+
 ![](../../bilder/tres/elektroner.png){.kompendium-bilde}
 
 ::: caption
+
 Krets med elektroner i
+
 :::
-::::
-
 
 ::::
+
+::::
+

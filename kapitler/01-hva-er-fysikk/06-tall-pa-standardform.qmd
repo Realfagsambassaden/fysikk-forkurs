@@ -12,7 +12,7 @@ aliases: ["/forkurs/01-hva-er-fysikk/05-tall-pa-standardform.html"]
 Standardform er en måte å skrive tall på som tydeliggjør både antall siffer og størrelsesorden. Et tall $T$ skrevet på standardform har følgende form: $$\textrm{T}=t \cdot 10^n,$$ hvor $t$ er et flyt-tall mellom 1 og 10. Eksemplet under tydeliggjør forhåpentligvis konseptet.
 
 ::: {.eksempel}
-[Eksempel 1.8: Standardform]{.eks-tittel}
+[Eksempel: Standardform]{.eks-tittel}
 
 Skriv a) 0.07 b) 112 og c) 56 700 000 på standardform:
 
@@ -74,7 +74,7 @@ Oppgi også antall signifikante siffer i hvert tall, slik du tolker det.
 : SI-prefikser for potenser av ti.
 
 ::: {.eksempel}
-[Eksempel 1.9: Dekadiske prefikser]{.eks-tittel}
+[Eksempel: Dekadiske prefikser]{.eks-tittel}
 
 En viruspartikkel har diameter $d = 90\,\mathrm{nm}$.
 

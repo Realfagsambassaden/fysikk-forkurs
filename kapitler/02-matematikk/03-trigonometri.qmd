@@ -58,7 +58,7 @@ Ut ifra formlene over så se vi at vi får følgende formlerfor katetene $a$ og 
 : Viktige trigonometriske verdier.
 
 ::: {.eksempel}
-[Eksempel 2.5: Trigonometri: stige mot vegg]{.eks-tittel}
+[Eksempel: Trigonometri: stige mot vegg]{.eks-tittel}
 
 En stige av lengde $h = 5.0\,\mathrm{m}$ lener seg mot en vegg i vinkel $\theta = 37^\circ$ med gulvet. Finn den horisontale og vertikale komponenten til stigen.
 
@@ -71,7 +71,7 @@ y &= h\sin\theta = 5.0\cdot\sin 37^\circ \approx 5.0\cdot 0.602 \approx \underli
 :::
 
 ::: {.eksempel}
-[Eksempel 2.6: Bruk av $\sin^2\theta + \cos^2\theta = 1$]{.eks-tittel}
+[Eksempel: Bruk av $\sin^2\theta + \cos^2\theta = 1$]{.eks-tittel}
 
 En vinkel $\theta$ i første kvadrant har $\sin\theta = \dfrac{3}{5}$.
 
@@ -85,7 +85,7 @@ b)  Finn $\tan\theta$.
 :::
 
 ::: {.eksempel}
-[Eksempel 2.7: Fortegn til $\sin\theta$ og $\cos\theta$]{.eks-tittel}
+[Eksempel: Fortegn til $\sin\theta$ og $\cos\theta$]{.eks-tittel}
 
 Bruk enhetssirkelen til å avgjøre om $\sin\theta$ og $\cos\theta$ er positiv eller negativ for hver av vinklene:
 

@@ -22,7 +22,7 @@ Er fullstendig statisk likevekt nok til å sikre at et legeme står i ro uten å
 :::
 
 ::: {.eksempel}
-[Eksempel 6.6: Ensartet bjelke på to søyler]{.eks-tittel}
+[Eksempel: Ensartet bjelke på to søyler]{.eks-tittel}
 
 En ensartet bjelke med masse $M = 20\,\mathrm{kg}$ og lengde $L = 4.0\,\mathrm{m}$ hviler på to søyler, A og B. Søyle A står $0.50\,\mathrm{m}$ fra venstre ende, og søyle B står $1.0\,\mathrm{m}$ fra høyre ende.
 
@@ -77,7 +77,7 @@ c)  Hvilke krefter virker *på søylene* fra bjelken?
 :::
 
 ::: {.eksempel}
-[Eksempel 6.7: Vegghengt hylle med stag]{.eks-tittel}
+[Eksempel: Vegghengt hylle med stag]{.eks-tittel}
 
 En $60\,\mathrm{cm}$ lang, masselos hylle er festet til veggen i venstre ende (hengsel) og holdt oppe av et diagonalt stag festet til veggen $40\,\mathrm{cm}$ over hyllen, i en horisontal avstand $60\,\mathrm{cm}$ fra veggen. En gjenstand med masse $m = 3.0\,\mathrm{kg}$ er plassert på enden av hyllen. Finn stagkraften $T$ og kraften $\vec{H}$ fra hengselet på hylla.
 
@@ -106,7 +106,7 @@ Tyngdekraften $m\mathrm{g}$ lager et negativt (medurs) moment, den vertikale kom
 :::
 
 ::: {.eksempel}
-[Eksempel 6.8: Underarm som holder en vekt]{.eks-tittel}
+[Eksempel: Underarm som holder en vekt]{.eks-tittel}
 
 Du holder en vekt med masse $m_\text{v} = 5.0\,\mathrm{kg}$ i hånda, med underarmen horisontal og i ro. Underarmen kan rotere om albuen. Bicepsmuskelen er festet til underarmen $4.0\,\mathrm{cm}$ fra albuen og drar rett opp. Underarmen har masse $m_\text{a} = 1.5\,\mathrm{kg}$ med massesenteret $15\,\mathrm{cm}$ fra albuen, og vekta er $35\,\mathrm{cm}$ fra albuen.
 

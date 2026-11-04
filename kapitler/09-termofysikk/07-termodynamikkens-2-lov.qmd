@@ -7,7 +7,7 @@ plassholder: true
 
 <!-- tillegg: Claude -->
 ::: {.callout-note title="Kommer snart"}
-Her kommer stoff om termodynamikkens 2. lov. Temaet er en del av forkurspensumet og fylles ut snart.
+Her kommer stoff om termodynamikkens 2. lov. Temaet hører til forkursnivået og fylles ut snart.
 :::
 
 ## Dette kommer på siden

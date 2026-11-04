@@ -7,7 +7,7 @@ aliases: ["/forkurs/07-fluider/05-ekstraoppgaver.html"]
 
 :::: {.oppgaver}
 
-Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+Her er flere oppgaver om temaene foran.
 
 ::: {.oppgave tittel="Lufta i et klasserom"}
 [Lufta i et klasserom]{.oppg-tittel}

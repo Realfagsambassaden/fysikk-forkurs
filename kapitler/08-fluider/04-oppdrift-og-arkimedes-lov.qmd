@@ -43,7 +43,7 @@ Et legeme med masse $m$ flyter i vann. Det fortrengte volumet er den delen av le
 ::::
 
 ::: {.eksempel}
-[Eksempel 7.11: Stein i vann]{.eks-tittel}
+[Eksempel: Stein i vann]{.eks-tittel}
 
 Du holder en stein i en snor, slik at steinen henger i ro helt under vann. Steinen har masse $m = 5.4\,\mathrm{kg}$ og volum $V = 2.0\,\mathrm{L}$.
 
@@ -92,7 +92,7 @@ Stål har tetthet $\rho \approx 7850\,\mathrm{kg}\,\mathrm{m}^{-3}$, langt høye
 :::
 
 ::: {.eksempel}
-[Eksempel 7.12: Toppen av isfjellet]{.eks-tittel}
+[Eksempel: Toppen av isfjellet]{.eks-tittel}
 
 Et isfjell flyter i sjøen. Hvor stor andel av isfjellet ligger under vann? Bruk tettheter fra tabellen.
 
@@ -105,7 +105,7 @@ Isfjellet flyter i ro, så oppdriftskraften er like stor som tyngdekraften: $$F_
 :::
 
 ::: {.eksempel}
-[Eksempel 7.13: Oppdrift på en båt]{.eks-tittel}
+[Eksempel: Oppdrift på en båt]{.eks-tittel}
 
 En båt har et volum på $V = 9.0 \, \text{m}^3$, og $12\%$ av dette volumet er under vann.
 
@@ -124,7 +124,7 @@ b)  Hva er massen til båten?
 :::
 
 ::: {.eksempel}
-[Eksempel 7.14: Stein, båt og basseng]{.eks-tittel}
+[Eksempel: Stein, båt og basseng]{.eks-tittel}
 
 En liten båt flyter i et basseng. I båten ligger en stein med masse $m_\text{s} = 3.0\,\mathrm{kg}$ og massetetthet $\rho_\text{s} = 2.5\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}$. Vannflaten i bassenget har areal $A = 2.0\,\mathrm{m}^{2}$. Du tar steinen ut av båten og slipper den ned i bassenget, der den synker til bunnen (se figuren).
 
@@ -205,7 +205,7 @@ d)  Finn massetettheten til kronen. Er den laget av rent gull?
 
 **b)** Kronen henger i ro, så $\sum F = 0$: $$S + F_{\textrm{B}} - G = 0 \quad\implies\quad F_{\textrm{B}} = G - S$$ Tyngdekraften er $G = m\mathrm{g} = 1.00\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 9.81\,\mathrm{N}$, så $$F_{\textrm{B}} = 9.81\,\mathrm{N} - 9.15\,\mathrm{N} = \underline{\underline{0.660\,\mathrm{N}}}$$
 
-**c)** Kronen er helt under vann, så det fortrengte volumet er lik volumet til kronen. Fra $F_{\textrm{B}} = \rho_v\mathrm{g}V$ (se *Oppdriftskraft* i kompendiet): $$V = \frac{F_{\textrm{B}}}{\rho_v\mathrm{g}} = \frac{0.660\,\mathrm{N}}{1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = 6.728\cdot 10^{-5}\,\mathrm{m}^{3} \approx \underline{\underline{6.73\cdot 10^{-5}\,\mathrm{m}^{3}}}$$
+**c)** Kronen er helt under vann, så det fortrengte volumet er lik volumet til kronen. Fra $F_{\textrm{B}} = \rho_v\mathrm{g}V$ (se *Oppdriftskraft*): $$V = \frac{F_{\textrm{B}}}{\rho_v\mathrm{g}} = \frac{0.660\,\mathrm{N}}{1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = 6.728\cdot 10^{-5}\,\mathrm{m}^{3} \approx \underline{\underline{6.73\cdot 10^{-5}\,\mathrm{m}^{3}}}$$
 
 **d)** Massetettheten er $$\rho = \frac{m}{V} = \frac{1.00\,\mathrm{kg}}{6.73\cdot 10^{-5}\,\mathrm{m}^{3}} = 1.486\cdot 10^{4}\,\mathrm{kg}\,\mathrm{m}^{-3} \approx \underline{\underline{1.49\cdot 10^{4}\,\mathrm{kg}\,\mathrm{m}^{-3}}}$$ Rent gull har $\rho = 19.3\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}$. Kronen har lavere tetthet, så den er **ikke laget av rent gull**. Den er trolig blandet med et lettere metall, for eksempel sølv. En krone av rent gull ville hatt mindre volum, fått mindre oppdrift, og kraftmåleren ville vist omtrent $9.30\,\mathrm{N}$.
 
@@ -232,7 +232,7 @@ d)  Hvor stor masse kan du legge oppå klossen før den synker helt ned under va
 
 **b)** Klossen flyter i ro, så oppdriftskraften er lik tyngdekraften, $F_{\textrm{B}} = G$: $$\rho_v\mathrm{g}V_\text{f} = \rho_L\mathrm{g}V
     \quad\implies\quad
-    \frac{V_\text{f}}{V} = \frac{\rho_L}{\rho_v} = \frac{600\,\mathrm{kg}\,\mathrm{m}^{-3}}{1000\,\mathrm{kg}\,\mathrm{m}^{-3}} = 0.60 = \underline{\underline{60\,\%}}$$ (Dette er samme fremgangsmåte som i eksempelet *Toppen av isfjellet* i kompendiet.)
+    \frac{V_\text{f}}{V} = \frac{\rho_L}{\rho_v} = \frac{600\,\mathrm{kg}\,\mathrm{m}^{-3}}{1000\,\mathrm{kg}\,\mathrm{m}^{-3}} = 0.60 = \underline{\underline{60\,\%}}$$ (Dette er samme fremgangsmåte som i eksempelet *Toppen av isfjellet*.)
 
 **c)** Klossen ligger med den største flaten ned, så høyden er $10\,\mathrm{cm}$. Siden 60 % av volumet er under vann, og grunnflaten er den samme hele veien opp, er også 60 % av høyden under vann: $$h_\text{f} = 0.60\cdot10\,\mathrm{cm} = \underline{\underline{6.0\,\mathrm{cm}}}$$
 

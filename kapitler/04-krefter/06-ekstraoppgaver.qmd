@@ -7,7 +7,7 @@ aliases: ["/forkurs/04-krefter/06-ekstraoppgaver.html"]
 
 :::: {.oppgaver}
 
-Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+Her er flere oppgaver om temaene foran.
 
 ::: {.oppgave tittel="Kraft og motkraft"}
 [Kraft og motkraft]{.oppg-tittel}
@@ -27,7 +27,7 @@ c)  Hva er motkraften til tyngdekraften på boka? Hva er motkraften til normalkr
 ::: center
 :::
 
-**b)** Nei. Selv om $\vec G$ og $\vec N$ er like store og motsatt rettet, er de **ikke** et kraft-motkraft-par. Grunnen er at et kraft-motkraft-par (Newtons 3. lov) alltid virker på *to forskjellige* legemer, mens $\vec G$ og $\vec N$ begge virker på *samme* legeme – boka (se *Normalkraft*, tankeboksen i kompendiet).
+**b)** Nei. Selv om $\vec G$ og $\vec N$ er like store og motsatt rettet, er de **ikke** et kraft-motkraft-par. Grunnen er at et kraft-motkraft-par (Newtons 3. lov) alltid virker på *to forskjellige* legemer, mens $\vec G$ og $\vec N$ begge virker på *samme* legeme – boka (se *Normalkraft*, tankeboksen).
 
 **c)** Motkraften til tyngdekraften $\vec G$ (jordas tiltrekning på boka) er boka sin tiltrekning på jorda – en kraft med samme størrelse $G$, rettet oppover, som virker *på jorda*. Motkraften til normalkraften $\vec N$ (bordets kraft på boka) er boka sin kraft *på bordet* – en kraft med samme størrelse $N$, rettet nedover, som virker *på bordet* (boka presser ned på bordet med samme kraft som bordet presser opp på boka).
 
@@ -66,7 +66,7 @@ d)  Finn akselerasjonen til klossen.
 
 **c)** Friksjonskraften: $$R = \mu_k N = 0.20\cdot42.5\,\mathrm{N} = 8.50\,\mathrm{N} \approx \underline{\underline{8.5\,\mathrm{N}}}$$
 
-**d)** Akselerasjonen (se også *Utledning av akselerasjon ned et skråplan med friksjon* i kompendiet): $$a = \mathrm{g}(\sin\theta - \mu_k\cos\theta) = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot\left(\sin(30^\circ) - 0.20\cos(30^\circ)\right) = 3.21\,\mathrm{m}\,\mathrm{s}^{-2} \approx \underline{\underline{3.2\,\mathrm{m}\,\mathrm{s}^{-2}}}$$ rettet nedover langs planet.
+**d)** Akselerasjonen (se også *Utledning av akselerasjon ned et skråplan med friksjon*): $$a = \mathrm{g}(\sin\theta - \mu_k\cos\theta) = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot\left(\sin(30^\circ) - 0.20\cos(30^\circ)\right) = 3.21\,\mathrm{m}\,\mathrm{s}^{-2} \approx \underline{\underline{3.2\,\mathrm{m}\,\mathrm{s}^{-2}}}$$ rettet nedover langs planet.
 
 :::
 
@@ -85,7 +85,7 @@ c)  Hvor fort kan bilen kjøre over toppen før den mister kontakten med veien?
 
 ::: {.losning}
 
-**1. Figur:** Bilen befinner seg på *utsiden* av den sirkulære bakketoppen (motsatt av vogna på *innsiden* av loopen i kompendiet, figuren). Sentrum av sirkelbuen ligger rett under bilen, så “inn mot sentrum” betyr her *nedover*. To krefter virker: tyngdekraften $\vec G=m\vec{\mathrm g}$ (ned, altså inn mot sentrum) og normalkraften $\vec N$ fra veien (opp, altså *ut* fra sentrum – veien kan bare skyve bilen opp, ikke trekke den ned):
+**1. Figur:** Bilen befinner seg på *utsiden* av den sirkulære bakketoppen (motsatt av vogna på *innsiden* av loopen, figuren). Sentrum av sirkelbuen ligger rett under bilen, så “inn mot sentrum” betyr her *nedover*. To krefter virker: tyngdekraften $\vec G=m\vec{\mathrm g}$ (ned, altså inn mot sentrum) og normalkraften $\vec N$ fra veien (opp, altså *ut* fra sentrum – veien kan bare skyve bilen opp, ikke trekke den ned):
 
 ::: center
 :::
@@ -117,7 +117,7 @@ c)  Hvor stor er denne kraften sammenliknet med tyngdekraften på ballen?
 
 ::: {.losning}
 
-**a)** Ballen er i ro før sparket, så endringen i bevegelsesmengde er (se *Impuls* i kompendiet): $$\Delta p = m v - m\cdot 0 = 0.45\,\mathrm{kg}\cdot25\,\mathrm{m}\,\mathrm{s}^{-1} = 11.25\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{11\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+**a)** Ballen er i ro før sparket, så endringen i bevegelsesmengde er (se *Impuls*): $$\Delta p = m v - m\cdot 0 = 0.45\,\mathrm{kg}\cdot25\,\mathrm{m}\,\mathrm{s}^{-1} = 11.25\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{11\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
 
 **b)** Siden $\Delta p = F\,\Delta t$, finner vi den gjennomsnittlige kraften: $$F = \frac{\Delta p}{\Delta t} = \frac{11.25\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}{8.0\cdot 10^{-3}\,\mathrm{s}} = 1410\,\mathrm{N} \approx \underline{\underline{1.4\cdot 10^{3}\,\mathrm{N}}}$$
 

@@ -12,7 +12,7 @@ aliases: ["/forkurs/07-fluider/03-pascals-lov.html"]
 Når vi utøver et ytre trykk $\Delta p$ på en væske som er i ro, vil trykket i hele væsken øke med samme mengde $\Delta p$. Dette betyr at trykkøkningen er lik i alle retninger, uavhengig av væskens høyde. Selv om trykkøkningen er konstant, vil det totale trykket fortsatt variere med høyden på grunn av det hydrostatiske trykket.
 
 ::: {.eksempel}
-[Eksempel 7.9: Lodd på et stempel]{.eks-tittel}
+[Eksempel: Lodd på et stempel]{.eks-tittel}
 
 En sylinderformet beholder er fylt med vann og lukket med et tett stempel som kan gli uten friksjon. Stempelet har areal $A = 0.010\,\mathrm{m}^{2}$, og vi ser bort fra massen til stempelet. Over stempelet er det luft med trykket $p_0 = 1.013\cdot 10^{5}\,\mathrm{Pa}$. Vi legger et lodd med masse $m = 20\,\mathrm{kg}$ på stempelet.
 
@@ -75,7 +75,7 @@ Pascals lov i et hydraulisk system. Personen presser lett ned på det lille stem
 ::::
 
 ::: {.eksempel}
-[Eksempel 7.10: Hydraulisk jekk]{.eks-tittel}
+[Eksempel: Hydraulisk jekk]{.eks-tittel}
 
 En hydraulisk jekk har to stempler. Det lille stempelet har areal $A_1 = 5.0\,\mathrm{cm}^{2} = 5.0\cdot 10^{-4}\,\mathrm{m}^{2}$ og det store stempelet har areal $A_2 = 200\,\mathrm{cm}^{2} = 2.0\cdot 10^{-2}\,\mathrm{m}^{2}$. En kraft $F_1 = 50\,\mathrm{N}$ påføres det lille stempelet. Hva er kraften $F_2$ fra væsken på det store stempelet?
 
@@ -114,7 +114,7 @@ d)  Regn ut arbeidet som gjøres på det lille stempelet, og arbeidet som gjøre
 
 **a)** Radiene er $r_1 = 1.0\,\mathrm{cm}$ og $r_2 = 10\,\mathrm{cm}$. Forholdet mellom arealene er $$\frac{A_2}{A_1} = \frac{\pi r_2^2}{\pi r_1^2} = \left(\frac{r_2}{r_1}\right)^2 = \left(\frac{10\,\mathrm{cm}}{1.0\,\mathrm{cm}}\right)^2 = \underline{\underline{100}}$$ Når diameteren blir ti ganger så stor, blir arealet hundre ganger så stort.
 
-**b)** For å holde bilen oppe må kraften fra væsken på det store stempelet være lik tyngden av bilen, $F_2 = m\mathrm{g} = 1500\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 14715\,\mathrm{N}$. Fra Pascals lov (se *Pascals lov* i kompendiet): $$\frac{F_1}{A_1} = \frac{F_2}{A_2}
+**b)** For å holde bilen oppe må kraften fra væsken på det store stempelet være lik tyngden av bilen, $F_2 = m\mathrm{g} = 1500\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 14715\,\mathrm{N}$. Fra Pascals lov (se *Pascals lov*): $$\frac{F_1}{A_1} = \frac{F_2}{A_2}
     \quad\implies\quad
     F_1 = F_2\cdot\frac{A_1}{A_2} = \frac{14715\,\mathrm{N}}{100} = 147\,\mathrm{N} \approx \underline{\underline{1.5\cdot 10^{2}\,\mathrm{N}}}$$ Det tilsvarer tyngden av omtrent $15\,\mathrm{kg}$.
 

@@ -76,7 +76,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-*Kodefil: [TRES0312 Python/Kap2_MatematiskeVerktoyViTrenger/K2_funksjoner_og_plotting.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_funksjoner_og_plotting.ipynb)*
+*Kodefil: [K2_funksjoner_og_plotting.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_funksjoner_og_plotting.ipynb)*
 
 :::: figure
 ![](../../bilder/tres/python-plot-02-bevegelse.svg){.kompendium-bilde}

@@ -6,7 +6,7 @@ aliases: ["/forkurs/08-termofysikk/01-indre-energi-varme-og-temperatur.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}
-Dette kapittelet skrives fortsatt.
+Denne siden skrives fortsatt.
 :::
 
 :::: {.oppgaver}
@@ -62,7 +62,7 @@ Temperatur er *ikke* en egenskap ved ett enkelt molekyl — det er et statistisk
 :::
 
 ::: {.eksempel}
-[Eksempel 8.1: Gjennomsnittlig energi til et heliumatom]{.eks-tittel}
+[Eksempel: Gjennomsnittlig energi til et heliumatom]{.eks-tittel}
 
 Heliumgass holdes ved romtemperatur $T = 293\,\mathrm{K}$. Finn den gjennomsnittlige translasjonsenergien til ett He-atom.
 
@@ -93,7 +93,7 @@ Siden gradene er like store, er en temperatur*endring* like stor på begge skala
 :::
 
 ::: {.eksempel}
-[Eksempel 8.2: Dobbelt så stor energi]{.eks-tittel}
+[Eksempel: Dobbelt så stor energi]{.eks-tittel}
 
 En gass har temperaturen $27\,^\circ$C. Vi varmer opp gassen helt til den gjennomsnittlige kinetiske energien til molekylene er dobbelt så stor. Hva er temperaturen da, i kelvin og i celsius?
 
@@ -106,7 +106,7 @@ Den gjennomsnittlige kinetiske energien er proporsjonal med den absolutte temper
 :::
 
 ::: {.eksempel}
-[Eksempel 8.3: Farten til oksygenmolekyler]{.eks-tittel}
+[Eksempel: Farten til oksygenmolekyler]{.eks-tittel}
 
 Lufta i et klasserom holder romtemperatur, $20\,^\circ$C. Omtrent hvor fort beveger oksygenmolekylene i lufta seg? Et oksygenmolekyl ($\text{O}_2$) har massen $m = 5.31\cdot 10^{-26}\,\mathrm{kg}$.
 
@@ -233,7 +233,7 @@ Temperatur og varme er altså tett forbundet, men ikke helt det samme. Merk at e
 Varme kan overføres på tre måter: ved *varmeledning* gjennom direkte kontakt (en gryte på en varm kokeplate), ved *konveksjon*, der en varm væske eller gass strømmer og tar energien med seg (varm luft som stiger), og ved *stråling* (sola som varmer oss gjennom det tomme rommet).
 
 ::: {.eksempel}
-[Eksempel 8.4: Liten og stor kjele]{.eks-tittel}
+[Eksempel: Liten og stor kjele]{.eks-tittel}
 
 En liten kjele med $1.0\,\mathrm{L}$ vann og en stor kjele med $5.0\,\mathrm{L}$ vann har begge temperaturen $60\,^\circ$C. Kjelene settes på kjøkkenbenken, der det er $20\,^\circ$C.
 

@@ -26,7 +26,7 @@ Når vi skal løse oppgaver som handler om likevekt, blir framgangsmåten den sa
 La oss ta et eksempel for å illustrere framgangsmåten.
 
 ::: {.eksempel}
-[Eksempel 6.1: Trafikklys]{.eks-tittel}
+[Eksempel: Trafikklys]{.eks-tittel}
 
 Et trafikklys med masse $m = 50\,\mathrm{kg}$ henger i to like lange snorer som danner vinkel $\alpha = 30°$ med horisontalplanet (se figuren under). Finn snorkraften $S$ i hver snor.
 
@@ -59,7 +59,7 @@ Et trafikklys med masse $m = 50\,\mathrm{kg}$ henger i to like lange snorer som 
 :::
 
 ::: {.eksempel}
-[Eksempel 6.2: Lampe i to ulike snorer]{.eks-tittel}
+[Eksempel: Lampe i to ulike snorer]{.eks-tittel}
 
 En lampe med masse $m = 6.0\,\mathrm{kg}$ henger i ro i to snorer festet i taket. Snor 1 danner vinkelen $\alpha_1 = 30^\circ$ med horisontalen, og snor 2 danner vinkelen $\alpha_2 = 60^\circ$ med horisontalen (se figuren).
 
@@ -99,7 +99,7 @@ c)  Finn snorkreftene $S_1$ og $S_2$.
 :::
 
 ::: {.eksempel}
-[Eksempel 6.3: Bil trukket opp en bakke]{.eks-tittel}
+[Eksempel: Bil trukket opp en bakke]{.eks-tittel}
 
 En vinsj trekker en bil med masse $m = 1200\,\mathrm{kg}$ opp en bakke med *konstant fart*. Bakken har helningsvinkel $\theta = 20^\circ$, og wiren fra vinsjen er parallell med bakken. Vi ser bort fra friksjon og luftmotstand.
 

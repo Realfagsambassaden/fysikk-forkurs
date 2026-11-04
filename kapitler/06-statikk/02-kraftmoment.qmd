@@ -44,7 +44,7 @@ Kraftmomentet er positivt når rotasjonen er mot klokken (positiv dreieretning),
 :::
 
 ::: {.eksempel}
-[Eksempel 6.4: Bolt og skiftenøkkel]{.eks-tittel}
+[Eksempel: Bolt og skiftenøkkel]{.eks-tittel}
 
 En skiftenøkkel med armlengde $\ell = 25\,\mathrm{cm}$ brukes til å stramme en bolt. En kraft $F = 80\,\mathrm{N}$ påføres vinkelrett på nøkkelskaftet. Beregn kraftmomentet om boltens sentrum.
 
@@ -58,7 +58,7 @@ Siden kraften er vinkelrett på armen, er $\theta = 90^\circ$ og $\sin 90^\circ 
 :::
 
 ::: {.eksempel}
-[Eksempel 6.5: Tråkke på en sykkelpedal]{.eks-tittel}
+[Eksempel: Tråkke på en sykkelpedal]{.eks-tittel}
 
 Pedalarmen på en sykkel har lengde $r = 0.17\,\mathrm{m}$, målt fra akselen til pedalen. Syklisten trår rett ned på pedalen med en kraft $F = 300\,\mathrm{N}$. Finn kraftmomentet om akselen når
 
@@ -107,7 +107,7 @@ c)  Hva skjer med kraften som trengs for å oppnå det samme momentet dersom arm
 
 ::: {.losning}
 
-Kraften står vinkelrett på døra, så momentarmen er avstanden fra hengslene, og $\tau = d\cdot F$ (se *Kraftmoment* i kompendiet).
+Kraften står vinkelrett på døra, så momentarmen er avstanden fra hengslene, og $\tau = d\cdot F$ (se *Kraftmoment*).
 
 **a)** $$\tau = 0.90\,\mathrm{m}\cdot15\,\mathrm{N} = 13.5\,\mathrm{N}\,\mathrm{m} \approx \underline{\underline{14\,\mathrm{N}\,\mathrm{m}}}$$
 

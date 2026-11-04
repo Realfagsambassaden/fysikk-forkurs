@@ -7,7 +7,7 @@ aliases: ["/forkurs/05-energi/01-arbeid.html"]
 
 :::: {.oppgaver}
 
-I forrige kapittel så vi at kraft anvendt over tid forårsaket en endring i bevegelsesmengde: $$\Delta\vec{p}=\vec{F}\Delta t.$$ Arealet under en $F(t)$-graf tilsvarer altså (endring i) bevegelsesmengde. Men... da er det saktens fristende å prøve noe annet også: Hva blir arealet under en $F(s)$-graf? $$??=\vec{F}\cdot \Delta\vec{s}.$$ La oss si at Eva er på Hyrox-trening og dytter en kasse bortover et humpete gulv, slik at kraften hun virker på kassen med varierer med posisjonen; $F(s)$. Hvordan skal vi da tolke arealet under $F(s)$-grafen? Jo, dette arealet er et mål på det vi i fysikken kaller *arbeid*;
+Vi har sett at kraft anvendt over tid forårsaket en endring i bevegelsesmengde: $$\Delta\vec{p}=\vec{F}\Delta t.$$ Arealet under en $F(t)$-graf tilsvarer altså (endring i) bevegelsesmengde. Men... da er det saktens fristende å prøve noe annet også: Hva blir arealet under en $F(s)$-graf? $$??=\vec{F}\cdot \Delta\vec{s}.$$ La oss si at Eva er på Hyrox-trening og dytter en kasse bortover et humpete gulv, slik at kraften hun virker på kassen med varierer med posisjonen; $F(s)$. Hvordan skal vi da tolke arealet under $F(s)$-grafen? Jo, dette arealet er et mål på det vi i fysikken kaller *arbeid*;
 
 I hverdagslivet bruker vi ordet *arbeid* om noe vi gjør over tid. Men i fysikk tilsvarer det impuls, eller endring i bevegelsesmengde. Begrepet arbeid er i fysikken reservert for kraft anvendt over strekning.
 
@@ -22,7 +22,7 @@ Arbeidet $W$ som utføres av en kraft $\vec{F}$ over en forflytning $\vec{s}$ er
 Legg merke til at vi tar skalarproduktet mellom kraft og forflytning. Det sikrer at kun den delen av $F$ som peker i samme retning som $s$ blir med i definisjonen av arbeid. Det er altså ikke nok at kraften er til stede – den må faktisk bidra til bevegelsen. En person som holder en tung sekk stille over hodet, utfører for eksempel *ikke* noe arbeid, slik det er definert i fysikken, selv om muskler spennes og fyren blir sliten. Dette ser vi av vinkelen $\cos\theta$ som kommer inn i definisjonen via skalarproduktet. Når $\theta = 0^\circ$ virker kraften i samme retning som bevegelsen, og arbeidet er maksimalt. Når $\theta = 90^\circ$ virker kraften vinkelrett på bevegelsen, og $W = 0$. Virker kraften *mot* bevegelsen (som friksjon), er $\theta = 180^\circ$ og arbeidet negativt.
 
 ::: {.eksempel}
-[Eksempel 5.1: Dytte en boks]{.eks-tittel}
+[Eksempel: Dytte en boks]{.eks-tittel}
 En boks dyttes langs et gulv med en kraft $F = 10\,\mathrm{N}$ over en avstand $s = 5.0\,\mathrm{m}$. Kraften virker i samme retning som bevegelsen ($\theta = 0^\circ$):
 
 ::: center
@@ -37,7 +37,7 @@ $$W = F \cdot s \cdot \cos(0^\circ) = 10\,\mathrm{N} \cdot 5.0\,\mathrm{m} \cdot
 :::
 
 ::: {.eksempel}
-[Eksempel 5.2: Slede på Hyrox-trening]{.eks-tittel}
+[Eksempel: Slede på Hyrox-trening]{.eks-tittel}
 
 I en Hyrox-treningstime dyttes en slede $s = 10\,\mathrm{m}$ horisontalt med en kraft $F = 2.0\,\mathrm{kN}$. Sleden har konstant fart.
 
@@ -80,7 +80,7 @@ c)  Hvor stort arbeid gjør tyngdekraften og normalkraften på kassen? Forklar s
 
 ::: {.losning}
 
-Vi bruker definisjonen av arbeid, $W = F\cdot s\cdot\cos\theta$, der $\theta$ er vinkelen mellom kraften og forflytningen (se *Arbeid* i kompendiet).
+Vi bruker definisjonen av arbeid, $W = F\cdot s\cdot\cos\theta$, der $\theta$ er vinkelen mellom kraften og forflytningen (se *Arbeid*).
 
 **a)** Tauet danner vinkelen $\theta = 25^\circ$ med bevegelsesretningen: $$W_F = F\cdot s\cdot\cos 25^\circ = 150\,\mathrm{N}\cdot12\,\mathrm{m}\cdot 0.906 = 1.63\,\mathrm{kJ} \approx \underline{\underline{1.6\,\mathrm{kJ}}}$$
 

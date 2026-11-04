@@ -24,7 +24,7 @@ Massesenteret er nettopp det punktet der tyngdekraften har null nettomoment. Hvi
 Det er altså i massesenteret det er mest naturlig å tegne inn tyngdekraften. Hva er så dette massesenteret? Jo, det er *balsepunktet*; altså det punktet som er slik at dersom du støtter opp legemet der, og det starter i ro, så forblir det i ro. Det roterer ikke.
 
 ::: {.eksempel}
-[Eksempel 6.9: Massesenter for to barn på en huske]{.eks-tittel}
+[Eksempel: Massesenter for to barn på en huske]{.eks-tittel}
 
 To barn sitter på en $3.0\,\mathrm{m}$ lang, masselos huske festet i midten ($x = 0$). Barn 1 har masse $m_1 = 25\,\mathrm{kg}$ og sitter i $x_1 = -1.2\,\mathrm{m}$ (venstre side). Barn 2 har masse $m_2 = 35\,\mathrm{kg}$. Hvor må barn 2 sitte for at huska skal balansere?
 
@@ -44,7 +44,7 @@ For at huska skal balansere, må massesenteret være i støttepunktet $x = 0$: $
 :::
 
 ::: {.eksempel}
-[Eksempel 6.10: Massesenter for tre kuler]{.eks-tittel}
+[Eksempel: Massesenter for tre kuler]{.eks-tittel}
 
 Tre små kuler er festet på en lett plate (vi ser bort fra massen til platen). Kula med masse $m_1 = 1.0\,\mathrm{kg}$ ligger i origo, kula med masse $m_2 = 2.0\,\mathrm{kg}$ ligger i $(x, y) = (0.40\,\mathrm{m}, 0)$, og kula med masse $m_3 = 3.0\,\mathrm{kg}$ ligger i $(x, y) = (0, 0.30\,\mathrm{m})$.
 
@@ -93,7 +93,7 @@ b)  Hvor må du holde staven for at den skal balansere?
 
 ::: {.losning}
 
-**a)** Vi bruker definisjonen av massesenter (se *Massesenter* i kompendiet): $$x_\text{ms} = \frac{m_1x_1 + m_2x_2 + m_3x_3}{m_1 + m_2 + m_3}
+**a)** Vi bruker definisjonen av massesenter (se *Massesenter*): $$x_\text{ms} = \frac{m_1x_1 + m_2x_2 + m_3x_3}{m_1 + m_2 + m_3}
     = \frac{1.0\,\mathrm{kg}\cdot 0 + 2.0\,\mathrm{kg}\cdot0.50\,\mathrm{m} + 3.0\,\mathrm{kg}\cdot1.20\,\mathrm{m}}{6.0\,\mathrm{kg}}
     = \underline{\underline{0.77\,\mathrm{m}}}$$
 

@@ -6,7 +6,7 @@ aliases: ["/forkurs/08-termofysikk/04-termodynamikkens-1-lov.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}
-Dette kapittelet skrives fortsatt.
+Denne siden skrives fortsatt.
 :::
 
 :::: {.oppgaver}
@@ -64,7 +64,7 @@ Arbeid krever at noe flytter seg. Det er derfor volum*endringen* $\Delta V$ som 
 I termodynamikkens 1. lov er $W$ arbeidet som gjøres *på* gassen. Når gassen utvider seg ($\Delta V > 0$), gjør den arbeid på omgivelsene, og $W = -p\,\Delta V$ er negativ. Når gassen presses sammen, er $W$ positiv.
 
 ::: {.eksempel}
-[Eksempel 8.10: Gass i sylinder]{.eks-tittel}
+[Eksempel: Gass i sylinder]{.eks-tittel}
 
 $Q = 500\,\mathrm{J}$ tilføres en gass i en sylinder. Den indre energien øker med $\Delta U = 100\,\mathrm{J}$.
 

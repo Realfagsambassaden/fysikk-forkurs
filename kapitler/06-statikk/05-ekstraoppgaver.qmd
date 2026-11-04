@@ -7,7 +7,7 @@ aliases: ["/forkurs/06-statikk/05-ekstraoppgaver.html"]
 
 :::: {.oppgaver}
 
-Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+Her er flere oppgaver om temaene foran.
 
 ::: {.oppgave tittel="Bilde på vegg"}
 [Bilde på vegg]{.oppg-tittel}
@@ -22,7 +22,7 @@ c)  Hvorfor er det lurt å ikke stramme snora for mye når man henger opp et tun
 
 ::: {.losning}
 
-Dette er samme situasjon som eksempelet *Trafikklys* i kompendiet. De horisontale komponentene opphever hverandre, og de vertikale komponentene må til sammen bære tyngden: $$2S\sin\alpha = m\mathrm{g}
+Dette er samme situasjon som eksempelet *Trafikklys*. De horisontale komponentene opphever hverandre, og de vertikale komponentene må til sammen bære tyngden: $$2S\sin\alpha = m\mathrm{g}
     \quad\implies\quad
     S = \frac{m\mathrm{g}}{2\sin\alpha}$$
 

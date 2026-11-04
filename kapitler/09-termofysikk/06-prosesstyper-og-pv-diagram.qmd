@@ -6,7 +6,7 @@ aliases: ["/forkurs/08-termofysikk/06-prosesstyper-og-pv-diagram.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}
-Dette kapittelet skrives fortsatt.
+Denne siden skrives fortsatt.
 :::
 
 :::: {.oppgaver}
@@ -30,7 +30,7 @@ Et *$pV$-diagram* viser trykket $p$ som funksjon av volumet $V$. Arealet under k
 :::
 
 ::: {.eksempel}
-[Eksempel 8.13: Arbeid ved isobar utvidelse]{.eks-tittel}
+[Eksempel: Arbeid ved isobar utvidelse]{.eks-tittel}
 
 En gass i en sylinder har trykket $2.0\cdot 10^{5}\,\mathrm{Pa}$. Gassen varmes opp og utvider seg ved konstant trykk fra $1.0\,\mathrm{L}$ til $3.0\,\mathrm{L}$.
 

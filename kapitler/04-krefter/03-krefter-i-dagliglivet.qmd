@@ -36,7 +36,7 @@ Figuren viser en fjær som er presset sammen. Vi definerer positiv $x$-retning m
 [Fjær trykket sammen. Avviket $\vec{x}$ peker mot venstre (fra likevekt til klossen), og fjærkraften $\vec{F}=-k\vec{x}$ peker mot høyre — tilbake mot likevekt.]{.figurtekst}
 
 ::: {.eksempel}
-[Eksempel 4.2: Komprimert fjær]{.eks-tittel}
+[Eksempel: Komprimert fjær]{.eks-tittel}
 
 En spiralfjær har fjærkonstant $k = 250\,\mathrm{N}\,\mathrm{m}^{-1}$. Den trykkes $6.0\,\mathrm{cm}$ sammen fra likevektsposisjonen. Hva er størrelsen på fjærkraften?
 
@@ -60,7 +60,7 @@ b)  Hvor mye strekkes fjæra om du bytter til et lodd med masse $m = 400\,\mathr
 
 ::: {.losning}
 
-**a)** Loddet henger i ro, så fjærkraften er like stor som tyngdekraften på loddet (se *Hookes lov* i kompendiet): $F=kx=m\mathrm{g}$. Vi løser for $k$: $$k = \frac{m\mathrm{g}}{x} = \frac{0.250\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}{0.12\,\mathrm{m}} = 20.4\,\mathrm{N}\,\mathrm{m}^{-1} \approx \underline{\underline{20\,\mathrm{N}\,\mathrm{m}^{-1}}}$$
+**a)** Loddet henger i ro, så fjærkraften er like stor som tyngdekraften på loddet (se *Hookes lov*): $F=kx=m\mathrm{g}$. Vi løser for $k$: $$k = \frac{m\mathrm{g}}{x} = \frac{0.250\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}{0.12\,\mathrm{m}} = 20.4\,\mathrm{N}\,\mathrm{m}^{-1} \approx \underline{\underline{20\,\mathrm{N}\,\mathrm{m}^{-1}}}$$
 
 **b)** Med det nye loddet, $m=0.400\,\mathrm{kg}$, løser vi $kx=m\mathrm{g}$ for $x$: $$x = \frac{m\mathrm{g}}{k} = \frac{0.400\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}{20.4\,\mathrm{N}\,\mathrm{m}^{-1}} = 0.192\,\mathrm{m} \approx \underline{\underline{0.19\,\mathrm{m}}} = 19.2\,\mathrm{cm} \approx \underline{\underline{19\,\mathrm{cm}}}$$
 
@@ -86,7 +86,7 @@ Dash-Line påvirkes av en kraft med størrelse $G=m\mathrm{g}$ fra jorda. Dashma
 På overflaten av månen ville tyngdens akselerasjon vært en annen. Der har vi nemlig $\mathrm{g}_\text{måne} \approx 1.62\,\mathrm{m}\,\mathrm{s}^{-2}$ — omtrent $\frac{1}{6}$ av jordas. Merk at *massen* $m$ er den samme uansett hvor du befinner deg, mens *tyngdekraften* $G$ varierer med stedet.
 
 ::: {.eksempel}
-[Eksempel 4.3: Tyngdekraft på jordoverflaten]{.eks-tittel}
+[Eksempel: Tyngdekraft på jordoverflaten]{.eks-tittel}
 
 Sofie har masse $m = 60\,\mathrm{kg}$. Hva er tyngdekraften som virker på henne på jordoverflaten?
 
@@ -112,7 +112,7 @@ c)  Hva er Olas masse på månen? Forklar svaret.
 
 ::: {.losning}
 
-Vi bruker $G=m\mathrm{g}$ (se *Tyngdekraft* i kompendiet).
+Vi bruker $G=m\mathrm{g}$ (se *Tyngdekraft*).
 
 **a)** På jorda: $$G = m\mathrm{g} = 75\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 736\,\mathrm{N} \approx \underline{\underline{7.4\cdot 10^{2}\,\mathrm{N}}}$$
 
@@ -137,7 +137,7 @@ b)  Hva skjer om vi pumper vekk all lufta i rommet? Bruk det du har lært om tyn
 
 **a)** De fleste vil tro at hammeren treffer bakken først. Dette stemmer faktisk i virkeligheten (med luft til stede): fjæra har stort overflateareal i forhold til massen sin, så luftmotstanden bremser fjæra mye mer enn den bremser hammeren. Hammeren faller dermed tilnærmet i fritt fall, mens fjæra daler sakte ned.
 
-**b)** Dersom vi pumper vekk all lufta (fullstendig vakuum), er luftmotstanden borte, og begge objektene er i *fritt fall* – de påvirkes kun av tyngdekraften. Fra Newtons 2. lov (se *Tyngdekraft* i kompendiet): $$\sum F = ma \quad\Rightarrow\quad m\mathrm{g} = ma \quad\Rightarrow\quad a = \mathrm{g},$$ og massen $m$ forsvinner fullstendig fra likningen. Akselerasjonen er dermed $\mathrm{g}$ for *alle* legemer, uavhengig av masse og form. I vakuum vil derfor hammeren og fjæra **treffe bakken samtidig** – noe som faktisk ble demonstrert på Månen av astronaut David Scott under Apollo 15-ferden, nettopp fordi Månen ikke har noen atmosfære.
+**b)** Dersom vi pumper vekk all lufta (fullstendig vakuum), er luftmotstanden borte, og begge objektene er i *fritt fall* – de påvirkes kun av tyngdekraften. Fra Newtons 2. lov (se *Tyngdekraft*): $$\sum F = ma \quad\Rightarrow\quad m\mathrm{g} = ma \quad\Rightarrow\quad a = \mathrm{g},$$ og massen $m$ forsvinner fullstendig fra likningen. Akselerasjonen er dermed $\mathrm{g}$ for *alle* legemer, uavhengig av masse og form. I vakuum vil derfor hammeren og fjæra **treffe bakken samtidig** – noe som faktisk ble demonstrert på Månen av astronaut David Scott under Apollo 15-ferden, nettopp fordi Månen ikke har noen atmosfære.
 
 :::
 
@@ -158,7 +158,7 @@ La oss se nærmere på hver av disse.
 Normalkraften $\vec{N}$ er den delen av underlagskraften som virker *vinkelrett* på underlaget (/normalt på underlaget, derav navnet). Som vi skal se i de følgende eksemplene så kan vi i mange tilfeller bruke Newtons 1. eller 2. lov til å finne størrelsen på normalkraften.
 
 ::: {.eksempel}
-[Eksempel 4.4: Person i ro på flatt underlag]{.eks-tittel}
+[Eksempel: Person i ro på flatt underlag]{.eks-tittel}
 
 Ola har masse $m = 80\,\mathrm{kg}$ og står i ro på et flatt gulv. Hva er normalkraften som gulvet utøver på Ola?
 
@@ -188,7 +188,7 @@ Hva er motkreftene til $\vec{N}$ og $\vec{G}$ i eksemplet over? På hvilke legem
 :::
 
 ::: {.eksempel}
-[Eksempel 4.5: Normalkraft i akselererende heis]{.eks-tittel}
+[Eksempel: Normalkraft i akselererende heis]{.eks-tittel}
 
 Kari har masse $m = 70\,\mathrm{kg}$ og står i en heis. Heisen akselererer oppover med $a = 2.0\,\mathrm{m}\,\mathrm{s}^{-2}$. Hva er normalkraften $\vec{N}$ som gulvet utøver på Kari?
 
@@ -213,11 +213,11 @@ b)  Heisen er i fritt fall (tau røk!). Hva er $N$ da, og hva ville Ola oppleve?
 
 ::: {.losning}
 
-Vi velger oppover som positiv retning og bruker Newtons 2. lov i vertikal retning, akkurat som i eksempelet *Normalkraft i akselererende heis* i kompendiet: $\sum F_y = N - G = ma \implies N = m(\mathrm{g}+a)$.
+Vi velger oppover som positiv retning og bruker Newtons 2. lov i vertikal retning, akkurat som i eksempelet *Normalkraft i akselererende heis*: $\sum F_y = N - G = ma \implies N = m(\mathrm{g}+a)$.
 
 **a)** Her er $a=-3.0\,\mathrm{m}\,\mathrm{s}^{-2}$ (akselerasjonen peker nedover, siden heisen bremser mens den beveger seg oppover): $$N = m(\mathrm{g}+a) = 80\,\mathrm{kg}\cdot(9.81\,\mathrm{m}\,\mathrm{s}^{-2}-3.0\,\mathrm{m}\,\mathrm{s}^{-2}) = 545\,\mathrm{N} \approx \underline{\underline{5.4\cdot 10^{2}\,\mathrm{N}}}$$ Dette er mindre enn tyngdekraften ($G=785\,\mathrm{N}$) – Ola føler seg lettere enn vanlig.
 
-**b)** I fritt fall er $a=-\mathrm{g}$: $$N = m(\mathrm{g}-\mathrm{g}) = \underline{\underline{0\,\mathrm{N}}}$$ Normalkraften er null – Ola ville oppleve **vektløshet**. Dette er nøyaktig samme situasjon som å simulere vektløshet i fly ved fritt fall (se *Fritt fall som eksempel* i kompendiet).
+**b)** I fritt fall er $a=-\mathrm{g}$: $$N = m(\mathrm{g}-\mathrm{g}) = \underline{\underline{0\,\mathrm{N}}}$$ Normalkraften er null – Ola ville oppleve **vektløshet**. Dette er nøyaktig samme situasjon som å simulere vektløshet i fly ved fritt fall (se *Fritt fall som eksempel*).
 
 :::
 
@@ -259,7 +259,7 @@ Verdiene til $\mu_s$ og $\mu_k$ avhenger sterkt av overflatene. Is mot stål gir
 **\*** Hvilefriksjon
 
 ::: {.eksempel}
-[Eksempel 4.6: Kasse på gulv]{.eks-tittel}
+[Eksempel: Kasse på gulv]{.eks-tittel}
 
 En kasse med masse $m = 15\,\mathrm{kg}$ står på et gulv med statisk friksjonskoeffisient $\mu_s = 0.40$. Du skyver horisontalt med kraft $F = 40\,\mathrm{N}$. Begynner kassen å bevege seg?
 
@@ -285,7 +285,7 @@ b)  To personer skyver med en samlet kraft på $F = 260\,\mathrm{N}$. Begynner s
 
 Normalkraften er $N=m\mathrm{g}=80\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}=784.8\,\mathrm{N}$.
 
-**a)** Den minste kraften som trengs for å sette skapet i bevegelse må akkurat overvinne maksimal hvilefriksjon (se *Friksjonskrefter* i kompendiet), $R_{s,\text{maks}}=\mu_s N$: $$F_\text{min} = \mu_s N = 0.35\cdot784.8\,\mathrm{N} = 275\,\mathrm{N} \approx \underline{\underline{2.7\cdot 10^{2}\,\mathrm{N}}}$$
+**a)** Den minste kraften som trengs for å sette skapet i bevegelse må akkurat overvinne maksimal hvilefriksjon (se *Friksjonskrefter*), $R_{s,\text{maks}}=\mu_s N$: $$F_\text{min} = \mu_s N = 0.35\cdot784.8\,\mathrm{N} = 275\,\mathrm{N} \approx \underline{\underline{2.7\cdot 10^{2}\,\mathrm{N}}}$$
 
 **b)** De to personene skyver med $F=260\,\mathrm{N}$, som er *mindre* enn $R_{s,\text{maks}}=275\,\mathrm{N}$. Hvilefriksjonen tilpasser seg og motvirker hele den påførte kraften ($R_s=F=260\,\mathrm{N} < R_{s,\text{maks}}$), så skapet **begynner ikke å bevege seg**.
 
@@ -310,7 +310,7 @@ $\displaystyle a = -\mu_k \mathrm{g}$
 Akselerasjonen (retardasjonen) avhenger altså *ikke* av massen — kun av friksjonskoeffisienten og tyngdeakselerasjonen. En tung og en lett gjenstand med samme $\mu_k$ bremser like raskt.
 
 ::: {.eksempel}
-[Eksempel 4.7: Boks som sklir]{.eks-tittel}
+[Eksempel: Boks som sklir]{.eks-tittel}
 
 En boks med masse $m = 10\,\mathrm{kg}$ glir langs et gulv med kinetisk friksjonskoeffisient $\mu_k = 0.30$. Ingen andre horisontale krefter virker.
 
@@ -343,7 +343,7 @@ c)  Pucken skyves avgårde med startfart $v_0 = 15\,\mathrm{m}\,\mathrm{s}^{-1}$
 
 ::: {.losning}
 
-**a)** Normalkraften er $N=m\mathrm{g}$, med $m=170\,\mathrm{g}=0.170\,\mathrm{kg}$. Friksjonskraften er (se *Glidefriksjon* i kompendiet): $$R = \mu_k N = \mu_k m\mathrm{g} = 0.030\cdot0.170\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 0.0500\,\mathrm{N} \approx \underline{\underline{0.050\,\mathrm{N}}}$$
+**a)** Normalkraften er $N=m\mathrm{g}$, med $m=170\,\mathrm{g}=0.170\,\mathrm{kg}$. Friksjonskraften er (se *Glidefriksjon*): $$R = \mu_k N = \mu_k m\mathrm{g} = 0.030\cdot0.170\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 0.0500\,\mathrm{N} \approx \underline{\underline{0.050\,\mathrm{N}}}$$
 
 **b)** Friksjonen er eneste horisontale kraft, så akselerasjonen er (uavhengig av massen): $$a = -\mu_k \mathrm{g} = -0.030\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = -0.294\,\mathrm{m}\,\mathrm{s}^{-2} \approx \underline{\underline{-0.29\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
 

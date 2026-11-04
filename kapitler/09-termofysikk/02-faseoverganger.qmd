@@ -6,7 +6,7 @@ aliases: ["/forkurs/08-termofysikk/02-faseoverganger.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}
-Dette kapittelet skrives fortsatt.
+Denne siden skrives fortsatt.
 :::
 
 :::: {.oppgaver}
@@ -36,7 +36,7 @@ Smelte- og kokepunktet avhenger av omgivelsenes trykk. Høyt til fjells, der luf
 :::
 
 ::: {.eksempel}
-[Eksempel 8.5: Kokende vann på full plate]{.eks-tittel}
+[Eksempel: Kokende vann på full plate]{.eks-tittel}
 
 En kjele med $1.0\,\mathrm{kg}$ vann står på en kokeplate som gir vannet $2.0\,\mathrm{kJ}$ hvert sekund. Det tar $3.5\,\mathrm{min}$ å varme vannet fra $0\,^\circ$C til $100\,^\circ$C.
 

@@ -7,7 +7,7 @@ aliases: ["/forkurs/04-krefter/05-bevaring-av-bevegelsesmengde.html"]
 
 :::: {.oppgaver}
 
-Tidligere i dette kapitlet definerte vi bevegelsesmengde som $\vec{p} = m\vec{v}$, og vi nevnte at bevegelsesmengde er bevart i isolerte systemer. Nå skal vi se nøye på hva dette betyr, og vise hvorfor det er sant.
+Vi har definert bevegelsesmengde som $\vec{p} = m\vec{v}$, og vi nevnte at bevegelsesmengde er bevart i isolerte systemer. Nå skal vi se nøye på hva dette betyr, og vise hvorfor det er sant.
 
 **\*** Interne og ytre krefter. Tenk deg to biljardkuler som kolliderer (figuren). De utøver krefter på *hverandre* i kollisjonsøyeblikket — dette er *interne* krefter i systemet av to kuler. Dersom vi ser bort fra friksjon mot bordet og luftmotstand, er summen av *ytre* krefter på systemet lik 0. Et slikt system kaller vi *isolert*.
 
@@ -42,7 +42,7 @@ Dersom summen av ytre krefter er null, $\sum\vec{F}_{ytre} = \vec{0}$, gir dette
 
 Dette viser at kraft virket over tid gir endring i bevegelsesmengde. I virkeligheten varierer kraften under et kraftstøt — tenk på hockeykøllens slag mot pucken: kraften stiger raskt og faller igjen. For dem som kjenner integraler: $\Delta\vec{p} = \int_{t_1}^{t_2}\vec{F}\,dt$, altså *arealet under $F(t)$-kurven* (figuren). I det enklere tilfellet med konstant kraft er dette arealet nøyaktig rektangelet $F\cdot\Delta t$.
 
-Endringen i bevegelsesmengde forårsaket av et slikt kraftstøt kalles *impuls*. I dette faget skal vi ikke bruke dette begrepet noe videre.
+Endringen i bevegelsesmengde forårsaket av et slikt kraftstøt kalles *impuls*. På forkursnivå bruker vi ikke dette begrepet noe videre.
 
 ![](../../bilder/figurer/k4-16-23693b90abc3.svg){.tikz-fig style="width:308px"}
 
@@ -63,7 +63,7 @@ Algoritme for løsning Fremgangsmåten i slike oppgaver er alltid den samme:
 **\*** Rekyl. Et klassisk eksempel er rekyl fra et gevær. Før avfyringen er kula og geværet i ro — den totale bevegelsesmengden er null. Etter avfyringen beveger kula seg raskt fremover og geværet sakte bakover, men de to bidragene kansellerer nøyaktig, slik at totalen fortsatt er null.
 
 ::: {.eksempel}
-[Eksempel 4.15: Rekyl fra gevær]{.eks-tittel}
+[Eksempel: Rekyl fra gevær]{.eks-tittel}
 
 Et gevær med masse $M = 3.0\,\mathrm{kg}$ avfyres horisontalt. En kule med masse $m = 10\,\mathrm{g} = 0.010\,\mathrm{kg}$ forlater løpet med fart $u = 800\,\mathrm{m}\,\mathrm{s}^{-1}$ fremover. Både geværet og kula er i ro før avfyringen.
 
@@ -87,7 +87,7 @@ U &= -\frac{mu}{M}
 **\*** Støt mellom legemer. Det vanligste bruksområdet for bevaring av bevegelsesmengde er kollisjoner. Vi skiller mellom to typer: ved et *fullstendig uelastisk støt* henger legemene fast i hverandre etter kollisjonen og beveger seg som ett objekt, mens de ved et *elastisk støt* spretter fra hverandre og bevarer i tillegg den kinetiske energien. I begge tilfeller er bevegelsesmengden bevart, men ved uelastisk støt omdannes en del av den kinetiske energien til andre energiformer, som varme, lyd eller deformasjon. Vi skal komme tilbake til dette i neste kapittel.
 
 ::: {.eksempel}
-[Eksempel 4.16: Uelastisk støt: vogner som kolliderer og henger fast]{.eks-tittel}
+[Eksempel: Uelastisk støt: vogner som kolliderer og henger fast]{.eks-tittel}
 
 En vogn med masse $m_1 = 2.0\,\mathrm{kg}$ ruller med fart $v_1 = 3.0\,\mathrm{m}\,\mathrm{s}^{-1}$ og støter inn i en vogn med masse $m_2 = 1.0\,\mathrm{kg}$ som er i ro. Vognene henger seg fast i hverandre etter støtet.
 
