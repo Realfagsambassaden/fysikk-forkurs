@@ -1,6 +1,7 @@
 ---
 title: "Overslag og størrelsesordener"
 emne: hva-er-fysikk
+delemne: overslag
 ---
 
 <!-- video: kommer (manus i video/01-02-overslag/manus.md) -->
