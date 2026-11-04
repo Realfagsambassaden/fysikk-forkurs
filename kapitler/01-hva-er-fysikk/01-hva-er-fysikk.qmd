@@ -1,0 +1,223 @@
+---
+title: "Hva er fysikk?"
+emne: hva-er-fysikk
+---
+
+<!-- video: kommer (manus i video/01-hva-er-fysikk/manus.md) -->
+
+<!-- tillegg: Claude -->
+Kast en ball, og den følger en fin bue før den lander. Skru på lyset, og lampa lyser med en gang. Se på himmelen, og du vet at sola står opp i morgen også. Alt dette skjer på samme måte hver gang. Naturen følger altså **regler**. Fysikk er jakten på disse reglene.
+
+## Fysikk er jakten på naturens lover
+
+**Fysikk** er vitenskapen om hvordan naturen oppfører seg: hvordan ting beveger seg, hvilke krefter som virker, og hvordan energi flyttes fra ett sted til et annet. Målet er å finne noen få **lover** som gjelder overalt – for en ball i skolegården, for vann i en rørledning og for jorda i bane rundt sola.
+
+Det fine med fysikken er at de samme lovene kommer igjen og igjen. Lærer du dem godt, kan du forklare og regne på svært mange ulike ting med et lite verktøysett.
+
+::: {.callout-note title="Definisjon: Fysisk lov"}
+En **fysisk lov** er en regel som beskriver hvordan naturen oppfører seg, og som har blitt testet mange ganger med målinger uten å slå feil (innenfor et bestemt område).
+:::
+
+## Fysikkens metode
+
+Hvordan finner vi lovene? Fysikere jobber i en sirkel som går rundt og rundt:
+
+1. **Observer.** Vi legger merke til noe: en ball faller fortere og fortere.
+2. **Still et spørsmål.** Hvor langt har ballen falt etter to sekunder?
+3. **Lag en modell.** En modell er en *forenklet* beskrivelse av virkeligheten, ofte en formel.
+4. **Mål og test.** Modellen gir en spådom. Vi måler og ser om spådommen stemmer.
+
+Stemmer det ikke, forbedrer vi modellen og tar en runde til. Stemmer det, har vi lært noe – men vi fortsetter å teste.
+
+::: {.callout-note title="Definisjon: Modell"}
+En **modell** er en forenklet beskrivelse av en del av naturen. Vi ser bort fra det som betyr lite, slik at vi kan regne på det som betyr mest.
+:::
+
+Ordet *forenklet* er viktig. En modell for en ball som faller, ser ofte bort fra luftmotstanden. Det går fint for en tung ball som faller noen meter, men ikke for en fjær eller en fallskjermhopper. **Alle modeller har et gyldighetsområde**: et område der de gir gode nok svar.
+
+## En modell for fall
+
+Slipper vi en ball fra ro og måler hvor langt den har falt, finner vi at strekningen *ikke* øker jevnt. Etter dobbelt så lang tid har ballen falt *fire* ganger så langt. En modell som passer med målingene, er
+
+::: {.graa}
+$$
+s = \tfrac{1}{2}\,\mathrm{g}\,t^2
+$$
+:::
+
+der
+
+- $s$ er strekningen ballen har falt (i meter, $\mathrm{m}$),
+- $t$ er tiden siden vi slapp ballen (i sekunder, $\mathrm{s}$),
+- $\mathrm{g} = 9{,}81\ \mathrm{m/s^2}$ er **tyngdeakselerasjonen** ved jordoverflaten.
+
+Modellen ser bort fra luftmotstand. Den gjelder derfor best for tunge, kompakte ting som faller en kort strekning.
+
+::: {.eksempel}
+**Eksempel: Spå et fall.** Du slipper en ball fra en balkong. Hvor langt har den falt etter $2{,}0\ \mathrm{s}$, ifølge modellen?
+
+::: {.losning}
+Vi setter inn $t = 2{,}0\ \mathrm{s}$ og $\mathrm{g} = 9{,}81\ \mathrm{m/s^2}$ i modellen:
+
+$$
+s = \tfrac{1}{2}\cdot 9{,}81\ \mathrm{m/s^2}\cdot (2{,}0\ \mathrm{s})^2
+  = \tfrac{1}{2}\cdot 9{,}81\cdot 4{,}0\ \mathrm{m}
+  = 19{,}6\ \mathrm{m}
+$$
+
+Legg merke til enhetene: $\mathrm{m/s^2}\cdot\mathrm{s^2} = \mathrm{m}$. Vi får en lengde, slik vi skal.
+
+$$
+s \approx \underline{\underline{20\ \mathrm{m}}}
+$$
+
+**Test:** Måler vi, finner vi at en tung ball faller omtrent 19–20 m på to sekunder. Modellen består testen.
+:::
+:::
+
+::: {.callout-tip title="Fire spørsmål til enhver modell"}
+1. Hva beskriver modellen?
+2. Hva ser den bort fra?
+3. Hvilke tall trenger jeg for å bruke den?
+4. Når slutter den å gjelde?
+:::
+
+## Prøv selv: modell mot målinger
+
+Programmet under tegner noen målinger av en ball som faller, sammen med modellen $s = \tfrac12 \mathrm{g} t^2$. Endre `g` til for eksempel `5` eller `15` og trykk **Kjør**. Hvilken verdi passer best med målingene?
+
+```{.python .kjor}
+import numpy as np
+import matplotlib.pyplot as plt
+
+g = 9.81   # tyngdeakselerasjon i m/s^2 – prøv å endre den!
+
+# målinger (tid i s, strekning i m)
+t_maalt = np.array([0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4])
+s_maalt = np.array([0.25, 0.70, 1.86, 3.02, 5.05, 6.96, 9.80])
+
+t = np.linspace(0, 1.5, 100)
+s = 0.5 * g * t**2
+
+plt.plot(t_maalt, s_maalt, 'o', label='målinger')
+plt.plot(t, s, label=f'modell, g = {g}')
+plt.xlabel('t (s)')
+plt.ylabel('s (m)')
+plt.legend()
+plt.show()
+```
+
+## Fysikkens områder
+
+Fysikken er stor, og vi deler den ofte inn i områder. I dette forkurset møter du de fire første:
+
+| Område | Handler om | Eksempel |
+|---|---|---|
+| **Mekanikk** | bevegelse og krefter | en bil som bremser |
+| **Fluidmekanikk** | væsker og gasser | trykket på bunnen av et basseng |
+| **Termofysikk** | varme og temperatur | vann som koker |
+| **Elektromagnetisme** | ladning, strøm og magnetisme | en lyspære i en krets |
+| **Bølger og optikk** | lyd og lys | et ekko i fjellet |
+| **Moderne fysikk** | relativitet og kvantefysikk | GPS-satellitter, atomer |
+
+Alle områdene unntatt den siste kalles ofte **klassisk fysikk**. Den gjelder for vanlige ting med vanlige farter, og det er nesten alltid her ingeniører jobber. For ting som er svært små (atomer) eller går svært fort (nær lysfarten), trenger vi moderne fysikk.
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Hvilket område?"}
+Hvilket område i fysikken hører hvert fenomen hjemme i?
+
+a) En fotball som blir skutt mot mål.
+b) En is som smelter i sola.
+c) En mobillader som blir varm.
+d) Lyden av torden som kommer etter lynet.
+
+::: {.losning}
+a) **Mekanikk**: ballen beveger seg fordi en kraft virker på den.
+
+b) **Termofysikk**: isen tar opp varme og endrer seg fra fast stoff til væske.
+
+c) **Elektromagnetisme**: det går strøm gjennom laderen, og strømmen gir varme. (Varmen i seg selv er termofysikk, så her møtes to områder. Det er helt vanlig.)
+
+d) **Bølger**: lyd er en bølge i lufta. Lyset fra lynet kommer fram nesten med en gang, mens lyden bruker omtrent 3 sekunder per kilometer.
+:::
+:::
+
+::: {.oppgave tittel="Steinen i brønnen"}
+Du slipper en stein ned i en brønn og hører plasket etter $1{,}5\ \mathrm{s}$. Bruk modellen $s = \tfrac12 \mathrm{g} t^2$ til å finne ut hvor dyp brønnen er ned til vannet. Se bort fra tiden lyden bruker opp igjen.
+
+::: {.losning}
+Vi setter inn $t = 1{,}5\ \mathrm{s}$:
+
+$$
+s = \tfrac{1}{2}\cdot 9{,}81\ \mathrm{m/s^2}\cdot(1{,}5\ \mathrm{s})^2
+  = \tfrac{1}{2}\cdot 9{,}81\cdot 2{,}25\ \mathrm{m}
+  = 11{,}0\ \mathrm{m}
+$$
+
+Brønnen er omtrent $\underline{\underline{11\ \mathrm{m}}}$ dyp.
+
+Modellen ser bort fra luftmotstand (lite viktig for en stein over 11 m) og fra lydens reisetid (omtrent $11/340 \approx 0{,}03\ \mathrm{s}$, også lite). Svaret er derfor ganske godt.
+:::
+:::
+
+::: {.oppgave tittel="Hva ser modellen bort fra?"}
+Modellen $s = \tfrac12 \mathrm{g} t^2$ ser bort fra luftmotstand.
+
+a) Gi to eksempler der modellen gir gode svar, og to der den gir dårlige svar.
+b) Du slipper en fjær og en hammer fra samme høyde. Hva sier modellen om hvilken som lander først? Hva skjer i virkeligheten?
+
+::: {.losning}
+a) **Gode svar:** en stein som slippes ned i en brønn, en nøkkelknippe som faller ned fra et bord. Begge er tunge og kompakte og faller kort, så lufta bremser lite.
+**Dårlige svar:** en fjær eller et papirark, og en fallskjermhopper etter noen sekunder. Her bremser lufta så mye at farten slutter å øke.
+
+b) I modellen står verken masse eller form, så **modellen sier at de lander samtidig**. I virkeligheten lander hammeren først, fordi lufta bremser fjæra mye mer. Modellen er altså utenfor gyldighetsområdet sitt for fjæra.
+(På månen, der det ikke er luft, har astronauter gjort forsøket – der lander de samtidig.)
+:::
+:::
+
+::: {.oppgave tittel="Bilturen" niva="Middels"}
+En enkel modell for en biltur er $s = v\,t$, der $v$ er farten og $t$ er tiden.
+
+a) Du kjører med farten $80\ \mathrm{km/h}$ i $2{,}5\ \mathrm{h}$. Hvor langt kommer du ifølge modellen?
+b) I virkeligheten kom du bare $185\ \mathrm{km}$. Nevn to ting modellen ser bort fra.
+c) Hvilken gjennomsnittsfart passer med det du faktisk kjørte?
+
+::: {.losning}
+a) $s = v\,t = 80\ \mathrm{km/h}\cdot 2{,}5\ \mathrm{h} = \underline{\underline{200\ \mathrm{km}}}$.
+Enhetene: $\mathrm{km/h}\cdot\mathrm{h} = \mathrm{km}$.
+
+b) Modellen antar at farten er den samme hele tiden. Den ser for eksempel bort fra
+- at du må bremse i svinger, kryss og tettsteder,
+- at du må stoppe for rødt lys, kø eller en pause.
+
+c) Vi bruker modellen «baklengs»: $v = \dfrac{s}{t} = \dfrac{185\ \mathrm{km}}{2{,}5\ \mathrm{h}} = \underline{\underline{74\ \mathrm{km/h}}}$.
+
+Slik forbedrer vi modellen: Vi bruker gjennomsnittsfarten i stedet for fartsgrensen. Det er fysikkens metode i det små.
+:::
+:::
+
+::: {.oppgave tittel="Hvor høyt er stupetårnet?" niva="Utfordrende"}
+Ei venninne hopper fra et stupetårn. Du tar tiden og finner at hun bruker $1{,}4\ \mathrm{s}$ ned til vannet.
+
+a) Hvor høyt er tårnet ifølge modellen $s = \tfrac12 \mathrm{g} t^2$?
+b) Tårnet er egentlig $10\ \mathrm{m}$ høyt. Hvor lang tid *skulle* fallet tatt ifølge modellen?
+c) Foreslå en grunn til at du målte en annen tid.
+
+::: {.losning}
+a) $s = \tfrac{1}{2}\cdot 9{,}81\ \mathrm{m/s^2}\cdot(1{,}4\ \mathrm{s})^2 = \tfrac12\cdot 9{,}81\cdot 1{,}96\ \mathrm{m} = 9{,}6\ \mathrm{m}$, altså omtrent $\underline{\underline{9{,}6\ \mathrm{m}}}$.
+
+b) Vi må løse modellen for $t$. Gang med 2 og del på $\mathrm{g}$ på begge sider:
+$$
+t^2 = \frac{2s}{\mathrm{g}} \quad\Rightarrow\quad t = \sqrt{\frac{2s}{\mathrm{g}}}
+$$
+Med $s = 10\ \mathrm{m}$:
+$$
+t = \sqrt{\frac{2\cdot 10\ \mathrm{m}}{9{,}81\ \mathrm{m/s^2}}} = \sqrt{2{,}04\ \mathrm{s^2}} = \underline{\underline{1{,}43\ \mathrm{s}}}
+$$
+
+c) Forskjellen er bare $0{,}03\ \mathrm{s}$. Det er mindre enn hvor nøyaktig en person klarer å starte og stoppe en stoppeklokke (reaksjonstiden er rundt $0{,}2\ \mathrm{s}$). Målingen og modellen stemmer altså godt overens innenfor måleusikkerheten. I tillegg hopper hun kanskje litt opp før hun faller. Mer om måleusikkerhet kommer i kapittel 3.
+:::
+:::
+
+::::

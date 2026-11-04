@@ -1,0 +1,8 @@
+---
+title: "Hva er fysikk?"
+---
+
+<!-- plan: 01 hva-er-fysikk (naturens lover, fysikkens metode, modeller, fysikkens områder – passer prøvevideoen), 02 overslag (størrelsesordener, tierpotenser og overslagsregning) -->
+
+<!-- tillegg: Claude -->
+Før vi regner på bevegelse, krefter og energi, tar vi et skritt tilbake og spør: Hva holder fysikere egentlig på med? I dette kapittelet ser du hvordan fysikere bruker **modeller** for å forstå naturen, og hvordan du med enkle **overslag** kan finne ut om et svar er rimelig – lenge før du har lært alle formlene.
