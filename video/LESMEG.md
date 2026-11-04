@@ -41,6 +41,6 @@ node video/_verktoy/lag.js video/01-hva-er-fysikk render               # hele vi
 - 1920×1080, 30 bilder/s. Én scene per avsnitt i manuset, med myk inn- og uttoning (0,4 s).
 - Ingenting i presentatørsonen, heller ikke bevegelige ting som passerer gjennom den.
 - Farger og skrift som på nettstedet: tavle `#0d1110`, kritt `#ecefe6`, grønn `#6ef04a`, oransje `#f19c2c`, gul `#eee462`, turkis `#56d7b8`. Overskrifter i Montserrat, resten i Comic Neue. Logoen øverst til høyre.
-- Formler tegnes som bilder med matplotlib (mathtext, `cm`). Manus og formler følger [notasjonsreglene](https://github.com/Realfagsambassaden/Plattform/blob/main/NOTASJON.md): naturkonstanter oppreist (`\mathrm{g}`), g = 9,81 m/s², desimalkomma og gjeldende siffer.
+- Formler tegnes som bilder med matplotlib (mathtext, `cm`). **Alt i videoen følger [notasjonsreglene](https://github.com/Realfagsambassaden/Plattform/blob/main/NOTASJON.md)**: manus, tekst på skjermen, aksetall og formelbilder. Punktum som desimaltegn (`9.81`, `0.5`), naturkonstanter oppreist (`\mathrm{g}`), g = 9.81 m/s², SI-enheter med dekadiske prefikser (`4.2\ \mathrm{kJ}`), og gjeldende siffer.
 - Tidspunktene i `render()` skal følge tidskodene i manuset.
 - Se stillbilder av de travleste øyeblikkene før hele videoen lages.
