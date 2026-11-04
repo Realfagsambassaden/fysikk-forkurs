@@ -4,7 +4,7 @@ emne: hva-er-fysikk
 delemne: hva-er-fysikk
 ---
 
-<!-- video: kommer (manus i video/01-hva-er-fysikk/manus.md) -->
+<!-- video: kommer (videoer/fysikk-forkurs/01-hva-er-fysikk) -->
 ![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
 
 <!-- tillegg: Claude -->

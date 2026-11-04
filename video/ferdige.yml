@@ -1,6 +1,0 @@
-# Ferdige videoer: videomappe → YouTube-lenke.
-# Videochatten legger inn en linje når en video er spilt inn og lastet opp.
-# Nattjobben bytter da ut «Video kommer»-bildet på siden med videoen.
-# Eksempel:
-#   01-02-overslag: https://www.youtube.com/watch?v=XXXXXXXXXXX
-videoer: {}

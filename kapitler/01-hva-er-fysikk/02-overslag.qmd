@@ -4,7 +4,7 @@ emne: hva-er-fysikk
 delemne: overslag
 ---
 
-<!-- video: kommer (manus i video/01-02-overslag/manus.md) -->
+<!-- video: kommer (videoer/fysikk-forkurs/01-02-overslag) -->
 ![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
 
 <!-- tillegg: Claude -->
