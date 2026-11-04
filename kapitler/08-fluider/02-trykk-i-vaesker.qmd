@@ -31,7 +31,7 @@ Et rør der arealet reduseres fra $A_1$ til $A_2$. Væsken strømmer fortere i d
 :::
 ::::
 
-I dette faget skal vi ikke studere væsker i bevegelse, slik som i eksemplet over. Vi holder oss til fluid*statikken*.
+På forkursnivå studerer vi ikke væsker i bevegelse, slik som i eksemplet over. Vi holder oss til fluid*statikken*.
 
 ::: {.callout-note title="Definisjon: Trykk i horisontalt væskeelement"}
 
@@ -44,7 +44,7 @@ I et horisontalt væskeelement i ro gjelder: $$\begin{aligned}
 Legg merke til at definisjonen krever at punktene ligger i den *samme sammenhengende* væsken. Det betyr at vi må kunne gå fra det ene punktet til det andre uten å forlate væsken. Hvor mye vann som ligger rett over hvert punkt, spiller ingen rolle. Det ser vi i neste eksempel.
 
 ::: {.eksempel}
-[Eksempel 7.5: Trykket i et akvarium]{.eks-tittel}
+[Eksempel: Trykket i et akvarium]{.eks-tittel}
 
 Et akvarium er fylt med vann som står i ro. På bunnen ligger en stein med en hule, der fiskene kan gjemme seg (se figuren). Punktene A, B og C ligger alle $0.30\,\mathrm{m}$ under vannoverflaten. Punkt C ligger inne i hula, rett under steinen. En trykkmåler viser at trykket i punkt A er $1.04\cdot 10^{5}\,\mathrm{Pa}$.
 
@@ -87,7 +87,7 @@ b)  Bruk svaret i a) til å forklare hvorfor vannet i tuten står like høyt som
 
 ::: {.losning}
 
-**a)** Punktene A og B ligger på samme horisontale nivå, og vi kan gå fra A til B gjennom vannet uten å forlate det. Vannet står i ro. Da er trykket likt i de to punktene (se *Horisontalt væskeelement* i kompendiet): $$p_B = p_A = \underline{\underline{1.05\cdot 10^{5}\,\mathrm{Pa}}}$$
+**a)** Punktene A og B ligger på samme horisontale nivå, og vi kan gå fra A til B gjennom vannet uten å forlate det. Vannet står i ro. Da er trykket likt i de to punktene (se *Horisontalt væskeelement*): $$p_B = p_A = \underline{\underline{1.05\cdot 10^{5}\,\mathrm{Pa}}}$$
 
 **b)** Trykket i et punkt skyldes vekten av vannet over punktet (pluss lufttrykket). Tenk deg at vannet i tuten stod lavere enn vannet i kanna. Da ville det vært mindre vann over B enn over A, og trykket i B ville vært lavere enn i A. Vannet ville da strømmet fra A mot B, altså inn i tuten, helt til trykkene var like. Vannet kommer derfor bare til ro når det står like høyt i tuten som i kanna.
 
@@ -160,7 +160,7 @@ Tre beholdere med ulik form — en smal sylinder, en vid bolle og en kjegle med 
 :::
 
 ::: {.eksempel}
-[Eksempel 7.6: Beregning av trykk ved ulike dybder]{.eks-tittel}
+[Eksempel: Beregning av trykk ved ulike dybder]{.eks-tittel}
 
 En dykker er under vann med tetthet $\rho = 1000 \, \text{kg/m}^3$, og det atmosfæriske trykket ved overflaten er $p_0 = 101325 \, \text{Pa}$. Hva er det totale trykket på dykkeren ved dybdene $h = 2.0 \, \text{m}$, $h = 5.0 \, \text{m}$, og $h = 10 \, \text{m}$?
 
@@ -182,7 +182,7 @@ Legg merke til at trykket ved $10\,\mathrm{m}$ dybde er omtrent dobbelt så stor
 I forrige eksempel regnet vi ut trykket målt fra overflaten. Men ofte kjenner vi trykket i ett punkt inne i væsken og vil finne trykket i et annet punkt høyere opp eller lenger ned. Da bruker vi trykkdifferansen direkte.
 
 ::: {.eksempel}
-[Eksempel 7.7: Vannrør i et høyhus]{.eks-tittel}
+[Eksempel: Vannrør i et høyhus]{.eks-tittel}
 
 Et vannrør går loddrett fra kjelleren og opp til toppen av et høyhus. Kranene er stengt, så vannet i røret står i ro. I kjelleren viser en trykkmåler at trykket i røret er $4.5\cdot 10^{5}\,\mathrm{Pa}$.
 
@@ -205,7 +205,7 @@ b)  Tenk deg at røret var åpent i toppen, slik at trykket på vannoverflaten i
 :::
 
 ::: {.eksempel}
-[Eksempel 7.8: Et langt rør heises opp av vannet]{.eks-tittel}
+[Eksempel: Et langt rør heises opp av vannet]{.eks-tittel}
 
 Et $12\,\mathrm{m}$ langt rør er tett i den ene enden og åpent i den andre. Røret ligger helt fylt med vann nede i sjøen. En kran heiser røret loddrett opp, med den tette enden først. Den åpne enden er hele tiden under vannflaten. Kranføreren legger merke til at det blir med vann opp i røret (se figuren). Lufttrykket er $p_0 = 1.013\cdot 10^{5}\,\mathrm{Pa}$.
 
@@ -244,7 +244,7 @@ c)  Et annet hus ligger høyere opp i bakken, slik at kranen der er $25\,\mathrm
 
 ::: {.losning}
 
-**a)** Det hydrostatiske trykket er $\rho\mathrm{g}h$, der $h$ er dybden under vannflaten (se *Vertikalt væskeelement* i kompendiet): $$\rho\mathrm{g}h = 1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot40\,\mathrm{m} = 3.92\cdot 10^{5}\,\mathrm{Pa} \approx \underline{\underline{3.9\cdot 10^{5}\,\mathrm{Pa}}}$$
+**a)** Det hydrostatiske trykket er $\rho\mathrm{g}h$, der $h$ er dybden under vannflaten (se *Vertikalt væskeelement*): $$\rho\mathrm{g}h = 1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot40\,\mathrm{m} = 3.92\cdot 10^{5}\,\mathrm{Pa} \approx \underline{\underline{3.9\cdot 10^{5}\,\mathrm{Pa}}}$$
 
 **b)** Det totale trykket er lufttrykket pluss det hydrostatiske trykket: $$p = p_0 + \rho\mathrm{g}h = 1.013\cdot 10^{5}\,\mathrm{Pa} + 3.92\cdot 10^{5}\,\mathrm{Pa} = 4.94\cdot 10^{5}\,\mathrm{Pa} \approx \underline{\underline{4.9\cdot 10^{5}\,\mathrm{Pa}}}$$
 
@@ -263,7 +263,7 @@ b)  Du senker en kopp ned i vann slik at den fylles helt. Så snur du koppen opp
 
 ::: {.losning}
 
-**a)** Trykket i bunnen av en vannsøyle med høyde $h$ er det hydrostatiske trykket $\rho\mathrm{g}h$ (se *Vertikalt væskeelement* i kompendiet). Vi setter dette lik lufttrykket: $$\rho\mathrm{g}h = p_0
+**a)** Trykket i bunnen av en vannsøyle med høyde $h$ er det hydrostatiske trykket $\rho\mathrm{g}h$ (se *Vertikalt væskeelement*). Vi setter dette lik lufttrykket: $$\rho\mathrm{g}h = p_0
     \quad\implies\quad
     h = \frac{p_0}{\rho\mathrm{g}} = \frac{1.013\cdot 10^{5}\,\mathrm{Pa}}{1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = 10.33\,\mathrm{m} \approx \underline{\underline{10.3\,\mathrm{m}}}$$ En vannsøyle på drøyt ti meter gir altså like stort trykk som hele lufthavet over oss.
 

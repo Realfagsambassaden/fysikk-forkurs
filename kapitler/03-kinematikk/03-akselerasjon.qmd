@@ -76,7 +76,7 @@ c)  Dersom akselerasjonen er konstant, hva er farten etter ytterligere $3.0\,\ma
 
 ::: {.losning}
 
-**a)** Gjennomsnittsakselerasjonen er endring i fart delt på tidsintervallet (se *Gjennomsnittsakselerasjon* i kompendiet): $$\bar a = \frac{\Delta v}{\Delta t} = \frac{v-v_0}{\Delta t} = \frac{30\,\mathrm{m}\,\mathrm{s}^{-1}-20\,\mathrm{m}\,\mathrm{s}^{-1}}{5.0\,\mathrm{s}} = \underline{\underline{2.0\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
+**a)** Gjennomsnittsakselerasjonen er endring i fart delt på tidsintervallet (se *Gjennomsnittsakselerasjon*): $$\bar a = \frac{\Delta v}{\Delta t} = \frac{v-v_0}{\Delta t} = \frac{30\,\mathrm{m}\,\mathrm{s}^{-1}-20\,\mathrm{m}\,\mathrm{s}^{-1}}{5.0\,\mathrm{s}} = \underline{\underline{2.0\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
 
 **b)** Akselerasjonen er **positiv**. Det betyr at farten øker – bilen aksellererer (i vanlig forstand), den bremser ikke.
 

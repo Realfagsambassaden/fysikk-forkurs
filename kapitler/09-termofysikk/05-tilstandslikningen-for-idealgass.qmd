@@ -6,7 +6,7 @@ aliases: ["/forkurs/08-termofysikk/05-tilstandslikningen-for-idealgass.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}
-Dette kapittelet skrives fortsatt.
+Denne siden skrives fortsatt.
 :::
 
 :::: {.oppgaver}
@@ -36,7 +36,7 @@ Er antall *mol* $n$ gitt i stedet for antall molekyler $N$, bruker man gasskonst
 :::
 
 ::: {.eksempel}
-[Eksempel 8.11: Oppvarming av gass i lukket beholder]{.eks-tittel}
+[Eksempel: Oppvarming av gass i lukket beholder]{.eks-tittel}
 
 En luftbobble med volum $V_1 = 30\,\mathrm{dm}^{3}$ er ved trykk $p_1 = 100\,\mathrm{kPa}$ og temperatur $T_1 = 300\,\mathrm{K}$ (lukket beholder, $V =$ konst.). Trykket økes til $p_2 = 180\,\mathrm{kPa}$. Finn den nye temperaturen $T_2$.
 
@@ -53,7 +53,7 @@ Siden $N$ og $V$ er konstante, gir tilstandslikningen: $$\frac{p_1}{T_1} = \frac
 :::
 
 ::: {.eksempel}
-[Eksempel 8.12: Molekyler i en ballong]{.eks-tittel}
+[Eksempel: Molekyler i en ballong]{.eks-tittel}
 
 En ballong har volumet $5.0\,\mathrm{L}$. Trykket i ballongen er $1.0\cdot 10^{5}\,\mathrm{Pa}$, og temperaturen er $20\,^\circ$C. Hvor mange molekyler er det i ballongen?
 

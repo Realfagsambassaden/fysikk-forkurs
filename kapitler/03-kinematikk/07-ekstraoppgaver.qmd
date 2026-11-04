@@ -7,7 +7,7 @@ aliases: ["/forkurs/03-kinematikk/06-ekstraoppgaver.html"]
 
 :::: {.oppgaver}
 
-Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+Her er flere oppgaver om temaene foran.
 
 ::: {.oppgave tittel="Gjennomsnittsfart og gjennomsnittsakselerasjon"}
 [Gjennomsnittsfart og gjennomsnittsakselerasjon]{.oppg-tittel}
@@ -96,7 +96,7 @@ c)  Sammenlikn denne akselerasjonen med tyngdens akselerasjon $\mathrm{g}$. Er d
 
 ::: {.losning}
 
-**a)** Vi bruker $v=2\pi r/T$ (se *Omløpstid* i kompendiet): $$v = \frac{2\pi\cdot15\,\mathrm{m}}{40\,\mathrm{s}} = 2.36\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{2.4\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+**a)** Vi bruker $v=2\pi r/T$ (se *Omløpstid*): $$v = \frac{2\pi\cdot15\,\mathrm{m}}{40\,\mathrm{s}} = 2.36\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{2.4\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
 
 **b)** Sentripetalakselerasjonen er $$a_\perp = \frac{v^2}{r} = \frac{(2.36\,\mathrm{m}\,\mathrm{s}^{-1})^2}{15\,\mathrm{m}} = 0.370\,\mathrm{m}\,\mathrm{s}^{-2} \approx \underline{\underline{0.37\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
 

@@ -82,7 +82,7 @@ Merk at på samme måte som at $\Delta \vec{p}=\vec{F}\Delta t$ så er altså $\
 At $\Delta \vec{p}=\vec{F}\Delta t$ mens $\Delta E_\text{K}=\vec{F}\Delta \vec{s}$ synliggjør forskjellen på bevegelsesmengde og kinetisk energi: bevegelsesmengde er en vektor, kinetisk energi er en skalar. Bevegelsesmengden handler om kraft over tid, mens kinetisk energi handler om kraft over strekning. Og begge disse størrelsene inngår i egne bevaringslover. Derfor trenger vi begge to.
 
 ::: {.eksempel}
-[Eksempel 5.3: Horisontal bevegelse med friksjon]{.eks-tittel}
+[Eksempel: Horisontal bevegelse med friksjon]{.eks-tittel}
 
 En kloss med masse $0.80 \, \text{kg}$ har en startfart på $2.0 \, \text{m/s}$ og blir flyttet med en horisontal kraft på $8.0 \, \text{N}$. Friksjonskraften som virker mot bevegelsen er $5.6 \, \text{N}$, og etter å ha blitt flyttet $2.0 \, \text{m}$ får klossen en fart på $4.0 \, \text{m/s}$.
 

@@ -7,7 +7,7 @@ aliases: ["/forkurs/01-hva-er-fysikk/07-ekstraoppgaver.html"]
 
 :::: {.oppgaver}
 
-Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+Her er flere oppgaver om temaene foran.
 
 ::: {.oppgave tittel="Fysisk størrelse"}
 [Fysisk størrelse]{.oppg-tittel}
@@ -16,7 +16,7 @@ Hva skal stå på venstre side av likhetstegnet? $$\rule{4cm}{0.4pt} \;=\; \text
 
 ::: {.losning}
 
-På venstre side skal det stå **[Fysisk størrelse]{.roman}**, slik at likningen blir $$\textrm{Fysisk størrelse} = \textrm{verdi}\cdot\textrm{enhet},$$ som er selve definisjonen av en fysisk størrelse (se *Fysiske størrelser* i kompendiet).
+På venstre side skal det stå **[Fysisk størrelse]{.roman}**, slik at likningen blir $$\textrm{Fysisk størrelse} = \textrm{verdi}\cdot\textrm{enhet},$$ som er selve definisjonen av en fysisk størrelse (se *Fysiske størrelser*).
 
 :::
 
@@ -41,7 +41,7 @@ Fyll inn faktoren for hvert prefiks i tabellen:
 
 ::: {.losning}
 
-Faktorene er gitt i Tabellen i kompendiet:
+Faktorene er gitt i Tabellen:
 
 ::: center
 | **Prefiks** | **Symbol** | **Faktor** |

@@ -7,7 +7,7 @@ aliases: ["/forkurs/02-matematikk/07-ekstraoppgaver.html"]
 
 :::: {.oppgaver}
 
-Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+Her er flere oppgaver om temaene foran.
 
 ::: {.oppgave tittel="Trigonometri og vektorkomponenter"}
 [Trigonometri og vektorkomponenter]{.oppg-tittel}

@@ -47,7 +47,7 @@ Massetetthet $\rho$ kan uttrykkes som: $$\begin{aligned}
 : Massetetthet $\rho$ til forskjellige stoffer, angitt i $10^3$ kg/m$^3$.
 
 ::: {.eksempel}
-[Eksempel 7.1: Massen til en liter vann]{.eks-tittel}
+[Eksempel: Massen til en liter vann]{.eks-tittel}
 
 Hva er massen til $1.0\,\mathrm{L}$ vann?
 
@@ -79,7 +79,7 @@ c)  Hvor stor masse ville en like stor terning av gull hatt?
 
 **a)** Volumet til en terning er sidekanten opphøyd i tredje: $$V = (3.0\,\mathrm{cm})^3 = \underline{\underline{27\,\mathrm{cm}^{3}}}$$ Siden $1\,\mathrm{cm} = 1\cdot 10^{-2}\,\mathrm{m}$, er $1\,\mathrm{cm}^{3} = (1\cdot 10^{-2}\,\mathrm{m})^3 = 1\cdot 10^{-6}\,\mathrm{m}^{3}$. Dermed er $$V = 27\cdot1\cdot 10^{-6}\,\mathrm{m}^{3} = \underline{\underline{2.7\cdot 10^{-5}\,\mathrm{m}^{3}}}$$
 
-**b)** Vi bruker definisjonen av massetetthet (se *Massetetthet* i kompendiet): $$\rho = \frac{m}{V} = \frac{73\,\mathrm{g}}{27\,\mathrm{cm}^{3}} = 2.70\,\mathrm{g}\,\mathrm{cm}^{-3} \approx \underline{\underline{2.7\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}}}$$ I tabell  ser vi at dette passer med **aluminium**.
+**b)** Vi bruker definisjonen av massetetthet (se *Massetetthet*): $$\rho = \frac{m}{V} = \frac{73\,\mathrm{g}}{27\,\mathrm{cm}^{3}} = 2.70\,\mathrm{g}\,\mathrm{cm}^{-3} \approx \underline{\underline{2.7\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}}}$$ I tabell  ser vi at dette passer med **aluminium**.
 
 **c)** Gull har $\rho = 19.3\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}$. En terning av gull med samme volum har massen $$m = \rho\cdot V = 19.3\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot2.7\cdot 10^{-5}\,\mathrm{m}^{3} = 0.521\,\mathrm{kg} \approx \underline{\underline{0.52\,\mathrm{kg}}}$$ Gullterningen ville altså vært omtrent sju ganger så tung som aluminiumsterningen, selv om de er like store.
 
@@ -103,7 +103,7 @@ Trykk er en skalar størrelse. Det betyr at trykk kun har en størrelse, men ing
 Formelen $p = F/A$ forteller oss at den samme kraften kan gi svært ulikt trykk, avhengig av hvor stort areal kraften fordeles over. Det skal vi se i neste eksempel.
 
 ::: {.eksempel}
-[Eksempel 7.2: Ski eller støvler?]{.eks-tittel}
+[Eksempel: Ski eller støvler?]{.eks-tittel}
 
 En person med masse $m = 72\,\mathrm{kg}$ står på snø. Vi antar at trykket er jevnt fordelt over støvelsålene.
 
@@ -152,7 +152,7 @@ c)  Forklar hvorfor stiften går inn i veggen, men ikke inn i tommelen.
 
 ::: {.losning}
 
-Vi bruker definisjonen av trykk, $p = F/A$ (se *Trykk* i kompendiet).
+Vi bruker definisjonen av trykk, $p = F/A$ (se *Trykk*).
 
 **a)** Arealet av hodet er $A = 1.0\,\mathrm{cm}^{2} = 1.0\cdot 10^{-4}\,\mathrm{m}^{2}$: $$p_\text{tommel} = \frac{F}{A} = \frac{20\,\mathrm{N}}{1.0\cdot 10^{-4}\,\mathrm{m}^{2}} = \underline{\underline{2.0\cdot 10^{5}\,\mathrm{Pa}}}$$
 
@@ -185,7 +185,7 @@ Grunnen til at sugekopper fungerer, er trykket fra luften. Lufttrykket tvinger s
 Lufttrykket virker fra alle kanter på alt som er omgitt av luft. Siden $1\,\mathrm{atm}$ er et stort trykk, kan kraften fra lufta bli svært stor, selv på helt vanlige flater. I videoklippet (fra NRK) ser du hva som skjer med en campingvogn når lufta inni den pumpes ut. Hvor store krefter det er snakk om, ser vi i neste eksempel.
 
 ::: {.eksempel}
-[Eksempel 7.3: Lufta presser på et bord]{.eks-tittel}
+[Eksempel: Lufta presser på et bord]{.eks-tittel}
 
 Et bord har en rektangulær bordplate som er $1.2\,\mathrm{m}$ lang og $0.80\,\mathrm{m}$ bred. Lufttrykket er $p_0 = 1.013\cdot 10^{5}\,\mathrm{Pa}$.
 
@@ -210,7 +210,7 @@ c)  Hvorfor knekker ikke bordet sammen?
 Inne i et bildekk er trykket større enn lufttrykket utenfor. Trykkmålere på bensinstasjonen viser *overtrykket*, altså hvor mye større trykket i dekket er enn lufttrykket rundt. Dekktrykk oppgis ofte i enheten bar, der $1\,\mathrm{bar} = 1.0\cdot 10^{5}\,\mathrm{Pa}$.
 
 ::: {.eksempel}
-[Eksempel 7.4: Lufttrykk i bildekk]{.eks-tittel}
+[Eksempel: Lufttrykk i bildekk]{.eks-tittel}
 
 En trykkmåler viser at overtrykket i et bildekk er $2.3\,\mathrm{bar}$, altså $2.3\cdot 10^{5}\,\mathrm{Pa}$. Lufttrykket utenfor er $p_0 = 1.013\cdot 10^{5}\,\mathrm{Pa}$.
 

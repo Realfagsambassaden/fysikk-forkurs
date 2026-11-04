@@ -8,7 +8,7 @@ aliases: ["/forkurs/01-hva-er-fysikk/01-hva-er-fysikk.html"]
 
 {{< video https://www.youtube.com/watch?v=Zt_dt0fndx0 >}}
 
-Fysikken er vitenskapen som studerer naturen, helt fra det minste (beskrevet av kvantefysikk) og helt opp til universet som helhet (kosmologi). Fysikken kan deles i flere grupper, slik som mekanikk, termofysikk, bølgefysikk, fluidmekanikk, elektromagnetisme, kvantemekanikk, relativitetsteori osv. I forkurset (for eksempel TRES0312 ved NTNU) er det mest fokus på følgende områder:
+Fysikken er vitenskapen som studerer naturen, helt fra det minste (beskrevet av kvantefysikk) og helt opp til universet som helhet (kosmologi). Fysikken kan deles i flere grupper, slik som mekanikk, termofysikk, bølgefysikk, fluidmekanikk, elektromagnetisme, kvantemekanikk, relativitetsteori osv. På forkursnivå er det mest fokus på følgende områder:
 
 -   Mekanikk
 
@@ -20,10 +20,10 @@ Fysikken er vitenskapen som studerer naturen, helt fra det minste (beskrevet av 
 
 {{< video https://www.youtube.com/watch?v=f5J60Vaof0M >}}
 
-Det er spesielt mekanikk, altså det første temaet, vi kommer til å legge vekt på i dette kurset. Omtrent halvparten av kurset går med til emner fra dette temaet. Grunnen til det, er at mekanikk gir oss et generelt begrepsaparat som vi siden kan benytte til å analysere problemstillinger også fra andre tema, slik som elektrisitetslære, termofysikk eller væsker og gasser.
+Det er spesielt mekanikk, altså det første temaet, det legges mest vekt på på forkursnivå. Omtrent halvparten av stoffet handler om dette temaet. Grunnen til det, er at mekanikk gir oss et generelt begrepsaparat som vi siden kan benytte til å analysere problemstillinger også fra andre tema, slik som elektrisitetslære, termofysikk eller væsker og gasser.
 
 <!-- tillegg: Claude -->
-Mot slutten av forkurset ser vi også kort på svingninger, bølger og stråling, og på atom- og kjernefysikk.
+På forkursnivå ser vi også kort på svingninger, bølger og stråling, og på atom- og kjernefysikk.
 
 
 <!-- tillegg: Claude -->
@@ -130,7 +130,7 @@ plt.show()
 
 ## Fysikkens områder
 
-Fysikken er stor, og vi deler den ofte inn i områder. I dette forkurset møter du alle områdene unntatt relativitet, men mest mekanikk:
+Fysikken er stor, og vi deler den ofte inn i områder. På forkursnivå møter du alle områdene unntatt relativitet, men mest mekanikk:
 
 | Område | Handler om | Eksempel |
 |---|---|---|

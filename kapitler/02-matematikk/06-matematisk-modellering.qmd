@@ -33,7 +33,7 @@ En typisk arbeidsgang når vi skal modellere et fysisk system, er:
 
 5.  Tolk svaret: gir det mening fysisk (riktig enhet, rimelig størrelsesorden, riktig fortegn)?
 
-Vi kommer til å bruke nøyaktig denne fremgangsmåten gjennom resten av kompendiet.
+Vi kommer til å bruke nøyaktig denne fremgangsmåten gjennom resten av stoffet.
 
 ::: {.callout-tip title="Til ettertanke"}
 

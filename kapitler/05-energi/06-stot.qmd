@@ -65,7 +65,7 @@ Newtons pendel
 ::::
 
 ::: {.eksempel}
-[Eksempel 5.11: Elastisk kollisjon mellom to like vogner]{.eks-tittel}
+[Eksempel: Elastisk kollisjon mellom to like vogner]{.eks-tittel}
 
 En vogn med masse $m = 2.0 \, \text{kg}$ og fart $v_1 = 3.0 \, \text{m/s}$ krasjer inn i en annen vogn med samme masse $m = 2.0 \, \text{kg}$ som står stille ($v_2 = 0$) på et friksjonsfritt underlag. Det er ingen ytre krefter som virker på systemet (vogn 1 + vogn 2), og det utføres ikke arbeid på systemet under kollisjonen. Vi skal finne hastighetene $u_1$ og $u_2$ til de to vognene etter kollisjonen.
 
@@ -95,7 +95,7 @@ Etter kollisjonen står vogn 1 stille ($u_1 = 0$), og vogn 2 beveger seg med en 
 :::
 
 ::: {.eksempel}
-[Eksempel 5.12: Elastisk kollisjon mellom vogner med ulik masse]{.eks-tittel}
+[Eksempel: Elastisk kollisjon mellom vogner med ulik masse]{.eks-tittel}
 
 To vogner ruller mot hverandre på et friksjonsfritt underlag. Vogn 1 har masse $m_1 = 2.0\,\mathrm{kg}$ og fart $3.0\,\mathrm{m}\,\mathrm{s}^{-1}$ mot høyre. Vogn 2 har masse $m_2 = 1.0\,\mathrm{kg}$ og fart $2.0\,\mathrm{m}\,\mathrm{s}^{-1}$ mot venstre. Kollisjonen er elastisk.
 

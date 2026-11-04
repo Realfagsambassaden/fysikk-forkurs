@@ -6,7 +6,7 @@ aliases: ["/forkurs/08-termofysikk/03-kalorimetri.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}
-Dette kapittelet skrives fortsatt.
+Denne siden skrives fortsatt.
 :::
 
 :::: {.oppgaver}
@@ -89,7 +89,7 @@ Når et stoff størkner, avgis like mye varme som det trengs for å smelte det. 
 :::
 
 ::: {.eksempel}
-[Eksempel 8.6: Fordampe vann]{.eks-tittel}
+[Eksempel: Fordampe vann]{.eks-tittel}
 
 Hvor mye energi kreves for å fordampe $2.0\,\mathrm{L}$ vann fra $100\,^\circ$C (væske) til $100\,^\circ$C (damp)?
 
@@ -106,7 +106,7 @@ Siden temperaturen er konstant (faseovergang): $$Q = \ell_{\text{fordamp}} \cdot
 :::
 
 ::: {.eksempel}
-[Eksempel 8.7: Avkjøling av glass]{.eks-tittel}
+[Eksempel: Avkjøling av glass]{.eks-tittel}
 
 Et legeme av glass med masse $m = 10\,\mathrm{kg}$ avkjøles fra $35\,^\circ$C til $-15\,^\circ$C. Hvor mye energi avgir glasset som varme?
 
@@ -121,7 +121,7 @@ $c_{\text{glass}} = 0.84\,\mathrm{kJ/(kg}\,\mathrm{,K)}$, $\Delta T = -15 - 35 =
 :::
 
 ::: {.eksempel}
-[Eksempel 8.8: Varmekapasitet til en termosflaske]{.eks-tittel}
+[Eksempel: Varmekapasitet til en termosflaske]{.eks-tittel}
 
 Det trengs $180\,\mathrm{J}$ for å øke temperaturen i en termosflaske med $\Delta T = 5.0\,\mathrm{K}$. Hva er varmekapasiteten til flaska?
 
@@ -135,7 +135,7 @@ $$Q = C\cdot\Delta T \implies C = \frac{Q}{\Delta T} = \frac{180\,\mathrm{J}}{5.
 :::
 
 ::: {.eksempel}
-[Eksempel 8.9: Kalorimeter — spesifikk varmekapasitet]{.eks-tittel}
+[Eksempel: Kalorimeter — spesifikk varmekapasitet]{.eks-tittel}
 
 En ukjent væske med masse $m_v = 200\,\mathrm{g}$ legges i en termosflaske med varmekapasitet $C_{\text{termos}} = 50\,\mathrm{J}\,\mathrm{K}^{-1}$. Tilsammen $7.00\,\mathrm{kJ}$ tilføres, og temperaturen stiger fra $15.2\,^\circ$C til $28.0\,^\circ$C. Finn den spesifikke varmekapasiteten $c_v$ til væska.
 

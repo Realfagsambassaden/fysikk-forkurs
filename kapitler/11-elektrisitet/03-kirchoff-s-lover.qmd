@@ -6,7 +6,9 @@ aliases: ["/forkurs/09-elektrisitet/03-kirchoff-s-lover.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}
-Dette kapittelet skrives fortsatt.
+
+Denne siden skrives fortsatt.
+
 :::
 
 :::: {.oppgaver}
@@ -30,14 +32,18 @@ $$\sum{U}=U_1+U_2+...+U_n=0$$
 **Kirchhoffs 2. lov** (spenningsloven) følger av energibevaring: i en lukket sløyfe må summen av alle spenningsfall (over motstander) være lik summen av alle spenningsstigninger (fra kilder). Tilsvarende: vandrer du i en ring tilbake til startpunktet, er nettohøydeforskjellen null.
 
 ::: {.eksempel}
-[Eksempel 9.2: Krets med Kirchhoffs lover]{.eks-tittel}
+
+[Eksempel: Krets med Kirchhoffs lover]{.eks-tittel}
 En krets har en spenningskilde $U_0 = 24\,\mathrm{V}$. Motstand $R_1 = 3.0\,\mathrm{\Omega}$ er i serie med en parallellkobling av $R_2 = 6.0\,\mathrm{\Omega}$ og $R_3 = 12\,\mathrm{\Omega}$.
 
 ::: center
+
 ![](../../bilder/figurer/k9-01-d4d754814d5e.svg){.tikz-fig style="width:366px"}
+
 :::
 
 ::: {.losning}
+
 **Steg 1 — Totalmotstand:**
 
 Parallellkoblingen: $\frac{1}{R_p} = \frac{1}{6} + \frac{1}{12} = \frac{3}{12}$, så $R_p = 4.0\,\mathrm{\Omega}$.
@@ -51,8 +57,10 @@ Totalmotstanden: $R_{\text{tot}} = R_1 + R_p = 3.0\,\mathrm{\Omega} + 4.0\,\math
 
 **Steg 4 — Strøm i grenene (Kirchhoffs 1. lov):** $$I_2 = \frac{U_p}{R_2} = \frac{13.7\,\mathrm{V}}{6.0\,\mathrm{\Omega}} \approx \underline{\underline{2.3\,\mathrm{A}}}, \qquad
   I_3 = \frac{U_p}{R_3} = \frac{13.7\,\mathrm{V}}{12\,\mathrm{\Omega}} \approx \underline{\underline{1.1\,\mathrm{A}}}$$ Sjekk K1: $I_2 + I_3 \approx 2.3\,\mathrm{A} + 1.1\,\mathrm{A} = 3.4\,\mathrm{A} = I_0$
-:::
+
 :::
 
+:::
 
 ::::
+

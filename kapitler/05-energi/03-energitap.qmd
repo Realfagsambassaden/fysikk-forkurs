@@ -20,7 +20,7 @@ Energitap i et system er energi som har forlatt systemet eller endret kvalitet t
 :::
 
 ::: {.eksempel}
-[Eksempel 5.4: Energiforskjell og energitap i et fall]{.eks-tittel}
+[Eksempel: Energiforskjell og energitap i et fall]{.eks-tittel}
 
 En ball med masse $0.50 \, \text{kg}$ slippes fra en høyde på $10 \, \text{m}$. Rett før ballen treffer bakken, har den en hastighet på $12 \, \text{m/s}$. Vi antar at noe energi har gått tapt på grunn av luftmotstand. Beregn energitapet ved å sammenligne den potensielle energien på toppen med den kinetiske energien rett før bakken.
 
@@ -43,7 +43,7 @@ I et vannkraftverk renner vann fra et magasin, gjennom et rør og ned til et sko
 [Vann renner fra et magasin gjennom et rør og ned til et skovlhjul. Høydeforskjellen fra vannflaten til skovlhjulet er $h$.]{.figurtekst}
 
 ::: {.eksempel}
-[Eksempel 5.5: Tapshøyde i et rør]{.eks-tittel}
+[Eksempel: Tapshøyde i et rør]{.eks-tittel}
 
 Vann renner fra et magasin, gjennom et rør og ned til et skovlhjul som ligger $h = 20\,\mathrm{m}$ under vannflaten i magasinet. Uten tap skulle vannet hatt farten $v_0 = \sqrt{2\mathrm{g}h}$ når det treffer skovlhjulet, men på grunn av tap i røret har det bare farten $v = 18.0\,\mathrm{m}\,\mathrm{s}^{-1}$.
 

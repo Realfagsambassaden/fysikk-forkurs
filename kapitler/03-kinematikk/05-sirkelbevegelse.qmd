@@ -48,7 +48,7 @@ Sentripetalakselerasjonen er akselerasjonen inn mot sentrum i ren sirkelbevegels
 Sentripetalakselerasjonen peker alltid mot sentrum av sirkelen, selv om objektet hele tiden beveger seg langs kanten av sirkelen. Dette er en viktig idé å forstå når vi ser på bevegelse i sirkulære baner. Men... hva om bilen også øker farten sin langs sirkelbanen, og ikke bare endrer retning? I det tilfelel vil bilen både ha en akselerasjon inn mot sentrum (sentripetalakselerasjonen) og en akselerasjon i kjøreretningen (tangentialakselerasjonen). Den totale akselerasjonsvektoren kan da skrives som en sum av disse to komponentene: $$\vec{a} = \vec{a}_\perp + \vec{a}_\parallel,$$ hvor $\vec{a}_\perp$ er sentripetalakselerasjonen og $\vec{a}_\parallel$ er tangentialakselerasjonen. I dette faget skal vi ikke se på slike tilfeller, men det er greit å ha sett sammenhengen.
 
 ::: {.eksempel}
-[Eksempel 3.13: Bil i rundkjøring]{.eks-tittel}
+[Eksempel: Bil i rundkjøring]{.eks-tittel}
 
 En bil kjører gjennom en rundkjøring med konstant fart $v = 36\,\mathrm{km}\,\mathrm{h}^{-1}$ og radius $r = 20\,\mathrm{m}$. Hva er sentripetalakselerasjonen til bilen?
 
@@ -77,7 +77,7 @@ c)  Hva skjer med sentripetalakselerasjonen om syklisten dobler farten? Forklar 
 
 **a)** Vi gjør om farten til SI-enheter: $$v = 5.4\,\mathrm{km}\,\mathrm{h}^{-1} = \underline{\underline{1.5\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
 
-**b)** Vi bruker formelen for sentripetalakselerasjon (se *Sentripetalakselerasjon*, figuren, i kompendiet): $$a_\perp = \frac{v^2}{r} = \frac{(1.5\,\mathrm{m}\,\mathrm{s}^{-1})^2}{12\,\mathrm{m}} = \underline{\underline{0.19\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
+**b)** Vi bruker formelen for sentripetalakselerasjon (se *Sentripetalakselerasjon*, figuren,): $$a_\perp = \frac{v^2}{r} = \frac{(1.5\,\mathrm{m}\,\mathrm{s}^{-1})^2}{12\,\mathrm{m}} = \underline{\underline{0.19\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
 
 **c)** Siden $a_\perp \propto v^2$, vil en dobling av farten ($v\to 2v$) gi $$a_\perp' = \frac{(2v)^2}{r} = 4\cdot\frac{v^2}{r} = 4a_\perp,$$ altså **firedobles** sentripetalakselerasjonen – den øker med kvadratet av farten, ikke proporsjonalt med farten.
 
@@ -92,7 +92,7 @@ Når vi snakker om legemer som har periodisk bevegelse, slik som en satelitt run
 \end{aligned}$$
 
 ::: {.eksempel}
-[Eksempel 3.14: Jorda rundt sola]{.eks-tittel}
+[Eksempel: Jorda rundt sola]{.eks-tittel}
 
 Jorda beveger seg i en tilnærmet sirkulær bane rundt sola med gjennomsnittlig radius $r = 1.496\cdot 10^{11}\,\mathrm{m}$ og omløpstid $T = 365.25\,\mathrm{d}$. Hva er den gjennomsnittlige sentripetalakselerasjonen jorda opplever?
 
@@ -122,7 +122,7 @@ c)  Beregn månens banehastighet $v = 2\pi r / T$ og verifiser svaret ved å bru
 
 **a)** Vi gjør om omløpstiden til sekunder: $$T = 27.3\,\mathrm{d}\cdot\frac{24\,\mathrm{h}}{1\,\mathrm{d}}\cdot\frac{3600\,\mathrm{s}}{1\,\mathrm{h}} = \underline{\underline{2.359\cdot 10^{6}\,\mathrm{s}}}$$
 
-**b)** Vi bruker formelen fra *Omløpstid* (se kompendiet): $$a_\perp = \frac{4\pi^2 r}{T^2} = \frac{4\pi^2\cdot3.84\cdot 10^{8}\,\mathrm{m}}{(2.359\cdot 10^{6}\,\mathrm{s})^2} = \underline{\underline{2.72\cdot 10^{-3}\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
+**b)** Vi bruker formelen fra *Omløpstid*: $$a_\perp = \frac{4\pi^2 r}{T^2} = \frac{4\pi^2\cdot3.84\cdot 10^{8}\,\mathrm{m}}{(2.359\cdot 10^{6}\,\mathrm{s})^2} = \underline{\underline{2.72\cdot 10^{-3}\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
 
 **c)** Banehastigheten er $$v = \frac{2\pi r}{T} = \frac{2\pi\cdot3.84\cdot 10^{8}\,\mathrm{m}}{2.359\cdot 10^{6}\,\mathrm{s}} = \underline{\underline{1.02\cdot 10^{3}\,\mathrm{m}\,\mathrm{s}^{-1}}} \approx 1.02\,\mathrm{km}\,\mathrm{s}^{-1}$$ Som en verifikasjon bruker vi $a_\perp = v^2/r$: $$a_\perp = \frac{(1.023\cdot 10^{3}\,\mathrm{m}\,\mathrm{s}^{-1})^2}{3.84\cdot 10^{8}\,\mathrm{m}} \approx 2.72\cdot 10^{-3}\,\mathrm{m}\,\mathrm{s}^{-2},$$ som stemmer godt overens med svaret i b).
 

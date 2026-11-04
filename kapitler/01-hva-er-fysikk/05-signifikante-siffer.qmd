@@ -19,7 +19,7 @@ Hvor lang er egentlig sauen?
 :::
 ::::
 
-I dette kurset skal vi ikke se så mye på dette, men vi skal få med oss det mest grunnleggende, nemlig *Signifikante siffer*. Signifikante siffer handler om å bruke riktig antall siffer i en utregning. La oss starte med å se på hvordan vi skal finne antall signifikante siffer. Tallet 459 har tre signifikante siffer, ettersom det består av tre siffer. Tallet 12 001. 03700 har 10 signifikante siffer, etter som det består av 10 siffer. Men merk at tallet 0.00059400 kun har 5 signifikante siffer (nemlig 59400). Antall signifikante siffer telles nemlig fra *første siffer som er forskjellig fra null.*
+På forkursnivå skal vi ikke se så mye på dette, men vi skal få med oss det mest grunnleggende, nemlig *Signifikante siffer*. Signifikante siffer handler om å bruke riktig antall siffer i en utregning. La oss starte med å se på hvordan vi skal finne antall signifikante siffer. Tallet 459 har tre signifikante siffer, ettersom det består av tre siffer. Tallet 12 001. 03700 har 10 signifikante siffer, etter som det består av 10 siffer. Men merk at tallet 0.00059400 kun har 5 signifikante siffer (nemlig 59400). Antall signifikante siffer telles nemlig fra *første siffer som er forskjellig fra null.*
 
 ::: myoppsum*
 Signifikante siffer
@@ -30,7 +30,7 @@ Signifikante siffer
 :::
 
 ::: {.eksempel}
-[Eksempel 1.6: Signifikante siffer]{.eks-tittel}
+[Eksempel: Signifikante siffer]{.eks-tittel}
 
 Hvor mange signifikante siffer har tallene a) 165.00 b) 0.791400 og c) 14?
 
@@ -46,7 +46,7 @@ Hvor mange signifikante siffer har tallene a) 165.00 b) 0.791400 og c) 14?
 :::
 
 ::: {.eksempel}
-[Eksempel 1.7: Signifikante siffer i utregning]{.eks-tittel}
+[Eksempel: Signifikante siffer i utregning]{.eks-tittel}
 
 Eline kjører 5.00 km på 6.0 minutter. Hvor fort kjører hun i gjennomsnitt?
 
@@ -76,7 +76,7 @@ c)  Regn ut $18.0 / 4.5$ og oppgi svaret med riktig antall signifikante siffer.
 
 ::: {.losning}
 
-**a)** Antall signifikante siffer (se *Signifikante siffer* i kompendiet):
+**a)** Antall signifikante siffer (se *Signifikante siffer*):
 
 -   $0.00420$: de ledende nullene teller ikke, men den etterfølgende nullen gjør det $\Rightarrow$ **3 signifikante siffer**.
 

@@ -12,7 +12,7 @@ Likninger handler om å uttrykke sammenhenger mellom størrelser ved hjelp av va
 Noe av det vi kommer til å gjøre mest i fysikken er å sette opp likninger og løse for en variabel; en såkalt "ukjent". Da må vi følge gitte logiske regler. Disse reglene kalles algebra-regler, eller bare algebra.
 
 ::: {.eksempel}
-[Eksempel 2.1: Finne gjennomsnittsfart $\bar{v}$]{.eks-tittel}
+[Eksempel: Finne gjennomsnittsfart $\bar{v}$]{.eks-tittel}
 
 Jakob Ingebrigtsen er ute og løper. Han løper $s_1 = 5.0\,\mathrm{km}$ på $t_1 = 20\,\mathrm{min}$. Deretter skrur han opp tempo litt og løper en strekning $s_2 = 4.0\,\mathrm{km}$ på $t_2 = 18\,\mathrm{min}$. Hva er gjennomsnittsfarten $\bar{v}$?
 
@@ -26,7 +26,7 @@ Først finner vi total strekning og total tid: $$s_{\text{total}} = s_1 + s_2 = 
 Et annet eksempel kan være Newtons 2. lov, som gir sammenhengen mellom det vi kaller for kraft $F$, masse $m$ og akselerasjon $a$.
 
 ::: {.eksempel}
-[Eksempel 2.2: Løse for akselerasjon $a$]{.eks-tittel}
+[Eksempel: Løse for akselerasjon $a$]{.eks-tittel}
 
 Newtons 2. lov sier $F = m \cdot a$. En bil med masse $m = 1\,200\,\mathrm{kg}$ utsettes for en kraft $F = 4\,800\,\mathrm{N}$. Finn akselerasjonen $a$.
 
@@ -35,10 +35,10 @@ Newtons 2. lov sier $F = m \cdot a$. En bil med masse $m = 1\,200\,\mathrm{kg}$ 
 :::
 :::
 
-**Python som kalkulator:** I dette faget er ikke Python obligatorisk, men dere kommer nok til å trenge det i mange andre fag, så det er greit å bli vant med det først som sist. La oss starte med å se et eksempe hvor vi enkelt og greit bruker Python til å utføre noe vi kunne gjort på en gammeldags kalkulator.
+**Python som kalkulator:** Python er ikke nødvendig på forkursnivå, men du kommer nok til å trenge det senere, så det er greit å bli vant med det først som sist. La oss starte med å se et eksempe hvor vi enkelt og greit bruker Python til å utføre noe vi kunne gjort på en gammeldags kalkulator.
 
 ::: {.eksempel}
-[Eksempel 2.3: Kinetisk energi]{.eks-tittel}
+[Eksempel: Kinetisk energi]{.eks-tittel}
 
 Beregn den kinetiske energien $E_\text{K}=\frac{1}{2}mv^2$ til en gjenstand med masse $m = 2.0\,\mathrm{kg}$ som beveger seg med fart $v = 5.0\,\mathrm{m}\,\mathrm{s}^{-1}$.
 
@@ -63,10 +63,10 @@ Kinetisk energi: 25.0 J
 
 Den kinetiske energien er altså $E_\text{K} = \underline{\underline{25\,\mathrm{J}}}$.
 
-*Kodefil: [TRES0312 Python/Kap2_MatematiskeVerktoyViTrenger/K2_algebra_beregning.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_algebra_beregning.ipynb)*
+*Kodefil: [K2_algebra_beregning.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_algebra_beregning.ipynb)*
 
 ::: mymerk*
-Kjøre koden selv Alle kodeeksempler finnes som Jupyter Notebook-filer i mappen [TRES0312 Python](https://github.com/kosmoben/TRES0312/tree/main/TRES0312%20Python). Se Appendiks  for hvordan du åpner og kjører dem.
+Kjøre koden selv Alle kodeeksempler finnes som Jupyter Notebook-filer i [kodemappen](https://github.com/kosmoben/TRES0312/tree/main/TRES0312%20Python). Se Appendiks  for hvordan du åpner og kjører dem.
 :::
 
 ::: {.oppgave tittel="Algebra og Python"}
@@ -123,7 +123,7 @@ Disse bør også sitte i fingrene.
 I fysikken må vi ofte sette opp flere likninger for å beskrive en situasjon riktig. For å finne det vi er ute etter, må vi da gjerne løse et *likningssystem* — altså flere likninger med flere ukjente. Vi kommer tilbake til dette i senere kapitler, men her er et eksempel på hvordan man kan løse et slikt system.
 
 ::: {.eksempel}
-[Eksempel 2.4: Redningsbil drar en bil]{.eks-tittel}
+[Eksempel: Redningsbil drar en bil]{.eks-tittel}
 
 En redningsbil drar en bil som i utgangspunktet står i ro, med en konstant kraft $F = 3000\,\mathrm{N}$ i horisontal retning. Massen til bilen er $m = 1200\,\mathrm{kg}$. Hva er farten $v$ til bilen etter $t = 5.0\,\mathrm{s}$?
 

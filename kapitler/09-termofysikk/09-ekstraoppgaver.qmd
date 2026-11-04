@@ -6,12 +6,12 @@ aliases: ["/forkurs/08-termofysikk/07-ekstraoppgaver.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}
-Dette kapittelet skrives fortsatt.
+Denne siden skrives fortsatt.
 :::
 
 :::: {.oppgaver}
 
-Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+Her er flere oppgaver om temaene foran.
 
 ::: {.oppgave tittel="Bremser som blir varme"}
 [Bremser som blir varme]{.oppg-tittel}

@@ -150,7 +150,7 @@ v_y(t) = v_{0y} + a_y t.
 \end{aligned}$$
 
 ::: {.eksempel}
-[Eksempel 2.8: Dekomponering av hastighet]{.eks-tittel}
+[Eksempel: Dekomponering av hastighet]{.eks-tittel}
 
 En ball kastes med fart $v = 20\,\mathrm{m}\,\mathrm{s}^{-1}$ i en vinkel $\theta = 37°$ over horisonten ($\cos 37° \approx 0.80$, $\sin 37° \approx 0.60$).\
 **a)** Finn komponentene $v_x$ og $v_y$.\
@@ -168,7 +168,7 @@ v_y = 20\,\mathrm{m}\,\mathrm{s}^{-1}\cdot 0.60 = \underline{\underline{12\,\mat
 :::
 
 ::: {.eksempel}
-[Eksempel 2.9: Dekomponering av vektor og beregning av vinkel]{.eks-tittel}
+[Eksempel: Dekomponering av vektor og beregning av vinkel]{.eks-tittel}
 
 Vi har en vektor $\vec{A} = [3,\;4]$ med komponenter $A_x = 3$ og $A_y = 4$.\
 **a)** Finn størrelsen (skalarverdien) $A = |\vec{A}|$.\
@@ -228,7 +228,7 @@ Vinkelen til en vektor $\vec{v} = [v_x, v_y]$ er gitt ved $$\begin{aligned}
 :::
 
 ::: {.eksempel}
-[Eksempel 2.10: Størrelse og retning]{.eks-tittel}
+[Eksempel: Størrelse og retning]{.eks-tittel}
 
 Finn lengde og vinkel til $\vec{v} = [3,\, 4]$.
 
@@ -260,7 +260,7 @@ Lengde: 5.00
 Vinkel: 53.1 grader
 ```
 
-*Kodefil: [TRES0312 Python/Kap2_MatematiskeVerktoyViTrenger/K2_vektorlengde_og_vinkel.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_vektorlengde_og_vinkel.ipynb)*
+*Kodefil: [K2_vektorlengde_og_vinkel.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_vektorlengde_og_vinkel.ipynb)*
 
 ::: mymerk*
 Bruk `arctan2`, ikke `arctan` `np.arctan2(vy, vx)` er bedre enn `np.arctan(vy/vx)` fordi den håndterer alle fire kvadranter riktig — også når $v_x = 0$ eller $v_x < 0$.

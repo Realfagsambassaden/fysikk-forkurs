@@ -18,7 +18,7 @@ Addisjon av vektorer gjøres grafisk ved å plassere starten til den andre vekto
 :::
 
 ::: {.eksempel}
-[Eksempel 2.11: Vektoraddisjon]{.eks-tittel}
+[Eksempel: Vektoraddisjon]{.eks-tittel}
 
 Gitt vektorene $\vec{B} = [3,\,1]$ og $\vec{C} = [1,\,2]$. Finn resultantvektoren $\vec{A} = \vec{B} + \vec{C}$ og beregn lengden $|\vec{A}|$.
 
@@ -61,7 +61,7 @@ a + b = [2. 3.]
 |a + b| = 3.61
 ```
 
-*Kodefil: [TRES0312 Python/Kap2_MatematiskeVerktoyViTrenger/K2_vektoraddisjon.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_vektoraddisjon.ipynb)*
+*Kodefil: [K2_vektoraddisjon.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_vektoraddisjon.ipynb)*
 
 ::: {.oppgave tittel="Vektoraddisjon"}
 [Vektoraddisjon]{.oppg-tittel}
@@ -112,7 +112,7 @@ $}
 \end{aligned}$$ Her har vi brukt at enhetsvektorene har lengde 1, og at $\cos 90° = 0$ og $\cos 0° = 1$.
 
 ::: {.eksempel}
-[Eksempel 2.12: Skalarprodukt]{.eks-tittel}
+[Eksempel: Skalarprodukt]{.eks-tittel}
 
 Finn skalarproduktet av $\vec{u} = 2\hat{\mathbf{x}} + 3\hat{\mathbf{y}}$ og $\vec{v} = 4\hat{\mathbf{x}} - \hat{\mathbf{y}}$.
 
@@ -127,7 +127,7 @@ Finn skalarproduktet av $\vec{u} = 2\hat{\mathbf{x}} + 3\hat{\mathbf{y}}$ og $\v
 :::
 
 ::: {.eksempel}
-[Eksempel 2.13: Skalarprodukt og vinkel]{.eks-tittel}
+[Eksempel: Skalarprodukt og vinkel]{.eks-tittel}
 
 Finn skalarproduktet av $\vec{u} = [3,\,4]$ og $\vec{v} = [1,\,-2]$, og bestem vinkelen mellom dem.
 
@@ -169,7 +169,7 @@ u . v = -5.0
 Vinkel = 116.6 grader
 ```
 
-*Kodefil: [TRES0312 Python/Kap2_MatematiskeVerktoyViTrenger/K2_skalarprodukt.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_skalarprodukt.ipynb)*
+*Kodefil: [K2_skalarprodukt.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_skalarprodukt.ipynb)*
 
 ::: {.oppgave tittel="Skalarprodukt"}
 [Skalarprodukt]{.oppg-tittel}
@@ -213,7 +213,7 @@ Størrelsen på kryssproduktet er lik *arealet av parallellogrammet* som dannes 
 :::
 
 ::: {.eksempel}
-[Eksempel 2.14: Kryssprodukt]{.eks-tittel}
+[Eksempel: Kryssprodukt]{.eks-tittel}
 
 Finn kryssproduktet av $\vec{u} = [3,\,4]$ og $\vec{v} = [1,\,-2]$.
 
