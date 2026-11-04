@@ -33,7 +33,7 @@ I fysikk møter vi både veldig store og veldig små tall. Da er det lurt å skr
 | $10^{0}$ | $1$ | | |
 :::
 
-Eksponenten forteller hvor mange plasser kommaet flyttes: mot høyre for positiv eksponent, mot venstre for negativ. Et tall skrevet som $5{,}6\cdot 10^{6}$ (i stedet for $5\,600\,000$) står på **standardform**. Du lærer mer om standardform i kapittel 3.
+Eksponenten forteller hvor mange plasser kommaet flyttes: mot høyre for positiv eksponent, mot venstre for negativ. Et tall skrevet som $5{,}6\cdot 10^{6}$ (i stedet for $5\,600\,000$) står på **standardform**. Du lærer mer om standardform senere i dette kapittelet.
 
 Når vi ganger og deler tierpotenser, legger vi sammen og trekker fra eksponentene:
 

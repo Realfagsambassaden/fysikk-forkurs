@@ -1,0 +1,168 @@
+---
+title: "Likninger og algebra"
+emne: matematiske-verktoy
+delemne: algebra
+aliases: ["/forkurs/02-matematikk/01-likninger-og-algebra.html"]
+---
+
+:::: {.oppgaver}
+
+Likninger handler om å uttrykke sammenhenger mellom størrelser ved hjelp av variabler og symboler. I stedet for å skrive at «fart er strekning delt på tid» kan vi skrive $$v = \frac{s}{t}.$$ Her er $v$, $s$ og $t$ *variabler* — altså symboler som kan ta ulike tallverdier.
+
+Noe av det vi kommer til å gjøre mest i fysikken er å sette opp likninger og løse for en variabel; en såkalt "ukjent". Da må vi følge gitte logiske regler. Disse reglene kalles algebra-regler, eller bare algebra.
+
+::: {.eksempel}
+[Eksempel 2.1: Finne gjennomsnittsfart $\bar{v}$]{.eks-tittel}
+
+Jakob Ingebrigtsen er ute og løper. Han løper $s_1 = 5.0\,\mathrm{km}$ på $t_1 = 20\,\mathrm{min}$. Deretter skrur han opp tempo litt og løper en strekning $s_2 = 4.0\,\mathrm{km}$ på $t_2 = 18\,\mathrm{min}$. Hva er gjennomsnittsfarten $\bar{v}$?
+
+::: {.losning}
+**Løsning:** Gjennomsnittsfart $\bar{v}$ er også et begrep vi ikke har lært ennå, men det er rett fram, og de fleste kjenner det intuitivt igjen fra erfaring: $$\bar{v} = \frac{\text{total strekning}}{\text{total tid}}.$$ Vi må derfor finne total strekning og total tid før vi kan regne ut gjennomsnittsfarten.
+
+Først finner vi total strekning og total tid: $$s_{\text{total}} = s_1 + s_2 = 5.0\,\mathrm{km} + 4.0\,\mathrm{km} = 9.0\,\mathrm{km},$$ $$t_{\text{total}} = t_1 + t_2 = 20\,\mathrm{min} + 18\,\mathrm{min} = 38\,\mathrm{min}.$$ Gjennomsnittsfarten er da: $$\bar{v} = \frac{s_{\text{total}}}{t_{\text{total}}} = \frac{9.0\,\mathrm{km}}{38\,\mathrm{min}} = 0.237\,\mathrm{km}\,\mathrm{min}^{-1} \approx \underline{\underline{0.24\,\mathrm{km}\,\mathrm{min}^{-1}}}.$$ I $\mathrm{m}\,\mathrm{s}^{-1}$ blir dette $$\bar{v} = 0.237\cdot\frac{1\,000\,\mathrm{m}}{60\,\mathrm{s}} = 3.95\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{3.9\,\mathrm{m}\,\mathrm{s}^{-1}}}.$$ Greier du å gjøre dette om til km/t?
+:::
+:::
+
+Et annet eksempel kan være Newtons 2. lov, som gir sammenhengen mellom det vi kaller for kraft $F$, masse $m$ og akselerasjon $a$.
+
+::: {.eksempel}
+[Eksempel 2.2: Løse for akselerasjon $a$]{.eks-tittel}
+
+Newtons 2. lov sier $F = m \cdot a$. En bil med masse $m = 1\,200\,\mathrm{kg}$ utsettes for en kraft $F = 4\,800\,\mathrm{N}$. Finn akselerasjonen $a$.
+
+::: {.losning}
+**Løsning:** Del begge sider på $m$: $$a = \frac{F}{m} = \frac{4\,800\,\mathrm{N}}{1\,200\,\mathrm{kg}} = \underline{\underline{4.0\,\mathrm{m}\,\mathrm{s}^{-2}}}.$$
+:::
+:::
+
+**Python som kalkulator:** I dette faget er ikke Python obligatorisk, men dere kommer nok til å trenge det i mange andre fag, så det er greit å bli vant med det først som sist. La oss starte med å se et eksempe hvor vi enkelt og greit bruker Python til å utføre noe vi kunne gjort på en gammeldags kalkulator.
+
+::: {.eksempel}
+[Eksempel 2.3: Kinetisk energi]{.eks-tittel}
+
+Beregn den kinetiske energien $E_\text{K}=\frac{1}{2}mv^2$ til en gjenstand med masse $m = 2.0\,\mathrm{kg}$ som beveger seg med fart $v = 5.0\,\mathrm{m}\,\mathrm{s}^{-1}$.
+
+::: {.losning}
+**Løsning:** Vi bruker Python som kalkulator og definerer variablene $m$ og $v$, som vist i koden under.
+:::
+:::
+
+```{.python .kjor}
+# Kinetisk energi: E_k = 0.5 * m * v**2
+m = 2.0 # masse i kg
+v = 5.0 # fart i m/s
+
+E_k = 0.5 * m * v**2
+
+print(f"Kinetisk energi: {E_k} J")
+```
+
+```{.text .utskrift}
+Kinetisk energi: 25.0 J
+```
+
+Den kinetiske energien er altså $E_\text{K} = \underline{\underline{25\,\mathrm{J}}}$.
+
+*Kodefil: [TRES0312 Python/Kap2_MatematiskeVerktoyViTrenger/K2_algebra_beregning.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_algebra_beregning.ipynb)*
+
+::: mymerk*
+Kjøre koden selv Alle kodeeksempler finnes som Jupyter Notebook-filer i mappen [TRES0312 Python](https://github.com/kosmoben/TRES0312/tree/main/TRES0312%20Python). Se Appendiks  for hvordan du åpner og kjører dem.
+:::
+
+::: {.oppgave tittel="Algebra og Python"}
+[Algebra og Python]{.oppg-tittel}
+
+a)  Beregn $\dfrac{15 + 3^2}{6 - 2}$ for hånd, og sjekk svaret med Python, eller kalkulator.
+
+b)  Bruk Python (eller en kalkulator) til å beregne potensiell energi $E_p = m \cdot \mathrm{g} \cdot h$ for $m = 5.0\,\mathrm{kg}$, $\mathrm{g} = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}$ og $h = 10.0\,\mathrm{m}$.
+
+::: {.losning}
+
+**a)** Vi følger regnerekkefølgen (potenser før addisjon/subtraksjon, og telleren/nevneren regnes ut hver for seg før divisjonen): $$\frac{15+3^2}{6-2} = \frac{15+9}{4} = \frac{24}{4} = \underline{\underline{6}}$$
+
+**b)** Vi setter inn tallverdiene i $E_p = m\cdot \mathrm{g}\cdot h$: $$E_p = 5.0\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot10.0\,\mathrm{m} = 490.5\,\mathrm{J} \approx \underline{\underline{4.9\cdot 10^{2}\,\mathrm{J}}}$$ I Python kan dette gjøres med koden under.
+
+:::
+
+:::
+
+::: mymerk*
+Om du ikke kjenner til formlene vi her har brukt, som $F=ma$, $E_\text{K} = \frac{1}{2}mv^2$ og $E_p = m\mathrm{g}h$, så er det ikke noe problem. Vi kommer tilbake til det i senere kapitler. Det viktigste akkurat nå er at du har kontroll på algebaraen.
+:::
+
+Det aller viktiste så langt er at du forstår at fysikkens språk er matematikk, og at vi derfor skriver ned likninger som beskriver sammenhenger mellom størrelser. Vi kan da løse for en ukjent ved å bruke algebra-regler.
+
+::: myoppsum*
+Algebraregler
+
+-   Det du gjør på ett ledd i en likningmå du gjøre på alle ledd.
+
+-   Husk at du alltid kan multiplisere med 1.
+:::
+
+Det kan også være verdt å repetere følgende regler for notasjon:
+
+-   **Potenser:** $x^a \cdot x^b = x^{a+b}$, $\dfrac{x^a}{x^b} = x^{a-b}$, $(x^a)^b = x^{ab}$.
+
+-   **Kvadratrot:** $\sqrt{x} = x^{1/2}$.
+
+::: {.graa}
+
+I tillegg har vi kvadratsetningene: $$\begin{aligned}
+    &(a+b)^2 = a^2 + 2ab + b^2, \\
+    &(a-b)^2 = a^2 - 2ab + b^2, \\
+    &(a+b)(a-b) = a^2 - b^2.
+\end{aligned}$$
+
+:::
+
+Disse bør også sitte i fingrene.
+
+## Likningssystem
+
+I fysikken må vi ofte sette opp flere likninger for å beskrive en situasjon riktig. For å finne det vi er ute etter, må vi da gjerne løse et *likningssystem* — altså flere likninger med flere ukjente. Vi kommer tilbake til dette i senere kapitler, men her er et eksempel på hvordan man kan løse et slikt system.
+
+::: {.eksempel}
+[Eksempel 2.4: Redningsbil drar en bil]{.eks-tittel}
+
+En redningsbil drar en bil som i utgangspunktet står i ro, med en konstant kraft $F = 3000\,\mathrm{N}$ i horisontal retning. Massen til bilen er $m = 1200\,\mathrm{kg}$. Hva er farten $v$ til bilen etter $t = 5.0\,\mathrm{s}$?
+
+:::
+
+::: {.callout-note .svar collapse="true" title="Vis løsning"}
+
+Vi kjenner to sammenhenger som begge må være oppfylt samtidig — et likningssystem med to likninger og to ukjente ($a$ og $v$): $$\begin{cases}
+F = ma \\
+v = v_0 + at
+\end{cases}$$ Vi løser systemet med innsettingsmetoden. Fra den første likningen finner vi et *uttrykk* for akselerasjonen — vi setter ikke inn tall ennå: $$a = \frac{F}{m}.$$ Vi setter dette uttrykket for $a$ inn i den andre likningen, og løser for $v$. Vi finner $$v = v_0 + at = v_0+\frac{F}{m}t.$$ Først nå, når vi har uttrykket klart, setter vi inn tallverdiene: Siden bilen starter i ro er $v_0 = 0$. Videre er både massen $m$ og kraften $F$ oppgitt. Vi finner $$v = \frac{3000\,\mathrm{N}}{1200\,\mathrm{kg}} \cdot 5.0\,\mathrm{s} = 12.5\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{13\,\mathrm{m}\,\mathrm{s}^{-1}}}.$$
+
+:::
+
+::: mymerk*
+Legg merke til fremgangsmåten: vi satte opp *to* likninger — én fra kraft og masse, én fra kinematikken — og kombinerte dem til ett generelt *uttrykk* for $v$, *før* vi satte inn tallverdier. Det lønner seg å venne seg til denne rekkefølgen: finn uttrykket for det du er ute etter først, og regn ut svaret med tall helt til slutt.
+:::
+
+::: {.oppgave tittel="Per og Kari"}
+[Per og Kari]{.oppg-tittel}
+
+Per er dobbelt så gammel som Kari, som er 6 år yngre enn Per.
+
+a)  Sett opp et likningssystem med to likninger og to ukjente som beskriver situasjonen.
+
+b)  Løs likningssystemet med innsettingsmetoden. Hvor gamle er Per og Kari?
+
+::: {.losning}
+
+**a)** La $P$ være Pers alder og $K$ være Karis alder. “Per er dobbelt så gammel som Kari” gir $P=2K$. “Kari er 6 år yngre enn Per” gir $K = P-6$. Likningssystemet er dermed $$\begin{cases}
+        P = 2K\\
+        K = P-6
+    \end{cases}$$
+
+**b)** Vi setter det første uttrykket ($P=2K$) inn i det andre: $$K = 2K - 6 \quad\Rightarrow\quad -K = -6 \quad\Rightarrow\quad K = \underline{\underline{6}}$$ Og dermed $P = 2K = 2\cdot 6 = \underline{\underline{12}}$. Per er altså 12 år, og Kari er 6 år.
+
+:::
+
+:::
+
+
+::::

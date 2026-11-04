@@ -1,0 +1,21 @@
+---
+title: "Svingninger"
+toc: false
+tegning: hockey
+---
+
+<!-- tillegg: Claude -->
+::: {.intro}
+
+Mye i naturen og teknikken svinger fram og tilbake: en huske, en gitarstreng, en bil på fjæringen. I dette kapittelet ser vi på de enkleste svingningene, og hvordan vi beskriver dem med periode, frekvens og amplitude.
+
+:::
+
+::: {.spm}
+[Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
+
+1.  Hva kjennetegner en svingning?
+
+2.  Hva bestemmer svingetiden til en fjær og en pendel?
+
+:::

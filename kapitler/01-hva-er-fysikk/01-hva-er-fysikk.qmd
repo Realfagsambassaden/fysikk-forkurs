@@ -2,10 +2,29 @@
 title: "Hva er fysikk?"
 emne: hva-er-fysikk
 delemne: hva-er-fysikk
+aliases: ["/forkurs/01-hva-er-fysikk/01-hva-er-fysikk.html"]
 ---
 
-<!-- video: kommer (videoer/fysikk-forkurs/01-hva-er-fysikk) -->
-![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
+{{< video https://www.youtube.com/watch?v=Zt_dt0fndx0 >}}
+
+Fysikken er vitenskapen som studerer naturen, helt fra det minste (beskrevet av kvantefysikk) og helt opp til universet som helhet (kosmologi). Fysikken kan deles i flere grupper, slik som mekanikk, termofysikk, bølgefysikk, fluidmekanikk, elektromagnetisme, kvantemekanikk, relativitetsteori osv. I forkurset (for eksempel TRES0312 ved NTNU) er det mest fokus på følgende områder:
+
+-   Mekanikk
+
+-   Fysikk i væsker og gasser
+
+-   Termofysikk
+
+-   Elektrisitetslære
+
+{{< video https://www.youtube.com/watch?v=f5J60Vaof0M >}}
+
+Det er spesielt mekanikk, altså det første temaet, vi kommer til å legge vekt på i dette kurset. Omtrent halvparten av kurset går med til emner fra dette temaet. Grunnen til det, er at mekanikk gir oss et generelt begrepsaparat som vi siden kan benytte til å analysere problemstillinger også fra andre tema, slik som elektrisitetslære, termofysikk eller væsker og gasser.
+
+<!-- tillegg: Claude -->
+Mot slutten av forkurset ser vi også kort på svingninger, bølger og stråling, og på atom- og kjernefysikk.
+
 
 <!-- tillegg: Claude -->
 Kast en ball, og den følger en fin bue før den lander. Skru på lyset, og lampa lyser med en gang. Se på himmelen, og du vet at sola står opp i morgen også. Alt dette skjer på samme måte hver gang. Naturen følger altså **regler**. Fysikk er jakten på disse reglene.
@@ -111,7 +130,7 @@ plt.show()
 
 ## Fysikkens områder
 
-Fysikken er stor, og vi deler den ofte inn i områder. I dette forkurset møter du de fire første:
+Fysikken er stor, og vi deler den ofte inn i områder. I dette forkurset møter du alle områdene unntatt relativitet, men mest mekanikk:
 
 | Område | Handler om | Eksempel |
 |---|---|---|
@@ -218,7 +237,7 @@ $$
 t = \sqrt{\frac{2\cdot 10\ \mathrm{m}}{9{,}81\ \mathrm{m/s^2}}} = \sqrt{2{,}04\ \mathrm{s^2}} = \underline{\underline{1{,}43\ \mathrm{s}}}
 $$
 
-c) Forskjellen er bare $0{,}03\ \mathrm{s}$. Det er mindre enn hvor nøyaktig en person klarer å starte og stoppe en stoppeklokke (reaksjonstiden er rundt $0{,}2\ \mathrm{s}$). Målingen og modellen stemmer altså godt overens innenfor måleusikkerheten. I tillegg hopper hun kanskje litt opp før hun faller. Mer om måleusikkerhet kommer i kapittel 3.
+c) Forskjellen er bare $0{,}03\ \mathrm{s}$. Det er mindre enn hvor nøyaktig en person klarer å starte og stoppe en stoppeklokke (reaksjonstiden er rundt $0{,}2\ \mathrm{s}$). Målingen og modellen stemmer altså godt overens innenfor måleusikkerheten. I tillegg hopper hun kanskje litt opp før hun faller. Mer om måleusikkerhet kommer senere i dette kapittelet.
 :::
 :::
 

@@ -1,8 +1,33 @@
 ---
 title: "Hva er fysikk?"
+toc: false
+tegning: sau-maling
+aliases: ["/forkurs/01-hva-er-fysikk/index.html"]
 ---
 
-<!-- plan: 01 hva-er-fysikk (naturens lover, fysikkens metode, modeller, fysikkens områder – passer prøvevideoen), 02 overslag (størrelsesordener, tierpotenser og overslagsregning) -->
+::: {.intro}
 
-<!-- tillegg: Claude -->
-Før vi regner på bevegelse, krefter og energi, tar vi et skritt tilbake og spør: Hva holder fysikere egentlig på med? I dette kapittelet ser du hvordan fysikere bruker **modeller** for å forstå naturen, og hvordan du med enkle **overslag** kan finne ut om et svar er rimelig – lenge før du har lært alle formlene.
+Verden består av så mye forskjellig. Her har vi natur, med skoger og fjell, elver og vann. Her lever alle mulige biologiske vesener. Her finner vi også mennesket, som bygger hus, skyskrapere og teknologiske dupeditter som mobiltelefoner. Der oppe på kuleskallet ser vi stjerner og kométer, supernovaer og nordlys. Felles for alle disse svært forskjellige delene av verden er at det lar seg beskrive av matematikk. Dette er jo på en måte helt spinnvilt. Pionerene innen vitenskap, slik som Johannes Kepler, som oppdaget at planetene går i ellipsebaner, og Isaac Newton, som oppdaget at det finnes en kraft som trekker planetene mot solen, var alle forbløffet over at de kunne finne ut av dette ved hjelp av matematikk. Som Galileo Galilei sa det:
+
+::: center
+*«Filosofien er skrevet i denne store boken, universet. Men boken kan ikke forstås før man først lærer å forstå språket og tyde tegnene den er skrevet med. Den er skrevet i matematikkens språk, og tegnene er trekanter, sirkler og andre geometriske figurer, uten hvilke det er menneskelig umulig å forstå et eneste ord av den. Uten disse vandrer man omkring i en mørk labyrint.»*[@galilei1957assayer]
+:::
+
+::: {.callout-tip title="Til ettertanke"}
+
+Kan alt i verden beskrives i matematikk? Hva med *kjærlighet* eller *bevissthet*? Slike vanskelige, filosofiske spørsmål skal vi ikke svare på i dette kompendiet, men de er verdt å merke seg.
+
+:::
+
+**I dette kapitlet** introduserer vi begrepet *fysiske størrelser*, ser på SI-enheter og enkle regler for enhetsregning, går gjennom signifikante siffer og standardform, og lærer å gjøre raske overslag.
+
+:::
+
+::: {.spm}
+[Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
+
+1.  Hva er fysikk?
+
+2.  Hvordan beskriver vi virkeligheten med matematikk?
+
+:::

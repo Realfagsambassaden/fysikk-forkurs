@@ -1,0 +1,47 @@
+---
+title: "Matematisk modellering"
+emne: modellering
+delemne: modellering
+aliases: ["/forkurs/02-matematikk/06-matematisk-modellering.html"]
+---
+
+:::: {.oppgaver}
+
+Matematisk modellering er selve kunsten å oversette et fysisk problem til matematikkens språk, slik at vi kan resonnere oss fram til svaret ved hjelp av likninger i stedet for gjetning. Verktøyene vi nettopp har gått gjennom — vektorer, komponenter og koordinatsystemer — er selve grunnmuren i denne prosessen: de gir oss et presist språk for å beskrive posisjoner, krefter og bevegelser, uavhengig av hvordan vi velger å orientere oss i rommet.
+
+::: myoppsum*
+Matematisk modellering En matematisk modell av virkeligheten vil for oss inneholde følgende:
+
+1.  Representasjon av objektene involvert, f.eks. som punkter eller enkle geometriske former med en posisjon i rommet.
+
+2.  Representasjon av påvirkningen mellom objektene involvert (kreftene), typisk som piler — altså vektorer — som virker på objektene.
+
+3.  Effektivt valg av koordinatsystem, slik at likningene som beskriver problemet blir så enkle som mulig å sette opp og løse.
+:::
+
+For å få oversikt over disse tre punktene er det veldig lurt å tegne en tegning. Tegninger er ofte fysikernes beste venn, og det er ikke uten grunn at Richard Feynman utarbeidet de såkalte Feynman-diagrammene, som rett og slett er tegninger som representerer beregninger dypt inne i fundamentalfysikk: kvantefeltteori.
+
+En typisk arbeidsgang når vi skal modellere et fysisk system, er:
+
+1.  Tegn en skisse av situasjonen, og merk av alle objekter, krefter og bevegelser du kjenner til.
+
+2.  Velg et koordinatsystem — helst ett som gjør problemet så enkelt som mulig.
+
+3.  Sett opp likninger som beskriver sammenhengen mellom de fysiske størrelsene, gjerne ved å dekomponere vektorer i komponenter.
+
+4.  Løs likningene for den ukjente størrelsen du er ute etter.
+
+5.  Tolk svaret: gir det mening fysisk (riktig enhet, rimelig størrelsesorden, riktig fortegn)?
+
+Vi kommer til å bruke nøyaktig denne fremgangsmåten gjennom resten av kompendiet.
+
+::: {.callout-tip title="Til ettertanke"}
+
+Hva bør man gjøre dersom svaret ikke gir mening fysisk?
+
+:::
+
+Da har man sannsynligvis gjort en feil i modelleringen, eller en feil i utregningene. Naturen lar seg beskrive matematisk, men vi vet ikke på forhånd hvilke likninger som gjelder — det er nettopp det vi prøver å finne ut av. I dette faget lærer du en del grunnleggende konsepter. Målet er at det vil gi deg en verktøykasse til senere, når du som ingeniør eller i andre settinger selv må modellere en situasjon. Da vet du ikke lenger på forhånd hva som er den beste modellen, og må finne ut av dette ved hjelp av å kjøre prosessen over itterativt.
+
+
+::::

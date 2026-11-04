@@ -1,0 +1,25 @@
+---
+title: "Statikk"
+toc: false
+tegning: hallo
+aliases: ["/forkurs/06-statikk/index.html"]
+---
+
+::: {.intro}
+
+Statikk handler om legemer i ro — eller mer presist: om betingelsene som må være oppfylt for at et legeme *ikke* skal begynne å bevege seg. Vi snakker da om likevekt. For å kunne prate om det, må vi dessuten definere kraftmoment og massesenter.
+
+:::
+
+::: {.spm}
+[Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
+
+1.  Hvilke krav må kreftene på et legeme oppfylle for at det skal være i ro?
+
+2.  Hva er et kraftmoment, og hvordan beregnes det?
+
+3.  Hva skjer når summen av kraftmoment ikke er null?
+
+4.  Hvordan finner vi massesenteret til et objekt?
+
+:::

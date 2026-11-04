@@ -1,0 +1,208 @@
+---
+title: "Kalorimetri"
+emne: temperatur-og-varme
+delemne: kalorimetri
+aliases: ["/forkurs/08-termofysikk/03-kalorimetri.html"]
+---
+
+::: {.callout-warning title="Under arbeid"}
+Dette kapittelet skrives fortsatt.
+:::
+
+:::: {.oppgaver}
+
+Kalorimetri er den kvantitative beskrivelsen av varme — vi beregner nøyaktig hvor mye energi som trengs for å varme opp et stoff eller gjennomføre en faseovergang.
+
+## Temperaturendring innen en fase {#temperaturendring-innen-en-fase .unnumbered}
+
+::: {.callout-note title="Definisjon: Spesifikk varmekapasitet"}
+
+Varmen som trengs for å endre temperaturen til et legeme med masse $m$ med $\Delta T$: $$Q = c \cdot m \cdot \Delta T$$ der $c$ er den *spesifikke varmekapasiteten* med enhet $\mathrm{kJ}\,\mathrm{(}^{-1}\,\mathrm{kg}\,\mathrm{K}\,\mathrm{)}$.
+
+*Merk:* $\Delta T$ er den samme i Celsius og Kelvin: $\Delta T[\mathrm{K}] = \Delta T[{}^{\circ}\mathrm{C}]$.
+
+:::
+
+| **Stoff**     | $c$ / $\mathrm{kJ/(kg}\,\mathrm{,K)}$ |
+|:--------------|:-------------------------------------:|
+| Bly           |                 0.13                  |
+| Sølv          |                 0.24                  |
+| Kobber        |                 0.39                  |
+| Jern          |                 0.45                  |
+| Glass         |                 0.84                  |
+| Aluminium     |                 0.90                  |
+| Luft          |                  1.0                  |
+| Vanndamp      |                  2.0                  |
+| Is            |                  2.1                  |
+| Menneskekropp |                  3.5                  |
+| **Vann**      |                **4.2**                |
+
+For sammensatte systemer (f.eks. termos + vann) bruker vi den totale *varmekapasiteten* $C$ (uten masse):
+
+::: {.callout-note title="Definisjon: Varmekapasitet"}
+
+$$Q = C \cdot \Delta T \qquad [C] = \mathrm{J/K}$$ $C$ er summen av $c_i m_i$ for alle deler av systemet.
+
+:::
+
+## Faseovergang {#faseovergang .unnumbered}
+
+::: {.callout-note title="Definisjon: Spesifikk fasevarme"}
+
+Varmen som tilføres eller avgis når en masse $m$ av et stoff skifter fase ved konstant temperatur: $$Q = \ell \cdot m$$ der $\ell$ er den *spesifikke fasevarmen* med enhet $\mathrm{kJ/kg}$.
+
+:::
+
+Når et stoff størkner, avgis like mye varme som det trengs for å smelte det. Den spesifikke *smeltevarmen* er derfor også den spesifikke størkningsvarmen. På samme måte er den spesifikke *fordampingsvarmen* lik den spesifikke kondensasjonsvarmen. Tabellene viser verdier for noen vanlige stoffer ved normalt lufttrykk.
+
+::: center
+**Smelting og størkning**\
+
+| **Stoff** | $t_\text{smelte}$ / ${}^{\circ}\mathrm{C}$ | $\ell_\text{smelte}$ / $\mathrm{kJ/kg}$ |
+|:---|---:|---:|
+| Oksygen | $-219$ | 13.9 |
+| Nitrogen | $-210$ | 25.7 |
+| Etanol | $-114$ | 108 |
+| Kvikksølv | $-39$ | 11.4 |
+| **Vann (is)** | **0** | **334** |
+| Bly | 327 | 23 |
+| Aluminium | 660 | 397 |
+| Sølv | 962 | 105 |
+| Gull | 1064 | 64 |
+| Kobber | 1085 | 207 |
+| Jern | 1538 | 247 |
+
+**Fordamping og kondensasjon**\
+
+| **Stoff** | $t_\text{koke}$ / ${}^{\circ}\mathrm{C}$ | $\ell_\text{fordamp}$ / $\mathrm{kJ/kg}$ |
+|:---|---:|---:|
+| Helium | $-269$ | 20.9 |
+| Nitrogen | $-196$ | 199 |
+| Oksygen | $-183$ | 213 |
+| Etanol | 78 | 855 |
+| **Vann** | **100** | **2 259** |
+| Kvikksølv | 357 | 295 |
+| Bly | 1749 | 860 |
+| Sølv | 2162 | 2 360 |
+| Aluminium | 2519 | 10 500 |
+| Kobber | 2562 | 4 730 |
+:::
+
+::: {.eksempel}
+[Eksempel 8.6: Fordampe vann]{.eks-tittel}
+
+Hvor mye energi kreves for å fordampe $2.0\,\mathrm{L}$ vann fra $100\,^\circ$C (væske) til $100\,^\circ$C (damp)?
+
+:::
+
+::: {.callout-note .svar collapse="true" title="Vis løsning"}
+
+Massen: $m = \rho V = 1.0\,\mathrm{kg/L}\cdot2.0\,\mathrm{L} = 2.0\,\mathrm{kg}$.
+
+Siden temperaturen er konstant (faseovergang): $$Q = \ell_{\text{fordamp}} \cdot m
+    = 2259\,\mathrm{kJ/kg} \cdot 2.0\,\mathrm{kg}
+    = 4518\,\mathrm{kJ} \approx \underline{\underline{4.5\,\mathrm{MJ}}}$$ *Til sammenlikning:* denne energien tilsvarer å løfte de $2.0\,\mathrm{kg}$ til en høyde $h = Q/(m\mathrm{g}) = 4.518\!\cdot\!10^6/(2.0\cdot 9.81) \approx 2.3\cdot 10^{5}\,\mathrm{m}$ — over 200 km opp i luften!
+
+:::
+
+::: {.eksempel}
+[Eksempel 8.7: Avkjøling av glass]{.eks-tittel}
+
+Et legeme av glass med masse $m = 10\,\mathrm{kg}$ avkjøles fra $35\,^\circ$C til $-15\,^\circ$C. Hvor mye energi avgir glasset som varme?
+
+:::
+
+::: {.callout-note .svar collapse="true" title="Vis løsning"}
+
+$c_{\text{glass}} = 0.84\,\mathrm{kJ/(kg}\,\mathrm{,K)}$, $\Delta T = -15 - 35 = -50\,\mathrm{K}$. $$Q = c \cdot m \cdot \Delta T
+    = 0.84\,\mathrm{kJ/(kg}\,\mathrm{,K)} \cdot 10\,\mathrm{kg} \cdot (-50\,\mathrm{K})
+    = -420\,\mathrm{kJ} \approx \underline{\underline{-4.2\cdot 10^{2}\,\mathrm{kJ}}}$$ Det negative fortegnet bekrefter at glasset *avgir* omtrent $4.2\cdot 10^{2}\,\mathrm{kJ}$ til omgivelsene.
+
+:::
+
+::: {.eksempel}
+[Eksempel 8.8: Varmekapasitet til en termosflaske]{.eks-tittel}
+
+Det trengs $180\,\mathrm{J}$ for å øke temperaturen i en termosflaske med $\Delta T = 5.0\,\mathrm{K}$. Hva er varmekapasiteten til flaska?
+
+:::
+
+::: {.callout-note .svar collapse="true" title="Vis løsning"}
+
+$$Q = C\cdot\Delta T \implies C = \frac{Q}{\Delta T} = \frac{180\,\mathrm{J}}{5.0\,\mathrm{K}}
+    = \underline{\underline{36\,\mathrm{J}\,\mathrm{K}^{-1}}}$$
+
+:::
+
+::: {.eksempel}
+[Eksempel 8.9: Kalorimeter — spesifikk varmekapasitet]{.eks-tittel}
+
+En ukjent væske med masse $m_v = 200\,\mathrm{g}$ legges i en termosflaske med varmekapasitet $C_{\text{termos}} = 50\,\mathrm{J}\,\mathrm{K}^{-1}$. Tilsammen $7.00\,\mathrm{kJ}$ tilføres, og temperaturen stiger fra $15.2\,^\circ$C til $28.0\,^\circ$C. Finn den spesifikke varmekapasiteten $c_v$ til væska.
+
+:::
+
+::: {.callout-note .svar collapse="true" title="Vis løsning"}
+
+Temperaturendring: $\Delta T = 28.0 - 15.2 = 12.8\,\mathrm{K}$.
+
+All tilført energi $E$ fordeles mellom væsken og termosen: $$E = Q_v + Q_{\text{termos}} = c_v m_v \Delta T + C_{\text{termos}} \Delta T$$ $$\implies c_v = \frac{E - C_{\text{termos}}\,\Delta T}{m_v\,\Delta T}
+    = \frac{7000\,\mathrm{J} - 50\,\mathrm{J}\,\mathrm{K}^{-1}\cdot12.8\,\mathrm{K}}
+           {0.200\,\mathrm{kg}\cdot12.8\,\mathrm{K}}
+    = \frac{7000 - 640}{2.56}
+    \approx \underline{\underline{2.5\,\mathrm{kJ}\,\mathrm{(}^{-1}\,\mathrm{kg}\,\mathrm{K}\,\mathrm{)}}}$$
+
+:::
+
+::: {.oppgave tittel="Cola og is"}
+[Cola og is]{.oppg-tittel}
+
+En boks cola ($m_\text{c} = 350\,\mathrm{g}$) har romtemperatur, $t_\text{c} = 20\,^\circ$C. Du legger i $m_\text{is} = 20\,\mathrm{g}$ is med temperatur $t_\text{is} = -5.0\,^\circ$C. Anta at cola oppfører seg termisk som vann, og at det ikke utveksles varme med omgivelsene.
+
+a)  Beregn energien som trengs for å varme opp isen til $0\,^\circ$C og smelte den.
+
+b)  Finn slutt-temperaturen $t_\text{f}$ i blandingen.
+
+*(Spesifikk varmekapasitet: $c_\text{vann} = c_\text{cola} = 4.2\,\mathrm{kJ/(kg}\,\mathrm{,K)}$, $c_\text{is} = 2.1\,\mathrm{kJ/(kg}\,\mathrm{,K)}$. Spesifikk smeltevarme: $\ell_\text{smelte} = 334\,\mathrm{kJ/kg}$.)*
+
+::: {.losning}
+
+**a)** Først varmer vi isen fra $-5.0\,^\circ$C til $0\,^\circ$C, altså $\Delta T = 5.0\,\mathrm{K}$: $$Q_1 = c_\text{is}\, m_\text{is}\,\Delta T
+      = 2.1\,\mathrm{kJ/(kg}\,\mathrm{,K)}\cdot0.020\,\mathrm{kg}\cdot5.0\,\mathrm{K}
+      = 0.21\,\mathrm{kJ}$$ Så smelter vi isen ved $0\,^\circ$C: $$Q_2 = \ell_\text{smelte}\, m_\text{is}
+      = 334\,\mathrm{kJ/kg}\cdot0.020\,\mathrm{kg}
+      = 6.68\,\mathrm{kJ}$$ Totalt: $$Q_1 + Q_2 = 0.21\,\mathrm{kJ} + 6.68\,\mathrm{kJ} = 6.89\,\mathrm{kJ} \approx \underline{\underline{6.9\,\mathrm{kJ}}}$$ Vi sjekker at all isen smelter. Colaen kan avgi høyst $4.2\cdot 0.350\cdot 20\,\mathrm{kJ} = 29.4\,\mathrm{kJ}$ før den når $0\,^\circ$C. Det er mye mer enn $6.89\,\mathrm{kJ}$, så all isen smelter, og $t_\text{f} > 0\,^\circ$C.
+
+**b)** Varmen colaen avgir, er lik varmen isen (og smeltevannet) tar opp. Smeltevannet varmes fra $0\,^\circ$C til $t_\text{f}$: $$c_\text{cola}\, m_\text{c}\,(20 - t_\text{f}) = Q_1 + Q_2 + c_\text{vann}\, m_\text{is}\,(t_\text{f} - 0)$$ Med tallene inn (energi i kJ, temperatur i $^\circ$C): $$4.2\cdot 0.350\cdot(20 - t_\text{f}) = 6.89 + 4.2\cdot 0.020\cdot t_\text{f}$$ $$29.4 - 1.47\,t_\text{f} = 6.89 + 0.084\,t_\text{f}
+  \quad\implies\quad
+  t_\text{f} = \frac{29.4 - 6.89}{1.47 + 0.084} = 14.5\,{}^{\circ}\mathrm{C} \approx \underline{\underline{14\,{}^{\circ}\mathrm{C}}}$$
+
+:::
+
+:::
+
+::: {.oppgave tittel="Vannkoker"}
+[Vannkoker]{.oppg-tittel}
+
+En vannkoker har effekten $P = 2.0\,\mathrm{kW}$. Du fyller den med $1.5\,\mathrm{L}$ vann med temperatur $12\,^\circ$C. Anta at all energien fra vannkokeren går til vannet.
+
+a)  Hvor mye energi trengs for å varme opp vannet til $100\,^\circ$C?
+
+b)  Hvor lang tid tar det før vannet koker?
+
+c)  Vannkokeren slår seg ikke av, og koker bort $0.20\,\mathrm{kg}$ vann før du slår den av. Hvor lenge sto den på etter at vannet begynte å koke?
+
+::: {.losning}
+
+**a)** $1.5\,\mathrm{L}$ vann har massen $m = 1.5\,\mathrm{kg}$. Temperaturendringen er $\Delta T = 100 - 12 = 88\,\mathrm{K}$: $$Q = c\, m\,\Delta T = 4.2\,\mathrm{kJ/(kg}\,\mathrm{,K)}\cdot1.5\,\mathrm{kg}\cdot88\,\mathrm{K}
+    = 554\,\mathrm{kJ} \approx \underline{\underline{5.5\cdot 10^{2}\,\mathrm{kJ}}}$$
+
+**b)** Effekt er energi per tid, $P = E/t$: $$t = \frac{Q}{P} = \frac{554\cdot 10^{3}\,\mathrm{J}}{2.0\cdot 10^{3}\,\mathrm{W}} = 277\,\mathrm{s} \approx \underline{\underline{2.8\cdot 10^{2}\,\mathrm{s}}}$$ Det er omtrent $4.6\,\mathrm{min}$.
+
+**c)** Energien som trengs for å fordampe $0.20\,\mathrm{kg}$ vann, er $$Q = \ell_\text{fordamp}\, m = 2259\,\mathrm{kJ/kg}\cdot0.20\,\mathrm{kg} = 452\,\mathrm{kJ}$$ $$t = \frac{Q}{P} = \frac{452\cdot 10^{3}\,\mathrm{J}}{2.0\cdot 10^{3}\,\mathrm{W}} = 226\,\mathrm{s} \approx \underline{\underline{2.3\cdot 10^{2}\,\mathrm{s}}}$$ Det er nesten fire minutter, selv om bare en liten del av vannet koker bort.
+
+:::
+
+:::
+
+
+::::

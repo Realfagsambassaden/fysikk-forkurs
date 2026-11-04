@@ -1,0 +1,18 @@
+---
+title: "Elektromotorisk spenning og indre resistans"
+emne: kretser
+delemne: emf
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om elektromotorisk spenning og indre resistans. Temaet er en del av forkurspensumet og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Hva et batteri egentlig gjør: elektromotorisk spenning
+- Indre resistans og polspenning
+- Hvorfor spenningen synker når strømmen øker
+- Eksempler og oppgaver med løsning

@@ -1,0 +1,152 @@
+---
+title: "Ekstraoppgaver"
+emne: newtons-lover
+delemne: oppgaver
+aliases: ["/forkurs/04-krefter/06-ekstraoppgaver.html"]
+---
+
+:::: {.oppgaver}
+
+Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+
+::: {.oppgave tittel="Kraft og motkraft"}
+[Kraft og motkraft]{.oppg-tittel}
+
+En bok ligger i ro på et bord.
+
+a)  Tegn en figur som viser kreftene som virker *på boka*.
+
+b)  Tyngdekraften og normalkraften på boka er like store og motsatt rettet. Er de et kraft–motkraft-par etter Newtons 3. lov? Forklar.
+
+c)  Hva er motkraften til tyngdekraften på boka? Hva er motkraften til normalkraften på boka?
+
+::: {.losning}
+
+**a)** To krefter virker på boka: tyngdekraften $\vec G$ (ned) og normalkraften $\vec N$ fra bordet (opp):
+
+::: center
+:::
+
+**b)** Nei. Selv om $\vec G$ og $\vec N$ er like store og motsatt rettet, er de **ikke** et kraft-motkraft-par. Grunnen er at et kraft-motkraft-par (Newtons 3. lov) alltid virker på *to forskjellige* legemer, mens $\vec G$ og $\vec N$ begge virker på *samme* legeme – boka (se *Normalkraft*, tankeboksen i kompendiet).
+
+**c)** Motkraften til tyngdekraften $\vec G$ (jordas tiltrekning på boka) er boka sin tiltrekning på jorda – en kraft med samme størrelse $G$, rettet oppover, som virker *på jorda*. Motkraften til normalkraften $\vec N$ (bordets kraft på boka) er boka sin kraft *på bordet* – en kraft med samme størrelse $N$, rettet nedover, som virker *på bordet* (boka presser ned på bordet med samme kraft som bordet presser opp på boka).
+
+:::
+
+:::
+
+::: {.oppgave tittel="Kloss på skråplan med friksjon"}
+[Kloss på skråplan med friksjon]{.oppg-tittel}
+
+En kloss med masse $m = 5.0\,\mathrm{kg}$ glir nedover et skråplan med helningsvinkel $\theta = 30^\circ$. Den kinetiske friksjonskoeffisienten er $\mu_k = 0.20$.
+
+a)  Tegn kreftene på klossen og dekomponer tyngdekraften langs og vinkelrett på skråplanet.
+
+b)  Finn normalkraften $N$.
+
+c)  Finn friksjonskraften $R$.
+
+d)  Finn akselerasjonen til klossen.
+
+::: {.losning}
+
+**1. Figur:** Kreftene på klossen er akkurat som i figuren: normalkraften $\vec N$ (vinkelrett ut fra planet), tyngdekraften $\vec G=m\vec{\mathrm g}$ (rett ned) og friksjonskraften $\vec R$ (langs planet, oppover siden klossen glir nedover).
+
+**a)** Vi dekomponerer tyngdekraften langs planet og vinkelrett på planet: $$G_x = m\mathrm{g}\sin\theta \quad\text{(langs planet, nedover)}, \qquad G_y = m\mathrm{g}\cos\theta \quad\text{(vinkelrett på planet)}$$
+
+**2. Lov:** Newtons 2. lov, $\sum\vec F=m\vec a$. Glidefriksjon: $R=\mu_k N$.
+
+**3. Koordinatsystem:** $x$ langs planet (positiv nedover), $y$ vinkelrett ut fra planet. Klossen beveger seg bare langs $x$, så $a_y=0$.
+
+**4. Dekomponér:** $$\sum F_y = N - m\mathrm{g}\cos\theta = 0, \qquad \sum F_x = m\mathrm{g}\sin\theta - R = ma$$
+
+**5. Løs:**
+
+**b)** Normalkraften: $$N = m\mathrm{g}\cos\theta = 5.0\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot\cos(30^\circ) = 42.5\,\mathrm{N} \approx \underline{\underline{42\,\mathrm{N}}}$$
+
+**c)** Friksjonskraften: $$R = \mu_k N = 0.20\cdot42.5\,\mathrm{N} = 8.50\,\mathrm{N} \approx \underline{\underline{8.5\,\mathrm{N}}}$$
+
+**d)** Akselerasjonen (se også *Utledning av akselerasjon ned et skråplan med friksjon* i kompendiet): $$a = \mathrm{g}(\sin\theta - \mu_k\cos\theta) = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot\left(\sin(30^\circ) - 0.20\cos(30^\circ)\right) = 3.21\,\mathrm{m}\,\mathrm{s}^{-2} \approx \underline{\underline{3.2\,\mathrm{m}\,\mathrm{s}^{-2}}}$$ rettet nedover langs planet.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Bil over en bakketopp"}
+[Bil over en bakketopp]{.oppg-tittel}
+
+En bil med masse $m = 1000\,\mathrm{kg}$ kjører over en bakketopp. Bakketoppen kan tilnærmes med en sirkelbue med radius $r = 40\,\mathrm{m}$. Bilen har fart $v = 15\,\mathrm{m}\,\mathrm{s}^{-1}$ på toppen.
+
+a)  Tegn kreftene på bilen på toppen av bakken. Hvilken vei peker kraftsummen?
+
+b)  Finn normalkraften fra veien på bilen.
+
+c)  Hvor fort kan bilen kjøre over toppen før den mister kontakten med veien?
+
+::: {.losning}
+
+**1. Figur:** Bilen befinner seg på *utsiden* av den sirkulære bakketoppen (motsatt av vogna på *innsiden* av loopen i kompendiet, figuren). Sentrum av sirkelbuen ligger rett under bilen, så “inn mot sentrum” betyr her *nedover*. To krefter virker: tyngdekraften $\vec G=m\vec{\mathrm g}$ (ned, altså inn mot sentrum) og normalkraften $\vec N$ fra veien (opp, altså *ut* fra sentrum – veien kan bare skyve bilen opp, ikke trekke den ned):
+
+::: center
+:::
+
+Siden bilen følger en sirkelbane, må kraftsummen inn mot sentrum (nedover) være $mv^2/r$.
+
+**2.–4. Lov, koordinatsystem og dekomponering:** Vi velger positiv retning nedover (inn mot sentrum). Newtons 2. lov gir $$\sum F = m\mathrm{g} - N = \frac{mv^2}{r}$$ (motsatt fortegn på $N$ sammenliknet med toppen av loopen i figuren, fordi normalkraften her peker *bort* fra sentrum i stedet for *inn* mot det).
+
+**5. Løs:**
+
+**b)** Normalkraften: $$N = m\left(\mathrm{g} - \frac{v^2}{r}\right) = 1000\,\mathrm{kg}\cdot\left(9.81\,\mathrm{m}\,\mathrm{s}^{-2} - \frac{(15\,\mathrm{m}\,\mathrm{s}^{-1})^2}{40\,\mathrm{m}}\right) = 4190\,\mathrm{N} \approx \underline{\underline{4.2\cdot 10^{3}\,\mathrm{N}}}$$
+
+**c)** Bilen mister kontakten med veien når $N=0$: $$m\mathrm{g} = \frac{mv_\text{maks}^2}{r} \quad\Rightarrow\quad v_\text{maks} = \sqrt{\mathrm{g}r} = \sqrt{9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot40\,\mathrm{m}} = 19.8\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{2.0\cdot 10^{1}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ Kjører bilen fortere enn dette, letter den fra veibanen akkurat på toppen av bakken.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Spark på en fotball"}
+[Spark på en fotball]{.oppg-tittel}
+
+En fotball med masse $m = 0.45\,\mathrm{kg}$ ligger i ro og blir sparket. Etter sparket har ballen fart $25\,\mathrm{m}\,\mathrm{s}^{-1}$. Foten er i kontakt med ballen i $\Delta t = 8.0\,\mathrm{ms}$.
+
+a)  Finn endringen i bevegelsesmengden til ballen.
+
+b)  Finn den gjennomsnittlige kraften fra foten på ballen.
+
+c)  Hvor stor er denne kraften sammenliknet med tyngdekraften på ballen?
+
+::: {.losning}
+
+**a)** Ballen er i ro før sparket, så endringen i bevegelsesmengde er (se *Impuls* i kompendiet): $$\Delta p = m v - m\cdot 0 = 0.45\,\mathrm{kg}\cdot25\,\mathrm{m}\,\mathrm{s}^{-1} = 11.25\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{11\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+
+**b)** Siden $\Delta p = F\,\Delta t$, finner vi den gjennomsnittlige kraften: $$F = \frac{\Delta p}{\Delta t} = \frac{11.25\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}{8.0\cdot 10^{-3}\,\mathrm{s}} = 1410\,\mathrm{N} \approx \underline{\underline{1.4\cdot 10^{3}\,\mathrm{N}}}$$
+
+**c)** Tyngdekraften på ballen er $G=m\mathrm{g}=0.45\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}=4.41\,\mathrm{N}$. Forholdet mellom kraftene er $$\frac{F}{G} = \frac{1410\,\mathrm{N}}{4.41\,\mathrm{N}} \approx \underline{\underline{3.2e2}}$$ Kraften fra foten er altså omtrent 320 ganger så stor som tyngdekraften på ballen – et godt eksempel på hvor store krefter som kan oppstå i et kort støt.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Astronaut i rommet"}
+[Astronaut i rommet]{.oppg-tittel}
+
+En astronaut med masse $90\,\mathrm{kg}$ (inkludert romdrakt) svever i ro $20\,\mathrm{m}$ fra romstasjonen. Hun kaster en verktøykasse med masse $2.0\,\mathrm{kg}$ rett *bort* fra romstasjonen med fart $3.0\,\mathrm{m}\,\mathrm{s}^{-1}$.
+
+a)  Hvilken fart og retning får astronauten etter kastet?
+
+b)  Hvor lang tid tar det før hun når romstasjonen?
+
+::: {.losning}
+
+Astronauten og verktøykassa utgjør et isolert system (ingen ytre krefter i verdensrommet), så bevegelsesmengden er bevart (se avsnitten) – akkurat som i eksempelet *Rekyl fra gevær*. Før kastet er begge i ro, $p_{tot,\,\text{før}}=0$. Vi velger retningen bort fra romstasjonen (kasteretningen) som positiv.
+
+**a)** Bevaringslikningen gir $$0 = M\,U + m_\text{kasse}\,u_\text{kasse} \quad\Rightarrow\quad U = -\frac{m_\text{kasse}\,u_\text{kasse}}{M} = -\frac{2.0\,\mathrm{kg}\cdot3.0\,\mathrm{m}\,\mathrm{s}^{-1}}{90\,\mathrm{kg}} = -0.0667\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{-0.067\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ Astronauten får altså en fart på $0.0667\,\mathrm{m}\,\mathrm{s}^{-1}$ i *motsatt* retning av kasteretningen, altså tilbake mot romstasjonen.
+
+**b)** Hun beveger seg med konstant fart $|U|$ tilbake mot stasjonen, en avstand $d=20\,\mathrm{m}$ unna: $$t = \frac{d}{|U|} = \frac{20\,\mathrm{m}}{0.0667\,\mathrm{m}\,\mathrm{s}^{-1}} = \underline{\underline{3.0\cdot 10^{2}\,\mathrm{s}}} = 5.0\,\mathrm{min}$$
+
+:::
+
+:::
+
+
+::::

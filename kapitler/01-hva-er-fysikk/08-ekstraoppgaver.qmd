@@ -1,0 +1,91 @@
+---
+title: "Ekstraoppgaver"
+emne: storrelser-og-enheter
+delemne: oppgaver
+aliases: ["/forkurs/01-hva-er-fysikk/07-ekstraoppgaver.html"]
+---
+
+:::: {.oppgaver}
+
+Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+
+::: {.oppgave tittel="Fysisk størrelse"}
+[Fysisk størrelse]{.oppg-tittel}
+
+Hva skal stå på venstre side av likhetstegnet? $$\rule{4cm}{0.4pt} \;=\; \textrm{verdi} \cdot \textrm{enhet}$$
+
+::: {.losning}
+
+På venstre side skal det stå **[Fysisk størrelse]{.roman}**, slik at likningen blir $$\textrm{Fysisk størrelse} = \textrm{verdi}\cdot\textrm{enhet},$$ som er selve definisjonen av en fysisk størrelse (se *Fysiske størrelser* i kompendiet).
+
+:::
+
+:::
+
+::: {.oppgave tittel="Dekadiske prefikser – matching"}
+[Dekadiske prefikser – matching]{.oppg-tittel}
+
+Fyll inn faktoren for hvert prefiks i tabellen:
+
+::: center
+| **Prefiks** | **Symbol** | **Faktor** |
+|:------------|:----------:|:----------:|
+| mega        |     M      |            |
+| nano        |     n      |            |
+| milli       |     m      |            |
+| centi       |     c      |            |
+| hekto       |     h      |            |
+| kilo        |     k      |            |
+| giga        |     G      |            |
+:::
+
+::: {.losning}
+
+Faktorene er gitt i Tabellen i kompendiet:
+
+::: center
+| **Prefiks** | **Symbol** | **Faktor** |
+|:------------|:----------:|:----------:|
+| mega        |     M      |  $10^{6}$  |
+| nano        |     n      | $10^{-9}$  |
+| milli       |     m      | $10^{-3}$  |
+| centi       |     c      | $10^{-2}$  |
+| hekto       |     h      |  $10^{2}$  |
+| kilo        |     k      |  $10^{3}$  |
+| giga        |     G      |  $10^{9}$  |
+:::
+
+:::
+
+:::
+
+::: {.oppgave tittel="Standardform"}
+[Standardform]{.oppg-tittel}
+
+Hvordan ser tallet $100.1$ ut når det er skrevet på standardform?
+
+::: {.losning}
+
+Vi flytter desimaltegnet slik at det blir ett siffer foran det, og teller hvor mange plasser vi flyttet: $$100.1 = \underline{\underline{1.001\cdot 10^{2}}}$$
+
+:::
+
+:::
+
+::: {.oppgave tittel="Signifikante siffer"}
+[Signifikante siffer]{.oppg-tittel}
+
+Per kjøper 1523 skruer til garasjen sin. Hver skrue veier $10.1\,\mathrm{g}$. Hvor mange signifikante sifre kan vi angi totalvekten til skruene med?
+
+::: {.losning}
+
+Antallet skruer, $1523$, er et *opptalt* antall og er dermed eksakt (uendelig mange signifikante siffer) — det er ikke dette tallet som begrenser nøyaktigheten. Vekten per skrue, $10.1\,\mathrm{g}$, er derimot en *målt* størrelse med 3 signifikante siffer.
+
+Totalvekten er $$m_\textrm{tot} = 1523\cdot10.1\,\mathrm{g} = 15382.3\,\mathrm{g},$$ men siden den målte størrelsen bare har 3 signifikante siffer, kan ikke svaret oppgis med flere enn **3 signifikante siffer**: $$m_\textrm{tot} \approx 1.54\cdot 10^{4}\,\mathrm{g} = 15.4\,\mathrm{kg}.$$
+
+:::
+
+:::
+
+
+::::

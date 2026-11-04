@@ -1,0 +1,110 @@
+---
+title: "Ekstraoppgaver"
+emne: kinematikk
+delemne: oppgaver
+aliases: ["/forkurs/03-kinematikk/06-ekstraoppgaver.html"]
+---
+
+:::: {.oppgaver}
+
+Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+
+::: {.oppgave tittel="Gjennomsnittsfart og gjennomsnittsakselerasjon"}
+[Gjennomsnittsfart og gjennomsnittsakselerasjon]{.oppg-tittel}
+
+En løper springer $400\,\mathrm{m}$ på $52\,\mathrm{s}$.
+
+a)  Hva er løperens gjennomsnittsfart, i $\mathrm{m}\,\mathrm{s}^{-1}$?
+
+b)  Dersom løperen starter fra ro og oppnår toppfart $9.0\,\mathrm{m}\,\mathrm{s}^{-1}$ etter de første $6.0\,\mathrm{s}$, hva er gjennomsnittsakselerasjonen i denne perioden?
+
+::: {.losning}
+
+**a)** Gjennomsnittsfarten er $$\bar v = \frac{\Delta s}{\Delta t} = \frac{400\,\mathrm{m}}{52\,\mathrm{s}} = 7.69\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{7.7\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+
+**b)** Løperen starter fra ro ($v_0=0$) og når $v=9.0\,\mathrm{m}\,\mathrm{s}^{-1}$ på $\Delta t=6.0\,\mathrm{s}$. Gjennomsnittsakselerasjonen blir $$\bar a = \frac{\Delta v}{\Delta t} = \frac{9.0\,\mathrm{m}\,\mathrm{s}^{-1}-0}{6.0\,\mathrm{s}} = \underline{\underline{1.5\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
+
+:::
+
+:::
+
+::: {.oppgave tittel="Konstant akselerasjon – oppbremsing"}
+[Konstant akselerasjon – oppbremsing]{.oppg-tittel}
+
+En bil kjører med fart $v_0 = 25\,\mathrm{m}\,\mathrm{s}^{-1}$ og bremser med konstant akselerasjon $a = -4.0\,\mathrm{m}\,\mathrm{s}^{-2}$.
+
+a)  Hvor lang tid tar det før bilen stopper?
+
+b)  Hvor langt kjører bilen i løpet av oppbremsingen?
+
+c)  Skisser fartsgrafen $v(t)$ for bilen fra den begynner å bremse til den stopper.
+
+::: {.losning}
+
+**a)** Bilen stopper når $v=0$. Vi bruker hastighetslikningen (Likning 1 i avsnitten), $v=v_0+at$, og løser for $t$: $$0 = 25\,\mathrm{m}\,\mathrm{s}^{-1} + (-4.0\,\mathrm{m}\,\mathrm{s}^{-2})\cdot t \quad\Rightarrow\quad t = \frac{25\,\mathrm{m}\,\mathrm{s}^{-1}}{4.0\,\mathrm{m}\,\mathrm{s}^{-2}} = 6.25\,\mathrm{s} \approx \underline{\underline{6.3\,\mathrm{s}}}$$
+
+**b)** Vi bruker fart-strekning-likningen (Likning 3), $v^2=v_0^2+2a(s-s_0)$, med $v=0$ og $s_0=0$: $$0 = (25\,\mathrm{m}\,\mathrm{s}^{-1})^2 + 2\cdot(-4.0\,\mathrm{m}\,\mathrm{s}^{-2})\cdot s \quad\Rightarrow\quad s = \frac{625}{8.0} = 78.1\,\mathrm{m} \approx \underline{\underline{78\,\mathrm{m}}}$$
+
+**c)** Siden akselerasjonen er konstant, er $v(t)$ en rett linje som starter i $v_0=25\,\mathrm{m}\,\mathrm{s}^{-1}$ og avtar lineært til $v=0$ ved $t=6.25\,\mathrm{s}$:
+
+::: center
+:::
+
+:::
+
+:::
+
+::: {.oppgave tittel="Stein kastet fra et stup"}
+[Stein kastet fra et stup]{.oppg-tittel}
+
+En stein kastes fra toppen av et stup med utgangsfart $v_0 = 15\,\mathrm{m}\,\mathrm{s}^{-1}$ i en vinkel $30^\circ$ over horisontalen. Stupet er $h = 40\,\mathrm{m}$ over vannet. Se bort fra luftmotstand.
+
+a)  Finn de horisontale og vertikale komponentene av $\vec{v}_0$.
+
+b)  Finn hvor lang tid steinen er i luften før den treffer vannet.
+
+c)  Finn hvor langt fra stupkanten steinen treffer vannet.
+
+d)  Finn farten (størrelsen på hastigheten) steinen har i det den treffer vannet.
+
+::: {.losning}
+
+Vi dekomponerer igjen bevegelsen, akkurat som i *Rallybil kjører utfor* (figuren). Vi lar $x_0=0$ og $y_0=h=40\,\mathrm{m}$ (høyden over vannet), med $y=0$ ved vannflaten.
+
+**a)** Utgangsfarten dekomponeres med vinkelen $30^\circ$ over horisontalen: $$v_{0x} = v_0\cos(30^\circ) = 15\,\mathrm{m}\,\mathrm{s}^{-1}\cdot\cos(30^\circ) = 12.99\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{13\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ $$v_{0y} = v_0\sin(30^\circ) = 15\,\mathrm{m}\,\mathrm{s}^{-1}\cdot\sin(30^\circ) = \underline{\underline{7.5\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+
+**b)** Posisjonslikningen i $y$-retning er $y(t) = y_0+v_{0y}t-\tfrac12\mathrm g t^2$. Steinen treffer vannet når $y(t)=0$: $$0 = 40\,\mathrm{m} + 7.5\,\mathrm{m}\,\mathrm{s}^{-1}\cdot t - \tfrac12\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot t^2$$ Dette er en andregradslikning i $t$. Løser vi den med abc-formelen (og forkaster den negative løsningen, som ikke gir fysisk mening), får vi $$t = 3.72\,\mathrm{s} \approx \underline{\underline{3.7\,\mathrm{s}}}$$
+
+**c)** Horisontal avstand er $x(t) = v_{0x}\,t$: $$x = 13.0\,\mathrm{m}\,\mathrm{s}^{-1}\cdot3.72\,\mathrm{s} = 48.3\,\mathrm{m} \approx \underline{\underline{48\,\mathrm{m}}}$$
+
+**d)** Vertikal hastighetskomponent idet steinen treffer vannet er $v_y = v_{0y}-\mathrm g t$: $$v_y = 7.5\,\mathrm{m}\,\mathrm{s}^{-1} - 9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot3.72\,\mathrm{s} = -29.0\,\mathrm{m}\,\mathrm{s}^{-1}$$ Den horisontale komponenten er uendret, $v_x=v_{0x}=13.0\,\mathrm{m}\,\mathrm{s}^{-1}$. Farten blir $$v = \sqrt{v_x^2+v_y^2} = \sqrt{13.0^2+29.0^2} = 31.8\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{32\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ Som en kontroll kan vi bruke energibetraktning (fritt fall-komponenten alene): $v=\sqrt{v_0^2+2\mathrm g h} = \sqrt{15^2+2\cdot9.81\cdot40}\approx31.8\,\mathrm{m}\,\mathrm{s}^{-1}$, som stemmer.
+
+:::
+
+:::
+
+::: {.oppgave tittel="Sirkelbevegelse – pariserhjul"}
+[Sirkelbevegelse – pariserhjul]{.oppg-tittel}
+
+Et pariserhjul har radius $r = 15\,\mathrm{m}$ og roterer med konstant fart slik at det tar $40\,\mathrm{s}$ å fullføre én runde.
+
+a)  Finn farten $v$ til en passasjer ved kanten av hjulet.
+
+b)  Finn sentripetalakselerasjonen til passasjeren.
+
+c)  Sammenlikn denne akselerasjonen med tyngdens akselerasjon $\mathrm{g}$. Er den stor eller liten i forhold?
+
+::: {.losning}
+
+**a)** Vi bruker $v=2\pi r/T$ (se *Omløpstid* i kompendiet): $$v = \frac{2\pi\cdot15\,\mathrm{m}}{40\,\mathrm{s}} = 2.36\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{2.4\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+
+**b)** Sentripetalakselerasjonen er $$a_\perp = \frac{v^2}{r} = \frac{(2.36\,\mathrm{m}\,\mathrm{s}^{-1})^2}{15\,\mathrm{m}} = 0.370\,\mathrm{m}\,\mathrm{s}^{-2} \approx \underline{\underline{0.37\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
+
+**c)** Forholdet til tyngdens akselerasjon er $$\frac{a_\perp}{\mathrm g} = \frac{0.370\,\mathrm{m}\,\mathrm{s}^{-2}}{9.81\,\mathrm{m}\,\mathrm{s}^{-2}} \approx \underline{\underline{0.038}},$$ altså bare omtrent $3.8\,\%$ av $\mathrm g$. Sentripetalakselerasjonen er dermed **liten** sammenliknet med tyngdens akselerasjon – en passasjer i et pariserhjul kjenner knapt denne akselerasjonen.
+
+:::
+
+:::
+
+
+::::

@@ -1,0 +1,17 @@
+---
+title: "Hva er kinematikk?"
+emne: kinematikk
+delemne: posisjon-fart-akselerasjon
+aliases: ["/forkurs/03-kinematikk/01-hva-er-kinematikk.html"]
+---
+
+:::: {.oppgaver}
+
+Kinematikk er studiet av hvordan objekter beveger seg, uten å vurdere (den mekaniske) årsaken til bevegelsen. For å bekrive dette effektivt er det spesielt tre begreper vi er ute etter, med hver sine forkortelser (i parentes):
+
+$$\textrm{strekning ($\vec{s}$)}\quad,\quad\textrm{hastighet ($\vec{v}$)}\quad\textrm{og}\quad\textrm{akselerasjon ($\vec{a}$)}$$
+
+Disse begrepene er alle sammen beskrevet som vektorer (derfor har de piler), ettersom de innbefatter konsepter som har både størrelse og retning. Sammen utgjør de verktøyene vi trenger for å kunne beskrive alt fra enkle scenario, slik som en ball som ruller ned en bakke og til mer kompliserte systemer, som planetenes bevegelse rundt solen. For å beskrive slike sammenhenger effektivt er det viktig å forstå relasjonene mellom strekning, fart og tid.
+
+
+::::

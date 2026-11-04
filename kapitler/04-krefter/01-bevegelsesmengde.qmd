@@ -1,0 +1,56 @@
+---
+title: "Bevegelsesmengde"
+emne: bevegelsesmengde
+delemne: kraftstot
+aliases: ["/forkurs/04-krefter/01-bevegelsesmengde.html"]
+---
+
+:::: {.oppgaver}
+
+Når man gjennom middelalderen studerte bevegelse, kom man fram til at produktet av legemets masse og dets fart er en viktig størrelse. $$p = m \cdot v$$ I dag kaller vi denne størrelsen for *bevegelsesmengde*, og det er rett og slett det det er: et mål på mengden bevegelse. Begrepet tar sikte på å forklare to aspekter ved bevegelse. For det første så er det mye bevegelse når farten er stor. For det andre er det mer bevegelse når massen er stor. En bøffel som løper på savannen har bevegelse. Men 100 bøfler som løper i samme retning utgjør mer bevegelse. Og intuisjonen viser seg å være riktig: Det er hensiktsmessig å ta med både masse og fart i definisjonen av det vi skal kalle bevegelsesmengde.
+
+I tillegg har bevegelse retning, så i den formelle definisjonen av bevegelsesmengde er det viktig å huske på at det er en vektor, og ikke en skalar størrelse. Det betyr at bevegelsesmengde har både størrelse og retning.
+
+::: {.callout-note title="Definisjon: Bevegelsesmengde"}
+
+Bevegelsesmengde, $p$, er definert som produktet av et legemes masse, $m$, og dets hastighet, $v$: $$\vec{p} = m \cdot \vec{v}$$ Enheten for bevegelsesmengde er kg·m/s.
+
+:::
+
+Bevegelsesmengde er et viktig konsept i fysikken, spesielt i mekanikk og partikkelfysikk, fordi den er bevart i isolerte systemer. Vi kommer tilbake til dette om litt, etter at vi har definert krefter ordentlig.
+
+::: {.eksempel}
+[Eksempel 4.1: Ishockey-puck]{.eks-tittel}
+
+En ishockey-puck har masse $m = 170\,\mathrm{g}$ og slås slik at den oppnår farten $v = 40\,\mathrm{m}\,\mathrm{s}^{-1}$. Hva er bevegelsesmengden til pucken?
+
+:::
+
+::: {.callout-note .svar collapse="true" title="Vis løsning"}
+
+Vi gjør om massen til kilogram: $$m = 170\,\mathrm{g} = 0.170\,\mathrm{kg}$$ Deretter bruker vi definisjonen av bevegelsesmengde: $$p = m \cdot v = 0.170\,\mathrm{kg} \cdot 40\,\mathrm{m}\,\mathrm{s}^{-1}
+    = \underline{\underline{6.8\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+
+:::
+
+::: {.oppgave tittel="Geværkule og bil"}
+[Geværkule og bil]{.oppg-tittel}
+
+En typisk geværkule har masse $m_k = 10\,\mathrm{g}$ og forlater løpet med fart $v_k = 900\,\mathrm{m}\,\mathrm{s}^{-1}$. En bil har masse $m_b = 1500\,\mathrm{kg}$.
+
+a)  Finn bevegelsesmengden til geværkula.
+
+b)  Hvor fort må bilen kjøre for å ha nøyaktig samme bevegelsesmengde som kula? Gi svaret i både $\mathrm{m}\,\mathrm{s}^{-1}$ og $\mathrm{km}\,\mathrm{h}^{-1}$.
+
+::: {.losning}
+
+**a)** Bevegelsesmengden er $p=m\cdot v$ (se *Bevegelsesmengde* i kompendiet). Vi gjør om massen til kg, $m_k=10\,\mathrm{g}=0.010\,\mathrm{kg}$: $$p = m_k v_k = 0.010\,\mathrm{kg}\cdot900\,\mathrm{m}\,\mathrm{s}^{-1} = \underline{\underline{9.0\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+
+**b)** Bilen skal ha samme bevegelsesmengde, $p = m_b v_b$. Vi løser for $v_b$: $$v_b = \frac{p}{m_b} = \frac{9.0\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}{1500\,\mathrm{kg}} = \underline{\underline{0.0060\,\mathrm{m}\,\mathrm{s}^{-1}}} = 0.0216\,\mathrm{km}\,\mathrm{h}^{-1} \approx \underline{\underline{0.022\,\mathrm{km}\,\mathrm{h}^{-1}}}$$ Bilen trenger altså bare å kjøre med en helt ubetydelig fart (under 2.2 cm/s!) for å ha samme bevegelsesmengde som den raske, men svært lette, geværkula. Dette illustrerer hvor mye massen betyr for bevegelsesmengden.
+
+:::
+
+:::
+
+
+::::

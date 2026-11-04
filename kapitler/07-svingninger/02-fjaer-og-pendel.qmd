@@ -1,0 +1,18 @@
+---
+title: "Fjær og pendel"
+emne: svingninger
+delemne: pendel
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om fjærpendel og matematisk pendel. Temaet er en del av forkurspensumet og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Svingetiden for et lodd i en fjær
+- Svingetiden for en pendel, og hvorfor den ikke avhenger av massen
+- Demping og resonans, kort fortalt
+- Eksempler og oppgaver med løsning

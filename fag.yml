@@ -2,7 +2,15 @@
 nettsted: fysikkhjelp          # fysikkhjelp | matematikkhjelp | kjemihjelp | biologihjelp
 tittel: "Forkurs i fysikk"
 kortnavn: fysikk-forkurs       # brukes i nettadressen: fysikkhjelp.no/fysikk-forkurs/
-beskrivelse: "Fysikk fra grunnen av for forkurs og deg som mangler fysikk fra videregående – med mange regneeksempler og lite matematikk."
+beskrivelse: "Fysikk fra grunnen av for forkurs og deg som mangler fysikk fra videregående – med video, mange regneeksempler og lite matematikk. Bygger på TRES0312 ved NTNU."
 ansvarlig: "Realfagsambassaden"
 status: arbeid                 # skjult (vises ikke) | arbeid (vises med «under arbeid») | klar
 bilde: bilder/forside.webp     # valgfritt: en tegning som vises på fagkortet
+
+# Gamle adresser fra det tidligere TRES0312-kompendiet sendes hit
+aliases: ["/forkurs/index.html"]
+
+# PDF-kompendium (lages automatisk sammen med nettsidene)
+pdf:
+  undertittel: "Forkurs i fysikk"
+  linje: "TRES0312 · TFOR0112 · REA0021"

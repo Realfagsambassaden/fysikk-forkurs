@@ -1,0 +1,63 @@
+---
+title: "Ekstraoppgaver"
+emne: matematiske-verktoy
+delemne: oppgaver
+aliases: ["/forkurs/02-matematikk/07-ekstraoppgaver.html"]
+---
+
+:::: {.oppgaver}
+
+Her er flere oppgaver fra temaene vi har behandlet i dette kapitlet.
+
+::: {.oppgave tittel="Trigonometri og vektorkomponenter"}
+[Trigonometri og vektorkomponenter]{.oppg-tittel}
+
+a)  En vektor $\vec{v}$ har størrelse $|\vec{v}| = 20$ og danner vinkel $\theta = 30^\circ$ med positiv $x$-akse. Finn komponentene $v_x$ og $v_y$.
+
+b)  En fugl flyr $10\,\mathrm{km}$ i retning N$60^\circ$Ø (det vil si $60^\circ$ øst for nord). Finn de nord- og østkomponentene til forskyvningsvektoren. *Hint:* Vinkelen er målt fra nordaksen, ikke fra østaksen.
+
+c)  Gitt $\vec{v} = [5,\,-12]$. Finn lengden $|\vec{v}|$ og vinkelen $\theta$ vektoren danner med positiv $x$-akse.
+
+:::
+
+::: {.oppgave tittel="Vektorer og skalarprodukt"}
+[Vektorer og skalarprodukt]{.oppg-tittel}
+
+Gitt vektorene $\vec{p} = [2,\,5]$ og $\vec{q} = [-3,\,1]$.
+
+a)  Beregn $\vec{p} + \vec{q}$, $\vec{p} - \vec{q}$ og $2\vec{p} - 3\vec{q}$.
+
+b)  Finn lengden til vektoren $\vec{p} - \vec{q}$.
+
+c)  Finn en enhetsvektor $\hat{p}$ i retningen til $\vec{p}$.
+
+d)  Beregn skalarproduktet $\vec{p}\cdot\vec{q}$ og bestem vinkelen mellom $\vec{p}$ og $\vec{q}$.
+
+:::
+
+::: {.oppgave tittel="Parallell og vinkelrett"}
+[Parallell og vinkelrett]{.oppg-tittel}
+
+To vektorer er $\vec{a} = [3,\,k]$ og $\vec{b} = [2,\,-1]$.
+
+a)  For hvilken verdi av $k$ er $\vec{a}$ og $\vec{b}$ vinkelrette (ortogonale)? *Hint:* Bruk skalarproduktet.
+
+b)  For hvilken verdi av $k$ er $\vec{a}$ og $\vec{b}$ parallelle? *Hint:* Bruk kryssproduktet.
+
+:::
+
+::: {.oppgave tittel="Areal med kryssprodukt"}
+[Areal med kryssprodukt]{.oppg-tittel}
+
+To vektorer er $\vec{u} = [4,\,1]$ og $\vec{v} = [2,\,3]$.
+
+a)  Beregn $(\vec{u}\times\vec{v})_z$.
+
+b)  Hva er arealet av parallellogrammet som dannes av $\vec{u}$ og $\vec{v}$?
+
+c)  Hva er arealet av trekanten med $\vec{u}$ og $\vec{v}$ som to sider?
+
+:::
+
+
+::::

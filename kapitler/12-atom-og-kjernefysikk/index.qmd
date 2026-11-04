@@ -1,0 +1,23 @@
+---
+title: "Atom- og kjernefysikk"
+toc: false
+tegning: schrodinger
+---
+
+<!-- tillegg: Claude -->
+::: {.intro}
+
+Alt stoff er bygd opp av atomer, og i midten av hvert atom sitter en liten, tung kjerne. I dette kapittelet ser vi på hvordan atomet er bygd opp, hva radioaktiv stråling er, og hvordan kjernereaksjoner kan gi energi.
+
+:::
+
+::: {.spm}
+[Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
+
+1.  Hvordan er atomet bygd opp?
+
+2.  Hva er radioaktivitet, og hvordan verner vi oss mot stråling?
+
+3.  Hvor kommer energien i kjernekraft og i sola fra?
+
+:::

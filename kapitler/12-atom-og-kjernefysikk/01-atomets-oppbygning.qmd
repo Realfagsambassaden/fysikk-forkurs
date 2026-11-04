@@ -1,0 +1,18 @@
+---
+title: "Atomets oppbygning"
+emne: atom-og-kjerne
+delemne: atomet
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om atomets oppbygning. Temaet er en del av forkurspensumet og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+- Protoner, nøytroner og elektroner
+- Atomnummer, nukleontall og isotoper
+- Energinivåer og fotoner: $E = hf$
+- Eksempler og oppgaver med løsning

@@ -1,0 +1,25 @@
+---
+title: "Fluidfysikk"
+toc: false
+tegning: hydraulikk
+aliases: ["/forkurs/07-fluider/index.html"]
+---
+
+::: {.intro}
+
+Så langt har vi stort sett sett på faste legemer: klosser, biler, bjelker og stiger. Men mye av verden rundt oss består av stoffer som flyter — vann, olje og luft. Slike stoffer kaller vi *fluider*. I dette kapitlet skal vi innføre to nye størrelser, massetetthet og trykk, og se hvordan trykket i en væske øker jo dypere vi kommer. Deretter skal vi se hvordan en liten kraft kan løfte en bil (Pascals lov), og hvorfor noen ting flyter mens andre synker (Arkimedes’ lov).
+
+:::
+
+::: {.spm}
+[Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
+
+1.  Hva er et fluid, og hva skiller det fra et fast stoff?
+
+2.  Hva bestemmer trykket i en væske?
+
+3.  Hvordan kan en liten kraft løfte en bil?
+
+4.  Hva er oppdrift, og hvorfor flyter noen ting mens andre synker?
+
+:::
