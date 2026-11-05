@@ -48,7 +48,7 @@ Hva er forskjellen på $\vec{p}=m\vec{v}$ og $E_\text{K}=\frac{1}{2}mv^2$?
 Kinetisk energi er en viktig form for energi, som spiller en sentral rolle i mange fysiske prosesser som kollisjoner, bevegelse og energioverføringer. Når bilen bremser ned og stopper, reduseres dens kinetiske energi til null fordi farten $v$ også blir null.
 
 :::: figure
-![](../../bilder/tres/bil-kinetisk.png){.kompendium-bilde}
+![](../../bilder/tres/bil-kinetisk.png){.kompendium-bilde .foto}
 
 ::: caption
 Kinetisk energi i kjørende bil

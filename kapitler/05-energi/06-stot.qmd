@@ -57,7 +57,7 @@ Dette skjer fordi i et elastisk støt mellom objektene, bevares både den totale
 I Newtons pendel skjer det elastiske kollisjoner mellom kulene. I en elastisk kollisjon bevares både bevegelsesmengden og den kinetiske energien, slik at ingen energi går tapt til varme eller deformasjon. Når én kule slippes, overføres bevegelsesmengden og energien gjennom de midterste kulene til den siste kulen i rekken, som "spretter" opp med samme hastighet som den første.
 
 :::: figure
-![](../../bilder/tres/newtons-pendel.png){.kompendium-bilde}
+![](../../bilder/tres/newtons-pendel.png){.kompendium-bilde .foto}
 
 ::: caption
 Newtons pendel
