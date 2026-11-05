@@ -1,0 +1,21 @@
+---
+title: "Fysikk og programmering"
+toc: false
+tegning: euler-lagrange
+---
+
+<!-- tillegg: Claude -->
+::: {.intro}
+
+Med litt programmering kan vi regne på problemer som er for vanskelige for blyant og papir, og tegne grafer av målinger og modeller. Her lærer vi det vi trenger av Python for å gjøre fysikk.
+
+:::
+
+::: {.spm}
+[Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
+
+1.  Hvordan regner og plotter vi med Python?
+
+2.  Hvordan kan en datamaskin finne en bevegelse steg for steg?
+
+:::

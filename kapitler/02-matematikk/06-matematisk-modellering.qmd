@@ -9,8 +9,8 @@ aliases: ["/forkurs/02-matematikk/06-matematisk-modellering.html"]
 
 Matematisk modellering er selve kunsten å oversette et fysisk problem til matematikkens språk, slik at vi kan resonnere oss fram til svaret ved hjelp av likninger i stedet for gjetning. Verktøyene vi nettopp har gått gjennom — vektorer, komponenter og koordinatsystemer — er selve grunnmuren i denne prosessen: de gir oss et presist språk for å beskrive posisjoner, krefter og bevegelser, uavhengig av hvordan vi velger å orientere oss i rommet.
 
-::: myoppsum*
-Matematisk modellering En matematisk modell av virkeligheten vil for oss inneholde følgende:
+::: {.callout-note title="Matematisk modellering"}
+En matematisk modell av virkeligheten vil for oss inneholde følgende:
 
 1.  Representasjon av objektene involvert, f.eks. som punkter eller enkle geometriske former med en posisjon i rommet.
 

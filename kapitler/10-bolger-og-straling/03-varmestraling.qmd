@@ -1,0 +1,20 @@
+---
+title: "Varmestråling"
+emne: straling
+delemne: varmestraling
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om strålingen alle varme legemer sender ut. Temaet hører til forkursnivået og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+::: {.kort}
+- **Svart legeme** Det ideelle legemet som absorberer all stråling.
+- **Wiens forskyvningslov** Varmere legemer stråler med kortere bølgelengde.
+- **Stefan–Boltzmanns lov** Utstrålt effekt øker med fjerde potens av temperaturen.
+- **Sola og jorda** Hvorfor sola lyser gult og jorda stråler infrarødt.
+:::

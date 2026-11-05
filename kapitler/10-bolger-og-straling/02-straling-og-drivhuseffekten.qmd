@@ -1,7 +1,7 @@
 ---
-title: "Stråling og drivhuseffekten"
-emne: bolger-og-lyd
-delemne: straling
+title: "Elektromagnetisk stråling"
+emne: straling
+delemne: em-straling
 plassholder: true
 ---
 

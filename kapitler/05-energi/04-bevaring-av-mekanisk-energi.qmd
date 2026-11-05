@@ -111,7 +111,7 @@ I sirkulær bevegelse er nettokraften *mot sentrum* lik sentripetalkraften: $$\s
         \!\left(\frac{2\cdot6.0\,\mathrm{m}}{2.0\,\mathrm{m}} - 1\right)
       = 49.1\,\mathrm{N} \approx \underline{\underline{49\,\mathrm{N}}}$$
 
-::: tcolorbox
+::: {.graa}
 Normalkraften er størst i bunnen og minst på toppen. For at ballen skal holde kontakt med skinna på toppen, må $N_3 \geq 0$: $$\frac{2(H-2R)}{R} \geq 1 \implies H \geq \frac{5R}{2}$$ Med $R = 2.0\,\mathrm{m}$ er minste tillatte starthøyde $H_{\min} = 5.0\,\mathrm{m}$.
 :::
 :::
@@ -136,7 +136,7 @@ b)  Hva er farten til kula når den treffer underlaget igjen (i samme høyde som
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-Vi bruker bevaring av mekanisk energi, med utskytingspunktet som nullnivå for potensiell energi. I tillegg trenger vi én opplysning fra kapittel : Uten luftmotstand virker det ingen krefter horisontalt, så den horisontale komponenten av farten er konstant gjennom hele kastet: $$v_x = v_0\cos\theta = 20\,\mathrm{m}\,\mathrm{s}^{-1}\cdot\cos 30^\circ = 17.3\,\mathrm{m}\,\mathrm{s}^{-1}$$
+Vi bruker bevaring av mekanisk energi, med utskytingspunktet som nullnivå for potensiell energi. I tillegg trenger vi én opplysning fra *bevegelse i to dimensjoner*: Uten luftmotstand virker det ingen krefter horisontalt, så den horisontale komponenten av farten er konstant gjennom hele kastet: $$v_x = v_0\cos\theta = 20\,\mathrm{m}\,\mathrm{s}^{-1}\cdot\cos 30^\circ = 17.3\,\mathrm{m}\,\mathrm{s}^{-1}$$
 
 **a)** I det høyeste punktet går kula verken opp eller ned, så den vertikale komponenten av farten er null. Farten er da bare den horisontale komponenten: $$v_\text{topp} = v_x = 17.3\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{17\,\mathrm{m}\,\mathrm{s}^{-1}}}, \qquad \text{\textbf{rettet horisontalt}}$$ Den maksimale høyden finner vi med energibevaring mellom utskytingspunktet og toppunktet: $$\frac{1}{2}mv_0^2 = \frac{1}{2}mv_\text{topp}^2 + m\mathrm{g}h_\text{maks}
     \quad\implies\quad

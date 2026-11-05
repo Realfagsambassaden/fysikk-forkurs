@@ -2,7 +2,7 @@
 title: "Ekstraoppgaver"
 emne: newtons-lover
 delemne: oppgaver
-aliases: ["/forkurs/04-krefter/06-ekstraoppgaver.html"]
+aliases: ["/forkurs/04-krefter/06-ekstraoppgaver.html", "06-ekstraoppgaver.html", "09-ekstraoppgaver.html"]
 ---
 
 :::: {.oppgaver}

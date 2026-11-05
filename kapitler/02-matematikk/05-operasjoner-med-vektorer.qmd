@@ -7,7 +7,7 @@ aliases: ["/forkurs/02-matematikk/05-operasjoner-med-vektorer.html"]
 
 :::: {.oppgaver}
 
-Vi har alt sett at vektorer kan adderes (plusses sammen). I tillegg kan vi multiplisere en vektor med en skalar (et tall), samt multiplisere vektorer sammen. I dette delkapitlet skal vi se på disse operasjonene og hvordan vi tolker dem.
+Vi har alt sett at vektorer kan adderes (plusses sammen). I tillegg kan vi multiplisere en vektor med en skalar (et tall), samt multiplisere vektorer sammen. Her ser vi på disse operasjonene og hvordan vi tolker dem.
 
 ::: {.callout-note title="Definisjon: Vektoraddisjon"}
 
@@ -136,7 +136,7 @@ Finn skalarproduktet av $\vec{u} = [3,\,4]$ og $\vec{v} = [1,\,-2]$, og bestem v
 :::
 :::
 
-Skalarproduktet gir oss også en alternativ måte å uttrykke lengden til en vektor på. Dersom vi tar skalarproduktet av en vektor $\vec{u}$ med seg selv, er vinkelen mellom vektorene $\theta = 0^\circ$, slik at $\cos\theta = 1$: $$\vec{u}\cdot\vec{u} = |\vec{u}|\,|\vec{u}|\,\cos 0^\circ = |\vec{u}|^2.$$ Dette gir oss en alternativ definisjon av vektorlengden, som vi allerede møtte i Definisjon :
+Skalarproduktet gir oss også en alternativ måte å uttrykke lengden til en vektor på. Dersom vi tar skalarproduktet av en vektor $\vec{u}$ med seg selv, er vinkelen mellom vektorene $\theta = 0^\circ$, slik at $\cos\theta = 1$: $$\vec{u}\cdot\vec{u} = |\vec{u}|\,|\vec{u}|\,\cos 0^\circ = |\vec{u}|^2.$$ Dette gir oss en alternativ definisjon av vektorlengden, som vi allerede møtte i definisjonen:
 
 ::: {.callout-note title="Definisjon: Vektorlengde via skalarproduktet"}
 
@@ -146,7 +146,7 @@ u = |\vec{u}| = \sqrt{\vec{u}\cdot\vec{u}} = \sqrt{u_x^2 + u_y^2}.
 
 :::
 
-Vi ser at dette stemmer overens med Definisjon : siden $\vec{u}\cdot\vec{u} = u_x^2+u_y^2$, gir de to definisjonene nøyaktig samme resultat — skalarproduktet av en vektor med seg selv er rett og slett lengden i annen.
+Vi ser at dette stemmer overens med definisjonen: siden $\vec{u}\cdot\vec{u} = u_x^2+u_y^2$, gir de to definisjonene nøyaktig samme resultat — skalarproduktet av en vektor med seg selv er rett og slett lengden i annen.
 
 ## Python: skalarprodukt og vinkel {#python-skalarprodukt-og-vinkel .unnumbered}
 

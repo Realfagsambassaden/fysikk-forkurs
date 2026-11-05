@@ -17,6 +17,6 @@ Hvorfor kan naturen beskrives med matematikk?
 
 :::
 
-::: mymerk*
-Python og programmering I dette kompendiet bruker vi Python for å illustrere beregninger og lage figurer. Om du aldri har programmert før, anbefaler vi å lese Appendiks  før du går videre. Der finner du en kort innføring i alt du trenger for å komme i gang.
+::: {.callout-tip title="Python og programmering"}
+Vi bruker Python for å illustrere beregninger og lage figurer, og koden kan du kjøre direkte på siden. Har du aldri programmert før, finner du en kort innføring under *Fysikk og programmering*.
 :::

@@ -75,7 +75,7 @@ For å avgjøre om et legeme flyter eller synker, må vi sammenligne oppdriftskr
 
 Nettokraften på et legeme med tetthet $\rho_L$ og volum $V$ helt nedsenket i en væske med tetthet $\rho_v$ er: $$F_{\text{netto}} = F_{\textrm{B}} - G = \rho_v \mathrm{g} V - \rho_L \mathrm{g} V = (\rho_v - \rho_L)\,\mathrm{g} V$$
 
-::: tcolorbox
+::: {.graa}
 -   $\rho_L < \rho_v$: $F_{\text{netto}} > 0$ — legemet **flyter** (akselererer opp til det er delvis ute av væsken).
 
 -   $\rho_L = \rho_v$: $F_{\text{netto}} = 0$ — legemet **svever** i likevekt inne i væsken.

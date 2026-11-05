@@ -3,6 +3,7 @@ title: "Radioaktivitet og stråling"
 emne: atom-og-kjerne
 delemne: radioaktivitet
 plassholder: true
+aliases: ["02-radioaktivitet-og-straling.html"]
 ---
 
 <!-- tillegg: Claude -->

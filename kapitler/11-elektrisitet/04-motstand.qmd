@@ -81,13 +81,13 @@ Elektrisk strøm er definert som elektrisk ladning i bevegelse. Det finnes *veks
 
 Elementærladningen er den elektriske ladningen til et proton. Elektroner har samme størrelse på ladning som protoner, bare i motsatt retning. Derfor er ladningen til et elektron lik *-e*.\
 
-$$e=1,602 \cdot 10^{-19} C$$
+$$e=1.602 \cdot 10^{-19} C$$
 
 ::: {.callout-note title="Definisjon: Strøm og ladning"}
 
 Nedenfor står en formel for strøm, hvor *I* er strøm i Ampere, *q* er ladning i Coulomb og *t* er tid i sekund.\
 $I = \frac{q}{t}$
-Under står en formel for ladningen *q*, elementærladningen er *e*=1,602$\cdot$ 10$^{-19}$ C og *N* er antall elektroner.\
+Under står en formel for ladningen *q*, elementærladningen er *e*=1.602$\cdot$ 10$^{-19}$ C og *N* er antall elektroner.\
 $q = \mathrm{e}\cdot N$
 
 :::
@@ -99,7 +99,7 @@ Ladningen på et område er -100 Coulomb. Hvor mange overskudds-elektroner er p�
 
 ::: {.losning}
 
-$$q=e\cdot N$$ $$N=\frac{q}{e}$$ $$N=\frac{-100 C}{-1,602\cdot 10^{-19}\frac{C}{elektroner}}$$ $$N=\underline{\underline{6,24\cdot 10^{20}\text{ elektroner}}}$$
+$$q=e\cdot N$$ $$N=\frac{q}{e}$$ $$N=\frac{-100 C}{-1.602\cdot 10^{-19}\frac{C}{elektroner}}$$ $$N=\underline{\underline{6.24\cdot 10^{20}\text{ elektroner}}}$$
 
 :::
 

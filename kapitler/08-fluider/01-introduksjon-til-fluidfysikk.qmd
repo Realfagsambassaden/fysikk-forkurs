@@ -71,7 +71,7 @@ En liten metallterning har sidekanter på $3.0\,\mathrm{cm}$ og masse $73\,\math
 
 a)  Finn volumet til terningen i $\mathrm{cm}^{3}$ og i $\mathrm{m}^{3}$.
 
-b)  Finn massetettheten til terningen. Bruk tabell  til å finne ut hvilket metall terningen sannsynligvis er laget av.
+b)  Finn massetettheten til terningen. Bruk tabellen over til å finne ut hvilket metall terningen sannsynligvis er laget av.
 
 c)  Hvor stor masse ville en like stor terning av gull hatt?
 
@@ -79,7 +79,7 @@ c)  Hvor stor masse ville en like stor terning av gull hatt?
 
 **a)** Volumet til en terning er sidekanten opphøyd i tredje: $$V = (3.0\,\mathrm{cm})^3 = \underline{\underline{27\,\mathrm{cm}^{3}}}$$ Siden $1\,\mathrm{cm} = 1\cdot 10^{-2}\,\mathrm{m}$, er $1\,\mathrm{cm}^{3} = (1\cdot 10^{-2}\,\mathrm{m})^3 = 1\cdot 10^{-6}\,\mathrm{m}^{3}$. Dermed er $$V = 27\cdot1\cdot 10^{-6}\,\mathrm{m}^{3} = \underline{\underline{2.7\cdot 10^{-5}\,\mathrm{m}^{3}}}$$
 
-**b)** Vi bruker definisjonen av massetetthet (se *Massetetthet*): $$\rho = \frac{m}{V} = \frac{73\,\mathrm{g}}{27\,\mathrm{cm}^{3}} = 2.70\,\mathrm{g}\,\mathrm{cm}^{-3} \approx \underline{\underline{2.7\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}}}$$ I tabell  ser vi at dette passer med **aluminium**.
+**b)** Vi bruker definisjonen av massetetthet (se *Massetetthet*): $$\rho = \frac{m}{V} = \frac{73\,\mathrm{g}}{27\,\mathrm{cm}^{3}} = 2.70\,\mathrm{g}\,\mathrm{cm}^{-3} \approx \underline{\underline{2.7\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}}}$$ I tabellen ser vi at dette passer med **aluminium**.
 
 **c)** Gull har $\rho = 19.3\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}$. En terning av gull med samme volum har massen $$m = \rho\cdot V = 19.3\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot2.7\cdot 10^{-5}\,\mathrm{m}^{3} = 0.521\,\mathrm{kg} \approx \underline{\underline{0.52\,\mathrm{kg}}}$$ Gullterningen ville altså vært omtrent sju ganger så tung som aluminiumsterningen, selv om de er like store.
 

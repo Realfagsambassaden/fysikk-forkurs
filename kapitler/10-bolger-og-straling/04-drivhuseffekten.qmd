@@ -1,0 +1,20 @@
+---
+title: "Drivhuseffekten og klima"
+emne: straling
+delemne: drivhuseffekt
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om drivhuseffekten og jordas strålingsbalanse. Temaet hører til forkursnivået og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+::: {.kort}
+- **Strålingsbalansen** Inn fra sola, ut fra jorda.
+- **Drivhusgasser** Hvordan CO₂ og vanndamp holder på varmen.
+- **Jordas temperatur** En enkel modell med og uten atmosfære.
+- **Menneskeskapte endringer** Hva økt drivhuseffekt betyr.
+:::

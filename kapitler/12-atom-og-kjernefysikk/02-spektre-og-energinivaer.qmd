@@ -1,0 +1,20 @@
+---
+title: "Spektre og energinivåer"
+emne: atom-og-kjerne
+delemne: spektre
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om lys som fotoner, og hvordan atomer sender ut og tar opp lys. Temaet hører til forkursnivået og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+::: {.kort}
+- **Fotoner** Lys i små energipakker: $E = hf$.
+- **Energinivåer** Elektronene i atomet har bestemte energier.
+- **Linjespektre** Hvert grunnstoff har sitt eget fingeravtrykk i lyset.
+- **Eksempler og oppgaver** Med løsning.
+:::

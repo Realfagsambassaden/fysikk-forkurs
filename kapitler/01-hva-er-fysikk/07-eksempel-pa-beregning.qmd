@@ -7,7 +7,7 @@ aliases: ["/forkurs/01-hva-er-fysikk/06-eksempel-pa-beregning.html"]
 
 :::: {.oppgaver}
 
-Vi har nå sett på fysiske størrelser, enheter og hvordan vi regner med tall i fysikken. La oss avslutte med en liten smakebit på hvordan disse verktøyene brukes i praksis — både når det gjelder *kinematikk* (bevegelseslære, som vi skal se mye mer av i et senere kapittel) og når det gjelder *Python*, som vi skal bruke som regneverktøy i faget.
+Vi har nå sett på fysiske størrelser, enheter og hvordan vi regner med tall i fysikken. La oss avslutte med en liten smakebit på hvordan disse verktøyene brukes i praksis — både når det gjelder *kinematikk* (bevegelseslære, som vi skal se mye mer av senere) og når det gjelder *Python*, som vi skal bruke som regneverktøy i faget.
 
 Tenk deg at posisjonen til en gjenstand er målt med jevne mellomrom, for eksempel hvert sekund. Slike diskrete målepunkter er akkurat det man ofte sitter igjen med fra ekte sensorer og måleinstrumenter. Tabellen viser et eksempel på slike målinger.
 

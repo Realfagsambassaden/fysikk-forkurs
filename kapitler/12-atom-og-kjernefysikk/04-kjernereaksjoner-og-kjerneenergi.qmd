@@ -3,6 +3,7 @@ title: "Kjernereaksjoner og kjerneenergi"
 emne: atom-og-kjerne
 delemne: kjerneenergi
 plassholder: true
+aliases: ["03-kjernereaksjoner-og-kjerneenergi.html"]
 ---
 
 <!-- tillegg: Claude -->
