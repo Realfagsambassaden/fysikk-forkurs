@@ -45,8 +45,8 @@ Noen ganger er akselerasjonen konstant, $a = \mathrm{konst.}$ Dette er en god an
 
 Selv om vi nå har utledet formlene over ved hjelp av de skalare størrelsene, sp gjelder de samme relasjonene også for krumlinjet bevegelse, hvor vi altså må benytte vektorer. I oppsumeringen under har vi derfor skrevet likningene i vektorform, slik at de gjelder for alle typer bevegelse – både rettlinjet og krumlinjet.
 
-::: myoppsum*
-Bevegelseslikningene ved konstant akselerasjon **1. Hastighetslikningen** gir hastighetsvektoren som funksjon av tid: $$\begin{aligned}
+::: {.callout-note title="Bevegelseslikningene ved konstant akselerasjon"}
+**1. Hastighetslikningen** gir hastighetsvektoren som funksjon av tid: $$\begin{aligned}
         \vec{v} = \vec{v}_0 + \vec{a}\,t
 \end{aligned}$$
 
@@ -187,8 +187,8 @@ Vi har tidligere utledet formler for $$a=\text{konst},$$ og brukt vektorer i opp
 
 **Dekomponering.** Se for deg en stein som kastes utfor en klippe. Steinen vil falle nedover på grunn av tyngdekraftens konstante akselerasjon på $\mathrm{g}=9.81\,\mathrm{m}\,\mathrm{s}^{-2}$. Men i horisontal retning så vil steinen bare fortsette rett fram uten å akselerere. Vi må *dekomponere* likningene og analysere hver retning for seg.
 
-::: myoppsum*
-Dekomponering av hastighets- og posisjonslikningene Krumlinjet bevegelse med konstant akselerasjon analyseres ved å dekomponere vektorlikningene i x- og y-komponenter:
+::: {.callout-note title="Dekomponering av hastighets- og posisjonslikningene"}
+Krumlinjet bevegelse med konstant akselerasjon analyseres ved å dekomponere vektorlikningene i x- og y-komponenter:
 
 **Hastighetslikningen:** $$\vec{v} = \vec{v}_0 + \vec{a}\,t
   \quad\Longrightarrow\quad

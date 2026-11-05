@@ -60,8 +60,7 @@ $$\begin{aligned}
 
 Å kunne regne på enheter er en helt grunnleggende og veldig viktig egenskap når man holder på med fysikk. Det gir en god sjekk på om man har regnet riktig, og det hjelper en å se sammenhenger.
 
-::: myoppsum*
-Enhetsregning
+::: {.callout-note title="Enhetsregning"}
 
 -   Man bruker algebra-regler for å regne med enheter.
 

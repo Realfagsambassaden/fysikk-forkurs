@@ -2,7 +2,7 @@
 title: "Bevaring av bevegelsesmengde"
 emne: bevegelsesmengde
 delemne: kollisjoner
-aliases: ["/forkurs/04-krefter/05-bevaring-av-bevegelsesmengde.html"]
+aliases: ["/forkurs/04-krefter/05-bevaring-av-bevegelsesmengde.html", "05-bevaring-av-bevegelsesmengde.html"]
 ---
 
 :::: {.oppgaver}
@@ -48,8 +48,8 @@ Endringen i bevegelsesmengde forårsaket av et slikt kraftstøt kalles *impuls*.
 
 [Arealet under $F(t)$-kurven er lik endringen i bevegelsesmengde $\Delta p$. Kraften varierer typisk under et støt.]{.figurtekst}
 
-::: myoppsum*
-Algoritme for løsning Fremgangsmåten i slike oppgaver er alltid den samme:
+::: {.callout-note title="Algoritme for løsning"}
+Fremgangsmåten i slike oppgaver er alltid den samme:
 
 1.  Identifiser systemet og sjekk at ytre krefter er null (eller neglisjerbare).
 

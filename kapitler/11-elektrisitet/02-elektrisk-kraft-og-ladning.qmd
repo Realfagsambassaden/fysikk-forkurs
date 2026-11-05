@@ -21,7 +21,7 @@ Kraften mellom to punktladninger $q_1$ og $q_2$ med avstand $r$ er: $$F_e = k \f
 
 :::
 
-::: tcolorbox
+::: {.graa}
 
 **Gravitasjon vs. elektrisitet — to naturkrefter med samme form**
 

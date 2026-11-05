@@ -13,7 +13,7 @@ Denne siden skrives fortsatt.
 
 Tilstandslikningen $pV = Nk_\text{B}T$ forbinder tre størrelser. Avhengig av hvilken som holdes *konstant*, skiller vi mellom tre idealprosesser:
 
-::: tcolorbox
+::: {.graa}
 | **Prosesstype** | **Konstant** | **Sammenheng** | **Eksempel**             |
 |:----------------|:-------------|:---------------|:-------------------------|
 | Isokor          | $V =$ konst. | $p/T =$ konst. | Trykkbeholder            |
@@ -21,7 +21,7 @@ Tilstandslikningen $pV = Nk_\text{B}T$ forbinder tre størrelser. Avhengig av hv
 | Isoterm         | $T =$ konst. | $pV =$ konst.  | Sakte kompresjon         |
 :::
 
-Et *$pV$-diagram* viser trykket $p$ som funksjon av volumet $V$. Arealet under kurven tilsvarer arbeidet gassen gjør (eller arbeidet som gjøres på gassen). For en isobar prosess er arealet et rektangel med høyde $p$ og bredde $\Delta V$. Det er nettopp arbeidet $W_\text{gass} = p\,\Delta V$ fra delkapittel . Endres trykket underveis, er arbeidet fortsatt arealet under kurven.
+Et *$pV$-diagram* viser trykket $p$ som funksjon av volumet $V$. Arealet under kurven tilsvarer arbeidet gassen gjør (eller arbeidet som gjøres på gassen). For en isobar prosess er arealet et rektangel med høyde $p$ og bredde $\Delta V$. Det er nettopp arbeidet $W_\text{gass} = p\,\Delta V$ fra *termodynamikkens 1. lov*. Endres trykket underveis, er arbeidet fortsatt arealet under kurven.
 
 ::: center
 ![](../../bilder/figurer/k8-05-cd5351fcd8d6.svg){.tikz-fig style="width:382px"}

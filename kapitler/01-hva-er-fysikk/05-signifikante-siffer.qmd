@@ -21,8 +21,7 @@ Hvor lang er egentlig sauen?
 
 På forkursnivå skal vi ikke se så mye på dette, men vi skal få med oss det mest grunnleggende, nemlig *Signifikante siffer*. Signifikante siffer handler om å bruke riktig antall siffer i en utregning. La oss starte med å se på hvordan vi skal finne antall signifikante siffer. Tallet 459 har tre signifikante siffer, ettersom det består av tre siffer. Tallet 12 001. 03700 har 10 signifikante siffer, etter som det består av 10 siffer. Men merk at tallet 0.00059400 kun har 5 signifikante siffer (nemlig 59400). Antall signifikante siffer telles nemlig fra *første siffer som er forskjellig fra null.*
 
-::: myoppsum*
-Signifikante siffer
+::: {.callout-note title="Signifikante siffer"}
 
 -   Antall signifikante siffer regnes fra første tall forskjellig fra null.
 
@@ -57,8 +56,8 @@ $$\bar{v}=0.8333...\frac{\mathrm{km}}{\mathrm{h}/60}=60\cdot 0.8333...\,\mathrm{
 :::
 :::
 
-::: mymerk*
-Avrunding Vi minner om følgende regler for avrunding:
+::: {.callout-tip title="Avrunding"}
+Vi minner om følgende regler for avrunding:
 
 -   Tall fra 0-4 rundes ned. Tall fra og med 5 til 9 rundes opp.
 

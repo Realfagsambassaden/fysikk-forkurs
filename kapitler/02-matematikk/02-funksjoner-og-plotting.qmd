@@ -33,7 +33,7 @@ $\displaystyle f(x) = ax^2 + bx + c$
 
 Grafen er en parabel. Posisjonen til et legeme med konstant akselerasjon er for eksempel en kvadratisk funksjon av tid: $$s(t) = \frac{1}{2}at^2+ v_0 t + s_0.$$
 
-::: mymerk*
+::: {.callout-tip title="Merk"}
 Merk at mange bokstaver kan symbolisere veldig forskjellige ting. Bokstaven $s$ er et godt eksempel. Skriver vi $s(t)$ mener vi nok strekning som funksjon av tid $t$. Men tiden $t$ har jo enhet sekund, som også betegnes med bokstaven $s$! Et annet eksempel er bokstaven $m$, som brukes både til å symbolisere masse, men også som symbol for enheten meter. Ut ifra sammenhengen greier man som regel å forstå hva som er ment — i alle fall med litt trening.
 :::
 

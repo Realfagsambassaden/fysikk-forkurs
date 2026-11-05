@@ -19,7 +19,7 @@ Endringen i den indre energien $\Delta U$ er lik summen av tilført varme $Q$ og
 
 :::
 
-::: tcolorbox
+::: {.graa}
 **Fortegnskonvensjon:**
 
 -   $\Delta U > 0$: indre energi øker (systemet lagrer mer energi)

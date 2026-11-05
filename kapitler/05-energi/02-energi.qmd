@@ -25,7 +25,7 @@ Energi kan verken oppstå eller forsvinne. Den kan bare omformes fra én energif
 
 :::
 
-Energibevaringsloven gjelder *all* energi, ikke bare mekanisk energi. Når vi senere sier at energi «går tapt», for eksempel på grunn av friksjon, er den ikke borte. Den har bare blitt omformet til en form vi ikke kan bruke, som varme. I kapittel  skal vi se at *termodynamikkens 1. lov* er energibevaringsloven skrevet for systemer som utveksler varme og arbeid med omgivelsene.
+Energibevaringsloven gjelder *all* energi, ikke bare mekanisk energi. Når vi senere sier at energi «går tapt», for eksempel på grunn av friksjon, er den ikke borte. Den har bare blitt omformet til en form vi ikke kan bruke, som varme. Under *termofysikk* ser vi at *termodynamikkens 1. lov* er energibevaringsloven skrevet for systemer som utveksler varme og arbeid med omgivelsene.
 
 ## Kinetisk energi
 

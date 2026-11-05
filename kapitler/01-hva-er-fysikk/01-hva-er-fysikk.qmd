@@ -70,20 +70,20 @@ der
 
 - $s$ er strekningen ballen har falt (i meter, $\mathrm{m}$),
 - $t$ er tiden siden vi slapp ballen (i sekunder, $\mathrm{s}$),
-- $\mathrm{g} = 9{,}81\ \mathrm{m/s^2}$ er **tyngdeakselerasjonen** ved jordoverflaten.
+- $\mathrm{g} = 9.81\ \mathrm{m/s^2}$ er **tyngdeakselerasjonen** ved jordoverflaten.
 
 Modellen ser bort fra luftmotstand. Den gjelder derfor best for tunge, kompakte ting som faller en kort strekning.
 
 ::: {.eksempel}
-**Eksempel: Spå et fall.** Du slipper en ball fra en balkong. Hvor langt har den falt etter $2{,}0\ \mathrm{s}$, ifølge modellen?
+**Eksempel: Spå et fall.** Du slipper en ball fra en balkong. Hvor langt har den falt etter $2.0\ \mathrm{s}$, ifølge modellen?
 
 ::: {.losning}
-Vi setter inn $t = 2{,}0\ \mathrm{s}$ og $\mathrm{g} = 9{,}81\ \mathrm{m/s^2}$ i modellen:
+Vi setter inn $t = 2.0\ \mathrm{s}$ og $\mathrm{g} = 9.81\ \mathrm{m/s^2}$ i modellen:
 
 $$
-s = \tfrac{1}{2}\cdot 9{,}81\ \mathrm{m/s^2}\cdot (2{,}0\ \mathrm{s})^2
-  = \tfrac{1}{2}\cdot 9{,}81\cdot 4{,}0\ \mathrm{m}
-  = 19{,}6\ \mathrm{m}
+s = \tfrac{1}{2}\cdot 9.81\ \mathrm{m/s^2}\cdot (2.0\ \mathrm{s})^2
+  = \tfrac{1}{2}\cdot 9.81\cdot 4.0\ \mathrm{m}
+  = 19.6\ \mathrm{m}
 $$
 
 Legg merke til enhetene: $\mathrm{m/s^2}\cdot\mathrm{s^2} = \mathrm{m}$. Vi får en lengde, slik vi skal.
@@ -165,20 +165,20 @@ d) **Bølger**: lyd er en bølge i lufta. Lyset fra lynet kommer fram nesten med
 :::
 
 ::: {.oppgave tittel="Steinen i brønnen"}
-Du slipper en stein ned i en brønn og hører plasket etter $1{,}5\ \mathrm{s}$. Bruk modellen $s = \tfrac12 \mathrm{g} t^2$ til å finne ut hvor dyp brønnen er ned til vannet. Se bort fra tiden lyden bruker opp igjen.
+Du slipper en stein ned i en brønn og hører plasket etter $1.5\ \mathrm{s}$. Bruk modellen $s = \tfrac12 \mathrm{g} t^2$ til å finne ut hvor dyp brønnen er ned til vannet. Se bort fra tiden lyden bruker opp igjen.
 
 ::: {.losning}
-Vi setter inn $t = 1{,}5\ \mathrm{s}$:
+Vi setter inn $t = 1.5\ \mathrm{s}$:
 
 $$
-s = \tfrac{1}{2}\cdot 9{,}81\ \mathrm{m/s^2}\cdot(1{,}5\ \mathrm{s})^2
-  = \tfrac{1}{2}\cdot 9{,}81\cdot 2{,}25\ \mathrm{m}
-  = 11{,}0\ \mathrm{m}
+s = \tfrac{1}{2}\cdot 9.81\ \mathrm{m/s^2}\cdot(1.5\ \mathrm{s})^2
+  = \tfrac{1}{2}\cdot 9.81\cdot 2.25\ \mathrm{m}
+  = 11.0\ \mathrm{m}
 $$
 
 Brønnen er omtrent $\underline{\underline{11\ \mathrm{m}}}$ dyp.
 
-Modellen ser bort fra luftmotstand (lite viktig for en stein over 11 m) og fra lydens reisetid (omtrent $11/340 \approx 0{,}03\ \mathrm{s}$, også lite). Svaret er derfor ganske godt.
+Modellen ser bort fra luftmotstand (lite viktig for en stein over 11 m) og fra lydens reisetid (omtrent $11/340 \approx 0.03\ \mathrm{s}$, også lite). Svaret er derfor ganske godt.
 :::
 :::
 
@@ -200,33 +200,33 @@ b) I modellen står verken masse eller form, så **modellen sier at de lander sa
 ::: {.oppgave tittel="Bilturen" niva="Middels"}
 En enkel modell for en biltur er $s = v\,t$, der $v$ er farten og $t$ er tiden.
 
-a) Du kjører med farten $80\ \mathrm{km/h}$ i $2{,}5\ \mathrm{h}$. Hvor langt kommer du ifølge modellen?
+a) Du kjører med farten $80\ \mathrm{km/h}$ i $2.5\ \mathrm{h}$. Hvor langt kommer du ifølge modellen?
 b) I virkeligheten kom du bare $185\ \mathrm{km}$. Nevn to ting modellen ser bort fra.
 c) Hvilken gjennomsnittsfart passer med det du faktisk kjørte?
 
 ::: {.losning}
-a) $s = v\,t = 80\ \mathrm{km/h}\cdot 2{,}5\ \mathrm{h} = \underline{\underline{200\ \mathrm{km}}}$.
+a) $s = v\,t = 80\ \mathrm{km/h}\cdot 2.5\ \mathrm{h} = \underline{\underline{200\ \mathrm{km}}}$.
 Enhetene: $\mathrm{km/h}\cdot\mathrm{h} = \mathrm{km}$.
 
 b) Modellen antar at farten er den samme hele tiden. Den ser for eksempel bort fra
 - at du må bremse i svinger, kryss og tettsteder,
 - at du må stoppe for rødt lys, kø eller en pause.
 
-c) Vi bruker modellen «baklengs»: $v = \dfrac{s}{t} = \dfrac{185\ \mathrm{km}}{2{,}5\ \mathrm{h}} = \underline{\underline{74\ \mathrm{km/h}}}$.
+c) Vi bruker modellen «baklengs»: $v = \dfrac{s}{t} = \dfrac{185\ \mathrm{km}}{2.5\ \mathrm{h}} = \underline{\underline{74\ \mathrm{km/h}}}$.
 
 Slik forbedrer vi modellen: Vi bruker gjennomsnittsfarten i stedet for fartsgrensen. Det er fysikkens metode i det små.
 :::
 :::
 
 ::: {.oppgave tittel="Hvor høyt er stupetårnet?" niva="Utfordrende"}
-Ei venninne hopper fra et stupetårn. Du tar tiden og finner at hun bruker $1{,}4\ \mathrm{s}$ ned til vannet.
+Ei venninne hopper fra et stupetårn. Du tar tiden og finner at hun bruker $1.4\ \mathrm{s}$ ned til vannet.
 
 a) Hvor høyt er tårnet ifølge modellen $s = \tfrac12 \mathrm{g} t^2$?
 b) Tårnet er egentlig $10\ \mathrm{m}$ høyt. Hvor lang tid *skulle* fallet tatt ifølge modellen?
 c) Foreslå en grunn til at du målte en annen tid.
 
 ::: {.losning}
-a) $s = \tfrac{1}{2}\cdot 9{,}81\ \mathrm{m/s^2}\cdot(1{,}4\ \mathrm{s})^2 = \tfrac12\cdot 9{,}81\cdot 1{,}96\ \mathrm{m} = 9{,}6\ \mathrm{m}$, altså omtrent $\underline{\underline{9{,}6\ \mathrm{m}}}$.
+a) $s = \tfrac{1}{2}\cdot 9.81\ \mathrm{m/s^2}\cdot(1.4\ \mathrm{s})^2 = \tfrac12\cdot 9.81\cdot 1.96\ \mathrm{m} = 9.6\ \mathrm{m}$, altså omtrent $\underline{\underline{9.6\ \mathrm{m}}}$.
 
 b) Vi må løse modellen for $t$. Gang med 2 og del på $\mathrm{g}$ på begge sider:
 $$
@@ -234,10 +234,10 @@ t^2 = \frac{2s}{\mathrm{g}} \quad\Rightarrow\quad t = \sqrt{\frac{2s}{\mathrm{g}
 $$
 Med $s = 10\ \mathrm{m}$:
 $$
-t = \sqrt{\frac{2\cdot 10\ \mathrm{m}}{9{,}81\ \mathrm{m/s^2}}} = \sqrt{2{,}04\ \mathrm{s^2}} = \underline{\underline{1{,}43\ \mathrm{s}}}
+t = \sqrt{\frac{2\cdot 10\ \mathrm{m}}{9.81\ \mathrm{m/s^2}}} = \sqrt{2.04\ \mathrm{s^2}} = \underline{\underline{1.43\ \mathrm{s}}}
 $$
 
-c) Forskjellen er bare $0{,}03\ \mathrm{s}$. Det er mindre enn hvor nøyaktig en person klarer å starte og stoppe en stoppeklokke (reaksjonstiden er rundt $0{,}2\ \mathrm{s}$). Målingen og modellen stemmer altså godt overens innenfor måleusikkerheten. I tillegg hopper hun kanskje litt opp før hun faller. Mer om måleusikkerhet kommer senere i dette kapittelet.
+c) Forskjellen er bare $0.03\ \mathrm{s}$. Det er mindre enn hvor nøyaktig en person klarer å starte og stoppe en stoppeklokke (reaksjonstiden er rundt $0.2\ \mathrm{s}$). Målingen og modellen stemmer altså godt overens innenfor måleusikkerheten. I tillegg hopper hun kanskje litt opp før hun faller. Mer om måleusikkerhet kommer senere i dette kapittelet.
 :::
 :::
 

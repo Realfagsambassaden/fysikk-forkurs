@@ -65,8 +65,8 @@ Den kinetiske energien er altså $E_\text{K} = \underline{\underline{25\,\mathrm
 
 *Kodefil: [K2_algebra_beregning.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_algebra_beregning.ipynb)*
 
-::: mymerk*
-Kjøre koden selv Alle kodeeksempler finnes som Jupyter Notebook-filer i [kodemappen](https://github.com/kosmoben/TRES0312/tree/main/TRES0312%20Python). Se Appendiks  for hvordan du åpner og kjører dem.
+::: {.callout-tip title="Kjøre koden selv"}
+Kodeeksemplene kan du kjøre direkte på siden med **Kjør**-knappen. De finnes også som Jupyter Notebook-filer, som lenkes under hvert eksempel.
 :::
 
 ::: {.oppgave tittel="Algebra og Python"}
@@ -86,14 +86,13 @@ b)  Bruk Python (eller en kalkulator) til å beregne potensiell energi $E_p = m 
 
 :::
 
-::: mymerk*
-Om du ikke kjenner til formlene vi her har brukt, som $F=ma$, $E_\text{K} = \frac{1}{2}mv^2$ og $E_p = m\mathrm{g}h$, så er det ikke noe problem. Vi kommer tilbake til det i senere kapitler. Det viktigste akkurat nå er at du har kontroll på algebaraen.
+::: {.callout-tip title="Merk"}
+Om du ikke kjenner til formlene vi her har brukt, som $F=ma$, $E_\text{K} = \frac{1}{2}mv^2$ og $E_p = m\mathrm{g}h$, så er det ikke noe problem. Vi kommer tilbake til dem senere. Det viktigste akkurat nå er at du har kontroll på algebaraen.
 :::
 
 Det aller viktiste så langt er at du forstår at fysikkens språk er matematikk, og at vi derfor skriver ned likninger som beskriver sammenhenger mellom størrelser. Vi kan da løse for en ukjent ved å bruke algebra-regler.
 
-::: myoppsum*
-Algebraregler
+::: {.callout-note title="Algebraregler"}
 
 -   Det du gjør på ett ledd i en likningmå du gjøre på alle ledd.
 
@@ -138,7 +137,7 @@ v = v_0 + at
 
 :::
 
-::: mymerk*
+::: {.callout-tip title="Merk"}
 Legg merke til fremgangsmåten: vi satte opp *to* likninger — én fra kraft og masse, én fra kinematikken — og kombinerte dem til ett generelt *uttrykk* for $v$, *før* vi satte inn tallverdier. Det lønner seg å venne seg til denne rekkefølgen: finn uttrykket for det du er ute etter først, og regn ut svaret med tall helt til slutt.
 :::
 

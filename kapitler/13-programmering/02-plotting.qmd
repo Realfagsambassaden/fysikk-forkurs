@@ -1,0 +1,20 @@
+---
+title: "Plotting av data og funksjoner"
+emne: programmering
+delemne: plotting
+plassholder: true
+---
+
+<!-- tillegg: Claude -->
+::: {.callout-note title="Kommer snart"}
+Her kommer stoff om å tegne grafer av målinger og modeller. Temaet hører til forkursnivået og fylles ut snart.
+:::
+
+## Dette kommer på siden
+
+::: {.kort}
+- **Plotte en funksjon** For eksempel posisjonen $s(t)$.
+- **Plotte måledata** Med punkter og akser med enheter.
+- **Modell mot måling** Å sammenligne en modell med det vi har målt.
+- **Kode du kan kjøre** Direkte på siden.
+:::

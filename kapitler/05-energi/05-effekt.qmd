@@ -17,7 +17,7 @@ Effekt $P$ kan uttrykkes som: $$\begin{aligned}
 
 :::
 
-Enheten for effekt er watt (W). Samtidig ser vi fra formelen over at vi må ha sammenhengen $1 \, \text{W} = 1 \, \text{J/s}$. Dette betyr at én watt tilsvarer at én joule energi overføres hvert sekund. I senere kapittel skal vi vise at effekt i elektrisk sammenheng, er $P=U\cdot I$, der $U$ er spenning og $I$ er strømstyrke. I det tilfellet er det snakk om elektrisk energi (elektrisk arbeid) som overføres per tidsenhet. Men selve begrepet
+Enheten for effekt er watt (W). Samtidig ser vi fra formelen over at vi må ha sammenhengen $1 \, \text{W} = 1 \, \text{J/s}$. Dette betyr at én watt tilsvarer at én joule energi overføres hvert sekund. Under *elektrisitet* viser vi at effekt i elektrisk sammenheng, er $P=U\cdot I$, der $U$ er spenning og $I$ er strømstyrke. I det tilfellet er det snakk om elektrisk energi (elektrisk arbeid) som overføres per tidsenhet. Men selve begrepet
 
 Effekt kan også uttrykkes i sammenheng med kraft og hastighet. Hvis en konstant kraft $F$ virker på et objekt som beveger seg med en hastighet $v$, kan effekten skrives som:
 

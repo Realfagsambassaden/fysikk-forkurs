@@ -111,8 +111,8 @@ I $xy$-planet finnes det to enhetsvektorer: $$\begin{aligned}
 
 Her peker $\hat{\mathbf{x}}$ i positiv $x$-retning, mens $\hat{\mathbf{y}}$ peker i positiv $y$-retning. Sammen danner disse enhetsvektorene grunnlaget for koordinatsystemet. Merk at $\hat{\mathbf{x}}$ og $\hat{\mathbf{y}}$ er ortonormale, det vil si at de står vinkelrett på hverandre, og at de begge har lengde 1.
 
-::: mymerk*
-Alternativ notasjon for enhetsvektorer I mange lærebøker brukes symbolene $\mathbf{i}$, $\mathbf{j}$ (og $\mathbf{k}$ i tre dimensjoner) for de samme enhetsvektorene. I dette kompendiet bruker vi $\hat{\mathbf{x}}$, $\hat{\mathbf{y}}$ (og $\hat{z}$ i tre dimensjoner), da denne notasjonen gjør det umiddelbart tydelig hvilken retning enhetsvektoren peker i.
+::: {.callout-tip title="Alternativ notasjon for enhetsvektorer"}
+I mange lærebøker brukes symbolene $\mathbf{i}$, $\mathbf{j}$ (og $\mathbf{k}$ i tre dimensjoner) for de samme enhetsvektorene. Her bruker vi $\hat{\mathbf{x}}$, $\hat{\mathbf{y}}$ (og $\hat{z}$ i tre dimensjoner), da denne notasjonen gjør det umiddelbart tydelig hvilken retning enhetsvektoren peker i.
 :::
 
 Enhver vektor i $xy$-planet kan skrives som en lineær-kombinasjon av enhetsvektorene. Det finnes to ekvivalente skrivemåter: $$\begin{aligned}
@@ -262,8 +262,8 @@ Vinkel: 53.1 grader
 
 *Kodefil: [K2_vektorlengde_og_vinkel.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_vektorlengde_og_vinkel.ipynb)*
 
-::: mymerk*
-Bruk `arctan2`, ikke `arctan` `np.arctan2(vy, vx)` er bedre enn `np.arctan(vy/vx)` fordi den håndterer alle fire kvadranter riktig — også når $v_x = 0$ eller $v_x < 0$.
+::: {.callout-tip title="Bruk `arctan2`, ikke `arctan`"}
+`np.arctan2(vy, vx)` er bedre enn `np.arctan(vy/vx)` fordi den håndterer alle fire kvadranter riktig — også når $v_x = 0$ eller $v_x < 0$.
 :::
 
 ::: {.oppgave tittel="Størrelse og retning"}
