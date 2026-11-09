@@ -1,7 +1,7 @@
 ---
 title: "Operasjoner med vektorer"
-emne: vektorer
-delemne: vektorregning
+tema: vektorer
+undertema: vektorregning
 aliases: ["/forkurs/02-matematikk/05-operasjoner-med-vektorer.html"]
 ---
 

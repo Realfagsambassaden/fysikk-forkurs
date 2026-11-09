@@ -1,7 +1,7 @@
 ---
 title: "Bevaring av bevegelsesmengde"
-emne: bevegelsesmengde
-delemne: kollisjoner
+tema: bevegelsesmengde
+undertema: kollisjoner
 aliases: ["/forkurs/04-krefter/05-bevaring-av-bevegelsesmengde.html", "05-bevaring-av-bevegelsesmengde.html"]
 ---
 

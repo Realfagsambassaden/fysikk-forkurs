@@ -1,7 +1,7 @@
 ---
 title: "Strekning (s) og hastighet (v)"
-emne: kinematikk
-delemne: posisjon-fart-akselerasjon
+tema: kinematikk
+undertema: posisjon-fart-akselerasjon
 aliases: ["/forkurs/03-kinematikk/02-strekning-s-og-hastighet-v.html"]
 ---
 

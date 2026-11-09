@@ -1,7 +1,7 @@
 ---
 title: "Ekstraoppgaver"
-emne: temperatur-og-varme
-delemne: oppgaver
+tema: temperatur-og-varme
+undertema: oppgaver
 aliases: ["/forkurs/08-termofysikk/07-ekstraoppgaver.html"]
 ---
 

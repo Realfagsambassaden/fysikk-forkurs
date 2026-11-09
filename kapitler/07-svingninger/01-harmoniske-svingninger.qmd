@@ -1,7 +1,7 @@
 ---
 title: "Harmoniske svingninger"
-emne: svingninger
-delemne: harmoniske
+tema: svingninger
+undertema: harmoniske
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/07-01-harmoniske-svingninger) -->

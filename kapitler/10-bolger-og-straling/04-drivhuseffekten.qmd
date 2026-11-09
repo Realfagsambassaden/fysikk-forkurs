@@ -1,7 +1,7 @@
 ---
 title: "Drivhuseffekten og klima"
-emne: straling
-delemne: drivhuseffekt
+tema: straling
+undertema: drivhuseffekt
 plassholder: true
 ---
 

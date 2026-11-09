@@ -1,7 +1,7 @@
 ---
 title: "Krefter i planet — dekomponering"
-emne: newtons-lover
-delemne: krefter-i-planet
+tema: newtons-lover
+undertema: krefter-i-planet
 aliases: ["/forkurs/04-krefter/04-krefter-i-planet-dekomponering.html"]
 ---
 

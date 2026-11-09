@@ -1,7 +1,7 @@
 ---
 title: "Tilstandslikningen for idealgass"
-emne: gasser
-delemne: idealgass
+tema: gasser
+undertema: idealgass
 aliases: ["/forkurs/08-termofysikk/05-tilstandslikningen-for-idealgass.html"]
 ---
 

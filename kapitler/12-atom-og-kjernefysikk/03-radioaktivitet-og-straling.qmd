@@ -1,7 +1,7 @@
 ---
 title: "Radioaktivitet og stråling"
-emne: atom-og-kjerne
-delemne: radioaktivitet
+tema: atom-og-kjerne
+undertema: radioaktivitet
 plassholder: true
 aliases: ["02-radioaktivitet-og-straling.html"]
 ---

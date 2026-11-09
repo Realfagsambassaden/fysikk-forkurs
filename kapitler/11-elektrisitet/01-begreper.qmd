@@ -1,7 +1,7 @@
 ---
 title: "Begreper"
-emne: kretser
-delemne: strom-spenning
+tema: kretser
+undertema: strom-spenning
 aliases: ["/forkurs/09-elektrisitet/01-begreper.html"]
 ---
 

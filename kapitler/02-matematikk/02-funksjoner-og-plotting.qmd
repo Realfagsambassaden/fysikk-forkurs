@@ -1,7 +1,7 @@
 ---
 title: "Funksjoner og plotting"
-emne: matematiske-verktoy
-delemne: funksjoner
+tema: matematiske-verktoy
+undertema: funksjoner
 aliases: ["/forkurs/02-matematikk/02-funksjoner-og-plotting.html"]
 ---
 

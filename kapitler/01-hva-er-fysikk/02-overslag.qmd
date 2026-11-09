@@ -1,7 +1,7 @@
 ---
 title: "Overslag og størrelsesordener"
-emne: hva-er-fysikk
-delemne: overslag
+tema: hva-er-fysikk
+undertema: overslag
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/01-02-overslag) -->

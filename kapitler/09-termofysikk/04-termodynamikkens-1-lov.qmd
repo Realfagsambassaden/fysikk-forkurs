@@ -1,7 +1,7 @@
 ---
 title: "Termodynamikkens 1. lov"
-emne: termodynamikk
-delemne: forste-lov
+tema: termodynamikk
+undertema: forste-lov
 aliases: ["/forkurs/08-termofysikk/04-termodynamikkens-1-lov.html"]
 ---
 

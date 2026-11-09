@@ -1,7 +1,7 @@
 ---
 title: "Pascals lov"
-emne: hydrostatikk
-delemne: trykk
+tema: hydrostatikk
+undertema: trykk
 aliases: ["/forkurs/07-fluider/03-pascals-lov.html"]
 ---
 

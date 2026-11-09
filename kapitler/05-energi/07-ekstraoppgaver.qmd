@@ -1,7 +1,7 @@
 ---
 title: "Ekstraoppgaver"
-emne: arbeid-og-energi
-delemne: oppgaver
+tema: arbeid-og-energi
+undertema: oppgaver
 aliases: ["/forkurs/05-energi/07-ekstraoppgaver.html"]
 ---
 

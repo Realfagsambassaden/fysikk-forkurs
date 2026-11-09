@@ -22,20 +22,27 @@ kapitler/
 bilder/                  – tegninger og figurer
 ```
 
-## 3. Emner – viktig!
+## 3. Temaer – viktig!
 
-Alt stoff på nettstedene er ordnet **etter emne**, ikke etter kurs eller universitet. Hver side må derfor si hvilket emne den hører til, øverst i fila:
+Alt stoff på nettstedene er ordnet **etter tema**, ikke etter kurs eller universitet. Hver side må derfor si hvilket tema og **undertema** den hører til, øverst i fila:
 
 ```yaml
 ---
 title: "Arbeid gjort av en kraft"
-emne: arbeid-og-energi
+tema: arbeid-og-energi
+undertema: arbeid
 ---
 ```
 
-Gyldige emner står i [emner.yml i plattformen](https://github.com/Realfagsambassaden/Plattform/blob/main/emner.yml), for eksempel `kinematikk`, `newtons-lover`, `arbeid-og-energi`, `hydrostatikk`, `elektrisk-felt`, `kvantefysikk`. Mangler emnet ditt? Si fra, så legger vi det til.
+Hvert tema er delt i noen få undertemaer (se `undertemaer` under temaet i tema.yml). Ekstraoppgaver får `undertema: oppgaver`. Sider om samme undertema på ulike nivåer kobles automatisk sammen, og studentene får en knapp for å bytte nivå.
 
-Siden dukker da opp under riktig emne på nettstedet, sammen med alt annet stoff om samme tema. Kurs (som TFY4106 på NTNU) lages som **løyper** på toppen: en rekkefølge av sider fra ulike emner.
+**Nivå** (`forkurs`, `ingenior` eller `fordypning`) settes for hele faget i `fag.yml` i plattformen. En enkelt side kan overstyre med `niva: fordypning` øverst i fila.
+
+Gyldige temaer står i [tema.yml i plattformen](https://github.com/Realfagsambassaden/Plattform/blob/main/tema.yml), for eksempel `kinematikk`, `newtons-lover`, `arbeid-og-energi`, `hydrostatikk`, `elektrisk-felt`, `kvantefysikk`. Mangler temaet ditt? Si fra, så legger vi det til.
+
+Siden dukker da opp under riktig tema på nettstedet, sammen med alt annet stoff om samme tema. Kurs (som TFY4106 på NTNU) lages som **løyper** på toppen: en rekkefølge av sider fra ulike temaer.
+
+Vi sier «tema», ikke «emne», fordi «emne» også betyr et kurs (emnekode, emnebeskrivelse). De gamle feltnavnene `emne:` og `delemne:` virker fortsatt, men bruk `tema:` og `undertema:`.
 
 ## 4. Byggeklosser
 

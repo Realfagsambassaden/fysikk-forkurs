@@ -6,7 +6,7 @@ Den felles instruksen for alle KI-agenter ligger i plattformen:
 Det viktigste, kort:
 
 - Endringer går via gren og pull request mot `main`. Alt på `main` publiseres automatisk.
-- Hver side har `title`, `emne` og `delemne` øverst (se `emner.yml` i plattformen). Nivået settes for hele faget i plattformens `fag.yml`.
+- Hver side har `title`, `tema` og `undertema` øverst (se `tema.yml` i plattformen). Si «tema», ikke «emne» («emne» betyr kurs). Nivået settes for hele faget i plattformens `fag.yml`.
 - **Skriv kursnøytralt:** aldri «i dette faget», «i kurset», «i pensum», «i kompendiet» eller «i forrige kapittel» på en innholdsside. Vis heller til nivå («På forkursnivå …», «På ingeniørnivå …»).
 - Bare lærerens egne videoer (DrNormann). Mangler video: plassholder `<!-- video: kommer (videoer/<side-id>) -->`.
 - KI-skrevet stoff merkes `<!-- tillegg: Claude -->`.

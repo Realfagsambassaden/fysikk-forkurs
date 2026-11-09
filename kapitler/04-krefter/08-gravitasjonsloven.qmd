@@ -1,7 +1,7 @@
 ---
 title: "Newtons gravitasjonslov"
-emne: gravitasjon
-delemne: gravitasjonsloven
+tema: gravitasjon
+undertema: gravitasjonsloven
 plassholder: true
 ---
 

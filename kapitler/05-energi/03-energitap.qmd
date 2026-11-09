@@ -1,7 +1,7 @@
 ---
 title: "Energitap"
-emne: arbeid-og-energi
-delemne: energibevaring
+tema: arbeid-og-energi
+undertema: energibevaring
 aliases: ["/forkurs/05-energi/03-energitap.html"]
 ---
 

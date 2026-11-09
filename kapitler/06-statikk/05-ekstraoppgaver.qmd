@@ -1,7 +1,7 @@
 ---
 title: "Ekstraoppgaver"
-emne: statikk
-delemne: oppgaver
+tema: statikk
+undertema: oppgaver
 aliases: ["/forkurs/06-statikk/05-ekstraoppgaver.html"]
 ---
 

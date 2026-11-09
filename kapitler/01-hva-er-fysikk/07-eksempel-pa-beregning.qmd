@@ -1,7 +1,7 @@
 ---
 title: "Eksempel på beregning"
-emne: maling-og-usikkerhet
-delemne: usikkerhet
+tema: maling-og-usikkerhet
+undertema: usikkerhet
 aliases: ["/forkurs/01-hva-er-fysikk/06-eksempel-pa-beregning.html"]
 ---
 

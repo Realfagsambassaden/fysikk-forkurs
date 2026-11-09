@@ -1,7 +1,7 @@
 ---
 title: "Elektromagnetisk stråling"
-emne: straling
-delemne: em-straling
+tema: straling
+undertema: em-straling
 plassholder: true
 ---
 

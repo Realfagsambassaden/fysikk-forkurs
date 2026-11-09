@@ -1,7 +1,7 @@
 ---
 title: "Signifikante siffer"
-emne: maling-og-usikkerhet
-delemne: gjeldende-siffer
+tema: maling-og-usikkerhet
+undertema: gjeldende-siffer
 aliases: ["/forkurs/01-hva-er-fysikk/04-signifikante-siffer.html"]
 ---
 

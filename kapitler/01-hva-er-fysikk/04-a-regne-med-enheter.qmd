@@ -1,7 +1,7 @@
 ---
 title: "Å regne med enheter"
-emne: storrelser-og-enheter
-delemne: enhetsregning
+tema: storrelser-og-enheter
+undertema: enhetsregning
 aliases: ["/forkurs/01-hva-er-fysikk/03-a-regne-med-enheter.html"]
 ---
 

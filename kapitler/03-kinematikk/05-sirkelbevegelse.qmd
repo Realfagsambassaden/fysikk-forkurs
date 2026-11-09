@@ -1,7 +1,7 @@
 ---
 title: "Sirkelbevegelse"
-emne: sirkelbevegelse
-delemne: sentripetal
+tema: sirkelbevegelse
+undertema: sentripetal
 aliases: ["/forkurs/03-kinematikk/05-sirkelbevegelse.html"]
 ---
 
