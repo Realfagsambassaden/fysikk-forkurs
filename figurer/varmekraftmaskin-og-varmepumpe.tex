@@ -1,0 +1,22 @@
+\begin{tikzpicture}[scale=1.0,
+  res/.style={draw,thick,minimum width=3.4cm,minimum height=0.8cm,align=center},
+  mask/.style={draw,thick,circle,minimum size=1.5cm,align=center}]
+% --- Varmekraftmaskin ---
+\node[res,fill=rod!15] (H1) at (0,4) {Varmt reservoar, $T_\text{H}$};
+\node[mask] (M1) at (0,2) {Varme-\\[-2pt]kraft-\\[-2pt]maskin};
+\node[res,fill=bla!15] (L1) at (0,0) {Kaldt reservoar, $T_\text{L}$};
+\draw[->,line width=2.4pt,rod] (H1.south)--node[left]{$Q_\text{H}$}(M1.north);
+\draw[->,line width=1.4pt,bla] (M1.south)--node[left]{$Q_\text{L}$}(L1.north);
+\draw[->,line width=1.4pt,gronn] (M1.east)--node[above]{$W$}++(1.6,0) node[right,text=black]{arbeid ut};
+\node at (0,-1.0) {$Q_\text{H} = W + Q_\text{L}$};
+% --- Varmepumpe ---
+\begin{scope}[xshift=7.2cm]
+\node[res,fill=rod!15] (H2) at (0,4) {Varmt reservoar, $T_\text{H}$};
+\node[mask] (M2) at (0,2) {Varme-\\[-2pt]pumpe};
+\node[res,fill=bla!15] (L2) at (0,0) {Kaldt reservoar, $T_\text{L}$};
+\draw[->,line width=2.4pt,rod] (M2.north)--node[left]{$Q_\text{H}$}(H2.south);
+\draw[->,line width=1.4pt,bla] (L2.north)--node[left]{$Q_\text{L}$}(M2.south);
+\draw[<-,line width=1.4pt,gronn] (M2.east)--node[above]{$W$}++(1.6,0) node[right,text=black]{arbeid inn};
+\node at (0,-1.0) {$Q_\text{H} = W + Q_\text{L}$};
+\end{scope}
+\end{tikzpicture}
