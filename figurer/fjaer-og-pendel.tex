@@ -1,0 +1,31 @@
+\begin{tikzpicture}[scale=1.0]
+% --- Fjærpendel ---
+\fill[pattern=north east lines] (-1.0,4.0) rectangle (1.0,4.25);
+\draw[thick] (-1.0,4.0)--(1.0,4.0);
+\draw[thick] (0,4.0)--(0,3.7);
+\draw[thick] (0,3.7)--(0.22,3.615)--(-0.22,3.445)--(0.22,3.275)--(-0.22,3.105)--(0.22,2.935)--(-0.22,2.765)--(0.22,2.595)--(-0.22,2.425)--(0.22,2.255)--(-0.22,2.085)--(0,2.0);
+\draw[thick] (0,2.0)--(0,1.85);
+% likevekt
+\draw[dashed,bla] (-1.2,1.45)--(1.6,1.45) node[right]{likevekt};
+\draw[thick,fill=black!15] (-0.45,1.05) rectangle (0.45,1.85);
+\node at (0,1.45) {$m$};
+\node[right] at (0.25,2.85) {$k$};
+\draw[<->,rod] (-0.85,1.45)--node[left]{$A$}(-0.85,2.15);
+\draw[<->,rod] (-0.85,1.45)--node[left]{$A$}(-0.85,0.75);
+\node at (0,0.0) {Fjærpendel: $T = 2\pi\sqrt{m/k}$};
+% --- Matematisk pendel ---
+\begin{scope}[xshift=6cm]
+\fill[pattern=north east lines] (-1.0,4.0) rectangle (1.0,4.25);
+\draw[thick] (-1.0,4.0)--(1.0,4.0);
+\draw[dashed,bla] (0,4.0)--(0,0.9);
+\draw[thick] (0,4.0)--({2.8*sin(25)},{4.0-2.8*cos(25)});
+\fill[black!15,draw=black,thick] ({2.8*sin(25)},{4.0-2.8*cos(25)}) circle (0.22);
+\node[right] at ({1.4*sin(25)+0.1},{4.0-1.4*cos(25)}) {$L$};
+\draw[->] (0,3.3) arc (-90:-65:0.7);
+\node at (0.22,3.05) {$\theta$};
+\draw[dashed,gronn] ({2.8*sin(-25)},{4.0-2.8*cos(-25)}) arc (-115:-65:2.8);
+\fill[black!15,draw=black,thick] ({2.8*sin(-25)},{4.0-2.8*cos(-25)}) circle (0.22);
+\node[text=black,left=6pt] at ({2.8*sin(-25)},{4.0-2.8*cos(-25)}) {$m$};
+\node at (0,0.0) {Pendel: $T = 2\pi\sqrt{L/\mathrm{g}}$};
+\end{scope}
+\end{tikzpicture}
