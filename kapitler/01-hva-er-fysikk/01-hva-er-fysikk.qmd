@@ -1,7 +1,7 @@
 ---
 title: "Hva er fysikk?"
-emne: hva-er-fysikk
-delemne: hva-er-fysikk
+tema: hva-er-fysikk
+undertema: hva-er-fysikk
 aliases: ["/forkurs/01-hva-er-fysikk/01-hva-er-fysikk.html"]
 ---
 

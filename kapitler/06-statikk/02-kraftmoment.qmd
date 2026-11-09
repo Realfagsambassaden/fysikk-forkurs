@@ -1,7 +1,7 @@
 ---
 title: "Kraftmoment"
-emne: statikk
-delemne: kraftmoment
+tema: statikk
+undertema: kraftmoment
 aliases: ["/forkurs/06-statikk/02-kraftmoment.html"]
 ---
 

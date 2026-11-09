@@ -1,7 +1,7 @@
 ---
 title: "Prosesstyper og pV-diagram"
-emne: termodynamikk
-delemne: prosesser
+tema: termodynamikk
+undertema: prosesser
 aliases: ["/forkurs/08-termofysikk/06-prosesstyper-og-pv-diagram.html"]
 ---
 

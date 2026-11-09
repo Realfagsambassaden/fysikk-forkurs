@@ -1,7 +1,7 @@
 ---
 title: "Forsøk og rapport"
-emne: maling-og-usikkerhet
-delemne: forsok-og-rapport
+tema: maling-og-usikkerhet
+undertema: forsok-og-rapport
 plassholder: true
 ---
 

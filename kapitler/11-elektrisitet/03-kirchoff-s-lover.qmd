@@ -1,7 +1,7 @@
 ---
 title: "Kirchoff's lover"
-emne: kretser
-delemne: kirchhoff
+tema: kretser
+undertema: kirchhoff
 aliases: ["/forkurs/09-elektrisitet/03-kirchoff-s-lover.html"]
 ---
 

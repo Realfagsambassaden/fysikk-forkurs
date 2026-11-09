@@ -1,7 +1,7 @@
 ---
 title: "Støt"
-emne: bevegelsesmengde
-delemne: kollisjoner
+tema: bevegelsesmengde
+undertema: kollisjoner
 aliases: ["/forkurs/05-energi/06-stot.html"]
 ---
 

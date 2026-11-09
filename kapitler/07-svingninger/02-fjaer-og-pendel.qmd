@@ -1,7 +1,7 @@
 ---
 title: "Fjær og pendel"
-emne: svingninger
-delemne: pendel
+tema: svingninger
+undertema: pendel
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/07-02-fjaer-og-pendel) -->

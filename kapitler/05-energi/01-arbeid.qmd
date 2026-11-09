@@ -1,7 +1,7 @@
 ---
 title: "Arbeid"
-emne: arbeid-og-energi
-delemne: arbeid
+tema: arbeid-og-energi
+undertema: arbeid
 aliases: ["/forkurs/05-energi/01-arbeid.html"]
 ---
 

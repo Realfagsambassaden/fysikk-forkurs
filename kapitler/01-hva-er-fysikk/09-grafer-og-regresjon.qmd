@@ -1,7 +1,7 @@
 ---
 title: "Grafer og regresjon"
-emne: modellering
-delemne: regresjon
+tema: modellering
+undertema: regresjon
 plassholder: true
 ---
 

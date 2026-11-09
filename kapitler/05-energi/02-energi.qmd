@@ -1,7 +1,7 @@
 ---
 title: "Energi"
-emne: arbeid-og-energi
-delemne: energiformer
+tema: arbeid-og-energi
+undertema: energiformer
 aliases: ["/forkurs/05-energi/02-energi.html"]
 ---
 

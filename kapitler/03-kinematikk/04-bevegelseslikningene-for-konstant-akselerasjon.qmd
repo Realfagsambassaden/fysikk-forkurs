@@ -1,7 +1,7 @@
 ---
 title: "Bevegelseslikningene for konstant akselerasjon"
-emne: kinematikk
-delemne: konstant-akselerasjon
+tema: kinematikk
+undertema: konstant-akselerasjon
 aliases: ["/forkurs/03-kinematikk/04-bevegelseslikningene-for-konstant-akselerasjon.html"]
 ---
 

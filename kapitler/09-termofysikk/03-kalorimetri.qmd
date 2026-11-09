@@ -1,7 +1,7 @@
 ---
 title: "Kalorimetri"
-emne: temperatur-og-varme
-delemne: kalorimetri
+tema: temperatur-og-varme
+undertema: kalorimetri
 aliases: ["/forkurs/08-termofysikk/03-kalorimetri.html"]
 ---
 

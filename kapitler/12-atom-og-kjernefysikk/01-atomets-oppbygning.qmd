@@ -1,7 +1,7 @@
 ---
 title: "Atomets oppbygning"
-emne: atom-og-kjerne
-delemne: atomet
+tema: atom-og-kjerne
+undertema: atomet
 plassholder: true
 ---
 

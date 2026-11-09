@@ -1,7 +1,7 @@
 ---
 title: "Rotasjonslikevekt og fullstendig likevekt"
-emne: statikk
-delemne: kraftmoment
+tema: statikk
+undertema: kraftmoment
 aliases: ["/forkurs/06-statikk/03-rotasjonslikevekt-og-fullstendig-likevekt.html"]
 ---
 

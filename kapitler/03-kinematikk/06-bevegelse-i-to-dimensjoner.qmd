@@ -1,7 +1,7 @@
 ---
 title: "Bevegelse i to dimensjoner"
-emne: kinematikk
-delemne: to-dimensjoner
+tema: kinematikk
+undertema: to-dimensjoner
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/03-06-bevegelse-i-to-dimensjoner) -->

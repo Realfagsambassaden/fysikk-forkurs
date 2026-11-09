@@ -1,7 +1,7 @@
 ---
 title: "Bevaring av mekanisk energi"
-emne: arbeid-og-energi
-delemne: energibevaring
+tema: arbeid-og-energi
+undertema: energibevaring
 aliases: ["/forkurs/05-energi/04-bevaring-av-mekanisk-energi.html"]
 ---
 

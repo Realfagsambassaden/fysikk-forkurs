@@ -1,7 +1,7 @@
 ---
 title: "Introduksjon til Fluidfysikk"
-emne: hydrostatikk
-delemne: trykk
+tema: hydrostatikk
+undertema: trykk
 aliases: ["/forkurs/07-fluider/01-introduksjon-til-fluidfysikk.html"]
 ---
 

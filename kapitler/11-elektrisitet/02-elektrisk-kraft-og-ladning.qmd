@@ -1,7 +1,7 @@
 ---
 title: "Elektrisk kraft og ladning"
-emne: elektrisk-felt
-delemne: ladning
+tema: elektrisk-felt
+undertema: ladning
 aliases: ["/forkurs/09-elektrisitet/02-elektrisk-kraft-og-ladning.html"]
 ---
 

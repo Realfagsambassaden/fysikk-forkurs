@@ -1,7 +1,7 @@
 ---
 title: "Numerisk løsning av bevegelse"
-emne: programmering
-delemne: numeriske-metoder
+tema: programmering
+undertema: numeriske-metoder
 plassholder: true
 ---
 

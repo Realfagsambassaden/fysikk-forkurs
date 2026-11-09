@@ -1,7 +1,7 @@
 ---
 title: "Fysiske størrelser"
-emne: storrelser-og-enheter
-delemne: si
+tema: storrelser-og-enheter
+undertema: si
 aliases: ["/forkurs/01-hva-er-fysikk/02-fysiske-storrelser.html"]
 ---
 

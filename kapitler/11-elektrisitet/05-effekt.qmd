@@ -1,7 +1,7 @@
 ---
 title: "Effekt"
-emne: kretser
-delemne: effekt
+tema: kretser
+undertema: effekt
 aliases: ["/forkurs/09-elektrisitet/05-effekt.html"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Termodynamikkens 2. lov"
-emne: termodynamikk
-delemne: andre-lov
+tema: termodynamikk
+undertema: andre-lov
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/09-07-termodynamikkens-2-lov) -->

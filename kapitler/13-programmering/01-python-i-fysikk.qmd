@@ -1,7 +1,7 @@
 ---
 title: "Python i fysikk"
-emne: programmering
-delemne: python
+tema: programmering
+undertema: python
 plassholder: true
 ---
 

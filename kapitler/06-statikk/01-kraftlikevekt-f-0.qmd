@@ -1,7 +1,7 @@
 ---
 title: "Kraftlikevekt: ΣF = 0"
-emne: statikk
-delemne: kraftlikevekt
+tema: statikk
+undertema: kraftlikevekt
 aliases: ["/forkurs/06-statikk/01-kraftlikevekt-f-0.html"]
 ---
 

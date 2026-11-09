@@ -1,7 +1,7 @@
 ---
 title: "Trigonometri"
-emne: matematiske-verktoy
-delemne: trigonometri
+tema: matematiske-verktoy
+undertema: trigonometri
 aliases: ["/forkurs/02-matematikk/03-trigonometri.html"]
 ---
 

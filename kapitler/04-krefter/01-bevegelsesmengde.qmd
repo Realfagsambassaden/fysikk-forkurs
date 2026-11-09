@@ -1,7 +1,7 @@
 ---
 title: "Bevegelsesmengde"
-emne: bevegelsesmengde
-delemne: kraftstot
+tema: bevegelsesmengde
+undertema: kraftstot
 aliases: ["/forkurs/04-krefter/01-bevegelsesmengde.html"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Trykk i væsker"
-emne: hydrostatikk
-delemne: trykk
+tema: hydrostatikk
+undertema: trykk
 aliases: ["/forkurs/07-fluider/02-trykk-i-vaesker.html"]
 ---
 

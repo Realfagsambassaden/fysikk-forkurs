@@ -1,7 +1,7 @@
 ---
 title: "Motstand"
-emne: kretser
-delemne: motstand
+tema: kretser
+undertema: motstand
 aliases: ["/forkurs/09-elektrisitet/04-motstand.html"]
 ---
 

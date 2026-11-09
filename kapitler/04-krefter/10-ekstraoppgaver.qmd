@@ -1,7 +1,7 @@
 ---
 title: "Ekstraoppgaver"
-emne: newtons-lover
-delemne: oppgaver
+tema: newtons-lover
+undertema: oppgaver
 aliases: ["/forkurs/04-krefter/06-ekstraoppgaver.html", "06-ekstraoppgaver.html", "09-ekstraoppgaver.html"]
 ---
 
