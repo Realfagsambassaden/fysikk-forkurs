@@ -1,0 +1,14 @@
+\begin{tikzpicture}[xscale=1.0,yscale=1.0]
+\draw[akse] (-0.2,0)--(8.6,0) node[right]{$t$};
+\draw[akse] (0,-1.9)--(0,2.1) node[above]{$x$};
+\draw[dashed,black!50] (0,1.5)--(8.0,1.5);
+\draw[dashed,black!50] (0,-1.5)--(8.0,-1.5);
+\node[left] at (0,1.5) {$A$};
+\node[left] at (0,-1.5) {$-A$};
+\draw[very thick,bla,domain=0:8.0,samples=120] plot (\x,{1.5*cos(360*\x/4)});
+\draw[<->] (0,1.85)--node[above]{$T$}(4,1.85);
+\draw[black!50] (4,1.5)--(4,1.95);
+\draw[<->] (6.2,0)--node[right]{$A$}(6.2,1.5);
+\fill (0,1.5) circle (2pt);
+\fill (3,0) circle (2pt) node[below right]{likevekt};
+\end{tikzpicture}
