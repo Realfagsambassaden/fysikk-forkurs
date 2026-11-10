@@ -1,0 +1,279 @@
+---
+title: "Usikkerhet i sammensatte størrelser"
+tema: maling-og-usikkerhet
+undertema: usikkerhet
+---
+
+<!-- video: kommer (videoer/fysikk-forkurs/01-07-usikkerhet-i-sammensatte-storrelser) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
+<!-- tillegg: Claude -->
+Du vil finne farten til en løper. Du måler strekningen med målebånd og tiden med stoppeklokke, og begge målingene har en usikkerhet. Farten måler du ikke direkte: Du *regner den ut* som strekning delt på tid. Hvor sikker er da farten? Den kan ikke være sikrere enn målingene den bygger på. På denne siden lærer du noen enkle regler for hvordan usikkerheten i målingene følger med inn i svaret.
+
+Vi bruker samme skrivemåte som under *måleusikkerhet*: En måling skrives $x \pm \Delta x$, der $\Delta x$ er den absolutte usikkerheten og $\Delta x / x$ er den relative usikkerheten.
+
+## Største og minste verdi
+
+Den enkleste metoden virker alltid: Regn ut svaret med de verdiene som gir **størst** mulig svar, og med de verdiene som gir **minst** mulig svar. Usikkerheten er halvparten av forskjellen.
+
+::: {.eksempel}
+**Eksempel: Farten til en løper.** En løper bruker $t = (12.5 \pm 0.3)\ \mathrm{s}$ på $s = (100.0 \pm 0.2)\ \mathrm{m}$. Finn gjennomsnittsfarten med usikkerhet.
+
+::: {.losning}
+Farten blir
+$$
+v = \frac{s}{t} = \frac{100.0\ \mathrm{m}}{12.5\ \mathrm{s}} = 8.00\ \mathrm{m/s}
+$$
+Størst fart får vi med lengst strekning og kortest tid, og minst fart med kortest strekning og lengst tid:
+$$
+v_\text{maks} = \frac{100.2\ \mathrm{m}}{12.2\ \mathrm{s}} = 8.21\ \mathrm{m/s}
+\qquad
+v_\text{min} = \frac{99.8\ \mathrm{m}}{12.8\ \mathrm{s}} = 7.80\ \mathrm{m/s}
+$$
+Usikkerheten er halve forskjellen: $\Delta v = \tfrac{1}{2}(8.21 - 7.80)\ \mathrm{m/s} = 0.21\ \mathrm{m/s}$. Med ett gjeldende siffer i usikkerheten blir svaret
+$$
+v = \underline{\underline{(8.0 \pm 0.2)\ \mathrm{m/s}}}
+$$
+:::
+:::
+
+Metoden er grei når det er to målinger, men blir tungvint når det er mange. Da er det raskere å bruke reglene under.
+
+## Tre regler
+
+::: {.graa}
+| Regneart | Regel | Eksempel |
+|:---|:---|:---|
+| Pluss og minus | **Absolutte** usikkerheter legges sammen | $z = x + y$ eller $z = x - y$: $\quad \Delta z = \Delta x + \Delta y$ |
+| Gange og dele | **Relative** usikkerheter legges sammen | $z = x\cdot y$ eller $z = \dfrac{x}{y}$: $\quad \dfrac{\Delta z}{z} = \dfrac{\Delta x}{x} + \dfrac{\Delta y}{y}$ |
+| Potens | Relativ usikkerhet ganges med eksponenten | $z = x^n$: $\quad \dfrac{\Delta z}{z} = n\,\dfrac{\Delta x}{x}$ |
+:::
+
+Legg merke til at usikkerhetene **alltid legges sammen**, også når vi trekker fra eller deler. Usikkerhet kan aldri oppheve usikkerhet: Vi vet ikke hvilken vei hver måling bommer, så vi må regne med at det verste kan skje.
+
+Eksakte tall påvirker ikke den relative usikkerheten. Er omkretsen av en sirkel $O = 2\pi r$, har $O$ samme relative usikkerhet som $r$, fordi $2$ og $\pi$ er eksakte.
+
+::: {.eksempel}
+**Eksempel: Farten med regelen.** Vi regner farten fra eksemplet over på nytt, med regelen for deling.
+
+::: {.losning}
+De relative usikkerhetene er
+$$
+\frac{\Delta s}{s} = \frac{0.2\ \mathrm{m}}{100.0\ \mathrm{m}} = 0.2\ \% \qquad \frac{\Delta t}{t} = \frac{0.3\ \mathrm{s}}{12.5\ \mathrm{s}} = 2.4\ \%
+$$
+Farten får summen av dem:
+$$
+\frac{\Delta v}{v} = 0.2\ \% + 2.4\ \% = 2.6\ \% \qquad \Delta v = 0.026\cdot 8.00\ \mathrm{m/s} = 0.21\ \mathrm{m/s}
+$$
+Svaret blir $v = \underline{\underline{(8.0 \pm 0.2)\ \mathrm{m/s}}}$, det samme som før.
+
+Her ser vi også hva som er verdt å forbedre. Tiden bidrar med $2.4\ \%$ og strekningen bare med $0.2\ \%$. Vil vi ha en sikrere fart, hjelper det lite å måle strekningen bedre. Vi må måle tiden bedre, for eksempel med lysporter.
+:::
+:::
+
+::: {.callout-tip title="Den største usikkerheten bestemmer"}
+Ofte er én av målingene mye usikrere enn de andre. Da er det den som bestemmer usikkerheten i svaret. Finn den før du begynner å forbedre et forsøk.
+:::
+
+## Fella med små forskjeller
+
+Når vi trekker fra to tall som nesten er like store, blir svaret lite, men den absolutte usikkerheten blir *større*. Da kan den relative usikkerheten bli svært stor.
+
+::: {.eksempel}
+**Eksempel: Vann i et begerglass.** Et tomt begerglass veier $(148.9 \pm 0.1)\ \mathrm{g}$. Med litt vann i veier det $(152.4 \pm 0.1)\ \mathrm{g}$. Hvor mye vann er det i glasset?
+
+::: {.losning}
+Massen av vannet er forskjellen, og de absolutte usikkerhetene legges sammen:
+$$
+m = 152.4\ \mathrm{g} - 148.9\ \mathrm{g} = 3.5\ \mathrm{g} \qquad \Delta m = 0.1\ \mathrm{g} + 0.1\ \mathrm{g} = 0.2\ \mathrm{g}
+$$
+$$
+m = \underline{\underline{(3.5 \pm 0.2)\ \mathrm{g}}}
+$$
+Hver veiing har en relativ usikkerhet på under $0.1\ \%$, men vannmassen har $0.2 / 3.5 = 6\ \%$. Vil du måle en liten mengde vann nøyaktig, bør du heller bruke en vekt med flere desimaler, eller fylle mer vann i glasset.
+:::
+:::
+
+## Potenser
+
+Regelen for potenser følger av regelen for gange. Arealet av et kvadrat er $A = a\cdot a$, så den relative usikkerheten blir $\frac{\Delta a}{a} + \frac{\Delta a}{a} = 2\,\frac{\Delta a}{a}$. For et volum $V = a^3$ blir den tre ganger så stor.
+
+::: {.eksempel}
+**Eksempel: Terning.** En terning har sidekant $a = (2.0 \pm 0.1)\ \mathrm{cm}$. Finn volumet med usikkerhet.
+
+::: {.losning}
+Volumet er $V = a^3 = (2.0\ \mathrm{cm})^3 = 8.0\ \mathrm{cm^3}$. Den relative usikkerheten i sidekanten er $0.1/2.0 = 5\ \%$, så
+$$
+\frac{\Delta V}{V} = 3\cdot 5\ \% = 15\ \% \qquad \Delta V = 0.15\cdot 8.0\ \mathrm{cm^3} = 1.2\ \mathrm{cm^3}
+$$
+$$
+V = \underline{\underline{(8 \pm 1)\ \mathrm{cm^3}}}
+$$
+En usikkerhet på $5\ \%$ i sidekanten blir til $15\ \%$ i volumet. Størrelser som opphøyes, må måles ekstra nøyaktig.
+:::
+:::
+
+::: {.callout-note title="På ingeniørnivå"}
+Reglene her gir den største usikkerheten svaret kan ha, fordi vi antar at alle målingene bommer samme vei. I praksis vil feilene ofte delvis jevne hverandre ut. På ingeniørnivå legger vi derfor usikkerhetene sammen «kvadratisk», $\Delta z = \sqrt{(\Delta x)^2 + (\Delta y)^2}$, som gir litt mindre usikkerhet. På forkursnivå holder de enkle reglene.
+:::
+
+## Prøv selv
+
+Programmet regner ut farten med største og minste verdi og med regelen for deling. Endre målingene og usikkerhetene og trykk **Kjør**. Hvor mye bedre blir svaret om du halverer usikkerheten i tiden? Og om du halverer usikkerheten i strekningen?
+
+```{.python .kjor}
+s, ds = 100.0, 0.2    # strekning og usikkerhet i m
+t, dt = 12.5, 0.3     # tid og usikkerhet i s
+
+v = s / t
+
+# Største og minste verdi
+v_maks = (s + ds) / (t - dt)
+v_min = (s - ds) / (t + dt)
+print(f"Største og minste verdi: v = {v:.2f} ± {(v_maks - v_min) / 2:.2f} m/s")
+
+# Regelen: relative usikkerheter legges sammen
+rel = ds / s + dt / t
+print(f"Regelen:                 v = {v:.2f} ± {rel * v:.2f} m/s")
+print(f"Bidrag fra s: {100 * ds / s:.1f} %,  bidrag fra t: {100 * dt / t:.1f} %")
+```
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Omkrets og areal"}
+Et rektangulært rom er $l = (3.40 \pm 0.05)\ \mathrm{m}$ langt og $b = (2.10 \pm 0.05)\ \mathrm{m}$ bredt.
+
+a) Finn omkretsen med usikkerhet.
+
+b) Finn arealet med usikkerhet.
+
+::: {.losning}
+a) Omkretsen er $O = 2l + 2b = 2\cdot 3.40\ \mathrm{m} + 2\cdot 2.10\ \mathrm{m} = 11.00\ \mathrm{m}$. Her legges absolutte usikkerheter sammen, og $l$ og $b$ er med to ganger hver:
+$$
+\Delta O = 2\cdot 0.05\ \mathrm{m} + 2\cdot 0.05\ \mathrm{m} = 0.2\ \mathrm{m}
+\qquad
+O = \underline{\underline{(11.0 \pm 0.2)\ \mathrm{m}}}
+$$
+
+b) Arealet er $A = l\cdot b = 3.40\ \mathrm{m}\cdot 2.10\ \mathrm{m} = 7.14\ \mathrm{m^2}$. Ved ganging legges relative usikkerheter sammen:
+$$
+\frac{\Delta A}{A} = \frac{0.05}{3.40} + \frac{0.05}{2.10} = 0.0147 + 0.0238 = 0.0385
+\qquad
+\Delta A = 0.0385\cdot 7.14\ \mathrm{m^2} = 0.27\ \mathrm{m^2}
+$$
+$$
+A = \underline{\underline{(7.1 \pm 0.3)\ \mathrm{m^2}}}
+$$
+:::
+:::
+
+::: {.oppgave tittel="Hvilket metall?"}
+En metallbit har masse $m = (54.2 \pm 0.1)\ \mathrm{g}$. Du senker den ned i en målesylinder med vann og finner at volumet er $V = (20.0 \pm 0.5)\ \mathrm{cm^3}$.
+
+a) Finn massetettheten $\rho = m/V$ med usikkerhet.
+
+b) Aluminium har massetetthet $2.70\ \mathrm{g/cm^3}$ og sink $7.13\ \mathrm{g/cm^3}$. Hvilket metall kan biten være?
+
+c) Hvilken måling bør du forbedre for å få et sikrere svar?
+
+::: {.losning}
+a) Massetettheten er
+$$
+\rho = \frac{m}{V} = \frac{54.2\ \mathrm{g}}{20.0\ \mathrm{cm^3}} = 2.71\ \mathrm{g/cm^3}
+$$
+De relative usikkerhetene legges sammen:
+$$
+\frac{\Delta\rho}{\rho} = \frac{0.1}{54.2} + \frac{0.5}{20.0} = 0.0018 + 0.025 = 0.027
+\qquad
+\Delta\rho = 0.027\cdot 2.71\ \mathrm{g/cm^3} = 0.07\ \mathrm{g/cm^3}
+$$
+$$
+\rho = \underline{\underline{(2.71 \pm 0.07)\ \mathrm{g/cm^3}}}
+$$
+
+b) Intervallet går fra $2.64$ til $2.78\ \mathrm{g/cm^3}$. Aluminium ligger innenfor, sink langt utenfor. Biten er trolig **aluminium**.
+
+c) Volumet bidrar med $2.5\ \%$ og massen med under $0.2\ \%$. Det er **volummålingen** som bør forbedres, for eksempel med en smalere målesylinder.
+:::
+:::
+
+::: {.oppgave tittel="Tyngdeakselerasjonen fra et fall" niva="Middels"}
+En ball slippes fra høyden $h = (1.50 \pm 0.01)\ \mathrm{m}$ og bruker $t = (0.55 \pm 0.02)\ \mathrm{s}$ ned. Tyngdeakselerasjonen kan regnes ut med $\mathrm{g} = \dfrac{2h}{t^2}$.
+
+a) Regn ut $\mathrm{g}$ med usikkerhet.
+
+b) Stemmer målingen med $9.81\ \mathrm{m/s^2}$?
+
+::: {.losning}
+a) Verdien er
+$$
+\mathrm{g} = \frac{2\cdot 1.50\ \mathrm{m}}{(0.55\ \mathrm{s})^2} = 9.92\ \mathrm{m/s^2}
+$$
+Tallet 2 er eksakt. Tiden er opphøyd i andre, så dens relative usikkerhet teller dobbelt:
+$$
+\frac{\Delta \mathrm{g}}{\mathrm{g}} = \frac{0.01}{1.50} + 2\cdot\frac{0.02}{0.55} = 0.0067 + 0.0727 = 0.079
+\qquad
+\Delta \mathrm{g} = 0.079\cdot 9.92\ \mathrm{m/s^2} = 0.8\ \mathrm{m/s^2}
+$$
+$$
+\mathrm{g} = \underline{\underline{(9.9 \pm 0.8)\ \mathrm{m/s^2}}}
+$$
+
+b) Intervallet går fra $9.1$ til $10.7\ \mathrm{m/s^2}$, og $9.81\ \mathrm{m/s^2}$ ligger innenfor. Målingen **stemmer**, men usikkerheten er stor. Nesten alt kommer fra tiden.
+:::
+:::
+
+::: {.oppgave tittel="Volumet av en kule" niva="Middels"}
+Diameteren til en kule er målt med skyvelære til $d = (6.0 \pm 0.1)\ \mathrm{cm}$. Volumet er $V = \dfrac{\pi}{6}\,d^3$. Finn volumet med usikkerhet.
+
+::: {.losning}
+Volumet er
+$$
+V = \frac{\pi}{6}\cdot (6.0\ \mathrm{cm})^3 = 113.1\ \mathrm{cm^3}
+$$
+$\pi/6$ er eksakt. Diameteren er opphøyd i tredje, så
+$$
+\frac{\Delta V}{V} = 3\cdot\frac{0.1}{6.0} = 0.050
+\qquad
+\Delta V = 0.050\cdot 113.1\ \mathrm{cm^3} = 5.7\ \mathrm{cm^3}
+$$
+Usikkerheten rundes til ett gjeldende siffer, $6\ \mathrm{cm^3}$, og verdien til hele kubikkcentimeter:
+$$
+V = \underline{\underline{(113 \pm 6)\ \mathrm{cm^3}}}
+$$
+:::
+:::
+
+::: {.oppgave tittel="Varme fra en liten temperaturøkning" niva="Utfordrende"}
+Du varmer $m = (0.500 \pm 0.001)\ \mathrm{kg}$ vann med en dyppekoker. Termometeret har usikkerhet $0.5\ ^\circ\mathrm{C}$. Temperaturen stiger fra $20.5\ ^\circ\mathrm{C}$ til $23.0\ ^\circ\mathrm{C}$. Energien som går til vannet, er $Q = m\,c\,\Delta T$, der $c = 4.18\ \mathrm{kJ/(kg\cdot K)}$ (regn den som eksakt).
+
+a) Finn temperaturøkningen $\Delta T$ med usikkerhet.
+
+b) Finn $Q$ med usikkerhet.
+
+c) Hvordan kan forsøket gjøres bedre?
+
+::: {.losning}
+a) Temperaturøkningen er en forskjell, så de absolutte usikkerhetene legges sammen:
+$$
+\Delta T = 23.0\ ^\circ\mathrm{C} - 20.5\ ^\circ\mathrm{C} = 2.5\ \mathrm{K} \qquad \text{usikkerhet: } 0.5\ \mathrm{K} + 0.5\ \mathrm{K} = 1.0\ \mathrm{K}
+$$
+$$
+\Delta T = \underline{\underline{(2.5 \pm 1.0)\ \mathrm{K}}}
+$$
+Det er en relativ usikkerhet på $40\ \%$.
+
+b) Energien er
+$$
+Q = 0.500\ \mathrm{kg}\cdot 4.18\ \mathrm{\frac{kJ}{kg\cdot K}}\cdot 2.5\ \mathrm{K} = 5.2\ \mathrm{kJ}
+$$
+De relative usikkerhetene legges sammen: $\frac{0.001}{0.500} + 40\ \% = 0.2\ \% + 40\ \% = 40\ \%$. Det gir en usikkerhet på $0.40\cdot 5.2\ \mathrm{kJ} = 2.1\ \mathrm{kJ}$:
+$$
+Q = \underline{\underline{(5 \pm 2)\ \mathrm{kJ}}}
+$$
+
+c) Det er den lille temperaturforskjellen som ødelegger. La dyppekokeren stå lenger, slik at temperaturen stiger for eksempel $20\ \mathrm{K}$. Da blir usikkerheten i $\Delta T$ bare $1.0 / 20 = 5\ \%$. Et termometer med mindre usikkerhet hjelper også.
+:::
+:::
+
+::::
