@@ -3,6 +3,7 @@ title: "Grafer og regresjon"
 tema: modellering
 undertema: regresjon
 plassholder: true
+aliases: ["09-grafer-og-regresjon.html"]
 ---
 
 <!-- tillegg: Claude -->

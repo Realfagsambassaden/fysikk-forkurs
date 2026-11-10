@@ -2,7 +2,7 @@
 title: "Tall på standardform"
 tema: maling-og-usikkerhet
 undertema: standardform
-aliases: ["/forkurs/01-hva-er-fysikk/05-tall-pa-standardform.html"]
+aliases: ["/forkurs/01-hva-er-fysikk/05-tall-pa-standardform.html", "06-tall-pa-standardform.html"]
 ---
 
 :::: {.oppgaver}
@@ -41,6 +41,17 @@ c)  $0.100$
 d)  $299\,792\,458$
 
 Oppgi også antall signifikante siffer i hvert tall, slik du tolker det.
+
+<!-- tillegg: Claude: løsning lagt til -->
+::: {.losning}
+**a)** Kommaet flyttes fem plasser mot høyre: $0.000\,045 = \underline{\underline{4.5\cdot10^{-5}}}$. De ledende nullene teller ikke, så tallet har **2 signifikante siffer**.
+
+**b)** Kommaet flyttes seks plasser mot venstre: $3\,750\,000 = \underline{\underline{3.75\cdot10^{6}}}$. Uten mer informasjon tolker vi nullene på slutten som plassholdere, så tallet har **3 signifikante siffer**.
+
+**c)** $0.100 = \underline{\underline{1.00\cdot10^{-1}}}$. Nullene etter 1-tallet er skrevet med vilje, så tallet har **3 signifikante siffer**.
+
+**d)** $299\,792\,458 = \underline{\underline{2.99792458\cdot10^{8}}}$. Dette er lysfarten i m/s, som er eksakt per definisjon, så alle **9 sifrene** er signifikante.
+:::
 
 :::
 
@@ -98,7 +109,20 @@ a)  Et batteri har kapasitet $4\,200\,\mathrm{mA}\,\mathrm{h}$ (milliamperetimer
 
 b)  En avstand måles til $0.043\,\mathrm{mm}$. Skriv dette i $\mu\textrm{m}$ (mikrometer) og i nm (nanometer).
 
-c)  Lyset bruker ca. $499\,\mathrm{s}$ fra solen til jorda. Lyset har fart $c = 3.00 \cdot 10^8\,\mathrm{m}\,\mathrm{s}^{-1}$. Finn avstanden fra solen til jorda i km og skriv svaret på standardform.
+c)  Lyset bruker ca. $499\,\mathrm{s}$ fra solen til jorda. Lyset har fart $\mathrm{c} = 3.00 \cdot 10^8\,\mathrm{m}\,\mathrm{s}^{-1}$. Finn avstanden fra solen til jorda i km og skriv svaret på standardform.
+
+<!-- tillegg: Claude: løsning lagt til -->
+::: {.losning}
+**a)** Milli betyr $10^{-3}$, så $4\,200\ \mathrm{mAh} = 4\,200\cdot10^{-3}\ \mathrm{Ah} = \underline{\underline{4.2\ \mathrm{Ah}}}$. På standardform er det $4.2\cdot10^{0}\ \mathrm{Ah}$.
+
+**b)** $0.043\ \mathrm{mm} = 0.043\cdot10^{-3}\ \mathrm{m} = 43\cdot10^{-6}\ \mathrm{m} = \underline{\underline{43\ \mathrm{\mu m}}}$. Siden $1\ \mathrm{\mu m} = 1000\ \mathrm{nm}$, er dette $43\cdot10^{3}\ \mathrm{nm} = \underline{\underline{4.3\cdot10^{4}\ \mathrm{nm}}}$.
+
+**c)** Strekning er fart ganger tid:
+$$
+s = \mathrm{c}\,t = 3.00\cdot10^{8}\ \mathrm{m/s}\cdot 499\ \mathrm{s} = 1.497\cdot10^{11}\ \mathrm{m} = 1.497\cdot10^{8}\ \mathrm{km}
+$$
+Begge tallene har 3 signifikante siffer, så svaret blir $s = \underline{\underline{1.50\cdot10^{8}\ \mathrm{km}}}$.
+:::
 
 :::
 
