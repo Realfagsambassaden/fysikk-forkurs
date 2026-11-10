@@ -1,0 +1,28 @@
+# Fletter pull requests fra nattjobben automatisk (grener som heter natt/…), og sier fra til plattformen
+# så nettsiden bygges på nytt. Nattjobben lager bare PR-en; selve flettingen gjør GitHub.
+# Andre grener (donasjon/…, vedlikehold/…, utkast/…) blir stående til et menneske fletter dem.
+name: Flett nattjobben
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+    branches: [main]
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  flett:
+    if: >-
+      startsWith(github.head_ref, 'natt/') &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      !github.event.pull_request.draft
+    runs-on: ubuntu-latest
+    steps:
+      - name: Flett PR-en (squash)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr merge ${{ github.event.pull_request.number }} --squash --repo ${{ github.repository }}
+      - name: Si fra til Realfagsambassaden/plattform
+        if: ${{ github.repository != 'Realfagsambassaden/videoer' }}
+        env:
+          GH_TOKEN: ${{ secrets.PLATTFORM_TOKEN }}
+        run: gh api repos/Realfagsambassaden/plattform/dispatches -f event_type=kilde-oppdatert
