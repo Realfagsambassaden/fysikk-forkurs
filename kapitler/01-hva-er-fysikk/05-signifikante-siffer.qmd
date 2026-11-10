@@ -64,6 +64,17 @@ Vi minner om følgende regler for avrunding:
 -   Avrunding til riktig antall signifikante siffer må skje helt tilslutt i en beregning! Derfor brukte vi 0.8333... i stedet for 0.83 da vi gjorde om fra km/min til km/h i eksemplet over. *Bruk minst to ekstra siffer i utregningen!*
 :::
 
+<!-- tillegg: Claude -->
+## Signifikante siffer og usikkerhet
+
+Hvorfor skal svaret ha like mange siffer som den minst nøyaktige størrelsen? Svaret ligger i **usikkerheten**. Når vi skriver et måletall, er det siste sifferet det usikre. Skriver vi at Eline kjører $6.0$ minutter, sier vi at tiden er nærmere $6.0$ enn $5.9$ og $6.1$ minutter. Usikkerheten er altså omtrent en tidel av et minutt, og det er omtrent $2\ \%$ av tiden. Strekningen $5.00\ \mathrm{km}$ er mye sikrere, med usikkerhet omtrent $0.2\ \%$.
+
+Når vi deler strekningen på tiden, blir svaret aldri sikrere enn den usikreste størrelsen. Svaret har derfor også en usikkerhet på omtrent $2\ \%$. Av $0.83\ \mathrm{km/min}$ er $2\ \%$ omtrent $0.02\ \mathrm{km/min}$, så bare to siffer i svaret er til å stole på. Det er nettopp det regelen om signifikante siffer gir.
+
+::: {.callout-tip title="Tommelfingerregel og nøyaktig regning"}
+Signifikante siffer er en tommelfingerregel som holder styr på usikkerheten uten at vi regner den ut. Når vi vet hvor stor usikkerheten i hver måling er, kan vi regne den ut nøyaktig. Det ser vi på under [måleusikkerhet](06-maleusikkerhet.qmd).
+:::
+
 ::: {.oppgave tittel="Signifikante siffer"}
 [Signifikante siffer]{.oppg-tittel}
 

@@ -2,7 +2,7 @@
 title: "Ekstraoppgaver"
 tema: storrelser-og-enheter
 undertema: oppgaver
-aliases: ["/forkurs/01-hva-er-fysikk/07-ekstraoppgaver.html", "08-ekstraoppgaver.html"]
+aliases: ["/forkurs/01-hva-er-fysikk/07-ekstraoppgaver.html", "08-ekstraoppgaver.html", "11-ekstraoppgaver.html"]
 ---
 
 :::: {.oppgaver}

@@ -3,6 +3,7 @@ title: "Forsøk og rapport"
 tema: maling-og-usikkerhet
 undertema: forsok-og-rapport
 plassholder: true
+aliases: ["10-forsok-og-rapport.html"]
 ---
 
 <!-- tillegg: Claude -->

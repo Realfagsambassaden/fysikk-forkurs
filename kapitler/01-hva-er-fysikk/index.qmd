@@ -19,7 +19,7 @@ Kan alt i verden beskrives i matematikk? Hva med *kjærlighet* eller *bevissthet
 
 :::
 
-**I dette kapitlet** introduserer vi begrepet *fysiske størrelser*, ser på SI-enheter og enkle regler for enhetsregning, går gjennom signifikante siffer og standardform, og lærer å gjøre raske overslag.
+**I dette kapitlet** introduserer vi begrepet *fysiske størrelser*, ser på SI-enheter og enkle regler for enhetsregning, går gjennom signifikante siffer, måleusikkerhet og standardform, og lærer å gjøre raske overslag.
 
 :::
 
