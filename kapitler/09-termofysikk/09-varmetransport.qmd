@@ -2,6 +2,7 @@
 title: "Varmetransport"
 tema: temperatur-og-varme
 undertema: varmetransport
+aliases: ["08-varmetransport.html"]
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/09-08-varmetransport) -->

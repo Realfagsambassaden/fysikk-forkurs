@@ -2,7 +2,7 @@
 title: "Tilstandslikningen for idealgass"
 tema: gasser
 undertema: idealgass
-aliases: ["/forkurs/08-termofysikk/05-tilstandslikningen-for-idealgass.html"]
+aliases: ["05-tilstandslikningen-for-idealgass.html", "/forkurs/08-termofysikk/05-tilstandslikningen-for-idealgass.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}
@@ -31,7 +31,11 @@ $$pV = N k_\text{B} T$$ Alle fire størrelser $p$, $V$, $N$, $T$ er koblet: hold
 
 ::: {.callout-important title="Merk: Molform: $pV = nRT$"}
 
-Er antall *mol* $n$ gitt i stedet for antall molekyler $N$, bruker man gasskonstanten $R = 8.314\,\mathrm{J}\,\mathrm{(}^{-1}\,\mathrm{mol}\,\mathrm{K}\,\mathrm{)}$: $pV = nRT$. Sammenhengen er $N k_\text{B} = n R$.
+Er antall *mol* $n$ gitt i stedet for antall molekyler $N$, bruker man gasskonstanten $R = 8.314\ \mathrm{J/(mol\cdot K)}$: $pV = nRT$. Sammenhengen er $N k_\text{B} = n R$.
+<!-- tillegg: Claude: rettet enheten til R, som var skrevet om feil til «J (^-1 mol K)» -->
+
+<!-- tillegg: Claude -->
+Hva et mol er, og hvordan du regner mellom masse, stoffmengde og antall molekyler, står under [Stoffmengde](05-stoffmengde.qmd). Siden $N = n\,\mathrm{N_A}$, er $\mathrm{R} = \mathrm{k_B}\,\mathrm{N_A}$.
 
 :::
 

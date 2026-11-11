@@ -2,7 +2,7 @@
 title: "Prosesstyper og pV-diagram"
 tema: termodynamikk
 undertema: prosesser
-aliases: ["/forkurs/08-termofysikk/06-prosesstyper-og-pv-diagram.html"]
+aliases: ["06-prosesstyper-og-pv-diagram.html", "/forkurs/08-termofysikk/06-prosesstyper-og-pv-diagram.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}
