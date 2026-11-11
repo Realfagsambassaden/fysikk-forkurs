@@ -1,0 +1,16 @@
+\begin{tikzpicture}[boks/.style={draw,very thick,rounded corners=6pt,minimum width=3.2cm,minimum height=1.9cm,align=center}]
+\node[boks] (m) at (0,0) {\Large masse\\[2pt] \Large $m$\\[2pt] \small i kg eller g};
+\node[boks] (n) at (6,0) {\Large stoffmengde\\[2pt] \Large $n$\\[2pt] \small i mol};
+\node[boks] (N) at (12,0) {\Large antall\\[2pt] \Large $N$\\[2pt] \small partikler};
+% øvre piler: mot høyre
+\draw[vek,bla] ([yshift=4mm]m.east) -- node[above=1pt,text=black]{\Large ${:}\,M$} ([yshift=4mm]n.west);
+\draw[vek,bla] ([yshift=4mm]n.east) -- node[above=1pt,text=black]{\Large $\cdot\,\mathrm{N_A}$} ([yshift=4mm]N.west);
+% nedre piler: mot venstre
+\draw[vek,rod] ([yshift=-4mm]n.west) -- node[below=2pt,text=black]{\Large $\cdot\,M$} ([yshift=-4mm]m.east);
+\draw[vek,rod] ([yshift=-4mm]N.west) -- node[below=2pt,text=black]{\Large ${:}\,\mathrm{N_A}$} ([yshift=-4mm]n.east);
+% formler under
+\node at (3,-1.75) {$n = \dfrac{m}{M}$};
+\node at (9,-1.75) {$N = n\,\mathrm{N_A}$};
+\node[font=\small,align=center] at (3,1.75) {$M$ = molar masse\\(g/mol)};
+\node[font=\small,align=center] at (9,1.75) {$\mathrm{N_A} = 6.022\cdot10^{23}\ \mathrm{mol^{-1}}$};
+\end{tikzpicture}

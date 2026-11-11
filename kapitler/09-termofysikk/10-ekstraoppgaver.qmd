@@ -2,7 +2,7 @@
 title: "Ekstraoppgaver"
 tema: temperatur-og-varme
 undertema: oppgaver
-aliases: ["/forkurs/08-termofysikk/07-ekstraoppgaver.html"]
+aliases: ["09-ekstraoppgaver.html", "/forkurs/08-termofysikk/07-ekstraoppgaver.html"]
 ---
 
 ::: {.callout-warning title="Under arbeid"}

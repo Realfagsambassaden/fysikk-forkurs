@@ -2,6 +2,7 @@
 title: "Termodynamikkens 2. lov"
 tema: termodynamikk
 undertema: andre-lov
+aliases: ["07-termodynamikkens-2-lov.html"]
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/09-07-termodynamikkens-2-lov) -->

@@ -5,7 +5,7 @@ tegning: rakett
 aliases: ["/forkurs/08-termofysikk/index.html"]
 ---
 
-<!-- plan: 01 indre-energi (temperatur-og-varme), 02–03 kalorimetri, 04 forste-lov (termodynamikk), 05 idealgass (gasser), 06 prosesser, 07 andre-lov, 08 varmetransport, 09 oppgaver -->
+<!-- plan: 01 indre-energi (temperatur-og-varme), 02–03 kalorimetri, 04 forste-lov (termodynamikk), 05 stoffmengde (gasser), 06 idealgass (gasser), 07 prosesser, 08 andre-lov, 09 varmetransport, 10 oppgaver -->
 
 ::: {.callout-warning title="Under arbeid"}
 Dette kapittelet skrives fortsatt. Innholdet kan endre seg.
