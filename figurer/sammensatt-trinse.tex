@@ -1,0 +1,31 @@
+\begin{tikzpicture}[scale=1.0, font=\small]
+% bord
+\fill[pattern=north east lines] (-0.4,1.75) rectangle (5.0,2.0);
+\draw[thick] (-0.4,2.0)--(5.0,2.0)--(5.0,1.75);
+% trinse
+\draw[thick] (5.0,1.9)--(5.3,2.1);
+\draw[thick, fill=black!12] (5.3,2.1) circle (0.3);
+\fill (5.3,2.1) circle (0.04);
+% kloss A
+\draw[thick, fill=black!12] (1.4,2.0) rectangle (2.6,2.8);
+\node at (2.0,2.4) {$A$};
+% snor
+\draw[thick] (2.6,2.4)--(5.3,2.4);
+\draw[thick] (5.6,2.1)--(5.6,1.2);
+% kloss B
+\draw[thick, fill=black!12] (5.25,0.5) rectangle (5.95,1.2);
+\node at (5.6,0.85) {$B$};
+% golv og høyde h
+\fill[pattern=north east lines] (4.4,-0.85) rectangle (7.4,-0.6);
+\draw[thick] (4.4,-0.6)--(7.4,-0.6);
+\draw[<->] (6.4,0.5)--node[right]{$h$}(6.4,-0.6);
+\draw[thin] (6.0,0.5)--(6.55,0.5);
+% krefter på A
+\draw[vek, bla] (2.0,2.8)--++(0,0.9) node[above]{$\vec N$};
+\draw[vek] (2.0,2.0)--++(0,-1.0) node[below]{$\vec G_A$};
+\draw[vek, rod] (1.4,2.4)--++(-0.9,0) node[left]{$\vec R$};
+\draw[vek, gronn] (2.6,2.55)--++(1.1,0) node[above]{$\vec S$};
+% krefter på B
+\draw[vek, gronn] (5.95,1.2)--++(0,0.8) node[right]{$\vec S$};
+\draw[vek] (5.25,0.5)--++(0,-0.7) node[left]{$\vec G_B$};
+\end{tikzpicture}
