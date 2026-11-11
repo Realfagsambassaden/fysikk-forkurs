@@ -1,0 +1,24 @@
+\begin{tikzpicture}[scale=1.0]
+% stativ
+\draw[very thick] (-2.2,0)--(0.8,0);
+\draw[very thick] (-1.8,0)--(-1.8,4.6)--(0.6,4.6);
+\fill[pattern=north east lines] (-2.2,-0.2) rectangle (0.8,0);
+\fill (0,4.6) circle (0.05);
+% loddrett og snor
+\def\L{3.6}\def\v{10}
+\draw[dashed] (0,4.6)--(0,0.6);
+\draw[thick] (0,4.6)--({\L*sin(\v)},{4.6-\L*cos(\v)});
+\fill[black!15,draw=black,thick] ({\L*sin(\v)},{4.6-\L*cos(\v)}) circle (0.25);
+\fill ({\L*sin(\v)},{4.6-\L*cos(\v)}) circle (0.03);
+\draw[->] (0,3.2) arc (-90:{-90+\v}:1.4);
+\node[font=\small] at (0.13,2.95) {$\theta$};
+% L-mål
+\draw[<->,thick] (-0.7,4.6)--node[left]{$L$}(-0.7,{4.6-\L*cos(\v)});
+\draw[densely dotted] (-0.85,{4.6-\L*cos(\v)})--({\L*sin(\v)-0.25},{4.6-\L*cos(\v)});
+% merknader
+\node[right,align=left,font=\small] at (1.4,3.6) {opphengspunkt};
+\draw[->] (1.4,3.6) -- (0.1,4.55);
+\node[right,align=left,font=\small] at (1.4,1.9) {$L$ måles til\\midten av kula};
+\draw[->] (1.35,1.5) -- (0.95,1.15);
+\node[right,align=left,font=\small] at (1.4,0.5) {lite utslag: $\theta < 10^\circ$\\tid for 10 svingninger};
+\end{tikzpicture}
