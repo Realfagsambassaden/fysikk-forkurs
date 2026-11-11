@@ -1,0 +1,26 @@
+\begin{tikzpicture}[x=3cm,y=5cm]
+% rutenett
+\draw[black!15,very thin] (0,0) grid[xstep=0.5,ystep=0.2] (3.2,1.4);
+% akser
+\draw[akse] (0,0)--(3.35,0) node[below]{$t$ (s)};
+\draw[akse] (0,0)--(0,1.5) node[left]{$s$ (m)};
+\foreach \x in {0.5,1.0,1.5,2.0,2.5,3.0}{\draw (\x,0.012)--(\x,-0.012) node[below]{$\x$};}
+\node[below left] at (0,0) {$0$};
+\foreach \y in {0.2,0.4,0.6,0.8,1.0,1.2}{\draw (0.012*3/5,\y)--(-0.012*3/5,\y) node[left]{$\y$};}
+% utjevnet linje s = 0.2125 + 0.3421 t
+\draw[thick,bla] (0,0.2125)--(3.2,1.3074);
+% stigningstrekant
+\draw[thick,rod] (0.5,0.3836)--(2.5,0.3836)--(2.5,1.0679);
+\node[rod,below] at (1.5,0.3836) {$\Delta t = 2.0$ s};
+\node[rod,right] at (2.5,0.70) {$\Delta s = 0.68$ m};
+% feilstolper og punkter
+\foreach \t/\s in {0/0.23,0.5/0.38,1.0/0.55,1.5/0.70,2.0/0.90,2.5/1.07,3.0/1.25}{
+  \draw[thick] (\t-0.03,\s-0.05)--(\t+0.03,\s-0.05);
+  \draw[thick] (\t-0.03,\s+0.05)--(\t+0.03,\s+0.05);
+  \draw[thick] (\t,\s-0.05)--(\t,\s+0.05);
+  \fill (\t,\s) circle (1.8pt);}
+% konstantledd
+\draw[lilla,thick,->] (0.45,0.12)--(0.04,0.205);
+\node[lilla,right,align=left,font=\small] at (0.45,0.12) {konstantledd: $b = 0.21$ m};
+\node[bla,font=\small,rotate=29] at (1.0,0.68) {$s = 0.34\,t + 0.21$};
+\end{tikzpicture}
