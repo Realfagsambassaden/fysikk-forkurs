@@ -29,6 +29,8 @@ Energibevaringsloven gjelder *all* energi, ikke bare mekanisk energi. Når vi se
 
 ## Kinetisk energi
 
+{{< video https://www.youtube.com/watch?v=m-UQgJPcYc0 >}}
+
 Tenk deg at en bil kjører nedover en vei. Bilen har kinetisk energi på grunn av sin bevegelse. Kinetisk energi er den energien et objekt har fordi det er i bevegelse. Jo raskere objektet beveger seg, desto mer kinetisk energi har det. For en bil vil både massen $m$ og farten $v$ påvirke hvor mye kinetisk energi den har.
 
 ::: {.callout-note title="Definisjon: Kinetisk Energi"}
@@ -144,6 +146,8 @@ c)  Hvor langt ville kassen skli dersom startfarten var dobbelt så stor?
 :::
 
 ## Potensiell energi
+
+{{< video https://www.youtube.com/watch?v=ZJvMVO8RaZQ >}}
 
 Tenk deg at du løfter en stein opp på en hylle. Du bruker energi — du gjør et arbeid mot tyngdekraften. Men energien er ikke borte. Den er lagret i steinen som *potensiell energi*: slipp steinen, og den faller ned og oppnår kinetisk energi igjen!
 

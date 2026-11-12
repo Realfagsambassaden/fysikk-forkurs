@@ -7,6 +7,8 @@ aliases: ["/forkurs/04-krefter/03-krefter-i-dagliglivet.html"]
 
 :::: {.oppgaver}
 
+{{< video https://www.youtube.com/watch?v=kfCsQh_cSlA >}}
+
 I dette avsnittet viser vi noen eksempler på krefter som du møter i hverdagen.
 
 ::: {.callout-tip title="Til ettertanke"}

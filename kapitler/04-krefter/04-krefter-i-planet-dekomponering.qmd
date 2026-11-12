@@ -7,6 +7,8 @@ aliases: ["/forkurs/04-krefter/04-krefter-i-planet-dekomponering.html"]
 
 :::: {.oppgaver}
 
+{{< video https://www.youtube.com/watch?v=rIv98LcFbPE >}}
+
 I dette avsnittet skal vi studere anvendelser av det vi har lært så langt. Vi skal se på noen eksempler som demonstrerer hvordan vi bør tenke og jobbe når mange krefter opptrer samtidig, og når vi må dekomponere i forhold til et koordinatsystem. La oss derfor starte med å repetere viktigheten av koordinatsystem.
 
 ::: {.callout-note title="Dekomponering av Newtons lover"}
