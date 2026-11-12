@@ -13,6 +13,8 @@ Denne siden skrives fortsatt.
 
 :::: {.oppgaver}
 
+{{< video https://www.youtube.com/watch?v=ZxyEAg1aP54 >}}
+
 Elektrisk ladning er det som gir opphav til elektriske krefter. To ladede legemer tiltrekker eller frastøter hverandre — akkurat som gravitasjon tiltrekker to masser, men med en viktig forskjell: elektrisk kraft kan *både* tiltrekke og frastøte.
 
 ::: {.callout-note title="Definisjon: Coulombs lov"}

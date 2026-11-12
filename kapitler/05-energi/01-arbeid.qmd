@@ -7,6 +7,8 @@ aliases: ["/forkurs/05-energi/01-arbeid.html"]
 
 :::: {.oppgaver}
 
+{{< video https://www.youtube.com/watch?v=RDi3DD0Cehk >}}
+
 Vi har sett at kraft anvendt over tid forårsaket en endring i bevegelsesmengde: $$\Delta\vec{p}=\vec{F}\Delta t.$$ Arealet under en $F(t)$-graf tilsvarer altså (endring i) bevegelsesmengde. Men... da er det saktens fristende å prøve noe annet også: Hva blir arealet under en $F(s)$-graf? $$??=\vec{F}\cdot \Delta\vec{s}.$$ La oss si at Eva er på Hyrox-trening og dytter en kasse bortover et humpete gulv, slik at kraften hun virker på kassen med varierer med posisjonen; $F(s)$. Hvordan skal vi da tolke arealet under $F(s)$-grafen? Jo, dette arealet er et mål på det vi i fysikken kaller *arbeid*;
 
 I hverdagslivet bruker vi ordet *arbeid* om noe vi gjør over tid. Men i fysikk tilsvarer det impuls, eller endring i bevegelsesmengde. Begrepet arbeid er i fysikken reservert for kraft anvendt over strekning.
