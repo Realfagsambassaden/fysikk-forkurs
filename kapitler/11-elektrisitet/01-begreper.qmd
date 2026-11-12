@@ -1,124 +1,305 @@
 ---
-title: "Begreper"
+title: "Strøm, spenning og kretser"
 tema: kretser
 undertema: strom-spenning
 aliases: ["/forkurs/09-elektrisitet/01-begreper.html"]
 ---
 
-::: {.callout-warning title="Under arbeid"}
+<!-- video: kommer (videoer/fysikk-forkurs/11-01-begreper) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
 
-Denne siden skrives fortsatt.
+<!-- tillegg: Claude: tittelen var «Begreper». Lærerens tekst er beholdt og ordnet under overskrifter. -->
 
+<!-- tillegg: Claude -->
+Når du trykker på bryteren, lyser lampa i taket med en gang. Likevel kryper elektronene i ledningen bare noen hundredels millimeter i sekundet. Hvordan kan det ha seg? Svaret ligger i hva elektrisk strøm egentlig er. På denne siden ser vi på de grunnleggende begrepene i elektrisitetslæren: ladning, strøm, spenning og kretser. De går igjen i alt som kommer senere, fra Ohms lov til effekten i en vannkoker.
+
+Her kommer noen begreper som er nyttige å forstå i elektrisitetslæren.
+
+## Ladning
+
+**Elektrisitet**\
+Elektrisitet er fenomener som skyldes små partikler med positive eller negative ladninger.
+<!-- tillegg: Claude: «Elektrisitet er små partikler» er endret til «fenomener som skyldes små partikler» -->
+
+<!-- tillegg: Claude -->
+All materie består av atomer med positivt ladde protoner i kjernen og negativt ladde elektroner rundt. Ladning måles i **coulomb**, $\mathrm{C}$. Ett elektron har ladningen $-\mathrm{e}$, og ett proton har ladningen $+\mathrm{e}$, der elementærladningen er
+$$
+\mathrm{e} = 1.602\cdot10^{-19}\ \mathrm{C}
+$$
+Ett coulomb er altså ladningen til omtrent $6.24\cdot10^{18}$ elektroner. Mer om ladning og kreftene mellom ladninger står under [Elektrisk kraft og ladning](02-elektrisk-kraft-og-ladning.qmd).
+
+## Krets
+
+En krets er en vei som strømmen går igjennom. Strømmen går alltid gjennom den delen av kretsen som er lukket. Gjennom en åpen krets går det ingen strøm. Elektronene i en krets beveger seg motsatt retning som strømmen. Elektronene vil bevege seg fra en negativ ladd pol mot en positiv ladd pol.
+
+<!-- tillegg: Claude -->
+![](../../bilder/figurer/krets-apen-lukket.svg){.tikz-fig style="width:560px" fig-alt="To like kretser med et batteri U, en bryter og en lampe. Til venstre er bryteren åpen, og det går ingen strøm. Til høyre er bryteren lukket, og piler merket I viser strømmen ut fra batteriets pluss-pol, gjennom bryteren og lampa og tilbake."}
+
+<!-- tillegg: Claude -->
+En bryter er bare en enkel måte å åpne og lukke kretsen på. Er det et brudd et eneste sted, stopper strømmen i hele kretsen. Det er derfor én løs ledning kan gjøre at ingenting virker.
+
+## Elektrisk strøm
+
+Elektrisk strøm er partikler i bevegelse. Strøm har symbolet *I* og enhet ampere, $\mathrm{A}$. Strømmen beveger seg fra den positive polen mot den negative polen.
+
+<!-- tillegg: Claude -->
+Mer presist er strømmen et mål på hvor mye ladning som passerer et punkt i kretsen per tid:
+
+::: {.callout-note title="Definisjon: Elektrisk strøm"}
+Passerer ladningen $\Delta Q$ et tverrsnitt av en leder i løpet av tiden $\Delta t$, er strømmen
+$$
+I = \frac{\Delta Q}{\Delta t}
+$$
+Enheten er ampere: $1\ \mathrm{A} = 1\ \mathrm{C/s}$.
+:::
+
+Retningen på strømmen ble bestemt lenge før noen visste om elektroner: Strømmen går fra pluss til minus. I en metalltråd er det elektronene som beveger seg, og de går motsatt vei, fra minus til pluss. Regnestykkene blir de samme, så lenge vi er enige om retningen.
+
+Strømmen i en krets kan illustreres slik:
+
+::: center
+![](../../bilder/tres/strom-illustrering.png){.kompendium-bilde fig-alt="En sirkel med en pil inni som peker oppover."}
+
+[Strømretningen tegnes som en pil.]{.figurtekst}
+:::
+<!-- tillegg: Claude: figurteksten manglet («Caption») -->
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Mobillading.** En lader gir strømmen $2.0\ \mathrm{A}$ i $1.5\ \mathrm{h}$. a) Hvor mye ladning har gått gjennom ledningen? b) Hvor mange elektroner er det?
+
+::: {.losning}
+a) Vi gjør om tiden til sekunder: $\Delta t = 1.5\cdot3600\ \mathrm{s} = 5400\ \mathrm{s}$.
+$$
+\Delta Q = I\,\Delta t = 2.0\ \mathrm{A}\cdot5400\ \mathrm{s} = 1.08\cdot10^{4}\ \mathrm{C} \approx \underline{\underline{11\ \mathrm{kC}}}
+$$
+
+b) Hvert elektron har ladningen $\mathrm{e}$:
+$$
+N = \frac{\Delta Q}{\mathrm{e}} = \frac{1.08\cdot10^{4}\ \mathrm{C}}{1.602\cdot10^{-19}\ \mathrm{C}} = \underline{\underline{6.7\cdot10^{22}}}
+$$
+Det er omtrent en tidel mol elektroner.
+:::
+:::
+
+::: {.callout-tip title="Til ettertanke: Hvorfor lyser lampa med en gang?"}
+<!-- tillegg: Claude -->
+Ledningen er full av frie elektroner fra før. Når kretsen lukkes, begynner alle å bevege seg nesten samtidig, slik vann kommer ut av en full hageslange med en gang du åpner kranen. Selve elektronene beveger seg svært sakte. Det er signalet, ikke elektronene, som går fort. Se oppgaven «Sneglefart» nederst.
+:::
+
+## Spenning
+
+Tenk på spenning som et «elektrisk høydekart»: akkurat som en ball ruller ned fra høyt til lavt i tyngdefeltet, beveger ladninger seg fra høyt spenningspotensial til lavt.
+
+::: {.callout-note title="Definisjon: Spenning"}
+Spenningen $U$ mellom to punkter er arbeidet som kreves for å flytte ladningen $q$ fra det ene punktet til det andre: $$U = \frac{W}{q}$$ Enhet: volt, $1\ \mathrm{V} = 1\ \mathrm{J/C}$. En spenning på $9\ \mathrm{V}$ betyr at det kreves $9\ \mathrm{J}$ per coulomb ladning som flyttes.
+:::
+
+<!-- tillegg: Claude -->
+Snur vi det rundt, er spenningen energien som hver coulomb leverer når den går gjennom en lampe eller en motor: $W = qU$. Et batteri er en «pumpe» som løfter ladningen opp igjen til høy spenning, slik at den kan gå rundt kretsen på nytt. Strømmen er hvor mye ladning som går rundt per sekund. Spenningen er hvor mye energi hver coulomb bærer med seg.
+
+Spenningskilden i en krets tegnes typisk på en av disse to måtene:
+<!-- tillegg: Claude: «vist i Figuren og Figuren» er skrevet om -->
+
+::: center
+![](../../bilder/tres/spenningskilde-1.png){.kompendium-bilde fig-alt="Symbol for spenningskilde: en sirkel med pluss øverst og minus nederst."}
+![](../../bilder/tres/spenningskilde-2.png){.kompendium-bilde fig-alt="Symbol for batteri: en lang og en kort vannrett strek."}
+
+[To symboler for en spenningskilde. I batterisymbolet er den lange streken pluss-polen.]{.figurtekst}
+:::
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Energi fra et batteri.** a) Hvor mye energi leverer et $9.0\ \mathrm{V}$-batteri når $2.0\ \mathrm{C}$ ladning går gjennom kretsen? b) Hvor mye energi får ett elektron fra et $1.5\ \mathrm{V}$-batteri?
+
+::: {.losning}
+a)
+$$
+W = qU = 2.0\ \mathrm{C}\cdot9.0\ \mathrm{V} = \underline{\underline{18\ \mathrm{J}}}
+$$
+
+b) Elektronet har ladningen $\mathrm{e}$ (vi ser bort fra fortegnet og regner bare på størrelsen):
+$$
+W = \mathrm{e}\,U = 1.602\cdot10^{-19}\ \mathrm{C}\cdot1.5\ \mathrm{V} = \underline{\underline{2.4\cdot10^{-19}\ \mathrm{J}}}
+$$
+Det er svært lite per elektron, men en vanlig strøm består av enormt mange elektroner hvert sekund.
+:::
+:::
+
+## Å måle strøm og spenning
+
+<!-- tillegg: Claude -->
+Strøm er noe som går *gjennom* en komponent, og spenning er en forskjell *mellom* to punkter. Derfor kobles måleinstrumentene forskjellig:
+
+::: {.kort}
+- **Amperemeter** måler strøm. Kretsen brytes opp, og amperemeteret settes inn *i serie*, slik at all strømmen må gå gjennom det.
+- **Voltmeter** måler spenning. Det kobles *i parallell* over komponenten, med en ledning på hver side, uten å bryte kretsen.
+:::
+
+![](../../bilder/figurer/krets-maling.svg){.tikz-fig style="width:420px" fig-alt="En krets med batteriet U0, et amperemeter A og en motstand R i serie. Et voltmeter V er koblet i parallell over motstanden. En pil merket I viser strømmen gjennom amperemeteret."}
+
+Et godt amperemeter har nesten ingen motstand, så det ikke bremser strømmen det skal måle. Et godt voltmeter har svært stor motstand, så nesten ingen strøm går gjennom det. Kobler du et amperemeter i parallell over et batteri, får du derfor en kortslutning og kan ødelegge instrumentet.
+
+## Seriekobling og parallellkobling
+
+**Seriekobling**\
+En seriekobling er en krets som er koblet slik at strømmen bare kan gå «én vei». I figuren er R1, R2 og R3 resistanser og V1 er en spenningskilde. Strømmen vil gå inn og gjennom R1, R2 og R3. Siden strømmen bare «har én vei» å gå, vil det i teorien være like mye strøm over hele området i seriekoblingen. Strømmen har ingen plass å dele seg.
+
+::: center
+![](../../bilder/tres/seriekobling.png){.kompendium-bilde fig-alt="En spenningskilde V1 og tre motstander R1, R2 og R3 koblet etter hverandre i én sløyfe."}
+
+[Seriekobling]{.figurtekst}
+:::
+
+**Parallellkobling**\
+Parallellkobling er en måte å koble en krets slik at komponentene ligger «over» hverandre. I figuren vises en parallellkobling, der R1 og R2 er resistanser og U er en spenningskilde. I denne kretsen vil strømmen gå fra spenningskilden og «dele» seg utover resistansene.
+
+::: center
+![](../../bilder/tres/parallellkobling.png){.kompendium-bilde fig-alt="En spenningskilde U med to motstander R1 og R2 koblet i hver sin gren mellom de samme to ledningene."}
+
+[Parallellkobling]{.figurtekst}
+:::
+<!-- tillegg: Claude: språklig rettet («den vil gå», «Figuren») -->
+
+<!-- tillegg: Claude -->
+I en parallellkobling har alle grenene samme spenning, fordi de er koblet til de samme to punktene. Strømmen som kommer inn i et forgreningspunkt, er lik summen av strømmene som går ut, for ladning kan ikke hope seg opp eller forsvinne. Hvordan strømmen fordeler seg, og hvordan vi regner på slike kretser, står under [Kirchhoffs lover](03-kirchoff-s-lover.qmd) og [Motstand](04-motstand.qmd).
+
+## Ledere, isolatorer og halvledere
+
+Stoffer deles inn i tre grupper etter evnen til å lede elektrisk strøm:
+<!-- tillegg: Claude: lista er gjort om til kort -->
+
+::: {.kort}
+- **Ledere** har mange løst bundne elektroner i det ytterste skallet. Disse kan bevege seg fritt og transportere ladning — metaller som kobber og aluminium er gode ledere.
+- **Isolatorer** holder fast på alle elektroner; ingen kan bevege seg fritt. Eksempler: gummi, plast, glass. Brukes til å hindre strøm fra å renne «feil vei».
+- **Halvledere** er midt imellom — ledningsevnen kan styres ved temperatur eller spenning. Grunnlaget for transistorer, dioder og all moderne elektronikk (silisium, Si).
+:::
+
+::: {.callout-tip title="Tips: Forståelse av elektroner, strøm og spenning"}
+Å forstå hva en elektrisk krets er og hvordan den fungerer kan være utfordrende. En god måte å tenke på en elektrisk krets er å forestille seg en krets bestående av elektroner som kuler plassert side om side. Disse elektronene kan bevege seg fra ett punkt til et annet innen kretsen.\
+Når en spenningskilde, som et batteri, påvirker elektronene nærmest seg, skaper dette en dominoeffekt der elektronene setter hverandre i bevegelse. En motstand kan ses på som en trangere del av kretsen, som gjør det vanskeligere for strømmen å passere, derav navnet «motstand».\
+I en **seriekobling** har elektronene bare én vei å følge gjennom kretsen. Denne veien forbinder ett punkt til et annet uten avkjøringer.\
+I en **parallellkobling**, derimot, deler veien seg og elektronene kan «velge» mellom flere stier. Det går strøm i alle grenene, men mest i grenen med minst motstand.
+<!-- tillegg: Claude: rettet siste setning, som sa at strømmen tar veien med minst motstand. Strømmen deler seg og går i alle grenene. -->
+:::
+
+::: center
+![](../../bilder/tres/elektroner.png){.kompendium-bilde fig-alt="En krets der ledningene er fylt med elektroner tegnet som små kuler side om side."}
+
+[Krets med elektroner i]{.figurtekst}
 :::
 
 :::: {.oppgaver}
 
-Her kommer noen begreper som er nyttige å forstå i elektrisitetslæren.
+::: {.oppgave tittel="Ladning gjennom en lampe"}
+<!-- tillegg: Claude -->
+Gjennom en lommelyktpære går det en strøm på $0.25\ \mathrm{A}$.
 
-**Elektrisitet**\
-Elektrisitet er små partikler med positive eller negative ladninger.\
-**Krets**\
-En krets er en vei som strømmen går igjennom. Strømmen går alltid gjennom den delen av kretsen som er lukket. Gjennpm en åpen krets går det ingen strøm. Elektronene i en krets beveger seg motsatt retning som strømmen. Elektronene vil bevege seg fra en negativ ladd pol mot en positiv ladd pol.\
-**Elektrisk strøm**\
-Elektrisk strøm er partikler i bevegelse. Strøm har symbolet *I* og enhet ampere, \[A\]. Strømmen beveger seg fra den positive polen mot den negative polen.\
-Strømmen i en krets kan illustreres slik:\
+a)  Hvor mye ladning går gjennom pæra på $2.0\ \mathrm{min}$?
 
-:::: figure
+b)  Hvor mange elektroner er det?
 
-![](../../bilder/tres/strom-illustrering.png){.kompendium-bilde}
+::: {.losning}
+**a)** $\Delta t = 2.0\cdot60\ \mathrm{s} = 120\ \mathrm{s}$:
+$$
+\Delta Q = I\,\Delta t = 0.25\ \mathrm{A}\cdot120\ \mathrm{s} = \underline{\underline{30\ \mathrm{C}}}
+$$
 
-::: caption
+**b)**
+$$
+N = \frac{\Delta Q}{\mathrm{e}} = \frac{30\ \mathrm{C}}{1.602\cdot10^{-19}\ \mathrm{C}} = \underline{\underline{1.9\cdot10^{20}}}
+$$
+:::
+:::
 
-Caption
+::: {.oppgave tittel="Bilbatteriet"}
+<!-- tillegg: Claude -->
+Et bilbatteri har spenningen $12\ \mathrm{V}$, og det står «$60\ \mathrm{Ah}$» (amperetimer) på det. Det betyr at batteriet kan gi strømmen $1\ \mathrm{A}$ i $60\ \mathrm{h}$, eller $2\ \mathrm{A}$ i $30\ \mathrm{h}$, og så videre.
 
+a)  Er amperetime en enhet for strøm, ladning eller energi? Gjør $60\ \mathrm{Ah}$ om til coulomb.
+
+b)  Hvor mye energi kan batteriet levere?
+
+::: {.losning}
+**a)** Ampere ganger tid er ladning, $\Delta Q = I\,\Delta t$. Amperetime er altså en enhet for **ladning**:
+$$
+60\ \mathrm{Ah} = 60\ \mathrm{A}\cdot3600\ \mathrm{s} = 2.16\cdot10^{5}\ \mathrm{C} \approx \underline{\underline{2.2\cdot10^{5}\ \mathrm{C}}}
+$$
+
+**b)** Hver coulomb leverer $12\ \mathrm{J}$:
+$$
+W = qU = 2.16\cdot10^{5}\ \mathrm{C}\cdot12\ \mathrm{V} = 2.59\cdot10^{6}\ \mathrm{J} \approx \underline{\underline{2.6\ \mathrm{MJ}}}
+$$
+Det er omtrent $0.72\ \mathrm{kWh}$.
+:::
+:::
+
+::: {.oppgave tittel="Hvor skal måleren stå?"}
+<!-- tillegg: Claude -->
+Du har en krets med et batteri og en lampe, og vil måle både strømmen gjennom lampa og spenningen over den.
+
+a)  Hvordan kobler du amperemeteret? Hvordan kobler du voltmeteret?
+
+b)  En medelev kobler amperemeteret direkte over batteriet, med en ledning til hver pol. Hva skjer, og hvorfor?
+
+::: {.losning}
+**a)** Amperemeteret settes inn **i serie** med lampa: Du åpner kretsen på ett sted og lar strømmen gå gjennom amperemeteret. Voltmeteret kobles **i parallell** over lampa, med én ledning på hver side av den.
+
+**b)** Amperemeteret har nesten ingen motstand. Koblet direkte over batteriet blir det en **kortslutning**: Strømmen blir svært stor, batteriet tappes fort og blir varmt, og sikringen i amperemeteret kan gå (eller instrumentet ødelegges).
+:::
+:::
+
+::: {.oppgave tittel="Julelys i serie og i parallell" niva="Middels"}
+<!-- tillegg: Claude -->
+To like lamper $L_1$ og $L_2$ kobles til et batteri, først i serie og så i parallell.
+
+![](../../bilder/figurer/serie-parallell.svg){.tikz-fig style="width:520px" fig-alt="Til venstre er lampene L1 og L2 koblet etter hverandre i en sløyfe med batteriet U, og strømmen I går gjennom begge. Til høyre er lampene koblet i hver sin gren mellom de samme ledningene. Strømmen I fra batteriet deler seg i I1 gjennom L1 og I2 gjennom L2."}
+
+a)  Lampe $L_1$ ryker. Hva skjer med $L_2$ i hver av de to koblingene?
+
+b)  I parallellkoblingen går det $0.30\ \mathrm{A}$ gjennom hver lampe. Hvor stor er strømmen $I$ fra batteriet?
+
+c)  Hvorfor er lysene i et hus koblet i parallell?
+
+::: {.losning}
+**a)** I **seriekoblingen** er det bare én vei for strømmen. Når $L_1$ ryker, blir kretsen åpen, og $L_2$ slukker også. I **parallellkoblingen** har $L_2$ sin egen gren rett til batteriet, så den lyser videre.
+
+**b)** Strømmen som går inn i forgreningspunktet, er lik summen av strømmene som går ut:
+$$
+I = I_1 + I_2 = 0.30\ \mathrm{A} + 0.30\ \mathrm{A} = \underline{\underline{0.60\ \mathrm{A}}}
+$$
+
+**c)** I parallell får hver lampe hele spenningen fra nettet, og hver lampe kan slås av og på, eller ryke, uten at de andre påvirkes.
+:::
+:::
+
+::: {.oppgave tittel="Sneglefart" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+En kobberledning har tverrsnittsarealet $1.0\ \mathrm{mm^2}$ og fører strømmen $1.0\ \mathrm{A}$. Kobber har omtrent $8.5\cdot10^{28}$ frie elektroner per kubikkmeter.
+
+a)  Tenk deg at elektronene beveger seg med farten $v$. Forklar at ladningen som passerer et tverrsnitt i løpet av tiden $\Delta t$, er $\Delta Q = n\,\mathrm{e}\,A\,v\,\Delta t$, der $n$ er antall frie elektroner per volum. Vis at $v = \dfrac{I}{n\,\mathrm{e}\,A}$.
+
+b)  Finn farten til elektronene.
+
+c)  Hvor lang tid bruker et elektron på å bevege seg $1.0\ \mathrm{m}$ langs ledningen?
+
+::: {.losning}
+**a)** På tiden $\Delta t$ flytter elektronene seg strekningen $v\,\Delta t$. Alle elektronene i en sylinder med grunnflate $A$ og lengde $v\,\Delta t$ passerer da tverrsnittet. Sylinderen har volumet $A\,v\,\Delta t$ og inneholder $n\,A\,v\,\Delta t$ elektroner, hver med ladning $\mathrm{e}$. Altså er $\Delta Q = n\,\mathrm{e}\,A\,v\,\Delta t$, og
+$$
+I = \frac{\Delta Q}{\Delta t} = n\,\mathrm{e}\,A\,v \quad\implies\quad v = \frac{I}{n\,\mathrm{e}\,A}
+$$
+
+**b)** Med $A = 1.0\ \mathrm{mm^2} = 1.0\cdot10^{-6}\ \mathrm{m^2}$:
+$$
+v = \frac{1.0\ \mathrm{A}}{8.5\cdot10^{28}\ \mathrm{m^{-3}}\cdot1.602\cdot10^{-19}\ \mathrm{C}\cdot1.0\cdot10^{-6}\ \mathrm{m^2}} = 7.3\cdot10^{-5}\ \mathrm{m/s} = \underline{\underline{0.073\ \mathrm{mm/s}}}
+$$
+
+**c)**
+$$
+t = \frac{1.0\ \mathrm{m}}{7.3\cdot10^{-5}\ \mathrm{m/s}} = 1.4\cdot10^{4}\ \mathrm{s} \approx \underline{\underline{3.8\ \mathrm{h}}}
+$$
+Elektronene kryper altså saktere enn en snegle. Lampa lyser likevel med en gang, fordi ledningen allerede er full av elektroner som begynner å bevege seg samtidig.
+:::
 :::
 
 ::::
-
-**Spenning**\
-Tenk på spenning som et «elektrisk høydekart»: akkurat som en ball ruller ned fra høyt til lavt i tyngdefeltet, beveger ladninger seg fra høyt spenningspotensial til lavt.
-
-::: {.callout-note title="Definisjon: Spenning"}
-
-Spenningen $U$ mellom to punkter er arbeidet som kreves for å flytte ladningen $q$ fra det ene punktet til det andre: $$U = \frac{W}{q}$$ Enhet: volt, $1\,\mathrm{V} = 1\,\mathrm{J}\,\mathrm{C}^{-1}$. En spenning på $9\,\mathrm{V}$ betyr at det kreves $9\,\mathrm{J}$ per coulomb ladning som flyttes.
-
-:::
-
-Spenningskilden i en krets tegnes typisk to forskjellige måter vist i Figuren og Figuren.
-
-:::: figure
-
-![](../../bilder/tres/spenningskilde-1.png){.kompendium-bilde}
-
-![](../../bilder/tres/spenningskilde-2.png){.kompendium-bilde}
-
-::: caption
-
-Spenningskilde 2
-
-:::
-
-::::
-
-**Seriekobling**\
-En seriekobling er en krets som er koblet slik at strømmen bare kan gå "en vei". I Figuren er R1, R2, og R3 resistanser og V1 er en spenningskilde. Strømmen vil gå inn og gjennom i R1, R2 og R3. Siden strømmen bare "har en vei" å gå, vil det i teorien være like mye strøm over hele området i seriekoblingen som vises i Figuren. Strømmen har ingen plass å dele seg.
-
-:::: figure
-
-![](../../bilder/tres/seriekobling.png){.kompendium-bilde}
-
-::: caption
-
-Seriekobling
-
-:::
-
-::::
-
-**Parallellkobling**\
-Parallellkobling er en måte å koble en krets slik at komponentene ligger "over" hverandre. I Figuren vises en parallellkobling, der R1 og R2 er resistanser og U er en spenningskilde. I denne kretsen vil strømmen vil gå fra spenningskilden og "dele" seg utover resistansene.\
-
-:::: figure
-
-![](../../bilder/tres/parallellkobling.png){.kompendium-bilde}
-
-::: caption
-
-Parallellkobling
-
-:::
-
-::::
-
-**Leder, isolator og halvleder**\
-Stoffer deles inn i tre grupper etter evnen til å lede elektrisk strøm:
-
--   **Ledere** har mange løst bundne elektroner i det ytterste skallet. Disse kan bevege seg fritt og transportere ladning — metaller som kopper og aluminium er gode ledere.
-
--   **Isolatorer** holder fast på alle elektroner; ingen kan bevege seg fritt. Eksempler: gummi, plast, glass. Brukes til å hindre strøm fra å renne «feil vei».
-
--   **Halvledere** er midt imellom — ledningsevnen kan styres ved temperatur eller spenning. Grunnlaget for transistorer, dioder og all moderne elektronikk (silisium, Si).
-
-::: {.callout-tip title="Tips: Forståelse av elektroner, strøm og spenning"}
-
-Å forstå hva en elektrisk krets er og hvordan den fungerer kan være utfordrende. En god måte å tenke på en elektrisk krets er å forestille seg en krets bestående av elektroner som kuler plassert side om side. Disse elektronene kan bevege seg fra ett punkt til et annet innen kretsen.\
-Når en spenningskilde, som et batteri, påvirker elektronene nærmest seg, skaper dette en dominoeffekt der elektronene setter hverandre i bevegelse. En motstand kan ses på som en trangere del av kretsen, som gjør det vanskeligere for strømmen å passere, derav navnet "motstand".\
-I en **seriekobling** har elektronene bare én vei å følge gjennom kretsen. Denne veien forbinder ett punkt til et annet uten avkjøringer.\
-I en **parallellkobling**, derimot, deler veien seg og elektronene kan "velge" mellom flere stier. Dette resulterer i at strømmen tar veien med minst motstand på grunn av fysiske lover.
-
-:::
-
-:::: figure
-
-![](../../bilder/tres/elektroner.png){.kompendium-bilde}
-
-::: caption
-
-Krets med elektroner i
-
-:::
-
-::::
-
-::::
-

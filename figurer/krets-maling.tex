@@ -1,0 +1,5 @@
+\begin{tikzpicture}[scale=1.0]
+\draw (0,0) to[battery1,l=$U_0$] (0,3) to[rmeter,t=A,l=amperemeter] (4,3) to[R,l_=$R$] (4,0) -- (0,0);
+\draw (4,3) -- (6,3) to[rmeter,t=V,l=voltmeter] (6,0) -- (4,0);
+\draw[->,very thick,rod] (0.3,3.4)--(1.0,3.4) node[midway,above]{$I$};
+\end{tikzpicture}
