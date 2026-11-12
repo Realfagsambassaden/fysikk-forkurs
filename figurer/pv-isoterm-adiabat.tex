@@ -1,0 +1,14 @@
+\begin{tikzpicture}[scale=1.0]
+\draw[akse] (0,0)--(7.2,0) node[below left]{$V$};
+\draw[akse] (0,0)--(0,5.2) node[below left]{$p$};
+% start A: V=1.2, p=4.5 ; isoterm p=5.4/V ; adiabat p=4.5*(1.2/V)^(5/3)
+\fill[gray!25] (1.2,0) -- plot[domain=1.2:5.4,samples=60] (\x,{5.4/\x}) -- (5.4,0) -- cycle;
+\draw[very thick,domain=1.2:6.4,samples=60] plot (\x,{5.4/\x}) node[right]{\small isoterm};
+\draw[very thick,dashed,domain=1.2:6.4,samples=60] plot (\x,{4.5*(1.2/\x)^(5/3)}) node[right]{\small adiabat};
+\fill (1.2,4.5) circle (2.4pt) node[above right]{A};
+\fill (5.4,1) circle (2.4pt) node[above right]{B};
+\fill (5.4,{4.5*(1.2/5.4)^(5/3)}) circle (2.4pt) node[below right]{B$'$};
+\draw[dashed] (1.2,0) node[below]{$V_1$}--(1.2,4.5);
+\draw[dashed] (5.4,0) node[below]{$V_2$}--(5.4,1);
+\node at (2.4,0.45) {$W_\text{gass}$};
+\end{tikzpicture}

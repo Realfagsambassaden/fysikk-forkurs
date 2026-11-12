@@ -1,0 +1,12 @@
+\begin{tikzpicture}[xscale=1.0,yscale=1.6]
+\draw[akse] (0,0)--(6.6,0) node[below left]{$V/\mathrm{L}$};
+\draw[akse] (0,0)--(0,2.2) node[left]{$p/\mathrm{kPa}$};
+\fill[gray!25] (2,0) rectangle (5,1.5);
+\draw[very thick,->] (2,1.5)--(3.6,1.5);
+\draw[very thick] (3.5,1.5)--(5,1.5);
+\node[circle,fill,inner sep=1.6pt] at (2,1.5) {}; \node[circle,fill,inner sep=1.6pt] at (5,1.5) {};
+\draw[dashed] (0,1.5) node[left]{$150$}--(2,1.5);
+\draw[dashed] (2,0)--(2,1.5); \draw[dashed] (5,0)--(5,1.5);
+\foreach \x in {1,...,5} \draw (\x,0.04)--(\x,-0.04) node[below]{$\x$};
+\node at (3.5,0.7) {$p\,\Delta V$};
+\end{tikzpicture}

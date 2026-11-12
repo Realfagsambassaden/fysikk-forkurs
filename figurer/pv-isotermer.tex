@@ -1,0 +1,16 @@
+\begin{tikzpicture}[scale=1.0]
+\draw[akse] (0,0)--(7.2,0) node[below left]{$V$};
+\draw[akse] (0,0)--(0,5.2) node[below left]{$p$};
+% isotermer p = C/V
+\foreach \C/\t in {2.4/{$T_1$},4.8/{$T_2 = 2T_1$},7.2/{$T_3 = 3T_1$}}{
+  \draw[thick,domain={\C/4.8}:6.6,samples=60] plot (\x,{\C/\x});
+  \node[right] at (6.6,{\C/6.6}) {\small \t};
+}
+% tilstander
+\fill (1.2,2) circle (2.4pt) node[above right]{A};
+\fill (2.4,2) circle (2.4pt) node[above right]{B};
+\fill (2.4,1) circle (2.4pt) node[below left]{C};
+\draw[dashed] (1.2,0) node[below]{$V_\text{A}$}--(1.2,2)--(0,2) node[left]{$p_\text{A}$};
+\draw[dashed] (2.4,0) node[below]{$2V_\text{A}$}--(2.4,1);
+\draw[dashed] (2.4,1)--(0,1) node[left]{$\tfrac12 p_\text{A}$};
+\end{tikzpicture}
