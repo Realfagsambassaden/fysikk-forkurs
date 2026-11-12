@@ -1,0 +1,14 @@
+\begin{tikzpicture}[scale=1.0]
+\draw[very thick] (0,0) rectangle (3.2,2.2);
+\node[align=center] at (1.6,1.1) {Systemet\\[2pt] $\Delta U = Q + W$};
+% varme
+\draw[->,line width=2pt,rod] (-1.8,1.6)--(-0.1,1.6);
+\node[left,align=right] at (-1.9,1.6) {$Q>0$\\[-2pt]\small varme inn};
+\draw[<-,line width=2pt,rod] (-1.8,0.6)--(-0.1,0.6);
+\node[left,align=right] at (-1.9,0.6) {$Q<0$\\[-2pt]\small varme ut};
+% arbeid
+\draw[->,line width=2pt,bla] (1.0,3.6)--(1.0,2.3);
+\node[left,align=right] at (0.9,3.2) {$W>0$\\[-2pt]\small arbeid på systemet};
+\draw[<-,line width=2pt,bla] (2.2,3.6)--(2.2,2.3);
+\node[right,align=left] at (2.3,3.2) {$W<0$\\[-2pt]\small systemet gjør arbeid};
+\end{tikzpicture}
