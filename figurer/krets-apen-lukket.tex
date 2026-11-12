@@ -1,0 +1,13 @@
+\begin{tikzpicture}[scale=1.0]
+\begin{scope}
+\draw (0,0) to[battery1,l=$U$] (0,2.4) -- (1.2,2.4) to[nos,l=bryter] (2.8,2.4) -- (3.6,2.4) to[lamp,l=lampe] (3.6,0) -- (0,0);
+\node[font=\small] at (1.8,-0.6) {Åpen krets: ingen strøm};
+\end{scope}
+\begin{scope}[xshift=6cm]
+\draw (0,0) to[battery1,l=$U$] (0,2.4) -- (1.2,2.4) to[nos,l=bryter] (2.8,2.4) -- (3.6,2.4) to[lamp,l=lampe] (3.6,0) -- (0,0);
+\draw[very thick] (1.2,2.4)--(2.8,2.4);
+\draw[->,very thick,rod] (0.4,2.75)--(1.0,2.75) node[midway,above]{$I$};
+\draw[->,very thick,rod] (2.0,-0.3)--(1.4,-0.3);
+\node[font=\small] at (1.8,-0.85) {Lukket krets: strøm};
+\end{scope}
+\end{tikzpicture}
