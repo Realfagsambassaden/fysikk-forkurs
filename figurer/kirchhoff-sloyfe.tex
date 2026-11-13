@@ -1,0 +1,8 @@
+\begin{tikzpicture}[scale=1.0]
+\draw (0,0) to[battery1,invert,l=$U_0$] (0,3) to[R,l=$R_1$] (4.5,3) to[R,l=$R_2$] (4.5,0) -- (0,0);
+\node[font=\small] at (-0.35,2.0) {$+$}; \node[font=\small] at (-0.35,1.0) {$-$};
+\node[font=\small] at (1.4,2.65) {$+$}; \node[font=\small] at (3.1,2.65) {$-$};
+\node[font=\small] at (4.15,2.3) {$+$}; \node[font=\small] at (4.15,0.7) {$-$};
+\draw[->,very thick,rod] (0.6,3.45)--(1.4,3.45) node[midway,above]{$I$};
+\draw[->,thick,bla] (1.65,1.5) arc[start angle=180,end angle=-120,radius=0.6];
+\end{tikzpicture}
