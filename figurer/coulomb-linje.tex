@@ -1,0 +1,12 @@
+\begin{tikzpicture}[scale=1.0]
+\draw (-0.8,0)--(-0.35,0) (0.35,0)--(2.5,0) (3.1,0)--(8.05,0); \draw[akse] (8.75,0)--(9.4,0) node[right]{$x$};
+\foreach \x/\t in {0/0,2.8/{0.10},8.4/{0.30}} {\node[below=3mm,font=\small] at (\x,0) {$\t\ \mathrm{m}$};}
+\node[circle,draw,thick,minimum size=7mm] at (0,0) {$+$};
+\node[circle,draw,thick,minimum size=6mm,inner sep=0pt] at (2.8,0) {$+$};
+\node[circle,draw,thick,minimum size=7mm] at (8.4,0) {$-$};
+\node[above=5mm] at (0,0) {$q_1 = +2.0\ \text{\textmu C}$};
+\node[above=5mm] at (2.8,0) {$q = +1.0\ \text{\textmu C}$};
+\node[above=5mm] at (8.4,0) {$q_2 = -4.0\ \text{\textmu C}$};
+\draw[vek,rod] (3.2,-0.75)--++(2.0,0) node[right]{$\vec F_1$};
+\draw[vek,bla] (3.2,-1.35)--++(1.0,0) node[right]{$\vec F_2$};
+\end{tikzpicture}

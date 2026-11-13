@@ -1,0 +1,18 @@
+\begin{tikzpicture}[scale=1.0]
+% Like ladninger: frastøtning
+\node[circle,draw,thick,minimum size=7mm,font=\large] (a) at (0,2.6) {$+$};
+\node[circle,draw,thick,minimum size=7mm,font=\large] (b) at (3.6,2.6) {$+$};
+\draw[vek,rod] (a.west)--++(-1.4,0) node[above,midway]{$\vec F_{21}$};
+\draw[vek,rod] (b.east)--++(1.4,0) node[above,midway]{$\vec F_{12}$};
+\node[above=1mm] at (a.north) {$q_1$}; \node[above=1mm] at (b.north) {$q_2$};
+\draw[|<->|,thin] (0,1.6)--(3.6,1.6) node[midway,below]{$r$};
+\node[font=\small,anchor=west] at (6.6,2.6) {Like ladninger frastøter};
+% Ulike ladninger: tiltrekning
+\node[circle,draw,thick,minimum size=7mm,font=\large] (c) at (0,0) {$+$};
+\node[circle,draw,thick,minimum size=7mm,font=\large] (d) at (3.6,0) {$-$};
+\draw[vek,rod] (c.east)--++(1.4,0) node[above,midway]{$\vec F_{21}$};
+\draw[vek,rod] (d.west)--++(-1.4,0) node[above,midway]{$\vec F_{12}$};
+\node[above=1mm] at (c.north) {$q_1$}; \node[above=1mm] at (d.north) {$q_2$};
+\draw[|<->|,thin] (0,-1.0)--(3.6,-1.0) node[midway,below]{$r$};
+\node[font=\small,anchor=west] at (6.6,0) {Ulike ladninger tiltrekker};
+\end{tikzpicture}
