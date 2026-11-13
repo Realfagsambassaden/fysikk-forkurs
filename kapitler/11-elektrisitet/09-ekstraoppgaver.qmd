@@ -1,0 +1,95 @@
+---
+title: "Ekstraoppgaver: elektrisitet"
+tema: kretser
+undertema: oppgaver
+---
+
+Her er flere oppgaver fra hele elektrisitetsdelen: ladning, strøm og spenning, Ohms lov, koblinger, Kirchhoffs lover og effekt. Prøv selv før du åpner løsningen.
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Tre like motstander"}
+Du har tre like motstander på $30\ \mathrm{\Omega}$ hver.
+
+a)  Hva er den totale resistansen når alle tre er koblet i serie?
+
+b)  Hva er den totale resistansen når alle tre er koblet i parallell?
+
+c)  To av dem kobles i parallell, og den tredje kobles i serie med dem. Hva er den totale resistansen?
+
+d)  Hvilken av koblingene gir størst strøm når de kobles til et batteri på $12\ \mathrm{V}$? Hvor stor er strømmen da?
+
+::: {.losning}
+**a)** $R_\text{tot} = 3\cdot 30\ \mathrm{\Omega} = \underline{\underline{90\ \mathrm{\Omega}}}$
+
+**b)** $\dfrac{1}{R_\text{tot}} = \dfrac{3}{30\ \mathrm{\Omega}}$, så $R_\text{tot} = \underline{\underline{10\ \mathrm{\Omega}}}$
+
+**c)** De to i parallell gir $15\ \mathrm{\Omega}$, og med den tredje i serie blir $R_\text{tot} = 15\ \mathrm{\Omega} + 30\ \mathrm{\Omega} = \underline{\underline{45\ \mathrm{\Omega}}}$
+
+**d)** Minst resistans gir størst strøm: alle tre i parallell, med $I = \dfrac{12\ \mathrm{V}}{10\ \mathrm{\Omega}} = \underline{\underline{1.2\ \mathrm{A}}}$
+:::
+:::
+
+::: {.oppgave tittel="Kortslutning"}
+En mekaniker kommer i skade for å koble polene på et bilbatteri på $12\ \mathrm{V}$ sammen med en skiftenøkkel. Skiftenøkkelen har resistansen $0.020\ \mathrm{\Omega}$. Se bort fra resistansen i batteriet.
+
+a)  Hvor stor blir strømmen?
+
+b)  Hvor stor effekt blir omsatt i skiftenøkkelen?
+
+c)  Hvorfor er kortslutning farlig?
+
+::: {.losning}
+**a)** $I = \dfrac{U}{R} = \dfrac{12\ \mathrm{V}}{0.020\ \mathrm{\Omega}} = \underline{\underline{6.0\cdot 10^{2}\ \mathrm{A}}}$
+
+**b)** $P = UI = 12\ \mathrm{V}\cdot 600\ \mathrm{A} = \underline{\underline{7.2\ \mathrm{kW}}}$
+
+**c)** All energien blir til varme i en liten gjenstand på kort tid. Skiftenøkkelen og ledningene blir glovarme, det kan gnistre og begynne å brenne, og batteriet kan bli skadet. (I virkeligheten begrenser den indre resistansen i batteriet strømmen noe, men den blir likevel svært stor.)
+:::
+:::
+
+::: {.oppgave tittel="Strømregning"}
+En panelovn har effekten $1.5\ \mathrm{kW}$ og er koblet til $230\ \mathrm{V}$. Den står på $8.0\ \mathrm{h}$ hvert døgn i 30 døgn.
+
+a)  Hvor stor er strømmen gjennom ovnen?
+
+b)  Hvor mye energi bruker ovnen i løpet av de 30 døgnene?
+
+c)  Strømprisen er $1.20$ kr per kilowattime. Hva koster det å ha ovnen på?
+
+::: {.losning}
+**a)** $I = \dfrac{1500\ \mathrm{W}}{230\ \mathrm{V}} = \underline{\underline{6.5\ \mathrm{A}}}$
+
+**b)** $E = 1.5\ \mathrm{kW}\cdot 8.0\ \mathrm{h}\cdot 30 = \underline{\underline{3.6\cdot 10^{2}\ \mathrm{kWh}}}$
+
+**c)** $360\ \mathrm{kWh}\cdot 1.20\ \text{kr/kWh} = 432\ \text{kr} \approx \underline{\underline{4.3\cdot 10^{2}\ \text{kr}}}$
+:::
+:::
+
+::: {.oppgave tittel="Krets med voltmeter" niva="Middels"}
+Et batteri på $12\ \mathrm{V}$ er koblet i serie med en motstand $R_1 = 4.0\ \mathrm{\Omega}$ og en lyspære. Et voltmeter koblet over lyspæra viser $8.0\ \mathrm{V}$.
+
+a)  Tegn kretsen med voltmeteret.
+
+b)  Hva er spenningen over $R_1$?
+
+c)  Hvor stor er strømmen i kretsen?
+
+d)  Hva er resistansen i lyspæra?
+
+e)  Hvor stor effekt lyser pæra med? Hvor stor effekt leverer batteriet?
+
+::: {.losning}
+**a)** Batteriet, $R_1$ og pæra ligger etter hverandre i én sløyfe. Voltmeteret kobles med én ledning på hver side av pæra.
+
+**b)** Spenningsloven: $U_1 = 12\ \mathrm{V} - 8.0\ \mathrm{V} = \underline{\underline{4.0\ \mathrm{V}}}$
+
+**c)** $I = \dfrac{U_1}{R_1} = \dfrac{4.0\ \mathrm{V}}{4.0\ \mathrm{\Omega}} = \underline{\underline{1.0\ \mathrm{A}}}$
+
+**d)** $R_\text{pære} = \dfrac{8.0\ \mathrm{V}}{1.0\ \mathrm{A}} = \underline{\underline{8.0\ \mathrm{\Omega}}}$
+
+**e)** Pæra: $P = UI = 8.0\ \mathrm{V}\cdot 1.0\ \mathrm{A} = \underline{\underline{8.0\ \mathrm{W}}}$. Batteriet: $P = 12\ \mathrm{V}\cdot 1.0\ \mathrm{A} = \underline{\underline{12\ \mathrm{W}}}$. De resterende $4.0\ \mathrm{W}$ blir til varme i $R_1$.
+:::
+:::
+
+::::

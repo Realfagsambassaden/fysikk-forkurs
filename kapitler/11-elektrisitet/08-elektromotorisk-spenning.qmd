@@ -2,6 +2,7 @@
 title: "Elektromotorisk spenning og indre resistans"
 tema: kretser
 undertema: emf
+aliases: ["06-elektromotorisk-spenning.html"]
 plassholder: true
 ---
 

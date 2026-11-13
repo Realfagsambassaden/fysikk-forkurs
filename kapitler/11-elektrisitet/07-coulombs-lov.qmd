@@ -1,8 +1,8 @@
 ---
-title: "Elektrisk kraft og ladning"
+title: "Elektrisk kraft og Coulombs lov"
 tema: elektrisk-felt
-undertema: ladning
-aliases: ["/forkurs/09-elektrisitet/02-elektrisk-kraft-og-ladning.html"]
+undertema: coulomb
+aliases: ["02-elektrisk-kraft-og-ladning.html", "/forkurs/09-elektrisitet/02-elektrisk-kraft-og-ladning.html"]
 ---
 
 {{< video https://www.youtube.com/watch?v=ZxyEAg1aP54 >}}

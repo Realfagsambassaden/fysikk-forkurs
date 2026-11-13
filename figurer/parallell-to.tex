@@ -1,0 +1,8 @@
+\begin{tikzpicture}[scale=1.0]
+\draw (0,0) to[battery1,invert,l=$U$] (0,2.8) -- (4.4,2.8) to[R,l=$R_2$] (4.4,0) -- (0,0);
+\draw (2.2,2.8) to[R,l=$R_1$] (2.2,0);
+\fill (2.2,2.8) circle (2pt) (2.2,0) circle (2pt);
+\draw[->,very thick,rod] (0.4,3.2)--(1.2,3.2) node[midway,above]{$I$};
+\draw[->,very thick,rod] (1.85,2.3)--(1.85,1.7) node[midway,left]{$I_1$};
+\draw[->,very thick,rod] (4.05,2.3)--(4.05,1.7) node[midway,left]{$I_2$};
+\end{tikzpicture}
