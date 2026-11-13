@@ -5,23 +5,21 @@ tegning: e-felt
 aliases: ["/forkurs/09-elektrisitet/index.html"]
 ---
 
-::: {.callout-warning title="Under arbeid"}
-Dette kapittelet skrives fortsatt. Innholdet kan endre seg.
-:::
-
 ::: {.intro}
 
-Dette er en introtekst, hvor vi henviser til[@OleBrumm] for mer informasjon. Dette er altså en flott tekst som fungerer som et slags sammendrag / motivasjon for innholdet i kapitlet.
+Lyset i rommet, mobilen i lomma og elbilen i garasjen virker alle fordi elektrisk ladning flytter seg gjennom ledninger. I dette kapitlet starter vi med selve ladningen. Deretter ser vi på hva strøm og spenning er, og hvordan de henger sammen med motstand gjennom Ohms lov. Vi lærer å regne på kretser med motstander koblet i serie og i parallell, og bruker Kirchhoffs lover når kretsene blir sammensatte. Til slutt ser vi på elektrisk effekt og energi, altså hva som faktisk står på strømregningen.
 
 :::
 
 ::: {.spm}
 [Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
 
-1.  Hva er elektrisk ladning og elektrisk strøm?
+1.  Hva er elektrisk ladning?
 
-2.  Hva er sammenhengen mellom spenning, strøm og motstand (Ohms lov)?
+2.  Hva er strøm og spenning, og hva sier Ohms lov?
 
-3.  Hvordan fungerer serie- og parallellkoblinger i en krets?
+3.  Hvordan regner vi på serie- og parallellkoblinger?
+
+4.  Hvor mye effekt og energi bruker et elektrisk apparat?
 
 :::

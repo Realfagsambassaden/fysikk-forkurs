@@ -1,0 +1,184 @@
+---
+title: "Elektrisk effekt og energi"
+tema: kretser
+undertema: effekt
+aliases: ["05-effekt.html", "/forkurs/09-elektrisitet/05-effekt.html"]
+---
+
+<!-- video: kommer (videoer/fysikk-forkurs/11-06-elektrisk-effekt-og-energi) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
+
+::: {.callout-tip title="Til ettertanke"}
+På en vannkoker står det $2000\ \mathrm{W}$. På en lyspære står det $60\ \mathrm{W}$. Hva forteller disse tallene?
+:::
+
+Effekt er energi per tid, $P = E/t$ (se *effekt* under arbeid og energi). Når ladningen $q$ går gjennom en komponent med spenningen $U$, avgir den energien $W = Uq$. Per tid blir det $P = Uq/t = UI$.
+
+::: {.callout-note title="Definisjon: Elektrisk effekt"}
+Effekten som en komponent bruker, er
+$$
+P = U\cdot I
+$$
+der $U$ er spenningen over komponenten og $I$ er strømmen gjennom den. Enheten er watt, $1\ \mathrm{W} = 1\ \mathrm{V\,A} = 1\ \mathrm{J/s}$.
+:::
+
+Med Ohms lov, $U = RI$, kan effekten også skrives
+$$
+P = R\cdot I^2 = \frac{U^2}{R}
+$$
+Hvilken form som er enklest, avhenger av hva vi kjenner.
+
+## Elektrisk energi og kilowattimer
+
+Energien et apparat bruker, er effekt ganger tid: $E = P\cdot t$. På strømregningen måles energien i kilowattimer (kWh). En kilowattime er energien et apparat med effekten $1\ \mathrm{kW}$ bruker på én time:
+
+::: {.callout-important title="Kilowattime"}
+$$
+1\ \mathrm{kWh} = 1000\ \mathrm{W}\cdot 3600\ \mathrm{s} = 3.6\cdot 10^{6}\ \mathrm{J}
+$$
+:::
+
+::: {.eksempel}
+**Eksempel: Vannkoker.** En vannkoker har effekten $2000\ \mathrm{W}$ og er koblet til $230\ \mathrm{V}$.
+
+a)  Hvor stor er strømmen gjennom vannkokeren?
+
+b)  Hva er resistansen i varmeelementet?
+
+c)  Vannkokeren står på i $3.0\ \mathrm{min}$. Hvor mye energi bruker den, i joule og i kilowattimer?
+
+::: {.losning}
+**a)**
+$$
+I = \frac{P}{U} = \frac{2000\ \mathrm{W}}{230\ \mathrm{V}} = 8.70\ \mathrm{A} \approx \underline{\underline{8.7\ \mathrm{A}}}
+$$
+
+**b)**
+$$
+R = \frac{U^2}{P} = \frac{(230\ \mathrm{V})^2}{2000\ \mathrm{W}} = 26.5\ \mathrm{\Omega} \approx \underline{\underline{26\ \mathrm{\Omega}}}
+$$
+
+**c)** Tiden er $t = 180\ \mathrm{s}$:
+$$
+E = P\cdot t = 2000\ \mathrm{W}\cdot 180\ \mathrm{s} = \underline{\underline{3.6\cdot 10^{5}\ \mathrm{J}}}
+$$
+I kilowattimer: $E = 2.0\ \mathrm{kW}\cdot 0.050\ \mathrm{h} = \underline{\underline{0.10\ \mathrm{kWh}}}$.
+:::
+:::
+
+::: {.eksempel}
+**Eksempel: Hvilken pære lyser sterkest?** To like lyspærer har hver resistansen $6.0\ \mathrm{\Omega}$. De kobles til et batteri på $12\ \mathrm{V}$, først i serie og så i parallell. Finn effekten i hver pære i de to tilfellene. Når lyser pærene sterkest?
+
+::: {.losning}
+**Serie:** $R_\text{tot} = 12\ \mathrm{\Omega}$, så strømmen er $I = 12\ \mathrm{V}/12\ \mathrm{\Omega} = 1.0\ \mathrm{A}$ gjennom begge pærene. Effekten i hver pære:
+$$
+P = RI^2 = 6.0\ \mathrm{\Omega}\cdot(1.0\ \mathrm{A})^2 = \underline{\underline{6.0\ \mathrm{W}}}
+$$
+
+**Parallell:** Hver pære har hele spenningen, $12\ \mathrm{V}$, over seg:
+$$
+P = \frac{U^2}{R} = \frac{(12\ \mathrm{V})^2}{6.0\ \mathrm{\Omega}} = \underline{\underline{24\ \mathrm{W}}}
+$$
+I parallell lyser hver pære med fire ganger så stor effekt. Pærene lyser altså sterkest i parallell. Det er derfor lamper i et hus er koblet i parallell: Hver lampe får hele spenningen fra stikkontakten.
+:::
+:::
+
+<!-- tillegg: Claude -->
+Programmet regner ut hva det koster å bruke et apparat. Prøv med panelovnen, vannkokeren eller lampene hjemme.
+
+```{.python .kjor}
+P = 1500          # effekt (W)
+timer = 8.0       # timer per døgn
+dogn = 30         # antall døgn
+pris = 1.20       # kr per kWh
+
+E_kWh = P/1000 * timer * dogn
+E_J = E_kWh * 3.6e6
+print(f"Energi: {E_kWh:.0f} kWh = {E_J:.2e} J")
+print(f"Pris:   {E_kWh * pris:.0f} kr")
+```
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Vannkoker"}
+En vannkoker har effekten $2200\ \mathrm{W}$ og er koblet til $230\ \mathrm{V}$.
+
+a)  Hvor stor er strømmen gjennom vannkokeren?
+
+b)  Hva er resistansen i varmeelementet?
+
+c)  Den står på i $4.0\ \mathrm{min}$. Hvor mye energi bruker den, i kWh og i joule?
+
+::: {.losning}
+**a)** $I = \dfrac{P}{U} = \dfrac{2200\ \mathrm{W}}{230\ \mathrm{V}} = 9.57\ \mathrm{A} \approx \underline{\underline{9.6\ \mathrm{A}}}$
+
+**b)** $R = \dfrac{U^2}{P} = \dfrac{(230\ \mathrm{V})^2}{2200\ \mathrm{W}} = \underline{\underline{24\ \mathrm{\Omega}}}$
+
+**c)** $E = 2.2\ \mathrm{kW}\cdot\dfrac{4.0}{60}\ \mathrm{h} = 0.147\ \mathrm{kWh} \approx \underline{\underline{0.15\ \mathrm{kWh}}}$, som er $2200\ \mathrm{W}\cdot 240\ \mathrm{s} = \underline{\underline{5.3\cdot 10^{5}\ \mathrm{J}}}$.
+:::
+:::
+
+::: {.oppgave tittel="Hvilken pære lyser sterkest?"}
+To like lyspærer med resistans $4.0\ \mathrm{\Omega}$ kobles til et batteri på $12\ \mathrm{V}$, først i serie og så i parallell. Finn effekten i hver pære i de to tilfellene. Når lyser pærene sterkest?
+
+::: {.losning}
+**Serie:** $R_\text{tot} = 8.0\ \mathrm{\Omega}$, $I = \dfrac{12\ \mathrm{V}}{8.0\ \mathrm{\Omega}} = 1.5\ \mathrm{A}$, og $P = RI^2 = 4.0\ \mathrm{\Omega}\cdot(1.5\ \mathrm{A})^2 = \underline{\underline{9.0\ \mathrm{W}}}$ per pære.
+
+**Parallell:** $P = \dfrac{U^2}{R} = \dfrac{(12\ \mathrm{V})^2}{4.0\ \mathrm{\Omega}} = \underline{\underline{36\ \mathrm{W}}}$ per pære.
+
+Pærene lyser sterkest i parallell, med fire ganger så stor effekt.
+:::
+:::
+
+::: {.oppgave tittel="Lyspære"}
+En gammeldags lyspære er merket $60\ \mathrm{W}$ og $230\ \mathrm{V}$.
+
+a)  Hvor stor er strømmen gjennom pæra?
+
+b)  Hva er resistansen i pæra når den lyser?
+
+c)  Pæra lyser $5.0\ \mathrm{h}$ hvert døgn i 30 døgn. Hvor mye energi bruker den, i kilowattimer?
+
+d)  En LED-pære på $8.0\ \mathrm{W}$ gir like mye lys. Hvor mye energi sparer vi i løpet av de 30 døgnene ved å bytte?
+
+::: {.losning}
+**a)** $I = \dfrac{60\ \mathrm{W}}{230\ \mathrm{V}} = \underline{\underline{0.26\ \mathrm{A}}}$
+
+**b)** $R = \dfrac{U^2}{P} = \dfrac{(230\ \mathrm{V})^2}{60\ \mathrm{W}} = 882\ \mathrm{\Omega} \approx \underline{\underline{8.8\cdot 10^{2}\ \mathrm{\Omega}}}$
+
+**c)** $E = 0.060\ \mathrm{kW}\cdot 5.0\ \mathrm{h}\cdot 30 = \underline{\underline{9.0\ \mathrm{kWh}}}$
+
+**d)** LED-pæra bruker $0.0080\ \mathrm{kW}\cdot 150\ \mathrm{h} = 1.2\ \mathrm{kWh}$. Vi sparer $9.0\ \mathrm{kWh} - 1.2\ \mathrm{kWh} = \underline{\underline{7.8\ \mathrm{kWh}}}$.
+:::
+:::
+
+::: {.oppgave tittel="Lading av elbil" niva="Middels"}
+En lader for elbil leverer effekten $22\ \mathrm{kW}$ ved spenningen $400\ \mathrm{V}$.
+
+a)  Hvor stor er strømmen?
+
+b)  Batteriet i bilen har en kapasitet på $60\ \mathrm{kWh}$. Hvor lang tid tar det å lade fra $20\ \%$ til $80\ \%$? Se bort fra tap.
+
+c)  Hvor mye energi er det, målt i joule?
+
+::: {.losning}
+**a)** $I = \dfrac{P}{U} = \dfrac{22\cdot 10^{3}\ \mathrm{W}}{400\ \mathrm{V}} = \underline{\underline{55\ \mathrm{A}}}$
+
+**b)** Energien som skal inn, er $0.60\cdot 60\ \mathrm{kWh} = 36\ \mathrm{kWh}$. $t = \dfrac{E}{P} = \dfrac{36\ \mathrm{kWh}}{22\ \mathrm{kW}} = 1.64\ \mathrm{h} \approx \underline{\underline{1.6\ \mathrm{h}}}$ (omtrent 1 time og 40 minutter).
+
+**c)** $E = 36\cdot 3.6\cdot 10^{6}\ \mathrm{J} = \underline{\underline{1.3\cdot 10^{8}\ \mathrm{J}}}$
+:::
+:::
+
+::: {.oppgave tittel="Hvor varm blir ledningen?" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+En skjøteledning har resistansen $0.20\ \mathrm{\Omega}$ og fører strømmen til en panelovn på $2.0\ \mathrm{kW}$ ved $230\ \mathrm{V}$. Hvor stor effekt blir til varme i ledningen? Sammenlign med effekten i ovnen, og forklar med $P = RI^2$ hvorfor det er glødetråden og ovnselementet som blir varme, og ikke ledningen.
+
+::: {.losning}
+Strømmen er $I = \dfrac{2000\ \mathrm{W}}{230\ \mathrm{V}} = 8.7\ \mathrm{A}$. I ledningen: $P = RI^2 = 0.20\ \mathrm{\Omega}\cdot(8.7\ \mathrm{A})^2 = \underline{\underline{15\ \mathrm{W}}}$, under $1\ \%$ av effekten i ovnen.
+
+Den samme strømmen går gjennom både ledningen og ovnen, så effekten i hver del er proporsjonal med resistansen. Ovnselementet har mye større resistans ($26\ \mathrm{\Omega}$), og nesten all energien blir til varme der.
+:::
+:::
+
+::::

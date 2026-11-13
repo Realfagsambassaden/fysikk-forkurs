@@ -2,8 +2,11 @@
 title: "Kirchhoffs lover"
 tema: kretser
 undertema: kirchhoff
-aliases: ["/forkurs/09-elektrisitet/03-kirchoff-s-lover.html"]
+aliases: ["03-kirchoff-s-lover.html", "/forkurs/09-elektrisitet/03-kirchoff-s-lover.html"]
 ---
+
+<!-- video: kommer (videoer/fysikk-forkurs/11-05-kirchhoffs-lover) -->
+![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
 
 <!-- tillegg: Claude: «Under arbeid» er fjernet, og siden er bygd ut med figurer, framgangsmåte, eksempler og oppgaver. Lærerens tekst er beholdt; stavemåten er rettet fra «Kirchoff’s» til «Kirchhoffs» (Gustav Kirchhoff). -->
 
@@ -13,7 +16,7 @@ I et hus er mange lamper, en vannkoker og en lader koblet til de samme ledningen
 Kirchhoffs lover brukes til å regne ut strøm eller spenning i en elektrisk krets.
 
 <!-- tillegg: Claude -->
-Vi trenger også Ohms lov, som står under [Motstand](04-motstand.qmd): Spenningen over en motstand $R$ som strømmen $I$ går gjennom, er
+Vi trenger også Ohms lov, som står under [Resistans og Ohms lov](03-resistans-og-ohms-lov.qmd): Spenningen over en motstand $R$ som strømmen $I$ går gjennom, er
 $$
 U = R\cdot I
 $$
@@ -107,6 +110,10 @@ Sjekk: $4.0\ \mathrm{V} + 8.0\ \mathrm{V} = 12\ \mathrm{V}$. Spenningen fra batt
 <!-- tillegg: Claude -->
 En nyttig følge av spenningsloven: Komponenter som er koblet i **parallell**, har alltid **samme spenning**. Går du en sløyfe ned gjennom den ene grenen og opp igjen gjennom den andre, må fallene være like store.
 
+Det er disse lovene som ligger bak reglene for [serie- og parallellkobling](04-serie-og-parallellkobling.qmd). I en seriekobling sier spenningsloven at $U = U_1 + U_2 + \dots$, og i en parallellkobling sier strømloven at $I = I_1 + I_2 + \dots$
+
+![](../../bilder/figurer/spenning-hoyde.svg){.tikz-fig style="width:520px" fig-alt="Et diagram over potensialet når vi går en runde i seriekretsen med batteriet på 12 V og motstandene på 4.0 og 8.0 ohm. Batteriet løfter potensialet fra 0 til 12 V. Over den første motstanden faller det 4 V, over den andre 8 V, og vi er tilbake på 0."}
+
 ## Framgangsmåte for kretser
 
 <!-- tillegg: Claude -->
@@ -152,6 +159,21 @@ Sjekk K2: Spenningen over $R_1$ er $R_1 I_0 = 3.0\ \mathrm{\Omega}\cdot3.43\ \ma
 :::
 :::
 
+::: {.eksempel}
+**Eksempel: Et lite batteri med tre motstander.** Et batteri på $5.0\ \mathrm{V}$ er koblet i serie med $R_1 = 1.0\ \mathrm{\Omega}$. Etter $R_1$ deler kretsen seg i to grener med $R_2 = 2.0\ \mathrm{\Omega}$ og $R_3 = 1.4\ \mathrm{\Omega}$ i parallell. Hva er strømmen fra batteriet?
+
+::: {.losning}
+$R_1$ er i serie med parallellkoblingen av $R_2$ og $R_3$. Parallellkoblingen:
+$$
+R_p = \frac{R_2R_3}{R_2 + R_3} = \frac{2.0\ \mathrm{\Omega}\cdot 1.4\ \mathrm{\Omega}}{2.0\ \mathrm{\Omega} + 1.4\ \mathrm{\Omega}} = 0.82\ \mathrm{\Omega}
+$$
+Total resistans: $R_\text{tot} = 1.0\ \mathrm{\Omega} + 0.82\ \mathrm{\Omega} = 1.82\ \mathrm{\Omega}$. Strømmen:
+$$
+I = \frac{U}{R_\text{tot}} = \frac{5.0\ \mathrm{V}}{1.82\ \mathrm{\Omega}} = 2.75\ \mathrm{A} \approx \underline{\underline{2.7\ \mathrm{A}}}
+$$
+:::
+:::
+
 <!-- tillegg: Claude -->
 Programmet under regner ut den samme kretsen. Endre motstandene og se hvordan strømmen fordeler seg. Hva skjer med $I_3$ når du gjør $R_3$ svært stor? Og hva skjer med $I_0$ når $R_2$ blir svært liten (en kortslutning)?
 
@@ -175,6 +197,66 @@ print(f"Spenningsloven: U1 + Up = {U1:.2f} V + {Up:.2f} V = {U1 + Up:.2f} V")
 ```
 
 :::: {.oppgaver}
+
+::: {.oppgave tittel="Krets med serie og parallell"}
+Batteriet har polspenningen $U_0 = 20\ \mathrm{V}$. $R_1 = 4.0\ \mathrm{\Omega}$ er i serie med en parallellkobling av $R_2 = 10\ \mathrm{\Omega}$ og $R_3 = 15\ \mathrm{\Omega}$ (samme kobling som i eksempelet med figur over).
+
+a)  Finn $R_\text{tot}$ og strømmen $I_0$.
+
+b)  Finn spenningen over parallellkoblingen.
+
+c)  Finn $I_2$ og $I_3$. Kontroller med strømloven.
+
+::: {.losning}
+**a)** $R_p = \dfrac{10\ \mathrm{\Omega}\cdot 15\ \mathrm{\Omega}}{25\ \mathrm{\Omega}} = 6.0\ \mathrm{\Omega}$, så $R_\text{tot} = 4.0\ \mathrm{\Omega} + 6.0\ \mathrm{\Omega} = \underline{\underline{10\ \mathrm{\Omega}}}$ og $I_0 = \dfrac{20\ \mathrm{V}}{10\ \mathrm{\Omega}} = \underline{\underline{2.0\ \mathrm{A}}}$.
+
+**b)** $U_p = R_pI_0 = 6.0\ \mathrm{\Omega}\cdot 2.0\ \mathrm{A} = \underline{\underline{12\ \mathrm{V}}}$. Kontroll med spenningsloven: Over $R_1$ faller $8.0\ \mathrm{V}$, og $8.0\ \mathrm{V} + 12\ \mathrm{V} = 20\ \mathrm{V}$.
+
+**c)** $I_2 = \dfrac{12\ \mathrm{V}}{10\ \mathrm{\Omega}} = \underline{\underline{1.2\ \mathrm{A}}}$ og $I_3 = \dfrac{12\ \mathrm{V}}{15\ \mathrm{\Omega}} = \underline{\underline{0.80\ \mathrm{A}}}$. Strømloven: $1.2\ \mathrm{A} + 0.80\ \mathrm{A} = 2.0\ \mathrm{A} = I_0$.
+:::
+:::
+
+::: {.oppgave tittel="Krets med fire motstander" niva="Middels"}
+Et batteri har polspenningen $24\ \mathrm{V}$. Motstandene $R_1 = 2.0\ \mathrm{\Omega}$ og $R_2 = 4.0\ \mathrm{\Omega}$ er koblet i serie med en parallellkobling av $R_3 = 10\ \mathrm{\Omega}$ og $R_4 = 15\ \mathrm{\Omega}$.
+
+![](../../bilder/figurer/krets-fire-motstander.svg){.tikz-fig style="width:440px" fig-alt="Et batteri på 24 V i serie med R1 og R2. Etter R2 deler kretsen seg i to grener med R3 og R4 i parallell. Strømmen I3 går gjennom R3 og I4 gjennom R4."}
+
+a)  Vis at den totale resistansen er $12\ \mathrm{\Omega}$.
+
+b)  Finn strømmen fra batteriet.
+
+c)  Finn spenningen over parallellkoblingen.
+
+d)  Finn strømmene $I_3$ og $I_4$ gjennom $R_3$ og $R_4$. Kontroller svaret med Kirchhoffs strømlov.
+
+::: {.losning}
+**a)** $R_p = \dfrac{10\ \mathrm{\Omega}\cdot 15\ \mathrm{\Omega}}{10\ \mathrm{\Omega} + 15\ \mathrm{\Omega}} = 6.0\ \mathrm{\Omega}$, og $R_\text{tot} = 2.0\ \mathrm{\Omega} + 4.0\ \mathrm{\Omega} + 6.0\ \mathrm{\Omega} = \underline{\underline{12\ \mathrm{\Omega}}}$.
+
+**b)** $I = \dfrac{24\ \mathrm{V}}{12\ \mathrm{\Omega}} = \underline{\underline{2.0\ \mathrm{A}}}$
+
+**c)** $U_p = R_pI = 6.0\ \mathrm{\Omega}\cdot 2.0\ \mathrm{A} = \underline{\underline{12\ \mathrm{V}}}$
+
+**d)** $I_3 = \dfrac{12\ \mathrm{V}}{10\ \mathrm{\Omega}} = \underline{\underline{1.2\ \mathrm{A}}}$ og $I_4 = \dfrac{12\ \mathrm{V}}{15\ \mathrm{\Omega}} = \underline{\underline{0.80\ \mathrm{A}}}$. Strømloven: $1.2\ \mathrm{A} + 0.80\ \mathrm{A} = 2.0\ \mathrm{A}$, som er strømmen fra batteriet.
+:::
+:::
+
+::: {.oppgave tittel="Spenningsloven"}
+To motstander, $R_1$ og $R_2$, er koblet i serie til et batteri på $9.0\ \mathrm{V}$. Et voltmeter over $R_1$ viser $3.5\ \mathrm{V}$.
+
+a)  Hva er spenningen over $R_2$? Hvilken av Kirchhoffs lover bruker du?
+
+b)  Resistansen $R_1$ er $7.0\ \mathrm{\Omega}$. Hvor stor er strømmen i kretsen?
+
+c)  Finn $R_2$.
+
+::: {.losning}
+**a)** Spenningsloven: $U_2 = 9.0\ \mathrm{V} - 3.5\ \mathrm{V} = \underline{\underline{5.5\ \mathrm{V}}}$
+
+**b)** $I = \dfrac{U_1}{R_1} = \dfrac{3.5\ \mathrm{V}}{7.0\ \mathrm{\Omega}} = \underline{\underline{0.50\ \mathrm{A}}}$
+
+**c)** Samme strøm i serie: $R_2 = \dfrac{5.5\ \mathrm{V}}{0.50\ \mathrm{A}} = \underline{\underline{11\ \mathrm{\Omega}}}$
+:::
+:::
 
 ::: {.oppgave tittel="Fire ledninger"}
 <!-- tillegg: Claude -->
