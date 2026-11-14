@@ -1,0 +1,14 @@
+\begin{tikzpicture}[scale=1.0]
+\foreach \i in {0,...,44} {
+  \pgfmathsetmacro{\u}{0.2*\i}
+  \pgfmathsetmacro{\x}{\u - 0.28*sin(360*\u/3)}
+  \draw[thick] (\x,0)--(\x,1.4);
+}
+\draw[decorate,decoration={brace,amplitude=5pt}] (2.55,1.6)--(3.45,1.6) node[midway,above=5pt]{fortetning};
+\draw[decorate,decoration={brace,amplitude=5pt}] (5.0,-0.2)--(4.0,-0.2) node[midway,below=5pt]{fortynning};
+\draw[dashed,black!50] (3,-0.1)--(3,-1.45); \draw[dashed,black!50] (6,-0.1)--(6,-1.45);
+\draw[<->] (3,-1.3)--node[below]{$\lambda$}(6,-1.3);
+\draw[vek,rod] (6.9,-1.3)--(8.5,-1.3) node[below]{$\vec v$};
+\draw[<->,thick,gronn] (0.6,-1.3)--(1.4,-1.3);
+\node[below,gronn] at (1.0,-1.4) {partiklene};
+\end{tikzpicture}

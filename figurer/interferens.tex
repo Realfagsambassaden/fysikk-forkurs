@@ -1,0 +1,22 @@
+\begin{tikzpicture}[scale=0.85]
+% konstruktiv
+\begin{scope}
+\node[above] at (2,2.6) {i fase: forsterking};
+\draw[black!40] (0,0)--(4,0);
+\draw[thick,bla,domain=0:4,samples=80] plot (\x,{0.6*sin(180*\x)});
+\draw[thick,dashed,rod,domain=0:4,samples=80] plot (\x,{0.6*sin(180*\x)+0.05});
+\draw[black!40] (0,-2.4)--(4,-2.4);
+\draw[very thick,domain=0:4,samples=80] plot (\x,{-2.4+1.2*sin(180*\x)});
+\node at (2,-0.95) {$+$}; \node at (2,-1.2) {$\Downarrow$};
+\end{scope}
+% destruktiv
+\begin{scope}[xshift=6cm]
+\node[above] at (2,2.6) {i motfase: utslokking};
+\draw[black!40] (0,0)--(4,0);
+\draw[thick,bla,domain=0:4,samples=80] plot (\x,{0.6*sin(180*\x)});
+\draw[thick,dashed,rod,domain=0:4,samples=80] plot (\x,{-0.6*sin(180*\x)});
+\draw[black!40] (0,-2.4)--(4,-2.4);
+\draw[very thick] (0,-2.4)--(4,-2.4);
+\node at (2,-0.95) {$+$}; \node at (2,-1.2) {$\Downarrow$};
+\end{scope}
+\end{tikzpicture}
