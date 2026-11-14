@@ -1,0 +1,11 @@
+\begin{tikzpicture}[scale=1.0]
+\fill (0,0) circle (3pt) node[left=3pt]{kilde};
+\draw[dashed,black!50] (0,0)--(3,1.0) (0,0)--(3,-1.0) (0,0)--(6,2.0) (0,0)--(6,-2.0);
+\draw[thick,fill=black!10] (3,-1.0)--(3,1.0)--(3.25,1.25)--(3.25,-0.75)--cycle;
+\draw[thick,fill=black!10] (6,-2.0)--(6,2.0)--(6.5,2.5)--(6.5,-1.5)--cycle;
+\draw[black!50] (6,0)--(6.5,0.5) (6.25,-1.75)--(6.25,2.25);
+\draw[<->] (0,-2.6)--node[below]{$r$}(3,-2.6);
+\draw[<->] (0,-3.2)--node[below]{$2r$}(6,-3.2);
+\node[above] at (3.1,1.3) {areal $a$};
+\node[above] at (6.25,2.55) {areal $4a$};
+\end{tikzpicture}
