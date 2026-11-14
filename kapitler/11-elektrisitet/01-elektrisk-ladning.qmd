@@ -7,6 +7,10 @@ undertema: ladning
 <!-- video: kommer (videoer/fysikk-forkurs/11-01-elektrisk-ladning) -->
 ![Video kommer](../../bilder/video-kommer.png){fig-alt="Video kommer"}
 
+Elektrisitet og magnetisme er to sider av samme sak: elektromagnetismen, én av de fire grunnleggende kreftene i universet. Denne videoen gir en introduksjon:
+
+{{< video https://www.youtube.com/watch?v=aBr6tw3pTXg >}}
+
 ::: {.callout-tip title="Til ettertanke"}
 Du gnir en ballong mot genseren din, og etterpå kan ballongen henge fast i taket. Hva er det som har skjedd?
 :::

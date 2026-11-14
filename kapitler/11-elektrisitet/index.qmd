@@ -11,6 +11,10 @@ Lyset i rommet, mobilen i lomma og elbilen i garasjen virker alle fordi elektris
 
 :::
 
+Elektromagnetismen er én av de fire grunnleggende kreftene i universet. Videoen gir en introduksjon:
+
+{{< video https://www.youtube.com/watch?v=aBr6tw3pTXg >}}
+
 ::: {.spm}
 [Spørsmål vi jobber med i dette kapitlet]{.spm-tittel}
 
