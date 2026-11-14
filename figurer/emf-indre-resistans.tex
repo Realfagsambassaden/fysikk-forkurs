@@ -1,0 +1,9 @@
+\begin{tikzpicture}
+\draw[dashed,rounded corners,black!60] (-0.9,0.4) rectangle (0.9,4.0);
+\node[black!60,right] at (0.9,0.8) {\small batteriet};
+\draw (0,0.2) to[battery1,invert,l=$\mathcal{E}$] (0,2.2) to[R,l=$r$] (0,3.6);
+\draw (0,3.6) -- (0,4.4) -- (3.4,4.4) to[R,l=$R$] (3.4,0) -- (0,0) -- (0,0.2);
+\fill (0,4.4) circle (2pt) (0,0) circle (2pt);
+\draw[<->,gronn,thick] (-1.4,0.05) -- node[left]{$U$} (-1.4,4.35);
+\draw[->,very thick,rod] (0.8,4.75) -- (2.0,4.75) node[midway,above]{$I$};
+\end{tikzpicture}

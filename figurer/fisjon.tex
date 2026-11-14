@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+\fill[black!55] (-3.2,0) circle (0.12); \node[below,font=\small] at (-3.2,-0.15) {n};
+\draw[->,thick] (-3.0,0) -- (-1.4,0);
+\shade[ball color=rod!50] (-0.6,0) circle (0.7); \node at (-0.6,0) {\small U-235};
+\draw[->,thick] (0.3,0) -- (1.1,0);
+\shade[ball color=rod!40] (1.9,0) ellipse (0.8 and 0.55); \node at (1.9,0) {\small U-236};
+\draw[->,thick] (2.8,0.2) -- (3.8,0.9); \draw[->,thick] (2.8,-0.2) -- (3.8,-0.9);
+\shade[ball color=bla!40] (4.4,1.1) circle (0.5); \node at (4.4,1.1) {\small Ba};
+\shade[ball color=gronn!40] (4.4,-1.1) circle (0.45); \node at (4.4,-1.1) {\small Kr};
+\foreach \a in {-25,0,25} { \draw[->,thick] (2.85,0) -- ++(\a:1.7); \fill[black!55] ($(2.85,0)+(\a:1.85)$) circle (0.12); }
+\node[right,font=\small,align=left] at (4.9,0) {3 nye nøytroner\\ + ca. 200 MeV};
+\end{tikzpicture}

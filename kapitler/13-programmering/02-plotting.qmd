@@ -2,19 +2,150 @@
 title: "Plotting av data og funksjoner"
 tema: programmering
 undertema: plotting
-plassholder: true
 ---
 
 <!-- tillegg: Claude -->
-::: {.callout-note title="Kommer snart"}
-Her kommer stoff om å tegne grafer av målinger og modeller. Temaet hører til forkursnivået og fylles ut snart.
+En graf viser sammenhenger som er vanskelige å se i en tabell. Med biblioteket `matplotlib` lager vi grafer av både funksjoner og målinger. Se også *funksjoner og plotting* i matematikkapitlet.
+
+## Plotte en funksjon
+
+<!-- tillegg: Claude -->
+Oppskriften er alltid den samme: lag mange $x$-verdier med `np.linspace`, regn ut $y$-verdiene, og tegn med `plt.plot`. Husk aksetitler med enheter.
+
+```{.python .kjor}
+import numpy as np
+import matplotlib.pyplot as plt
+
+v0, g = 15.0, 9.81                     # startfart opp (m/s)
+t = np.linspace(0, 3.06, 200)          # tid (s)
+y = v0*t - 0.5*g*t**2                  # høyde (m)
+v = v0 - g*t                           # fart (m/s)
+
+plt.plot(t, y, label="høyde $y$ (m)")
+plt.plot(t, v, label="fart $v$ (m/s)")
+plt.axhline(0, color="gray", lw=0.8)
+plt.xlabel("tid $t$ (s)")
+plt.legend(); plt.grid(); plt.title("Ball kastet rett opp")
+plt.show()
+```
+
+<!-- tillegg: Claude -->
+Legg merke til at farten er null akkurat når høyden er størst, og at farten er negativ på vei ned.
+
+## Plotte måledata
+
+<!-- tillegg: Claude -->
+Målinger tegner vi som **punkter**, ikke som en sammenhengende linje – vi vet jo ikke hva som skjer mellom målingene. Usikkerheten kan vises med feilstolper.
+
+```{.python .kjor}
+import numpy as np
+import matplotlib.pyplot as plt
+
+L = np.array([0.20, 0.40, 0.60, 0.80, 1.00])        # pendellengde (m)
+T = np.array([0.91, 1.26, 1.56, 1.79, 2.02])        # målt periode (s)
+dT = 0.03                                           # usikkerhet (s)
+
+plt.errorbar(L, T, yerr=dT, fmt="o", capsize=4, label="målinger")
+plt.xlabel("lengde $L$ (m)"); plt.ylabel("periode $T$ (s)")
+plt.legend(); plt.grid(); plt.show()
+```
+
+## Modell mot måling
+
+<!-- tillegg: Claude -->
+Teorien for en pendel sier at $T = 2\pi\sqrt{L/\mathrm{g}}$. Stemmer målingene? Vi tegner modellen som en linje oppå målepunktene.
+
+```{.python .kjor}
+import numpy as np
+import matplotlib.pyplot as plt
+
+L = np.array([0.20, 0.40, 0.60, 0.80, 1.00])
+T = np.array([0.91, 1.26, 1.56, 1.79, 2.02])
+g = 9.81
+
+Lm = np.linspace(0, 1.1, 200)
+plt.plot(L, T, "o", label="målinger")
+plt.plot(Lm, 2*np.pi*np.sqrt(Lm/g), label=r"modell $T = 2\pi\sqrt{L/g}$")
+plt.xlabel("lengde $L$ (m)"); plt.ylabel("periode $T$ (s)")
+plt.legend(); plt.grid(); plt.show()
+```
+
+<!-- tillegg: Claude -->
+Et triks: Når modellen er en kurve, kan vi ofte gjøre den om til en **rett linje**. Her er $T^2 = \dfrac{4\pi^2}{\mathrm{g}}L$. Plotter vi $T^2$ mot $L$, får vi en rett linje gjennom origo med stigningstall $4\pi^2/\mathrm{g}$. Da kan vi *finne* $\mathrm{g}$ fra målingene:
+
+```{.python .kjor}
+import numpy as np
+import matplotlib.pyplot as plt
+
+L = np.array([0.20, 0.40, 0.60, 0.80, 1.00])
+T = np.array([0.91, 1.26, 1.56, 1.79, 2.02])
+
+a, b = np.polyfit(L, T**2, 1)            # rett linje T^2 = a*L + b
+g = 4*np.pi**2/a
+print(f"stigningstall a = {a:.3f} s^2/m  ->  g = {g:.2f} m/s^2")
+
+plt.plot(L, T**2, "o", label="målinger")
+plt.plot(L, a*L + b, label="tilpasset linje")
+plt.xlabel("$L$ (m)"); plt.ylabel("$T^2$ (s$^2$)"); plt.legend(); plt.grid(); plt.show()
+```
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Harmonisk svingning"}
+<!-- tillegg: Claude -->
+Plott $x(t) = 0.10\cos(2\pi t/0.80)$ for $0 \le t \le 2.4\ \mathrm{s}$, med enheter på aksene. Hvor mange hele svingninger ser du?
+
+::: {.losning}
+```{.python .kjor}
+import numpy as np
+import matplotlib.pyplot as plt
+t = np.linspace(0, 2.4, 400)
+x = 0.10*np.cos(2*np.pi*t/0.80)
+plt.plot(t, x); plt.xlabel("$t$ (s)"); plt.ylabel("$x$ (m)"); plt.grid(); plt.show()
+```
+Perioden er $0.80\ \mathrm{s}$, så det blir **3 hele svingninger**.
+:::
 :::
 
-## Dette kommer på siden
+::: {.oppgave tittel="Ohms lov fra målinger" niva="Middels"}
+<!-- tillegg: Claude -->
+Du har målt spenning og strøm over en motstand: $U = 0, 2.0, 4.0, 6.0, 8.0\ \mathrm{V}$ og $I = 0, 0.042, 0.081, 0.125, 0.164\ \mathrm{A}$. Plott $U$ mot $I$ som punkter, tilpass en rett linje, og finn resistansen.
 
-::: {.kort}
-- **Plotte en funksjon** For eksempel posisjonen $s(t)$.
-- **Plotte måledata** Med punkter og akser med enheter.
-- **Modell mot måling** Å sammenligne en modell med det vi har målt.
-- **Kode du kan kjøre** Direkte på siden.
+::: {.losning}
+```{.python .kjor}
+import numpy as np
+import matplotlib.pyplot as plt
+I = np.array([0, 0.042, 0.081, 0.125, 0.164])
+U = np.array([0, 2.0, 4.0, 6.0, 8.0])
+a, b = np.polyfit(I, U, 1)
+print(f"R = {a:.0f} ohm")
+plt.plot(I, U, "o"); plt.plot(I, a*I + b)
+plt.xlabel("$I$ (A)"); plt.ylabel("$U$ (V)"); plt.grid(); plt.show()
+```
+Stigningstallet er resistansen, $R \approx 49\ \mathrm{\Omega}$.
 :::
+:::
+
+::: {.oppgave tittel="Avkjøling" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+En kopp te avkjøles. Temperaturen måles hvert femte minutt: $80$, $66$, $55$, $47$, $41$, $36\ ^\circ\mathrm{C}$. Romtemperaturen er $20\ ^\circ\mathrm{C}$. Newtons avkjølingslov sier at $T - 20 = 60\,\mathrm{e}^{-kt}$. Plott $\ln(T-20)$ mot $t$, finn $k$ fra stigningstallet, og tegn modellen sammen med målingene.
+
+::: {.losning}
+```{.python .kjor}
+import numpy as np
+import matplotlib.pyplot as plt
+t = np.array([0, 5, 10, 15, 20, 25])            # min
+T = np.array([80, 66, 55, 47, 41, 36])          # grader C
+a, b = np.polyfit(t, np.log(T - 20), 1)
+k = -a
+print(f"k = {k:.3f} per minutt")
+tm = np.linspace(0, 40, 200)
+plt.plot(t, T, "o", label="målinger")
+plt.plot(tm, 20 + np.exp(b)*np.exp(-k*tm), label="modell")
+plt.xlabel("$t$ (min)"); plt.ylabel("$T$ (°C)"); plt.legend(); plt.grid(); plt.show()
+```
+Vi får $k \approx 0.053\ \mathrm{min^{-1}}$.
+:::
+:::
+
+::::
