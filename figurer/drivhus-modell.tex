@@ -1,0 +1,21 @@
+\begin{tikzpicture}[scale=1.0,font=\small]
+% bakken og atmosfæren
+\fill[pattern=north east lines,pattern color=black!40] (0,-0.35) rectangle (10,0);
+\draw[thick] (0,0)--(10,0);
+\node[below right] at (0,-0.4) {jordoverflaten, $T_{\text{s}}$};
+\fill[black!8] (0,2.2) rectangle (10,3.2);
+\draw[thick,dashed] (0,2.2)--(10,2.2); \draw[thick,dashed] (0,3.2)--(10,3.2);
+\node[right] at (10.05,2.7) {atmosfæren, $T_{\text{a}}$};
+% sollys inn og reflektert
+\draw[vek,bla] (0.8,5.0)--(2.0,0.05);
+\node[above,align=center] at (0.8,5.0) {sollys\\ (synlig)};
+\draw[vek,bla,dashed] (2.0,0.05)--(3.1,4.6) node[above,align=center]{reflektert\\ (30 \%)};
+% IR fra bakken
+\draw[vek,rod,decorate,decoration={snake,amplitude=1.2pt,segment length=6pt,post length=3mm}] (5.0,0.05)--(5.0,2.25);
+\node[right,align=left] at (5.05,1.15) {IR fra bakken};
+% IR fra atmosfæren opp og ned
+\draw[vek,rod,decorate,decoration={snake,amplitude=1.2pt,segment length=6pt,post length=3mm}] (7.6,3.2)--(7.6,4.8);
+\node[above] at (7.6,4.8) {IR ut i rommet};
+\draw[vek,rod,decorate,decoration={snake,amplitude=1.2pt,segment length=6pt,post length=3mm}] (8.6,2.2)--(8.6,0.05);
+\node[right,align=left] at (8.65,1.15) {IR tilbake\\ ned};
+\end{tikzpicture}
