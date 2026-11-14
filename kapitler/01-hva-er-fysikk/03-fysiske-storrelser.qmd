@@ -68,17 +68,17 @@ Tabellen viser SI-enhetene og de naturkonstantene som bestemmer dem.
 
 | **Måleenhet** | **Symbol** | **Fysisk størrelse** | **Bestemt av (naturkonstant)** | **Symbol** | **Verdi (eksakt)** |
 |:---|:--:|:---|:---|:--:|:---|
-| Sekund | s | Tid | Cesium-frekvens (hyperfin overgang) | $\Delta\nu_{Cs}$ | $9\,192\,631\,770\ \text{Hz}$ |
-| Meter | m | Avstand | Lyshastigheten i vakuum | $c$ | $299\,792\,458\ \text{m/s}$ |
-| Kilogram | kg | Masse | Plancks konstant | $h$ | $6.626\,070\,15\cdot10^{-34}\ \text{J\,s}$ |
-| Ampere | A | Elektrisk strøm | Elementærladning | $e$ | $1.602\,176\,634\cdot10^{-19}\ \text{C}$ |
-| Kelvin | K | Temperatur | Boltzmanns konstant | $k_B$ | $1.380\,649\cdot10^{-23}\ \text{J\,K}^{-1}$ |
-| Mol | mol | Stoffmengde | Avogadros konstant | $N_A$ | $6.022\,140\,76\cdot 10^{23}\ \text{mol}^{-1}$ |
-| Candela | cd | Lys-intensitet | Luminøs effektivitet | $K_{cd}$ | $683\ \text{lm\,W}^{-1}$ |
+| Sekund | s | Tid | Cesium-frekvens (hyperfin overgang) | $\Delta\nu_{\mathrm{Cs}}$ | $9192631770\ \mathrm{Hz}$ |
+| Meter | m | Avstand | Lyshastigheten i vakuum | $\mathrm{c}$ | $299792458\ \mathrm{m/s}$ |
+| Kilogram | kg | Masse | Plancks konstant | $\mathrm{h}$ | $6.62607015\cdot10^{-34}\ \mathrm{J\,s}$ |
+| Ampere | A | Elektrisk strøm | Elementærladning | $\mathrm{e}$ | $1.602176634\cdot10^{-19}\ \mathrm{C}$ |
+| Kelvin | K | Temperatur | Boltzmanns konstant | $\mathrm{k_B}$ | $1.380649\cdot10^{-23}\ \mathrm{J\,K}^{-1}$ |
+| Mol | mol | Stoffmengde | Avogadros konstant | $\mathrm{N_A}$ | $6.02214076\cdot 10^{23}\ \mathrm{mol}^{-1}$ |
+| Candela | cd | Lys-intensitet | Luminøs effektivitet | $K_{\mathrm{cd}}$ | $683\ \mathrm{lm\,W}^{-1}$ |
 
 : SI-enhetene og de naturkonstantene som definerer dem (2018-definisjonen). Fargede navn markerer de mest sentrale på forkursnivå.
 
-Enhetene er én sak. Men hvem bestemmer nøyaktig hvor mye 1 kilogram er? Frem til 2018 var dette bestemt av en godt bevoktet prototype; en kilogram-standard innelåst i et hvelv i Paris. Å basere seg på slike prototyper blir selvsagt både sårbart og til syvende og sist noe vilkårlig. Generalforsamlingen for mål og vekt vedtok derfor at SI-systemet ikke lenger skal definires ut ifra menneskeskapte prototyper, slik som gullstandarden for 1 kg i Paris. Fra 20.mai 2019 har enhetene i stedet vært definert ut ifra naturkonstanter, som vist i høyre del av Tabellen. En skjematisk oppsummering av sammenhengen er gitt i Figuren. Naturkonstanter er størrelser vi mener er universelle, og som vi kan anta er de samme overalt i universet. Dette gjør at SI-enhetene er universelle, og ikke avhengig av menneskeskapte prototyper. Disse naturkonstantene har nå textitdefinerte verdier! Lyshastigheten er for eksempel nå definert til å være $c = 299\,792\,458\ \text{m/s}$, og dette er en eksakt verdi. Ved å benytte denne naturkonstanten, og et standardisert eksperiment som (i prinsippet) kan gjentas av alle, overalt og til enhver tid så kan man regne seg fram til lengden på en meter. Dermed forsvinner problemet med at en meter kan være forskjellig fra sted til sted, og fra tid til tid. Alle er enige om hvordan man regner ut hvor lang en meter er.
+Enhetene er én sak. Men hvem bestemmer nøyaktig hvor mye 1 kilogram er? Frem til 2018 var dette bestemt av en godt bevoktet prototype; en kilogram-standard innelåst i et hvelv i Paris. Å basere seg på slike prototyper blir selvsagt både sårbart og til syvende og sist noe vilkårlig. Generalforsamlingen for mål og vekt vedtok derfor at SI-systemet ikke lenger skal definires ut ifra menneskeskapte prototyper, slik som gullstandarden for 1 kg i Paris. Fra 20.mai 2019 har enhetene i stedet vært definert ut ifra naturkonstanter, som vist i høyre del av Tabellen. En skjematisk oppsummering av sammenhengen er gitt i Figuren. Naturkonstanter er størrelser vi mener er universelle, og som vi kan anta er de samme overalt i universet. Dette gjør at SI-enhetene er universelle, og ikke avhengig av menneskeskapte prototyper. Disse naturkonstantene har nå *definerte* verdier! Lyshastigheten er for eksempel nå definert til å være $\mathrm{c} = 299792458\ \mathrm{m/s}$, og dette er en eksakt verdi. Ved å benytte denne naturkonstanten, og et standardisert eksperiment som (i prinsippet) kan gjentas av alle, overalt og til enhver tid så kan man regne seg fram til lengden på en meter. Dermed forsvinner problemet med at en meter kan være forskjellig fra sted til sted, og fra tid til tid. Alle er enige om hvordan man regner ut hvor lang en meter er.
 
 :::: figure
 ![](../../bilder/tres/urkilo.png){.kompendium-bilde .foto}
