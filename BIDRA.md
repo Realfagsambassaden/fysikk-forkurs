@@ -1,6 +1,6 @@
 # Slik bidrar du – Realfagsambassaden
 
-Takk for at du vil være med! Her er alt du trenger for å skrive et fag.
+Takk for at du vil være med! Her er alt du trenger for å skrive en lærebok på nettstedet.
 
 ## 1. Tre måter å redigere på
 
@@ -13,7 +13,7 @@ Takk for at du vil være med! Her er alt du trenger for å skrive et fag.
 ## 2. Mappene
 
 ```
-fag.yml                  – navn, nettsted og status for faget
+fag.yml                  – navn, nettsted og status for læreboka
 kapitler/
   01-forste-kapittel/
     index.qmd            – kapittelets forside
@@ -36,7 +36,7 @@ undertema: arbeid
 
 Hvert tema er delt i noen få undertemaer (se `undertemaer` under temaet i tema.yml). Ekstraoppgaver får `undertema: oppgaver`. Sider om samme undertema på ulike nivåer kobles automatisk sammen, og studentene får en knapp for å bytte nivå.
 
-**Nivå** (`forkurs`, `ingenior` eller `fordypning`) settes for hele faget i `fag.yml` i plattformen. En enkelt side kan overstyre med `niva: fordypning` øverst i fila.
+**Nivå** (`forkurs`, `ingenior` eller `fordypning`) settes for hele læreboka i `fag.yml` i plattformen. En enkelt side kan overstyre med `niva: fordypning` øverst i fila.
 
 Gyldige temaer står i [tema.yml i plattformen](https://github.com/Realfagsambassaden/Plattform/blob/main/tema.yml), for eksempel `kinematikk`, `newtons-lover`, `arbeid-og-energi`, `hydrostatikk`, `elektrisk-felt`, `kvantefysikk`. Mangler temaet ditt? Si fra, så legger vi det til.
 

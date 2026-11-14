@@ -1,4 +1,4 @@
-# Sier fra til plattformen at faget er endret, så nettsiden bygges på nytt (tar ca. 3–4 minutter).
+# Sier fra til plattformen at læreboka er endret, så nettsiden bygges på nytt (tar ca. 3–4 minutter).
 name: Oppdater nettsiden
 on:
   push:
