@@ -1,0 +1,19 @@
+\begin{tikzpicture}[scale=1.1]
+% banen gjennom ballen, med stigningstall 0.375 i origo
+\draw[thick,dashed,black!45,domain=-3.2:5.6,samples=40] plot (\x,{0.375*\x-0.09*\x*\x});
+\node[black!60,font=\small] at (4.6,0.2) {bane};
+% fartskomponenter
+\draw[->,thick,dashed] (0,0)--(2.4,0) node[below]{$v_x$};
+\draw[->,thick,dashed] (2.4,0)--(2.4,0.9) node[pos=0.5,right]{$v_y$};
+% fart
+\draw[vek] (0,0)--(2.4,0.9) node[above]{$\vec v$};
+% komponenter av L
+\draw[->,thick,bla,dashed] (0,0)--(-2.0,0) node[pos=0.55,above]{$L_x$};
+\draw[->,thick,bla,dashed] (-2.0,0)--(-2.0,-0.75) node[pos=0.5,left]{$L_y$};
+% luftmotstand motsatt farten
+\draw[vek,bla] (0,0)--(-2.0,-0.75) node[below]{$\vec L$};
+% tyngde
+\draw[vek,rod] (0,0)--(0,-1.9) node[below]{$\vec G = m\vec{\mathrm{g}}$};
+% ballen
+\fill[black!20] (0,0) circle (0.2); \draw[thick] (0,0) circle (0.2);
+\end{tikzpicture}
