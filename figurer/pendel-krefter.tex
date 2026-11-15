@@ -1,0 +1,23 @@
+\begin{tikzpicture}[scale=1.2]
+\def\L{3.4}\def\th{32}
+% oppheng
+\fill[pattern=north east lines] (-1,0) rectangle (1,0.18); \draw[thick] (-1,0)--(1,0);
+% loddlinje og bue
+\draw[dashed,black!50] (0,0)--(0,-\L-0.3);
+\draw[dashed,black!50] ({-\L*sin(40)},{-\L*cos(40)}) arc[start angle=-130,end angle=-50,radius=\L];
+% snor
+\coordinate (P) at ({\L*sin(\th)},{-\L*cos(\th)});
+\draw[thick] (0,0)--(P) node[pos=0.2,right]{$L$};
+% vinkel
+\draw (0,-0.9) arc[start angle=-90,end angle={-90+\th},radius=0.9];
+\node at ({0.2},{-1.15}) {$\theta$};
+% tyngde og komponenter
+\draw[vek,rod] (P)--++(0,-1.9) node[below]{$m\mathrm{g}$};
+\draw[->,thick,rod,dashed] (P)--++({-1.9*sin(\th)*cos(\th)},{-1.9*sin(\th)*sin(\th)}) node[below left]{$m\mathrm{g}\sin\theta$};
+\draw[->,thick,rod,dashed] (P)--++({1.9*cos(\th)*sin(\th)},{-1.9*cos(\th)*cos(\th)}) node[right]{$m\mathrm{g}\cos\theta$};
+% snorkraft
+\draw[vek] (P)--++({-1.5*sin(\th)},{1.5*cos(\th)}) node[right]{$S$};
+\fill (P) circle (0.13);
+% buelengde
+\node[black!60] at (-1.9,-3.25) {$s = L\theta$};
+\end{tikzpicture}
