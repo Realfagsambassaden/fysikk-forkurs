@@ -54,7 +54,7 @@ Gjennomsnittsakselerasjonen over et tidsintervall $\Delta t$ er definert som end
 ::: {.callout-note title="Definisjon: Momentanakselerasjon"}
 
 Momentanakselerasjonen er grenseverdien av gjennomsnittsakselerasjonen når $\Delta t \to 0$, det vil si den deriverte av hastighetsvektoren – eller den andrederiverte av posisjonsvektoren – med hensyn til tid: $$\begin{aligned}
-        \vec{a} = \lim_{\Delta t \to 0}\frac{\Delta \vec{v}}{\Delta t} = \frac{d\vec{v}}{dt} = \frac{d^2\vec{s}}{dt^2}
+        \vec{a} = \lim_{\Delta t \to 0}\frac{\Delta \vec{v}}{\Delta t} = \frac{\mathrm{d}\vec{v}}{\mathrm{d}t} = \frac{\mathrm{d}^2\vec{s}}{\mathrm{d}t^2}
 \end{aligned}$$ Akselerasjonen er altså en vektor: den har både størrelse og retning. I figurene og kan vi lese av akselerasjonen som stigningstallet til $v(t)$-kurven.
 
 :::
