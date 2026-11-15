@@ -236,7 +236,7 @@ Momentanhastighet er hastigheten til et objekt på et spesifikt tidspunkt. Det b
 
 Geometrisk kan vi forstå dette ved å betrakte posisjonskurven $s(t)$: gjennomsnittsfarten over intervallet $[t_0,\,t_0+\Delta t]$ er stigningstallet til *sekantlinjen* gjennom punktene $(t_0,\,s(t_0))$ og $(t_0+\Delta t,\,s(t_0+\Delta t))$. Lar vi $\Delta t \to 0$, vil sekantlinjen nærme seg *tangentlinjen* ved $t_0$ (se figuren under). Stigningstallet til tangentlinjen er nettopp den deriverte, og vi skriver: $$v(t_0)
   = \lim_{\Delta t \to 0} \frac{\Delta s}{\Delta t}
-  = \frac{ds}{dt}\bigg|_{t=t_0}$$
+  = \frac{\mathrm{d}s}{\mathrm{d}t}\bigg|_{t=t_0}$$
 
 ::: center
 ![](../../bilder/figurer/k3-08-0296f8da75cd.svg){.tikz-fig style="width:573px"}
@@ -245,7 +245,7 @@ Geometrisk kan vi forstå dette ved å betrakte posisjonskurven $s(t)$: gjennoms
 ::: {.callout-note title="Definisjon: Momentanhastighet"}
 
 Matematisk kan momentanfart finnes ved å ta den deriverte av posisjonen med hensyn til tid: $$\begin{aligned}
-        \vec{v} &= \frac{d\vec{s}}{dt}
+        \vec{v} &= \frac{\mathrm{d}\vec{s}}{\mathrm{d}t}
 \end{aligned}$$ Dette gir oss hastigheten nøyaktig i det øyeblikket vi er interessert i.
 
 :::
@@ -271,7 +271,7 @@ Posisjonen til en firhjuling på et jorde er gitt ved $\vec{s}(t) = (2t^2, 3t)$ 
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-a)  Vi deriverer hver komponent for seg med potensregelen $\frac{d}{dt}(t^n) = nt^{n-1}$: $$\vec{v}(t) = \left(\frac{d}{dt}(2t^2),\ \frac{d}{dt}(3t)\right) = (4t,\ 3)
+a)  Vi deriverer hver komponent for seg med potensregelen $\frac{\mathrm{d}}{\mathrm{d}t}(t^n) = nt^{n-1}$: $$\vec{v}(t) = \left(\frac{\mathrm{d}}{\mathrm{d}t}(2t^2),\ \frac{\mathrm{d}}{\mathrm{d}t}(3t)\right) = (4t,\ 3)
           \quad\checkmark$$
 
 b)  Vi setter inn $t = 2\,\mathrm{s}$: $$\vec{v}(2) = (4\cdot 2,\ 3) = \underline{\underline{(8,\ 3)\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
@@ -293,7 +293,7 @@ c)  Ved hvilken tid er momentanfarten $v = 20\,\mathrm{m}\,\mathrm{s}^{-1}$?
 
 ::: {.losning}
 
-**a)** Momentanfarten er den deriverte av posisjonen med hensyn til tid (se *Momentanhastighet*), $v(t) = ds/dt$. Vi deriverer $s(t) = 3t^2+2t$ ledd for ledd med potensregelen $\frac{d}{dt}(t^n) = nt^{n-1}$: $$v(t) = \frac{d}{dt}\left(3t^2\right) + \frac{d}{dt}\left(2t\right) = 2\cdot 3t + 2 = \underline{\underline{6t+2}} \quad\checkmark$$
+**a)** Momentanfarten er den deriverte av posisjonen med hensyn til tid (se *Momentanhastighet*), $v(t) = \mathrm{d}s/\mathrm{d}t$. Vi deriverer $s(t) = 3t^2+2t$ ledd for ledd med potensregelen $\frac{\mathrm{d}}{\mathrm{d}t}(t^n) = nt^{n-1}$: $$v(t) = \frac{\mathrm{d}}{\mathrm{d}t}\left(3t^2\right) + \frac{\mathrm{d}}{\mathrm{d}t}\left(2t\right) = 2\cdot 3t + 2 = \underline{\underline{6t+2}} \quad\checkmark$$
 
 **b)** Vi setter inn $t=2\,\mathrm{s}$: $$v(2) = 6\cdot 2 + 2 = \underline{\underline{14\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
 
@@ -305,7 +305,7 @@ c)  Ved hvilken tid er momentanfarten $v = 20\,\mathrm{m}\,\mathrm{s}^{-1}$?
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-a)  Vi deriverer $s(t) = 3t^2 + 2t$ ledd for ledd med potensregelen $\frac{d}{dt}(t^n) = nt^{n-1}$: $$v(t) = \frac{ds}{dt} = 3 \cdot 2t^{2-1} + 2 \cdot 1 = 6t + 2\,\mathrm{m}\,\mathrm{s}^{-1}
+a)  Vi deriverer $s(t) = 3t^2 + 2t$ ledd for ledd med potensregelen $\frac{\mathrm{d}}{\mathrm{d}t}(t^n) = nt^{n-1}$: $$v(t) = \frac{\mathrm{d}s}{\mathrm{d}t} = 3 \cdot 2t^{2-1} + 2 \cdot 1 = 6t + 2\,\mathrm{m}\,\mathrm{s}^{-1}
           \quad\checkmark$$
 
 b)  Vi setter inn $t = 2\,\mathrm{s}$: $$v(2) = 6 \cdot 2 + 2 = 12 + 2 = \underline{\underline{14\,\mathrm{m}\,\mathrm{s}^{-1}}}$$

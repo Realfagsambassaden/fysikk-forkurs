@@ -102,7 +102,8 @@ Usikkerheten er selv et anslag, så det gir ingen mening å oppgi den med mange 
 3. **Skriv enheten** etter en parentes rundt begge, og bruk gjerne prefiks eller standardform.
 :::
 
-En kalkulator kan gi $g = 9.8147\ \mathrm{m/s^2}$ med usikkerhet $0.0234\ \mathrm{m/s^2}$. Usikkerheten rundes til $0.02$, altså hundredeler, og da rundes verdien også til hundredeler: $\mathrm{g} = (9.81 \pm 0.02)\ \mathrm{m/s^2}$.
+<!-- tillegg: Claude: notasjon, g oppreist -->
+En kalkulator kan gi $\mathrm{g} = 9.8147\ \mathrm{m/s^2}$ med usikkerhet $0.0234\ \mathrm{m/s^2}$. Usikkerheten rundes til $0.02$, altså hundredeler, og da rundes verdien også til hundredeler: $\mathrm{g} = (9.81 \pm 0.02)\ \mathrm{m/s^2}$.
 
 ::: {.callout-tip title="Sammenhengen med gjeldende siffer"}
 Når vi skriver et tall uten usikkerhet, viser antall gjeldende siffer hvor nøyaktig det er. Det siste sifferet er det usikre. Skriver vi $24.5\ \mathrm{cm}$, mener vi at lengden er nærmere $24.5$ enn $24.4$ og $24.6$, altså omtrent $(24.5 \pm 0.1)\ \mathrm{cm}$ eller bedre. Regnereglene for gjeldende siffer er en grov måte å holde styr på usikkerheten på uten å regne den ut.

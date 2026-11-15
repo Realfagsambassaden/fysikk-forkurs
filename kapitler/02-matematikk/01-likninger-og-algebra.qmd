@@ -19,7 +19,7 @@ Jakob Ingebrigtsen er ute og løper. Han løper $s_1 = 5.0\,\mathrm{km}$ på $t_
 ::: {.losning}
 **Løsning:** Gjennomsnittsfart $\bar{v}$ er også et begrep vi ikke har lært ennå, men det er rett fram, og de fleste kjenner det intuitivt igjen fra erfaring: $$\bar{v} = \frac{\text{total strekning}}{\text{total tid}}.$$ Vi må derfor finne total strekning og total tid før vi kan regne ut gjennomsnittsfarten.
 
-Først finner vi total strekning og total tid: $$s_{\text{total}} = s_1 + s_2 = 5.0\,\mathrm{km} + 4.0\,\mathrm{km} = 9.0\,\mathrm{km},$$ $$t_{\text{total}} = t_1 + t_2 = 20\,\mathrm{min} + 18\,\mathrm{min} = 38\,\mathrm{min}.$$ Gjennomsnittsfarten er da: $$\bar{v} = \frac{s_{\text{total}}}{t_{\text{total}}} = \frac{9.0\,\mathrm{km}}{38\,\mathrm{min}} = 0.237\,\mathrm{km}\,\mathrm{min}^{-1} \approx \underline{\underline{0.24\,\mathrm{km}\,\mathrm{min}^{-1}}}.$$ I $\mathrm{m}\,\mathrm{s}^{-1}$ blir dette $$\bar{v} = 0.237\cdot\frac{1\,000\,\mathrm{m}}{60\,\mathrm{s}} = 3.95\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{3.9\,\mathrm{m}\,\mathrm{s}^{-1}}}.$$ Greier du å gjøre dette om til km/t?
+Først finner vi total strekning og total tid: $$s_{\text{total}} = s_1 + s_2 = 5.0\,\mathrm{km} + 4.0\,\mathrm{km} = 9.0\,\mathrm{km},$$ $$t_{\text{total}} = t_1 + t_2 = 20\,\mathrm{min} + 18\,\mathrm{min} = 38\,\mathrm{min}.$$ Gjennomsnittsfarten er da: $$\bar{v} = \frac{s_{\text{total}}}{t_{\text{total}}} = \frac{9.0\,\mathrm{km}}{38\,\mathrm{min}} = 0.237\,\mathrm{km}\,\mathrm{min}^{-1} \approx \underline{\underline{0.24\,\mathrm{km}\,\mathrm{min}^{-1}}}.$$ I $\mathrm{m}\,\mathrm{s}^{-1}$ blir dette $$\bar{v} = 0.237\cdot\frac{1000\,\mathrm{m}}{60\,\mathrm{s}} = 3.95\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{3.9\,\mathrm{m}\,\mathrm{s}^{-1}}}.$$ Greier du å gjøre dette om til km/t?
 :::
 :::
 
@@ -28,10 +28,11 @@ Et annet eksempel kan være Newtons 2. lov, som gir sammenhengen mellom det vi k
 ::: {.eksempel}
 [Eksempel: Løse for akselerasjon $a$]{.eks-tittel}
 
-Newtons 2. lov sier $F = m \cdot a$. En bil med masse $m = 1\,200\,\mathrm{kg}$ utsettes for en kraft $F = 4\,800\,\mathrm{N}$. Finn akselerasjonen $a$.
+<!-- tillegg: Claude: notasjon, tusenskille fjernet (1 200 kg → 1.2·10³ kg, 4 800 N → 4.8 kN, 1 000 m → 1000 m) -->
+Newtons 2. lov sier $F = m \cdot a$. En bil med masse $m = 1.2\cdot10^3\,\mathrm{kg}$ utsettes for en kraft $F = 4.8\,\mathrm{kN}$. Finn akselerasjonen $a$.
 
 ::: {.losning}
-**Løsning:** Del begge sider på $m$: $$a = \frac{F}{m} = \frac{4\,800\,\mathrm{N}}{1\,200\,\mathrm{kg}} = \underline{\underline{4.0\,\mathrm{m}\,\mathrm{s}^{-2}}}.$$
+**Løsning:** Del begge sider på $m$: $$a = \frac{F}{m} = \frac{4.8\cdot10^3\,\mathrm{N}}{1.2\cdot10^3\,\mathrm{kg}} = \underline{\underline{4.0\,\mathrm{m}\,\mathrm{s}^{-2}}}.$$
 :::
 :::
 
