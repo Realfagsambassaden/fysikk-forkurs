@@ -1,0 +1,12 @@
+\begin{tikzpicture}[xscale=0.033,yscale=0.42]
+\draw[akse] (0,0) -- (250,0) node[right]{$A$};
+\draw[akse] (0,0) -- (0,10.2) node[above]{bindingsenergi per nukleon (MeV)};
+\foreach \y in {2,4,6,8} \draw (0,\y) -- (-3,\y) node[left]{\y};
+\foreach \x in {50,100,150,200} \draw (\x,0) -- (\x,-0.25) node[below]{\x};
+\draw[bla,very thick] plot[smooth] coordinates {(2,1.11) (3,2.6) (4,7.07) (6,5.33) (7,5.6) (12,7.68) (16,7.98) (20,8.03) (28,8.45) (40,8.55) (56,8.79) (80,8.71) (100,8.6) (120,8.51) (150,8.3) (180,8.05) (208,7.87) (238,7.57)};
+\fill (4,7.07) circle (0.9 and 0.08) node[right,font=\small]{He-4};
+\fill (56,8.79) circle (0.9 and 0.08) node[above,font=\small]{Fe-56};
+\fill (238,7.57) circle (0.9 and 0.08) node[above,font=\small]{U-238};
+\draw[->,thick,rod] (15,4.0) -- (45,6.5); \node[rod,font=\small] at (25,3.3) {fusjon};
+\draw[->,thick,rod] (230,5.8) -- (120,6.9); \node[rod,font=\small] at (190,5.2) {fisjon};
+\end{tikzpicture}

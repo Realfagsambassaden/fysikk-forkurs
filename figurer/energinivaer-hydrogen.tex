@@ -1,0 +1,11 @@
+\begin{tikzpicture}[yscale=0.6]
+\foreach \n/\E in {1/-13.6,2/-3.40,3/-1.51,4/-0.85} {
+ \draw[thick] (0,\E) -- (5,\E); \node[left] at (0,\E) {$n=\n$}; \node[right,font=\small] at (5,\E) {$\E\ \mathrm{eV}$};}
+\draw[thick,dashed] (0,0) -- (5,0); \node[right,font=\small] at (5,0) {$0\ \mathrm{eV}$}; \node[left] at (0,0) {$n=\infty$};
+\definecolor{rodl}{RGB}{220,30,30}\definecolor{cyan}{RGB}{0,150,200}
+\draw[->,very thick,rodl] (2.2,-1.51) -- (2.2,-3.40); \node[rodl,font=\small] at (2.2,-4.0) {656 nm};
+\draw[->,very thick,cyan] (3.2,-0.85) -- (3.2,-3.40); \node[cyan,font=\small] at (3.2,-4.6) {486 nm};
+\node[font=\small] at (2.7,-5.4) {synlig lys};
+\draw[->,very thick,black!60] (0.8,-3.40) -- (0.8,-13.6); \node[font=\small,right,black!60] at (0.85,-7) {UV, 122 nm};
+\draw[->,very thick,gronn] (4.3,-13.6) -- (4.3,0); \node[gronn,font=\small,left,align=right] at (4.25,-11) {ionisering\\$13.6\ \mathrm{eV}$};
+\end{tikzpicture}

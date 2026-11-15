@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+\node[circle,fill=black!15,draw,minimum size=0.9cm,font=\small] (k) at (0,0) {kilde};
+\fill[black!10] (2,-1.6) rectangle (2.1,1.6); \node[font=\small,align=center] at (2.05,2.0) {papir};
+\fill[black!30] (3.6,-1.6) rectangle (3.9,1.6); \node[font=\small,align=center] at (3.75,2.0) {aluminium};
+\fill[black!65] (5.6,-1.6) rectangle (6.4,1.6); \node[font=\small,align=center] at (6.0,2.0) {bly};
+\draw[->,very thick,rod] (0.5,0.9) -- (1.95,0.9); \node[rod,left] at (-0.5,0.9) {$\alpha$};
+\draw[->,very thick,bla] (0.5,0) -- (3.55,0); \node[bla,left] at (-0.5,0) {$\beta$};
+\draw[->,very thick,gronn,decorate,decoration={snake,amplitude=1.2pt,segment length=6pt,post length=2mm}] (0.5,-0.9) -- (7.4,-0.9);
+\draw[->,gronn,dashed,thick] (6.45,-0.9) -- (7.4,-0.9);
+\node[gronn,left] at (-0.5,-0.9) {$\gamma$};
+\node[gronn,font=\small,below] at (7.0,-1.0) {svekket};
+\end{tikzpicture}

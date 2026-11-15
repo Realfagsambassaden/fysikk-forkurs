@@ -2,19 +2,172 @@
 title: "Python i fysikk"
 tema: programmering
 undertema: python
-plassholder: true
 ---
 
 <!-- tillegg: Claude -->
-::: {.callout-note title="Kommer snart"}
-Her kommer en første innføring i Python for fysikkoppgaver. Temaet hører til forkursnivået og fylles ut snart.
+Python er et programmeringsspråk som er mye brukt i fysikk og ingeniørfag. Du kan kjøre all koden på denne siden direkte i nettleseren: trykk på kjør-knappen, endre tallene og kjør igjen. Det beste du kan gjøre for å lære, er å endre koden og se hva som skjer.
+
+## Python som kalkulator
+
+<!-- tillegg: Claude -->
+Vi lagrer tall i **variabler** med `=`. Vanlige regnetegn er `+`, `-`, `*`, `/`, og `**` for potens. Store og små tall skrives med `e`: `3.0e8` betyr $3.0\cdot10^{8}$.
+
+```{.python .kjor}
+m = 2.0          # masse (kg)
+v = 3.0          # fart (m/s)
+Ek = 0.5*m*v**2  # kinetisk energi (J)
+print(Ek)
+print(f"Kinetisk energi: {Ek:.1f} J")
+```
+
+<!-- tillegg: Claude -->
+Alt etter `#` er en kommentar, som Python hopper over. Bruk kommentarer til enheter og forklaringer. Linja med `f"..."` er en **f-streng**: Det som står i krøllparenteser, blir byttet ut med verdien. `:.1f` betyr «én desimal», og `:.2e` betyr «standardform med to desimaler».
+
+::: {.eksempel}
+<!-- tillegg: Claude -->
+**Eksempel: Fritt fall.** En stein slippes fra $20\ \mathrm{m}$. Regn ut tiden før den treffer bakken og farten den har da.
+
+::: {.losning}
+Fra $h = \tfrac12\mathrm{g}t^2$ og $v = \mathrm{g}t$:
+
+```{.python .kjor}
+from math import sqrt
+g = 9.81         # m/s^2
+h = 20.0         # m
+t = sqrt(2*h/g)
+v = g*t
+print(f"t = {t:.2f} s,  v = {v:.1f} m/s")
+```
+Svaret blir $t = 2.02\ \mathrm{s}$ og $v = 19.8\ \mathrm{m/s}$. Funksjoner som `sqrt`, `sin` og `pi` henter vi fra biblioteket `math`.
+:::
 :::
 
-## Dette kommer på siden
+## Lister og løkker
 
-::: {.kort}
-- **Variabler og utregninger** Python som en avansert kalkulator.
-- **Lister og løkker** Å gjenta en utregning mange ganger.
-- **Funksjoner** Å lage sin egen formel.
-- **Kode du kan kjøre** Direkte på siden.
+<!-- tillegg: Claude -->
+Ofte vil vi gjøre den samme utregningen mange ganger. Da bruker vi en **løkke**. `for` gjentar koden som er rykket inn under den, én gang for hvert element i en liste:
+
+```{.python .kjor}
+g = 9.81
+hoyder = [5, 10, 20, 50, 100]      # en liste med høyder (m)
+
+for h in hoyder:
+    v = (2*g*h)**0.5               # fart ved bakken, fra energibevaring
+    print(f"h = {h:4} m:  v = {v:5.1f} m/s")
+```
+
+<!-- tillegg: Claude -->
+`range(n)` gir tallene $0, 1, \dots, n-1$, og er nyttig når vi vil telle. En `while`-løkke gjentar så lenge en betingelse er sann:
+
+```{.python .kjor}
+# Hvor mange ganger må vi halvere 1000 for å komme under 1?
+N = 1000
+antall = 0
+while N >= 1:
+    N = N/2
+    antall = antall + 1
+print(antall, "halveringer")
+```
+
+## Funksjoner
+
+<!-- tillegg: Claude -->
+En **funksjon** er en formel vi kan bruke om igjen. Vi lager den med `def`, gir den inndata (argumenter) og bruker `return` for å gi tilbake svaret:
+
+```{.python .kjor}
+def kastelengde(v0, vinkel_grader, g=9.81):
+    """Lengden på et skrått kast fra bakkenivå, uten luftmotstand."""
+    from math import sin, radians
+    return v0**2*sin(2*radians(vinkel_grader))/g
+
+for vinkel in [15, 30, 45, 60, 75]:
+    print(f"{vinkel:2} grader: {kastelengde(20, vinkel):5.1f} m")
+```
+
+<!-- tillegg: Claude -->
+Legg merke til at $30^\circ$ og $60^\circ$ gir samme lengde, og at $45^\circ$ gir lengst kast.
+
+## Regne med mange tall: numpy
+
+<!-- tillegg: Claude -->
+Biblioteket `numpy` lar oss regne med hele lister (kalt **arrays**) på én gang, uten løkke. Det er grunnlaget for plotting og numerikk på de neste sidene.
+
+```{.python .kjor}
+import numpy as np
+t = np.linspace(0, 2, 5)       # 5 tall jevnt fordelt fra 0 til 2
+s = 0.5*9.81*t**2              # regner ut for alle t samtidig
+print(t)
+print(s)
+print("største verdi:", s.max(), " gjennomsnitt:", s.mean())
+```
+
+:::: {.oppgaver}
+
+::: {.oppgave tittel="Omregning"}
+<!-- tillegg: Claude -->
+Skriv et program som regner om en fart fra km/h til m/s, og skriver ut svaret for $50$, $80$ og $110\ \mathrm{km/h}$.
+
+::: {.losning}
+```{.python .kjor}
+for v_kmh in [50, 80, 110]:
+    print(f"{v_kmh} km/h = {v_kmh/3.6:.1f} m/s")
+```
 :::
+:::
+
+::: {.oppgave tittel="Tyngde på planetene"}
+<!-- tillegg: Claude -->
+Tyngdeakselerasjonen er $3.7\ \mathrm{m/s^2}$ på Mars, $24.8\ \mathrm{m/s^2}$ på Jupiter og $1.62\ \mathrm{m/s^2}$ på månen. Lag en funksjon `tyngde(m, g)` og bruk den til å skrive ut tyngden av en person på $70\ \mathrm{kg}$ på jorda og de tre andre stedene.
+
+::: {.losning}
+```{.python .kjor}
+def tyngde(m, g):
+    return m*g
+
+steder = {"jorda": 9.81, "Mars": 3.7, "Jupiter": 24.8, "månen": 1.62}
+for sted, g in steder.items():
+    print(f"{sted:8}: {tyngde(70, g):6.0f} N")
+```
+En `dict` (ordbok) som `steder` kobler navn til verdier.
+:::
+:::
+
+::: {.oppgave tittel="Lengste kast" niva="Middels"}
+<!-- tillegg: Claude -->
+Bruk funksjonen `kastelengde` og en løkke over alle hele vinkler fra $1^\circ$ til $89^\circ$. Finn vinkelen som gir lengst kast, uten å vite svaret på forhånd.
+
+::: {.losning}
+```{.python .kjor}
+from math import sin, radians
+def kastelengde(v0, vinkel, g=9.81):
+    return v0**2*sin(2*radians(vinkel))/g
+
+best_vinkel, best_lengde = 0, 0
+for vinkel in range(1, 90):
+    L = kastelengde(20, vinkel)
+    if L > best_lengde:
+        best_vinkel, best_lengde = vinkel, L
+print(best_vinkel, "grader gir", round(best_lengde, 1), "m")
+```
+Svaret er $45^\circ$ og $40.8\ \mathrm{m}$.
+:::
+:::
+
+::: {.oppgave tittel="Halvering time for time" niva="Utfordrende"}
+<!-- tillegg: Claude -->
+En radioaktiv kilde har aktiviteten $1000\ \mathrm{Bq}$ og halveringstid $6.0$ timer. Bruk en `while`-løkke med tidssteg på $1$ time og finn hvor lang tid det tar før aktiviteten er under $10\ \mathrm{Bq}$. Tips: Hver time ganges aktiviteten med $0.5^{1/6}$.
+
+::: {.losning}
+```{.python .kjor}
+A, t = 1000.0, 0
+faktor = 0.5**(1/6)
+while A >= 10:
+    A = A*faktor
+    t = t + 1
+print(f"Etter {t} timer er aktiviteten {A:.1f} Bq")
+```
+Det tar $40$ timer. (Eksakt: $6.0\cdot\log_2100 = 39.9$ timer.)
+:::
+:::
+
+::::
