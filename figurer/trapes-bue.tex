@@ -1,0 +1,18 @@
+\begin{tikzpicture}[xscale=1.6,yscale=0.022]
+
+% trapeser
+\foreach \a/\fa/\b/\fb [count=\i] in {0/0/1/52, 1/52/2/96, 2/96/3/132, 3/132/4/160, 4/160/5/178}{
+  \pgfmathsetmacro{\g}{mod(\i,2)==0 ? 10 : 20}
+  \fill[black!\g] (\a,0)--(\a,\fa)--(\b,\fb)--(\b,0)--cycle;
+  \draw (\a,0)--(\a,\fa)--(\b,\fb)--(\b,0);
+}
+% glatt kurve gjennom punktene (den ukjente virkelige kraften)
+\draw[thick,dashed] plot[smooth] coordinates {(0,0) (1,52) (2,96) (3,132) (4,160) (5,178)};
+\foreach \x/\y in {0/0,1/52,2/96,3/132,4/160,5/178} \fill (\x,\y) ellipse (1.6pt and 1.6pt);
+% akser
+\draw[akse] (0,0)--(5.6,0) node[right]{$s$ (m)};
+\draw[akse] (0,0)--(0,205) node[above]{$F$ (N)};
+\foreach \x/\l in {1/0.10,2/0.20,3/0.30,4/0.40,5/0.50} \draw (\x,0)--(\x,-4) node[below]{\small $\l$};
+\foreach \y in {50,100,150} \draw (0,\y)--(-0.06,\y) node[left]{\small $\y$};
+\node[font=\small] at (2.5,40) {$\tfrac{F_2 + F_3}{2}\,\Delta s$};
+\end{tikzpicture}
