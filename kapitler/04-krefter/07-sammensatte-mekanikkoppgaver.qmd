@@ -1,7 +1,7 @@
 ---
 title: "Sammensatte mekanikkoppgaver"
 tema: newtons-lover
-undertema: oppgaver
+undertema: sammensatte-problemer
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/04-07-sammensatte-mekanikkoppgaver) -->
