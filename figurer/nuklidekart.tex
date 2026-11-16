@@ -1,0 +1,20 @@
+\begin{tikzpicture}[scale=0.06]
+\draw[akse] (0,0) -- (100,0) node[right] {$Z$};
+\draw[akse] (0,0) -- (0,150) node[above] {$N$};
+\foreach \x in {20,40,60,80} {\draw (\x,1.5) -- (\x,-1.5) node[below,font=\small] {\x};}
+\foreach \y in {20,40,60,80,100,120,140} {\draw (1.5,\y) -- (-1.5,\y) node[left,font=\small] {\y};}
+% N = Z
+\draw[dashed] (0,0) -- (100,100) node[above right,font=\small] {$N=Z$};
+% stabilitetsbeltet
+\fill[black!25] plot[smooth] coordinates {(0,0) (8,11) (20,24) (26,33) (40,54) (50,74) (60,88) (70,108) (80,126) (83,130)}
+  -- plot[smooth] coordinates {(83,123) (80,118) (70,98) (60,80) (50,64) (40,48) (26,27) (20,19) (8,6) (0,0)} -- cycle;
+\draw[very thick] plot[smooth] coordinates {(1,1) (8,8) (20,21) (26,30) (40,51) (50,69) (60,84) (70,103) (80,122) (83,126)};
+\node[font=\small,align=center] at (30,100) {for mange nøytroner\\$\beta^-$};
+
+\node[font=\small,align=center] at (74,45) {for mange protoner\\$\beta^+$};
+
+\node[font=\small,align=center] at (93,140) {for tunge\\$\alpha$};
+\draw[->,thick] (91,133) -- (84,128);
+\node[font=\small,align=center] at (12,52) {stabile\\kjerner};
+\draw[->,thick] (14,44) -- (21,26);
+\end{tikzpicture}
