@@ -1,0 +1,21 @@
+\begin{tikzpicture}[xscale=0.42,yscale=0.9]
+\draw[akse] (0,0) -- (17.5,0) node[right] {$f\ /\ 10^{14}\ \mathrm{Hz}$};
+\draw[akse] (0,-4.6) -- (0,4.8) node[left] {$E_\text{k,maks}\ /\ \mathrm{eV}$};
+\foreach \x in {5,10,15} {\draw (\x,0.08) -- (\x,-0.08) node[below,font=\small] {\x};}
+\foreach \y in {-4,-2,2} {\draw (0.2,\y) -- (-0.2,\y) node[left,font=\small] {$\y$};}
+% natrium: f0 = 5.50, W = 2.28 ; h = 0.4136 eV per 10^14 Hz
+\draw[very thick,bla] (5.50,0) -- (16,{0.4136*16-2.28});
+\draw[dashed,bla] (0,-2.28) -- (5.50,0);
+\node[bla,font=\small,above left] at (14.5,{0.4136*14.5-2.28}) {natrium};
+% sink: f0 = 10.4, W = 4.3
+\draw[very thick,rod] (10.40,0) -- (16,{0.4136*16-4.3});
+\draw[dashed,rod] (0,-4.3) -- (10.40,0);
+\node[rod,font=\small,below right] at (14.2,{0.4136*14.2-4.3}) {sink};
+\node[circle,fill,inner sep=1.6pt] at (5.50,0) {}; \node[font=\small,above left] at (5.5,0) {$f_0$};
+\node[circle,fill,inner sep=1.6pt] at (10.40,0) {}; \node[font=\small,above left] at (10.4,0) {$f_0$};
+\node[font=\small,right] at (0.3,-2.28) {$-W$};
+\node[font=\small,right] at (0.3,-4.3) {$-W$};
+% stigningstall
+\draw[thin] (12,{0.4136*12-2.28}) -- (15,{0.4136*12-2.28}) -- (15,{0.4136*15-2.28});
+\node[font=\small,right] at (15,{0.4136*13.5-2.28}) {stigningstall $\mathrm{h}$};
+\end{tikzpicture}

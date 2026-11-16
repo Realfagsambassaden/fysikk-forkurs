@@ -2,7 +2,7 @@
 title: "Radioaktivitet og stråling"
 tema: atom-og-kjerne
 undertema: radioaktivitet
-aliases: ["02-radioaktivitet-og-straling.html"]
+aliases: ["02-radioaktivitet-og-straling.html", "03-radioaktivitet-og-straling.html"]
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/12-03-radioaktivitet-og-straling) -->
