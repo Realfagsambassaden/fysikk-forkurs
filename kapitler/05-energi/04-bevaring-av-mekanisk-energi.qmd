@@ -24,7 +24,7 @@ Når et legme beveger seg under påvirkning av kun tyngdekraft og/ eller fjærkr
 ::: {.eksempel}
 [Eksempel: Fallende stein]{.eks-tittel}
 
-En person holder en stein på en høyde $1.60 \, \text{m}$ over bakken og slipper den. Vi skal regne ut steinens hastighet rett før den treffer bakken. Vi antar at luftmotstanden er neglisjerbar.
+En person holder en stein på en høyde $1.60 \, \mathrm{m}$ over bakken og slipper den. Vi skal regne ut steinens hastighet rett før den treffer bakken. Vi antar at luftmotstanden er neglisjerbar.
 
 ::: center
 ![](../../bilder/figurer/k5-06-331a6a904aa2.svg){.tikz-fig style="width:315px"}
@@ -33,17 +33,18 @@ En person holder en stein på en høyde $1.60 \, \text{m}$ over bakken og slippe
 :::
 
 ::: {.losning}
+<!-- tillegg: Claude: notasjon, g = 9.8 → 9.81 i eksemplene på siden, mellomregninger regnet om; svarene uendret -->
 *Metode:*\
 Når steinen slippes, har den ingen startfart, så det er ingen kinetisk energi i systemet ved start. Den har kun potensiell energi på grunn av høyden over bakken. Vi setter nullpunktet for høyden til bakkenivå, slik at høyden $h = 0$ rett før steinen treffer bakken. På dette tidspunktet er den potensielle energien null, og all energien er omformet til kinetisk energi.
 
-Vi bruker bevaring av mekanisk energi, som sier at total energien før og etter fallet er den samme: $$E_{\text{før}} = E_{\text{etter}}$$ I starten har steinen potensiell energi, men ingen kinetisk energi. Den totale energien i starten kan skrives som: $$m\mathrm{g}h_1 + \frac{1}{2} m v_1^2 = m\mathrm{g}h_2 + \frac{1}{2} m v_2^2$$ Siden steinen slippes uten startfart, er hastigheten ved starten $v_1 = 0$, og dermed er det ingen kinetisk energi i starten: $$m\mathrm{g}h_1 + \frac{1}{2} m \cdot 0^2 = m\mathrm{g}h_2 + \frac{1}{2} m v_2^2$$ Rett før steinen treffer bakken, er høyden $h_2 = 0$, og dermed er det ingen potensiell energi på dette tidspunktet: $$m\mathrm{g}h_1 + 0 = 0 + \frac{1}{2} m v_2^2$$ Vi kan nå stryke massen $m$ fra begge sider av likningen: $$\mathrm{g}h_1 = \frac{1}{2} v_2^2$$ Løs for hastigheten $v_2$: $$v_2 = \sqrt{2\mathrm{g}h_1}$$ Ved å sette inn verdiene $\mathrm{g} = 9.8 \, \text{m/s}^2$ og $h_1 = 1.60 \, \text{m}$, får vi: $$v_2 = \sqrt{2 \cdot 9.8 \, \text{m/s}^2 \cdot 1.60 \, \text{m}} = \sqrt{31.36} \approx \underline{\underline{5.6 \, \text{m/s}}}$$ Steinen har en hastighet på $5.6 \, \text{m/s}$ rett før den treffer bakken.
+Vi bruker bevaring av mekanisk energi, som sier at total energien før og etter fallet er den samme: $$E_{\text{før}} = E_{\text{etter}}$$ I starten har steinen potensiell energi, men ingen kinetisk energi. Den totale energien i starten kan skrives som: $$m\mathrm{g}h_1 + \frac{1}{2} m v_1^2 = m\mathrm{g}h_2 + \frac{1}{2} m v_2^2$$ Siden steinen slippes uten startfart, er hastigheten ved starten $v_1 = 0$, og dermed er det ingen kinetisk energi i starten: $$m\mathrm{g}h_1 + \frac{1}{2} m \cdot 0^2 = m\mathrm{g}h_2 + \frac{1}{2} m v_2^2$$ Rett før steinen treffer bakken, er høyden $h_2 = 0$, og dermed er det ingen potensiell energi på dette tidspunktet: $$m\mathrm{g}h_1 + 0 = 0 + \frac{1}{2} m v_2^2$$ Vi kan nå stryke massen $m$ fra begge sider av likningen: $$\mathrm{g}h_1 = \frac{1}{2} v_2^2$$ Løs for hastigheten $v_2$: $$v_2 = \sqrt{2\mathrm{g}h_1}$$ Ved å sette inn verdiene $\mathrm{g} = 9.81 \, \mathrm{m/s}^2$ og $h_1 = 1.60 \, \mathrm{m}$, får vi: $$v_2 = \sqrt{2 \cdot 9.81 \, \mathrm{m/s}^2 \cdot 1.60 \, \mathrm{m}} = \sqrt{31.39\ \mathrm{m^2/s^2}} \approx \underline{\underline{5.6 \, \mathrm{m/s}}}$$ Steinen har en hastighet på $5.6 \, \mathrm{m/s}$ rett før den treffer bakken.
 :::
 :::
 
 ::: {.eksempel}
 [Eksempel: Fjærkanon i tyngdefeltet - Finn fjærkonstanten $k$]{.eks-tittel}
 
-En fjærkanon skyter en kanonkule med masse $0.20 \, \text{kg}$ rett opp i luften etter at fjæren har blitt komprimert med $x = 0.15 \, \text{m}$. Kanonkulen når en maksimal høyde på $h = 5.0 \, \text{m}$ før den faller tilbake ned igjen. Anta at all fjærens elastiske potensielle energi omformes til kanonkulas potensielle energi på toppen. Vi skal finne fjærkonstanten $k$ for fjæren.
+En fjærkanon skyter en kanonkule med masse $0.20 \, \mathrm{kg}$ rett opp i luften etter at fjæren har blitt komprimert med $x = 0.15 \, \mathrm{m}$. Kanonkulen når en maksimal høyde på $h = 5.0 \, \mathrm{m}$ før den faller tilbake ned igjen. Anta at all fjærens elastiske potensielle energi omformes til kanonkulas potensielle energi på toppen. Vi skal finne fjærkonstanten $k$ for fjæren.
 
 ::: center
 ![](../../bilder/tres/cannonball-launcher.png){.kompendium-bilde}
@@ -53,14 +54,14 @@ En fjærkanon skyter en kanonkule med masse $0.20 \, \text{kg}$ rett opp i lufte
 
 ::: {.losning}
 *Metode:*\
-Vi bruker bevaring av mekanisk energi, som sier at all elastisk potensiell energi i fjæren omformes til gravitasjonspotensiell energi på toppen. Elastisk potensiell energi for fjæren er gitt ved: $$E_{\text{fjær}} = \frac{1}{2} k x^2$$ Den potensielle energien kanonkulen har på toppen er: $$E_p = m\mathrm{g}h$$ Siden $E_{\text{fjær}} = E_p$, kan vi sette opp likningen: $$\frac{1}{2} k x^2 = m\mathrm{g}h$$ Vi løser for fjærkonstanten $k$: $$k = \frac{2m\mathrm{g}h}{x^2}$$ Nå setter vi inn verdiene $m = 0.20 \, \text{kg}$, $\mathrm{g} = 9.8 \, \text{m/s}^2$, $h = 5.0 \, \text{m}$, og $x = 0.15 \, \text{m}$: $$k = \frac{2 \cdot 0.20 \, \text{kg} \cdot 9.8 \, \text{m/s}^2 \cdot 5.0 \, \text{m}}{(0.15 \, \text{m})^2} = \frac{19.6 \, \text{N/m} \cdot \text{m}}{0.0225 \, \text{m}^2} = 871.1 \, \text{N/m} \approx \underline{\underline{8.7\cdot 10^2 \, \text{N/m}}}$$ Fjærkonstanten $k$ er dermed omtrent $8.7\cdot 10^2 \, \text{N/m}$.
+Vi bruker bevaring av mekanisk energi, som sier at all elastisk potensiell energi i fjæren omformes til gravitasjonspotensiell energi på toppen. Elastisk potensiell energi for fjæren er gitt ved: $$E_{\text{fjær}} = \frac{1}{2} k x^2$$ Den potensielle energien kanonkulen har på toppen er: $$E_p = m\mathrm{g}h$$ Siden $E_{\text{fjær}} = E_p$, kan vi sette opp likningen: $$\frac{1}{2} k x^2 = m\mathrm{g}h$$ Vi løser for fjærkonstanten $k$: $$k = \frac{2m\mathrm{g}h}{x^2}$$ Nå setter vi inn verdiene $m = 0.20 \, \mathrm{kg}$, $\mathrm{g} = 9.81 \, \mathrm{m/s}^2$, $h = 5.0 \, \mathrm{m}$, og $x = 0.15 \, \mathrm{m}$: $$k = \frac{2 \cdot 0.20 \, \mathrm{kg} \cdot 9.81 \, \mathrm{m/s}^2 \cdot 5.0 \, \mathrm{m}}{(0.15 \, \mathrm{m})^2} = \frac{19.62 \, \mathrm{J}}{0.0225 \, \mathrm{m}^2} = 872.0 \, \mathrm{N/m} \approx \underline{\underline{8.7\cdot 10^2 \, \mathrm{N/m}}}$$ Fjærkonstanten $k$ er dermed omtrent $8.7\cdot 10^2 \, \mathrm{N/m}$.
 :::
 :::
 
 ::: {.eksempel}
 [Eksempel: Kollisjon mellom legeme og fjær]{.eks-tittel}
 
-Et legeme med masse $100 \, \text{g}$ glir fra ro nedover en friksjonsfri bane og kolliderer med en elastisk fjær med fjærkonstanten $k = 300 \, \text{N/m}$. Startpunktet for legemet er $60 \, \text{cm}$ over den horisontale delen av banen. Vi skal først finne farten til legemet idet det treffer fjæren, og deretter finne hvor langt fjæren blir maksimalt presset inn under kollisjonen.
+Et legeme med masse $100 \, \mathrm{g}$ glir fra ro nedover en friksjonsfri bane og kolliderer med en elastisk fjær med fjærkonstanten $k = 300 \, \mathrm{N/m}$. Startpunktet for legemet er $60 \, \mathrm{cm}$ over den horisontale delen av banen. Vi skal først finne farten til legemet idet det treffer fjæren, og deretter finne hvor langt fjæren blir maksimalt presset inn under kollisjonen.
 
 ::: center
 ![](../../bilder/tres/boksglir.png){.kompendium-bilde}
@@ -71,11 +72,11 @@ Et legeme med masse $100 \, \text{g}$ glir fra ro nedover en friksjonsfri bane o
 ::: {.losning}
 **Del a: Bestem farten til legemet idet det kolliderer med fjæren**\
 *Metode:*\
-Vi bruker bevaring av mekanisk energi. I startposisjonen har legemet kun potensiell energi, og i det øyeblikket det treffer fjæren er all denne potensielle energien omformet til kinetisk energi (friksjon neglisjeres): $$E_p = E_\text{K}$$ Ved bevaring av energi får vi: $$m\mathrm{g}h = \frac{1}{2} m v^2$$ Vi stryker massen $m$ fra begge sider av likningen: $$gh = \frac{1}{2} v^2$$ Løser for hastigheten $v$: $$v = \sqrt{2\mathrm{g}h}$$ Setter inn verdiene $\mathrm{g} = 9.8 \, \text{m/s}^2$ og $h = 0.60 \, \text{m}$: $$v = \sqrt{2 \cdot 9.8 \, \text{m/s}^2 \cdot 0.60 \, \text{m}} = \sqrt{11.76} = 3.43 \, \text{m/s} \approx \underline{\underline{3.4 \, \text{m/s}}}$$ Legemet har en hastighet på omtrent $3.4 \, \text{m/s}$ idet det treffer fjæren.
+Vi bruker bevaring av mekanisk energi. I startposisjonen har legemet kun potensiell energi, og i det øyeblikket det treffer fjæren er all denne potensielle energien omformet til kinetisk energi (friksjon neglisjeres): $$E_p = E_\text{K}$$ Ved bevaring av energi får vi: $$m\mathrm{g}h = \frac{1}{2} m v^2$$ Vi stryker massen $m$ fra begge sider av likningen: $$\mathrm{g}h = \frac{1}{2} v^2$$ Løser for hastigheten $v$: $$v = \sqrt{2\mathrm{g}h}$$ Setter inn verdiene $\mathrm{g} = 9.81 \, \mathrm{m/s}^2$ og $h = 0.60 \, \mathrm{m}$: $$v = \sqrt{2 \cdot 9.81 \, \mathrm{m/s}^2 \cdot 0.60 \, \mathrm{m}} = \sqrt{11.77\ \mathrm{m^2/s^2}} = 3.43 \, \mathrm{m/s} \approx \underline{\underline{3.4 \, \mathrm{m/s}}}$$ Legemet har en hastighet på omtrent $3.4 \, \mathrm{m/s}$ idet det treffer fjæren.
 
 **Del b: Hvor langt blir fjæren maksimalt presset inn?**\
 *Metode:*\
-Nå overføres all den kinetiske energien fra legemet til fjæren, som blir maksimalt komprimert. Energien som lagres i den komprimerte fjæren er gitt ved elastisk potensiell energi: $$E_{\text{fjær}} = \frac{1}{2} k x^2$$ Siden all den kinetiske energien omformes til elastisk potensiell energi ved maksimal kompresjon, setter vi $E_\text{K} = E_{\text{fjær}}$: $$\frac{1}{2} m v^2 = \frac{1}{2} k x^2$$ Vi kan stryke $\frac{1}{2}$ fra begge sider: $$m v^2 = k x^2$$ Løs for $x$, som er maksimal kompresjon av fjæren: $$x = \sqrt{\frac{m v^2}{k}}$$ Sett inn verdiene $m = 0.10 \, \text{kg}$, $v = 3.43 \, \text{m/s}$, og $k = 300 \, \text{N/m}$: $$x = \sqrt{\frac{0.10 \, \text{kg} \cdot (3.43 \, \text{m/s})^2}{300 \, \text{N/m}}} = \sqrt{\frac{1.176}{300}} = \sqrt{0.00392} \approx \underline{\underline{0.063 \, \text{m}}}$$ Fjæren blir maksimalt komprimert med $6.3 \, \text{cm}$ under kollisjonen.
+Nå overføres all den kinetiske energien fra legemet til fjæren, som blir maksimalt komprimert. Energien som lagres i den komprimerte fjæren er gitt ved elastisk potensiell energi: $$E_{\text{fjær}} = \frac{1}{2} k x^2$$ Siden all den kinetiske energien omformes til elastisk potensiell energi ved maksimal kompresjon, setter vi $E_\text{K} = E_{\text{fjær}}$: $$\frac{1}{2} m v^2 = \frac{1}{2} k x^2$$ Vi kan stryke $\frac{1}{2}$ fra begge sider: $$m v^2 = k x^2$$ Løs for $x$, som er maksimal kompresjon av fjæren: $$x = \sqrt{\frac{m v^2}{k}}$$ Sett inn verdiene $m = 0.10 \, \mathrm{kg}$, $v = 3.43 \, \mathrm{m/s}$, og $k = 300 \, \mathrm{N/m}$: $$x = \sqrt{\frac{0.10 \, \mathrm{kg} \cdot (3.43 \, \mathrm{m/s})^2}{300 \, \mathrm{N/m}}} = \sqrt{\frac{1.177\ \mathrm{J}}{300\ \mathrm{N/m}}} = \sqrt{0.003924\ \mathrm{m^2}} \approx \underline{\underline{0.063 \, \mathrm{m}}}$$ Fjæren blir maksimalt komprimert med $6.3 \, \mathrm{cm}$ under kollisjonen.
 :::
 :::
 

@@ -22,17 +22,17 @@ Energitap i et system er energi som har forlatt systemet eller endret kvalitet t
 ::: {.eksempel}
 [Eksempel: Energiforskjell og energitap i et fall]{.eks-tittel}
 
-En ball med masse $0.50 \, \text{kg}$ slippes fra en høyde på $10 \, \text{m}$. Rett før ballen treffer bakken, har den en hastighet på $12 \, \text{m/s}$. Vi antar at noe energi har gått tapt på grunn av luftmotstand. Beregn energitapet ved å sammenligne den potensielle energien på toppen med den kinetiske energien rett før bakken.
+En ball med masse $0.50 \, \mathrm{kg}$ slippes fra en høyde på $10 \, \mathrm{m}$. Rett før ballen treffer bakken, har den en hastighet på $12 \, \mathrm{m/s}$. Vi antar at noe energi har gått tapt på grunn av luftmotstand. Beregn energitapet ved å sammenligne den potensielle energien på toppen med den kinetiske energien rett før bakken.
 
 ::: {.losning}
 **Del 1: Potensiell energi på toppen**\
-Den potensielle energien ballen har på toppen, før den slippes, kan beregnes med formelen: $$E_p = m\mathrm{g}h$$ hvor $m = 0.50 \, \text{kg}$, $\mathrm{g} = 9.81 \, \text{m/s}^2$, og $h = 10 \, \text{m}$: $$E_p = 0.50 \, \text{kg} \cdot 9.81 \, \text{m/s}^2 \cdot 10 \, \text{m} = 49.05 \, \text{J}$$ Dette er den totale potensielle energien som ballen har før fallet.
+Den potensielle energien ballen har på toppen, før den slippes, kan beregnes med formelen: $$E_p = m\mathrm{g}h$$ hvor $m = 0.50 \, \mathrm{kg}$, $\mathrm{g} = 9.81 \, \mathrm{m/s}^2$, og $h = 10 \, \mathrm{m}$: $$E_p = 0.50 \, \mathrm{kg} \cdot 9.81 \, \mathrm{m/s}^2 \cdot 10 \, \mathrm{m} = 49.05 \, \mathrm{J}$$ Dette er den totale potensielle energien som ballen har før fallet.
 
 **Del 2: Kinetisk energi rett før bakken**\
-Når ballen nærmer seg bakken med en hastighet på $12 \, \text{m/s}$, kan vi beregne dens kinetiske energi: $$E_\text{K} = \frac{1}{2} m v^2$$ hvor $m = 0.50 \, \text{kg}$ og $v = 12 \, \text{m/s}$: $$E_\text{K} = \frac{1}{2} \cdot 0.50 \, \text{kg} \cdot (12 \, \text{m/s})^2 = 36 \, \text{J}$$ Dette er den kinetiske energien ballen har rett før den treffer bakken.
+Når ballen nærmer seg bakken med en hastighet på $12 \, \mathrm{m/s}$, kan vi beregne dens kinetiske energi: $$E_\text{K} = \frac{1}{2} m v^2$$ hvor $m = 0.50 \, \mathrm{kg}$ og $v = 12 \, \mathrm{m/s}$: $$E_\text{K} = \frac{1}{2} \cdot 0.50 \, \mathrm{kg} \cdot (12 \, \mathrm{m/s})^2 = 36 \, \mathrm{J}$$ Dette er den kinetiske energien ballen har rett før den treffer bakken.
 
 **Del 3: Energitap på grunn av luftmotstand**\
-Forskjellen mellom den potensielle energien på toppen og den kinetiske energien rett før bakken gir oss energitapet som følge av luftmotstand: $$\Delta E = E_p - E_\text{K} = 49.05 \, \text{J} - 36 \, \text{J} = 13.05 \, \text{J} \approx \underline{\underline{13 \, \text{J}}}$$ Dette betyr at omtrent $13 \, \text{J}$ av energien har blitt tapt på grunn av luftmotstanden i løpet av fallet.
+Forskjellen mellom den potensielle energien på toppen og den kinetiske energien rett før bakken gir oss energitapet som følge av luftmotstand: $$\Delta E = E_p - E_\text{K} = 49.05 \, \mathrm{J} - 36 \, \mathrm{J} = 13.05 \, \mathrm{J} \approx \underline{\underline{13 \, \mathrm{J}}}$$ Dette betyr at omtrent $13 \, \mathrm{J}$ av energien har blitt tapt på grunn av luftmotstanden i løpet av fallet.
 :::
 :::
 

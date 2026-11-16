@@ -67,7 +67,7 @@ Newtons pendel
 ::: {.eksempel}
 [Eksempel: Elastisk kollisjon mellom to like vogner]{.eks-tittel}
 
-En vogn med masse $m = 2.0 \, \text{kg}$ og fart $v_1 = 3.0 \, \text{m/s}$ krasjer inn i en annen vogn med samme masse $m = 2.0 \, \text{kg}$ som står stille ($v_2 = 0$) på et friksjonsfritt underlag. Det er ingen ytre krefter som virker på systemet (vogn 1 + vogn 2), og det utføres ikke arbeid på systemet under kollisjonen. Vi skal finne hastighetene $u_1$ og $u_2$ til de to vognene etter kollisjonen.
+En vogn med masse $m = 2.0 \, \mathrm{kg}$ og fart $v_1 = 3.0 \, \mathrm{m/s}$ krasjer inn i en annen vogn med samme masse $m = 2.0 \, \mathrm{kg}$ som står stille ($v_2 = 0$) på et friksjonsfritt underlag. Det er ingen ytre krefter som virker på systemet (vogn 1 + vogn 2), og det utføres ikke arbeid på systemet under kollisjonen. Vi skal finne hastighetene $u_1$ og $u_2$ til de to vognene etter kollisjonen.
 
 ::: {.losning}
 *Løsning:*\
@@ -88,9 +88,9 @@ I en elastisk kollisjon bevares også den kinetiske energien. Kinetisk energi f�
 **Løsning for hastighetene $u_1$ og $u_2$:**\
 Vi har nå to ligninger: 1. $v_1 = u_1 + u_2$ 2. $v_1^2 = u_1^2 + u_2^2$
 
-Ved å substituere $u_2 = v_1 - u_1$ fra den første ligningen inn i den andre ligningen, får vi: $$v_1^2 = u_1^2 + (v_1 - u_1)^2$$ Utvid $(v_1 - u_1)^2$: $$v_1^2 = u_1^2 + v_1^2 - 2 v_1 u_1 + u_1^2$$ Forenkle ved å samle ledd: $$v_1^2 = 2u_1^2 - 2v_1 u_1 + v_1^2$$ Trekk $v_1^2$ fra begge sider: $$0 = 2u_1^2 - 2v_1 u_1$$ Del begge sider på 2: $$0 = u_1(u_1 - v_1)$$ Dette gir to mulige løsninger: enten $u_1 = 0$ eller $u_1 = v_1$. Løsningen $u_1 = v_1$ gir $u_2 = 0$: da har vogn 1 samme fart som før og vogn 2 står fortsatt stille, som om vognene aldri traff hverandre. Det kan ikke skje når vogn 1 kjører inn i vogn 2. Den fysiske løsningen er derfor $u_1 = 0$. Dermed har vi: $$\underline{\underline{u_1 = 0}} \quad \text{og} \quad \underline{\underline{u_2 = v_1 = 3.0 \, \text{m/s}}}$$
+Ved å substituere $u_2 = v_1 - u_1$ fra den første ligningen inn i den andre ligningen, får vi: $$v_1^2 = u_1^2 + (v_1 - u_1)^2$$ Utvid $(v_1 - u_1)^2$: $$v_1^2 = u_1^2 + v_1^2 - 2 v_1 u_1 + u_1^2$$ Forenkle ved å samle ledd: $$v_1^2 = 2u_1^2 - 2v_1 u_1 + v_1^2$$ Trekk $v_1^2$ fra begge sider: $$0 = 2u_1^2 - 2v_1 u_1$$ Del begge sider på 2: $$0 = u_1(u_1 - v_1)$$ Dette gir to mulige løsninger: enten $u_1 = 0$ eller $u_1 = v_1$. Løsningen $u_1 = v_1$ gir $u_2 = 0$: da har vogn 1 samme fart som før og vogn 2 står fortsatt stille, som om vognene aldri traff hverandre. Det kan ikke skje når vogn 1 kjører inn i vogn 2. Den fysiske løsningen er derfor $u_1 = 0$. Dermed har vi: $$\underline{\underline{u_1 = 0}} \quad \text{og} \quad \underline{\underline{u_2 = v_1 = 3.0 \, \mathrm{m/s}}}$$
 
-Etter kollisjonen står vogn 1 stille ($u_1 = 0$), og vogn 2 beveger seg med en fart på $u_2 = 3.0 \, \text{m/s}$.
+Etter kollisjonen står vogn 1 stille ($u_1 = 0$), og vogn 2 beveger seg med en fart på $u_2 = 3.0 \, \mathrm{m/s}$.
 :::
 :::
 

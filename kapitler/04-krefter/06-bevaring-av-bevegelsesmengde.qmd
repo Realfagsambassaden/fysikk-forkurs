@@ -32,15 +32,15 @@ Dersom summen av ytre krefter på et system er null, $$\sum \vec{F}_{ytre} = \ve
 
 ::: {.callout-tip title="Tips: For deg som kjenner derivasjon"}
 
-Newtons 2. lov kan skrives i sin mest generelle form ved hjelp av derivasjon: $$\sum\vec{F} = \frac{d\vec{p}}{dt}$$ Her er $\frac{d\vec{p}}{dt}$ den deriverte av bevegelsesmengden med hensyn på tid — altså hvor raskt $\vec{p}$ endrer seg.
+Newtons 2. lov kan skrives i sin mest generelle form ved hjelp av derivasjon: $$\sum\vec{F} = \frac{\mathrm{d}\vec{p}}{\mathrm{d}t}$$ Her er $\frac{\mathrm{d}\vec{p}}{\mathrm{d}t}$ den deriverte av bevegelsesmengden med hensyn på tid — altså hvor raskt $\vec{p}$ endrer seg.
 
-Dersom summen av ytre krefter er null, $\sum\vec{F}_{ytre} = \vec{0}$, gir dette direkte: $$\frac{d\vec{p}_{tot}}{dt} = \vec{0}$$ En funksjon med derivert lik null er konstant. Dermed følger bevaringsloven umiddelbart: $\vec{p}_{tot} = \text{konstant}$. Ingen nye antagelser trengs — loven er en direkte konsekvens av Newtons 2. lov.
+Dersom summen av ytre krefter er null, $\sum\vec{F}_{ytre} = \vec{0}$, gir dette direkte: $$\frac{\mathrm{d}\vec{p}_{tot}}{\mathrm{d}t} = \vec{0}$$ En funksjon med derivert lik null er konstant. Dermed følger bevaringsloven umiddelbart: $\vec{p}_{tot} = \text{konstant}$. Ingen nye antagelser trengs — loven er en direkte konsekvens av Newtons 2. lov.
 
 :::
 
 **Impuls:** Vi har altså sett at $$\frac{\Delta\vec{p}}{\Delta t}=\vec{F}\quad\text{som medfører}\quad \Delta\vec{p}=\vec{F}\,\Delta t.$$
 
-Dette viser at kraft virket over tid gir endring i bevegelsesmengde. I virkeligheten varierer kraften under et kraftstøt — tenk på hockeykøllens slag mot pucken: kraften stiger raskt og faller igjen. For dem som kjenner integraler: $\Delta\vec{p} = \int_{t_1}^{t_2}\vec{F}\,dt$, altså *arealet under $F(t)$-kurven* (figuren). I det enklere tilfellet med konstant kraft er dette arealet nøyaktig rektangelet $F\cdot\Delta t$.
+Dette viser at kraft virket over tid gir endring i bevegelsesmengde. I virkeligheten varierer kraften under et kraftstøt — tenk på hockeykøllens slag mot pucken: kraften stiger raskt og faller igjen. For dem som kjenner integraler: $\Delta\vec{p} = \int_{t_1}^{t_2}\vec{F}\,\mathrm{d}t$, altså *arealet under $F(t)$-kurven* (figuren). I det enklere tilfellet med konstant kraft er dette arealet nøyaktig rektangelet $F\cdot\Delta t$.
 
 Endringen i bevegelsesmengde forårsaket av et slikt kraftstøt kalles *impuls*. På forkursnivå bruker vi ikke dette begrepet noe videre.
 

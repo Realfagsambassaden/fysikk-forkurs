@@ -71,7 +71,7 @@ Arbeidet som summen av ytre krefter gjør på et legeme er lik endringen i legem
 
 ::: {.callout-tip title="Tips: For dem som kan integrere"}
 
-For varierende kraft — der akselerasjonen ikke er konstant — trenger man integrasjon. Da er arbeidet $W = \int F\,ds$. Ved å skrive $F = m\frac{dv}{dt}$ og bruke kjerneregelen ($\frac{dv}{dt}\,ds = \frac{ds}{dt}\,dv = v\,dv$) får man $$W = \int_{v_0}^{v} mv\,dv = \frac{1}{2}mv^2 - \frac{1}{2}mv_0^2.$$ Resultatet er det samme. Arbeid-energi-setningen $W = \Delta E_\text{K}$ er derfor *generell* — den gjelder uansett om kraften varierer eller ikke. Det er bare utledningen her over som forutsetter konstant kraft.
+For varierende kraft — der akselerasjonen ikke er konstant — trenger man integrasjon. Da er arbeidet $W = \int F\,\mathrm{d}s$. Ved å skrive $F = m\frac{\mathrm{d}v}{\mathrm{d}t}$ og bruke kjerneregelen ($\frac{\mathrm{d}v}{\mathrm{d}t}\,\mathrm{d}s = \frac{\mathrm{d}s}{\mathrm{d}t}\,\mathrm{d}v = v\,\mathrm{d}v$) får man $$W = \int_{v_0}^{v} mv\,\mathrm{d}v = \frac{1}{2}mv^2 - \frac{1}{2}mv_0^2.$$ Resultatet er det samme. Arbeid-energi-setningen $W = \Delta E_\text{K}$ er derfor *generell* — den gjelder uansett om kraften varierer eller ikke. Det er bare utledningen her over som forutsetter konstant kraft.
 
 :::
 
@@ -86,14 +86,14 @@ At $\Delta \vec{p}=\vec{F}\Delta t$ mens $\Delta E_\text{K}=\vec{F}\Delta \vec{s
 ::: {.eksempel}
 [Eksempel: Horisontal bevegelse med friksjon]{.eks-tittel}
 
-En kloss med masse $0.80 \, \text{kg}$ har en startfart på $2.0 \, \text{m/s}$ og blir flyttet med en horisontal kraft på $8.0 \, \text{N}$. Friksjonskraften som virker mot bevegelsen er $5.6 \, \text{N}$, og etter å ha blitt flyttet $2.0 \, \text{m}$ får klossen en fart på $4.0 \, \text{m/s}$.
+En kloss med masse $0.80 \, \mathrm{kg}$ har en startfart på $2.0 \, \mathrm{m/s}$ og blir flyttet med en horisontal kraft på $8.0 \, \mathrm{N}$. Friksjonskraften som virker mot bevegelsen er $5.6 \, \mathrm{N}$, og etter å ha blitt flyttet $2.0 \, \mathrm{m}$ får klossen en fart på $4.0 \, \mathrm{m/s}$.
 
 ::: {.losning}
 **Del 1: Endringen i kinetisk energi**\
-*Metode:* Kinetisk energi $E_\text{K}$ beregnes med formelen $E_\text{K} = \frac{1}{2} m v^2$. Endringen i kinetisk energi $\Delta E_\text{K}$ er forskjellen mellom slutt- og startenergien: $$E_\text{K}^{\text{start}} = \frac{1}{2} \cdot 0.80 \, \text{kg} \cdot (2.0 \, \text{m/s})^2 = \frac{1}{2} \cdot 0.8 \cdot 4 = 1.6 \, \text{J}$$ $$E_\text{K}^{\text{slutt}} = \frac{1}{2} \cdot 0.80 \, \text{kg} \cdot (4.0 \, \text{m/s})^2 = \frac{1}{2} \cdot 0.8 \cdot 16 = 6.4 \, \text{J}$$ Endringen i kinetisk energi er: $$\Delta E_\text{K} = E_\text{K}^{\text{slutt}} - E_\text{K}^{\text{start}} = 6.4 \, \text{J} - 1.6 \, \text{J} = \underline{\underline{4.8 \, \text{J}}}$$
+*Metode:* Kinetisk energi $E_\text{K}$ beregnes med formelen $E_\text{K} = \frac{1}{2} m v^2$. Endringen i kinetisk energi $\Delta E_\text{K}$ er forskjellen mellom slutt- og startenergien: $$E_\text{K}^{\text{start}} = \frac{1}{2} \cdot 0.80 \, \mathrm{kg} \cdot (2.0 \, \mathrm{m/s})^2 = \frac{1}{2} \cdot 0.8 \cdot 4 = 1.6 \, \mathrm{J}$$ $$E_\text{K}^{\text{slutt}} = \frac{1}{2} \cdot 0.80 \, \mathrm{kg} \cdot (4.0 \, \mathrm{m/s})^2 = \frac{1}{2} \cdot 0.8 \cdot 16 = 6.4 \, \mathrm{J}$$ Endringen i kinetisk energi er: $$\Delta E_\text{K} = E_\text{K}^{\text{slutt}} - E_\text{K}^{\text{start}} = 6.4 \, \mathrm{J} - 1.6 \, \mathrm{J} = \underline{\underline{4.8 \, \mathrm{J}}}$$
 
 **Del 2: Arbeid utført på klossen**\
-*Metode:* Arbeid $W$ er definert som kraft ganger forflytning, men i dette tilfellet må vi ta hensyn til både den horisontale kraften og friksjonskraften som virker mot bevegelsen. Det totale arbeidet $W$ kan beregnes som summen av arbeidet utført av begge kreftene: $$W_{\text{totalt}} = W_{\text{kraft}} + W_{\text{friksjon}} = F \cdot s - F_{\text{friksjon}} \cdot s$$ Her er kraften $F = 8.0 \, \text{N}$, friksjonskraften $F_{\text{friksjon}} = 5.6 \, \text{N}$, og forflytningen $d = 2.0 \, \text{m}$: $$W_{\text{totalt}} = 8.0 \, \text{N} \cdot 2.0 \, \text{m} - 5.6 \, \text{N} \cdot 2.0 \, \text{m} = 16.0 \, \text{J} - 11.2 \, \text{J} = \underline{\underline{4.8 \, \text{J}}}$$
+*Metode:* Arbeid $W$ er definert som kraft ganger forflytning, men i dette tilfellet må vi ta hensyn til både den horisontale kraften og friksjonskraften som virker mot bevegelsen. Det totale arbeidet $W$ kan beregnes som summen av arbeidet utført av begge kreftene: $$W_{\text{totalt}} = W_{\text{kraft}} + W_{\text{friksjon}} = F \cdot s - F_{\text{friksjon}} \cdot s$$ Her er kraften $F = 8.0 \, \mathrm{N}$, friksjonskraften $F_{\text{friksjon}} = 5.6 \, \mathrm{N}$, og forflytningen $d = 2.0 \, \mathrm{m}$: $$W_{\text{totalt}} = 8.0 \, \mathrm{N} \cdot 2.0 \, \mathrm{m} - 5.6 \, \mathrm{N} \cdot 2.0 \, \mathrm{m} = 16.0 \, \mathrm{J} - 11.2 \, \mathrm{J} = \underline{\underline{4.8 \, \mathrm{J}}}$$
 :::
 :::
 
