@@ -2,7 +2,7 @@
 title: "Kjernereaksjoner og kjerneenergi"
 tema: atom-og-kjerne
 undertema: kjerneenergi
-aliases: ["03-kjernereaksjoner-og-kjerneenergi.html"]
+aliases: ["03-kjernereaksjoner-og-kjerneenergi.html", "04-kjernereaksjoner-og-kjerneenergi.html"]
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/12-04-kjernereaksjoner-og-kjerneenergi) -->

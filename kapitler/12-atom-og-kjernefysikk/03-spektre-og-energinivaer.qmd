@@ -2,6 +2,7 @@
 title: "Spektre og energinivåer"
 tema: atom-og-kjerne
 undertema: spektre
+aliases: ["02-spektre-og-energinivaer.html"]
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/12-02-spektre-og-energinivaer) -->
@@ -15,7 +16,7 @@ Grunnstoffet helium ble oppdaget i sola i 1868, nesten 30 år før det ble funne
 ## Fotoner
 
 <!-- tillegg: Claude -->
-Lys er en elektromagnetisk bølge (se *bølger og stråling*). Men når lys sendes ut eller tas opp av atomer, skjer det i små, udelelige energipakker: **fotoner**.
+Lys er en elektromagnetisk bølge (se *bølger og stråling*). Men når lys sendes ut eller tas opp av atomer, skjer det i små, udelelige energipakker: **fotoner** (se [kvanter og fotoner](02-kvanter-og-fotoner.qmd)).
 
 ::: {.callout-important title="Energien til et foton"}
 <!-- tillegg: Claude -->

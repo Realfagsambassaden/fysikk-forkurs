@@ -1,0 +1,20 @@
+\begin{tikzpicture}
+% metallplate
+\fill[pattern=north east lines, pattern color=black!50] (0,0) rectangle (6,-0.6);
+\draw[thick] (0,0) -- (6,0) -- (6,-0.6) -- (0,-0.6) -- cycle;
+\node[font=\small] at (3,-1.0) {metall};
+% innkommende fotoner (bølgete piler)
+\foreach \x in {0.6,1.8} {
+  \draw[->,thick,lilla,decorate,decoration={snake,amplitude=1.2mm,segment length=3.2mm,post length=2.5mm}] (\x,3.0) -- (\x+1.1,0.08);
+}
+\node[lilla,font=\small,align=center] at (0.9,3.45) {fotoner, $E=\mathrm{h}f$};
+% elektroner som slipper ut
+\foreach \x/\ang in {2.0/55,3.0/75} {
+  \fill[bla] (\x,0.18) circle (0.13);
+  \draw[->,very thick,bla] (\x+0.1,0.3) -- ++(\ang:1.8);
+}
+\node[bla,font=\small,align=left,right] at (3.7,2.1) {elektron slipper ut\\med $E_\text{k} \le \mathrm{h}f - W$};
+% elektroner i metallet
+\foreach \x in {4.2,4.9,5.5} {\fill[bla!60] (\x,-0.3) circle (0.11);}
+\node[font=\small,align=left,right] at (6.2,-0.3) {elektroner bundet\\med energien $W$};
+\end{tikzpicture}
