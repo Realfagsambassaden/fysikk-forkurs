@@ -96,7 +96,7 @@ $$
 
 a) Vinkelen inni cosinus er
 $$
-\frac{2\pi}{T}\,t = \frac{2\pi}{0.80\ \mathrm{s}}\cdot 0.30\ \mathrm{s} = 2.356\ \text{rad} \quad (= 135^\circ).
+\frac{2\pi}{T}\,t = \frac{2\pi}{0.80\ \mathrm{s}}\cdot 0.30\ \mathrm{s} = 2.356\ \mathrm{rad} \quad (= 135^\circ).
 $$
 Posisjonen blir
 $$
@@ -226,7 +226,7 @@ $$
 
 b) Vinkelen inni cosinus er
 $$
-\frac{2\pi}{T}\,t = \frac{2\pi}{1.20\ \mathrm{s}}\cdot 0.20\ \mathrm{s} = \frac{\pi}{3}\ \text{rad} \quad (= 60^\circ),
+\frac{2\pi}{T}\,t = \frac{2\pi}{1.20\ \mathrm{s}}\cdot 0.20\ \mathrm{s} = \frac{\pi}{3}\ \mathrm{rad} \quad (= 60^\circ),
 $$
 og $\cos 60^\circ = 0.5$, så
 $$

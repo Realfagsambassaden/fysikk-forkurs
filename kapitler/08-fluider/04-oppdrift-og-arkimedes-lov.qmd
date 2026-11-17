@@ -107,7 +107,7 @@ Isfjellet flyter i ro, så oppdriftskraften er like stor som tyngdekraften: $$F_
 ::: {.eksempel}
 [Eksempel: Oppdrift på en båt]{.eks-tittel}
 
-En båt har et volum på $V = 9.0 \, \text{m}^3$, og $12\%$ av dette volumet er under vann.
+En båt har et volum på $V = 9.0 \, \mathrm{m}^3$, og $12\%$ av dette volumet er under vann.
 
 a)  Hva er oppdriftskraften på båten?
 
@@ -117,9 +117,9 @@ b)  Hva er massen til båten?
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-**a)** Volumet av vann som fortrenges er: $$V_\text{f} = 0.12 \cdot V = 0.12 \cdot 9.0 \, \text{m}^3 = 1.08 \, \text{m}^3.$$ Oppdriftskraften beregnes ved å bruke formelen for oppdrift: $$F_{\textrm{B}} = \rho_v \mathrm{g} V_\text{f} = 1000 \, \text{kg/m}^3 \cdot 9.81 \, \text{m/s}^2 \cdot 1.08 \, \text{m}^3 = 10594.8 \, \text{N} \approx \underline{\underline{11 \, \text{kN}}}.$$
+**a)** Volumet av vann som fortrenges er: $$V_\text{f} = 0.12 \cdot V = 0.12 \cdot 9.0 \, \mathrm{m}^3 = 1.08 \, \mathrm{m}^3.$$ Oppdriftskraften beregnes ved å bruke formelen for oppdrift: $$F_{\textrm{B}} = \rho_v \mathrm{g} V_\text{f} = 1000 \, \mathrm{kg/m}^3 \cdot 9.81 \, \mathrm{m/s}^2 \cdot 1.08 \, \mathrm{m}^3 = 10594.8 \, \mathrm{N} \approx \underline{\underline{11 \, \mathrm{kN}}}.$$
 
-**b)** Når båten flyter, er oppdriftskraften lik tyngdekraften på båten: $$F_{\textrm{B}} = G = m \mathrm{g}.$$ Vi løser for massen $m$: $$m = \frac{F_{\textrm{B}}}{\mathrm{g}} = \frac{10594.8 \, \text{N}}{9.81 \, \text{m/s}^2} = 1080 \, \text{kg} \approx \underline{\underline{1.1 \cdot 10^3 \, \text{kg}}}.$$ Legg merke til at båtens masse er lik massen til vannet den fortrenger, $\rho_v V_\text{f} = 1080\,\mathrm{kg}$. Det er nettopp det Arkimedes’ lov sier.
+**b)** Når båten flyter, er oppdriftskraften lik tyngdekraften på båten: $$F_{\textrm{B}} = G = m \mathrm{g}.$$ Vi løser for massen $m$: $$m = \frac{F_{\textrm{B}}}{\mathrm{g}} = \frac{10594.8 \, \mathrm{N}}{9.81 \, \mathrm{m/s}^2} = 1080 \, \mathrm{kg} \approx \underline{\underline{1.1 \cdot 10^3 \, \mathrm{kg}}}.$$ Legg merke til at båtens masse er lik massen til vannet den fortrenger, $\rho_v V_\text{f} = 1080\,\mathrm{kg}$. Det er nettopp det Arkimedes’ lov sier.
 
 :::
 
@@ -203,11 +203,12 @@ d)  Finn massetettheten til kronen. Er den laget av rent gull?
 
 **a)** Tre krefter virker på kronen: tyngdekraften $\vec{G}$ nedover, oppdriftskraften $\vec{F}_{\textrm{B}}$ oppover og kraften $\vec{S}$ fra kraftmåleren oppover. Det er $S$ som kraftmåleren viser.
 
-**b)** Kronen henger i ro, så $\sum F = 0$: $$S + F_{\textrm{B}} - G = 0 \quad\implies\quad F_{\textrm{B}} = G - S$$ Tyngdekraften er $G = m\mathrm{g} = 1.00\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 9.81\,\mathrm{N}$, så $$F_{\textrm{B}} = 9.81\,\mathrm{N} - 9.15\,\mathrm{N} = \underline{\underline{0.660\,\mathrm{N}}}$$
+<!-- tillegg: Claude: notasjon (gjeldende siffer: 0.660 N → 0.66 N, V og ρ med to siffer) -->
+**b)** Kronen henger i ro, så $\sum F = 0$: $$S + F_{\textrm{B}} - G = 0 \quad\implies\quad F_{\textrm{B}} = G - S$$ Tyngdekraften er $G = m\mathrm{g} = 1.00\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 9.81\,\mathrm{N}$, så $$F_{\textrm{B}} = 9.81\,\mathrm{N} - 9.15\,\mathrm{N} = \underline{\underline{0.66\,\mathrm{N}}}$$ Ved subtraksjon får svaret like mange desimaler som verdien med færrest desimaler, her to. Svaret har derfor bare to gjeldende siffer.
 
-**c)** Kronen er helt under vann, så det fortrengte volumet er lik volumet til kronen. Fra $F_{\textrm{B}} = \rho_v\mathrm{g}V$ (se *Oppdriftskraft*): $$V = \frac{F_{\textrm{B}}}{\rho_v\mathrm{g}} = \frac{0.660\,\mathrm{N}}{1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = 6.728\cdot 10^{-5}\,\mathrm{m}^{3} \approx \underline{\underline{6.73\cdot 10^{-5}\,\mathrm{m}^{3}}}$$
+**c)** Kronen er helt under vann, så det fortrengte volumet er lik volumet til kronen. Fra $F_{\textrm{B}} = \rho_v\mathrm{g}V$ (se *Oppdriftskraft*): $$V = \frac{F_{\textrm{B}}}{\rho_v\mathrm{g}} = \frac{0.66\,\mathrm{N}}{1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = 6.728\cdot 10^{-5}\,\mathrm{m}^{3} \approx \underline{\underline{6.7\cdot 10^{-5}\,\mathrm{m}^{3}}}$$
 
-**d)** Massetettheten er $$\rho = \frac{m}{V} = \frac{1.00\,\mathrm{kg}}{6.73\cdot 10^{-5}\,\mathrm{m}^{3}} = 1.486\cdot 10^{4}\,\mathrm{kg}\,\mathrm{m}^{-3} \approx \underline{\underline{1.49\cdot 10^{4}\,\mathrm{kg}\,\mathrm{m}^{-3}}}$$ Rent gull har $\rho = 19.3\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}$. Kronen har lavere tetthet, så den er **ikke laget av rent gull**. Den er trolig blandet med et lettere metall, for eksempel sølv. En krone av rent gull ville hatt mindre volum, fått mindre oppdrift, og kraftmåleren ville vist omtrent $9.30\,\mathrm{N}$.
+**d)** Massetettheten er $$\rho = \frac{m}{V} = \frac{1.00\,\mathrm{kg}}{6.728\cdot 10^{-5}\,\mathrm{m}^{3}} = 1.486\cdot 10^{4}\,\mathrm{kg}\,\mathrm{m}^{-3} \approx \underline{\underline{1.5\cdot 10^{4}\,\mathrm{kg}\,\mathrm{m}^{-3}}}$$ Rent gull har $\rho = 19.3\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}$. Kronen har lavere tetthet, så den er **ikke laget av rent gull**. Den er trolig blandet med et lettere metall, for eksempel sølv. En krone av rent gull ville hatt mindre volum, fått mindre oppdrift, og kraftmåleren ville vist omtrent $9.30\,\mathrm{N}$.
 
 :::
 

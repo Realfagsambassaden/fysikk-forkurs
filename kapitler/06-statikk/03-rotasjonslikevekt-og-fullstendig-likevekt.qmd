@@ -79,7 +79,7 @@ c)  Hvilke krefter virker *på søylene* fra bjelken?
 ::: {.eksempel}
 [Eksempel: Vegghengt hylle med stag]{.eks-tittel}
 
-En $60\,\mathrm{cm}$ lang, masselos hylle er festet til veggen i venstre ende (hengsel) og holdt oppe av et diagonalt stag festet til veggen $40\,\mathrm{cm}$ over hyllen, i en horisontal avstand $60\,\mathrm{cm}$ fra veggen. En gjenstand med masse $m = 3.0\,\mathrm{kg}$ er plassert på enden av hyllen. Finn stagkraften $T$ og kraften $\vec{H}$ fra hengselet på hylla.
+En $60\,\mathrm{cm}$ lang, masseløs hylle er festet til veggen i venstre ende (hengsel) og holdt oppe av et diagonalt stag festet til veggen $40\,\mathrm{cm}$ over hyllen, i en horisontal avstand $60\,\mathrm{cm}$ fra veggen. En gjenstand med masse $m = 3.0\,\mathrm{kg}$ er plassert på enden av hyllen. Finn stagkraften $T$ og kraften $\vec{H}$ fra hengselet på hylla.
 
 ::: center
 ![](../../bilder/figurer/k6-13-1ffea7d11fe1.svg){.tikz-fig style="width:342px"}
@@ -89,7 +89,7 @@ En $60\,\mathrm{cm}$ lang, masselos hylle er festet til veggen i venstre ende (h
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-Stagfestet er i $(L,\,0)=(0.60\,\text{m},\,0)$ og stagtoppen er i $(0,\,h)=(0,\,0.40\,\text{m})$. Stagvinkelen med horisontal: $\beta = \arctan\!\bigl(\tfrac{0.40}{0.60}\bigr) \approx 33.7°$.
+Stagfestet er i $(L,\,0)=(0.60\,\mathrm{m},\,0)$ og stagtoppen er i $(0,\,h)=(0,\,0.40\,\mathrm{m})$. Stagvinkelen med horisontal: $\beta = \arctan\!\bigl(\tfrac{0.40}{0.60}\bigr) \approx 33.7°$.
 
 **Momentligning om hengselet** ($\sum\tau = 0$, positiv mot klokken):
 

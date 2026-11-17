@@ -57,10 +57,10 @@ Hva er massen til $1.0\,\mathrm{L}$ vann?
 
 Vi vet at massetetthet $\rho$ er definert som massen $m$ per volum $V$: $$\rho = \frac{m}{V}$$ For å finne massen $m$, omformer vi formelen slik at $$m = \rho \cdot V$$
 
-Siden vi har oppgitt volumet som $V = 1.0 \, \text{L}$, konverterer vi dette til kubikkmeter: $$1.0 \, \text{L} = 1.0 \, \text{dm}^3 = 1.0 \cdot 10^{-3} \, \text{m}^3$$
+Siden vi har oppgitt volumet som $V = 1.0 \, \mathrm{L}$, konverterer vi dette til kubikkmeter: $$1.0 \, \mathrm{L} = 1.0 \, \mathrm{dm}^3 = 1.0 \cdot 10^{-3} \, \mathrm{m}^3$$
 
-Nå setter vi inn verdiene med $\rho = 1.0 \cdot 10^3 \, \text{kg/m}^3$ (tabellen) og $V = 1.0 \cdot 10^{-3} \, \text{m}^3$: $$m = (1.0 \cdot 10^3 \, \text{kg/m}^3) \cdot (1.0 \cdot 10^{-3} \, \text{m}^3)
-  = \underline{\underline{1.0 \, \text{kg}}}$$ Én liter vann har altså en masse på omtrent ett kilogram. Dette er lurt å huske, fordi det gjør det lett å anslå massen til vann i bøtter, flasker og badekar.
+Nå setter vi inn verdiene med $\rho = 1.0 \cdot 10^3 \, \mathrm{kg/m}^3$ (tabellen) og $V = 1.0 \cdot 10^{-3} \, \mathrm{m}^3$: $$m = (1.0 \cdot 10^3 \, \mathrm{kg/m}^3) \cdot (1.0 \cdot 10^{-3} \, \mathrm{m}^3)
+  = \underline{\underline{1.0 \, \mathrm{kg}}}$$ Én liter vann har altså en masse på omtrent ett kilogram. Dette er lurt å huske, fordi det gjør det lett å anslå massen til vann i bøtter, flasker og badekar.
 
 :::
 
@@ -89,13 +89,13 @@ c)  Hvor stor masse ville en like stor terning av gull hatt?
 
 ## Trykk
 
-Trykk er definert som kraften som virker vinkelrett på en overflate per arealenhet. Det beskriver hvor mye kraft som påføres en bestemt flate. Trykk måles ofte i enheter av pascal (Pa), hvor $1 \, \text{Pa} = 1 \, \text{N/m}^2$.
+Trykk er definert som kraften som virker vinkelrett på en overflate per arealenhet. Det beskriver hvor mye kraft som påføres en bestemt flate. Trykk måles ofte i enheter av pascal (Pa), hvor $1 \, \mathrm{Pa} = 1 \, \mathrm{N/m}^2$.
 
 ::: {.callout-note title="Definisjon: Trykk"}
 
 Trykket $p$ er gitt ved: $$\begin{aligned}
         p = \frac{F}{A}
-\end{aligned}$$ hvor $F$ er kraften som virker vinkelrett på overflaten, og $A$ er arealet til overflaten. Trykk måler kraft per arealenhet og uttrykkes vanligvis i pascal (Pa). Dette betyr at trykk også kan uttrykkes som $1 \, \text{Pa} = 1 \, \text{kg} \cdot \text{m}^{-1} \cdot \text{s}^{-2}$.
+\end{aligned}$$ hvor $F$ er kraften som virker vinkelrett på overflaten, og $A$ er arealet til overflaten. Trykk måler kraft per arealenhet og uttrykkes vanligvis i pascal (Pa). Dette betyr at trykk også kan uttrykkes som $1 \, \mathrm{Pa} = 1 \, \mathrm{kg} \cdot \mathrm{m}^{-1} \cdot \mathrm{s}^{-2}$.
 
 :::
 
@@ -224,7 +224,7 @@ b)  Bilen har masse $1200\,\mathrm{kg}$, og vi antar at tyngden fordeler seg lik
 
 **a)** Det totale trykket er lufttrykket pluss overtrykket: $$p = p_0 + \Delta p = 1.013\cdot 10^{5}\,\mathrm{Pa} + 2.3\cdot 10^{5}\,\mathrm{Pa} = 3.31\cdot 10^{5}\,\mathrm{Pa} \approx \underline{\underline{3.3\cdot 10^{5}\,\mathrm{Pa}}}$$ Målt i atmosfærer er dette $$\frac{3.31\cdot 10^{5}\,\mathrm{Pa}}{1.013\cdot 10^{5}\,\mathrm{Pa}} = 3.27 \approx \underline{\underline{3.3\,\mathrm{atm}}}$$
 
-**b)** Hvert hjul bærer en fjerdedel av tyngden: $$F = \frac{m\mathrm{g}}{4} = \frac{1200\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}{4} = 2943\,\mathrm{N}$$ Der dekket ligger an mot veien, presser lufta inne i dekket nedover med trykket $p_0 + \Delta p$, mens lufta utenfor bare presser med $p_0$. Det er altså overtrykket $\Delta p$ som gir nettokraften som bærer bilen: $F = \Delta p\cdot A$. Dermed er $$A = \frac{F}{\Delta p} = \frac{2943\,\mathrm{N}}{2.3\cdot 10^{5}\,\mathrm{Pa}} = 1.28\cdot 10^{-2}\,\mathrm{m}^{2} \approx \underline{\underline{1.3\cdot 10^{-2}\,\mathrm{m}^{2}}}$$ Det tilsvarer omtrent $130\,\mathrm{cm}^{2}$, eller en flate på omtrent $11\,\mathrm{cm}\times11\,\mathrm{cm}$. Har dekket for lavt trykk, må en større del av dekket ligge an mot veien for å bære bilen. Dekket blir da flatere, og bilen bruker mer drivstoff.
+**b)** Hvert hjul bærer en fjerdedel av tyngden: $$F = \frac{m\mathrm{g}}{4} = \frac{1200\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}{4} = 2943\,\mathrm{N}$$ Der dekket ligger an mot veien, presser lufta inne i dekket nedover med trykket $p_0 + \Delta p$, mens lufta utenfor bare presser med $p_0$. Det er altså overtrykket $\Delta p$ som gir nettokraften som bærer bilen: $F = \Delta p\cdot A$. Dermed er $$A = \frac{F}{\Delta p} = \frac{2943\,\mathrm{N}}{2.3\cdot 10^{5}\,\mathrm{Pa}} = 1.28\cdot 10^{-2}\,\mathrm{m}^{2} \approx \underline{\underline{1.3\cdot 10^{-2}\,\mathrm{m}^{2}}}$$ Det tilsvarer omtrent $130\,\mathrm{cm}^{2}$, eller en flate på omtrent $11\,\mathrm{cm}\cdot11\,\mathrm{cm}$. Har dekket for lavt trykk, må en større del av dekket ligge an mot veien for å bære bilen. Dekket blir da flatere, og bilen bruker mer drivstoff.
 
 :::
 
