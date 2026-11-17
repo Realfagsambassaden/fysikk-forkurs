@@ -1,8 +1,8 @@
 ---
-title: "Strøm, spenning og kretser"
+title: "Strøm og spenning"
 tema: kretser
 undertema: strom-spenning
-aliases: ["01-begreper.html", "/forkurs/09-elektrisitet/01-begreper.html"]
+aliases: ["02-strom-spenning-og-kretser.html", "01-begreper.html", "/forkurs/09-elektrisitet/01-begreper.html"]
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/11-02-strom-spenning-og-kretser) -->
@@ -104,30 +104,6 @@ $$
 :::
 :::
 
-## Elektriske kretser
-
-Hva er egentlig en elektrisk krets? En elektrisk krets, eller bare en krets, er rett og slett en lukket vei som strømmen kan gå rundt i. Det går bare strøm når kretsen er **lukket**. Er det et brudd et sted, for eksempel en åpen bryter, er kretsen **åpen**, og det går ingen strøm noe sted i den.
-
-![](../../bilder/figurer/krets-apen-lukket.svg){.tikz-fig style="width:560px" fig-alt="To like kretser med et batteri U, en bryter og en lampe. Til venstre er bryteren åpen, og det går ingen strøm. Til høyre er bryteren lukket, og piler merket I viser strømmen ut fra batteriets pluss-pol, gjennom bryteren og lampa og tilbake."}
-
-### Kretsskjema
-
-Når vi tegner en krets, bruker vi et **kretsskjema**: en skjematisk tegning der hver komponent har sitt eget standardsymbol, og ledningene er rette streker. Den lange streken på batterisymbolet er den positive polen.
-
-![](../../bilder/figurer/kretssymboler.svg){.tikz-fig style="width:640px" fig-alt="Kretssymbolene for batteri (en lang og en kort strek, pluss ved den lange), motstand (et rektangel), lyspære (en sirkel med kryss), bryter (en åpen skrå strek), amperemeter (sirkel med A) og voltmeter (sirkel med V)."}
-
-### Måling av strøm og spenning
-
-Et **amperemeter** måler strømmen gjennom en komponent, og et **voltmeter** måler spenningen over den. Amperemeteret kobles i *serie* med komponenten, og voltmeteret i *parallell* over den:
-
-![Amperemeteret er koblet i serie med lampa, og voltmeteret i parallell over den.](../../bilder/figurer/krets-maling.svg){.tikz-fig style="width:420px" fig-alt="En krets med batteriet U0, et amperemeter A og en lampe i serie. Et voltmeter V er koblet i parallell over lampa. En pil merket I viser strømmen gjennom amperemeteret."}
-
-Hva serie- og parallellkobling betyr, og hvorfor instrumentene må kobles slik, ser vi på i [Serie- og parallellkobling](04-serie-og-parallellkobling.qmd).
-
-::: {.callout-tip title="Til ettertanke"}
-Strømmen går nesten uhindret gjennom et godt amperemeter, mens det nesten ikke går strøm gjennom et godt voltmeter. Hvorfor? (Tenk på at måleinstrumentet ikke skal endre kretsen det måler på.)
-:::
-
 <!-- tillegg: Claude -->
 Programmet regner ut ladning, antall elektroner og energi for en lading. Prøv med dine egne tall fra mobilladeren.
 
@@ -180,24 +156,6 @@ c)  En gnist overfører ladningen $1.0\ \mathrm{C}$ på $2.0\ \mathrm{ms}$. Hvor
 :::
 :::
 
-::: {.oppgave tittel="Måle strøm og spenning" niva="Middels"}
-Et batteri er koblet til to lyspærer i serie.
-
-a)  Tegn kretsen med et amperemeter som måler strømmen fra batteriet, og et voltmeter som måler spenningen over den ene lyspæra.
-
-b)  Hvorfor må amperemeteret kobles i serie, mens voltmeteret kobles i parallell?
-
-c)  Strømmen går nesten uhindret gjennom et godt amperemeter, mens det nesten ikke går strøm gjennom et godt voltmeter. Prøv å forklare hvorfor.
-
-::: {.losning}
-**a)** Batteriet, amperemeteret og de to pærene ligger etter hverandre i én sløyfe. Voltmeteret kobles med én ledning på hver side av den ene pæra.
-
-**b)** Amperemeteret måler strømmen *gjennom* seg selv, så den strømmen vi vil måle, må gå gjennom det. Voltmeteret måler spenningen *mellom* to punkter, så det må kobles til de to endene av komponenten.
-
-**c)** Måleinstrumentet skal ikke endre kretsen. Amperemeteret ligger i serie, og hvis det var vanskelig for strømmen å komme gjennom det, ville strømmen i hele kretsen blitt mindre. Voltmeteret ligger i parallell, og hvis det slapp mye strøm gjennom seg, ville det «stjålet» strøm fra komponenten det måler over.
-:::
-:::
-
 ::: {.oppgave tittel="Ladning gjennom en lampe"}
 <!-- tillegg: Claude -->
 Gjennom en lommelyktpære går det en strøm på $0.25\ \mathrm{A}$.
@@ -238,21 +196,6 @@ $$
 W = qU = 2.16\cdot10^{5}\ \mathrm{C}\cdot12\ \mathrm{V} = 2.59\cdot10^{6}\ \mathrm{J} \approx \underline{\underline{2.6\ \mathrm{MJ}}}
 $$
 Det er omtrent $0.72\ \mathrm{kWh}$.
-:::
-:::
-
-::: {.oppgave tittel="Hvor skal måleren stå?"}
-<!-- tillegg: Claude -->
-Du har en krets med et batteri og en lampe, og vil måle både strømmen gjennom lampa og spenningen over den.
-
-a)  Hvordan kobler du amperemeteret? Hvordan kobler du voltmeteret?
-
-b)  En medelev kobler amperemeteret direkte over batteriet, med en ledning til hver pol. Hva skjer, og hvorfor?
-
-::: {.losning}
-**a)** Amperemeteret settes inn **i serie** med lampa: Du åpner kretsen på ett sted og lar strømmen gå gjennom amperemeteret. Voltmeteret kobles **i parallell** over lampa, med én ledning på hver side av den.
-
-**b)** Strømmen går nesten uhindret gjennom amperemeteret. Koblet direkte over batteriet blir det en **kortslutning**: Strømmen blir svært stor, batteriet tappes fort og blir varmt, og sikringen i amperemeteret kan gå (eller instrumentet ødelegges).
 :::
 :::
 

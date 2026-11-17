@@ -110,7 +110,7 @@ Sjekk: $4.0\ \mathrm{V} + 8.0\ \mathrm{V} = 12\ \mathrm{V}$. Spenningen fra batt
 <!-- tillegg: Claude -->
 En nyttig følge av spenningsloven: Komponenter som er koblet i **parallell**, har alltid **samme spenning**. Går du en sløyfe ned gjennom den ene grenen og opp igjen gjennom den andre, må fallene være like store.
 
-Det er disse lovene som ligger bak reglene for [serie- og parallellkobling](04-serie-og-parallellkobling.qmd). I en seriekobling sier spenningsloven at $U = U_1 + U_2 + \dots$, og i en parallellkobling sier strømloven at $I = I_1 + I_2 + \dots$
+Det er disse lovene som ligger bak reglene for [serie- og parallellkobling](04-kretser.qmd). I en seriekobling sier spenningsloven at $U = U_1 + U_2 + \dots$, og i en parallellkobling sier strømloven at $I = I_1 + I_2 + \dots$
 
 ![](../../bilder/figurer/spenning-hoyde.svg){.tikz-fig style="width:520px" fig-alt="Et diagram over potensialet når vi går en runde i seriekretsen med batteriet på 12 V og motstandene på 4.0 og 8.0 ohm. Batteriet løfter potensialet fra 0 til 12 V. Over den første motstanden faller det 4 V, over den andre 8 V, og vi er tilbake på 0."}
 
