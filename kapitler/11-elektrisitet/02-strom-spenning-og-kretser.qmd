@@ -24,7 +24,7 @@ $$
 Enheten er ampere, $1\ \mathrm{A} = 1\ \mathrm{C/s}$.
 :::
 
-Elektronene i en ledning beveger seg faktisk svært langsomt, typisk under en millimeter per sekund. Men ledningen er full av frie elektroner fra før. Når kretsen sluttes, begynner alle elektronene i hele ledningen å bevege seg nesten samtidig, omtrent som vann i en hageslange som allerede er full. Derfor lyser lampa med en gang.
+Elektronene i en ledning beveger seg faktisk svært langsomt, typisk under en millimeter per sekund. Men ledningen er full av frie elektroner fra før. Når kretsen sluttes, begynner alle elektronene i hele ledningen å bevege seg nesten samtidig, omtrent som vann i en hageslange som allerede er full. Hver vanndråpe går ikke så fort, men likevel renner vannet umiddelbart ut av den andre enden av slangen når du åpner krana. På samme måte er det altså med elektronene, og derfor lyser lampa med en gang.
 
 ::: {.callout-important title="Merk: Strømretning"}
 Vi sier at strømmen går fra den positive polen ($+$) på batteriet, gjennom kretsen, og tilbake til den negative polen ($-$). Dette er den *tekniske strømretningen*, og den ble bestemt før man kjente til elektronene. Elektronene beveger seg faktisk motsatt vei, fra $-$ til $+$. I regning bruker vi alltid den tekniske strømretningen.
@@ -34,18 +34,23 @@ Strømmen fra et batteri går alltid samme vei. Det kalles **likestrøm**. Strø
 
 ## Spenning
 
-For at det skal gå strøm, må noe drive ladningene rundt i kretsen. Det er det batteriet gjør. Tenk på spenning som et «elektrisk høydekart»: Akkurat som en ball ruller ned fra høyt til lavt i tyngdefeltet, går strømmen fra høyt til lavt elektrisk potensial gjennom kretsen. Batteriet fungerer som en heis som løfter ladningene opp igjen.
+For at det skal gå strøm, må noe drive ladningene rundt i kretsen. Det er det batteriet gjør, gjennom å sette opp det vi kaller et *elektrisk felt.*  Dashman på sklia (se figur) rusher fra høyt til lavt på sklia. Det er på grunn av *tyngdefeltet* (CHECK lille g), som alltid peker nedover, og derfor driver Dashman ned sklia, fra topp til bunn. På samme måte så finnes det et elektrisk felt mellom polene på et batteri. 
+[CHECK: figur av batteri med massevis av negative og positive ladninger, og feltlinjer som går mellom, slik at de ser sammenhengen med dipol-tegningen fra forrige delkapittel.]
+Når vi kobler polene sammen ved hjelp av elektriske ledere, vil ladningene "skli" gjenom kretsen, fra positiv til negativ pol. Den positive polen er altså "på toppen av sklia" og den negative polen er "nede i bunnen". Det er dette som driver strømmen gjennom kretsen.
+
+Batteriets evne til å drive ladninger gjennom kretsen, kalles **spenning**. Spenningen mellom to punkter er forskjellen i elektrisk *potensial* mellom dem polene. Elektrisk potensial er egentlig det samme som *potensiell energi per ladning*. Dette tallet, elektrisk potensial, forteller oss derfor hvor mye energi som blir gitt til hver ladning som går gjennom kretsen. Vi kaller det altså *spenning* og måler det i *volt* (V). 1 volt betyr at hver coulomb ladning som går gjennom kretsen, får 1 joule energi.
+
 
 ![](../../bilder/figurer/spenning-hoyde.svg){.tikz-fig style="width:520px" fig-alt="Et diagram over potensialet når vi går en runde i en krets med et batteri på 12 V og to motstander. Batteriet løfter potensialet fra 0 til 12 V. Over den første motstanden faller det 4 V, over den andre 8 V, og vi er tilbake på 0."}
 
 ::: {.callout-note title="Definisjon: Spenning"}
 Spenningen $U$ mellom to punkter er arbeidet $W$ som trengs per ladning $q$ for å flytte ladningen fra det ene punktet til det andre:
 $$
-U = \frac{W}{q}
+U = \frac{\Delta E_{\text{pot}}}{q}=\frac{W}{q}
 $$
 Enheten er volt, $1\ \mathrm{V} = 1\ \mathrm{J/C}$.
 :::
-
+[CHECK: notasjon for Epot]
 Et batteri på $9.0\ \mathrm{V}$ gir altså $9.0\ \mathrm{J}$ energi til hver coulomb ladning som går gjennom det. Spenningen mellom polene på et batteri kalles **polspenningen**.
 
 ::: {.eksempel}
@@ -77,7 +82,7 @@ $$
 
 ## Elektriske kretser
 
-En krets er en lukket vei som strømmen kan gå rundt i. Det går bare strøm når kretsen er **lukket**. Er det et brudd et sted, for eksempel en åpen bryter, er kretsen **åpen**, og det går ingen strøm noe sted i den.
+Hva er egentlig en elektrisk krets? En elektrisk krets, eller bare en krets, er rett og slett en lukket vei som strømmen kan gå rundt i. Det går bare strøm når kretsen er **lukket**. Er det et brudd et sted, for eksempel en åpen bryter, er kretsen **åpen**, og det går ingen strøm noe sted i den.
 
 ![](../../bilder/figurer/krets-apen-lukket.svg){.tikz-fig style="width:560px" fig-alt="To like kretser med et batteri U, en bryter og en lampe. Til venstre er bryteren åpen, og det går ingen strøm. Til høyre er bryteren lukket, og piler merket I viser strømmen ut fra batteriets pluss-pol, gjennom bryteren og lampa og tilbake."}
 
@@ -85,7 +90,7 @@ Kretser tegnes med standardsymboler. Den lange streken på batterisymbolet er de
 
 ![](../../bilder/figurer/kretssymboler.svg){.tikz-fig style="width:640px" fig-alt="Kretssymbolene for batteri (en lang og en kort strek, pluss ved den lange), motstand (et rektangel), lyspære (en sirkel med kryss), bryter (en åpen skrå strek), amperemeter (sirkel med A) og voltmeter (sirkel med V)."}
 
-Vi måler strøm med et **amperemeter** og spenning med et **voltmeter**:
+Vi måler strøm med et **amperemeter** og spenning med et **voltmeter**. Disse kobles i henholdsvis serie og parallell med komponenten vi vil måle. Mer om serie- og parallellkobling i et senere delkapittel.
 
 ::: {.kort}
 - **Amperemeteret kobles i serie**, slik at strømmen vi vil måle, går gjennom det.
