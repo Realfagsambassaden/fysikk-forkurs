@@ -26,7 +26,7 @@ Det er altså i massesenteret det er mest naturlig å tegne inn tyngdekraften. H
 ::: {.eksempel}
 [Eksempel: Massesenter for to barn på en huske]{.eks-tittel}
 
-To barn sitter på en $3.0\,\mathrm{m}$ lang, masselos huske festet i midten ($x = 0$). Barn 1 har masse $m_1 = 25\,\mathrm{kg}$ og sitter i $x_1 = -1.2\,\mathrm{m}$ (venstre side). Barn 2 har masse $m_2 = 35\,\mathrm{kg}$. Hvor må barn 2 sitte for at huska skal balansere?
+To barn sitter på en $3.0\,\mathrm{m}$ lang, masseløs huske festet i midten ($x = 0$). Barn 1 har masse $m_1 = 25\,\mathrm{kg}$ og sitter i $x_1 = -1.2\,\mathrm{m}$ (venstre side). Barn 2 har masse $m_2 = 35\,\mathrm{kg}$. Hvor må barn 2 sitte for at huska skal balansere?
 
 ::: center
 ![](../../bilder/figurer/k6-16-85a12c2dce72.svg){.tikz-fig style="width:292px"}

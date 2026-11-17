@@ -133,7 +133,7 @@ Det hydrostatiske trykket avhenger bare av dybden $h$, væskens tetthet $\rho$ o
 
 Trykket $p(h)$ i en væske som er i ro er gitt som: $$\begin{aligned}
         p(h) = p_0 + \rho \mathrm{g} h
-\end{aligned}$$ Her er $p_0$ det ytre trykket ved væskeoverflaten, $\rho$ er tettheten til væsken ($\text{kg/m}^3$), $\mathrm{g}$ er tyngdeakselerasjonen ($9.81 \, \text{m/s}^2$), og $h$ er dybden i væsken ($\text{m}$).
+\end{aligned}$$ Her er $p_0$ det ytre trykket ved væskeoverflaten, $\rho$ er tettheten til væsken ($\mathrm{kg/m}^3$), $\mathrm{g}$ er tyngdeakselerasjonen ($9.81 \, \mathrm{m/s}^2$), og $h$ er dybden i væsken ($\mathrm{m}$).
 
 :::
 
@@ -162,18 +162,18 @@ Tre beholdere med ulik form — en smal sylinder, en vid bolle og en kjegle med 
 ::: {.eksempel}
 [Eksempel: Beregning av trykk ved ulike dybder]{.eks-tittel}
 
-En dykker er under vann med tetthet $\rho = 1000 \, \text{kg/m}^3$, og det atmosfæriske trykket ved overflaten er $p_0 = 101325 \, \text{Pa}$. Hva er det totale trykket på dykkeren ved dybdene $h = 2.0 \, \text{m}$, $h = 5.0 \, \text{m}$, og $h = 10 \, \text{m}$?
+En dykker er under vann med tetthet $\rho = 1000 \, \mathrm{kg/m}^3$, og det atmosfæriske trykket ved overflaten er $p_0 = 101325 \, \mathrm{Pa}$. Hva er det totale trykket på dykkeren ved dybdene $h = 2.0 \, \mathrm{m}$, $h = 5.0 \, \mathrm{m}$, og $h = 10 \, \mathrm{m}$?
 
 :::
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-Vi bruker formelen for trykk i væsken: $$p(h) = p_0 + \rho \mathrm{g} h$$ hvor $p_0 = 101325 \, \text{Pa}$, $\rho = 1000 \, \text{kg/m}^3$, og $\mathrm{g} = 9.81 \, \text{m/s}^2$. Vi setter inn de tre ulike dybdene én etter én.\
-**Ved $h = 2.0 \, \text{m}$:** $$p(2.0) = 101325 + 1000 \cdot 9.81 \cdot 2.0 = 101325 + 19620 = 120945 \, \text{Pa} \approx \underline{\underline{1.2 \cdot 10^5 \, \text{Pa}}}.$$
+Vi bruker formelen for trykk i væsken: $$p(h) = p_0 + \rho \mathrm{g} h$$ hvor $p_0 = 101325 \, \mathrm{Pa}$, $\rho = 1000 \, \mathrm{kg/m}^3$, og $\mathrm{g} = 9.81 \, \mathrm{m/s}^2$. Vi setter inn de tre ulike dybdene én etter én.\
+**Ved $h = 2.0 \, \mathrm{m}$:** $$p(2.0) = 101325 + 1000 \cdot 9.81 \cdot 2.0 = 101325 + 19620 = 120945 \, \mathrm{Pa} \approx \underline{\underline{1.2 \cdot 10^5 \, \mathrm{Pa}}}.$$
 
-**Ved $h = 5.0 \, \text{m}$:** $$p(5.0) = 101325 + 1000 \cdot 9.81 \cdot 5.0 = 101325 + 49050 = 150375 \, \text{Pa} \approx \underline{\underline{1.5 \cdot 10^5 \, \text{Pa}}}.$$
+**Ved $h = 5.0 \, \mathrm{m}$:** $$p(5.0) = 101325 + 1000 \cdot 9.81 \cdot 5.0 = 101325 + 49050 = 150375 \, \mathrm{Pa} \approx \underline{\underline{1.5 \cdot 10^5 \, \mathrm{Pa}}}.$$
 
-**Ved $h = 10 \, \text{m}$:** $$p(10) = 101325 + 1000 \cdot 9.81 \cdot 10 = 101325 + 98100 = 199425 \, \text{Pa} \approx \underline{\underline{2.0 \cdot 10^5 \, \text{Pa}}}.$$
+**Ved $h = 10 \, \mathrm{m}$:** $$p(10) = 101325 + 1000 \cdot 9.81 \cdot 10 = 101325 + 98100 = 199425 \, \mathrm{Pa} \approx \underline{\underline{2.0 \cdot 10^5 \, \mathrm{Pa}}}.$$
 
 Legg merke til at trykket ved $10\,\mathrm{m}$ dybde er omtrent dobbelt så stort som ved overflaten. For hver tiende meter nedover i vann øker trykket med omtrent én atmosfære.
 
