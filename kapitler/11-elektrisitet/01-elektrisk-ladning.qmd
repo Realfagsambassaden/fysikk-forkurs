@@ -4,15 +4,17 @@ tema: elektrisk-felt
 undertema: ladning
 ---
 
-Elektrisitet og magnetisme er to sider av samme sak: elektromagnetismen, én av de fire grunnleggende kreftene i universet. Denne videoen gir en introduksjon:
+Visste du at elektrisitet og magnetisme er to sider av samme sak? Det er dette faktum som ligger bak det vi f.eks. kaller elektromagnetisk induksjon. Elektrisitet og magnetisme sett under ett ble utviklet av James Clerk Maxwell på 1800-tallet, og kalles *elektromagnetisme*. Det er én av de fire grunnleggende naturkreftene i universet. Denne videoen gir en introduksjon:
 
 {{< video https://www.youtube.com/watch?v=aBr6tw3pTXg >}}
+
+La oss nå likevel konsentrere oss om *elektrisitet*, som et eget fenomen, selv om det altså egentlig er en del av det vi kaller elektromagnetisme.
 
 ::: {.callout-tip title="Til ettertanke"}
 Du gnir en ballong mot genseren din, og etterpå kan ballongen henge fast i taket. Hva er det som har skjedd?
 :::
 
-All materie er bygget opp av atomer. Et atom har en kjerne med positivt ladde **protoner** (og nøytrale nøytroner), og rundt kjernen beveger det seg negativt ladde **elektroner**. Et atom har like mange protoner som elektroner og er derfor elektrisk **nøytralt**: Den positive og den negative ladningen opphever hverandre.
+All materie er bygget opp av atomer. Disse atomene har masse. De veier altså noe. Men i tillegg har de noe som kalles *elektrisk ladning*. Et atom har en kjerne med positivt ladde **protoner** (og nøytrale nøytroner), og rundt kjernen beveger det seg negativt ladde **elektroner**. Et atom har like mange protoner som elektroner og er derfor elektrisk **nøytralt**: Den positive og den negative ladningen opphever hverandre.
 
 Elektronene i de ytterste skallene kan forholdsvis lett flyttes fra ett legeme til et annet. Når du gnir ballongen mot genseren, flyttes elektroner fra genseren over til ballongen. Ballongen får da et overskudd av elektroner og blir negativt ladet, mens genseren får et underskudd og blir positivt ladet.
 
@@ -20,9 +22,20 @@ Elektronene i de ytterste skallene kan forholdsvis lett flyttes fra ett legeme t
 
 Ladning blir verken laget eller ødelagt, den bare flyttes. Dette kalles **ladningsbevaring**. Til sammen har genseren og ballongen like mye ladning som før, altså null.
 
+Mens *masse* alltid er positiv, kan elektrisk ladning være både positiv og negativ. Gravitasjonsfeltet rundt en masseklump (jorda, for eksempel, eller et atom) trekker alltid andre masseklumper mot seg.
+
+[CHECK FIGUR, jorda og månen, med tiltrekkende krefter]
+
+ Med ladning er det ikke slik. Her har vi to forskjellige fortegn, og får derfor flere muligheter. To legemer med like ladninger frastøter hverandre, mens to legemer med motsatt ladning tiltrekker hverandre. 
+
+
+[CHECK FIGUR av alle fire muligheter.]
+
 ## Elementærladningen
 
-Elektrisk ladning har symbolet $q$ (eller $Q$) og enheten coulomb (C). Den minste frie ladningen som finnes i naturen, er ladningen til et proton. Den kalles elementærladningen.
+En annen viktig forskjell mellom et legemes *masse* og *ladning* er at ladning kommer i pakker. Massen til et legeme kan variere kontinuerlig. Slik er det ikke med ladning.Den minste mulige pakken for ladning kalles *elementærladningen*, og alle andre ladnigner er et helt antall ganger elementærladningen. Det finnes altså en minsteladning i universet!
+
+Elektrisk ladning har symbolet $q$ (eller $Q$) og enheten coulomb (C). Den minste frie ladningen som finnes i naturen, er altså elementærladningen, som forøvrig også er ladningen til et proton.
 
 ::: {.callout-important title="Elementærladningen"}
 $$
@@ -92,7 +105,7 @@ Hvor mange elektroner må til for å få ladningen $-1.0\ \mathrm{C}$? Hvorfor m
 ::: {.losning}
 $N = \dfrac{1.0\ \mathrm{C}}{1.602\cdot 10^{-19}\ \mathrm{C}} = \underline{\underline{6.2\cdot 10^{18}}}$
 
-En coulomb er en enorm ladning å samle på ett legeme. Ladninger med likt fortegn frastøter hverandre så kraftig at de straks ville spre seg eller lade ut gjennom lufta. Typiske ladninger fra gnidning er noen mikrocoulomb eller mindre.
+Én coulomb er en enorm ladning å samle på ett legeme. Ladninger med likt fortegn frastøter hverandre så kraftig at de straks ville spre seg eller lade ut gjennom lufta. Typiske ladninger fra gnidning er noen mikrocoulomb eller mindre.
 :::
 :::
 
