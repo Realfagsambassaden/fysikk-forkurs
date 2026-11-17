@@ -118,16 +118,11 @@ Når vi tegner en krets, bruker vi et **kretsskjema**: en skjematisk tegning der
 
 ### Måling av strøm og spenning
 
-Vi måler strøm med et **amperemeter** og spenning med et **voltmeter**.
-
-::: {.kort}
-- **Amperemeteret kobles i serie** med komponenten, slik at den samme strømmen går gjennom begge.
-- **Voltmeteret kobles i parallell** over komponenten, slik at det er koblet til de samme to punktene som komponenten.
-:::
-
-Hva serie- og parallellkobling betyr, ser vi nærmere på i [Serie- og parallellkobling](04-serie-og-parallellkobling.qmd).
+Et **amperemeter** måler strømmen gjennom en komponent, og et **voltmeter** måler spenningen over den. Amperemeteret kobles i *serie* med komponenten, og voltmeteret i *parallell* over den:
 
 ![Amperemeteret er koblet i serie med lampa, og voltmeteret i parallell over den.](../../bilder/figurer/krets-maling.svg){.tikz-fig style="width:420px" fig-alt="En krets med batteriet U0, et amperemeter A og en lampe i serie. Et voltmeter V er koblet i parallell over lampa. En pil merket I viser strømmen gjennom amperemeteret."}
+
+Hva serie- og parallellkobling betyr, og hvorfor instrumentene må kobles slik, ser vi på i [Serie- og parallellkobling](04-serie-og-parallellkobling.qmd).
 
 ::: {.callout-tip title="Til ettertanke"}
 Strømmen går nesten uhindret gjennom et godt amperemeter, mens det nesten ikke går strøm gjennom et godt voltmeter. Hvorfor? (Tenk på at måleinstrumentet ikke skal endre kretsen det måler på.)
