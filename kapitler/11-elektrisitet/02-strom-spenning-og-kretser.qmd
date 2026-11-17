@@ -34,23 +34,29 @@ Strømmen fra et batteri går alltid samme vei. Det kalles **likestrøm**. Strø
 
 ## Spenning
 
-For at det skal gå strøm, må noe drive ladningene rundt i kretsen. Det er det batteriet gjør, gjennom å sette opp det vi kaller et *elektrisk felt.*  Dashman på sklia (se figur) rusher fra høyt til lavt på sklia. Det er på grunn av *tyngdefeltet* (CHECK lille g), som alltid peker nedover, og derfor driver Dashman ned sklia, fra topp til bunn. På samme måte så finnes det et elektrisk felt mellom polene på et batteri. 
-[CHECK: figur av batteri med massevis av negative og positive ladninger, og feltlinjer som går mellom, slik at de ser sammenhengen med dipol-tegningen fra forrige delkapittel.]
-Når vi kobler polene sammen ved hjelp av elektriske ledere, vil ladningene "skli" gjenom kretsen, fra positiv til negativ pol. Den positive polen er altså "på toppen av sklia" og den negative polen er "nede i bunnen". Det er dette som driver strømmen gjennom kretsen.
+For at det skal gå strøm, må noe drive ladningene rundt i kretsen. Det er det batteriet gjør, ved å sette opp det vi kaller et *elektrisk felt*. Dashman på sklia (se figur) suser fra høyt til lavt. Det er på grunn av *tyngdefeltet* $\vec{\mathrm{g}}$, som alltid peker nedover og derfor driver Dashman ned sklia, fra toppen til bunnen.
 
-Batteriets evne til å drive ladninger gjennom kretsen, kalles **spenning**. Spenningen mellom to punkter er forskjellen i elektrisk *potensial* mellom dem polene. Elektrisk potensial er egentlig det samme som *potensiell energi per ladning*. Dette tallet, elektrisk potensial, forteller oss derfor hvor mye energi som blir gitt til hver ladning som går gjennom kretsen. Vi kaller det altså *spenning* og måler det i *volt* (V). 1 volt betyr at hver coulomb ladning som går gjennom kretsen, får 1 joule energi.
+[CHECK: Dashman på sklia – Ben tegner]
+
+På samme måte finnes det et elektrisk felt mellom polene på et batteri. Ved pluss-polen er det et overskudd av positiv ladning, og ved minus-polen et overskudd av negativ ladning. Feltlinjene går fra den ene polen til den andre, akkurat som i dipolen fra forrige delkapittel.
+
+![Feltlinjene rundt et batteri går fra pluss-polen til minus-polen, som i en dipol.](../../bilder/figurer/batteri-felt.svg){.tikz-fig style="width:520px" fig-alt="Et batteri sett fra siden. Ved pluss-polen til venstre er det en rekke plusstegn, ved minus-polen til høyre en rekke minustegn. Svake oransje feltlinjer går fra pluss-polen til minus-polen, både rett gjennom batteriet og i buer rundt det, som i en dipol."}
+
+Når vi kobler polene sammen ved hjelp av elektriske ledere, vil ladningene «skli» gjennom kretsen, fra positiv til negativ pol. Den positive polen er altså «på toppen av sklia», og den negative polen er «nede i bunnen». Det er dette som driver strømmen gjennom kretsen.
+
+Batteriets evne til å drive ladninger gjennom kretsen, kalles **spenning**. Spenningen mellom to punkter er forskjellen i elektrisk *potensial* mellom dem. Elektrisk potensial er egentlig det samme som *potensiell energi per ladning*. Spenningen forteller oss derfor hvor mye energi hver coulomb ladning får når den går gjennom batteriet. Vi kaller det altså *spenning* og måler det i *volt* (V). 1 volt betyr at hver coulomb ladning som går gjennom kretsen, får 1 joule energi.
 
 
 ![](../../bilder/figurer/spenning-hoyde.svg){.tikz-fig style="width:520px" fig-alt="Et diagram over potensialet når vi går en runde i en krets med et batteri på 12 V og to motstander. Batteriet løfter potensialet fra 0 til 12 V. Over den første motstanden faller det 4 V, over den andre 8 V, og vi er tilbake på 0."}
 
 ::: {.callout-note title="Definisjon: Spenning"}
-Spenningen $U$ mellom to punkter er arbeidet $W$ som trengs per ladning $q$ for å flytte ladningen fra det ene punktet til det andre:
+Spenningen $U$ mellom to punkter er endringen i potensiell energi $\Delta E_p$ per ladning $q$, altså arbeidet $W$ som trengs per ladning for å flytte ladningen fra det ene punktet til det andre:
 $$
-U = \frac{\Delta E_{\text{pot}}}{q}=\frac{W}{q}
+U = \frac{\Delta E_p}{q} = \frac{W}{q}
 $$
 Enheten er volt, $1\ \mathrm{V} = 1\ \mathrm{J/C}$.
 :::
-[CHECK: notasjon for Epot]
+
 Et batteri på $9.0\ \mathrm{V}$ gir altså $9.0\ \mathrm{J}$ energi til hver coulomb ladning som går gjennom det. Spenningen mellom polene på et batteri kalles **polspenningen**.
 
 ::: {.eksempel}
