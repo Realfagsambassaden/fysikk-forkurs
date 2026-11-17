@@ -127,26 +127,4 @@ c)  Hvor stor er denne kraften sammenliknet med tyngdekraften på ballen?
 
 :::
 
-::: {.oppgave tittel="Astronaut i rommet" krever="bevegelsesmengde/kollisjoner"}
-[Astronaut i rommet]{.oppg-tittel}
-
-En astronaut med masse $90\,\mathrm{kg}$ (inkludert romdrakt) svever i ro $20\,\mathrm{m}$ fra romstasjonen. Hun kaster en verktøykasse med masse $2.0\,\mathrm{kg}$ rett *bort* fra romstasjonen med fart $3.0\,\mathrm{m}\,\mathrm{s}^{-1}$.
-
-a)  Hvilken fart og retning får astronauten etter kastet?
-
-b)  Hvor lang tid tar det før hun når romstasjonen?
-
-::: {.losning}
-
-Astronauten og verktøykassa utgjør et isolert system (ingen ytre krefter i verdensrommet), så bevegelsesmengden er bevart (se avsnitten) – akkurat som i eksempelet *Rekyl fra gevær*. Før kastet er begge i ro, $p_{tot,\,\text{før}}=0$. Vi velger retningen bort fra romstasjonen (kasteretningen) som positiv.
-
-**a)** Bevaringslikningen gir $$0 = M\,U + m_\text{kasse}\,u_\text{kasse} \quad\Rightarrow\quad U = -\frac{m_\text{kasse}\,u_\text{kasse}}{M} = -\frac{2.0\,\mathrm{kg}\cdot3.0\,\mathrm{m}\,\mathrm{s}^{-1}}{90\,\mathrm{kg}} = -0.0667\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{-0.067\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ Astronauten får altså en fart på $0.0667\,\mathrm{m}\,\mathrm{s}^{-1}$ i *motsatt* retning av kasteretningen, altså tilbake mot romstasjonen.
-
-**b)** Hun beveger seg med konstant fart $|U|$ tilbake mot stasjonen, en avstand $d=20\,\mathrm{m}$ unna: $$t = \frac{d}{|U|} = \frac{20\,\mathrm{m}}{0.0667\,\mathrm{m}\,\mathrm{s}^{-1}} = \underline{\underline{3.0\cdot 10^{2}\,\mathrm{s}}} = 5.0\,\mathrm{min}$$
-
-:::
-
-:::
-
-
 ::::
