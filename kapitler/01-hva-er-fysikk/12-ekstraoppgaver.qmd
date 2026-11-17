@@ -1,15 +1,15 @@
 ---
-title: "Ekstraoppgaver"
-tema: storrelser-og-enheter
+title: "Sammensatte oppgaver: Tall, måling og usikkerhet"
+tema: maling-og-usikkerhet
 undertema: oppgaver
 aliases: ["/forkurs/01-hva-er-fysikk/07-ekstraoppgaver.html", "08-ekstraoppgaver.html", "11-ekstraoppgaver.html"]
 ---
 
 :::: {.oppgaver}
 
-Her er flere oppgaver om temaene foran.
+Oppgavene her kombinerer stoff fra flere delkapitler. Følger du en løype, ser du bare oppgavene du har gått gjennom stoffet til.
 
-::: {.oppgave tittel="Fysisk størrelse"}
+::: {.oppgave tittel="Fysisk størrelse" krever="storrelser-og-enheter/si"}
 [Fysisk størrelse]{.oppg-tittel}
 
 Hva skal stå på venstre side av likhetstegnet? $$\rule{4cm}{0.4pt} \;=\; \textrm{verdi} \cdot \textrm{enhet}$$
@@ -22,7 +22,7 @@ På venstre side skal det stå **[Fysisk størrelse]{.roman}**, slik at likninge
 
 :::
 
-::: {.oppgave tittel="Dekadiske prefikser – matching"}
+::: {.oppgave tittel="Dekadiske prefikser – matching" krever="storrelser-og-enheter/si"}
 [Dekadiske prefikser – matching]{.oppg-tittel}
 
 Fyll inn faktoren for hvert prefiks i tabellen:
@@ -59,7 +59,7 @@ Faktorene er gitt i Tabellen:
 
 :::
 
-::: {.oppgave tittel="Standardform"}
+::: {.oppgave tittel="Standardform" krever="maling-og-usikkerhet/standardform"}
 [Standardform]{.oppg-tittel}
 
 Hvordan ser tallet $100.1$ ut når det er skrevet på standardform?
@@ -72,7 +72,7 @@ Vi flytter desimaltegnet slik at det blir ett siffer foran det, og teller hvor m
 
 :::
 
-::: {.oppgave tittel="Signifikante siffer"}
+::: {.oppgave tittel="Signifikante siffer" krever="maling-og-usikkerhet/gjeldende-siffer, storrelser-og-enheter/enhetsregning"}
 [Signifikante siffer]{.oppg-tittel}
 
 Per kjøper 1523 skruer til garasjen sin. Hver skrue veier $10.1\,\mathrm{g}$. Hvor mange signifikante sifre kan vi angi totalvekten til skruene med?

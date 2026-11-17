@@ -34,7 +34,7 @@ undertema: arbeid
 ---
 ```
 
-Hvert tema er delt i noen få undertemaer (se `undertemaer` under temaet i tema.yml). Ekstraoppgaver får `undertema: oppgaver`. Sider om samme undertema på ulike nivåer kobles automatisk sammen, og studentene får en knapp for å bytte nivå.
+Hvert tema er delt i noen få undertemaer (se `undertemaer` under temaet i tema.yml). Sammensatte oppgaver (oppgaver på tvers av delkapitler) får `undertema: oppgaver`, står sist i temaet og bruker bare stoff fra det temaet og tidligere temaer. Hver oppgave får `krever="tema/undertema, …"`, så den skjules i løyper som ikke har gått gjennom stoffet ennå (se Plattform/AGENTS.md). Sider om samme undertema på ulike nivåer kobles automatisk sammen, og studentene får en knapp for å bytte nivå.
 
 **Nivå** (`forkurs`, `ingenior` eller `fordypning`) settes for hele læreboka i `fag.yml` i plattformen. En enkelt side kan overstyre med `niva: fordypning` øverst i fila.
 

@@ -1,5 +1,5 @@
 ---
-title: "Ekstraoppgaver"
+title: "Sammensatte oppgaver: Statikk"
 tema: statikk
 undertema: oppgaver
 aliases: ["/forkurs/06-statikk/05-ekstraoppgaver.html"]
@@ -7,9 +7,9 @@ aliases: ["/forkurs/06-statikk/05-ekstraoppgaver.html"]
 
 :::: {.oppgaver}
 
-Her er flere oppgaver om temaene foran.
+Oppgavene her kombinerer stoff fra flere delkapitler. Følger du en løype, ser du bare oppgavene du har gått gjennom stoffet til.
 
-::: {.oppgave tittel="Bilde på vegg"}
+::: {.oppgave tittel="Bilde på vegg" krever="statikk/kraftlikevekt, vektorer/dekomponering"}
 [Bilde på vegg]{.oppg-tittel}
 
 Et bilde med masse $m = 1.5\,\mathrm{kg}$ henger i en snor over en spiker. De to delene av snora danner like store vinkler $\alpha$ med horisontalen.
@@ -36,7 +36,7 @@ Dette er samme situasjon som eksempelet *Trafikklys*. De horisontale komponenten
 
 :::
 
-::: {.oppgave tittel="Vippehuske"}
+::: {.oppgave tittel="Vippehuske" krever="statikk/kraftmoment"}
 [Vippehuske]{.oppg-tittel}
 
 En vippehuske er $4.0\,\mathrm{m}$ lang og har støttepunktet på midten. Se bort fra massen til selve vippa. Et barn med masse $25\,\mathrm{kg}$ sitter helt ytterst på den ene siden.
@@ -57,7 +57,7 @@ b)  Hvor stor kraft virker det fra støttepunktet på vippa når den balanserer?
 
 :::
 
-::: {.oppgave tittel="To personer bærer en planke"}
+::: {.oppgave tittel="To personer bærer en planke" krever="statikk/kraftlikevekt, statikk/kraftmoment"}
 [To personer bærer en planke]{.oppg-tittel}
 
 To personer bærer en ensartet planke som er $3.0\,\mathrm{m}$ lang og har masse $30\,\mathrm{kg}$. Person A holder i den venstre enden, og person B holder $0.50\,\mathrm{m}$ fra den høyre enden. En kasse med masse $20\,\mathrm{kg}$ står på planken, $1.0\,\mathrm{m}$ fra den venstre enden.
@@ -76,7 +76,7 @@ Vi måler avstander fra den venstre enden, der person A holder. Tyngdekraften p�
 
 :::
 
-::: {.oppgave tittel="Massesenteret til jorda og månen"}
+::: {.oppgave tittel="Massesenteret til jorda og månen" krever="statikk/massesenter"}
 [Massesenteret til jorda og månen]{.oppg-tittel}
 
 Jorda har masse $5.97\cdot 10^{24}\,\mathrm{kg}$ og radius $6.37\cdot 10^{6}\,\mathrm{m}$. Månen har masse $7.35\cdot 10^{22}\,\mathrm{kg}$, og avstanden mellom sentrene til jorda og månen er $3.84\cdot 10^{8}\,\mathrm{m}$.
@@ -97,7 +97,7 @@ b)  Ligger massesenteret inne i jorda eller utenfor?
 
 :::
 
-::: {.oppgave tittel="Mutter som sitter fast"}
+::: {.oppgave tittel="Mutter som sitter fast" krever="statikk/kraftmoment"}
 [Mutter som sitter fast]{.oppg-tittel}
 
 En mutter sitter fast, og det trengs et kraftmoment på $50\,\mathrm{N}\,\mathrm{m}$ for å løsne den. Du har en skiftenøkkel som er $30\,\mathrm{cm}$ lang.
