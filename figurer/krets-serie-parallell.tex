@@ -1,0 +1,19 @@
+\begin{tikzpicture}[scale=1.0]
+% seriekobling
+\draw (0,0) to[battery1,invert,l=$U$] (0,3) -- (1,3) to[lamp,l=$1$] (3,3) to[lamp,l=$2$] (5,3) -- (5,0) -- (0,0);
+\draw[->,very thick,rod] (0.25,3.4)--(0.85,3.4) node[midway,above]{$I$};
+\draw[->,very thick,rod] (5.4,2.2)--(5.4,1.4) node[midway,right]{$I$};
+\node[font=\bfseries] at (2.5,4.2) {Seriekobling};
+\node[align=center,font=\small] at (2.5,-0.8) {én vei rundt:\\ samme strøm gjennom begge};
+% parallellkobling
+\begin{scope}[xshift=7.5cm]
+\draw (0,0) to[battery1,invert,l=$U$] (0,3) -- (2,3) to[lamp,l_=$1$] (2,0) -- (0,0);
+\draw (2,3) -- (4.2,3) to[lamp,l_=$2$] (4.2,0) -- (2,0);
+\fill (2,3) circle (2pt) (2,0) circle (2pt);
+\draw[->,very thick,rod] (0.4,3.4)--(1.2,3.4) node[midway,above]{$I$};
+\draw[->,very thick,rod] (1.6,2.5)--(1.6,1.8) node[midway,left]{$I_1$};
+\draw[->,very thick,rod] (3.8,2.5)--(3.8,1.8) node[midway,left]{$I_2$};
+\node[font=\bfseries] at (2.1,4.2) {Parallellkobling};
+\node[align=center,font=\small] at (2.1,-0.8) {mellom de samme to punktene:\\ samme spenning over begge};
+\end{scope}
+\end{tikzpicture}

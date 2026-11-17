@@ -40,13 +40,19 @@ For at det skal gå strøm, må noe drive ladningene rundt i kretsen. Det er det
 
 Det er tungt å klatre opp stigen. Dashman må gjøre et arbeid mot tyngdekraften, og på toppen har den potensielle energien hans økt med $\Delta E_p = m\mathrm{g}h$. Så sklir han ned. Det er *tyngdefeltet* $\vec{\mathrm{g}}$, som alltid peker nedover, som driver ham fra toppen til bunnen. På vei ned blir den potensielle energien brukt opp: Friksjonen mellom Dashman og sklia gjør den om til varme. Når han er nede, er hele $\Delta E_p$ gitt fra seg.
 
-På samme måte finnes det et elektrisk felt mellom polene på et batteri. Ved pluss-polen er det samlet masse positiv ladning, og ved minus-polen masse negativ ladning. Feltlinjene går fra den ene polen til den andre, akkurat som i dipolen fra forrige delkapittel.
+På samme måte finnes det et elektrisk felt mellom polene på et batteri. Ved pluss-polen er det samlet masse positiv ladning, og ved minus-polen masse negativ ladning. Feltlinjene går fra den ene polen til den andre, akkurat som i dipolen fra forrige delkapittel (figuren til venstre).
 
-![Feltlinjene i og rundt et batteri går fra pluss-polen til minus-polen, som i en dipol.](../../bilder/figurer/batteri-felt.svg){.tikz-fig style="width:300px" fig-alt="Et stående batteri med pluss-polen øverst og minus-polen nederst. Øverst er det en klynge av plusstegn, nederst en klynge av minustegn. Svake oransje feltlinjer går fra pluss-polen ned til minus-polen, både rett gjennom batteriet og i buer rundt det, som i en dipol."}
+::: {layout-ncol=2}
+![Uten leder: Feltlinjene i og rundt batteriet går fra pluss-polen til minus-polen, som i en dipol.](../../bilder/figurer/batteri-felt.svg){.tikz-fig style="width:100%" fig-alt="Et stående batteri med pluss-polen øverst og minus-polen nederst. Øverst er det en klynge av plusstegn, nederst en klynge av minustegn. Svake oransje feltlinjer går fra pluss-polen ned til minus-polen, både rett gjennom batteriet og i buer rundt det, som i en dipol."}
+
+![Med leder: Feltet følger lederen fra pluss-polen, gjennom lampa, til minus-polen, og ladningene går gjennom ledningen.](../../bilder/figurer/batteri-leder.svg){.tikz-fig style="width:100%" fig-alt="Det samme stående batteriet, nå med en ledning fra pluss-polen øverst, bort og ned gjennom en lampe, og tilbake til minus-polen nederst. Oransje piler merket E langs ledningen viser at feltet følger ledningen fra pluss til minus. Små røde plusstegn med piler viser at ladningene beveger seg samme vei gjennom ledningen."}
+:::
 
 Pluss-polen er «toppen av sklia», og minus-polen er «bunnen». Ladningene ved pluss-polen har høyere potensiell energi enn ved minus-polen, og forskjellen svarer til $\Delta E_p$ i figuren med Dashman. Det har kostet energi å samle ladningene slik. I batteriet er det kjemiske reaksjoner som har gjort den jobben, slik Dashman gjorde jobben da han klatret opp stigen.
 
-Når vi kobler polene sammen med elektriske ledere, «sklir» ladningene gjennom kretsen, fra pluss-polen til minus-polen. Det er dette som driver strømmen. På veien gir ladningene fra seg energien til det som er koblet inn i kretsen, for eksempel en brødrister, en lampe eller en mobillader. Når de kommer fram til minus-polen, er all energien brukt opp, akkurat som for Dashman nederst i sklia.
+Så lenge polene ikke er koblet sammen, skjer det ingenting. Lufta rundt batteriet er en isolator, så ladningene har ingen vei å gå. Kobler vi polene sammen med en leder, for eksempel en kobberledning gjennom en lampe, ordner ladningene i ledningen seg slik at det elektriske feltet følger ledningen hele veien fra pluss-polen til minus-polen (figuren til høyre). Da «sklir» ladningene gjennom ledningen, fra pluss-polen til minus-polen. Det er dette som er elektrisk strøm. På veien gir ladningene fra seg energien sin til det som er koblet inn i kretsen, for eksempel en brødrister, en lampe eller en mobillader. Når de kommer fram til minus-polen, er all energien brukt opp, akkurat som for Dashman nederst i sklia.
+
+Etter hvert som ladningene har sust gjennom kretsen, blir batteriet utladet. Et oppladbart batteri kan da lades opp igjen. Vi tilfører energi utenfra, og den energien flytter ladningene tilbake til «toppen av sklia», på samme måte som Dashman må gjøre et arbeid for å klatre opp stigen igjen.
 
 Batteriets evne til å drive ladninger gjennom kretsen, kalles **spenning**. Spenningen mellom to punkter er forskjellen i elektrisk *potensial* mellom dem. Elektrisk potensial er egentlig det samme som *potensiell energi per ladning*. Spenningen forteller oss derfor hvor mye energi hver coulomb ladning gir fra seg på veien fra pluss-polen til minus-polen. Vi kaller det altså *spenning* og måler det i *volt* (V). 1 volt betyr at hver coulomb ladning som går gjennom kretsen, gir fra seg 1 joule energi.
 
@@ -108,14 +114,36 @@ Kretser tegnes med standardsymboler. Den lange streken på batterisymbolet er de
 
 ![](../../bilder/figurer/kretssymboler.svg){.tikz-fig style="width:640px" fig-alt="Kretssymbolene for batteri (en lang og en kort strek, pluss ved den lange), motstand (et rektangel), lyspære (en sirkel med kryss), bryter (en åpen skrå strek), amperemeter (sirkel med A) og voltmeter (sirkel med V)."}
 
-Vi måler strøm med et **amperemeter** og spenning med et **voltmeter**. Disse kobles i henholdsvis serie og parallell med komponenten vi vil måle. Mer om serie- og parallellkobling i et senere delkapittel.
+### Serie- og parallellkobling
 
-::: {.kort}
-- **Amperemeteret kobles i serie**, slik at strømmen vi vil måle, går gjennom det.
-- **Voltmeteret kobles i parallell** over komponenten, slik at det måler spenningen mellom de to endene av den.
+Har vi mer enn én komponent i en krets, kan de kobles på to grunnleggende måter.
+
+::: {.callout-note title="Definisjon: Serie- og parallellkobling"}
+- To komponenter er koblet i **serie** når de ligger etter hverandre, slik at det bare er én vei gjennom dem. All ladning som går gjennom den ene, må også gå gjennom den andre.
+- To komponenter er koblet i **parallell** når begge endene deres er koblet til de samme to punktene i kretsen. Strømmen deler seg og går gjennom begge samtidig.
 :::
 
-![](../../bilder/figurer/krets-maling.svg){.tikz-fig style="width:420px" fig-alt="En krets med batteriet U0, et amperemeter A og en lampe i serie. Et voltmeter V er koblet i parallell over lampa. En pil merket I viser strømmen gjennom amperemeteret."}
+![I seriekoblingen er det bare én vei rundt. I parallellkoblingen deler strømmen seg i de to svarte punktene.](../../bilder/figurer/krets-serie-parallell.svg){.tikz-fig style="width:640px" fig-alt="To kretser med et batteri U og to lamper, 1 og 2. Til venstre, seriekobling: lampene står etter hverandre i én sløyfe, og den samme strømmen I går gjennom begge. Til høyre, parallellkobling: lampene står ved siden av hverandre mellom de samme to punktene, markert med svarte prikker. Strømmen I deler seg i I1 gjennom lampe 1 og I2 gjennom lampe 2."}
+
+Ut fra det vi vet om ladning og spenning, får det to viktige følger:
+
+::: {.kort}
+- **I serie går den samme strømmen gjennom alle komponentene.** Ladning kan ikke hope seg opp eller forsvinne mellom dem, så like mye ladning per sekund må gå gjennom hver av dem.
+- **I parallell er spenningen den samme over alle komponentene.** Endene deres er koblet til de samme to punktene, så forskjellen i potensial er den samme. Strømmen deler seg derimot, slik at $I = I_1 + I_2$.
+:::
+
+Hvordan spenningen fordeler seg i en seriekobling, og hvordan strømmen fordeler seg i en parallellkobling, ser vi på i [Serie- og parallellkobling](04-serie-og-parallellkobling.qmd), når vi kjenner Ohms lov.
+
+### Amperemeter og voltmeter
+
+To måleinstrumenter er gode eksempler på de to koblingene. Vi måler strøm med et **amperemeter** og spenning med et **voltmeter**.
+
+::: {.kort}
+- **Amperemeteret kobles i serie** med komponenten. Da må den samme strømmen gå gjennom begge, og amperemeteret viser strømmen gjennom komponenten.
+- **Voltmeteret kobles i parallell** over komponenten. Da er det koblet til de samme to punktene, og viser spenningen over komponenten.
+:::
+
+![Amperemeteret er koblet i serie med lampa, og voltmeteret i parallell over den.](../../bilder/figurer/krets-maling.svg){.tikz-fig style="width:420px" fig-alt="En krets med batteriet U0, et amperemeter A og en lampe i serie. Et voltmeter V er koblet i parallell over lampa. En pil merket I viser strømmen gjennom amperemeteret."}
 
 ::: {.callout-tip title="Til ettertanke"}
 Strømmen går nesten uhindret gjennom et godt amperemeter, mens det nesten ikke går strøm gjennom et godt voltmeter. Hvorfor? (Tenk på at måleinstrumentet ikke skal endre kretsen det måler på.)

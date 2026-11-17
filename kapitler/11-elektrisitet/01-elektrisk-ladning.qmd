@@ -8,7 +8,7 @@ Visste du at elektrisitet og magnetisme er to sider av samme sak? Det er dette f
 
 {{< video https://www.youtube.com/watch?v=aBr6tw3pTXg >}}
 
-La oss nå likevel konsentrere oss om *elektrisitet*, som et eget fenomen, selv om det altså egentlig er en del av det vi kaller elektromagnetisme.
+Her skal vi likevel konsentrere oss om *elektrisitet* som et eget fenomen.
 
 ::: {.callout-tip title="Til ettertanke"}
 Du gnir en ballong mot genseren din, og etterpå kan ballongen henge fast i taket. Hva er det som har skjedd?
@@ -22,17 +22,25 @@ Elektronene i de ytterste skallene kan forholdsvis lett flyttes fra ett legeme t
 
 Ladning blir verken laget eller ødelagt, den bare flyttes. Dette kalles **ladningsbevaring**. Til sammen har genseren og ballongen like mye ladning som før, altså null.
 
-Mens *masse* alltid er positiv, kan elektrisk ladning være både positiv og negativ. Gravitasjonsfeltet rundt en masseklump (jorda, for eksempel, eller et atom) trekker alltid andre masseklumper mot seg.
+## Feltlinjer
+
+Mens *masse* alltid er positiv, kan elektrisk ladning være både positiv og negativ. Hva forskjellen betyr, kan vi gjøre synlig med **feltlinjer**. Vi begynner med massen, siden den er enklest.
 
 ![De oransje linjene er feltlinjene til tyngdefeltet. De peker alltid inn mot massen.](../../bilder/figurer/masse-tiltrekning.svg){.tikz-fig style="width:420px" fig-alt="Jorda og månen. En pil fra jorda peker mot månen, og en pil fra månen peker mot jorda, begge merket G. Rundt jorda og månen går svake oransje feltlinjer rett inn mot sentrum: masse trekker alltid på masse."}
 
-De oransje linjene kalles **feltlinjer**, og de viser *tyngdefeltet* $\vec{\mathrm{g}}$. Tyngdefeltet viser hvilken vei en masse vil bevege seg om vi plasserer den der og bare tyngdekraften virker på den. Rundt en masse peker feltlinjene alltid rett innover, fordi gravitasjon bare kan trekke.
+De oransje linjene viser *tyngdefeltet* $\vec{\mathrm{g}}$. Tyngdefeltet viser hvilken vei en masse vil bevege seg om vi plasserer den der og bare tyngdekraften virker på den. Masse trekker alltid på masse, så feltlinjene peker alltid inn mot massen. Et eple faller rett ned mot jorda (eller rett ned mot månen, om det slippes der). Jorda og månen faller også mot hverandre, fordi hver av dem er i den andres tyngdefelt. Men månen har i tillegg fart sidelengs, og derfor faller den *rundt* jorda i stedet for ned på den. Kraften på en masse $m$ i tyngdefeltet er $\vec G = m\vec{\mathrm{g}}$.
 
-Med ladning er det ikke slik. Her har vi to forskjellige fortegn, og får derfor flere muligheter. To legemer med like ladninger frastøter hverandre, mens to legemer med motsatt ladning tiltrekker hverandre.
+Det samme verktøyet kan vi bruke på ladninger. Rundt en ladning finnes det et **elektrisk felt** $\vec E$. Feltlinjene til det elektriske feltet viser hvilken vei en *positiv* ladning vil bevege seg på grunn av den elektriske kraften. Rundt en positiv ladning peker de derfor rett utover, og rundt en negativ ladning rett innover. På samme måte som $\vec G = m\vec{\mathrm{g}}$ er den elektriske kraften på en ladning $q$
 
-![Feltlinjene til det elektriske feltet (oransje) går ut fra positiv ladning og inn mot negativ. Mellom to motsatte ladninger går de fra den ene til den andre.](../../bilder/figurer/ladning-fire-tilfeller.svg){.tikz-fig style="width:560px" fig-alt="De fire mulighetene for to ladninger, med svake oransje feltlinjer. Pluss og pluss, og minus og minus, skyves fra hverandre, og feltlinjene bøyer unna hverandre mellom ladningene. Pluss og minus, og minus og pluss, trekkes mot hverandre, og feltlinjene går i buer fra plussladningen til minusladningen."}
+$$
+\vec F = q\vec E.
+$$
 
-Også rundt ladninger finnes det et felt: det **elektriske feltet** $\vec E$. På samme måte som tyngdefeltet $\vec{\mathrm{g}}$ viser hvilken vei en masse vil bevege seg på grunn av tyngdekraften, viser det elektriske feltet $\vec E$ hvilken vei en *positiv* ladning vil bevege seg på grunn av den elektriske kraften. Derfor går feltlinjene ut fra positive ladninger og inn mot negative. En negativ ladning dyttes motsatt vei av feltlinjene. Mellom to like ladninger bøyer feltlinjene unna hverandre. Mellom to motsatte ladninger går de i buer fra plussladningen til minusladningen. To motsatte ladninger ved siden av hverandre kalles en **dipol**. Det mønsteret møter vi igjen når vi skal se på batteriet.
+Er $q$ negativ, peker kraften motsatt vei av feltet: En negativ ladning dyttes motsatt vei av feltlinjene.
+
+![Feltlinjene til det elektriske feltet (oransje) går ut fra positiv ladning og inn mot negativ. De røde pilene er kreftene $\vec F$ som ladningene virker på hverandre med.](../../bilder/figurer/ladning-fire-tilfeller.svg){.tikz-fig style="width:560px" fig-alt="De fire mulighetene for to ladninger, med svake oransje feltlinjer. Pluss og pluss, og minus og minus, skyves fra hverandre (røde kraftpiler F peker bort fra hverandre), og feltlinjene bøyer unna hverandre mellom ladningene. Pluss og minus, og minus og pluss, trekkes mot hverandre (kraftpilene F peker mot hverandre), og feltlinjene går i buer fra plussladningen til minusladningen."}
+
+Dermed får vi to typer vekselvirkning mellom ladninger, mens masse bare har én: To like ladninger frastøter hverandre, og to motsatte ladninger tiltrekker hverandre. Mellom to like ladninger bøyer feltlinjene unna hverandre. Mellom to motsatte ladninger går de i buer fra plussladningen til minusladningen. To motsatte ladninger ved siden av hverandre kalles en **dipol**. Det mønsteret møter vi igjen når vi skal se på batteriet.
 
 Nå kan vi svare på spørsmålet om ballongen i taket. Taket er nøytralt, så hvorfor blir ballongen hengende? Når den negativt ladde ballongen kommer nær taket, dyttes elektronene i atomene i taket litt bort, mens de positive kjernene trekkes litt nærmere. Atomene blir **polarisert**. Da er den positive ladningen i taket litt nærmere ballongen enn den negative. Tiltrekningen fra det som er nærmest, blir sterkere enn frastøtningen fra det som er lenger unna, og ballongen blir hengende.
 
@@ -42,7 +50,7 @@ Nå kan vi svare på spørsmålet om ballongen i taket. Taket er nøytralt, så 
 
 En annen viktig forskjell mellom et legemes *masse* og *ladning* er at ladning kommer i pakker. Massen til et legeme kan variere kontinuerlig. Slik er det ikke med ladning. Den minste mulige pakken for ladning kalles *elementærladningen*, og alle andre ladninger er et helt antall ganger elementærladningen. Det finnes altså en minsteladning i universet!
 
-Elektrisk ladning har symbolet $q$ (eller $Q$) og enheten coulomb (C). Den minste frie ladningen som finnes i naturen, er altså elementærladningen, som for øvrig også er ladningen til et proton.
+Elektrisk ladning har symbolet $q$ (eller $Q$) og enheten coulomb (C).
 
 ::: {.callout-important title="Elementærladningen"}
 $$
@@ -84,9 +92,7 @@ Stoffer deles inn i tre grupper etter hvor godt de leder elektrisk strøm:
 :::
 
 ::: {.callout-important title="Merk: Kraften mellom ladninger"}
-Ladninger med likt fortegn frastøter hverandre, og ladninger med motsatt fortegn tiltrekker hverandre. Kraften blir mindre jo lenger fra hverandre ladningene er. Dette beskrives av [Coulombs lov](07-coulombs-lov.qmd), som har samme form som Newtons gravitasjonslov.
-
-Det forklarer også ballongen i taket: Den negative ballongen skyver elektronene i taket litt unna, slik at overflaten nærmest ballongen blir svakt positiv. Siden de positive ladningene er nærmest, blir ballongen trukket mot taket.
+Kraften mellom to ladninger blir mindre jo lenger fra hverandre de er. Hvor mye mindre, beskrives av [Coulombs lov](07-coulombs-lov.qmd), som har samme form som Newtons gravitasjonslov.
 :::
 
 :::: {.oppgaver}
