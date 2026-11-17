@@ -1,15 +1,15 @@
 ---
-title: "Ekstraoppgaver"
-tema: kinematikk
+title: "Sammensatte oppgaver: Sirkelbevegelse"
+tema: sirkelbevegelse
 undertema: oppgaver
 aliases: ["/forkurs/03-kinematikk/06-ekstraoppgaver.html"]
 ---
 
 :::: {.oppgaver}
 
-Her er flere oppgaver om temaene foran.
+Oppgavene her kombinerer stoff fra flere delkapitler. Følger du en løype, ser du bare oppgavene du har gått gjennom stoffet til.
 
-::: {.oppgave tittel="Gjennomsnittsfart og gjennomsnittsakselerasjon"}
+::: {.oppgave tittel="Gjennomsnittsfart og gjennomsnittsakselerasjon" krever="kinematikk/posisjon-fart-akselerasjon"}
 [Gjennomsnittsfart og gjennomsnittsakselerasjon]{.oppg-tittel}
 
 En løper springer $400\,\mathrm{m}$ på $52\,\mathrm{s}$.
@@ -28,7 +28,7 @@ b)  Dersom løperen starter fra ro og oppnår toppfart $9.0\,\mathrm{m}\,\mathrm
 
 :::
 
-::: {.oppgave tittel="Konstant akselerasjon – oppbremsing"}
+::: {.oppgave tittel="Konstant akselerasjon – oppbremsing" krever="kinematikk/konstant-akselerasjon"}
 [Konstant akselerasjon – oppbremsing]{.oppg-tittel}
 
 En bil kjører med fart $v_0 = 25\,\mathrm{m}\,\mathrm{s}^{-1}$ og bremser med konstant akselerasjon $a = -4.0\,\mathrm{m}\,\mathrm{s}^{-2}$.
@@ -54,7 +54,7 @@ c)  Skisser fartsgrafen $v(t)$ for bilen fra den begynner å bremse til den stop
 
 :::
 
-::: {.oppgave tittel="Stein kastet fra et stup"}
+::: {.oppgave tittel="Stein kastet fra et stup" krever="kinematikk/to-dimensjoner, vektorer/dekomponering"}
 [Stein kastet fra et stup]{.oppg-tittel}
 
 En stein kastes fra toppen av et stup med utgangsfart $v_0 = 15\,\mathrm{m}\,\mathrm{s}^{-1}$ i en vinkel $30^\circ$ over horisontalen. Stupet er $h = 40\,\mathrm{m}$ over vannet. Se bort fra luftmotstand.
@@ -83,7 +83,7 @@ Vi dekomponerer igjen bevegelsen, akkurat som i *Rallybil kjører utfor* (figure
 
 :::
 
-::: {.oppgave tittel="Sirkelbevegelse – pariserhjul"}
+::: {.oppgave tittel="Sirkelbevegelse – pariserhjul" krever="sirkelbevegelse/sentripetal"}
 [Sirkelbevegelse – pariserhjul]{.oppg-tittel}
 
 Et pariserhjul har radius $r = 15\,\mathrm{m}$ og roterer med konstant fart slik at det tar $40\,\mathrm{s}$ å fullføre én runde.

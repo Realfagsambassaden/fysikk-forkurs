@@ -1,5 +1,5 @@
 ---
-title: "Ekstraoppgaver"
+title: "Sammensatte oppgaver: Hydrostatikk"
 tema: hydrostatikk
 undertema: oppgaver
 aliases: ["/forkurs/07-fluider/05-ekstraoppgaver.html"]
@@ -7,9 +7,9 @@ aliases: ["/forkurs/07-fluider/05-ekstraoppgaver.html"]
 
 :::: {.oppgaver}
 
-Her er flere oppgaver om temaene foran.
+Oppgavene her kombinerer stoff fra flere delkapitler. Følger du en løype, ser du bare oppgavene du har gått gjennom stoffet til.
 
-::: {.oppgave tittel="Lufta i et klasserom"}
+::: {.oppgave tittel="Lufta i et klasserom" krever="hydrostatikk/trykk"}
 [Lufta i et klasserom]{.oppg-tittel}
 
 Et klasserom er $5.0\,\mathrm{m}$ langt, $4.0\,\mathrm{m}$ bredt og $2.5\,\mathrm{m}$ høyt. Lufta har massetetthet $1.2\,\mathrm{kg}\,\mathrm{m}^{-3}$.
@@ -28,7 +28,7 @@ b)  Sammenlign med massen til en voksen person. Er svaret overraskende?
 
 :::
 
-::: {.oppgave tittel="Dykking i sjøen"}
+::: {.oppgave tittel="Dykking i sjøen" krever="hydrostatikk/trykk"}
 [Dykking i sjøen]{.oppg-tittel}
 
 En dykker svømmer $30\,\mathrm{m}$ under overflaten i sjøen. Sjøvann har massetetthet $1030\,\mathrm{kg}\,\mathrm{m}^{-3}$, og lufttrykket ved overflaten er $p_0 = 1.013\cdot 10^{5}\,\mathrm{Pa}$.
@@ -47,7 +47,7 @@ b)  Hvor mange ganger større er dette trykket enn lufttrykket ved overflaten?
 
 :::
 
-::: {.oppgave tittel="Sugerør"}
+::: {.oppgave tittel="Sugerør" krever="hydrostatikk/trykk"}
 [Sugerør]{.oppg-tittel}
 
 Når du drikker med sugerør, senker du trykket i munnen. Da er det lufttrykket på væskeoverflaten i glasset som presser væsken opp i sugerøret.
@@ -68,7 +68,7 @@ b)  Kan man drikke vann med et $12\,\mathrm{m}$ langt sugerør, uansett hvor kra
 
 :::
 
-::: {.oppgave tittel="Vindu i en ubåt"}
+::: {.oppgave tittel="Vindu i en ubåt" krever="hydrostatikk/trykk"}
 [Vindu i en ubåt]{.oppg-tittel}
 
 En ubåt ligger $100\,\mathrm{m}$ under overflaten i sjøen ($\rho = 1030\,\mathrm{kg}\,\mathrm{m}^{-3}$). Inne i ubåten er trykket det samme som lufttrykket ved overflaten. Ubåten har et vindu med areal $0.050\,\mathrm{m}^{2}$.
@@ -89,7 +89,7 @@ b)  Finn nettokraften fra vannet og lufta på vinduet.
 
 :::
 
-::: {.oppgave tittel="Heliumballong"}
+::: {.oppgave tittel="Heliumballong" krever="hydrostatikk/oppdrift, newtons-lover/newtons-lover"}
 [Heliumballong]{.oppg-tittel}
 
 Arkimedes’ lov gjelder ikke bare i væsker, men også i gasser. En ballong er fylt med $0.010\,\mathrm{m}^{3}$ helium. Helium har massetetthet $0.18\,\mathrm{kg}\,\mathrm{m}^{-3}$, og lufta rundt har massetetthet $1.2\,\mathrm{kg}\,\mathrm{m}^{-3}$. Selve ballongen (gummien og snora) har masse $3.0\,\mathrm{g}$. Vi ser bort fra volumet til gummien.
@@ -112,7 +112,7 @@ c)  Vil ballongen stige eller synke? Finn nettokraften på ballongen.
 
 :::
 
-::: {.oppgave tittel="Olje og vann i et U-rør"}
+::: {.oppgave tittel="Olje og vann i et U-rør" krever="hydrostatikk/trykk"}
 [Olje og vann i et U-rør]{.oppg-tittel}
 
 Et U-rør inneholder vann. I det venstre røret heller vi oppå vannet en $10.0\,\mathrm{cm}$ høy søyle med olje, som har massetetthet $800\,\mathrm{kg}\,\mathrm{m}^{-3}$. Olje og vann blander seg ikke. Når alt står i ro, ligger grenseflaten mellom olje og vann i den venstre delen av røret (se figuren).

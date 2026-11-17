@@ -1,15 +1,15 @@
 ---
-title: "Ekstraoppgaver"
-tema: matematiske-verktoy
+title: "Sammensatte oppgaver: Vektorer"
+tema: vektorer
 undertema: oppgaver
 aliases: ["/forkurs/02-matematikk/07-ekstraoppgaver.html"]
 ---
 
 :::: {.oppgaver}
 
-Her er flere oppgaver om temaene foran.
+Oppgavene her kombinerer stoff fra flere delkapitler. Følger du en løype, ser du bare oppgavene du har gått gjennom stoffet til.
 
-::: {.oppgave tittel="Trigonometri og vektorkomponenter"}
+::: {.oppgave tittel="Trigonometri og vektorkomponenter" krever="matematiske-verktoy/trigonometri, vektorer/dekomponering"}
 [Trigonometri og vektorkomponenter]{.oppg-tittel}
 
 a)  En vektor $\vec{v}$ har størrelse $|\vec{v}| = 20$ og danner vinkel $\theta = 30^\circ$ med positiv $x$-akse. Finn komponentene $v_x$ og $v_y$.
@@ -20,7 +20,7 @@ c)  Gitt $\vec{v} = [5,\,-12]$. Finn lengden $|\vec{v}|$ og vinkelen $\theta$ ve
 
 :::
 
-::: {.oppgave tittel="Vektorer og skalarprodukt"}
+::: {.oppgave tittel="Vektorer og skalarprodukt" krever="vektorer/vektorregning"}
 [Vektorer og skalarprodukt]{.oppg-tittel}
 
 Gitt vektorene $\vec{p} = [2,\,5]$ og $\vec{q} = [-3,\,1]$.
@@ -35,7 +35,7 @@ d)  Beregn skalarproduktet $\vec{p}\cdot\vec{q}$ og bestem vinkelen mellom $\vec
 
 :::
 
-::: {.oppgave tittel="Parallell og vinkelrett"}
+::: {.oppgave tittel="Parallell og vinkelrett" krever="vektorer/vektorregning"}
 [Parallell og vinkelrett]{.oppg-tittel}
 
 To vektorer er $\vec{a} = [3,\,k]$ og $\vec{b} = [2,\,-1]$.
@@ -46,7 +46,7 @@ b)  For hvilken verdi av $k$ er $\vec{a}$ og $\vec{b}$ parallelle? *Hint:* Bruk 
 
 :::
 
-::: {.oppgave tittel="Areal med kryssprodukt"}
+::: {.oppgave tittel="Areal med kryssprodukt" krever="vektorer/vektorregning"}
 [Areal med kryssprodukt]{.oppg-tittel}
 
 To vektorer er $\vec{u} = [4,\,1]$ og $\vec{v} = [2,\,3]$.

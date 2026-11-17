@@ -1,5 +1,5 @@
 ---
-title: "Ekstraoppgaver"
+title: "Sammensatte oppgaver: Arbeid og energi"
 tema: arbeid-og-energi
 undertema: oppgaver
 aliases: ["/forkurs/05-energi/07-ekstraoppgaver.html"]
@@ -7,9 +7,9 @@ aliases: ["/forkurs/05-energi/07-ekstraoppgaver.html"]
 
 :::: {.oppgaver}
 
-Her er flere oppgaver om temaene foran.
+Oppgavene her kombinerer stoff fra flere delkapitler. Følger du en løype, ser du bare oppgavene du har gått gjennom stoffet til.
 
-::: {.oppgave tittel="Arbeid eller ikke?"}
+::: {.oppgave tittel="Arbeid eller ikke?" krever="arbeid-og-energi/arbeid"}
 [Arbeid eller ikke?]{.oppg-tittel}
 
 Avgjør om kraften i hvert av tilfellene under gjør et positivt, negativt eller null arbeid. Begrunn svarene.
@@ -42,7 +42,7 @@ Arbeid krever både en kraft og en forflytning med en komponent langs kraften: $
 
 :::
 
-::: {.oppgave tittel="Fjærkanon"}
+::: {.oppgave tittel="Fjærkanon" krever="arbeid-og-energi/energiformer, arbeid-og-energi/energibevaring"}
 [Fjærkanon]{.oppg-tittel}
 
 En leketøyskanon har en fjær med fjærkonstant $k = 500\,\mathrm{N}\,\mathrm{m}^{-1}$. Fjæra presses sammen $x = 8.0\,\mathrm{cm}$, og kanonen skyter en kule med masse $m = 50\,\mathrm{g}$ rett opp. Se bort fra luftmotstand og fra den lille høydeendringen mens fjæra strekker seg ut.
@@ -67,7 +67,7 @@ c)  Hvor høyt kommer kula dersom fjæra bare presses sammen halvparten så mye?
 
 :::
 
-::: {.oppgave tittel="Aking med friksjon"}
+::: {.oppgave tittel="Aking med friksjon" krever="arbeid-og-energi/arbeid, arbeid-og-energi/energibevaring"}
 [Aking med friksjon]{.oppg-tittel}
 
 Mia og akebrettet har til sammen masse $m = 30\,\mathrm{kg}$. Hun starter i ro på toppen av en bakke som er $h = 8.0\,\mathrm{m}$ høy. Bakken er $40\,\mathrm{m}$ lang, målt langs bakken. I bunnen har hun farten $v = 9.0\,\mathrm{m}\,\mathrm{s}^{-1}$.
@@ -90,7 +90,7 @@ c)  Anta at hele energitapet skyldes en konstant friksjonskraft langs bakken. Hv
 
 :::
 
-::: {.oppgave tittel="Heis"}
+::: {.oppgave tittel="Heis" krever="arbeid-og-energi/arbeid, arbeid-og-energi/effekt"}
 [Heis]{.oppg-tittel}
 
 En heis med passasjerer har til sammen masse $m = 800\,\mathrm{kg}$. Heisen løftes $30\,\mathrm{m}$ med konstant fart på $20\,\mathrm{s}$.
@@ -113,7 +113,7 @@ c)  Regn ut effekten på en annen måte, med $P = F\cdot v$, og sjekk at du får
 
 :::
 
-::: {.oppgave tittel="Ballistisk pendel"}
+::: {.oppgave tittel="Ballistisk pendel" krever="bevegelsesmengde/kollisjoner, arbeid-og-energi/energibevaring"}
 [Ballistisk pendel]{.oppg-tittel}
 
 En ballistisk pendel brukes til å måle farten til en kule. En kule med masse $m = 10\,\mathrm{g}$ skytes inn i en trekloss med masse $M = 2.0\,\mathrm{kg}$ som henger i en snor. Kula blir sittende fast i klossen, og klossen svinger ut slik at den stiger $h = 5.0\,\mathrm{cm}$.

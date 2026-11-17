@@ -1,15 +1,15 @@
 ---
-title: "Ekstraoppgaver"
-tema: newtons-lover
+title: "Sammensatte oppgaver: Bevegelsesmengde"
+tema: bevegelsesmengde
 undertema: oppgaver
 aliases: ["07-ekstraoppgaver.html", "10-ekstraoppgaver.html", "/forkurs/04-krefter/06-ekstraoppgaver.html", "06-ekstraoppgaver.html", "09-ekstraoppgaver.html"]
 ---
 
 :::: {.oppgaver}
 
-Her er flere oppgaver om temaene foran.
+Oppgavene her kombinerer stoff fra flere delkapitler. Følger du en løype, ser du bare oppgavene du har gått gjennom stoffet til.
 
-::: {.oppgave tittel="Kraft og motkraft"}
+::: {.oppgave tittel="Kraft og motkraft" krever="newtons-lover/newtons-lover"}
 [Kraft og motkraft]{.oppg-tittel}
 
 En bok ligger i ro på et bord.
@@ -35,7 +35,7 @@ c)  Hva er motkraften til tyngdekraften på boka? Hva er motkraften til normalkr
 
 :::
 
-::: {.oppgave tittel="Kloss på skråplan med friksjon"}
+::: {.oppgave tittel="Kloss på skråplan med friksjon" krever="newtons-lover/krefter-i-planet, newtons-lover/friksjon-fjaer-snorer"}
 [Kloss på skråplan med friksjon]{.oppg-tittel}
 
 En kloss med masse $m = 5.0\,\mathrm{kg}$ glir nedover et skråplan med helningsvinkel $\theta = 30^\circ$. Den kinetiske friksjonskoeffisienten er $\mu_k = 0.20$.
@@ -72,7 +72,7 @@ d)  Finn akselerasjonen til klossen.
 
 :::
 
-::: {.oppgave tittel="Bil over en bakketopp"}
+::: {.oppgave tittel="Bil over en bakketopp" krever="newtons-lover/newtons-lover, sirkelbevegelse/sirkel-krefter"}
 [Bil over en bakketopp]{.oppg-tittel}
 
 En bil med masse $m = 1000\,\mathrm{kg}$ kjører over en bakketopp. Bakketoppen kan tilnærmes med en sirkelbue med radius $r = 40\,\mathrm{m}$. Bilen har fart $v = 15\,\mathrm{m}\,\mathrm{s}^{-1}$ på toppen.
@@ -104,7 +104,7 @@ Siden bilen følger en sirkelbane, må kraftsummen inn mot sentrum (nedover) væ
 
 :::
 
-::: {.oppgave tittel="Spark på en fotball"}
+::: {.oppgave tittel="Spark på en fotball" krever="bevegelsesmengde/kraftstot"}
 [Spark på en fotball]{.oppg-tittel}
 
 En fotball med masse $m = 0.45\,\mathrm{kg}$ ligger i ro og blir sparket. Etter sparket har ballen fart $25\,\mathrm{m}\,\mathrm{s}^{-1}$. Foten er i kontakt med ballen i $\Delta t = 8.0\,\mathrm{ms}$.
@@ -127,7 +127,7 @@ c)  Hvor stor er denne kraften sammenliknet med tyngdekraften på ballen?
 
 :::
 
-::: {.oppgave tittel="Astronaut i rommet"}
+::: {.oppgave tittel="Astronaut i rommet" krever="bevegelsesmengde/kollisjoner"}
 [Astronaut i rommet]{.oppg-tittel}
 
 En astronaut med masse $90\,\mathrm{kg}$ (inkludert romdrakt) svever i ro $20\,\mathrm{m}$ fra romstasjonen. Hun kaster en verktøykasse med masse $2.0\,\mathrm{kg}$ rett *bort* fra romstasjonen med fart $3.0\,\mathrm{m}\,\mathrm{s}^{-1}$.

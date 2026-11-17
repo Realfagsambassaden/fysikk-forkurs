@@ -1,6 +1,6 @@
 ---
-title: "Ekstraoppgaver"
-tema: temperatur-og-varme
+title: "Sammensatte oppgaver: Gasser"
+tema: gasser
 undertema: oppgaver
 aliases: ["09-ekstraoppgaver.html", "/forkurs/08-termofysikk/07-ekstraoppgaver.html"]
 ---
@@ -11,9 +11,9 @@ Denne siden skrives fortsatt.
 
 :::: {.oppgaver}
 
-Her er flere oppgaver om temaene foran.
+Oppgavene her kombinerer stoff fra flere delkapitler. Følger du en løype, ser du bare oppgavene du har gått gjennom stoffet til.
 
-::: {.oppgave tittel="Bremser som blir varme"}
+::: {.oppgave tittel="Bremser som blir varme" krever="arbeid-og-energi/energiformer, temperatur-og-varme/kalorimetri"}
 [Bremser som blir varme]{.oppg-tittel}
 
 En bil med masse $1.2\cdot 10^{3}\,\mathrm{kg}$ kjører i $72\,\mathrm{km}\,\mathrm{h}^{-1}$ og bremser helt ned til stillstand. Anta at all den kinetiske energien blir til indre energi i de fire bremseskivene av jern, som har en samlet masse på $12\,\mathrm{kg}$.
@@ -32,7 +32,7 @@ b)  Hvor mye stiger temperaturen i bremseskivene? *($c_\text{jern} = 0.45\,\math
 
 :::
 
-::: {.oppgave tittel="Isbiter i te"}
+::: {.oppgave tittel="Isbiter i te" krever="temperatur-og-varme/kalorimetri"}
 [Isbiter i te]{.oppg-tittel}
 
 Du har $0.30\,\mathrm{kg}$ te med temperatur $80\,^\circ$C, men vil drikke den ved $50\,^\circ$C. Du legger i is med temperatur $0\,^\circ$C. Hvor mye is må du bruke? Anta at teen oppfører seg termisk som vann, og se bort fra koppen og varmetap til omgivelsene. *($c_\text{vann} = 4.2\,\mathrm{kJ/(kg}\,\mathrm{,K)}$, $\ell_\text{smelte} = 334\,\mathrm{kJ/kg}$.)*
@@ -46,7 +46,7 @@ Teen kjøles fra $80\,^\circ$C til $50\,^\circ$C og avgir varmen $$Q_\text{te} =
 
 :::
 
-::: {.oppgave tittel="Ballong i fryseren"}
+::: {.oppgave tittel="Ballong i fryseren" krever="gasser/idealgass"}
 [Ballong i fryseren]{.oppg-tittel}
 
 En ballong har volumet $3.0\,\mathrm{L}$ ved $22\,^\circ$C. Den legges i en fryser som holder $-18\,^\circ$C. Anta at trykket i ballongen er konstant. Hva blir volumet til ballongen når lufta inni har fått samme temperatur som fryseren?
@@ -59,7 +59,7 @@ Temperaturene i kelvin er $T_1 = 22 + 273 = 295\,\mathrm{K}$ og $T_2 = -18 + 273
 
 :::
 
-::: {.oppgave tittel="Molekyler i et klasserom"}
+::: {.oppgave tittel="Molekyler i et klasserom" krever="gasser/stoffmengde, gasser/idealgass"}
 [Molekyler i et klasserom]{.oppg-tittel}
 
 Et klasserom er $8.0\,\mathrm{m}$ langt, $6.0\,\mathrm{m}$ bredt og $3.0\,\mathrm{m}$ høyt. Lufttrykket er $1.0\cdot 10^{5}\,\mathrm{Pa}$, og temperaturen er $20\,^\circ$C.
@@ -78,7 +78,7 @@ b)  Temperaturen stiger til $25\,^\circ$C, mens trykket er det samme fordi døra
 
 :::
 
-::: {.oppgave tittel="Kobber i vann"}
+::: {.oppgave tittel="Kobber i vann" krever="temperatur-og-varme/kalorimetri"}
 [Kobber i vann]{.oppg-tittel}
 
 Et lodd av kobber med masse $0.20\,\mathrm{kg}$ blir varmet opp til $100\,^\circ$C i kokende vann. Så slippes det ned i en godt isolert beholder med $0.50\,\mathrm{kg}$ vann med temperatur $15\,^\circ$C. Se bort fra beholderen. Hva blir slutt-temperaturen? *($c_\text{kobber} = 0.39\,\mathrm{kJ/(kg}\,\mathrm{,K)}$, $c_\text{vann} = 4.2\,\mathrm{kJ/(kg}\,\mathrm{,K)}$.)*

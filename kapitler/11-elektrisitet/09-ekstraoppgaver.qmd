@@ -1,14 +1,14 @@
 ---
-title: "Ekstraoppgaver: elektrisitet"
+title: "Sammensatte oppgaver: Elektriske kretser"
 tema: kretser
 undertema: oppgaver
 ---
 
-Her er flere oppgaver fra hele elektrisitetsdelen: ladning, strøm og spenning, Ohms lov, koblinger, Kirchhoffs lover og effekt. Prøv selv før du åpner løsningen.
+Oppgavene her kombinerer stoff fra flere delkapitler. Følger du en løype, ser du bare oppgavene du har gått gjennom stoffet til. Prøv selv før du åpner løsningen.
 
 :::: {.oppgaver}
 
-::: {.oppgave tittel="Tre like motstander"}
+::: {.oppgave tittel="Tre like motstander" krever="kretser/serie-parallell"}
 Du har tre like motstander på $30\ \mathrm{\Omega}$ hver.
 
 a)  Hva er den totale resistansen når alle tre er koblet i serie?
@@ -30,7 +30,7 @@ d)  Hvilken av koblingene gir størst strøm når de kobles til et batteri på $
 :::
 :::
 
-::: {.oppgave tittel="Kortslutning"}
+::: {.oppgave tittel="Kortslutning" krever="kretser/motstand, kretser/effekt"}
 En mekaniker kommer i skade for å koble polene på et bilbatteri på $12\ \mathrm{V}$ sammen med en skiftenøkkel. Skiftenøkkelen har resistansen $0.020\ \mathrm{\Omega}$. Se bort fra resistansen i batteriet.
 
 a)  Hvor stor blir strømmen?
@@ -48,7 +48,7 @@ c)  Hvorfor er kortslutning farlig?
 :::
 :::
 
-::: {.oppgave tittel="Strømregning"}
+::: {.oppgave tittel="Strømregning" krever="kretser/strom-spenning, kretser/effekt"}
 En panelovn har effekten $1.5\ \mathrm{kW}$ og er koblet til $230\ \mathrm{V}$. Den står på $8.0\ \mathrm{h}$ hvert døgn i 30 døgn.
 
 a)  Hvor stor er strømmen gjennom ovnen?
@@ -66,7 +66,7 @@ c)  Strømprisen er $1.20$ kr per kilowattime. Hva koster det å ha ovnen på?
 :::
 :::
 
-::: {.oppgave tittel="Krets med voltmeter" niva="Middels"}
+::: {.oppgave tittel="Krets med voltmeter" niva="Middels" krever="kretser/serie-parallell, kretser/motstand, kretser/effekt"}
 Et batteri på $12\ \mathrm{V}$ er koblet i serie med en motstand $R_1 = 4.0\ \mathrm{\Omega}$ og en lyspære. Et voltmeter koblet over lyspæra viser $8.0\ \mathrm{V}$.
 
 a)  Tegn kretsen med voltmeteret.
