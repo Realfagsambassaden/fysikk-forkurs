@@ -1,14 +1,65 @@
-\begin{tikzpicture}[scale=1.0]
-% genser
+\begin{tikzpicture}[scale=0.62, every node/.style={transform shape}]
+\tikzset{p/.style={rod,font=\bfseries\small,inner sep=0pt}, m/.style={bla,font=\bfseries\small,inner sep=0pt}}
+% FØR: alt nøytralt
 \draw[thick,fill=bla!8,rounded corners=6pt] (0,0) -- (0,2.6) -- (-0.7,2.2) -- (-1.2,3.0) -- (0.2,3.6) -- (0.9,3.3) -- (1.7,3.3) -- (2.4,3.6) -- (3.8,3.0) -- (3.3,2.2) -- (2.6,2.6) -- (2.6,0) -- cycle;
-\foreach \x/\y in {0.5/0.6,1.3/0.9,2.0/0.5,0.6/1.7,1.5/2.0,2.1/1.5,1.0/2.7,1.8/2.8} \node[rod,font=\bfseries] at (\x,\y) {$+$};
-\node[font=\small] at (1.3,-0.4) {genser: underskudd};
-% ballong
-\draw[thick,fill=rod!6] (6.2,2.2) ellipse (1.0 and 1.25);
-\draw[thick] (6.2,0.95) -- (6.05,0.75) -- (6.35,0.75) -- cycle;
-\draw (6.2,0.75) .. controls (6.0,0.2) and (6.5,-0.1) .. (6.2,-0.6);
-\foreach \x/\y in {5.7/2.6,6.3/3.0,6.7/2.3,5.8/1.8,6.4/1.6,6.1/2.3} \node[bla,font=\bfseries] at (\x,\y) {$-$};
-\node[font=\small] at (6.2,-0.95) {ballong: overskudd};
-% elektroner flytter seg
-\draw[->,very thick,gronn] (2.9,1.6) to[bend right=15] node[below,font=\small]{elektroner} (5.15,1.7);
+\node[p] at (0.35,0.45) {$+$}; \node[m] at (0.57,0.33) {$-$};
+\node[p] at (0.95,0.75) {$+$}; \node[m] at (1.17,0.63) {$-$};
+\node[p] at (0.45,1.35) {$+$}; \node[m] at (0.67,1.23) {$-$};
+\node[p] at (1.05,1.65) {$+$}; \node[m] at (1.27,1.5299999999999998) {$-$};
+\node[p] at (0.4,2.3) {$+$}; \node[m] at (0.62,2.1799999999999997) {$-$};
+\node[p] at (1.0,2.7) {$+$}; \node[m] at (1.22,2.58) {$-$};
+\node[p] at (1.6,2.9) {$+$}; \node[m] at (1.82,2.78) {$-$};
+\node[p] at (1.75,0.5) {$+$}; \node[m] at (1.97,0.38) {$-$};
+\node[p] at (2.1,1.0) {$+$}; \node[m] at (2.3200000000000003,0.88) {$-$};
+\node[p] at (1.7,1.3) {$+$}; \node[m] at (1.92,1.1800000000000002) {$-$};
+\node[p] at (2.1,1.85) {$+$}; \node[m] at (2.3200000000000003,1.73) {$-$};
+\node[p] at (1.65,2.2) {$+$}; \node[m] at (1.8699999999999999,2.08) {$-$};
+\draw[thick,fill=rod!6] (6.6,2.2) ellipse (1.0 and 1.25);
+\draw[thick] (6.6,0.95) -- (6.45,0.75) -- (6.75,0.75) -- cycle;
+\draw (6.6,0.75) .. controls (6.45,0.4) and (6.8,0.1) .. (6.6,-0.35);
+\node[p] at (6.75,3.0) {$+$}; \node[m] at (6.97,2.88) {$-$};
+\node[p] at (7.1,2.55) {$+$}; \node[m] at (7.319999999999999,2.4299999999999997) {$-$};
+\node[p] at (6.75,2.1) {$+$}; \node[m] at (6.97,1.98) {$-$};
+\node[p] at (7.1,1.65) {$+$}; \node[m] at (7.319999999999999,1.5299999999999998) {$-$};
+\node[p] at (6.75,1.35) {$+$}; \node[m] at (6.97,1.23) {$-$};
+\node[font=\Large] at (3.2,4.6) {$Q_\text{tot} = 0$};
+\node[font=\large] at (3.2,-1.6) {Før};
+% pil mellom
+\draw[->,very thick] (8.3,2.0) -- (9.9,2.0) node[midway,above,font=\small]{gnidning};
+% ETTER
+\begin{scope}[xshift=11.6cm]
+\draw[thick,fill=bla!8,rounded corners=6pt] (0,0) -- (0,2.6) -- (-0.7,2.2) -- (-1.2,3.0) -- (0.2,3.6) -- (0.9,3.3) -- (1.7,3.3) -- (2.4,3.6) -- (3.8,3.0) -- (3.3,2.2) -- (2.6,2.6) -- (2.6,0) -- cycle;
+\node[p] at (0.35,0.45) {$+$}; \node[m] at (0.57,0.33) {$-$};
+\node[p] at (0.95,0.75) {$+$}; \node[m] at (1.17,0.63) {$-$};
+\node[p] at (0.45,1.35) {$+$}; \node[m] at (0.67,1.23) {$-$};
+\node[p] at (1.05,1.65) {$+$}; \node[m] at (1.27,1.5299999999999998) {$-$};
+\node[p] at (0.4,2.3) {$+$}; \node[m] at (0.62,2.1799999999999997) {$-$};
+\node[p] at (1.0,2.7) {$+$}; \node[m] at (1.22,2.58) {$-$};
+\node[p] at (1.6,2.9) {$+$}; \node[m] at (1.82,2.78) {$-$};
+\node[p] at (1.9,0.8) {$+$};
+\node[p] at (2.2,1.05) {$+$};
+\node[p] at (1.9,1.35) {$+$};
+\node[p] at (2.2,1.6) {$+$};
+\node[p] at (1.9,1.9) {$+$};
+\draw[gronn,dashed,thick] (2.05,1.35) ellipse (0.42 and 0.85);
+\draw[thick,fill=rod!6] (6.6,2.2) ellipse (1.0 and 1.25);
+\draw[thick] (6.6,0.95) -- (6.45,0.75) -- (6.75,0.75) -- cycle;
+\draw (6.6,0.75) .. controls (6.45,0.4) and (6.8,0.1) .. (6.6,-0.35);
+\node[p] at (6.75,3.0) {$+$}; \node[m] at (6.97,2.88) {$-$};
+\node[p] at (7.1,2.55) {$+$}; \node[m] at (7.319999999999999,2.4299999999999997) {$-$};
+\node[p] at (6.75,2.1) {$+$}; \node[m] at (6.97,1.98) {$-$};
+\node[p] at (7.1,1.65) {$+$}; \node[m] at (7.319999999999999,1.5299999999999998) {$-$};
+\node[p] at (6.75,1.35) {$+$}; \node[m] at (6.97,1.23) {$-$};
+\node[m] at (6.02,1.6) {$-$};
+\node[m] at (6.22,1.9) {$-$};
+\node[m] at (6.02,2.2) {$-$};
+\node[m] at (6.22,2.5) {$-$};
+\node[m] at (6.02,2.8) {$-$};
+\draw[gronn,dashed,thick] (6.12,2.2) ellipse (0.34 and 0.85);
+\draw[->,very thick,gronn] (2.75,1.25) to[bend right=18] node[below,font=\small]{elektroner} (5.75,1.55);
+\node[font=\Large] at (3.2,4.6) {$Q_\text{tot} = 0$};
+\node[font=\large,rod] at (1.3,-0.6) {$Q > 0$};
+\node[font=\large,bla] at (8.1,1.0) {$Q < 0$};
+\node[font=\large] at (3.2,-1.6) {Etter};
+\end{scope}
 \end{tikzpicture}

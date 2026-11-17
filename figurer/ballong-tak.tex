@@ -1,0 +1,22 @@
+\begin{tikzpicture}[scale=1.0]
+\tikzset{p/.style={rod,font=\bfseries\scriptsize,inner sep=0pt}, m/.style={bla,font=\bfseries\scriptsize,inner sep=0pt}}
+% taket
+\draw[thick] (-3.6,0) -- (3.6,0);
+\fill[pattern=north east lines,pattern color=black!40] (-3.6,0) rectangle (3.6,0.25);
+% atomer i taket: polarisert nær ballongen, upåvirket langt unna
+\foreach \x in {-3.0,-2.3,2.3,3.0} {
+  \draw[thin] (\x,-0.4) ellipse (0.26 and 0.26);
+  \node[p] at (\x,-0.4) {$+$}; \node[m] at (\x+0.1,-0.28) {$-$}; }
+\foreach \x/\s in {-1.6/0.35,-0.8/0.7,0/0.8,0.8/0.7,1.6/0.35} {
+  \draw[thin] (\x,-0.4) ellipse (0.26 and {0.26+0.08*\s});
+  \node[m] at (\x,{-0.4+0.15*\s+0.06}) {$-$}; \node[p] at (\x,{-0.4-0.15*\s-0.04}) {$+$}; }
+% ballongen
+\draw[thick,fill=rod!6] (0,-2.35) ellipse (1.0 and 1.25);
+\draw[thick] (0,-3.6) -- (-0.15,-3.8) -- (0.15,-3.8) -- cycle;
+\draw (0,-3.8) .. controls (-0.2,-4.3) and (0.2,-4.5) .. (0,-4.9);
+\foreach \x/\y in {-0.45/-1.45,-0.15/-1.38,0.15/-1.38,0.45/-1.45} \node[bla,font=\bfseries\small,inner sep=0pt] at (\x,\y) {$-$};
+\foreach \x/\y in {-0.4/-2.3,0.3/-2.6,-0.2/-3.0,0.35/-1.95} {\node[p] at (\x,\y) {$+$}; \node[m] at (\x+0.18,\y-0.1) {$-$};}
+% forklaring
+\draw[->,very thick,rod] (1.15,-1.55) -- (1.15,-0.95) node[right,midway,font=\small,black]{tiltrekning};
+\node[font=\small,align=left,anchor=west] at (2.1,-2.4) {Ladningene i taket forskyves litt:\\ $+$ nærmest ballongen,\\ $-$ litt lenger unna};
+\end{tikzpicture}
