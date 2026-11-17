@@ -24,7 +24,7 @@ $$
 Enheten er ampere, $1\ \mathrm{A} = 1\ \mathrm{C/s}$.
 :::
 
-Elektronene i en ledning beveger seg faktisk svært langsomt, typisk under en millimeter per sekund. Men ledningen er full av frie elektroner fra før. Når kretsen sluttes, begynner alle elektronene i hele ledningen å bevege seg nesten samtidig, omtrent som vann i en hageslange som allerede er full. Derfor lyser lampa med en gang.
+Elektronene i en ledning beveger seg faktisk svært langsomt, typisk under en millimeter per sekund. Men ledningen er full av frie elektroner fra før. Når kretsen sluttes, begynner alle elektronene i hele ledningen å bevege seg nesten samtidig, omtrent som vann i en hageslange som allerede er full. Hver vanndråpe går ikke så fort, men likevel renner vannet umiddelbart ut av den andre enden av slangen når du åpner krana. På samme måte er det altså med elektronene, og derfor lyser lampa med en gang.
 
 ::: {.callout-important title="Merk: Strømretning"}
 Vi sier at strømmen går fra den positive polen ($+$) på batteriet, gjennom kretsen, og tilbake til den negative polen ($-$). Dette er den *tekniske strømretningen*, og den ble bestemt før man kjente til elektronene. Elektronene beveger seg faktisk motsatt vei, fra $-$ til $+$. I regning bruker vi alltid den tekniske strømretningen.
@@ -34,19 +34,42 @@ Strømmen fra et batteri går alltid samme vei. Det kalles **likestrøm**. Strø
 
 ## Spenning
 
-For at det skal gå strøm, må noe drive ladningene rundt i kretsen. Det er det batteriet gjør. Tenk på spenning som et «elektrisk høydekart»: Akkurat som en ball ruller ned fra høyt til lavt i tyngdefeltet, går strømmen fra høyt til lavt elektrisk potensial gjennom kretsen. Batteriet fungerer som en heis som løfter ladningene opp igjen.
+For at det skal gå strøm, må noe drive ladningene rundt i kretsen. Det er det batteriet gjør, ved å sette opp det vi kaller et *elektrisk felt*. For å forstå hvordan, ser vi først på Dashman på sklia.
 
-![](../../bilder/figurer/spenning-hoyde.svg){.tikz-fig style="width:520px" fig-alt="Et diagram over potensialet når vi går en runde i en krets med et batteri på 12 V og to motstander. Batteriet løfter potensialet fra 0 til 12 V. Over den første motstanden faller det 4 V, over den andre 8 V, og vi er tilbake på 0."}
+![Dashman må gjøre et arbeid for å klatre opp stigen. Det er lagret som potensiell energi $\Delta E_p$ på toppen. På vei ned sklia blir alt sammen brukt opp.](../../bilder/figurer/dashman-energi.svg){.tikz-fig style="width:620px" fig-alt="Tegning av Dashman på en lekeplass. Dashman er tegnet tre ganger: Han klatrer opp stigen og tenker «TUNGT!», står på toppen av sklia og sier «ARTI LÆL!», og suser ned svingen i sklia mens han roper «ÆH!». En rød dobbeltpil langs stigen er merket ΔE_p = mgh, gjort arbeid opp stigen. Oransje bølgete piler fra sklia er merket varme, og teksten under sier at hele ΔE_p blir til varme i sklia på vei ned."}
+
+Det er tungt å klatre opp stigen. Dashman må gjøre et arbeid mot tyngdekraften, og på toppen har den potensielle energien hans økt med $\Delta E_p = m\mathrm{g}h$. Så sklir han ned. Det er *tyngdefeltet* $\vec{\mathrm{g}}$, som alltid peker nedover, som driver ham fra toppen til bunnen. På vei ned blir den potensielle energien brukt opp: Friksjonen mellom Dashman og sklia gjør den om til varme. Når han er nede, er hele $\Delta E_p$ gitt fra seg.
+
+På samme måte finnes det et elektrisk felt mellom polene på et batteri. Ved pluss-polen er det samlet masse positiv ladning, og ved minus-polen masse negativ ladning. Feltlinjene går fra den ene polen til den andre, akkurat som i dipolen fra forrige delkapittel.
+
+![Feltlinjene i og rundt et batteri går fra pluss-polen til minus-polen, som i en dipol.](../../bilder/figurer/batteri-felt.svg){.tikz-fig style="width:300px" fig-alt="Et stående batteri med pluss-polen øverst og minus-polen nederst. Øverst er det en klynge av plusstegn, nederst en klynge av minustegn. Svake oransje feltlinjer går fra pluss-polen ned til minus-polen, både rett gjennom batteriet og i buer rundt det, som i en dipol."}
+
+Pluss-polen er «toppen av sklia», og minus-polen er «bunnen». Ladningene ved pluss-polen har høyere potensiell energi enn ved minus-polen, og forskjellen svarer til $\Delta E_p$ i figuren med Dashman. Det har kostet energi å samle ladningene slik. I batteriet er det kjemiske reaksjoner som har gjort den jobben, slik Dashman gjorde jobben da han klatret opp stigen.
+
+Når vi kobler polene sammen med elektriske ledere, «sklir» ladningene gjennom kretsen, fra pluss-polen til minus-polen. Det er dette som driver strømmen. På veien gir ladningene fra seg energien til det som er koblet inn i kretsen, for eksempel en brødrister, en lampe eller en mobillader. Når de kommer fram til minus-polen, er all energien brukt opp, akkurat som for Dashman nederst i sklia.
+
+Batteriets evne til å drive ladninger gjennom kretsen, kalles **spenning**. Spenningen mellom to punkter er forskjellen i elektrisk *potensial* mellom dem. Elektrisk potensial er egentlig det samme som *potensiell energi per ladning*. Spenningen forteller oss derfor hvor mye energi hver coulomb ladning gir fra seg på veien fra pluss-polen til minus-polen. Vi kaller det altså *spenning* og måler det i *volt* (V). 1 volt betyr at hver coulomb ladning som går gjennom kretsen, gir fra seg 1 joule energi.
+
+![Potensialet langs en krets med et batteri på 12 V, en brødrister og en lampe. I ledningene er potensialet nesten det samme hele veien. I brødristeren «sklir» ladningene ned 8 V, og i lampa 4 V. Til sammen er det 12 V: Når ladningene kommer fram til minus-polen, er all energien brukt opp.](../../bilder/figurer/krets-potensial.svg){.tikz-fig style="width:640px" fig-alt="Et diagram der potensialet er tegnet oppover og veien gjennom kretsen bortover. Til venstre står batteriet som et tårn med pluss-polen (en knott) øverst og minus-polen nederst, og en rød dobbeltpil viser U = 12 V. En grønn linje går vannrett fra pluss-polen langs ledningen, faller 8 V gjennom en rosa brødrister med brødskiver, går vannrett langs en ny ledning, faller de siste 4 V gjennom en lyspære og går vannrett videre. En grønn stiplet pil går tilbake til minus-polen nederst på batteriet. Oransje bølgete piler viser at energien blir til varme i brødristeren og til lys og varme i lampa."}
 
 ::: {.callout-note title="Definisjon: Spenning"}
-Spenningen $U$ mellom to punkter er arbeidet $W$ som trengs per ladning $q$ for å flytte ladningen fra det ene punktet til det andre:
+Spenningen $U$ mellom to punkter er endringen i potensiell energi $\Delta E_p$ per ladning $q$, altså arbeidet $W$ som trengs per ladning for å flytte ladningen fra det ene punktet til det andre:
 $$
-U = \frac{W}{q}
+U = \frac{\Delta E_p}{q} = \frac{W}{q}
 $$
 Enheten er volt, $1\ \mathrm{V} = 1\ \mathrm{J/C}$.
 :::
 
-Et batteri på $9.0\ \mathrm{V}$ gir altså $9.0\ \mathrm{J}$ energi til hver coulomb ladning som går gjennom det. Spenningen mellom polene på et batteri kalles **polspenningen**.
+Et batteri på $9.0\ \mathrm{V}$ gir altså $9.0\ \mathrm{J}$ energi til kretsen for hver coulomb ladning som går fra pluss-polen til minus-polen. Spenningen mellom polene på et batteri kalles **polspenningen**.
+
+::: {.callout-important title="Hvor langt holder sammenligningen med sklia?"}
+Sklia er et godt bilde på spenning, men den har begrensninger:
+
+- **Ingen økende fart.** Dashman får mer og mer fart på vei ned. Det gjør ikke ladningene i en ledning. De kolliderer hele tiden med atomene i lederen og kryper av gårde med nesten konstant og svært lav fart. Energien blir til varme og lys (i brødristeren, lampa …), ikke til fart.
+- **Alle beveger seg samtidig.** Ladningene sklir ikke én og én. Ledningen er full av ladninger, og alle begynner å bevege seg på en gang, som vannet i hageslangen.
+- **Det trengs en lukket vei.** Dashman kan skli ned uansett. Ladningene kan bare bevege seg når det er en sammenhengende vei av ledere fra pluss-polen til minus-polen. Ellers går det ingen strøm, selv om spenningen er der.
+- **Det er elektronene som beveger seg.** I en metalledning er det de negative elektronene som beveger seg, og de går motsatt vei, fra minus-polen til pluss-polen. «Positiv ladning som sklir ned fra pluss-polen» er den tekniske strømretningen. Den gir riktige svar når vi regner.
+:::
 
 ::: {.eksempel}
 **Eksempel: Strøm i en ladekabel.** En mobil lades med strømmen $2.0\ \mathrm{A}$ i $30\ \mathrm{min}$, fra en lader med spenningen $5.0\ \mathrm{V}$.
@@ -77,7 +100,7 @@ $$
 
 ## Elektriske kretser
 
-En krets er en lukket vei som strømmen kan gå rundt i. Det går bare strøm når kretsen er **lukket**. Er det et brudd et sted, for eksempel en åpen bryter, er kretsen **åpen**, og det går ingen strøm noe sted i den.
+Hva er egentlig en elektrisk krets? En elektrisk krets, eller bare en krets, er rett og slett en lukket vei som strømmen kan gå rundt i. Det går bare strøm når kretsen er **lukket**. Er det et brudd et sted, for eksempel en åpen bryter, er kretsen **åpen**, og det går ingen strøm noe sted i den.
 
 ![](../../bilder/figurer/krets-apen-lukket.svg){.tikz-fig style="width:560px" fig-alt="To like kretser med et batteri U, en bryter og en lampe. Til venstre er bryteren åpen, og det går ingen strøm. Til høyre er bryteren lukket, og piler merket I viser strømmen ut fra batteriets pluss-pol, gjennom bryteren og lampa og tilbake."}
 
@@ -85,17 +108,17 @@ Kretser tegnes med standardsymboler. Den lange streken på batterisymbolet er de
 
 ![](../../bilder/figurer/kretssymboler.svg){.tikz-fig style="width:640px" fig-alt="Kretssymbolene for batteri (en lang og en kort strek, pluss ved den lange), motstand (et rektangel), lyspære (en sirkel med kryss), bryter (en åpen skrå strek), amperemeter (sirkel med A) og voltmeter (sirkel med V)."}
 
-Vi måler strøm med et **amperemeter** og spenning med et **voltmeter**:
+Vi måler strøm med et **amperemeter** og spenning med et **voltmeter**. Disse kobles i henholdsvis serie og parallell med komponenten vi vil måle. Mer om serie- og parallellkobling i et senere delkapittel.
 
 ::: {.kort}
 - **Amperemeteret kobles i serie**, slik at strømmen vi vil måle, går gjennom det.
 - **Voltmeteret kobles i parallell** over komponenten, slik at det måler spenningen mellom de to endene av den.
 :::
 
-![](../../bilder/figurer/krets-maling.svg){.tikz-fig style="width:420px" fig-alt="En krets med batteriet U0, et amperemeter A og en motstand R i serie. Et voltmeter V er koblet i parallell over motstanden. En pil merket I viser strømmen gjennom amperemeteret."}
+![](../../bilder/figurer/krets-maling.svg){.tikz-fig style="width:420px" fig-alt="En krets med batteriet U0, et amperemeter A og en lampe i serie. Et voltmeter V er koblet i parallell over lampa. En pil merket I viser strømmen gjennom amperemeteret."}
 
 ::: {.callout-tip title="Til ettertanke"}
-Et godt amperemeter har svært liten resistans, mens et godt voltmeter har svært stor resistans. Hvorfor? (Tenk på at måleinstrumentet ikke skal endre kretsen det måler på.)
+Strømmen går nesten uhindret gjennom et godt amperemeter, mens det nesten ikke går strøm gjennom et godt voltmeter. Hvorfor? (Tenk på at måleinstrumentet ikke skal endre kretsen det måler på.)
 :::
 
 <!-- tillegg: Claude -->
@@ -157,14 +180,14 @@ a)  Tegn kretsen med et amperemeter som måler strømmen fra batteriet, og et vo
 
 b)  Hvorfor må amperemeteret kobles i serie, mens voltmeteret kobles i parallell?
 
-c)  Et godt amperemeter har svært liten resistans, mens et godt voltmeter har svært stor resistans. Prøv å forklare hvorfor.
+c)  Strømmen går nesten uhindret gjennom et godt amperemeter, mens det nesten ikke går strøm gjennom et godt voltmeter. Prøv å forklare hvorfor.
 
 ::: {.losning}
 **a)** Batteriet, amperemeteret og de to pærene ligger etter hverandre i én sløyfe. Voltmeteret kobles med én ledning på hver side av den ene pæra.
 
 **b)** Amperemeteret måler strømmen *gjennom* seg selv, så den strømmen vi vil måle, må gå gjennom det. Voltmeteret måler spenningen *mellom* to punkter, så det må kobles til de to endene av komponenten.
 
-**c)** Måleinstrumentet skal ikke endre kretsen. Amperemeteret ligger i serie, og stor resistans der ville gjort strømmen mindre. Voltmeteret ligger i parallell, og liten resistans der ville «stjålet» strøm fra komponenten det måler over.
+**c)** Måleinstrumentet skal ikke endre kretsen. Amperemeteret ligger i serie, og hvis det var vanskelig for strømmen å komme gjennom det, ville strømmen i hele kretsen blitt mindre. Voltmeteret ligger i parallell, og hvis det slapp mye strøm gjennom seg, ville det «stjålet» strøm fra komponenten det måler over.
 :::
 :::
 
@@ -222,7 +245,7 @@ b)  En medelev kobler amperemeteret direkte over batteriet, med en ledning til h
 ::: {.losning}
 **a)** Amperemeteret settes inn **i serie** med lampa: Du åpner kretsen på ett sted og lar strømmen gå gjennom amperemeteret. Voltmeteret kobles **i parallell** over lampa, med én ledning på hver side av den.
 
-**b)** Amperemeteret har nesten ingen motstand. Koblet direkte over batteriet blir det en **kortslutning**: Strømmen blir svært stor, batteriet tappes fort og blir varmt, og sikringen i amperemeteret kan gå (eller instrumentet ødelegges).
+**b)** Strømmen går nesten uhindret gjennom amperemeteret. Koblet direkte over batteriet blir det en **kortslutning**: Strømmen blir svært stor, batteriet tappes fort og blir varmt, og sikringen i amperemeteret kan gå (eller instrumentet ødelegges).
 :::
 :::
 
