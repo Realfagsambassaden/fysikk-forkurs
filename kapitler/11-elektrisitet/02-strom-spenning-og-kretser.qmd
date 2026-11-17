@@ -110,40 +110,19 @@ Hva er egentlig en elektrisk krets? En elektrisk krets, eller bare en krets, er 
 
 ![](../../bilder/figurer/krets-apen-lukket.svg){.tikz-fig style="width:560px" fig-alt="To like kretser med et batteri U, en bryter og en lampe. Til venstre er bryteren åpen, og det går ingen strøm. Til høyre er bryteren lukket, og piler merket I viser strømmen ut fra batteriets pluss-pol, gjennom bryteren og lampa og tilbake."}
 
-Kretser tegnes med standardsymboler. Den lange streken på batterisymbolet er den positive polen.
+### Kretsskjema
+
+Når vi tegner en krets, bruker vi et **kretsskjema**: en skjematisk tegning der hver komponent har sitt eget standardsymbol, og ledningene er rette streker. Den lange streken på batterisymbolet er den positive polen.
 
 ![](../../bilder/figurer/kretssymboler.svg){.tikz-fig style="width:640px" fig-alt="Kretssymbolene for batteri (en lang og en kort strek, pluss ved den lange), motstand (et rektangel), lyspære (en sirkel med kryss), bryter (en åpen skrå strek), amperemeter (sirkel med A) og voltmeter (sirkel med V)."}
 
-### Serie- og parallellkobling
+### Måling av strøm og spenning
 
-Har vi mer enn én komponent i en krets, kan de kobles på to grunnleggende måter.
-
-::: {.callout-note title="Definisjon: Serie- og parallellkobling"}
-- To komponenter er koblet i **serie** når de ligger etter hverandre, slik at det bare er én vei gjennom dem. All ladning som går gjennom den ene, må også gå gjennom den andre.
-- To komponenter er koblet i **parallell** når begge endene deres er koblet til de samme to punktene i kretsen. Strømmen deler seg og går gjennom begge samtidig.
-:::
-
-![I seriekoblingen er det bare én vei rundt. I parallellkoblingen deler strømmen seg i de to svarte punktene.](../../bilder/figurer/krets-serie-parallell.svg){.tikz-fig style="width:640px" fig-alt="To kretser med et batteri U og to lamper, 1 og 2. Til venstre, seriekobling: lampene står etter hverandre i én sløyfe, og den samme strømmen I går gjennom begge. Til høyre, parallellkobling: lampene står ved siden av hverandre mellom de samme to punktene, markert med svarte prikker. Strømmen I deler seg i I1 gjennom lampe 1 og I2 gjennom lampe 2."}
-
-Ut fra det vi vet om ladning og spenning, får det to viktige følger:
-
-::: {.kort}
-- **I serie går den samme strømmen gjennom alle komponentene.** Ladning kan ikke hope seg opp eller forsvinne mellom dem, så like mye ladning per sekund må gå gjennom hver av dem.
-- **I parallell er spenningen den samme over alle komponentene.** Endene deres er koblet til de samme to punktene, så forskjellen i potensial er den samme. Strømmen deler seg derimot, slik at $I = I_1 + I_2$.
-:::
-
-Hvordan spenningen fordeler seg i en seriekobling, og hvordan strømmen fordeler seg i en parallellkobling, ser vi på i [Serie- og parallellkobling](04-serie-og-parallellkobling.qmd), når vi kjenner Ohms lov.
-
-### Amperemeter og voltmeter
-
-To måleinstrumenter er gode eksempler på de to koblingene. Vi måler strøm med et **amperemeter** og spenning med et **voltmeter**.
-
-::: {.kort}
-- **Amperemeteret kobles i serie** med komponenten. Da må den samme strømmen gå gjennom begge, og amperemeteret viser strømmen gjennom komponenten.
-- **Voltmeteret kobles i parallell** over komponenten. Da er det koblet til de samme to punktene, og viser spenningen over komponenten.
-:::
+Et **amperemeter** måler strømmen gjennom en komponent, og et **voltmeter** måler spenningen over den. Amperemeteret kobles i *serie* med komponenten, og voltmeteret i *parallell* over den:
 
 ![Amperemeteret er koblet i serie med lampa, og voltmeteret i parallell over den.](../../bilder/figurer/krets-maling.svg){.tikz-fig style="width:420px" fig-alt="En krets med batteriet U0, et amperemeter A og en lampe i serie. Et voltmeter V er koblet i parallell over lampa. En pil merket I viser strømmen gjennom amperemeteret."}
+
+Hva serie- og parallellkobling betyr, og hvorfor instrumentene må kobles slik, ser vi på i [Serie- og parallellkobling](04-serie-og-parallellkobling.qmd).
 
 ::: {.callout-tip title="Til ettertanke"}
 Strømmen går nesten uhindret gjennom et godt amperemeter, mens det nesten ikke går strøm gjennom et godt voltmeter. Hvorfor? (Tenk på at måleinstrumentet ikke skal endre kretsen det måler på.)

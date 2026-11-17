@@ -11,9 +11,42 @@ undertema: serie-parallell
 I et gammeldags julelys slukker hele lenka når én pære går. Men når én lampe i stua går, lyser de andre fortsatt. Hva er forskjellen?
 :::
 
+## Serie eller parallell?
+
+Har vi mer enn én komponent i en krets, kan de kobles på to grunnleggende måter.
+
+::: {.callout-note title="Definisjon: Serie- og parallellkobling"}
+- To komponenter er koblet i **serie** når de ligger etter hverandre, slik at det bare er én vei gjennom dem. All ladning som går gjennom den ene, må også gå gjennom den andre.
+- To komponenter er koblet i **parallell** når begge endene deres er koblet til de samme to punktene i kretsen. Strømmen deler seg og går gjennom begge samtidig.
+:::
+
+![I seriekoblingen er det bare én vei rundt. I parallellkoblingen deler strømmen seg i de to svarte punktene.](../../bilder/figurer/krets-serie-parallell.svg){.tikz-fig style="width:640px" fig-alt="To kretser med et batteri U og to lamper, 1 og 2. Til venstre, seriekobling: lampene står etter hverandre i én sløyfe, og den samme strømmen I går gjennom begge. Til høyre, parallellkobling: lampene står ved siden av hverandre mellom de samme to punktene, markert med svarte prikker. Strømmen I deler seg i I1 gjennom lampe 1 og I2 gjennom lampe 2."}
+
+Det gir to viktige følger:
+
+::: {.kort}
+- **I serie går den samme strømmen gjennom alle komponentene.** Ladning kan ikke hope seg opp eller forsvinne mellom dem, så like mye ladning per sekund må gå gjennom hver av dem.
+- **I parallell er spenningen den samme over alle komponentene.** Endene deres er koblet til de samme to punktene, så forskjellen i potensial er den samme. Strømmen deler seg derimot, slik at $I = I_1 + I_2$.
+:::
+
+Med Ohms lov kan vi også finne ut hvordan spenningen fordeler seg i en seriekobling, og hvordan strømmen fordeler seg i en parallellkobling.
+
+## Amperemeter og voltmeter
+
+To måleinstrumenter er gode eksempler på de to koblingene.
+
+::: {.kort}
+- **Amperemeteret kobles i serie** med komponenten. Da må den samme strømmen gå gjennom begge, og amperemeteret viser strømmen gjennom komponenten.
+- **Voltmeteret kobles i parallell** over komponenten. Da er det koblet til de samme to punktene, og viser spenningen over komponenten.
+:::
+
+![Amperemeteret er koblet i serie med lampa, og voltmeteret i parallell over den.](../../bilder/figurer/krets-maling.svg){.tikz-fig style="width:420px" fig-alt="En krets med batteriet U0, et amperemeter A og en lampe i serie. Et voltmeter V er koblet i parallell over lampa. En pil merket I viser strømmen gjennom amperemeteret."}
+
+Et godt amperemeter slipper strømmen nesten uhindret gjennom seg, altså har det svært liten resistans. Ellers ville det gjort strømmen i kretsen mindre. Et godt voltmeter har svært stor resistans, slik at nesten ingen strøm går gjennom det i stedet for gjennom komponenten.
+
 ## Seriekobling
 
-I en seriekobling ligger komponentene etter hverandre, slik at strømmen bare har én vei å gå. Da gjelder:
+Med motstander i serie gjelder:
 
 ::: {.kort}
 - **Strømmen er den samme** gjennom alle komponentene. Ladning kan ikke hope seg opp noe sted.
@@ -26,7 +59,7 @@ Bruker vi Ohms lov på hver motstand, får vi $U = R_1I + R_2I + \dots = (R_1 + 
 
 ## Parallellkobling
 
-I en parallellkobling ligger komponentene ved siden av hverandre, mellom de samme to punktene. Strømmen deler seg og går gjennom komponentene samtidig. Da gjelder:
+Med motstander i parallell gjelder:
 
 ::: {.kort}
 - **Spenningen er den samme** over alle komponentene, fordi de er koblet mellom de samme to punktene.
