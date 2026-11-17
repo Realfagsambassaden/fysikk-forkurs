@@ -7,6 +7,7 @@ H = Path(__file__).resolve().parent; mal = (H / '_mal.tex').read_text(encoding='
 for f in sorted(H.glob('*.tex')):
     if f.name.startswith('_'): continue
     with tempfile.TemporaryDirectory() as td:
+        for g in H.glob('*.pdf'): shutil.copy(g, td)  # tegninger som figurene bygger på (f.eks. Dashman)
         (Path(td) / 'f.tex').write_text(mal.replace('%BODY%', f.read_text(encoding='utf-8')), encoding='utf-8')
         r = subprocess.run(['pdflatex', '-interaction=nonstopmode', '-halt-on-error', 'f.tex'], cwd=td, capture_output=True, text=True)
         if r.returncode: print('FEIL', f.name, [l for l in r.stdout.split('\n') if l.startswith('!')][:2]); continue
