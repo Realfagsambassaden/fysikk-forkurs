@@ -3,20 +3,21 @@
 \begin{tikzpicture}[scale=1.0]
 \tikzset{varme/.style={->,thick,felt,decorate,decoration={snake,amplitude=.6mm,segment length=2.2mm,post length=1.5mm}}}
 % akser
-\draw[akse] (-1.9,0)--(9.4,0);
-\node[font=\small,anchor=north] at (4.7,-0.1) {veien fra pluss-polen, gjennom kretsen, til minus-polen};
+\node[font=\small] at (5.0,-0.95) {veien gjennom kretsen og tilbake til batteriet};
 \draw[akse] (-1.9,-0.3)--(-1.9,4.6) node[above,font=\small]{potensial};
 % batteriet som et «tårn»: pluss-polen øverst, minus-polen nederst
-\draw[very thick] (0.2,0) rectangle (1.2,3.0);
-\foreach \x in {0.4,0.7,1.0} \node[font=\small] at (\x,2.75) {$+$};
+\draw[very thick,fill=black!6,rounded corners=3pt] (0.2,0) rectangle (1.2,3.0);
+\draw[very thick,fill=black!20,rounded corners=1.5pt] (0.5,3.0) rectangle (0.9,3.22);
+\draw[thick] (0.2,2.45) -- (1.2,2.45);
+\foreach \x in {0.4,0.7,1.0} \node[font=\small] at (\x,2.72) {$+$};
 \foreach \x in {0.4,0.7,1.0} \node[font=\small] at (\x,0.25) {$-$};
 \node[font=\small] at (0.7,1.5) {batteri};
 \draw[<->,thick,rod] (-0.05,0.02)--(-0.05,2.98) node[midway,left,font=\small]{$U = 12\ \mathrm{V}$};
 % potensialet langs kretsen
 \draw[very thick,gronn] (1.2,3.0) -- (2.9,3.0) -- (4.4,1.0) -- (6.1,1.0) -- (6.9,0.0) -- (8.8,0.0);
-\fill[gronn] (1.2,3.0) circle (2pt); \fill[gronn] (8.8,0) circle (2pt);
-\node[font=\small,anchor=south] at (0.55,3.05) {pluss-polen};
-\node[font=\small,anchor=south] at (8.8,0.05) {minus-polen};
+\draw[very thick,gronn,dashed,->] (8.8,0.0) .. controls (8.8,-0.7) and (1.2,-0.7) .. (1.2,0.02);
+\node[font=\small,anchor=south] at (0.7,3.24) {pluss-polen};
+\node[font=\small,anchor=north east] at (0.95,-0.08) {minus-polen};
 \node[font=\small] at (2.25,3.25) {ledning};
 \node[font=\small] at (5.45,0.75) {ledning};
 % fall i spenning
