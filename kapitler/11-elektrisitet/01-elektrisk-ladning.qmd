@@ -16,9 +16,9 @@ Du gnir en ballong mot genseren din, og etterpå kan ballongen henge fast i take
 
 All materie er bygget opp av atomer. Disse atomene har masse. De veier altså noe. Men i tillegg har de noe som kalles *elektrisk ladning*. Et atom har en kjerne med positivt ladde **protoner** (og nøytrale nøytroner), og rundt kjernen beveger det seg negativt ladde **elektroner**. Et atom har like mange protoner som elektroner og er derfor elektrisk **nøytralt**: Den positive og den negative ladningen opphever hverandre.
 
-Elektronene i de ytterste skallene kan forholdsvis lett flyttes fra ett legeme til et annet. Når du gnir ballongen mot genseren, flyttes elektroner fra genseren over til ballongen. Ballongen får da et overskudd av elektroner og blir negativt ladet, mens genseren får et underskudd og blir positivt ladet.
+Elektronene i de ytterste skallene kan forholdsvis lett flyttes fra ett legeme til et annet. Når du gnir ballongen mot genseren, flyttes elektroner fra genseren over til ballongen. Ballongen får da et overskudd av elektroner og blir negativt ladet, mens genseren får et underskudd og blir positivt ladet. Både ballongen og genseren er isolatorer, så de ekstra ladningene blir sittende der de ble gnidd. Resten av ballongen og genseren er fortsatt nøytral, med like mange positive og negative ladninger.
 
-![](../../bilder/figurer/ladning-ballong.svg){.tikz-fig style="width:460px" fig-alt="En genser med plusstegn og en ballong med minustegn. En grønn pil merket elektroner går fra genseren til ballongen. Genseren har fått underskudd av elektroner, ballongen overskudd."}
+![](../../bilder/figurer/ladning-ballong.svg){.tikz-fig style="width:460px" fig-alt="En genser og en ballong, begge med like mange plusstegn og minustegn spredt utover. Et innringet område på genseren har bare plusstegn, og et innringet område på ballongen har bare minustegn. En grønn pil merket elektroner går fra genseren til ballongen: genseren har fått underskudd av elektroner der den ble gnidd, ballongen overskudd."}
 
 Ladning blir verken laget eller ødelagt, den bare flyttes. Dette kalles **ladningsbevaring**. Til sammen har genseren og ballongen like mye ladning som før, altså null.
 

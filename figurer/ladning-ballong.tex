@@ -1,14 +1,23 @@
 \begin{tikzpicture}[scale=1.0]
+\tikzset{p/.style={rod,font=\bfseries\small,inner sep=0pt}, m/.style={bla,font=\bfseries\small,inner sep=0pt}}
 % genser
 \draw[thick,fill=bla!8,rounded corners=6pt] (0,0) -- (0,2.6) -- (-0.7,2.2) -- (-1.2,3.0) -- (0.2,3.6) -- (0.9,3.3) -- (1.7,3.3) -- (2.4,3.6) -- (3.8,3.0) -- (3.3,2.2) -- (2.6,2.6) -- (2.6,0) -- cycle;
-\foreach \x/\y in {0.5/0.6,1.3/0.9,2.0/0.5,0.6/1.7,1.5/2.0,2.1/1.5,1.0/2.7,1.8/2.8} \node[rod,font=\bfseries] at (\x,\y) {$+$};
-\node[font=\small] at (1.3,-0.4) {genser: underskudd};
+% nøytrale områder: like mange + og −
+\foreach \x/\y in {0.35/0.45,0.95/0.75,0.45/1.35,1.05/1.65,0.4/2.3,1.0/2.7,1.6/2.9} {\node[p] at (\x,\y) {$+$}; \node[m] at (\x+0.22,\y-0.12) {$-$};}
+% gnidd område: bare +
+\draw[gronn,dashed,thick] (2.05,1.35) ellipse (0.42 and 0.85);
+\foreach \x/\y in {1.9/0.8,2.2/1.05,1.9/1.35,2.2/1.6,1.9/1.9} \node[p] at (\x,\y) {$+$};
+\node[font=\small,align=center] at (1.3,-0.5) {genser: underskudd av elektroner\\der den ble gnidd};
 % ballong
-\draw[thick,fill=rod!6] (6.2,2.2) ellipse (1.0 and 1.25);
-\draw[thick] (6.2,0.95) -- (6.05,0.75) -- (6.35,0.75) -- cycle;
-\draw (6.2,0.75) .. controls (6.0,0.2) and (6.5,-0.1) .. (6.2,-0.6);
-\foreach \x/\y in {5.7/2.6,6.3/3.0,6.7/2.3,5.8/1.8,6.4/1.6,6.1/2.3} \node[bla,font=\bfseries] at (\x,\y) {$-$};
-\node[font=\small] at (6.2,-0.95) {ballong: overskudd};
+\draw[thick,fill=rod!6] (6.6,2.2) ellipse (1.0 and 1.25);
+\draw[thick] (6.6,0.95) -- (6.45,0.75) -- (6.75,0.75) -- cycle;
+\draw (6.6,0.75) .. controls (6.45,0.4) and (6.8,0.1) .. (6.6,-0.35);
+% nøytrale områder
+\foreach \x/\y in {6.75/3.0,7.1/2.55,6.75/2.1,7.1/1.65,6.75/1.35} {\node[p] at (\x,\y) {$+$}; \node[m] at (\x+0.22,\y-0.12) {$-$};}
+% gnidd område: bare −
+\draw[gronn,dashed,thick] (6.12,2.2) ellipse (0.34 and 0.85);
+\foreach \x/\y in {6.02/1.6,6.22/1.9,6.02/2.2,6.22/2.5,6.02/2.8} \node[m] at (\x,\y) {$-$};
+\node[font=\small,align=center] at (6.6,-1.0) {ballong: overskudd av elektroner\\der den ble gnidd};
 % elektroner flytter seg
-\draw[->,very thick,gronn] (2.9,1.6) to[bend right=15] node[below,font=\small]{elektroner} (5.15,1.7);
+\draw[->,very thick,gronn] (2.75,1.25) to[bend right=18] node[below,font=\small]{elektroner} (5.75,1.55);
 \end{tikzpicture}
