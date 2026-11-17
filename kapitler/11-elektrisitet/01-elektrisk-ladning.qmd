@@ -4,7 +4,7 @@ tema: elektrisk-felt
 undertema: ladning
 ---
 
-Visste du at elektrisitet og magnetisme er to sider av samme sak? Det er dette faktum som ligger bak det vi f.eks. kaller elektromagnetisk induksjon. Elektrisitet og magnetisme sett under ett ble utviklet av James Clerk Maxwell på 1800-tallet, og kalles *elektromagnetisme*. Det er én av de fire grunnleggende naturkreftene i universet. Denne videoen gir en introduksjon:
+Visste du at elektrisitet og magnetisme er to sider av samme sak? Det er dette faktum som ligger bak det vi for eksempel kaller elektromagnetisk induksjon. Elektrisitet og magnetisme sett under ett ble utviklet av James Clerk Maxwell på 1800-tallet, og kalles *elektromagnetisme*. Det er én av de fire grunnleggende naturkreftene i universet. Denne videoen gir en introduksjon:
 
 {{< video https://www.youtube.com/watch?v=aBr6tw3pTXg >}}
 
@@ -24,18 +24,17 @@ Ladning blir verken laget eller ødelagt, den bare flyttes. Dette kalles **ladni
 
 Mens *masse* alltid er positiv, kan elektrisk ladning være både positiv og negativ. Gravitasjonsfeltet rundt en masseklump (jorda, for eksempel, eller et atom) trekker alltid andre masseklumper mot seg.
 
-[CHECK FIGUR, jorda og månen, med tiltrekkende krefter]
+![](../../bilder/figurer/masse-tiltrekning.svg){.tikz-fig style="width:420px" fig-alt="Jorda og månen. En pil fra jorda peker mot månen, og en pil fra månen peker mot jorda, begge merket G: masse trekker alltid på masse."}
 
- Med ladning er det ikke slik. Her har vi to forskjellige fortegn, og får derfor flere muligheter. To legemer med like ladninger frastøter hverandre, mens to legemer med motsatt ladning tiltrekker hverandre. 
+Med ladning er det ikke slik. Her har vi to forskjellige fortegn, og får derfor flere muligheter. To legemer med like ladninger frastøter hverandre, mens to legemer med motsatt ladning tiltrekker hverandre.
 
-
-[CHECK FIGUR av alle fire muligheter.]
+![](../../bilder/figurer/ladning-fire-tilfeller.svg){.tikz-fig style="width:560px" fig-alt="De fire mulighetene for to ladninger. Pluss og pluss, og minus og minus, skyves fra hverandre: like ladninger frastøter hverandre. Pluss og minus, og minus og pluss, trekkes mot hverandre: motsatte ladninger tiltrekker hverandre."}
 
 ## Elementærladningen
 
-En annen viktig forskjell mellom et legemes *masse* og *ladning* er at ladning kommer i pakker. Massen til et legeme kan variere kontinuerlig. Slik er det ikke med ladning.Den minste mulige pakken for ladning kalles *elementærladningen*, og alle andre ladnigner er et helt antall ganger elementærladningen. Det finnes altså en minsteladning i universet!
+En annen viktig forskjell mellom et legemes *masse* og *ladning* er at ladning kommer i pakker. Massen til et legeme kan variere kontinuerlig. Slik er det ikke med ladning. Den minste mulige pakken for ladning kalles *elementærladningen*, og alle andre ladninger er et helt antall ganger elementærladningen. Det finnes altså en minsteladning i universet!
 
-Elektrisk ladning har symbolet $q$ (eller $Q$) og enheten coulomb (C). Den minste frie ladningen som finnes i naturen, er altså elementærladningen, som forøvrig også er ladningen til et proton.
+Elektrisk ladning har symbolet $q$ (eller $Q$) og enheten coulomb (C). Den minste frie ladningen som finnes i naturen, er altså elementærladningen, som for øvrig også er ladningen til et proton.
 
 ::: {.callout-important title="Elementærladningen"}
 $$

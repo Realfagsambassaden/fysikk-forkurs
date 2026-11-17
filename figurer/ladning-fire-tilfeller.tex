@@ -1,0 +1,15 @@
+\begin{tikzpicture}[scale=1.0]
+\tikzset{q/.style={circle,draw,thick,minimum size=7mm,font=\large,inner sep=0pt}}
+% rad 1: frastøtning
+\foreach \x/\a/\b in {0/+/+,6.8/-/-}{
+  \node[q] (a) at (\x,0) {$\a$}; \node[q] (b) at (\x+2.6,0) {$\b$};
+  \draw[vek,rod] (a.west)--++(-1.1,0); \draw[vek,rod] (b.east)--++(1.1,0);
+}
+\node[font=\small] at (5.1,-0.95) {Like ladninger frastøter hverandre};
+% rad 2: tiltrekning
+\foreach \x/\a/\b in {0/+/-,6.8/-/+}{
+  \node[q] (a) at (\x,-2.4) {$\a$}; \node[q] (b) at (\x+2.6,-2.4) {$\b$};
+  \draw[vek,rod] (a.east)--++(0.9,0); \draw[vek,rod] (b.west)--++(-0.9,0);
+}
+\node[font=\small] at (5.1,-3.35) {Motsatte ladninger tiltrekker hverandre};
+\end{tikzpicture}

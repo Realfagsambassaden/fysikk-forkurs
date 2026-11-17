@@ -1,0 +1,4 @@
+# Forhåndsvisning fra Quarto (lages lokalt, skal ikke i git)
+*.html
+*_files/
+.quarto/
