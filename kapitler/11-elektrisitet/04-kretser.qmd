@@ -1,7 +1,8 @@
 ---
-title: "Serie- og parallellkobling"
+title: "Kretser"
 tema: kretser
 undertema: serie-parallell
+aliases: ["04-serie-og-parallellkobling.html"]
 ---
 
 <!-- video: kommer (videoer/fysikk-forkurs/11-04-serie-og-parallellkobling) -->
@@ -10,6 +11,18 @@ undertema: serie-parallell
 ::: {.callout-tip title="Til ettertanke"}
 I et gammeldags julelys slukker hele lenka når én pære går. Men når én lampe i stua går, lyser de andre fortsatt. Hva er forskjellen?
 :::
+
+## Elektriske kretser
+
+Hva er egentlig en elektrisk krets? En elektrisk krets, eller bare en krets, er rett og slett en lukket vei som strømmen kan gå rundt i. Det går bare strøm når kretsen er **lukket**. Er det et brudd et sted, for eksempel en åpen bryter, er kretsen **åpen**, og det går ingen strøm noe sted i den.
+
+![](../../bilder/figurer/krets-apen-lukket.svg){.tikz-fig style="width:560px" fig-alt="To like kretser med et batteri U, en bryter og en lampe. Til venstre er bryteren åpen, og det går ingen strøm. Til høyre er bryteren lukket, og piler merket I viser strømmen ut fra batteriets pluss-pol, gjennom bryteren og lampa og tilbake."}
+
+## Kretsskjema
+
+Når vi tegner en krets, bruker vi et **kretsskjema**: en skjematisk tegning der hver komponent har sitt eget standardsymbol, og ledningene er rette streker. Den lange streken på batterisymbolet er den positive polen.
+
+![](../../bilder/figurer/kretssymboler.svg){.tikz-fig style="width:640px" fig-alt="Kretssymbolene for batteri (en lang og en kort strek, pluss ved den lange), motstand (et rektangel), lyspære (en sirkel med kryss), bryter (en åpen skrå strek), amperemeter (sirkel med A) og voltmeter (sirkel med V)."}
 
 ## Serie eller parallell?
 
@@ -22,53 +35,50 @@ Har vi mer enn én komponent i en krets, kan de kobles på to grunnleggende måt
 
 ![I seriekoblingen er det bare én vei rundt. I parallellkoblingen deler strømmen seg i de to svarte punktene.](../../bilder/figurer/krets-serie-parallell.svg){.tikz-fig style="width:640px" fig-alt="To kretser med et batteri U og to lamper, 1 og 2. Til venstre, seriekobling: lampene står etter hverandre i én sløyfe, og den samme strømmen I går gjennom begge. Til høyre, parallellkobling: lampene står ved siden av hverandre mellom de samme to punktene, markert med svarte prikker. Strømmen I deler seg i I1 gjennom lampe 1 og I2 gjennom lampe 2."}
 
-Det gir to viktige følger:
+Begge koblingene har en egenskap vi kan se direkte, uten å regne:
 
 ::: {.kort}
-- **I serie går den samme strømmen gjennom alle komponentene.** Ladning kan ikke hope seg opp eller forsvinne mellom dem, så like mye ladning per sekund må gå gjennom hver av dem.
-- **I parallell er spenningen den samme over alle komponentene.** Endene deres er koblet til de samme to punktene, så forskjellen i potensial er den samme. Strømmen deler seg derimot, slik at $I = I_1 + I_2$.
+- **I serie går den samme strømmen gjennom alle komponentene.** Ladning blir verken laget eller ødelagt, og den kan heller ikke hope seg opp mellom komponentene. Like mye ladning per sekund må derfor gå gjennom hver av dem.
+- **I parallell er spenningen den samme over alle komponentene.** Endene deres sitter i de samme to punktene, og potensialet i et punkt er det samme uansett hvilken vei vi kommer dit. Forskjellen i potensial er derfor den samme over hver gren.
 :::
-
-Med Ohms lov kan vi også finne ut hvordan spenningen fordeler seg i en seriekobling, og hvordan strømmen fordeler seg i en parallellkobling.
-
-## Amperemeter og voltmeter
-
-To måleinstrumenter er gode eksempler på de to koblingene.
-
-::: {.kort}
-- **Amperemeteret kobles i serie** med komponenten. Da må den samme strømmen gå gjennom begge, og amperemeteret viser strømmen gjennom komponenten.
-- **Voltmeteret kobles i parallell** over komponenten. Da er det koblet til de samme to punktene, og viser spenningen over komponenten.
-:::
-
-![Amperemeteret er koblet i serie med lampa, og voltmeteret i parallell over den.](../../bilder/figurer/krets-maling.svg){.tikz-fig style="width:420px" fig-alt="En krets med batteriet U0, et amperemeter A og en lampe i serie. Et voltmeter V er koblet i parallell over lampa. En pil merket I viser strømmen gjennom amperemeteret."}
-
-Et godt amperemeter slipper strømmen nesten uhindret gjennom seg, altså har det svært liten resistans. Ellers ville det gjort strømmen i kretsen mindre. Et godt voltmeter har svært stor resistans, slik at nesten ingen strøm går gjennom det i stedet for gjennom komponenten.
 
 ## Seriekobling
 
-Med motstander i serie gjelder:
-
-::: {.kort}
-- **Strømmen er den samme** gjennom alle komponentene. Ladning kan ikke hope seg opp noe sted.
-- **Spenningen fra batteriet deles** mellom komponentene: $U = U_1 + U_2 + \dots$
-:::
-
 ![](../../bilder/figurer/serie-tre.svg){.tikz-fig style="width:400px" fig-alt="Tre motstander R1, R2 og R3 koblet etter hverandre i én sløyfe med batteriet U. Den samme strømmen I går gjennom alle tre."}
 
-Bruker vi Ohms lov på hver motstand, får vi $U = R_1I + R_2I + \dots = (R_1 + R_2 + \dots)\,I$. Motstandene virker altså som én motstand $R_\text{tot}$.
+Tenk tilbake på potensialdiagrammet med brødristeren og lampa i [Strøm og spenning](02-strom-og-spenning.qmd). Hver coulomb ladning gir fra seg energien sin litt etter litt på vei rundt kretsen. I hver komponent faller potensialet, og når ladningen er tilbake ved minus-polen, har det falt nøyaktig like mye som spenningen over batteriet. Derfor er
+
+$$
+U = U_1 + U_2 + U_3.
+$$
+
+![I seriekoblingen faller potensialet litt i hver komponent. Til sammen faller det like mye som spenningen over batteriet: 8 V + 4 V = 12 V.](../../bilder/figurer/krets-potensial.svg){.tikz-fig style="width:560px" fig-alt="Potensialet langs en krets med et batteri på 12 V, en brødrister og en lampe i serie. Potensialet faller 8 V i brødristeren og 4 V i lampa, til sammen 12 V."}
+
+Strømmen $I$ er den samme gjennom alle motstandene, så Ohms lov gir $U_1 = R_1I$, $U_2 = R_2I$ og $U_3 = R_3I$. Setter vi inn, får vi
+
+$$
+U = R_1I + R_2I + R_3I = (R_1 + R_2 + R_3)\,I.
+$$
+
+Kretsen oppfører seg altså som om det var én motstand $R_\text{tot} = R_1 + R_2 + R_3$. Det gir mening: Ladningene må gjennom alle hindringene etter hverandre, så hindringene legges sammen. Legg også merke til at spenningen fordeler seg i samme forhold som motstandene, $U_1 : U_2 = R_1 : R_2$. Den største motstanden får den største spenningen.
 
 ## Parallellkobling
 
-Med motstander i parallell gjelder:
-
-::: {.kort}
-- **Spenningen er den samme** over alle komponentene, fordi de er koblet mellom de samme to punktene.
-- **Strømmen deles**: $I = I_1 + I_2 + \dots$
-:::
-
 ![](../../bilder/figurer/parallell-to.svg){.tikz-fig style="width:380px" fig-alt="To motstander R1 og R2 i hver sin gren mellom de samme to ledningene fra batteriet U. Strømmen I fra batteriet deler seg i I1 gjennom R1 og I2 gjennom R2."}
 
-Med Ohms lov er $I = U/R_1 + U/R_2 + \dots = U\left(1/R_1 + 1/R_2 + \dots\right)$.
+Der ledningen deler seg, kan ikke ladning forsvinne eller hope seg opp. Det som kommer inn, må gå ut igjen gjennom grenene:
+
+$$
+I = I_1 + I_2.
+$$
+
+Spenningen $U$ er den samme over begge grenene, så Ohms lov gir $I_1 = U/R_1$ og $I_2 = U/R_2$. Setter vi inn, får vi
+
+$$
+I = \frac{U}{R_1} + \frac{U}{R_2} = U\left(\frac{1}{R_1} + \frac{1}{R_2}\right).
+$$
+
+Sammenligner vi med $I = U/R_\text{tot}$, ser vi at $\dfrac{1}{R_\text{tot}} = \dfrac{1}{R_1} + \dfrac{1}{R_2}$. Hver ny gren er en ekstra vei for ladningene, omtrent som et ekstra felt på en motorvei. Derfor går det *mer* strøm, og den totale resistansen blir *mindre*. Den minste motstanden får den største strømmen.
 
 ::: {.callout-note title="Definisjon: Serie- og parallellkobling av motstander"}
 **Serie:**
@@ -85,6 +95,23 @@ For to motstander i parallell kan dette skrives $R_\text{tot} = \dfrac{R_1R_2}{R
 ::: {.callout-important title="Merk: Parallellkobling gir mindre resistans"}
 Når vi kobler en motstand i parallell med en annen, får strømmen en ekstra vei å gå. Den totale resistansen blir derfor alltid *mindre* enn den minste av motstandene.
 :::
+
+## Måling av strøm og spenning
+
+Et **amperemeter** måler strømmen gjennom en komponent, og et **voltmeter** måler spenningen over den.
+
+![Amperemeteret er koblet i serie med lampa, og voltmeteret i parallell over den.](../../bilder/figurer/krets-maling.svg){.tikz-fig style="width:420px" fig-alt="En krets med batteriet U0, et amperemeter A og en lampe i serie. Et voltmeter V er koblet i parallell over lampa. En pil merket I viser strømmen gjennom amperemeteret."}
+
+::: {.kort}
+- **Amperemeteret kobles i serie** med komponenten. Da går den samme strømmen gjennom begge, og amperemeteret viser strømmen gjennom komponenten.
+- **Voltmeteret kobles i parallell** over komponenten. Da sitter det i de samme to punktene, og viser spenningen over komponenten.
+:::
+
+::: {.callout-tip title="Til ettertanke"}
+Strømmen går nesten uhindret gjennom et godt amperemeter, mens det nesten ikke går strøm gjennom et godt voltmeter. Hvorfor? (Tenk på at måleinstrumentet ikke skal endre kretsen det måler på.)
+:::
+
+Et måleinstrument skal ikke endre det det måler. Amperemeteret ligger i serie, så resistansen $R_A$ legges til: $R_\text{tot} = R + R_A$. For at strømmen ikke skal bli mindre, må $R_A$ være mye mindre enn $R$. Et godt amperemeter har derfor svært *liten* resistans. Voltmeteret ligger i parallell og er en ekstra vei for strømmen. For at nesten ingen strøm skal gå den veien, må resistansen $R_V$ være mye større enn $R$. Et godt voltmeter har derfor svært *stor* resistans.
 
 ::: {.eksempel}
 **Eksempel: Motstander i serie.** Tre motstander er koblet i serie, som i figuren over. To av dem er $R_1 = 6.0\ \mathrm{\Omega}$ og $R_2 = 10\ \mathrm{\Omega}$. Den totale resistansen er $25\ \mathrm{\Omega}$. Hva er $R_3$?
@@ -227,6 +254,39 @@ I = I_1 + I_2 = 0.30\ \mathrm{A} + 0.30\ \mathrm{A} = \underline{\underline{0.60
 $$
 
 **c)** I parallell får hver lampe hele spenningen fra nettet, og hver lampe kan slås av og på, eller ryke, uten at de andre påvirkes.
+:::
+:::
+
+::: {.oppgave tittel="Måle strøm og spenning" niva="Middels"}
+Et batteri er koblet til to lyspærer i serie.
+
+a)  Tegn kretsen med et amperemeter som måler strømmen fra batteriet, og et voltmeter som måler spenningen over den ene lyspæra.
+
+b)  Hvorfor må amperemeteret kobles i serie, mens voltmeteret kobles i parallell?
+
+c)  Strømmen går nesten uhindret gjennom et godt amperemeter, mens det nesten ikke går strøm gjennom et godt voltmeter. Prøv å forklare hvorfor.
+
+::: {.losning}
+**a)** Batteriet, amperemeteret og de to pærene ligger etter hverandre i én sløyfe. Voltmeteret kobles med én ledning på hver side av den ene pæra.
+
+**b)** Amperemeteret måler strømmen *gjennom* seg selv, så den strømmen vi vil måle, må gå gjennom det. Voltmeteret måler spenningen *mellom* to punkter, så det må kobles til de to endene av komponenten.
+
+**c)** Måleinstrumentet skal ikke endre kretsen. Amperemeteret ligger i serie, og hvis det var vanskelig for strømmen å komme gjennom det, ville strømmen i hele kretsen blitt mindre. Voltmeteret ligger i parallell, og hvis det slapp mye strøm gjennom seg, ville det «stjålet» strøm fra komponenten det måler over.
+:::
+:::
+
+::: {.oppgave tittel="Hvor skal måleren stå?"}
+<!-- tillegg: Claude -->
+Du har en krets med et batteri og en lampe, og vil måle både strømmen gjennom lampa og spenningen over den.
+
+a)  Hvordan kobler du amperemeteret? Hvordan kobler du voltmeteret?
+
+b)  En medelev kobler amperemeteret direkte over batteriet, med en ledning til hver pol. Hva skjer, og hvorfor?
+
+::: {.losning}
+**a)** Amperemeteret settes inn **i serie** med lampa: Du åpner kretsen på ett sted og lar strømmen gå gjennom amperemeteret. Voltmeteret kobles **i parallell** over lampa, med én ledning på hver side av den.
+
+**b)** Strømmen går nesten uhindret gjennom amperemeteret. Koblet direkte over batteriet blir det en **kortslutning**: Strømmen blir svært stor, batteriet tappes fort og blir varmt, og sikringen i amperemeteret kan gå (eller instrumentet ødelegges).
 :::
 :::
 
