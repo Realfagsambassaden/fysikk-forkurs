@@ -60,9 +60,9 @@ for cx, cy, qa, qb in paneler:
     s = lambda q: '+' if q > 0 else '-'
     t += rf'\node[q] (a) at ({cx-1.3},{cy}) {{${s(qa)}$}}; \node[q] (b) at ({cx+1.3},{cy}) {{${s(qb)}$}};' '\n'
     if qa * qb > 0:
-        t += r'\draw[vek,rod] (a.west)--++(-1.0,0); \draw[vek,rod] (b.east)--++(1.0,0);' '\n'
+        t += r'\draw[vek,rod] (a.west)--++(-1.0,0) node[above,pos=.6,font=\small]{$\vec F$}; \draw[vek,rod] (b.east)--++(1.0,0) node[above,pos=.6,font=\small]{$\vec F$};' '\n'
     else:
-        t += r'\draw[vek,rod] (a.east)--++(0.8,0); \draw[vek,rod] (b.west)--++(-0.8,0);' '\n'
+        t += r'\draw[vek,rod] (a.east)--++(0.8,0) node[above,pos=.55,font=\small]{$\vec F$}; \draw[vek,rod] (b.west)--++(-0.8,0) node[above,pos=.55,font=\small]{$\vec F$};' '\n'
 t += r'\node[font=\small] at (3.3,-1.9) {Like ladninger frastøter hverandre};' '\n'
 t += r'\node[font=\small] at (3.3,-5.8) {Motsatte ladninger tiltrekker hverandre};' '\n'
 t += r'\end{tikzpicture}' '\n'
