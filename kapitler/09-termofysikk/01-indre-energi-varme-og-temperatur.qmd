@@ -49,11 +49,11 @@ Sammenhengen mellom temperatur og energien til ett molekyl i gassen kan utledes 
 
 ::: {.callout-note title="Definisjon: Gjennomsnittlig kinetisk energi"}
 
-Den gjennomsnittlige kinetiske energien knyttet til translasjon er for hvert molekyl i en gass gitt ved $$\bar{E}_\text{K} = \frac{3}{2}\,k_\text{B} T,$$ hvor $k_\text{B} = 1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}$ er Boltzmanns konstant, og $T$ er den absolutte temperaturen i kelvin.
+Den gjennomsnittlige kinetiske energien knyttet til translasjon er for hvert molekyl i en gass gitt ved $$\bar{E}_\text{K} = \frac{3}{2}\,\mathrm{k_B} T,$$ hvor $\mathrm{k_B} = 1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}$ er Boltzmanns konstant, og $T$ er den absolutte temperaturen i kelvin.
 
 :::
 
-For én-atomige gasser, som helium og neon, er dette all den kinetiske energien. Molekyler med to eller flere atomer kan i tillegg rotere og vibrere, og har derfor mer kinetisk energi totalt. Men translasjonsdelen er fortsatt $\tfrac{3}{2}k_\text{B}T$, og det er den som bestemmer hvor fort molekylene farer rundt.
+For én-atomige gasser, som helium og neon, er dette all den kinetiske energien. Molekyler med to eller flere atomer kan i tillegg rotere og vibrere, og har derfor mer kinetisk energi totalt. Men translasjonsdelen er fortsatt $\tfrac{3}{2}\mathrm{k_B}T$, og det er den som bestemmer hvor fort molekylene farer rundt.
 
 ::: {.callout-important title="Merk: Temperatur = bevegelse"}
 
@@ -70,7 +70,7 @@ Heliumgass holdes ved romtemperatur $T = 293\,\mathrm{K}$. Finn den gjennomsnitt
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-$$\bar{E}_\text{K} = \frac{3}{2}\,k_\text{B} T
+$$\bar{E}_\text{K} = \frac{3}{2}\,\mathrm{k_B} T
             = \frac{3}{2} \cdot 1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1} \cdot 293\,\mathrm{K}
             = \underline{\underline{6.07\cdot 10^{-21}\,\mathrm{J}}}$$ Selv om dette er svært lite, beveger et heliumatom seg ved romtemperatur med en typisk fart på rundt $1350\,\mathrm{m}\,\mathrm{s}^{-1}$ — raskere enn lyden!
 
@@ -88,7 +88,7 @@ $\displaystyle T = t + 273.15 \approx t + 273$
 
 der $T$ er i kelvin og $t$ er i grader celsius. Romtemperatur, $20\,^\circ$C, er altså omtrent $293\,\mathrm{K}$.
 
-Siden gradene er like store, er en temperatur*endring* like stor på begge skalaene: $\Delta T = \Delta t$. Men i formler der selve temperaturen inngår, som $\bar{E}_\text{K} = \tfrac{3}{2}k_\text{B}T$, *må* vi bruke den absolutte temperaturen i kelvin. I USA brukes fahrenheit-skalaen. Sammenhengen med celsius er $t_\text{F} = \tfrac{9}{5}\,t + 32$.
+Siden gradene er like store, er en temperatur*endring* like stor på begge skalaene: $\Delta T = \Delta t$. Men i formler der selve temperaturen inngår, som $\bar{E}_\text{K} = \tfrac{3}{2}\mathrm{k_B}T$, *må* vi bruke den absolutte temperaturen i kelvin. I USA brukes fahrenheit-skalaen. Sammenhengen med celsius er $t_\text{F} = \tfrac{9}{5}\,t + 32$.
 
 :::
 
@@ -101,7 +101,7 @@ En gass har temperaturen $27\,^\circ$C. Vi varmer opp gassen helt til den gjenno
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-Den gjennomsnittlige kinetiske energien er proporsjonal med den absolutte temperaturen, $\bar{E}_\text{K} = \tfrac{3}{2}k_\text{B}T$. Dobbelt så stor energi betyr dobbelt så høy temperatur *i kelvin*. Starttemperaturen er $T_1 = 27 + 273 = 300\,\mathrm{K}$, så $$T_2 = 2\,T_1 = 2\cdot300\,\mathrm{K} = \underline{\underline{600\,\mathrm{K}}} = \underline{\underline{327\,^\circ\text{C}}}$$ Legg merke til at temperaturen i celsius blir mer enn tolv ganger så høy. Det viser hvorfor vi må regne i kelvin.
+Den gjennomsnittlige kinetiske energien er proporsjonal med den absolutte temperaturen, $\bar{E}_\text{K} = \tfrac{3}{2}\mathrm{k_B}T$. Dobbelt så stor energi betyr dobbelt så høy temperatur *i kelvin*. Starttemperaturen er $T_1 = 27 + 273 = 300\,\mathrm{K}$, så $$T_2 = 2\,T_1 = 2\cdot300\,\mathrm{K} = \underline{\underline{600\,\mathrm{K}}} = \underline{\underline{327\,^\circ\mathrm{C}}}$$ Legg merke til at temperaturen i celsius blir mer enn tolv ganger så høy. Det viser hvorfor vi må regne i kelvin.
 
 :::
 
@@ -114,9 +114,9 @@ Lufta i et klasserom holder romtemperatur, $20\,^\circ$C. Omtrent hvor fort beve
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-Oksygenmolekylet består av to atomer, men formelen $\bar{E}_\text{K} = \tfrac{3}{2}k_\text{B}T$ gir også for slike molekyler den gjennomsnittlige kinetiske energien knyttet til translasjon. Det er nettopp den som bestemmer hvor fort molekylene farer rundt.
+Oksygenmolekylet består av to atomer, men formelen $\bar{E}_\text{K} = \tfrac{3}{2}\mathrm{k_B}T$ gir også for slike molekyler den gjennomsnittlige kinetiske energien knyttet til translasjon. Det er nettopp den som bestemmer hvor fort molekylene farer rundt.
 
-Først gjør vi om temperaturen til kelvin: $T = 20 + 273 = 293\,\mathrm{K}$. Den gjennomsnittlige kinetiske energien er $$\bar{E}_\text{K} = \frac{3}{2}\,k_\text{B}T = \frac{3}{2}\cdot1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot293\,\mathrm{K} = 6.07\cdot 10^{-21}\,\mathrm{J}$$ Kinetisk energi er $E_\text{K} = \tfrac{1}{2}mv^2$. Vi setter $\tfrac{1}{2}mv^2 = \bar{E}_\text{K}$ og løser for $v$: $$v = \sqrt{\frac{2\bar{E}_\text{K}}{m}} = \sqrt{\frac{2\cdot6.07\cdot 10^{-21}\,\mathrm{J}}{5.31\cdot 10^{-26}\,\mathrm{kg}}} = \underline{\underline{478\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ Det er omtrent $1700\,\mathrm{km}\,\mathrm{h}^{-1}$, raskere enn lyden i luft (omtrent $340\,\mathrm{m}\,\mathrm{s}^{-1}$)! Molekylene kommer likevel ikke langt av gangen, fordi de hele tiden kolliderer med andre molekyler.
+Først gjør vi om temperaturen til kelvin: $T = 20 + 273 = 293\,\mathrm{K}$. Den gjennomsnittlige kinetiske energien er $$\bar{E}_\text{K} = \frac{3}{2}\,\mathrm{k_B}T = \frac{3}{2}\cdot1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot293\,\mathrm{K} = 6.07\cdot 10^{-21}\,\mathrm{J}$$ Kinetisk energi er $E_\text{K} = \tfrac{1}{2}mv^2$. Vi setter $\tfrac{1}{2}mv^2 = \bar{E}_\text{K}$ og løser for $v$: $$v = \sqrt{\frac{2\bar{E}_\text{K}}{m}} = \sqrt{\frac{2\cdot6.07\cdot 10^{-21}\,\mathrm{J}}{5.31\cdot 10^{-26}\,\mathrm{kg}}} = \underline{\underline{478\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ Det er omtrent $1700\,\mathrm{km}\,\mathrm{h}^{-1}$, raskere enn lyden i luft (omtrent $340\,\mathrm{m}\,\mathrm{s}^{-1}$)! Molekylene kommer likevel ikke langt av gangen, fordi de hele tiden kolliderer med andre molekyler.
 
 *Merk:* Molekylene har ulik fart, og farten vi har regnet ut, er en *typisk* fart for molekylene. (Den kalles rms-farten og er kvadratroten av gjennomsnittet av $v^2$. Den vanlige gjennomsnittsfarten er litt mindre, omtrent $440\,\mathrm{m}\,\mathrm{s}^{-1}$.) Vi snakker om *fart*, ikke hastighet: molekylene beveger seg i alle retninger, så i gjennomsnitt er hastigheten, som har retning, lik null.
 
@@ -145,11 +145,11 @@ Vi bruker $T = t + 273$ og $t_\text{F} = \tfrac{9}{5}\,t_\text{C} + 32$.
 
 **a)** $T = 37 + 273 = \underline{\underline{310\,\mathrm{K}}}$
 
-**b)** $t = 77 - 273 = \underline{\underline{-196\,^\circ\text{C}}}$
+**b)** $t = 77 - 273 = \underline{\underline{-196\,^\circ\mathrm{C}}}$
 
-**c)** $t = 5800 - 273 = 5527\,^\circ\text{C} \approx \underline{\underline{5.5\cdot 10^3\,^\circ\text{C}}}$. Når temperaturen er så høy, spiller det liten rolle om vi bruker kelvin eller celsius.
+**c)** $t = 5800 - 273 = 5527\,^\circ\mathrm{C} \approx \underline{\underline{5.5\cdot 10^3\,^\circ\mathrm{C}}}$. Når temperaturen er så høy, spiller det liten rolle om vi bruker kelvin eller celsius.
 
-**d)** Vi løser formelen for $t_\text{C}$: $$t_\text{C} = \frac{5}{9}\,(t_\text{F} - 32) = \frac{5}{9}\,(50 - 32) = \underline{\underline{10\,^\circ\text{C}}}$$
+**d)** Vi løser formelen for $t_\text{C}$: $$t_\text{C} = \frac{5}{9}\,(t_\text{F} - 32) = \frac{5}{9}\,(50 - 32) = \underline{\underline{10\,^\circ\mathrm{C}}}$$
 
 **e)** En grad celsius er like stor som én kelvin, så $$\Delta T = 15 - (-5) = \underline{\underline{20\,\mathrm{K}}}$$
 
@@ -166,7 +166,7 @@ En dag stiger temperaturen fra $10\,^\circ$C til $20\,^\circ$C. Hvor mange gange
 
 ::: {.losning}
 
-Den gjennomsnittlige kinetiske energien er proporsjonal med den absolutte temperaturen, $\bar{E}_\text{K} = \tfrac{3}{2}k_\text{B}T$. Vi må derfor regne i kelvin: $T_1 = 10 + 273 = 283\,\mathrm{K}$ og $T_2 = 20 + 273 = 293\,\mathrm{K}$. Da er $$\frac{\bar{E}_{\text{K},2}}{\bar{E}_{\text{K},1}} = \frac{\tfrac{3}{2}k_\text{B}T_2}{\tfrac{3}{2}k_\text{B}T_1} = \frac{T_2}{T_1} = \frac{293\,\mathrm{K}}{283\,\mathrm{K}} = 1.035 \approx \underline{\underline{1.04}}$$ Energien er altså bare omtrent $3.5\,\%$ større, selv om temperaturen i celsius er dobbelt så høy. Det er bare i kelvin det gir mening å si «dobbelt så høy temperatur».
+Den gjennomsnittlige kinetiske energien er proporsjonal med den absolutte temperaturen, $\bar{E}_\text{K} = \tfrac{3}{2}\mathrm{k_B}T$. Vi må derfor regne i kelvin: $T_1 = 10 + 273 = 283\,\mathrm{K}$ og $T_2 = 20 + 273 = 293\,\mathrm{K}$. Da er $$\frac{\bar{E}_{\text{K},2}}{\bar{E}_{\text{K},1}} = \frac{\tfrac{3}{2}\mathrm{k_B}T_2}{\tfrac{3}{2}\mathrm{k_B}T_1} = \frac{T_2}{T_1} = \frac{293\,\mathrm{K}}{283\,\mathrm{K}} = 1.035 \approx \underline{\underline{1.04}}$$ Energien er altså bare omtrent $3.5\,\%$ større, selv om temperaturen i celsius er dobbelt så høy. Det er bare i kelvin det gir mening å si «dobbelt så høy temperatur».
 
 :::
 
@@ -183,7 +183,7 @@ c)  Hvor mange prosent større er energien ved $100\,^\circ$C enn ved $0\,^\circ
 
 ::: {.losning}
 
-Vi bruker $\bar{E}_\text{K} = \tfrac{3}{2}k_\text{B}T$ med temperaturen i kelvin.
+Vi bruker $\bar{E}_\text{K} = \tfrac{3}{2}\mathrm{k_B}T$ med temperaturen i kelvin.
 
 **a)** $T = 0 + 273 = 273\,\mathrm{K}$: $$\bar{E}_\text{K} = \frac{3}{2}\cdot1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot273\,\mathrm{K} = \underline{\underline{5.65\cdot 10^{-21}\,\mathrm{J}}}$$
 
@@ -208,7 +208,7 @@ c)  Hvor mange ganger raskere beveger heliumatomene seg?
 
 ::: {.losning}
 
-**a)** Den gjennomsnittlige kinetiske energien avhenger bare av temperaturen, $\bar{E}_\text{K} = \tfrac{3}{2}k_\text{B}T$. Begge gassene har samme temperatur, og har derfor **like stor** gjennomsnittlig kinetisk energi: $$\bar{E}_\text{K} = \frac{3}{2}\cdot1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot300\,\mathrm{K} = 6.21\cdot 10^{-21}\,\mathrm{J}$$
+**a)** Den gjennomsnittlige kinetiske energien avhenger bare av temperaturen, $\bar{E}_\text{K} = \tfrac{3}{2}\mathrm{k_B}T$. Begge gassene har samme temperatur, og har derfor **like stor** gjennomsnittlig kinetisk energi: $$\bar{E}_\text{K} = \frac{3}{2}\cdot1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot300\,\mathrm{K} = 6.21\cdot 10^{-21}\,\mathrm{J}$$
 
 **b)** Vi løser $\bar{E}_\text{K} = \tfrac{1}{2}mv^2$ for $v$: $$v = \sqrt{\frac{2\bar{E}_\text{K}}{m}}$$ For helium: $$v_\text{He} = \sqrt{\frac{2\cdot6.21\cdot 10^{-21}\,\mathrm{J}}{6.64\cdot 10^{-27}\,\mathrm{kg}}} = \underline{\underline{1.37\cdot 10^{3}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ For oksygen: $$v_{\text{O}_2} = \sqrt{\frac{2\cdot6.21\cdot 10^{-21}\,\mathrm{J}}{5.31\cdot 10^{-26}\,\mathrm{kg}}} = \underline{\underline{484\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
 
