@@ -57,7 +57,11 @@ Hvor stort arbeid gjør en gass når den utvider seg? Se på en gass i en sylind
 
 ::: {.graa}
 $$
-W_\text{gass} = p\,\Delta V \qquad (\text{når } p \text{ er konstant})
+\begin{aligned}
+W_\text{gass} &= p\,\Delta V &&\text{arbeidet gassen gjør}\\
+W &= -p\,\Delta V &&\text{arbeidet gjort \emph{på} gassen (brukes i 1. lov)}
+\end{aligned}
+\qquad (\text{når } p \text{ er konstant})
 $$
 :::
 

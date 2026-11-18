@@ -131,7 +131,7 @@ For luft og andre gasser med to atomer i molekylet roterer molekylene også, og 
 | Prosess | Arbeid | 1. lov gir |
 |:---|:---|:---|
 | Isokor | $W = 0$ | $\Delta U = Q$: all varme går til å øke temperaturen |
-| Isobar | $W_\text{gass} = p\,\Delta V$ | $Q = \Delta U + p\,\Delta V$: varmen deles mellom $U$ og arbeid |
+| Isobar | $W = -p\,\Delta V$ | $\Delta U = Q - p\,\Delta V$: varmen deles mellom $U$ og arbeidet gassen gjør |
 | Isoterm | $W_\text{gass} = n\mathrm{R}T\ln(V_2/V_1)$ | $\Delta U = 0$, så $Q = W_\text{gass}$: all varme blir til arbeid |
 | Adiabatisk | arealet under kurven | $Q = 0$, så $\Delta U = W$: arbeid på gassen gjør den varmere |
 :::
