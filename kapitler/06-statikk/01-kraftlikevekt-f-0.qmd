@@ -146,16 +146,8 @@ b)  Finn snorkraften $S_2$ i den skrå snora. (Hint: se på kreftene i $y$-retni
 
 c)  Finn snorkraften $S_1$ i den horisontale snora.
 
-::: {.losning}
-
-**a)** Tre krefter virker på lampa: tyngdekraften $\vec{G}$ rett ned, snorkraften $\vec{S}_1$ horisontalt inn mot veggen, og snorkraften $\vec{S}_2$ skrått oppover langs snor 2, i vinkelen $\alpha$ med horisontalen. Vi velger $x$-aksen horisontalt bort fra veggen og $y$-aksen vertikalt oppover.
-
-**b)** Lampa er i ro, så $\sum F_y = 0$. Bare $S_2$ har en komponent i $y$-retning: $$S_2\sin\alpha - m\mathrm{g} = 0
-    \quad\implies\quad
-    S_2 = \frac{m\mathrm{g}}{\sin\alpha} = \frac{4.0\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}{\sin 40^\circ} = \underline{\underline{61\,\mathrm{N}}}$$
-
-**c)** $\sum F_x = 0$ gir at den horisontale komponenten av $S_2$ må oppveie $S_1$: $$S_1 = S_2\cos\alpha = 61.0\,\mathrm{N}\cdot\cos 40^\circ = \underline{\underline{47\,\mathrm{N}}}$$
-
+::: {.fasit}
+b) $61\,\mathrm{N}$ · c) $47\,\mathrm{N}$
 :::
 
 :::

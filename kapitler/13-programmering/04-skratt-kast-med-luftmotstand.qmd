@@ -129,23 +129,8 @@ Uten luftmotstand gir $45^\circ$ lengst kast. Hvorfor er den beste vinkelen lave
 <!-- tillegg: Claude -->
 Fortsett eksempelet over: Ta ett Euler-steg til med $\Delta t = 0.10\ \mathrm{s}$, fra $x = 2.0\ \mathrm{m}$, $y = 1.4\ \mathrm{m}$, $v_x = 19.8\ \mathrm{m/s}$ og $v_y = 12.9\ \mathrm{m/s}$. Bruk $k/m = 0.0140\ \mathrm{m^{-1}}$.
 
-::: {.losning}
-Farten er
-$$
-v = \sqrt{19.8^2 + 12.9^2}\ \mathrm{m/s} = 23.6\ \mathrm{m/s}
-$$
-Akselerasjonen:
-$$
-a_x = -0.0140\cdot23.6\cdot19.8\ \mathrm{m/s^2} = -6.5\ \mathrm{m/s^2}, \qquad a_y = -9.81\ \mathrm{m/s^2} - 0.0140\cdot23.6\cdot12.9\ \mathrm{m/s^2} = -14.1\ \mathrm{m/s^2}
-$$
-Nye verdier:
-$$
-x = 2.0\ \mathrm{m} + 19.8\cdot0.10\ \mathrm{m} = \underline{\underline{4.0\ \mathrm{m}}}, \qquad y = 1.4\ \mathrm{m} + 12.9\cdot0.10\ \mathrm{m} = \underline{\underline{2.7\ \mathrm{m}}}
-$$
-$$
-v_x = 19.8\ \mathrm{m/s} - 0.65\ \mathrm{m/s} = \underline{\underline{19.1\ \mathrm{m/s}}}, \qquad v_y = 12.9\ \mathrm{m/s} - 1.41\ \mathrm{m/s} = \underline{\underline{11.5\ \mathrm{m/s}}}
-$$
-Akselerasjonen er litt mindre enn i første steg, fordi farten og dermed luftmotstanden har avtatt.
+::: {.fasit}
+$4.0\ \mathrm{m}$ · $2.7\ \mathrm{m}$ · $19.1\ \mathrm{m/s}$ · $11.5\ \mathrm{m/s}$
 :::
 :::
 
@@ -153,12 +138,8 @@ Akselerasjonen er litt mindre enn i første steg, fordi farten og dermed luftmot
 <!-- tillegg: Claude -->
 Sett `k = 0` og `vinkel = 45` i programmet. Sammenlikn kastlengden med formelen $R = v_0^2\sin(2\alpha)/\mathrm{g}$. Hvorfor er det lurt å teste et program på et tilfelle der vi kjenner svaret?
 
-::: {.losning}
-Formelen gir
-$$
-R = \frac{(25.0\ \mathrm{m/s})^2\cdot\sin90^\circ}{9.81\ \mathrm{m/s^2}} = \underline{\underline{63.7\ \mathrm{m}}}
-$$
-Programmet gir det samme (avviket er noen centimeter, fordi det siste steget går litt under bakken). Stemmer programmet i et tilfelle vi kan regne ut for hånd, er det trolig at formlene og løkka er riktige. Da kan vi stole mer på svaret i tilfellene vi *ikke* kan regne ut for hånd.
+::: {.fasit}
+$63.7\ \mathrm{m}$
 :::
 :::
 
@@ -166,30 +147,8 @@ Programmet gir det samme (avviket er noen centimeter, fordi det siste steget gå
 <!-- tillegg: Claude -->
 Lag en løkke som prøver alle hele vinkler fra $20^\circ$ til $50^\circ$ for fotballen med luftmotstand, og finn vinkelen som gir lengst kast.
 
-::: {.losning}
-Vi gjør `vinkel` til en parameter i funksjonen og lagrer kastlengden for hver vinkel:
-
-```{.python .kjor}
-import numpy as np
-g, m, k, v0, dt = 9.81, 0.43, 0.0060, 25.0, 0.001
-
-def kastlengde(vinkel):
-    x, y = 0.0, 0.0
-    vx = v0 * np.cos(np.radians(vinkel))
-    vy = v0 * np.sin(np.radians(vinkel))
-    while y >= 0:
-        v = np.sqrt(vx**2 + vy**2)
-        x, y = x + vx * dt, y + vy * dt
-        vx, vy = vx - k / m * v * vx * dt, vy + (-g - k / m * v * vy) * dt
-    return x
-
-vinkler = range(20, 51)
-lengder = [kastlengde(a) for a in vinkler]
-beste = vinkler[int(np.argmax(lengder))]
-print(f"Beste vinkel: {beste} grader, kastlengde {max(lengder):.1f} m")
-```
-
-Den beste vinkelen er omtrent $\underline{\underline{41^\circ}}$, med kastlengden $39.5\ \mathrm{m}$. Den er lavere enn $45^\circ$: En lavere bane er kortere tid i lufta, og da rekker luftmotstanden å bremse mindre.
+::: {.fasit}
+$41^\circ$
 :::
 :::
 
@@ -203,19 +162,8 @@ b) Ballen slås med $30\ \mathrm{m/s}$, $45^\circ$ over vannrett. Endre programm
 
 c) Beskriv formen på banen.
 
-::: {.losning}
-**a)** Ved terminalfarten er $kv_t^2 = m\mathrm{g}$:
-$$
-k = \frac{m\mathrm{g}}{v_t^2} = \frac{0.0050\ \mathrm{kg}\cdot9.81\ \mathrm{m/s^2}}{(6.8\ \mathrm{m/s})^2} = \underline{\underline{1.1\cdot10^{-3}\ \mathrm{kg/m}}}
-$$
-
-**b)** Med `m = 0.0050`, `k = 0.00106`, `v0 = 30`, `vinkel = 45` (og gjerne `dt = 0.0005`, fordi akselerasjonen er stor i starten) gir programmet en kastlengde på omtrent $\underline{\underline{8.9\ \mathrm{m}}}$. Uten luftmotstand ville den vært
-$$
-R = \frac{(30\ \mathrm{m/s})^2}{9.81\ \mathrm{m/s^2}} = 92\ \mathrm{m}
-$$
-Luftmotstanden gjør kastet ti ganger kortere.
-
-**c)** Banen er sterkt usymmetrisk. Ballen går nesten rett fram og opp i starten, mister så nesten all vannrett fart og faller til slutt nesten loddrett ned med en fart nær terminalfarten. Det er derfor et langt slag i badminton lander så bratt.
+::: {.fasit}
+a) $1.1\cdot10^{-3}\ \mathrm{kg/m}$ · b) $8.9\ \mathrm{m}$
 :::
 :::
 
@@ -227,20 +175,8 @@ a) Skriv opp $a_x$ og $a_y$ med motvind.
 
 b) Endre programmet og finn kastlengden for fotballen ($25.0\ \mathrm{m/s}$, $35^\circ$) i motvind med $w = 5.0\ \mathrm{m/s}$.
 
-::: {.losning}
-**a)** Med den relative farten $\vec u = [v_x + w,\ v_y]$ og $u = \sqrt{(v_x + w)^2 + v_y^2}$ peker luftmotstanden motsatt av $\vec u$:
-$$
-a_x = -\frac km\,u\,(v_x + w), \qquad a_y = -\mathrm{g} - \frac km\,u\,v_y
-$$
-Posisjonen oppdateres fortsatt med ballens egen fart $v_x$ og $v_y$.
-
-**b)** I løkka byttes linjene for akselerasjonen ut med
-```python
-u = np.sqrt((vx + w)**2 + vy**2)
-ax = -k / m * u * (vx + w)
-ay = -g - k / m * u * vy
-```
-Med `w = 5.0` gir programmet en kastlengde på omtrent $\underline{\underline{33\ \mathrm{m}}}$, mot $38.7\ \mathrm{m}$ i stille luft.
+::: {.fasit}
+$33\ \mathrm{m}$
 :::
 :::
 

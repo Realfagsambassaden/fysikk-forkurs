@@ -42,14 +42,8 @@ b)  Hvor stor er den gjennomsnittlige effekten hennes?
 
 c)  En vanlig vannkoker har effekt på omtrent $2000\,\mathrm{W}$. Sammenlikn med svaret i b).
 
-::: {.losning}
-
-**a)** Arbeidet mot tyngdekraften er økningen i potensiell energi: $$W = m\mathrm{g}h = 70\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot9.0\,\mathrm{m} = \underline{\underline{6.2\,\mathrm{kJ}}}$$
-
-**b)** $$P = \frac{W}{t} = \frac{6180\,\mathrm{J}}{12\,\mathrm{s}} = 515\,\mathrm{W} \approx \underline{\underline{5.2\cdot 10^{2}\,\mathrm{W}}}$$
-
-**c)** Effekten hennes er omtrent en firedel av effekten til en vannkoker. Et menneske kan levere en slik effekt bare i korte perioder.
-
+::: {.fasit}
+a) $6.2\,\mathrm{kJ}$ · b) $5.2\cdot 10^{2}\,\mathrm{W}$
 :::
 
 :::
@@ -65,14 +59,8 @@ b)  Hvor stor effekt må motoren levere til hjulene?
 
 c)  Hvor mye energi går med til å holde farten konstant i én time?
 
-::: {.losning}
-
-**a)** Farten er konstant, så akselerasjonen er null. Newtons 1. lov sier at kraftsummen da må være null. Kraften fremover må derfor være like stor som motstanden: **$F = 600\,\mathrm{N}$**.
-
-**b)** Vi bruker $P = F\cdot v$ med $v = 90\,\mathrm{km}\,\mathrm{h}^{-1} = 25\,\mathrm{m}\,\mathrm{s}^{-1}$: $$P = 600\,\mathrm{N}\cdot25\,\mathrm{m}\,\mathrm{s}^{-1} = \underline{\underline{15\,\mathrm{kW}}}$$
-
-**c)** $$E = P\cdot t = 15000\,\mathrm{W}\cdot3600\,\mathrm{s} = \underline{\underline{54\,\mathrm{MJ}}}$$
-
+::: {.fasit}
+b) $15\,\mathrm{kW}$ · c) $54\,\mathrm{MJ}$
 :::
 
 :::

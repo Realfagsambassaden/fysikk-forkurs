@@ -153,16 +153,8 @@ b)  Finn normalkraften og friksjonskraften fra gulvet.
 
 *Hint: Velg dreiepunkt i bunnen av stigen — da faller normalkraften og friksjonskraften fra gulvet ut av momentligningen.*
 
-::: {.losning}
-
-**Krefter:** normalkraft fra veggen $N_v$ (horisontal, fordi veggen er glatt), normalkraft fra gulvet $N_g$ (vertikal), friksjon fra gulvet $f$ (horisontal), tyngdekraften på stigen $m\mathrm{g}$ (angriper midt på stigen) og tyngdekraften på personen $M\mathrm{g}$ (angriper $d = 2.5\,\mathrm{m}$ opp langs stigen).
-
-**a)** Vi tar momenter om bunnen av stigen, slik at $N_g$ og $f$ faller ut. Momentarmen til en vertikal kraft er den horisontale avstanden, og momentarmen til en horisontal kraft er den vertikale avstanden. Med positiv dreieretning mot klokken: $$N_v\cdot L\sin\theta - m\mathrm{g}\cdot\frac{L}{2}\cos\theta - M\mathrm{g}\cdot d\cos\theta = 0$$ Vi løser for $N_v$: $$N_v = \left(\frac{m}{2} + \frac{Md}{L}\right)\mathrm{g}\,\frac{\cos\theta}{\sin\theta}
-    = \left(7.5\,\mathrm{kg} + 43.75\,\mathrm{kg}\right)\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot\frac{\cos 65^\circ}{\sin 65^\circ}
-    = 234\,\mathrm{N} \approx \underline{\underline{2.3\cdot 10^{2}\,\mathrm{N}}}$$
-
-**b)** Kraftlikevekt vertikalt: $$N_g = (m + M)\,\mathrm{g} = 85\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 834\,\mathrm{N} \approx \underline{\underline{8.3\cdot 10^{2}\,\mathrm{N}}}$$ Kraftlikevekt horisontalt: friksjonen må oppveie normalkraften fra veggen, $$f = N_v = 234\,\mathrm{N} \approx \underline{\underline{2.3\cdot 10^{2}\,\mathrm{N}}}$$
-
+::: {.fasit}
+a) $2.3\cdot 10^{2}\,\mathrm{N}$ · b) $8.3\cdot 10^{2}\,\mathrm{N}$ · b) $2.3\cdot 10^{2}\,\mathrm{N}$
 :::
 
 :::

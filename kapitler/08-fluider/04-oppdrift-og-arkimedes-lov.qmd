@@ -199,17 +199,8 @@ c)  Finn volumet til kronen.
 
 d)  Finn massetettheten til kronen. Er den laget av rent gull?
 
-::: {.losning}
-
-**a)** Tre krefter virker på kronen: tyngdekraften $\vec{G}$ nedover, oppdriftskraften $\vec{F}_{\textrm{B}}$ oppover og kraften $\vec{S}$ fra kraftmåleren oppover. Det er $S$ som kraftmåleren viser.
-
-<!-- tillegg: Claude: notasjon (gjeldende siffer: 0.660 N → 0.66 N, V og ρ med to siffer) -->
-**b)** Kronen henger i ro, så $\sum F = 0$: $$S + F_{\textrm{B}} - G = 0 \quad\implies\quad F_{\textrm{B}} = G - S$$ Tyngdekraften er $G = m\mathrm{g} = 1.00\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 9.81\,\mathrm{N}$, så $$F_{\textrm{B}} = 9.81\,\mathrm{N} - 9.15\,\mathrm{N} = \underline{\underline{0.66\,\mathrm{N}}}$$ Ved subtraksjon får svaret like mange desimaler som verdien med færrest desimaler, her to. Svaret har derfor bare to gjeldende siffer.
-
-**c)** Kronen er helt under vann, så det fortrengte volumet er lik volumet til kronen. Fra $F_{\textrm{B}} = \rho_v\mathrm{g}V$ (se *Oppdriftskraft*): $$V = \frac{F_{\textrm{B}}}{\rho_v\mathrm{g}} = \frac{0.66\,\mathrm{N}}{1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = 6.728\cdot 10^{-5}\,\mathrm{m}^{3} \approx \underline{\underline{6.7\cdot 10^{-5}\,\mathrm{m}^{3}}}$$
-
-**d)** Massetettheten er $$\rho = \frac{m}{V} = \frac{1.00\,\mathrm{kg}}{6.728\cdot 10^{-5}\,\mathrm{m}^{3}} = 1.486\cdot 10^{4}\,\mathrm{kg}\,\mathrm{m}^{-3} \approx \underline{\underline{1.5\cdot 10^{4}\,\mathrm{kg}\,\mathrm{m}^{-3}}}$$ Rent gull har $\rho = 19.3\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}$. Kronen har lavere tetthet, så den er **ikke laget av rent gull**. Den er trolig blandet med et lettere metall, for eksempel sølv. En krone av rent gull ville hatt mindre volum, fått mindre oppdrift, og kraftmåleren ville vist omtrent $9.30\,\mathrm{N}$.
-
+::: {.fasit}
+b) $0.66\,\mathrm{N}$ · c) $6.7\cdot 10^{-5}\,\mathrm{m}^{3}$ · d) $1.5\cdot 10^{4}\,\mathrm{kg}\,\mathrm{m}^{-3}$
 :::
 
 :::
@@ -227,18 +218,8 @@ c)  Hvor dypt stikker klossen ned i vannet?
 
 d)  Hvor stor masse kan du legge oppå klossen før den synker helt ned under vannflaten?
 
-::: {.losning}
-
-**a)** Volumet til klossen er $$V = 0.20\,\mathrm{m}\cdot0.10\,\mathrm{m}\cdot0.10\,\mathrm{m} = 2.0\cdot 10^{-3}\,\mathrm{m}^{3},$$ og massen er $$m = \rho_L V = 600\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot2.0\cdot 10^{-3}\,\mathrm{m}^{3} = \underline{\underline{1.2\,\mathrm{kg}}}$$
-
-**b)** Klossen flyter i ro, så oppdriftskraften er lik tyngdekraften, $F_{\textrm{B}} = G$: $$\rho_v\mathrm{g}V_\text{f} = \rho_L\mathrm{g}V
-    \quad\implies\quad
-    \frac{V_\text{f}}{V} = \frac{\rho_L}{\rho_v} = \frac{600\,\mathrm{kg}\,\mathrm{m}^{-3}}{1000\,\mathrm{kg}\,\mathrm{m}^{-3}} = 0.60 = \underline{\underline{60\,\%}}$$ (Dette er samme fremgangsmåte som i eksempelet *Toppen av isfjellet*.)
-
-**c)** Klossen ligger med den største flaten ned, så høyden er $10\,\mathrm{cm}$. Siden 60 % av volumet er under vann, og grunnflaten er den samme hele veien opp, er også 60 % av høyden under vann: $$h_\text{f} = 0.60\cdot10\,\mathrm{cm} = \underline{\underline{6.0\,\mathrm{cm}}}$$
-
-**d)** Den største oppdriftskraften klossen kan få, er når hele klossen er under vann, $V_\text{f} = V$: $$F_{\textrm{B},\text{maks}} = \rho_v\mathrm{g}V = 1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot2.0\cdot 10^{-3}\,\mathrm{m}^{3} = 19.6\,\mathrm{N}$$ Denne kraften kan bære en total masse på $$m_\text{total} = \frac{F_{\textrm{B},\text{maks}}}{\mathrm{g}} = \frac{19.6\,\mathrm{N}}{9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = 2.0\,\mathrm{kg}$$ Klossen selv har masse $1.2\,\mathrm{kg}$, så vi kan legge på $$\Delta m = 2.0\,\mathrm{kg} - 1.2\,\mathrm{kg} = \underline{\underline{0.80\,\mathrm{kg}}}$$
-
+::: {.fasit}
+a) $1.2\,\mathrm{kg}$ · b) $60\,\%$ · c) $6.0\,\mathrm{cm}$ · d) $0.80\,\mathrm{kg}$
 :::
 
 :::

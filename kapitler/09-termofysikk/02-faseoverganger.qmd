@@ -67,16 +67,8 @@ c)  Hvorfor er linjen for is brattere enn linjen for vann?
 
 d)  Omtrent hvor mye energi trengs totalt for å gjøre isen ved $-20\,^\circ$C om til damp ved $100\,^\circ$C?
 
-::: {.losning}
-
-**a)** Mens isen smelter, er temperaturen **konstant, $0\,^\circ$C**. Det er det horisontale platået i figuren. Energien som går med, er **$334\,\mathrm{kJ}$**. Energien brukes til å bryte bindingene i iskrystallen, ikke til å gi molekylene større fart.
-
-**b)** Linjen for vann starter ved omtrent $376\,\mathrm{kJ}$ og slutter ved omtrent $796\,\mathrm{kJ}$. Energien er differansen: $$E \approx 796\,\mathrm{kJ} - 376\,\mathrm{kJ} = \underline{\underline{4.2\cdot 10^{2}\,\mathrm{kJ}}}$$
-
-**c)** Is har mindre spesifikk varmekapasitet enn vann (omtrent halvparten). Det trengs derfor mindre energi for å øke temperaturen til isen med én grad, og temperaturen stiger raskere per kilojoule. Linjen blir brattere.
-
-**d)** Fordampingen er ferdig der det øverste platået slutter, ved omtrent $3055\,\mathrm{kJ}$. Totalt trengs det altså omtrent **$3.1\,\mathrm{MJ}$**. Legg merke til at fordampingen alene står for $2259\,\mathrm{kJ}$, altså mer enn to tredjedeler av energien.
-
+::: {.fasit}
+$4.2\cdot 10^{2}\,\mathrm{kJ}$
 :::
 
 :::
@@ -90,19 +82,6 @@ b)  Hvorfor føles det kaldt å komme opp av vannet på en dag med vind, selv om
 
 c)  Ett gram vanndamp på $100\,^\circ$C og ett gram vann på $100\,^\circ$C treffer huden, som holder omtrent $37\,^\circ$C. Hvilket av dem gir mest energi til huden? Bruk figur .
 
-::: {.losning}
-
-**a)** Fordamping krever energi (fordampingsvarme). Energien tas fra huden og kroppen, som avgir varme til svetten. Kroppen blir dermed **avkjølt**. Det er derfor vi svetter når vi er varme.
-
-**b)** Når du er våt, fordamper vannet fra huden, og fordampingen tar energi fra kroppen. Vinden fjerner den fuktige lufta like ved huden, slik at vannet fordamper *raskere*. Da tas det mer energi fra kroppen per sekund, og du fryser, selv om lufta er varm.
-
-**c)** Vi sammenligner per kilogram og leser av figuren.
-
-*Vann på $100\,^\circ$C* avgir bare varme mens det kjøles ned til $37\,^\circ$C. Fra figuren trengs det omtrent $420\,\mathrm{kJ}$ for å varme $1\,\mathrm{kg}$ vann $100\,\mathrm{K}$. Avkjøling på $63\,\mathrm{K}$ gir derfor omtrent $$\frac{63}{100}\cdot420\,\mathrm{kJ} \approx 2.6\cdot 10^{2}\,\mathrm{kJ}$$ *Damp på $100\,^\circ$C* kondenserer først til vann og avgir da like mye energi som det trengs for å fordampe det, $2259\,\mathrm{kJ}$. Deretter kjøles vannet ned som over. Til sammen er det omtrent $$2259\,\mathrm{kJ} + 2.6\cdot 10^{2}\,\mathrm{kJ} \approx 2.5\cdot 10^{3}\,\mathrm{kJ}$$ Per gram gir altså **dampen nesten ti ganger så mye energi** til huden som vannet.
-
-*Merk:* Svaret gjelder for like stor *masse*. Vanndamp har mye mindre massetetthet enn vann. En liter vanndamp har bare en masse på omtrent $0.6\,\mathrm{g}$, mens en liter vann har massen $1\,\mathrm{kg}$. En liter kokende vann over hånda er derfor langt verre enn en liter damp. Men en dampstråle fra en kjele eller en dampkoker fortsetter å kondensere på huden så lenge den treffer, og da blir det fort mye energi.
-
-:::
 
 :::
 

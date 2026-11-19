@@ -117,20 +117,14 @@ Uten luftmotstand ville hopperen nådd $56\ \mathrm{m/s}$ etter under $6\ \mathr
 <!-- tillegg: Claude -->
 Kjør programmet for fritt fall med `dt = 0.1`, `0.01` og `0.001`. Hvor stor er feilen i posisjonen etter $3\ \mathrm{s}$ i hvert tilfelle? Hva skjer med feilen når steget blir ti ganger mindre?
 
-::: {.losning}
-Det eksakte svaret er $44.1\ \mathrm{m}$. Feilen blir omtrent $1.5\ \mathrm{m}$, $0.15\ \mathrm{m}$ og $0.015\ \mathrm{m}$: Ti ganger mindre steg gir **ti ganger mindre feil**. Det er typisk for Eulers metode.
-:::
 :::
 
 ::: {.oppgave tittel="Lettere hopper"}
 <!-- tillegg: Claude -->
 Endre massen i fallskjermprogrammet til $50\ \mathrm{kg}$. Hva blir terminalfarten? Bruk både formelen og programmet.
 
-::: {.losning}
-$$
-v_t = \sqrt{\frac{50\cdot9.81}{0.25}}\ \mathrm{m/s} = \underline{\underline{44\ \mathrm{m/s}}}
-$$
-Programmet gir samme verdi etter lang nok tid. En lettere hopper faller saktere – i motsetning til fritt fall uten luft.
+::: {.fasit}
+$44\ \mathrm{m/s}$
 :::
 :::
 
@@ -138,21 +132,8 @@ Programmet gir samme verdi etter lang nok tid. En lettere hopper faller saktere 
 <!-- tillegg: Claude -->
 Etter $20\ \mathrm{s}$ utløses fallskjermen, og $k$ øker til $30\ \mathrm{kg/m}$. Endre programmet slik at `k` avhenger av tiden (bruk `if t < 20:`), og plott farten fram til $t = 30\ \mathrm{s}$. Hva blir den nye terminalfarten? Tips: Med stor $k$ må `dt` være liten, for eksempel $0.001\ \mathrm{s}$.
 
-::: {.losning}
-```{.python .kjor}
-import matplotlib.pyplot as plt
-g, m, dt = 9.81, 80.0, 0.001
-t, v = 0.0, 0.0
-T, V = [t], [v]
-while t < 30:
-    k = 0.25 if t < 20 else 30.0
-    v = v + (g - k/m*v**2)*dt
-    t = t + dt
-    T.append(t); V.append(v)
-plt.plot(T, V); plt.xlabel("$t$ (s)"); plt.ylabel("$v$ (m/s)"); plt.grid(); plt.show()
-print(f"fart til slutt: {v:.1f} m/s")
-```
-Den nye terminalfarten er $v_t = \sqrt{80\cdot9.81/30}\ \mathrm{m/s} = \underline{\underline{5.1\ \mathrm{m/s}}}$ – en trygg landing.
+::: {.fasit}
+$5.1\ \mathrm{m/s}$
 :::
 :::
 
@@ -162,26 +143,6 @@ En kloss med masse $0.50\ \mathrm{kg}$ henger i en fjær med fjærkonstant $k = 
 
 Tips: Vanlig Euler gir en svingning som vokser. Bytt rekkefølgen – oppdater farten **før** posisjonen, og bruk den nye farten (Euler–Cromer).
 
-::: {.losning}
-```{.python .kjor}
-import numpy as np
-import matplotlib.pyplot as plt
-m, k, dt = 0.50, 20.0, 0.01
-t, x, v = 0.0, 0.10, 0.0
-T, X = [t], [x]
-while t < 5:
-    a = -k/m*x
-    v = v + a*dt          # først farten ...
-    x = x + v*dt          # ... så posisjonen med den nye farten
-    t = t + dt
-    T.append(t); X.append(x)
-T = np.array(T)
-plt.plot(T, X, label="Euler–Cromer")
-plt.plot(T, 0.10*np.cos(np.sqrt(k/m)*T), "--", label="eksakt")
-plt.xlabel("$t$ (s)"); plt.ylabel("$x$ (m)"); plt.legend(); plt.grid(); plt.show()
-```
-Med $\omega = \sqrt{20/0.50} = 6.3\ \mathrm{s^{-1}}$ er perioden $T = 2\pi/\omega = 0.99\ \mathrm{s}$, så det blir omtrent fem svingninger. Kurvene ligger nesten oppå hverandre.
-:::
 :::
 
 ::::

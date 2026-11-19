@@ -147,13 +147,8 @@ a)  En sten faller utfor preikestolen. Hva er akselerasjonen til steinen (se bor
 
 b)  En sten kastes rett oppover, og faller rett ned igjen. Hva er akselerasjonen til steinen (i) på vei opp, (ii) på toppen og (ii) på vei ned? Tegn figur og forklar kort med ord.
 
-::: {.losning}
-
-**a)** Når vi ser bort fra luftmotstand, er den eneste kraften som virker på steinen tyngdekraften. Alle legemer i fritt fall har da samme akselerasjon, tyngdens akselerasjon (se *Fritt fall som eksempel*): $$a = \underline{\underline{\mathrm g = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}}}\ \text{(rettet nedover)}$$
-
-**b)** Så lenge luftmotstand ses bort fra, er steinen i fritt fall under hele kastet – både på vei opp, på toppen og på vei ned. Akselerasjonen er derfor **konstant lik $\mathrm g$, rettet nedover, i alle tre tilfeller**. Det som endrer seg er *farten*, ikke akselerasjonen:
-
-::: center
+::: {.fasit}
+$\mathrm g = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}$
 :::
 
 I alle tre tilfeller peker $\vec a$ nedover med samme størrelse $\mathrm g$ – selv på toppen, der farten momentant er null, er akselerasjonen fortsatt $\mathrm g$ nedover (det er jo nettopp denne akselerasjonen som gjør at steinen begynner å falle igjen).
@@ -171,12 +166,8 @@ a)  Finn tiden det tar før ballen treffer bakken.
 
 b)  Finn farten rett før ballen treffer bakken.
 
-::: {.losning}
-
-**a)** Ballen slippes fra ro, $v_0=0$, og faller med konstant akselerasjon $\mathrm g$. Vi bruker posisjonslikningen (Likning 2 i avsnitten) med $s_0=0$ og $v_0=0$: $$h = \tfrac{1}{2}\mathrm g t^2 \quad\Rightarrow\quad t = \sqrt{\frac{2h}{\mathrm g}} = \sqrt{\frac{2\cdot45\,\mathrm{m}}{9.81\,\mathrm{m}\,\mathrm{s}^{-2}}} = 3.03\,\mathrm{s} \approx \underline{\underline{3.0\,\mathrm{s}}}$$
-
-**b)** Vi bruker hastighetslikningen $v=v_0+\mathrm g t$ med $v_0=0$: $$v = \mathrm g\cdot t = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot3.03\,\mathrm{s} = 29.7\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{3.0\cdot 10^{1}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
-
+::: {.fasit}
+a) $3.0\,\mathrm{s}$ · b) $3.0\cdot 10^{1}\,\mathrm{m}\,\mathrm{s}^{-1}$
 :::
 
 :::
@@ -280,16 +271,8 @@ b)  Finn den horisontale avstanden fra klippen til der ballen lander.
 
 c)  Finn farten (størrelsen av hastighetsvektoren) rett før ballen treffer bakken.
 
-::: {.losning}
-
-Ballens bane er krumlinjet, så vi dekomponerer bevegelsen i en horisontal ($x$) og vertikal ($y$) retning, slik som i eksempelet *Rallybil kjører utfor* (figuren). Vi lar $x_0=0$ ved klippekanten og $y_0=h=5.0\,\mathrm{m}$ være høyden over bakken der ballen lander ($y=0$). Ballen kastes horisontalt, så $$\vec v_0 = [v_{0x}, v_{0y}] = [10\,\mathrm{m}\,\mathrm{s}^{-1},\,0], \qquad \vec a = [a_x,a_y] = [0,\,-\mathrm g].$$ Komponentvis gir den generelle posisjonslikningen $\vec s(t) = \vec s_0+\vec v_0 t+\tfrac12\vec a t^2$: $$x(t) = v_0 t, \qquad y(t) = h - \tfrac12 \mathrm g t^2.$$
-
-**a)** Ballen treffer bakken når $y(t)=0$: $$0 = h - \tfrac12\mathrm g t^2 \quad\Rightarrow\quad t = \sqrt{\frac{2h}{\mathrm g}} = \sqrt{\frac{2\cdot5.0\,\mathrm{m}}{9.81\,\mathrm{m}\,\mathrm{s}^{-2}}} = 1.01\,\mathrm{s} \approx \underline{\underline{1.0\,\mathrm{s}}}$$
-
-**b)** Den horisontale avstanden er $x(t) = v_0 t$: $$x = 10\,\mathrm{m}\,\mathrm{s}^{-1}\cdot1.01\,\mathrm{s} = 10.1\,\mathrm{m} \approx \underline{\underline{10\,\mathrm{m}}}$$
-
-**c)** Hastighetskomponentene idet ballen treffer bakken er $v_x=v_{0x}=10\,\mathrm{m}\,\mathrm{s}^{-1}$ (uendret, ingen akselerasjon i $x$-retning) og $$v_y = -\mathrm g t = -9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot1.01\,\mathrm{s} = -9.90\,\mathrm{m}\,\mathrm{s}^{-1}.$$ Farten (størrelsen av hastighetsvektoren) blir $$v = \sqrt{v_x^2+v_y^2} = \sqrt{10^2+9.90^2} = 14.1\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{14\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
-
+::: {.fasit}
+a) $1.0\,\mathrm{s}$ · b) $10\,\mathrm{m}$ · c) $14\,\mathrm{m}\,\mathrm{s}^{-1}$
 :::
 
 :::
@@ -309,18 +292,8 @@ c)  Bruk uttrykket for $t$ fra forrige punkt til å finne et uttrykk for hvor la
 
 d)  Skriv sluttposisjonen som en vektor $[x,\,y]$.
 
-::: {.losning}
-
-Dette er samme type dekomponering som i eksempelet *Straffespark* (figuren), men nå helt generelt og symbolsk.
-
-**a)** Prosjektilet starter i origo, $\vec s_0=[x_0,y_0]=[0,0]$, med utgangsfart dekomponert som $\vec v_0=[v_0\cos\theta,\,v_0\sin\theta]$, og akselerasjon $\vec a=[0,-\mathrm g]$ (kun tyngdekraften). Fra posisjonslikningen $\vec s(t)=\vec s_0+\vec v_0 t+\tfrac12\vec a t^2$, komponentvis: $$x(t) = v_0\cos\theta\cdot t, \qquad y(t) = v_0\sin\theta\cdot t - \tfrac12\mathrm g t^2.$$
-
-**b)** Prosjektilet lander når $y(t)=0$: $$0 = v_0\sin\theta\cdot t - \tfrac12\mathrm g t^2 = t\left(v_0\sin\theta - \tfrac12\mathrm g t\right)$$ Dette gir enten $t=0$ (utgangspunktet) eller $$\underline{\underline{t = \frac{2v_0\sin\theta}{\mathrm g}}}$$ som er tiden prosjektilet er i lufta.
-
-**c)** Vi setter inn $t$ fra forrige punkt i uttrykket for $x(t)$: $$x(t) = v_0\cos\theta\cdot\frac{2v_0\sin\theta}{\mathrm g} = \frac{2v_0^2\sin\theta\cos\theta}{\mathrm g}$$ Ved å bruke den dobble vinkelen $\sin(2\theta)=2\sin\theta\cos\theta$ kan dette skrives kompakt som $$\underline{\underline{x = \frac{v_0^2\sin(2\theta)}{\mathrm g}}}$$
-
-**d)** Siden prosjektilet lander tilbake på utgangshøyden, $y=0$, blir sluttposisjonen $$\underline{\underline{[x,\,y] = \left[\dfrac{v_0^2\sin(2\theta)}{\mathrm g},\ 0\right]}}$$
-
+::: {.fasit}
+b) $t = \frac{2v_0\sin\theta}{\mathrm g}$ · c) $x = \frac{v_0^2\sin(2\theta)}{\mathrm g}$ · d) $[x,\,y] = \left[\dfrac{v_0^2\sin(2\theta)}{\mathrm g},\ 0\right]$
 :::
 
 :::

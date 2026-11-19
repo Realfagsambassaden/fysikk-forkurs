@@ -205,13 +205,8 @@ a)  Har glasstaven fått eller mistet elektroner? Hvor mange?
 
 b)  Hvilken ladning har silken fått?
 
-::: {.losning}
-**a)** Staven er positiv, så den har **mistet** elektroner. Protonene flytter seg ikke.
-$$
-N = \frac{q}{\mathrm{e}} = \frac{12\cdot10^{-9}\ \mathrm{C}}{1.602\cdot10^{-19}\ \mathrm{C}} = \underline{\underline{7.5\cdot10^{10}}}
-$$
-
-**b)** Ladningen er bevart. Elektronene har gått over til silken, som får ladningen $\underline{\underline{-12\ \mathrm{nC}}}$.
+::: {.fasit}
+a) $7.5\cdot10^{10}$ · b) $-12\ \mathrm{nC}$
 :::
 :::
 
@@ -227,23 +222,8 @@ c)  begge ladningene dobles, og avstanden dobles?
 
 Løs oppgaven uten å regne ut ladningene.
 
-::: {.losning}
-Kraften er proporsjonal med $|q_1||q_2|$ og omvendt proporsjonal med $r^2$.
-
-**a)** Dobbel avstand gir $2^2 = 4$ ganger mindre kraft:
-$$
-F = \frac{0.80\ \mathrm{N}}{4} = \underline{\underline{0.20\ \mathrm{N}}}
-$$
-
-**b)** Halv avstand gir $2^2 = 4$ ganger større kraft:
-$$
-F = 4\cdot0.80\ \mathrm{N} = \underline{\underline{3.2\ \mathrm{N}}}
-$$
-
-**c)** Produktet av ladningene blir $2\cdot2 = 4$ ganger større, og $r^2$ blir også 4 ganger større. Virkningene opphever hverandre:
-$$
-F = 0.80\ \mathrm{N}\cdot\frac{4}{4} = \underline{\underline{0.80\ \mathrm{N}}}
-$$
+::: {.fasit}
+a) $0.20\ \mathrm{N}$ · b) $3.2\ \mathrm{N}$ · c) $0.80\ \mathrm{N}$
 :::
 :::
 
@@ -255,13 +235,8 @@ a)  Hvor stor er ladningen på hver kule?
 
 b)  Kan du avgjøre om ladningene er positive eller negative?
 
-::: {.losning}
-**a)** Med $|q_1| = |q_2| = q$ gir Coulombs lov $F = \mathrm{k_e}\,q^2/r^2$. Vi løser for $q$:
-$$
-q = r\sqrt{\frac{F}{\mathrm{k_e}}} = 0.20\ \mathrm{m}\cdot\sqrt{\frac{0.90\ \mathrm{N}}{8.99\cdot10^{9}\ \mathrm{N\,m^2/C^2}}} = 2.0\cdot10^{-6}\ \mathrm{C} = \underline{\underline{2.0\ \mathrm{\mu C}}}
-$$
-
-**b)** Nei. Kraften er frastøtende, så ladningene har **likt fortegn**, men to positive og to negative ladninger gir nøyaktig samme kraft.
+::: {.fasit}
+$2.0\ \mathrm{\mu C}$
 :::
 :::
 
@@ -275,26 +250,8 @@ b)  Finn punktet.
 
 c)  Spiller det noen rolle om $q$ er positiv eller negativ?
 
-::: {.losning}
-**a)** Utenfor de to ladningene ville begge kreftene peke samme vei (begge skyver bort, eller begge trekker mot), så de kan ikke oppheve hverandre. Mellom dem peker de motsatt vei.
-
-**b)** La punktet ligge i avstanden $x$ fra $q_1$. Da er avstanden til $q_2$ lik $0.30\ \mathrm{m} - x$. Kreftene skal være like store:
-$$
-\mathrm{k_e}\frac{|q_1|\,|q|}{x^2} = \mathrm{k_e}\frac{|q_2|\,|q|}{(0.30\ \mathrm{m} - x)^2}
-\quad\implies\quad
-\frac{4.0}{x^2} = \frac{1.0}{(0.30\ \mathrm{m}-x)^2}
-$$
-Vi tar kvadratroten av begge sider (alle størrelser er positive):
-$$
-\frac{2.0}{x} = \frac{1.0}{0.30\ \mathrm{m} - x}
-\quad\implies\quad
-0.60\ \mathrm{m} - 2.0\,x = x
-\quad\implies\quad
-x = \underline{\underline{0.20\ \mathrm{m}}}
-$$
-Det er rimelig at punktet ligger nærmest den minste ladningen: Den må være nær for å kunne veie opp for den store.
-
-**c)** Nei. Både $\mathrm{k_e}$ og $|q|$ forkortes bort. Er $q$ negativ, snur begge kreftene, og de opphever hverandre fortsatt.
+::: {.fasit}
+$0.20\ \mathrm{m}$
 :::
 :::
 
@@ -308,28 +265,8 @@ b)  Vis at $F_e = m\mathrm{g}\tan 10^\circ$, og regn ut $F_e$.
 
 c)  Finn avstanden mellom kulene og ladningen på hver kule.
 
-::: {.losning}
-**a)** Tyngden $G$ peker rett ned, den elektriske kraften $F_e$ peker vannrett bort fra den andre kula, og snorkraften $S$ peker langs tråden opp mot festepunktet.
-
-**b)** Kula er i ro, så summen av kreftene er null. Vi dekomponerer snorkraften:
-
-- Loddrett: $S\cos10^\circ = m\mathrm{g}$
-- Vannrett: $S\sin10^\circ = F_e$
-
-Deler vi den andre likningen på den første, får vi $\tan10^\circ = F_e/(m\mathrm{g})$, altså
-$$
-F_e = m\mathrm{g}\tan10^\circ = 2.0\cdot10^{-3}\ \mathrm{kg}\cdot9.81\ \mathrm{m/s^2}\cdot\tan10^\circ = 3.46\cdot10^{-3}\ \mathrm{N} = \underline{\underline{3.5\ \mathrm{mN}}}
-$$
-
-**c)** Hver kule er $L\sin10^\circ$ fra loddlinja, så avstanden mellom dem er
-$$
-r = 2L\sin10^\circ = 2\cdot0.50\ \mathrm{m}\cdot\sin10^\circ = \underline{\underline{0.17\ \mathrm{m}}}
-$$
-Coulombs lov med like ladninger gir $F_e = \mathrm{k_e}q^2/r^2$:
-$$
-q = r\sqrt{\frac{F_e}{\mathrm{k_e}}} = 0.174\ \mathrm{m}\cdot\sqrt{\frac{3.46\cdot10^{-3}\ \mathrm{N}}{8.99\cdot10^{9}\ \mathrm{N\,m^2/C^2}}} = 1.08\cdot10^{-7}\ \mathrm{C} \approx \underline{\underline{0.11\ \mathrm{\mu C}}}
-$$
-En ladning på en tidels mikrocoulomb er nok til å skyve kulene merkbart fra hverandre.
+::: {.fasit}
+b) $3.5\ \mathrm{mN}$ · c) $0.17\ \mathrm{m}$ · c) $0.11\ \mathrm{\mu C}$
 :::
 :::
 

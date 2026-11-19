@@ -60,12 +60,8 @@ a)  Hva er fjærkonstanten $k$? (Hint: når fjæra er i ro, er fjærkraften lik 
 
 b)  Hvor mye strekkes fjæra om du bytter til et lodd med masse $m = 400\,\mathrm{g}$?
 
-::: {.losning}
-
-**a)** Loddet henger i ro, så fjærkraften er like stor som tyngdekraften på loddet (se *Hookes lov*): $F=kx=m\mathrm{g}$. Vi løser for $k$: $$k = \frac{m\mathrm{g}}{x} = \frac{0.250\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}{0.12\,\mathrm{m}} = 20.4\,\mathrm{N}\,\mathrm{m}^{-1} \approx \underline{\underline{20\,\mathrm{N}\,\mathrm{m}^{-1}}}$$
-
-**b)** Med det nye loddet, $m=0.400\,\mathrm{kg}$, løser vi $kx=m\mathrm{g}$ for $x$: $$x = \frac{m\mathrm{g}}{k} = \frac{0.400\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}}{20.4\,\mathrm{N}\,\mathrm{m}^{-1}} = 0.192\,\mathrm{m} \approx \underline{\underline{0.19\,\mathrm{m}}} = 19.2\,\mathrm{cm} \approx \underline{\underline{19\,\mathrm{cm}}}$$
-
+::: {.fasit}
+a) $20\,\mathrm{N}\,\mathrm{m}^{-1}$ · b) $0.19\,\mathrm{m}$ · b) $19\,\mathrm{cm}$
 :::
 
 :::
@@ -112,16 +108,8 @@ b)  Finn tyngdekraften på Ola på månens overflate ($\mathrm{g}_\text{måne} =
 
 c)  Hva er Olas masse på månen? Forklar svaret.
 
-::: {.losning}
-
-Vi bruker $G=m\mathrm{g}$ (se *Tyngdekraft*).
-
-**a)** På jorda: $$G = m\mathrm{g} = 75\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 736\,\mathrm{N} \approx \underline{\underline{7.4\cdot 10^{2}\,\mathrm{N}}}$$
-
-**b)** På månen: $$G_\text{måne} = m\,\mathrm{g}_\text{måne} = 75\,\mathrm{kg}\cdot1.62\,\mathrm{m}\,\mathrm{s}^{-2} = 122\,\mathrm{N} \approx \underline{\underline{1.2\cdot 10^{2}\,\mathrm{N}}}$$
-
-**c)** Olas masse er fortsatt $\underline{\underline{m=75\,\mathrm{kg}}}$ – helt uendret. Massen er et mål på hvor mye *treghet* (stoffmengde) Ola har, og det avhenger ikke av hvor han befinner seg. Det er *tyngdekraften* $G$ som endrer seg mellom jorda og månen (fordi $\mathrm{g}$ er forskjellig), ikke massen $m$.
-
+::: {.fasit}
+a) $7.4\cdot 10^{2}\,\mathrm{N}$ · b) $1.2\cdot 10^{2}\,\mathrm{N}$ · c) $m=75\,\mathrm{kg}$
 :::
 
 :::
@@ -135,13 +123,6 @@ a)  Hva tror du skjer — hvilket objekt når bakken først?
 
 b)  Hva skjer om vi pumper vekk all lufta i rommet? Bruk det du har lært om tyngdekraft til å forklare svaret.
 
-::: {.losning}
-
-**a)** De fleste vil tro at hammeren treffer bakken først. Dette stemmer faktisk i virkeligheten (med luft til stede): fjæra har stort overflateareal i forhold til massen sin, så luftmotstanden bremser fjæra mye mer enn den bremser hammeren. Hammeren faller dermed tilnærmet i fritt fall, mens fjæra daler sakte ned.
-
-**b)** Dersom vi pumper vekk all lufta (fullstendig vakuum), er luftmotstanden borte, og begge objektene er i *fritt fall* – de påvirkes kun av tyngdekraften. Fra Newtons 2. lov (se *Tyngdekraft*): $$\sum F = ma \quad\Rightarrow\quad m\mathrm{g} = ma \quad\Rightarrow\quad a = \mathrm{g},$$ og massen $m$ forsvinner fullstendig fra likningen. Akselerasjonen er dermed $\mathrm{g}$ for *alle* legemer, uavhengig av masse og form. I vakuum vil derfor hammeren og fjæra **treffe bakken samtidig** – noe som faktisk ble demonstrert på Månen av astronaut David Scott under Apollo 15-ferden, nettopp fordi Månen ikke har noen atmosfære.
-
-:::
 
 :::
 
@@ -213,14 +194,8 @@ a)  Heisen bremser ned mens den beveger seg oppover, slik at $a = -3.0\,\mathrm{
 
 b)  Heisen er i fritt fall (tau røk!). Hva er $N$ da, og hva ville Ola oppleve?
 
-::: {.losning}
-
-Vi velger oppover som positiv retning og bruker Newtons 2. lov i vertikal retning, akkurat som i eksempelet *Normalkraft i akselererende heis*: $\sum F_y = N - G = ma \implies N = m(\mathrm{g}+a)$.
-
-**a)** Her er $a=-3.0\,\mathrm{m}\,\mathrm{s}^{-2}$ (akselerasjonen peker nedover, siden heisen bremser mens den beveger seg oppover): $$N = m(\mathrm{g}+a) = 80\,\mathrm{kg}\cdot(9.81\,\mathrm{m}\,\mathrm{s}^{-2}-3.0\,\mathrm{m}\,\mathrm{s}^{-2}) = 545\,\mathrm{N} \approx \underline{\underline{5.4\cdot 10^{2}\,\mathrm{N}}}$$ Dette er mindre enn tyngdekraften ($G=785\,\mathrm{N}$) – Ola føler seg lettere enn vanlig.
-
-**b)** I fritt fall er $a=-\mathrm{g}$: $$N = m(\mathrm{g}-\mathrm{g}) = \underline{\underline{0\,\mathrm{N}}}$$ Normalkraften er null – Ola ville oppleve **vektløshet**. Dette er nøyaktig samme situasjon som å simulere vektløshet i fly ved fritt fall (se *Fritt fall som eksempel*).
-
+::: {.fasit}
+a) $5.4\cdot 10^{2}\,\mathrm{N}$ · b) $0\,\mathrm{N}$
 :::
 
 :::
@@ -283,14 +258,8 @@ a)  Hva er den minste horisontale kraften som trengs for å sette skapet i beveg
 
 b)  To personer skyver med en samlet kraft på $F = 260\,\mathrm{N}$. Begynner skapet å bevege seg? Forklar.
 
-::: {.losning}
-
-Normalkraften er $N=m\mathrm{g}=80\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}=784.8\,\mathrm{N}$.
-
-**a)** Den minste kraften som trengs for å sette skapet i bevegelse må akkurat overvinne maksimal hvilefriksjon (se *Friksjonskrefter*), $R_{s,\text{maks}}=\mu_s N$: $$F_\text{min} = \mu_s N = 0.35\cdot784.8\,\mathrm{N} = 275\,\mathrm{N} \approx \underline{\underline{2.7\cdot 10^{2}\,\mathrm{N}}}$$
-
-**b)** De to personene skyver med $F=260\,\mathrm{N}$, som er *mindre* enn $R_{s,\text{maks}}=275\,\mathrm{N}$. Hvilefriksjonen tilpasser seg og motvirker hele den påførte kraften ($R_s=F=260\,\mathrm{N} < R_{s,\text{maks}}$), så skapet **begynner ikke å bevege seg**.
-
+::: {.fasit}
+$2.7\cdot 10^{2}\,\mathrm{N}$
 :::
 
 :::
@@ -343,14 +312,8 @@ b)  Hva er puckens akselerasjon?
 
 c)  Pucken skyves avgårde med startfart $v_0 = 15\,\mathrm{m}\,\mathrm{s}^{-1}$. Bruk kinematikk til å beregne hvor lang strekning den glir før den stopper.
 
-::: {.losning}
-
-**a)** Normalkraften er $N=m\mathrm{g}$, med $m=170\,\mathrm{g}=0.170\,\mathrm{kg}$. Friksjonskraften er (se *Glidefriksjon*): $$R = \mu_k N = \mu_k m\mathrm{g} = 0.030\cdot0.170\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 0.0500\,\mathrm{N} \approx \underline{\underline{0.050\,\mathrm{N}}}$$
-
-**b)** Friksjonen er eneste horisontale kraft, så akselerasjonen er (uavhengig av massen): $$a = -\mu_k \mathrm{g} = -0.030\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = -0.294\,\mathrm{m}\,\mathrm{s}^{-2} \approx \underline{\underline{-0.29\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
-
-**c)** Vi bruker fart-strekning-likningen (Likning 3 i avsnitten), $v^2=v_0^2+2a\,\Delta s$, med $v=0$ (pucken stopper): $$0 = v_0^2 + 2a\,s \quad\Rightarrow\quad s = \frac{-v_0^2}{2a} = \frac{v_0^2}{2\mu_k \mathrm{g}} = \frac{(15\,\mathrm{m}\,\mathrm{s}^{-1})^2}{2\cdot 0.030\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = 382\,\mathrm{m} \approx \underline{\underline{3.8\cdot 10^{2}\,\mathrm{m}}}$$ Pucken glir svært langt, nettopp fordi friksjonskoeffisienten mellom puck og is er så liten.
-
+::: {.fasit}
+a) $0.050\,\mathrm{N}$ · b) $-0.29\,\mathrm{m}\,\mathrm{s}^{-2}$ · c) $3.8\cdot 10^{2}\,\mathrm{m}$
 :::
 
 :::
@@ -366,14 +329,8 @@ b)  Beregn bremselengden for tørr asfalt ($\mu_k = 0.70$), våt vei ($\mu_k = 0
 
 c)  Hva skjer med bremselengden om farten dobles? Forklar med formelen.
 
-::: {.losning}
-
-**a)** Når hjulene låser seg, glir dekket mot veien, og glidefriksjonen er eneste horisontale kraft. Newtons 2. lov i horisontal retning gir ($x$ i bevegelsesretningen, $N=m\mathrm{g}$ fra vertikal likevekt): $$\sum F_x = -R = ma \quad\Rightarrow\quad -\mu_k m\mathrm{g} = ma \quad\Rightarrow\quad a = -\mu_k\mathrm{g}$$ (dette er samme resultat som i *Glidefriksjon*, kompendiet). Deretter bruker vi fart-strekning-likningen (Likning 3 i avsnitten), $v^2=v_0^2+2a\,s$, med $v=0$ når bilen har stoppet: $$0 = v_0^2 - 2\mu_k\mathrm{g}\,s \quad\Longrightarrow\quad \underline{\underline{s = \frac{v_0^2}{2\,\mu_k\,\mathrm{g}}}} \qquad\checkmark$$
-
-**b)** Vi regner om $v_0=80\,\mathrm{km}\,\mathrm{h}^{-1}=22.2\,\mathrm{m}\,\mathrm{s}^{-1}$, og setter inn for hver verdi av $\mu_k$: $$\mu_k=0.70:\quad s = \frac{22.2^2}{2\cdot0.70\cdot9.81} = 36.0\,\mathrm{m} \approx \underline{\underline{36\,\mathrm{m}}} \quad\text{(tørr asfalt)}$$ $$\mu_k=0.40:\quad s = \frac{22.2^2}{2\cdot0.40\cdot9.81} = 62.9\,\mathrm{m} \approx \underline{\underline{63\,\mathrm{m}}} \quad\text{(våt vei)}$$ $$\mu_k=0.10:\quad s = \frac{22.2^2}{2\cdot0.10\cdot9.81} = 252\,\mathrm{m} \approx \underline{\underline{2.5\cdot 10^{2}\,\mathrm{m}}} \quad\text{(is)}$$
-
-**c)** Siden $s \propto v_0^2$, vil en dobling av farten ($v_0 \to 2v_0$) gi $$s' = \frac{(2v_0)^2}{2\mu_k\mathrm{g}} = 4\cdot\frac{v_0^2}{2\mu_k\mathrm{g}} = 4s,$$ altså **firedobles** bremselengden. Dette er grunnen til at det er så mye farligere å kjøre fort – bremselengden øker med *kvadratet* av farten.
-
+::: {.fasit}
+a) $s = \frac{v_0^2}{2\,\mu_k\,\mathrm{g}}$ · b) $36\,\mathrm{m}$ · b) $63\,\mathrm{m}$ · b) $2.5\cdot 10^{2}\,\mathrm{m}$
 :::
 
 :::

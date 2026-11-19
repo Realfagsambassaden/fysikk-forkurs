@@ -265,195 +265,48 @@ I eksemplet med kollisjonen brukte vi bevegelsesmengde i én fase og friksjon i 
 ::: {.oppgave tittel="Skiløperen"}
 En skiløper starter i ro på toppen av en bakke og kjører ned en loddrett høyde på $12.0\ \mathrm{m}$. Se bort fra friksjon og luftmotstand i bakken. Nederst går bakken over i en flate med friksjonstall $\mu_k = 0.080$. a) Hvor stor fart har skiløperen nederst i bakken? b) Hvor langt glir hun på flata før hun stopper?
 
-::: {.losning}
-**Faser:** Fase 1 er bakken (ingen friksjon), fase 2 er flata (friksjon). Bakken kan være krum, og vi kjenner ikke vinkelen, så i fase 1 bruker vi energi.
-
-a) All potensiell energi blir kinetisk energi:
-$$
-m\mathrm{g}h = \tfrac12 mv^2
-\quad\Longrightarrow\quad
-v = \sqrt{2\mathrm{g}h} = \sqrt{2\cdot 9.81\ \mathrm{m/s^2}\cdot 12.0\ \mathrm{m}} = 15.34\ \mathrm{m/s} \approx \underline{\underline{15.3\ \mathrm{m/s}}}
-$$
-
-b) På flata er $N = m\mathrm{g}$, og friksjonen $\mu_k m\mathrm{g}$ gir akselerasjonen $a = -\mu_k\mathrm{g}$. Med startfarten fra a) og sluttfart null:
-$$
-d = \frac{v^2}{2\mu_k\mathrm{g}} = \frac{2\mathrm{g}h}{2\mu_k\mathrm{g}} = \frac{h}{\mu_k} = \frac{12.0\ \mathrm{m}}{0.080} = 150\ \mathrm{m} \approx \underline{\underline{1.5\cdot10^2\ \mathrm{m}}}
-$$
-Friksjonstallet har to gjeldende siffer, så svaret får også to. Legg merke til det enkle resultatet $d = h/\mu_k$: verken massen eller $\mathrm{g}$ betyr noe.
+::: {.fasit}
+a) $15.3\ \mathrm{m/s}$ · b) $1.5\cdot10^2\ \mathrm{m}$
 :::
 :::
 
 ::: {.oppgave tittel="To klosser som henger over en trinse"}
 To klosser med masse $2.50\ \mathrm{kg}$ og $1.50\ \mathrm{kg}$ henger i hver sin ende av en snor som går over en lett trinse uten friksjon. Klossene slippes fra ro. a) Finn akselerasjonen. b) Finn snorkraften. c) Hvor stor fart har klossene når de har flyttet seg $0.500\ \mathrm{m}$? Løs c) både med bevegelseslikningene og med energi.
 
-::: {.losning}
-Kall den tunge klossen 1 ($m_1 = 2.50\ \mathrm{kg}$) og den lette 2 ($m_2 = 1.50\ \mathrm{kg}$). Kloss 1 går ned og kloss 2 opp med like stor akselerasjon $a$. Snorkraften $S$ virker oppover på begge.
-
-a) Newtons 2. lov, med positiv retning i bevegelsesretningen for hver kloss:
-$$
-1:\quad m_1\mathrm{g} - S = m_1 a, \qquad\qquad 2:\quad S - m_2\mathrm{g} = m_2 a.
-$$
-Vi legger sammen likningene, så $S$ forsvinner:
-$$
-a = \frac{m_1 - m_2}{m_1 + m_2}\,\mathrm{g} = \frac{1.00\ \mathrm{kg}}{4.00\ \mathrm{kg}}\cdot 9.81\ \mathrm{m/s^2} = 2.4525\ \mathrm{m/s^2} \approx \underline{\underline{2.45\ \mathrm{m/s^2}}}
-$$
-
-b) Fra likningen for kloss 2:
-$$
-S = m_2(\mathrm{g} + a) = 1.50\ \mathrm{kg}\cdot(9.81 + 2.4525)\ \mathrm{m/s^2} = 18.39\ \mathrm{N} \approx \underline{\underline{18.4\ \mathrm{N}}}
-$$
-Kontroll med kloss 1: $S = m_1(\mathrm{g} - a) = 2.50\ \mathrm{kg}\cdot 7.358\ \mathrm{m/s^2} = 18.4\ \mathrm{N}$. Snorkraften ligger mellom de to tyngdene ($14.7\ \mathrm{N}$ og $24.5\ \mathrm{N}$), som den må.
-
-c) **Med bevegelseslikningene:**
-$$
-v = \sqrt{2as} = \sqrt{2\cdot 2.4525\ \mathrm{m/s^2}\cdot 0.500\ \mathrm{m}} = 1.566\ \mathrm{m/s} \approx \underline{\underline{1.57\ \mathrm{m/s}}}
-$$
-**Med energi:** Kloss 1 synker $0.500\ \mathrm{m}$, og kloss 2 stiger like mye. Endringen i potensiell energi blir kinetisk energi for begge:
-$$
-(m_1 - m_2)\mathrm{g}s = \tfrac12(m_1 + m_2)v^2
-\quad\Longrightarrow\quad
-v = \sqrt{\frac{2(m_1 - m_2)\mathrm{g}s}{m_1 + m_2}} = \sqrt{\frac{2\cdot 1.00\ \mathrm{kg}\cdot 9.81\ \mathrm{m/s^2}\cdot 0.500\ \mathrm{m}}{4.00\ \mathrm{kg}}} = 1.57\ \mathrm{m/s}.
-$$
-Begge metodene gir samme svar.
+::: {.fasit}
+a) $2.45\ \mathrm{m/s^2}$ · b) $18.4\ \mathrm{N}$ · c) $1.57\ \mathrm{m/s}$
 :::
 :::
 
 ::: {.oppgave tittel="Opp skråplanet og ned igjen" niva="Middels"}
 En kloss skytes opp et skråplan med vinkel $25.0^\circ$ med startfarten $4.00\ \mathrm{m/s}$. Friksjonstallene er $\mu_k = 0.300$ og $\mu_s = 0.400$. a) Finn akselerasjonen mens klossen går oppover. b) Hvor langt opp langs planet kommer den? c) Blir klossen liggende på toppen, eller glir den ned igjen? d) Hvis den glir ned: Hvor stor fart har den når den er tilbake der den startet?
 
-::: {.losning}
-**Faser:** Fase 1 er turen opp, fase 2 er turen ned. Friksjonen peker alltid mot bevegelsen, så den skifter retning mellom fasene. Derfor er akselerasjonen forskjellig. Normalkraften er $N = m\mathrm{g}\cos\theta$ i begge faser.
-
-a) På vei opp peker både tyngdens komponent langs planet og friksjonen nedover langs planet. Med positiv retning nedover langs planet:
-$$
-a_1 = \mathrm{g}(\sin\theta + \mu_k\cos\theta) = 9.81\ \mathrm{m/s^2}\cdot(\sin 25.0^\circ + 0.300\cdot\cos 25.0^\circ) = 6.813\ \mathrm{m/s^2}.
-$$
-Klossen bremses altså med $\underline{\underline{6.81\ \mathrm{m/s^2}}}$, rettet ned langs planet.
-
-b) Klossen stopper når farten er null:
-$$
-s = \frac{v_0^2}{2a_1} = \frac{(4.00\ \mathrm{m/s})^2}{2\cdot 6.813\ \mathrm{m/s^2}} = 1.174\ \mathrm{m} \approx \underline{\underline{1.17\ \mathrm{m}}}
-$$
-
-c) I ro trenger klossen en hvilefriksjon på $m\mathrm{g}\sin\theta$ for å bli liggende. Den største hvilefriksjonen er $\mu_s m\mathrm{g}\cos\theta$. Klossen blir liggende bare hvis
-$$
-m\mathrm{g}\sin\theta \le \mu_s m\mathrm{g}\cos\theta \quad\Longleftrightarrow\quad \tan\theta \le \mu_s.
-$$
-Her er $\tan 25.0^\circ = 0.466 > 0.400$. Hvilefriksjonen er ikke stor nok, så klossen **glir ned igjen**.
-
-d) På vei ned peker friksjonen oppover langs planet:
-$$
-a_2 = \mathrm{g}(\sin\theta - \mu_k\cos\theta) = 9.81\ \mathrm{m/s^2}\cdot(\sin 25.0^\circ - 0.300\cdot\cos 25.0^\circ) = 1.479\ \mathrm{m/s^2}.
-$$
-Klossen starter fra ro på toppen og glir $s = 1.174\ \mathrm{m}$:
-$$
-v = \sqrt{2a_2 s} = \sqrt{2\cdot 1.479\ \mathrm{m/s^2}\cdot 1.174\ \mathrm{m}} = 1.863\ \mathrm{m/s} \approx \underline{\underline{1.86\ \mathrm{m/s}}}
-$$
-Farten er mye mindre enn startfarten, fordi friksjonen har tatt energi både på vei opp og ned.
+::: {.fasit}
+a) $6.81\ \mathrm{m/s^2}$ · b) $1.17\ \mathrm{m}$ · d) $1.86\ \mathrm{m/s}$
 :::
 :::
 
 ::: {.oppgave tittel="Kula i klossen" niva="Middels"}
 En kule med masse $10.0\ \mathrm{g}$ skytes vannrett med farten $400\ \mathrm{m/s}$ inn i en trekloss med masse $2.00\ \mathrm{kg}$ som ligger i ro på et bord. Kula blir sittende fast. Friksjonstallet mellom kloss og bord er $\mu_k = 0.350$. a) Hvor stor fart har klossen rett etter at kula har truffet? b) Hvor langt glir klossen? c) Hvor stor del av kulas kinetiske energi ble igjen som kinetisk energi rett etter støtet?
 
-::: {.losning}
-**Faser:** Fase 1 er støtet (bevegelsesmengde), fase 2 er glidingen (friksjon).
-
-a) Bevegelsesmengden er bevart i støtet. Klossen er i ro før støtet:
-$$
-m v + 0 = (m + M)u
-\quad\Longrightarrow\quad
-u = \frac{m v}{m + M} = \frac{0.0100\ \mathrm{kg}\cdot 400\ \mathrm{m/s}}{2.010\ \mathrm{kg}} = 1.990\ \mathrm{m/s} \approx \underline{\underline{1.99\ \mathrm{m/s}}}
-$$
-
-b) Etter støtet bremser friksjonen klossen med kula, med akselerasjonen $-\mu_k\mathrm{g}$:
-$$
-d = \frac{u^2}{2\mu_k\mathrm{g}} = \frac{(1.990\ \mathrm{m/s})^2}{2\cdot 0.350\cdot 9.81\ \mathrm{m/s^2}} = 0.5767\ \mathrm{m} \approx \underline{\underline{0.577\ \mathrm{m}}}
-$$
-
-c) Kinetisk energi før og etter støtet:
-$$
-E_\text{K,før} = \tfrac12\cdot 0.0100\ \mathrm{kg}\cdot(400\ \mathrm{m/s})^2 = 800\ \mathrm{J},
-\qquad
-E_\text{K,etter} = \tfrac12\cdot 2.010\ \mathrm{kg}\cdot(1.990\ \mathrm{m/s})^2 = 3.98\ \mathrm{J}.
-$$
-$$
-\frac{E_\text{K,etter}}{E_\text{K,før}} = \frac{3.98\ \mathrm{J}}{800\ \mathrm{J}} = 0.00498 = \underline{\underline{0.498\ \%}}
-$$
-Over $99\ \%$ av energien gikk til å varme opp og knuse tre. Derfor måtte vi bruke bevegelsesmengde, ikke energi, i støtet.
+::: {.fasit}
+a) $1.99\ \mathrm{m/s}$ · b) $0.577\ \mathrm{m}$ · c) $0.498\ \%$
 :::
 :::
 
 ::: {.oppgave tittel="Fjær, bakke og bordkant" niva="Middels"}
 En liten kloss med masse $50.0\ \mathrm{g}$ ligger inntil en fjær med fjærkonstant $k = 250\ \mathrm{N/m}$ som er presset sammen $8.00\ \mathrm{cm}$. Fjæra slippes og skyter klossen bortover et glatt bord. Klossen glir opp en glatt bakke til en vannrett hylle som ligger $0.300\ \mathrm{m}$ høyere enn bordet. Hylla ender i en kant, og klossen glir utfor. Gulvet nedenfor kanten ligger i samme høyde som bordet. Se bort fra all friksjon og luftmotstand. a) Hvor stor fart har klossen når den forlater fjæra? b) Hvor stor fart har den oppe på hylla? c) Hvor langt fra kanten lander den?
 
-::: {.losning}
-**Faser:** Fase 1 er fjæra, fase 2 er bakken opp (begge med energi, siden vi ikke kjenner formen på bakken), fase 3 er et vannrett kast fra kanten.
-
-a) Den elastiske energien i fjæra blir kinetisk energi:
-$$
-\tfrac12 kx^2 = \tfrac12 mv_1^2
-\quad\Longrightarrow\quad
-v_1 = x\sqrt{\frac{k}{m}} = 0.0800\ \mathrm{m}\cdot\sqrt{\frac{250\ \mathrm{N/m}}{0.0500\ \mathrm{kg}}} = 5.657\ \mathrm{m/s} \approx \underline{\underline{5.66\ \mathrm{m/s}}}
-$$
-
-b) Opp bakken går noe kinetisk energi over til potensiell energi:
-$$
-\tfrac12 mv_1^2 = \tfrac12 mv_2^2 + m\mathrm{g}h
-\quad\Longrightarrow\quad
-v_2 = \sqrt{v_1^2 - 2\mathrm{g}h} = \sqrt{(5.657\ \mathrm{m/s})^2 - 2\cdot 9.81\ \mathrm{m/s^2}\cdot 0.300\ \mathrm{m}} = 5.110\ \mathrm{m/s} \approx \underline{\underline{5.11\ \mathrm{m/s}}}
-$$
-
-c) Klossen forlater kanten med vannrett fart $v_2$ og faller $0.300\ \mathrm{m}$:
-$$
-t = \sqrt{\frac{2h}{\mathrm{g}}} = \sqrt{\frac{2\cdot 0.300\ \mathrm{m}}{9.81\ \mathrm{m/s^2}}} = 0.2473\ \mathrm{s},
-\qquad
-x = v_2 t = 5.110\ \mathrm{m/s}\cdot 0.2473\ \mathrm{s} = 1.264\ \mathrm{m} \approx \underline{\underline{1.26\ \mathrm{m}}}
-$$
-**Enhetssjekk i a):** $\sqrt{(\mathrm{N/m})/\mathrm{kg}} = \sqrt{(\mathrm{kg\,m/s^2})/(\mathrm{m\,kg})} = 1/\mathrm{s}$, og ganget med meter blir det $\mathrm{m/s}$, som det skal.
+::: {.fasit}
+a) $5.66\ \mathrm{m/s}$ · b) $5.11\ \mathrm{m/s}$ · c) $1.26\ \mathrm{m}$
 :::
 :::
 
 ::: {.oppgave tittel="Skli, støt og bremsing" niva="Utfordrende"}
 Kloss $A$ med masse $0.800\ \mathrm{kg}$ slippes fra ro og glir ned en glatt rampe med høyde $0.450\ \mathrm{m}$. Nederst på det vannrette gulvet ligger kloss $B$ med masse $1.20\ \mathrm{kg}$ i ro. $A$ treffer $B$, og klossene henger sammen etterpå. Gulvet er glatt fram til $B$, men fra der $B$ ligger er friksjonstallet $\mu_k = 0.250$. a) Hvor stor fart har $A$ rett før støtet? b) Hvor stor fart har klossene rett etter støtet? c) Hvor langt glir klossene sammen? d) Hvor stor del av energien til $A$ gikk tapt i støtet? Vis at svaret kan skrives som $m_B/(m_A + m_B)$.
 
-::: {.losning}
-**Faser:** Fase 1 er rampen (energi), fase 2 er støtet (bevegelsesmengde), fase 3 er bremsingen (friksjon).
-
-a) Uten friksjon blir all potensiell energi kinetisk:
-$$
-v_A = \sqrt{2\mathrm{g}h} = \sqrt{2\cdot 9.81\ \mathrm{m/s^2}\cdot 0.450\ \mathrm{m}} = 2.971\ \mathrm{m/s} \approx \underline{\underline{2.97\ \mathrm{m/s}}}
-$$
-
-b) Bevegelsesmengden er bevart i støtet:
-$$
-m_A v_A = (m_A + m_B)u
-\quad\Longrightarrow\quad
-u = \frac{0.800\ \mathrm{kg}}{2.00\ \mathrm{kg}}\cdot 2.971\ \mathrm{m/s} = 1.189\ \mathrm{m/s} \approx \underline{\underline{1.19\ \mathrm{m/s}}}
-$$
-
-c) Klossene bremses med $\mu_k\mathrm{g}$:
-$$
-d = \frac{u^2}{2\mu_k\mathrm{g}} = \frac{(1.189\ \mathrm{m/s})^2}{2\cdot 0.250\cdot 9.81\ \mathrm{m/s^2}} = 0.2880\ \mathrm{m} \approx \underline{\underline{0.288\ \mathrm{m}}}
-$$
-
-d) Energien til $A$ rett før støtet er $m_A\mathrm{g}h = 0.800\ \mathrm{kg}\cdot 9.81\ \mathrm{m/s^2}\cdot 0.450\ \mathrm{m} = 3.532\ \mathrm{J}$. Rett etter støtet er den kinetiske energien
-$$
-\tfrac12(m_A + m_B)u^2 = \tfrac12\cdot 2.00\ \mathrm{kg}\cdot(1.189\ \mathrm{m/s})^2 = 1.413\ \mathrm{J}.
-$$
-Tapet er $3.532\ \mathrm{J} - 1.413\ \mathrm{J} = 2.119\ \mathrm{J}$, som er
-$$
-\frac{2.119\ \mathrm{J}}{3.532\ \mathrm{J}} = 0.600 = \underline{\underline{60.0\ \%}}
-$$
-**Generelt:** Med $u = \dfrac{m_A v_A}{m_A + m_B}$ er
-$$
-\frac{E_\text{K,etter}}{E_\text{K,før}} = \frac{\tfrac12(m_A + m_B)u^2}{\tfrac12 m_A v_A^2} = \frac{(m_A + m_B)\,m_A^2 v_A^2}{(m_A + m_B)^2\,m_A v_A^2} = \frac{m_A}{m_A + m_B},
-$$
-så den delen som går tapt, er
-$$
-1 - \frac{m_A}{m_A + m_B} = \frac{m_B}{m_A + m_B} = \frac{1.20\ \mathrm{kg}}{2.00\ \mathrm{kg}} = 0.600.
-$$
-Jo tyngre klossen som står i ro, desto mer energi går tapt når de henger sammen.
+::: {.fasit}
+a) $2.97\ \mathrm{m/s}$ · b) $1.19\ \mathrm{m/s}$ · c) $0.288\ \mathrm{m}$ · d) $60.0\ \%$
 :::
 :::
 

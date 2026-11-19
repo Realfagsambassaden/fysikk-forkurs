@@ -242,14 +242,8 @@ b)  Finn det totale trykket ved kranen.
 
 c)  Et annet hus ligger høyere opp i bakken, slik at kranen der er $25\,\mathrm{m}$ under vannflaten i tårnet. Finn det totale trykket ved denne kranen. Hvilket av husene får best vanntrykk?
 
-::: {.losning}
-
-**a)** Det hydrostatiske trykket er $\rho\mathrm{g}h$, der $h$ er dybden under vannflaten (se *Vertikalt væskeelement*): $$\rho\mathrm{g}h = 1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot40\,\mathrm{m} = 3.92\cdot 10^{5}\,\mathrm{Pa} \approx \underline{\underline{3.9\cdot 10^{5}\,\mathrm{Pa}}}$$
-
-**b)** Det totale trykket er lufttrykket pluss det hydrostatiske trykket: $$p = p_0 + \rho\mathrm{g}h = 1.013\cdot 10^{5}\,\mathrm{Pa} + 3.92\cdot 10^{5}\,\mathrm{Pa} = 4.94\cdot 10^{5}\,\mathrm{Pa} \approx \underline{\underline{4.9\cdot 10^{5}\,\mathrm{Pa}}}$$
-
-**c)** Nå er dybden under vannflaten $25\,\mathrm{m}$: $$p = p_0 + \rho\mathrm{g}h = 1.013\cdot 10^{5}\,\mathrm{Pa} + 1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot25\,\mathrm{m}$$ $$p = 1.013\cdot 10^{5}\,\mathrm{Pa} + 2.45\cdot 10^{5}\,\mathrm{Pa} = 3.47\cdot 10^{5}\,\mathrm{Pa} \approx \underline{\underline{3.5\cdot 10^{5}\,\mathrm{Pa}}}$$ Huset som ligger lavest (lengst under vannflaten i tårnet) får det største trykket og dermed best vanntrykk. Det er derfor vanntårn bygges høyt, eller på toppen av en høyde.
-
+::: {.fasit}
+a) $3.9\cdot 10^{5}\,\mathrm{Pa}$ · b) $4.9\cdot 10^{5}\,\mathrm{Pa}$ · c) $3.5\cdot 10^{5}\,\mathrm{Pa}$
 :::
 
 :::
@@ -261,14 +255,8 @@ a)  Hvor høy må en vannsøyle være for at trykket i bunnen av den skal være 
 
 b)  Du senker en kopp ned i vann slik at den fylles helt. Så snur du koppen opp ned og drar den sakte opp, slik at kanten hele tiden er under vannflaten. Hvorfor blir vannet med opp i koppen?
 
-::: {.losning}
-
-**a)** Trykket i bunnen av en vannsøyle med høyde $h$ er det hydrostatiske trykket $\rho\mathrm{g}h$ (se *Vertikalt væskeelement*). Vi setter dette lik lufttrykket: $$\rho\mathrm{g}h = p_0
-    \quad\implies\quad
-    h = \frac{p_0}{\rho\mathrm{g}} = \frac{1.013\cdot 10^{5}\,\mathrm{Pa}}{1000\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = 10.33\,\mathrm{m} \approx \underline{\underline{10.3\,\mathrm{m}}}$$ En vannsøyle på drøyt ti meter gir altså like stort trykk som hele lufthavet over oss.
-
-**b)** Det er ingen luft inne i koppen over vannet, så det er ingenting der som presser vannet ned. Utenfor koppen presser lufta på vannflaten med lufttrykket $p_0$. Inne i vannet, i samme høyde som vannflaten utenfor, er trykket derfor også $p_0$, også rett under koppen. Dette trykket presser vannet opp i koppen og holder det der. Etter a) kan lufttrykket holde oppe en vannsøyle på hele $10.3\,\mathrm{m}$, så en kopp på noen få centimeter er ikke noe problem. Først når kanten av koppen kommer over vannflaten, kan luft slippe inn, og da renner vannet ut.
-
+::: {.fasit}
+$10.3\,\mathrm{m}$
 :::
 
 :::

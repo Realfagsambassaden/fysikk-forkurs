@@ -113,21 +113,6 @@ d)  Elektrisk strøm
 
 e)  Lengde
 
-::: {.losning}
-
-Hver fysisk størrelse har én bestemt SI-enhet, se tabellen over.
-
-a)  Masse: kilogram, symbol $\mathrm{kg}$.
-
-b)  Tid: sekund, symbol $\mathrm{s}$.
-
-c)  Temperatur: kelvin, symbol $\mathrm{K}$.
-
-d)  Elektrisk strøm: ampere, symbol $\mathrm{A}$.
-
-e)  Lengde: meter, symbol $\mathrm{m}$.
-
-:::
 
 :::
 

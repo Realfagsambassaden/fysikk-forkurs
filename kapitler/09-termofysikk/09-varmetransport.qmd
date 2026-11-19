@@ -152,53 +152,29 @@ plt.show()
 ::: {.oppgave tittel="Tre måter"}
 Hvilken måte for varmetransport er viktigst i disse tilfellene? a) Det blir varmt i skjeen du har i teen. b) Du kjenner varmen fra et bål på ansiktet. c) Varmtvann fra en radiatorkjele sirkulerer opp i etasjene av seg selv. d) Hvorfor er det ingen konveksjon i verdensrommet?
 
-::: {.losning}
-a) Ledning: Energien går gjennom metallet, mens skjeen ligger i ro.
-
-b) Stråling: Den varme lufta stiger oppover fra bålet, så det du kjenner fra siden, er infrarød stråling.
-
-c) Konveksjon: Varmt vann har lavere massetetthet og stiger.
-
-d) Konveksjon krever en væske eller gass som kan flytte på seg. I verdensrommet er det nesten ikke stoff, så energi kan bare komme fram som stråling.
-:::
 :::
 
 ::: {.oppgave tittel="Bunnen i kjelen"}
 En kjele i rustfritt stål har en bunn med areal $0.020\ \mathrm{m^2}$ og tykkelse $3.0\ \mathrm{mm}$. Undersiden er $5.0\ \mathrm{K}$ varmere enn oversiden. Hvor stor effekt går gjennom bunnen?
 
-::: {.losning}
-Vi bruker $k = 16\ \mathrm{W/(m\cdot K)}$ fra tabellen og $d = 3.0\cdot10^{-3}\ \mathrm{m}$:
-$$
-P = k\,A\,\frac{T_1 - T_2}{d} = 16\ \mathrm{\frac{W}{m\cdot K}}\cdot 0.020\ \mathrm{m^2}\cdot\frac{5.0\ \mathrm{K}}{3.0\cdot10^{-3}\ \mathrm{m}} = \underline{\underline{0.53\ \mathrm{kW}}}
-$$
+::: {.fasit}
+$0.53\ \mathrm{kW}$
 :::
 :::
 
 ::: {.oppgave tittel="Tre mot mineralull"}
 Hvor tykk må en trevegg være for å isolere like godt som $10\ \mathrm{cm}$ mineralull?
 
-::: {.losning}
-To lag isolerer like godt når de har samme varmemotstand $R = d/k$:
-$$
-\frac{d_\text{tre}}{k_\text{tre}} = \frac{d_\text{ull}}{k_\text{ull}} \implies d_\text{tre} = d_\text{ull}\cdot\frac{k_\text{tre}}{k_\text{ull}} = 10\ \mathrm{cm}\cdot\frac{0.12}{0.037} = \underline{\underline{32\ \mathrm{cm}}}
-$$
+::: {.fasit}
+$32\ \mathrm{cm}$
 :::
 :::
 
 ::: {.oppgave tittel="Kjølebagen" niva="Middels"}
 En kjølebag av isopor har veggtykkelse $2.0\ \mathrm{cm}$ og samlet overflate $0.50\ \mathrm{m^2}$. Inni ligger is ved $0\ ^\circ\mathrm{C}$, og lufta utenfor er $20\ ^\circ\mathrm{C}$. a) Hvor stor effekt strømmer inn gjennom veggene? b) Hvor lang tid tar det før $1.0\ \mathrm{kg}$ is har smeltet? Bruk smeltevarmen $334\ \mathrm{kJ/kg}$.
 
-::: {.losning}
-a) Med $k = 0.035\ \mathrm{W/(m\cdot K)}$ og $T_1 - T_2 = 20\ \mathrm{K}$:
-$$
-P = k\,A\,\frac{T_1 - T_2}{d} = 0.035\ \mathrm{\frac{W}{m\cdot K}}\cdot 0.50\ \mathrm{m^2}\cdot\frac{20\ \mathrm{K}}{0.020\ \mathrm{m}} = 17.5\ \mathrm{W} \approx \underline{\underline{18\ \mathrm{W}}}
-$$
-
-b) Energien som trengs, er $Q = mL = 1.0\ \mathrm{kg}\cdot 334\ \mathrm{kJ/kg} = 334\ \mathrm{kJ}$. Tiden er energi delt på effekt:
-$$
-t = \frac{Q}{P} = \frac{334\cdot10^3\ \mathrm{J}}{17.5\ \mathrm{W}} = 1.9\cdot10^4\ \mathrm{s} = \underline{\underline{5.3\ \mathrm{h}}}
-$$
-I virkeligheten varer isen litt lenger, fordi lufta inntil veggene også isolerer.
+::: {.fasit}
+a) $18\ \mathrm{W}$ · b) $5.3\ \mathrm{h}$
 :::
 :::
 
@@ -214,38 +190,16 @@ Et lite hus har disse flatene:
 
 Inne er det $25\ \mathrm{K}$ varmere enn ute. a) Hvor stort er varmetapet? b) Hvor stor andel av varmetapet går gjennom vinduene, og hvor stor andel av flaten er vinduer? c) Hvor mye energi går med på et døgn?
 
-::: {.losning}
-a) For hver del er $U\cdot A$ antall watt per kelvin: $18\ \mathrm{W/K}$ (vegger), $10.4\ \mathrm{W/K}$ (tak), $8.0\ \mathrm{W/K}$ (gulv) og $12\ \mathrm{W/K}$ (vinduer). Til sammen $48.4\ \mathrm{W/K}$, så
-$$
-P = 48.4\ \mathrm{W/K}\cdot 25\ \mathrm{K} = 1210\ \mathrm{W} \approx \underline{\underline{1.2\ \mathrm{kW}}}
-$$
-
-b) Vinduene står for
-$$
-\frac{12}{48.4} = \underline{\underline{25\ \%}}
-$$
-av tapet, men bare $15/275 = \underline{\underline{5.5\ \%}}$ av flaten. Selv gode vinduer slipper altså ut langt mer varme enn en like stor vegg.
-
-c) $E = Pt = 1.21\ \mathrm{kW}\cdot 24\ \mathrm{h} = \underline{\underline{29\ \mathrm{kWh}}}$.
+::: {.fasit}
+a) $1.2\ \mathrm{kW}$ · b) $25\ \%$ · b) $5.5\ \%$ · c) $29\ \mathrm{kWh}$
 :::
 :::
 
 ::: {.oppgave tittel="Våte klær" niva="Utfordrende"}
 Klærne på en person har til sammen overflaten $1.8\ \mathrm{m^2}$ og tykkelse $1.0\ \mathrm{cm}$. Temperaturforskjellen over klærne er $20\ \mathrm{K}$. a) Hvor stor effekt går gjennom klærne med $k = 0.040\ \mathrm{W/(m\cdot K)}$? b) Blir klærne våte, er $k$ omtrent ti ganger større. Hvor stor effekt blir det da? c) En person i ro lager omtrent $100\ \mathrm{W}$ varme. Forklar hva resultatene betyr, og finn hvor tykke de tørre klærne må være for å slippe gjennom nettopp $100\ \mathrm{W}$.
 
-::: {.losning}
-a) $$
-P = k\,A\,\frac{T_1 - T_2}{d} = 0.040\ \mathrm{\frac{W}{m\cdot K}}\cdot 1.8\ \mathrm{m^2}\cdot\frac{20\ \mathrm{K}}{0.010\ \mathrm{m}} = \underline{\underline{1.4\cdot10^2\ \mathrm{W}}}
-$$
-
-b) Ti ganger større $k$ gir ti ganger større effekt: $\underline{\underline{1.4\ \mathrm{kW}}}$.
-
-c) Med tørre klær gir kroppen fra seg litt mer enn den lager, så personen blir sakte kald ved å sitte stille. Med våte klær går varmen ut langt raskere enn kroppen klarer å lage den. Derfor er våte klær farlig i kulda.
-
-Vi løser formelen med hensyn på $d$ og setter inn $P = 100\ \mathrm{W}$:
-$$
-d = k\,A\,\frac{T_1 - T_2}{P} = 0.040\ \mathrm{\frac{W}{m\cdot K}}\cdot 1.8\ \mathrm{m^2}\cdot\frac{20\ \mathrm{K}}{100\ \mathrm{W}} = 0.014\ \mathrm{m} = \underline{\underline{1.4\ \mathrm{cm}}}
-$$
+::: {.fasit}
+a) $1.4\cdot10^2\ \mathrm{W}$ · b) $1.4\ \mathrm{kW}$ · c) $1.4\ \mathrm{cm}$
 :::
 :::
 

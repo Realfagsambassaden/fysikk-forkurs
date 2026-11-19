@@ -80,16 +80,8 @@ b)  Hvor stort arbeid gjør friksjonskraften? Forklar hvorfor svaret blir negati
 
 c)  Hvor stort arbeid gjør tyngdekraften og normalkraften på kassen? Forklar svaret.
 
-::: {.losning}
-
-Vi bruker definisjonen av arbeid, $W = F\cdot s\cdot\cos\theta$, der $\theta$ er vinkelen mellom kraften og forflytningen (se *Arbeid*).
-
-**a)** Tauet danner vinkelen $\theta = 25^\circ$ med bevegelsesretningen: $$W_F = F\cdot s\cdot\cos 25^\circ = 150\,\mathrm{N}\cdot12\,\mathrm{m}\cdot 0.906 = 1.63\,\mathrm{kJ} \approx \underline{\underline{1.6\,\mathrm{kJ}}}$$
-
-**b)** Friksjonskraften peker motsatt vei av bevegelsen, så $\theta = 180^\circ$ og $\cos\theta = -1$: $$W_R = R\cdot s\cdot\cos 180^\circ = 110\,\mathrm{N}\cdot12\,\mathrm{m}\cdot(-1) = -1.32\,\mathrm{kJ} \approx \underline{\underline{-1.3\,\mathrm{kJ}}}$$ Arbeidet er negativt fordi friksjonen virker *mot* bevegelsen. Friksjonen tar energi ut av bevegelsen og gjør den om til varme.
-
-**c)** Tyngdekraften peker rett ned og normalkraften rett opp. Begge står vinkelrett på forflytningen ($\theta = 90^\circ$, $\cos 90^\circ = 0$), så $$\underline{\underline{W_G = 0}} \qquad\text{og}\qquad \underline{\underline{W_N = 0}}$$ Kassen flytter seg verken opp eller ned, så disse kreftene bidrar ikke til bevegelsen.
-
+::: {.fasit}
+a) $1.6\,\mathrm{kJ}$ · b) $-1.3\,\mathrm{kJ}$ · c) $W_G = 0$ · c) $W_N = 0$
 :::
 
 :::
@@ -105,16 +97,8 @@ b)  Hvor stort arbeid må du gjøre for å presse den sammen $x = 10\,\mathrm{cm
 
 c)  Kompresjonen ble doblet, men arbeidet ble ikke doblet. Forklar hvorfor, gjerne ved hjelp av arealet under $F(x)$-grafen.
 
-::: {.losning}
-
-Arbeidet for å presse sammen en fjær er arealet under $F(x)$-grafen, $W = \tfrac{1}{2}kx^2$.
-
-**a)** Med $x = 0.050\,\mathrm{m}$: $$W = \frac{1}{2}\cdot400\,\mathrm{N}\,\mathrm{m}^{-1}\cdot(0.050\,\mathrm{m})^2 = \underline{\underline{0.50\,\mathrm{J}}}$$
-
-**b)** Med $x = 0.10\,\mathrm{m}$: $$W = \frac{1}{2}\cdot400\,\mathrm{N}\,\mathrm{m}^{-1}\cdot(0.10\,\mathrm{m})^2 = \underline{\underline{2.0\,\mathrm{J}}}$$
-
-**c)** Arbeidet ble fire ganger så stort. Arbeidet avhenger av $x^2$: dobles $x$, blir $x^2$ fire ganger så stort. Grafisk er arbeidet arealet av en trekant under $F(x) = kx$. Når $x$ dobles, blir både grunnlinjen og høyden i trekanten dobbelt så store, og da blir arealet fire ganger så stort.
-
+::: {.fasit}
+a) $0.50\,\mathrm{J}$ · b) $2.0\,\mathrm{J}$
 :::
 
 :::

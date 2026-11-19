@@ -111,20 +111,8 @@ c)  Det lille stempelet presses $10\,\mathrm{cm}$ ned. Hvor mye løftes bilen? *
 
 d)  Regn ut arbeidet som gjøres på det lille stempelet, og arbeidet som gjøres på bilen. Hva ser du? Får vi noe «gratis» med en hydraulisk jekk?
 
-::: {.losning}
-
-**a)** Radiene er $r_1 = 1.0\,\mathrm{cm}$ og $r_2 = 10\,\mathrm{cm}$. Forholdet mellom arealene er $$\frac{A_2}{A_1} = \frac{\pi r_2^2}{\pi r_1^2} = \left(\frac{r_2}{r_1}\right)^2 = \left(\frac{10\,\mathrm{cm}}{1.0\,\mathrm{cm}}\right)^2 = \underline{\underline{100}}$$ Når diameteren blir ti ganger så stor, blir arealet hundre ganger så stort.
-
-**b)** For å holde bilen oppe må kraften fra væsken på det store stempelet være lik tyngden av bilen, $F_2 = m\mathrm{g} = 1500\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = 14715\,\mathrm{N}$. Fra Pascals lov (se *Pascals lov*): $$\frac{F_1}{A_1} = \frac{F_2}{A_2}
-    \quad\implies\quad
-    F_1 = F_2\cdot\frac{A_1}{A_2} = \frac{14715\,\mathrm{N}}{100} = 147\,\mathrm{N} \approx \underline{\underline{1.5\cdot 10^{2}\,\mathrm{N}}}$$ Det tilsvarer tyngden av omtrent $15\,\mathrm{kg}$.
-
-**c)** Væsken kan ikke presses sammen, så volumet som presses ut av den lille sylinderen, må være lik volumet som går inn i den store: $$A_1 s_1 = A_2 s_2
-    \quad\implies\quad
-    s_2 = s_1\cdot\frac{A_1}{A_2} = \frac{10\,\mathrm{cm}}{100} = 0.10\,\mathrm{cm} = \underline{\underline{1.0\,\mathrm{mm}}}$$
-
-**d)** Arbeidet på det lille stempelet: $$W_1 = F_1 s_1 = 147\,\mathrm{N}\cdot0.10\,\mathrm{m} = 14.7\,\mathrm{J} \approx \underline{\underline{15\,\mathrm{J}}}$$ Arbeidet på bilen: $$W_2 = F_2 s_2 = 14715\,\mathrm{N}\cdot1.0\cdot 10^{-3}\,\mathrm{m} = 14.7\,\mathrm{J} \approx \underline{\underline{15\,\mathrm{J}}}$$ Arbeidene er like store. Den hydrauliske jekken gir oss en hundre ganger større kraft, men vi må presse det lille stempelet hundre ganger lenger enn bilen løftes. Vi får altså ikke noe gratis: energien er bevart.
-
+::: {.fasit}
+a) $100$ · b) $1.5\cdot 10^{2}\,\mathrm{N}$ · c) $1.0\,\mathrm{mm}$ · d) $15\,\mathrm{J}$
 :::
 
 :::
@@ -140,14 +128,8 @@ b)  Finn kraften fra bremsevæsken på hvert av stemplene ved hjulene.
 
 c)  Rørene fram til hjulene har ulik lengde. Hvorfor blir likevel kraften på stempelet like stor ved alle fire hjulene?
 
-::: {.losning}
-
-**a)** Trykkøkningen er kraften delt på arealet til det lille stempelet, $A_1 = 1.5\cdot 10^{-4}\,\mathrm{m}^{2}$: $$\Delta p = \frac{F_1}{A_1} = \frac{200\,\mathrm{N}}{1.5\cdot 10^{-4}\,\mathrm{m}^{2}} = 1.33\cdot 10^{6}\,\mathrm{Pa} \approx \underline{\underline{1.3\cdot 10^{6}\,\mathrm{Pa}}}$$
-
-**b)** Etter Pascals lov får bremsevæsken den samme trykkøkningen overalt. Kraften på hvert stempel ved hjulene, med $A_2 = 9.0\cdot 10^{-4}\,\mathrm{m}^{2}$, er da $$F_2 = \Delta p\cdot A_2 = 1.33\cdot 10^{6}\,\mathrm{Pa}\cdot9.0\cdot 10^{-4}\,\mathrm{m}^{2} = \underline{\underline{1.2\cdot 10^{3}\,\mathrm{N}}}$$ Hvert stempel ved hjulene får altså en kraft som er seks ganger så stor som kraften fra pedalen.
-
-**c)** Ifølge Pascals lov forplanter trykkøkningen seg uforminsket til alle deler av væsken, uansett hvor lange rørene er og hvilken vei de går. Siden stemplene ved hjulene har samme areal, blir kraften $F = \Delta p\cdot A$ like stor ved alle fire hjulene. Bilen bremser derfor likt på alle hjulene.
-
+::: {.fasit}
+a) $1.3\cdot 10^{6}\,\mathrm{Pa}$ · b) $1.2\cdot 10^{3}\,\mathrm{N}$
 :::
 
 :::

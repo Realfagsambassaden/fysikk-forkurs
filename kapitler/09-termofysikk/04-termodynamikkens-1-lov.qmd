@@ -135,21 +135,6 @@ d)  Sola varmer opp en stein på stranda (steinen).
 
 e)  En elektrisk mikser rører i en bolle med kakedeig (deigen).
 
-::: {.losning}
-
-Varme er energi som overføres *bare* på grunn av en temperaturforskjell. All annen energioverføring, der noe skyver, drar eller rører, er arbeid.
-
-**a)** **Arbeid**. Friksjonskraften virker langs bevegelsen og gjør arbeid på hendene.
-
-**b)** **Varme**. Kokeplata er varmere enn gryta og vannet, og energien går fra det varme til det kalde.
-
-**c)** **Arbeid**. Stempelet skyver på lufta og presser den sammen.
-
-**d)** **Varme**. Sola er mye varmere enn steinen. Energien kommer som stråling, og det regner vi som varme.
-
-**e)** **Arbeid**. Mikseren skyver deigen rundt. Deigen blir litt varmere, selv om ingenting varmt er i kontakt med den.
-
-:::
 
 :::
 
@@ -161,12 +146,8 @@ a)  Hva er endringen i den indre energien til lufta?
 
 b)  Stiger eller synker temperaturen i pumpa? Forklar hvorfor.
 
-::: {.losning}
-
-**a)** Prosessen er adiabatisk, så $Q = 0$. Termodynamikkens 1. lov gir $$\Delta U = Q + W = 0 + 30\,\mathrm{J} = \underline{\underline{+30\,\mathrm{J}}}$$
-
-**b)** $\Delta U > 0$, så den indre energien øker. Den indre energien til lufta er knyttet til bevegelsen til molekylene, og dermed til temperaturen. Temperaturen **stiger**. Stempelet beveger seg mot molekylene og gir dem større fart når de spretter mot det. Du kan kjenne at pumpa blir varm etter bruk.
-
+::: {.fasit}
+$+30\,\mathrm{J}$
 :::
 
 :::
@@ -183,16 +164,8 @@ c)  Hvor mye varme måtte gassen ha avgitt for at temperaturen skulle vært uend
 
 d)  Senere tilføres gassen $600\,\mathrm{J}$ varme. Gassen utvider seg og løfter stempelet, som har masse $25\,\mathrm{kg}$, rett opp. Den indre energien øker med $450\,\mathrm{J}$. Hvor høyt løftes stempelet? Se bort fra lufttrykket over stempelet og friksjon.
 
-::: {.losning}
-
-**a)** Arbeidet utføres *på* gassen, så $W = +250\,\mathrm{J}$. Gassen *avgir* varme, så $Q = -80\,\mathrm{J}$. Termodynamikkens 1. lov gir $$\Delta U = Q + W = -80\,\mathrm{J} + 250\,\mathrm{J} = \underline{\underline{+170\,\mathrm{J}}}$$
-
-**b)** Den indre energien øker. Siden den indre energien bare avhenger av temperaturen, **stiger temperaturen**.
-
-**c)** Temperaturen er uendret når $\Delta U = 0$: $$0 = Q + W \quad\implies\quad Q = -W = \underline{\underline{-250\,\mathrm{J}}}$$ Gassen måtte altså ha avgitt $250\,\mathrm{J}$ varme, like mye som arbeidet stempelet gjør på den.
-
-**d)** Nå er $Q = +600\,\mathrm{J}$ og $\Delta U = +450\,\mathrm{J}$. Termodynamikkens 1. lov gir $$W = \Delta U - Q = 450\,\mathrm{J} - 600\,\mathrm{J} = -150\,\mathrm{J}$$ Det negative fortegnet betyr at gassen gjør $150\,\mathrm{J}$ arbeid på stempelet. Arbeidet går til å løfte stempelet mot tyngdekraften, $W_\text{gass} = m\mathrm{g}h$: $$h = \frac{W_\text{gass}}{m\mathrm{g}} = \frac{150\,\mathrm{J}}{25\,\mathrm{kg}\cdot9.81\,\mathrm{m/s^2}} = 0.612\,\mathrm{m} \approx \underline{\underline{0.61\,\mathrm{m}}}$$
-
+::: {.fasit}
+a) $+170\,\mathrm{J}$ · c) $-250\,\mathrm{J}$ · d) $0.61\,\mathrm{m}$
 :::
 
 :::
@@ -208,19 +181,8 @@ b)  Hvor mye øker den indre energien til lufta i ballongen?
 
 c)  Hvor stor del av varmen ble igjen som indre energi?
 
-::: {.losning}
-**a)** Trykket er konstant, og $\Delta V = 0.15\ \mathrm{L} = 1.5\cdot10^{-4}\ \mathrm{m^3}$:
-$$
-W_\text{gass} = p\,\Delta V = 101\cdot10^{3}\ \mathrm{Pa}\cdot1.5\cdot10^{-4}\ \mathrm{m^3} = 15.2\ \mathrm{J} \approx \underline{\underline{15\ \mathrm{J}}}
-$$
-Ballongen skyver lufta rundt seg til side, og det krever arbeid.
-
-**b)** Lufta i ballongen gjør arbeidet, så $W = -15.2\ \mathrm{J}$ i 1. lov:
-$$
-\Delta U = Q + W = 50\ \mathrm{J} - 15.2\ \mathrm{J} = 34.8\ \mathrm{J} \approx \underline{\underline{35\ \mathrm{J}}}
-$$
-
-**c)** $34.8\ \mathrm{J}/50\ \mathrm{J} = 0.70$, altså omtrent $\underline{\underline{70\ \%}}$. Resten gikk med til å skyve lufta utenfor til side.
+::: {.fasit}
+a) $15\ \mathrm{J}$ · b) $35\ \mathrm{J}$ · c) $70\ \%$
 :::
 :::
 

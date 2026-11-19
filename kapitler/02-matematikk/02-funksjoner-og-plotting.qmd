@@ -93,15 +93,6 @@ a)  Bruk Python (eller et annet verktøy du måtte foretrekke) til å plotte fun
 
 b)  Modifiser Python-koden gitt i teksten over slik at startfarten er $v_0 = 3.0\,\mathrm{m}\,\mathrm{s}^{-1}$. Hva forandrer seg i grafene? Grafen du plotter i oppgave a) kan være til hjelp for å se svaret.
 
-::: {.losning}
-
-**a)** Funksjonen $f(x)=2x^2-3x+1$ plottes med koden under. Grafen er en oppovervendt parabel (siden koeffisienten foran $x^2$ er positiv), med bunnpunkt ved $x=-b/(2a)=3/4=0.75$ og nullpunkter ved $x=0.5$ og $x=1$ (løs $2x^2-3x+1=0$ med abc-formelen).
-
-**b)** Vi endrer `v0 = 0.0` til `v0 = 3.0` i koden i teksten over. Da blir posisjonen $$s(t) = s_0 + v_0 t + \tfrac12 a t^2 = 3.0\,t + t^2$$ og farten $v(t)=v_0+at = 3.0+2.0t$. Fart-grafen er fortsatt en rett linje med samme stigningstall, men *løftet opp* slik at den starter på $3.0\,\mathrm{m}\,\mathrm{s}^{-1}$ i stedet for $0$. Posisjonsgrafen er fortsatt en oppovervendt parabel, men stigningstallet ved $t=0$ er nå $3.0$ i stedet for $0$, slik at kurven stiger brattere helt fra starten — den ser ikke lenger flat ut ved $t=0$.
-
-Dette er akkurat den samme effekten som i oppgave a): leddet $v_0t$ i $s(t)$ spiller samme rolle som leddet $-3x$ i $f(x)=2x^2-3x+1$ — et lineært ledd flytter bunnpunktet til parabelen bort fra origo. For $f(x)$ ligger bunnpunktet ved $x=0.75$, synlig i det plottede intervallet. For $s(t)$ med $v_0=3.0$ og $a=2.0$ ligger bunnpunktet ved $t=-v_0/a=-1.5\,\mathrm{s}$, altså *utenfor* tidsintervallet $t\in[0,5]\,\mathrm{s}$ som plottes — derfor ser vi bare den stigende delen av parabelen, uten at kurven flater ut noe sted i grafen.
-
-:::
 
 :::
 

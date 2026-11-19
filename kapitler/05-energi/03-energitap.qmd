@@ -80,16 +80,8 @@ c)  Hvor mye mekanisk energi har gått tapt? Hvor har denne energien blitt av?
 
 d)  Hvor mange prosent av den opprinnelige energien gikk tapt?
 
-::: {.losning}
-
-**a)** $$E_p = m\mathrm{g}h = 90\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot25\,\mathrm{m} = 22.1\,\mathrm{kJ} \approx \underline{\underline{22\,\mathrm{kJ}}}$$
-
-**b)** $$E_\text{K} = \frac{1}{2}mv^2 = \frac{1}{2}\cdot90\,\mathrm{kg}\cdot(15\,\mathrm{m}\,\mathrm{s}^{-1})^2 = 10.1\,\mathrm{kJ} \approx \underline{\underline{10\,\mathrm{kJ}}}$$
-
-**c)** På toppen er all mekanisk energi potensiell, og i bunnen er all mekanisk energi kinetisk. Tapet er differansen: $$\Delta E = 22.1\,\mathrm{kJ} - 10.1\,\mathrm{kJ} = 12.0\,\mathrm{kJ} \approx \underline{\underline{12\,\mathrm{kJ}}}$$ Energien er ikke borte. Den har gått til å varme opp lufta og dekkene, på grunn av luftmotstand og rullemotstand.
-
-**d)** $$\frac{12.0\,\mathrm{kJ}}{22.1\,\mathrm{kJ}} = 0.54 = \underline{\underline{54\,\%}}$$
-
+::: {.fasit}
+a) $22\,\mathrm{kJ}$ · b) $10\,\mathrm{kJ}$ · c) $12\,\mathrm{kJ}$ · d) $54\,\%$
 :::
 
 :::
@@ -105,14 +97,8 @@ b)  Hvor mye mekanisk energi blir omdannet til varme på denne strekningen?
 
 c)  Klossen hadde farten $v_0 = 4.0\,\mathrm{m}\,\mathrm{s}^{-1}$ i starten. Hvilken fart har den etter $3.0\,\mathrm{m}$?
 
-::: {.losning}
-
-**a)** Bordet er horisontalt, så $N = m\mathrm{g}$, og friksjonskraften blir $$R = \mu_k N = 0.25\cdot2.0\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} = \underline{\underline{4.9\,\mathrm{N}}}$$
-
-**b)** Energien som blir omdannet til varme, er like stor som arbeidet friksjonen gjør mot bevegelsen: $$Q = R\cdot s = 4.9\,\mathrm{N}\cdot3.0\,\mathrm{m} = 14.7\,\mathrm{J} \approx \underline{\underline{15\,\mathrm{J}}}$$
-
-**c)** Klossen starter med $$E_{\text{K},0} = \frac{1}{2}\cdot2.0\,\mathrm{kg}\cdot(4.0\,\mathrm{m}\,\mathrm{s}^{-1})^2 = 16.0\,\mathrm{J}$$ Etter $3.0\,\mathrm{m}$ er $14.7\,\mathrm{J}$ blitt til varme, så $E_\text{K} = 16.0\,\mathrm{J} - 14.7\,\mathrm{J} = 1.3\,\mathrm{J}$. Farten er da $$v = \sqrt{\frac{2E_\text{K}}{m}} = \sqrt{\frac{2\cdot1.3\,\mathrm{J}}{2.0\,\mathrm{kg}}} = \underline{\underline{1.1\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
-
+::: {.fasit}
+a) $4.9\,\mathrm{N}$ · b) $15\,\mathrm{J}$ · c) $1.1\,\mathrm{m}\,\mathrm{s}^{-1}$
 :::
 
 :::

@@ -147,23 +147,8 @@ a) Finn omkretsen med usikkerhet.
 
 b) Finn arealet med usikkerhet.
 
-::: {.losning}
-a) Omkretsen er $O = 2l + 2b = 2\cdot 3.40\ \mathrm{m} + 2\cdot 2.10\ \mathrm{m} = 11.00\ \mathrm{m}$. Her legges absolutte usikkerheter sammen, og $l$ og $b$ er med to ganger hver:
-$$
-\Delta O = 2\cdot 0.05\ \mathrm{m} + 2\cdot 0.05\ \mathrm{m} = 0.2\ \mathrm{m}
-\qquad
-O = \underline{\underline{(11.0 \pm 0.2)\ \mathrm{m}}}
-$$
-
-b) Arealet er $A = l\cdot b = 3.40\ \mathrm{m}\cdot 2.10\ \mathrm{m} = 7.14\ \mathrm{m^2}$. Ved ganging legges relative usikkerheter sammen:
-$$
-\frac{\Delta A}{A} = \frac{0.05}{3.40} + \frac{0.05}{2.10} = 0.0147 + 0.0238 = 0.0385
-\qquad
-\Delta A = 0.0385\cdot 7.14\ \mathrm{m^2} = 0.27\ \mathrm{m^2}
-$$
-$$
-A = \underline{\underline{(7.1 \pm 0.3)\ \mathrm{m^2}}}
-$$
+::: {.fasit}
+a) $(11.0 \pm 0.2)\ \mathrm{m}$ · b) $(7.1 \pm 0.3)\ \mathrm{m^2}$
 :::
 :::
 
@@ -176,24 +161,8 @@ b) Aluminium har massetetthet $2.70\ \mathrm{g/cm^3}$ og sink $7.13\ \mathrm{g/c
 
 c) Hvilken måling bør du forbedre for å få et sikrere svar?
 
-::: {.losning}
-a) Massetettheten er
-$$
-\rho = \frac{m}{V} = \frac{54.2\ \mathrm{g}}{20.0\ \mathrm{cm^3}} = 2.71\ \mathrm{g/cm^3}
-$$
-De relative usikkerhetene legges sammen:
-$$
-\frac{\Delta\rho}{\rho} = \frac{0.1}{54.2} + \frac{0.5}{20.0} = 0.0018 + 0.025 = 0.027
-\qquad
-\Delta\rho = 0.027\cdot 2.71\ \mathrm{g/cm^3} = 0.07\ \mathrm{g/cm^3}
-$$
-$$
-\rho = \underline{\underline{(2.71 \pm 0.07)\ \mathrm{g/cm^3}}}
-$$
-
-b) Intervallet går fra $2.64$ til $2.78\ \mathrm{g/cm^3}$. Aluminium ligger innenfor, sink langt utenfor. Biten er trolig **aluminium**.
-
-c) Volumet bidrar med $2.5\ \%$ og massen med under $0.2\ \%$. Det er **volummålingen** som bør forbedres, for eksempel med en smalere målesylinder.
+::: {.fasit}
+$(2.71 \pm 0.07)\ \mathrm{g/cm^3}$
 :::
 :::
 
@@ -204,43 +173,16 @@ a) Regn ut $\mathrm{g}$ med usikkerhet.
 
 b) Stemmer målingen med $9.81\ \mathrm{m/s^2}$?
 
-::: {.losning}
-a) Verdien er
-$$
-\mathrm{g} = \frac{2\cdot 1.50\ \mathrm{m}}{(0.55\ \mathrm{s})^2} = 9.92\ \mathrm{m/s^2}
-$$
-Tallet 2 er eksakt. Tiden er opphøyd i andre, så dens relative usikkerhet teller dobbelt:
-$$
-\frac{\Delta \mathrm{g}}{\mathrm{g}} = \frac{0.01}{1.50} + 2\cdot\frac{0.02}{0.55} = 0.0067 + 0.0727 = 0.079
-\qquad
-\Delta \mathrm{g} = 0.079\cdot 9.92\ \mathrm{m/s^2} = 0.8\ \mathrm{m/s^2}
-$$
-$$
-\mathrm{g} = \underline{\underline{(9.9 \pm 0.8)\ \mathrm{m/s^2}}}
-$$
-
-b) Intervallet går fra $9.1$ til $10.7\ \mathrm{m/s^2}$, og $9.81\ \mathrm{m/s^2}$ ligger innenfor. Målingen **stemmer**, men usikkerheten er stor. Nesten alt kommer fra tiden.
+::: {.fasit}
+$(9.9 \pm 0.8)\ \mathrm{m/s^2}$
 :::
 :::
 
 ::: {.oppgave tittel="Volumet av en kule" niva="Middels"}
 Diameteren til en kule er målt med skyvelære til $d = (6.0 \pm 0.1)\ \mathrm{cm}$. Volumet er $V = \dfrac{\pi}{6}\,d^3$. Finn volumet med usikkerhet.
 
-::: {.losning}
-Volumet er
-$$
-V = \frac{\pi}{6}\cdot (6.0\ \mathrm{cm})^3 = 113.1\ \mathrm{cm^3}
-$$
-$\pi/6$ er eksakt. Diameteren er opphøyd i tredje, så
-$$
-\frac{\Delta V}{V} = 3\cdot\frac{0.1}{6.0} = 0.050
-\qquad
-\Delta V = 0.050\cdot 113.1\ \mathrm{cm^3} = 5.7\ \mathrm{cm^3}
-$$
-Usikkerheten rundes til ett gjeldende siffer, $6\ \mathrm{cm^3}$, og verdien til hele kubikkcentimeter:
-$$
-V = \underline{\underline{(113 \pm 6)\ \mathrm{cm^3}}}
-$$
+::: {.fasit}
+$(113 \pm 6)\ \mathrm{cm^3}$
 :::
 :::
 
@@ -253,26 +195,8 @@ b) Finn $Q$ med usikkerhet.
 
 c) Hvordan kan forsøket gjøres bedre?
 
-::: {.losning}
-a) Temperaturøkningen er en forskjell, så de absolutte usikkerhetene legges sammen:
-$$
-\Delta T = 23.0\ ^\circ\mathrm{C} - 20.5\ ^\circ\mathrm{C} = 2.5\ \mathrm{K} \qquad \text{usikkerhet: } 0.5\ \mathrm{K} + 0.5\ \mathrm{K} = 1.0\ \mathrm{K}
-$$
-$$
-\Delta T = \underline{\underline{(2.5 \pm 1.0)\ \mathrm{K}}}
-$$
-Det er en relativ usikkerhet på $40\ \%$.
-
-b) Energien er
-$$
-Q = 0.500\ \mathrm{kg}\cdot 4.18\ \mathrm{\frac{kJ}{kg\cdot K}}\cdot 2.5\ \mathrm{K} = 5.2\ \mathrm{kJ}
-$$
-De relative usikkerhetene legges sammen: $\frac{0.001}{0.500} + 40\ \% = 0.2\ \% + 40\ \% = 40\ \%$. Det gir en usikkerhet på $0.40\cdot 5.2\ \mathrm{kJ} = 2.1\ \mathrm{kJ}$:
-$$
-Q = \underline{\underline{(5 \pm 2)\ \mathrm{kJ}}}
-$$
-
-c) Det er den lille temperaturforskjellen som ødelegger. La dyppekokeren stå lenger, slik at temperaturen stiger for eksempel $20\ \mathrm{K}$. Da blir usikkerheten i $\Delta T$ bare $1.0 / 20 = 5\ \%$. Et termometer med mindre usikkerhet hjelper også.
+::: {.fasit}
+a) $(2.5 \pm 1.0)\ \mathrm{K}$ · b) $(5 \pm 2)\ \mathrm{kJ}$
 :::
 :::
 

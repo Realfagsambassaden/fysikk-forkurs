@@ -121,24 +121,8 @@ b)  Finn friksjonskraften $R$.
 
 c)  Finn kjelkens akselerasjon.
 
-::: {.losning}
-
-**1. Figur:** Kjelken påvirkes av fire krefter: tyngdekraften $\vec G$ (ned), normalkraften $\vec N$ (opp), trekkraften $\vec F$ (i vinkel $\theta=30^\circ$ over horisontalen) og friksjonskraften $\vec R$ (mot bevegelsesretningen), akkurat som i figuren.
-
-**2. Lov:** Newtons 2. lov, $\sum\vec F = m\vec a$. Friksjonen er glidefriksjon: $R=\mu_k N$.
-
-**3. Koordinatsystem:** $x$ horisontalt (i bevegelsesretningen), $y$ vertikalt oppover. Kjelken beveger seg bare langs bakken, så $a_y=0$.
-
-**4. Dekomponér:** Trekkraften har komponenter $F_x=F\cos\theta$ og $F_y=F\sin\theta$. I $y$-retning: $$\sum F_y = N + F\sin\theta - m\mathrm{g} = 0 \quad\Rightarrow\quad N = m\mathrm{g} - F\sin\theta$$ I $x$-retning: $$\sum F_x = F\cos\theta - R = ma$$
-
-**5. Løs:**
-
-**a)** Normalkraften: $$N = m\mathrm{g} - F\sin\theta = 15\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2} - 50\,\mathrm{N}\cdot\sin(30^\circ) = 122\,\mathrm{N} \approx \underline{\underline{1.2\cdot 10^{2}\,\mathrm{N}}}$$ Legg merke til at $N$ er *mindre* enn tyngdekraften, siden trekkraftens vertikale komponent bidrar til å løfte kjelken litt.
-
-**b)** Friksjonskraften: $$R = \mu_k N = 0.20\cdot122\,\mathrm{N} = 24.4\,\mathrm{N} \approx \underline{\underline{24\,\mathrm{N}}}$$
-
-**c)** Akselerasjonen, fra $x$-likningen: $$a = \frac{F\cos\theta - R}{m} = \frac{50\,\mathrm{N}\cdot\cos(30^\circ) - 24.4\,\mathrm{N}}{15\,\mathrm{kg}} = 1.26\,\mathrm{m}\,\mathrm{s}^{-2} \approx \underline{\underline{1.3\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
-
+::: {.fasit}
+a) $1.2\cdot 10^{2}\,\mathrm{N}$ · b) $24\,\mathrm{N}$ · c) $1.3\,\mathrm{m}\,\mathrm{s}^{-2}$
 :::
 
 :::
@@ -212,12 +196,8 @@ a)  Ved hvilken helningsvinkel $\theta_c$ begynner bussen å skli nedover?
 
 b)  Hva blir akselerasjonen til bussen idet den begynner å skli?
 
-::: {.losning}
-
-**a)** Bussen begynner å skli idet tyngdekraftens komponent langs bakken akkurat overgår maksimal hvilefriksjon – dette er den kritiske vinkelen utledet i *Kritisk vinkel* (avsnittet *Skråplan*): $$\theta_c = \arctan(\mu_s) = \arctan(0.70) = 35.0^\circ \approx \underline{\underline{35^\circ}}$$
-
-**b)** Idet bussen begynner å skli, glir den, så vi bruker *kinetisk* friksjon $\mu_k$ i formelen for akselerasjon ned et skråplan (utledet i samme avsnitt): $$a = \mathrm{g}(\sin\theta_c - \mu_k\cos\theta_c) = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot\left(\sin(35.0^\circ) - 0.50\cdot\cos(35.0^\circ)\right) = 1.61\,\mathrm{m}\,\mathrm{s}^{-2} \approx \underline{\underline{1.6\,\mathrm{m}\,\mathrm{s}^{-2}}}$$ Akselerasjonen er rettet nedover bakken.
-
+::: {.fasit}
+a) $35^\circ$ · b) $1.6\,\mathrm{m}\,\mathrm{s}^{-2}$
 :::
 
 :::

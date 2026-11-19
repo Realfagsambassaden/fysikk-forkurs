@@ -131,12 +131,8 @@ b)  Hvor mange elektroner tilsvarer det?
 
 c)  Hvor mye energi har laderen levert?
 
-::: {.losning}
-**a)** $t = 2.0\cdot 3600\ \mathrm{s} = 7200\ \mathrm{s}$: $\quad q = It = 1.5\ \mathrm{A}\cdot 7200\ \mathrm{s} = \underline{\underline{1.1\cdot 10^{4}\ \mathrm{C}}}$
-
-**b)** $N = \dfrac{q}{\mathrm{e}} = \dfrac{1.08\cdot 10^{4}\ \mathrm{C}}{1.602\cdot 10^{-19}\ \mathrm{C}} = \underline{\underline{6.7\cdot 10^{22}}}$
-
-**c)** $W = Uq = 5.0\ \mathrm{V}\cdot 1.08\cdot 10^{4}\ \mathrm{C} = \underline{\underline{5.4\cdot 10^{4}\ \mathrm{J}}}$
+::: {.fasit}
+a) $1.1\cdot 10^{4}\ \mathrm{C}$ · b) $6.7\cdot 10^{22}$ · c) $5.4\cdot 10^{4}\ \mathrm{J}$
 :::
 :::
 
@@ -147,12 +143,8 @@ b)  Hvor mange elektroner tilsvarer det?
 
 c)  En gnist overfører ladningen $1.0\ \mathrm{C}$ på $2.0\ \mathrm{ms}$. Hvor stor er strømmen?
 
-::: {.losning}
-**a)** $q = It = 0.50\ \mathrm{A}\cdot 600\ \mathrm{s} = \underline{\underline{3.0\cdot 10^{2}\ \mathrm{C}}}$
-
-**b)** $N = \dfrac{3.0\cdot 10^{2}\ \mathrm{C}}{1.602\cdot 10^{-19}\ \mathrm{C}} = \underline{\underline{1.9\cdot 10^{21}}}$
-
-**c)** $I = \dfrac{q}{t} = \dfrac{1.0\ \mathrm{C}}{2.0\cdot 10^{-3}\ \mathrm{s}} = \underline{\underline{5.0\cdot 10^{2}\ \mathrm{A}}}$. Stor strøm, men bare i et kort øyeblikk.
+::: {.fasit}
+a) $3.0\cdot 10^{2}\ \mathrm{C}$ · b) $1.9\cdot 10^{21}$ · c) $5.0\cdot 10^{2}\ \mathrm{A}$
 :::
 :::
 
@@ -164,16 +156,8 @@ a)  Hvor mye ladning går gjennom pæra på $2.0\ \mathrm{min}$?
 
 b)  Hvor mange elektroner er det?
 
-::: {.losning}
-**a)** $\Delta t = 2.0\cdot60\ \mathrm{s} = 120\ \mathrm{s}$:
-$$
-\Delta Q = I\,\Delta t = 0.25\ \mathrm{A}\cdot120\ \mathrm{s} = \underline{\underline{30\ \mathrm{C}}}
-$$
-
-**b)**
-$$
-N = \frac{\Delta Q}{\mathrm{e}} = \frac{30\ \mathrm{C}}{1.602\cdot10^{-19}\ \mathrm{C}} = \underline{\underline{1.9\cdot10^{20}}}
-$$
+::: {.fasit}
+$30\ \mathrm{C}$ · $1.9\cdot10^{20}$
 :::
 :::
 
@@ -185,17 +169,8 @@ a)  Er amperetime en enhet for strøm, ladning eller energi? Gjør $60\ \mathrm{
 
 b)  Hvor mye energi kan batteriet levere?
 
-::: {.losning}
-**a)** Ampere ganger tid er ladning, $\Delta Q = I\,\Delta t$. Amperetime er altså en enhet for **ladning**:
-$$
-60\ \mathrm{Ah} = 60\ \mathrm{A}\cdot3600\ \mathrm{s} = 2.16\cdot10^{5}\ \mathrm{C} \approx \underline{\underline{2.2\cdot10^{5}\ \mathrm{C}}}
-$$
-
-**b)** Hver coulomb leverer $12\ \mathrm{J}$:
-$$
-W = qU = 2.16\cdot10^{5}\ \mathrm{C}\cdot12\ \mathrm{V} = 2.59\cdot10^{6}\ \mathrm{J} \approx \underline{\underline{2.6\ \mathrm{MJ}}}
-$$
-Det er omtrent $0.72\ \mathrm{kWh}$.
+::: {.fasit}
+a) $2.2\cdot10^{5}\ \mathrm{C}$ · b) $2.6\ \mathrm{MJ}$
 :::
 :::
 
@@ -209,22 +184,8 @@ b)  Finn farten til elektronene.
 
 c)  Hvor lang tid bruker et elektron på å bevege seg $1.0\ \mathrm{m}$ langs ledningen?
 
-::: {.losning}
-**a)** På tiden $\Delta t$ flytter elektronene seg strekningen $v\,\Delta t$. Alle elektronene i en sylinder med grunnflate $A$ og lengde $v\,\Delta t$ passerer da tverrsnittet. Sylinderen har volumet $A\,v\,\Delta t$ og inneholder $n\,A\,v\,\Delta t$ elektroner, hver med ladning $\mathrm{e}$. Altså er $\Delta Q = n\,\mathrm{e}\,A\,v\,\Delta t$, og
-$$
-I = \frac{\Delta Q}{\Delta t} = n\,\mathrm{e}\,A\,v \quad\implies\quad v = \frac{I}{n\,\mathrm{e}\,A}
-$$
-
-**b)** Med $A = 1.0\ \mathrm{mm^2} = 1.0\cdot10^{-6}\ \mathrm{m^2}$:
-$$
-v = \frac{1.0\ \mathrm{A}}{8.5\cdot10^{28}\ \mathrm{m^{-3}}\cdot1.602\cdot10^{-19}\ \mathrm{C}\cdot1.0\cdot10^{-6}\ \mathrm{m^2}} = 7.3\cdot10^{-5}\ \mathrm{m/s} = \underline{\underline{0.073\ \mathrm{mm/s}}}
-$$
-
-**c)**
-$$
-t = \frac{1.0\ \mathrm{m}}{7.3\cdot10^{-5}\ \mathrm{m/s}} = 1.4\cdot10^{4}\ \mathrm{s} \approx \underline{\underline{3.8\ \mathrm{h}}}
-$$
-Elektronene kryper altså saktere enn en snegle. Lampa lyser likevel med en gang, fordi ledningen allerede er full av elektroner som begynner å bevege seg samtidig.
+::: {.fasit}
+$0.073\ \mathrm{mm/s}$ · $3.8\ \mathrm{h}$
 :::
 :::
 

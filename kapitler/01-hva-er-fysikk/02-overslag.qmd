@@ -148,89 +148,40 @@ a) Avstanden Oslo–Trondheim langs veien, $490\ \mathrm{km}$, i meter.
 b) Massen til en mygg, $0.0000025\ \mathrm{kg}$.
 c) Antall innbyggere i verden, omtrent $8\,200\,000\,000$.
 
-::: {.losning}
-a) $490\ \mathrm{km} = 490\,000\ \mathrm{m} = 4.9\cdot10^{5}\ \mathrm{m}$. Tallet foran, $4.9$, er større enn $3$, så vi runder opp: størrelsesorden $\underline{\underline{10^{6}\ \mathrm{m}}}$.
-
-b) $0.0000025\ \mathrm{kg} = 2.5\cdot10^{-6}\ \mathrm{kg}$ (kommaet flyttes 6 plasser mot høyre). $2.5$ er mindre enn $3$: størrelsesorden $\underline{\underline{10^{-6}\ \mathrm{kg}}}$.
-
-c) $8\,200\,000\,000 = 8.2\cdot10^{9}$. $8.2$ er større enn $3$: størrelsesorden $\underline{\underline{10^{10}}}$.
+::: {.fasit}
+a) $10^{6}\ \mathrm{m}$ · b) $10^{-6}\ \mathrm{kg}$ · c) $10^{10}$
 :::
 :::
 
 ::: {.oppgave tittel="Sekunder i et år"}
 Hvor mange sekunder er det i et år? Regn først med runde tall i hodet, og så nøyaktig.
 
-::: {.losning}
-Et år har $365$ døgn, et døgn har $24$ timer, en time har $60$ minutter og et minutt har $60$ sekunder.
-
-**Overslag i hodet:** $400 \cdot 25 \cdot 60 \cdot 60 = 10\,000\cdot 3600 = 3.6\cdot10^{7}\ \mathrm{s}$.
-
-**Nøyaktig:**
-$$
-365\cdot 24\cdot 60\cdot 60\ \mathrm{s} = 31\,536\,000\ \mathrm{s} \approx \underline{\underline{3.2\cdot10^{7}\ \mathrm{s}}}
-$$
-
-Overslaget bommet med drøyt $10\ \%$ – mer enn godt nok til å få riktig størrelsesorden, $10^{7}\ \mathrm{s}$. Mange fysikere husker tallet som «omtrent $\pi\cdot10^{7}$ sekunder».
+::: {.fasit}
+$3.2\cdot10^{7}\ \mathrm{s}$
 :::
 :::
 
 ::: {.oppgave tittel="Hjerteslag i et liv"}
 Hjertet til et voksent menneske slår omtrent $70$ ganger i minuttet. Lag et overslag over hvor mange ganger hjertet slår i løpet av et liv på $80$ år.
 
-::: {.losning}
-**Del opp:** antall slag $= (\text{slag per minutt})\cdot(\text{minutter i et liv})$.
-
-Minutter i et år: $365\cdot24\cdot60 = 525\,600 \approx 5.3\cdot10^{5}$.
-
-Minutter i 80 år: $80\cdot 5.3\cdot10^{5} \approx 4.2\cdot10^{7}$.
-
-Antall slag:
-$$
-N = 70\cdot 4.2\cdot10^{7} \approx 2.9\cdot10^{9}
-$$
-
-Hjertet slår omtrent $\underline{\underline{3\cdot10^{9}}}$ ganger – rundt tre milliarder slag. Pulsen varierer mye (lavere i søvn, høyere under trening), så ett siffer er nok.
+::: {.fasit}
+$3\cdot10^{9}$
 :::
 :::
 
 ::: {.oppgave tittel="Lufta i klasserommet" niva="Middels"}
 Et klasserom er $8\ \mathrm{m}$ langt, $6\ \mathrm{m}$ bredt og $3\ \mathrm{m}$ høyt. En kubikkmeter luft har massen $1.2\ \mathrm{kg}$. Hvor mye veier lufta i rommet? Sammenlign med noe du kjenner.
 
-::: {.losning}
-Volumet av rommet:
-$$
-V = 8\ \mathrm{m}\cdot 6\ \mathrm{m}\cdot 3\ \mathrm{m} = 144\ \mathrm{m^3}
-$$
-
-Hver kubikkmeter har massen $1.2\ \mathrm{kg}$, så
-$$
-m = 144\ \mathrm{m^3}\cdot 1.2\ \mathrm{kg/m^3} = 173\ \mathrm{kg} \approx \underline{\underline{2\cdot10^{2}\ \mathrm{kg}}}
-$$
-
-Det er omtrent like mye som to–tre voksne mennesker! Lufta føles vektløs fordi vi er omgitt av den på alle kanter, men den har masse.
+::: {.fasit}
+$2\cdot10^{2}\ \mathrm{kg}$
 :::
 :::
 
 ::: {.oppgave tittel="Tennisballer i klasserommet" niva="Utfordrende"}
 Hvor mange tennisballer får plass i klasserommet fra forrige oppgave? En tennisball har en diameter på omtrent $6.7\ \mathrm{cm}$. Bruk de fire stegene.
 
-::: {.losning}
-**1. Hva skal vi finne?** Antall baller $N$ (et rent tall).
-
-**2. Del opp:** $N = \dfrac{\text{volumet av rommet}}{\text{plassen hver ball tar}}$.
-
-**3. Anslå.** Ballene kan ikke fylle rommet helt; det blir luft mellom dem. En enkel modell er at hver ball tar like mye plass som en terning med sider lik diameteren:
-$$
-V_\text{ball} \approx (0.067\ \mathrm{m})^3 = 3.0\cdot10^{-4}\ \mathrm{m^3}
-$$
-Rommet har $V = 144\ \mathrm{m^3} \approx 1.4\cdot10^{2}\ \mathrm{m^3}$.
-
-**4. Regn ut.**
-$$
-N \approx \frac{1.4\cdot10^{2}\ \mathrm{m^3}}{3.0\cdot10^{-4}\ \mathrm{m^3}} \approx 0.48\cdot10^{6} \approx \underline{\underline{5\cdot10^{5}}}
-$$
-
-Det får plass omtrent en halv million tennisballer. Legger vi dem tettere (slik appelsiner stables i butikken), får vi plass til inntil $40\ \%$ flere, men størrelsesordenen er fortsatt $10^{6}$. Pulter og stoler tar også litt plass, så $5\cdot10^5$ er et godt overslag.
+::: {.fasit}
+$5\cdot10^{5}$
 :::
 :::
 

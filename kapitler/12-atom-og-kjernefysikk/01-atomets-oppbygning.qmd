@@ -90,18 +90,14 @@ Det er som tyngden av en sekk poteter – på én eneste partikkel med masse $10
 <!-- tillegg: Claude -->
 Hvor mange protoner, nøytroner og elektroner har et nøytralt atom av $^{56}_{26}\mathrm{Fe}$ og av $^{235}_{\ 92}\mathrm{U}$?
 
-::: {.losning}
-- Jern-56: **26 protoner, 30 nøytroner, 26 elektroner**.
-- Uran-235: **92 protoner, 143 nøytroner, 92 elektroner**.
-:::
 :::
 
 ::: {.oppgave tittel="Ioner"}
 <!-- tillegg: Claude -->
 Et natriumatom ($Z = 11$) mister ett elektron. Hva blir ladningen til ionet, og hvor mange elektroner har det?
 
-::: {.losning}
-Ionet har 11 protoner og **10 elektroner**, så ladningen er $\underline{\underline{+\mathrm{e} = 1.60\cdot10^{-19}\ \mathrm{C}}}$.
+::: {.fasit}
+$+\mathrm{e} = 1.60\cdot10^{-19}\ \mathrm{C}$
 :::
 :::
 
@@ -109,14 +105,8 @@ Ionet har 11 protoner og **10 elektroner**, så ladningen er $\underline{\underl
 <!-- tillegg: Claude -->
 En karbon-12-kjerne har radius ca. $2.7\cdot10^{-15}\ \mathrm{m}$ og masse $2.0\cdot10^{-26}\ \mathrm{kg}$. Finn tettheten til kjernen. Sammenlign med vann, $1.0\cdot10^{3}\ \mathrm{kg/m^3}$.
 
-::: {.losning}
-$$
-V = \tfrac43\pi r^3 = \tfrac43\pi(2.7\cdot10^{-15}\ \mathrm{m})^3 = 8.2\cdot10^{-44}\ \mathrm{m^3}
-$$
-$$
-\rho = \frac mV = \frac{2.0\cdot10^{-26}\ \mathrm{kg}}{8.2\cdot10^{-44}\ \mathrm{m^3}} = \underline{\underline{2.4\cdot10^{17}\ \mathrm{kg/m^3}}}
-$$
-Omtrent $10^{14}$ ganger tettere enn vann. En teskje med kjernestoff ville veid like mye som et fjell. (Nøytronstjerner består av slikt stoff.)
+::: {.fasit}
+$2.4\cdot10^{17}\ \mathrm{kg/m^3}$
 :::
 :::
 
@@ -124,14 +114,8 @@ Omtrent $10^{14}$ ganger tettere enn vann. En teskje med kjernestoff ville veid 
 <!-- tillegg: Claude -->
 I et hydrogenatom er elektronet i gjennomsnitt $5.3\cdot10^{-11}\ \mathrm{m}$ fra protonet. Finn den elektriske kraften og gravitasjonskraften mellom dem, og forholdet mellom kreftene.
 
-::: {.losning}
-$$
-F_e = \mathrm{k_e}\frac{\mathrm{e}^2}{r^2} = 8.99\cdot10^{9}\cdot\frac{(1.60\cdot10^{-19})^2}{(5.3\cdot10^{-11})^2}\ \mathrm{N} = \underline{\underline{8.2\cdot10^{-8}\ \mathrm{N}}}
-$$
-$$
-F_G = \mathrm{G}\frac{\mathrm{m_p}\mathrm{m_e}}{r^2} = 6.67\cdot10^{-11}\cdot\frac{1.67\cdot10^{-27}\cdot9.11\cdot10^{-31}}{(5.3\cdot10^{-11})^2}\ \mathrm{N} = \underline{\underline{3.6\cdot10^{-47}\ \mathrm{N}}}
-$$
-Forholdet er $F_e/F_G \approx \underline{\underline{2\cdot10^{39}}}$. I atomer er tyngdekraften helt uten betydning.
+::: {.fasit}
+$8.2\cdot10^{-8}\ \mathrm{N}$ · $3.6\cdot10^{-47}\ \mathrm{N}$ · $2\cdot10^{39}$
 :::
 :::
 

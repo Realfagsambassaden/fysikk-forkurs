@@ -101,11 +101,8 @@ På jorda forsøker forskere å lage fusjonsreaktorer med deuterium og tritium (
 <!-- tillegg: Claude -->
 Et kjernekraftverk leverer $1.0\ \mathrm{GW}$ varme i ett år. Hvor stor masse blir omdannet til energi?
 
-::: {.losning}
-$E = Pt = 1.0\cdot10^{9}\ \mathrm{W}\cdot3.16\cdot10^{7}\ \mathrm{s} = 3.2\cdot10^{16}\ \mathrm{J}$.
-$$
-m = \frac{E}{\mathrm{c}^2} = \frac{3.2\cdot10^{16}\ \mathrm{J}}{9.0\cdot10^{16}\ \mathrm{m^2/s^2}} = \underline{\underline{0.35\ \mathrm{kg}}}
-$$
+::: {.fasit}
+$0.35\ \mathrm{kg}$
 :::
 :::
 
@@ -113,11 +110,8 @@ $$
 <!-- tillegg: Claude -->
 Finn $X$ i reaksjonen $\;^{1}_{0}\mathrm{n} + {}^{235}_{\ 92}\mathrm{U} \to {}^{140}_{\ 54}\mathrm{Xe} + X + 2\,{}^{1}_{0}\mathrm{n}$. (Grunnstoff 38 er strontium.)
 
-::: {.losning}
-Nukleontall: $1 + 235 = 140 + A + 2$ gir $A = 94$. Ladning: $92 = 54 + Z$ gir $Z = 38$.
-$$
-X = \underline{\underline{^{94}_{38}\mathrm{Sr}}}
-$$
+::: {.fasit}
+$^{94}_{38}\mathrm{Sr}$
 :::
 :::
 
@@ -125,13 +119,8 @@ $$
 <!-- tillegg: Claude -->
 I en fusjonsreaktor skal reaksjonen $\;^2_1\mathrm{H} + {}^3_1\mathrm{H} \to {}^4_2\mathrm{He} + {}^1_0\mathrm{n}$ gi energi. Massene er $2.014102\ \mathrm{u}$, $3.016049\ \mathrm{u}$, $4.002603\ \mathrm{u}$ og $1.008665\ \mathrm{u}$. Hvor mye energi frigjøres per reaksjon?
 
-::: {.losning}
-$$
-\Delta m = (2.014102 + 3.016049 - 4.002603 - 1.008665)\ \mathrm{u} = 0.018883\ \mathrm{u}
-$$
-$$
-E = 0.018883\cdot931.5\ \mathrm{MeV} = \underline{\underline{17.6\ \mathrm{MeV}}}
-$$
+::: {.fasit}
+$17.6\ \mathrm{MeV}$
 :::
 :::
 
@@ -139,10 +128,8 @@ $$
 <!-- tillegg: Claude -->
 Sammenlign energien per kilogram brensel for D–T-fusjon (oppgaven over) og fisjon av uran-235 ($200\ \mathrm{MeV}$ per spalting). Hvilken gir mest per kilogram?
 
-::: {.losning}
-Per nukleon: Fusjon gir $17.6\ \mathrm{MeV}/5 = 3.5\ \mathrm{MeV}$, fisjon gir $200\ \mathrm{MeV}/236 = 0.85\ \mathrm{MeV}$. Siden massen er omtrent proporsjonal med antall nukleoner, gir **fusjon omtrent 4 ganger så mye** energi per kilogram.
-
-Med tall: $1\ \mathrm{kg}$ D–T inneholder $\dfrac{1000}{5.03}\cdot6.02\cdot10^{23} = 1.2\cdot10^{26}$ reaksjoner à $17.6\ \mathrm{MeV}$, altså $\underline{\underline{3.4\cdot10^{14}\ \mathrm{J}}}$, mot $8.2\cdot10^{13}\ \mathrm{J}$ for uran.
+::: {.fasit}
+$3.4\cdot10^{14}\ \mathrm{J}$
 :::
 :::
 

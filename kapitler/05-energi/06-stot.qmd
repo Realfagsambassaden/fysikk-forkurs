@@ -154,21 +154,6 @@ a)  Vis at bevegelsesmengden er bevart. (Husk at hastigheten er negativ når vog
 
 b)  Vis at den kinetiske energien også er bevart. Hva slags støt er dette?
 
-::: {.losning}
-
-Vi velger positiv retning i fartsretningen til vogn 1 før støtet. Da er $v_1 = 4.0\,\mathrm{m}\,\mathrm{s}^{-1}$, $v_2 = 0$, $u_1 = -2.0\,\mathrm{m}\,\mathrm{s}^{-1}$ og $u_2 = 2.0\,\mathrm{m}\,\mathrm{s}^{-1}$.
-
-**a)** Bevegelsesmengde før og etter: $$\begin{aligned}
-    p_\text{før} &= m_1v_1 + m_2v_2 = 1.0\,\mathrm{kg}\cdot4.0\,\mathrm{m}\,\mathrm{s}^{-1} + 0 = 4.0\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}\\
-    p_\text{etter} &= m_1u_1 + m_2u_2 = 1.0\,\mathrm{kg}\cdot(-2.0\,\mathrm{m}\,\mathrm{s}^{-1}) + 3.0\,\mathrm{kg}\cdot2.0\,\mathrm{m}\,\mathrm{s}^{-1} = 4.0\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}
-\end{aligned}$$ **$p_\text{før} = p_\text{etter}$**, så bevegelsesmengden er bevart.
-
-**b)** Kinetisk energi før og etter: $$\begin{aligned}
-    E_\text{K,før} &= \frac{1}{2}\cdot1.0\,\mathrm{kg}\cdot(4.0\,\mathrm{m}\,\mathrm{s}^{-1})^2 = 8.0\,\mathrm{J}\\
-    E_\text{K,etter} &= \frac{1}{2}\cdot1.0\,\mathrm{kg}\cdot(2.0\,\mathrm{m}\,\mathrm{s}^{-1})^2 + \frac{1}{2}\cdot3.0\,\mathrm{kg}\cdot(2.0\,\mathrm{m}\,\mathrm{s}^{-1})^2 = 2.0\,\mathrm{J} + 6.0\,\mathrm{J} = 8.0\,\mathrm{J}
-\end{aligned}$$ Både bevegelsesmengde og kinetisk energi er bevart, så støtet er **elastisk**.
-
-:::
 
 :::
 
@@ -187,19 +172,8 @@ b)  Finn den totale kinetiske energien før og etter støtet.
 
 c)  Hvor mye kinetisk energi gikk tapt, og hva ble den omdannet til?
 
-::: {.losning}
-
-**a)** Vognene henger sammen etter støtet og får samme fart $u$. Bevaring av bevegelsesmengde: $$m_1v_1 = (m_1 + m_2)\,u
-    \quad\implies\quad
-    u = \frac{2.0\,\mathrm{kg}\cdot3.0\,\mathrm{m}\,\mathrm{s}^{-1}}{3.0\,\mathrm{kg}} = \underline{\underline{2.0\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
-
-**b)** $$\begin{aligned}
-    E_\text{K,før} &= \frac{1}{2}\cdot2.0\,\mathrm{kg}\cdot(3.0\,\mathrm{m}\,\mathrm{s}^{-1})^2 = \underline{\underline{9.0\,\mathrm{J}}}\\
-    E_\text{K,etter} &= \frac{1}{2}\cdot3.0\,\mathrm{kg}\cdot(2.0\,\mathrm{m}\,\mathrm{s}^{-1})^2 = \underline{\underline{6.0\,\mathrm{J}}}
-\end{aligned}$$
-
-**c)** $9.0\,\mathrm{J} - 6.0\,\mathrm{J} = \underline{\underline{3.0\,\mathrm{J}}}$ kinetisk energi gikk tapt. Den er omdannet til varme, lyd og deformasjon av koblingen mellom vognene. Bevegelsesmengden er bevart, men den kinetiske energien er det ikke. Det er typisk for et uelastisk støt.
-
+::: {.fasit}
+a) $2.0\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $9.0\,\mathrm{J}$ · b) $6.0\,\mathrm{J}$ · c) $3.0\,\mathrm{J}$
 :::
 
 :::

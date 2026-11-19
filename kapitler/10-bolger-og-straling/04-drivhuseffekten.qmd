@@ -119,56 +119,29 @@ print(f"Med atmosfære:  {T_s:.0f} K = {T_s - 273.15:.0f} °C")
 ::: {.oppgave tittel="Inn, men ikke ut"}
 Forklar med Wiens forskyvningslov hvorfor atmosfæren slipper inn sollyset, men holder igjen mye av strålingen fra jorda. Bruk at sola har overflatetemperaturen $5778\ \mathrm{K}$ og jorda omtrent $288\ \mathrm{K}$.
 
-::: {.losning}
-Med $\lambda_{\text{maks}} = b/T$ og $b = 2.90\cdot10^{-3}\ \mathrm{m\,K}$:
-
-- Sola: $\lambda_{\text{maks}} = 2.90\cdot10^{-3}/5778\ \mathrm{m} = 502\ \mathrm{nm}$, synlig lys.
-- Jorda: $\lambda_{\text{maks}} = 2.90\cdot10^{-3}/288\ \mathrm{m} = 10.1\ \mathrm{\mu m}$, infrarødt.
-
-Strålingen fra sola og jorda ligger altså i helt ulike deler av spekteret. Drivhusgassene tar opp infrarød stråling, men slipper gjennom det meste av det synlige lyset. Derfor slipper sollyset inn, mens mye av varmestrålingen fra jorda blir tatt opp på vei ut.
-:::
 :::
 
 ::: {.oppgave tittel="Mer is, kaldere jord"}
 Anta at jorda ble mer dekket av is og snø, slik at albedoen økte fra $0.30$ til $0.35$. Hvor mye ville likevektstemperaturen uten atmosfære endret seg? Forklar hvorfor dette er en forsterkende tilbakekobling.
 
-::: {.losning}
-Med $\alpha = 0.35$:
-$$
-S = \frac{0.65\cdot 1361\ \mathrm{W/m^2}}{4} = 221\ \mathrm{W/m^2}, \qquad T = \left(\frac{221\ \mathrm{W/m^2}}{5.67\cdot10^{-8}\ \mathrm{W/(m^2\,K^4)}}\right)^{1/4} = 249.9\ \mathrm{K}
-$$
-Med $\alpha = 0.30$ var $T = 254.6\ \mathrm{K}$. Endringen er
-$$
-\Delta T = 249.9\ \mathrm{K} - 254.6\ \mathrm{K} = \underline{\underline{-4.7\ \mathrm{K}}}
-$$
-Kaldere jord gir mer is, som gir høyere albedo, som gir enda kaldere jord. Det motsatte skjer ved oppvarming: Isen smelter, albedoen synker, og jorda blir varmere. En endring som forsterker seg selv, kalles en forsterkende (positiv) tilbakekobling.
+::: {.fasit}
+$-4.7\ \mathrm{K}$
 :::
 :::
 
 ::: {.oppgave tittel="Venus" niva="Middels"}
 Venus er nærmere sola, og intensiteten av sollyset er $2601\ \mathrm{W/m^2}$. Men Venus er dekket av tykke, hvite skyer med albedo $0.76$. a) Finn likevektstemperaturen uten drivhuseffekt. b) Overflaten på Venus er målt til omtrent $737\ \mathrm{K}$. Hva sier det om atmosfæren?
 
-::: {.losning}
-a)
-$$
-S = \frac{(1-0.76)\cdot 2601\ \mathrm{W/m^2}}{4} = 156\ \mathrm{W/m^2}, \qquad T = \left(\frac{156\ \mathrm{W/m^2}}{5.67\cdot10^{-8}\ \mathrm{W/(m^2\,K^4)}}\right)^{1/4} = 229\ \mathrm{K} \approx \underline{\underline{2.3\cdot10^2\ \mathrm{K}}}
-$$
-Albedoen har to gjeldende siffer, så svaret får to. Uten drivhuseffekt ville Venus faktisk vært *kaldere* enn jorda, fordi skyene reflekterer så mye.
-
-b) Overflaten er over $500\ \mathrm{K}$ varmere enn dette. Atmosfæren på Venus er nesten bare CO₂ og omtrent 90 ganger så tett som vår. Den tar opp nesten all infrarød stråling fra bakken, og gir en ekstrem drivhuseffekt.
+::: {.fasit}
+$2.3\cdot10^2\ \mathrm{K}$
 :::
 :::
 
 ::: {.oppgave tittel="Det som holdes igjen" niva="Middels"}
 Jordoverflaten har en gjennomsnittstemperatur på $288\ \mathrm{K}$ og stråler omtrent som et svart legeme i infrarødt. a) Hvor mye stråler hver kvadratmeter av overflaten ut? b) Sammenlikn med de $238\ \mathrm{W/m^2}$ som til slutt går ut i rommet. Hvor blir det av resten?
 
-::: {.losning}
-a)
-$$
-\frac{P}{A} = \sigma T^4 = 5.67\cdot10^{-8}\ \mathrm{W/(m^2\,K^4)}\cdot(288\ \mathrm{K})^4 = \underline{\underline{390\ \mathrm{W/m^2}}}
-$$
-
-b) Overflaten stråler ut $390\ \mathrm{W/m^2}$, men bare $238\ \mathrm{W/m^2}$ forlater jorda. Forskjellen, omtrent $150\ \mathrm{W/m^2}$, blir tatt opp av atmosfæren og strålt tilbake mot bakken. Det er drivhuseffekten målt i watt per kvadratmeter. (Bakken taper i tillegg varme ved fordamping og varm luft som stiger, men det har vi sett bort fra her.)
+::: {.fasit}
+$390\ \mathrm{W/m^2}$
 :::
 :::
 
@@ -179,23 +152,8 @@ $$
 $$
 a) Hvor stort er pådrivet hvis CO₂-innholdet dobles? b) Uten tilbakekoblinger må jorda bli så mye varmere at den stråler ut $\Delta F$ ekstra. For små endringer er $\Delta(\sigma T^4) \approx 4\sigma T^3\,\Delta T$. Anslå $\Delta T$ med $T = 255\ \mathrm{K}$ (der strålingen ut i rommet kommer fra).
 
-::: {.losning}
-a)
-$$
-\Delta F = 5.35\ \mathrm{W/m^2}\cdot\ln 2 = \underline{\underline{3.71\ \mathrm{W/m^2}}}
-$$
-
-b) Den ekstra utstrålingen må være lik pådrivet:
-$$
-4\sigma T^3\,\Delta T = \Delta F \quad\Rightarrow\quad \Delta T = \frac{\Delta F}{4\sigma T^3}
-$$
-$$
-4\sigma T^3 = 4\cdot 5.67\cdot10^{-8}\ \mathrm{W/(m^2\,K^4)}\cdot(255\ \mathrm{K})^3 = 3.76\ \mathrm{W/(m^2\,K)}
-$$
-$$
-\Delta T = \frac{3.71\ \mathrm{W/m^2}}{3.76\ \mathrm{W/(m^2\,K)}} = 0.99\ \mathrm{K} \approx \underline{\underline{1\ \mathrm{K}}}
-$$
-Uten tilbakekoblinger gir en dobling av CO₂ altså omtrent én grad oppvarming. Tilbakekoblingene, særlig fra vanndamp og is, gjør at den virkelige oppvarmingen anslås til omtrent tre ganger så mye.
+::: {.fasit}
+$3.71\ \mathrm{W/m^2}$ · b) $1\ \mathrm{K}$
 :::
 :::
 

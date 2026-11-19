@@ -231,12 +231,8 @@ b)  En motstand på $4.0\ \mathrm{\Omega}$ kobles til et batteri på $12\ \mathr
 
 c)  Et batteri på $1.5\ \mathrm{V}$ gir strømmen $0.30\ \mathrm{A}$ gjennom en liten lyspære. Hva er resistansen i lyspæra?
 
-::: {.losning}
-**a)** $U = RI = 220\ \mathrm{\Omega}\cdot 0.050\ \mathrm{A} = \underline{\underline{11\ \mathrm{V}}}$
-
-**b)** $I = \dfrac{U}{R} = \dfrac{12\ \mathrm{V}}{4.0\ \mathrm{\Omega}} = \underline{\underline{3.0\ \mathrm{A}}}$
-
-**c)** $R = \dfrac{U}{I} = \dfrac{1.5\ \mathrm{V}}{0.30\ \mathrm{A}} = \underline{\underline{5.0\ \mathrm{\Omega}}}$
+::: {.fasit}
+a) $11\ \mathrm{V}$ · b) $3.0\ \mathrm{A}$ · c) $5.0\ \mathrm{\Omega}$
 :::
 :::
 
@@ -245,10 +241,8 @@ a)  En motstand på $33\ \mathrm{\Omega}$ kobles til et batteri på $12\ \mathrm
 
 b)  En lyspære kobles til $230\ \mathrm{V}$, og strømmen er $0.43\ \mathrm{A}$. Hva er resistansen i pæra?
 
-::: {.losning}
-**a)** $I = \dfrac{12\ \mathrm{V}}{33\ \mathrm{\Omega}} = 0.364\ \mathrm{A} \approx \underline{\underline{0.36\ \mathrm{A}}}$
-
-**b)** $R = \dfrac{230\ \mathrm{V}}{0.43\ \mathrm{A}} = 535\ \mathrm{\Omega} \approx \underline{\underline{5.3\cdot 10^{2}\ \mathrm{\Omega}}}$
+::: {.fasit}
+a) $0.36\ \mathrm{A}$ · b) $5.3\cdot 10^{2}\ \mathrm{\Omega}$
 :::
 :::
 
@@ -265,12 +259,8 @@ b)  Finn resistansen.
 
 c)  Hvilken spenning trengs for å få strømmen $0.25\ \mathrm{A}$?
 
-::: {.losning}
-**a)** Forholdet $U/I$ er $22$, $22$, $21.7$ og $22\ \mathrm{\Omega}$, altså nesten konstant. Punktene ligger på en rett linje gjennom origo, så motstanden **følger Ohms lov** (innenfor måleusikkerheten).
-
-**b)** $R \approx \underline{\underline{22\ \mathrm{\Omega}}}$ (stigningstallet til linja).
-
-**c)** $U = RI = 22\ \mathrm{\Omega}\cdot 0.25\ \mathrm{A} = \underline{\underline{5.5\ \mathrm{V}}}$
+::: {.fasit}
+b) $22\ \mathrm{\Omega}$ · c) $5.5\ \mathrm{V}$
 :::
 :::
 
@@ -278,9 +268,6 @@ c)  Hvilken spenning trengs for å få strømmen $0.25\ \mathrm{A}$?
 <!-- tillegg: Claude -->
 Svar på spørsmålet i «Til ettertanke» øverst på siden: Hvorfor blir glødetråden i lyspæra glovarm, mens ledningen fram til den nesten ikke blir varm? Den samme strømmen går jo gjennom begge.
 
-::: {.losning}
-Glødetråden har mye større resistans enn ledningen. Elektronene kolliderer mye oftere med atomene i glødetråden og gir fra seg energi der. Med samme strøm blir spenningsfallet $U = RI$, og dermed energien som blir til varme per ladning, mye større i glødetråden enn i ledningen.
-:::
 :::
 
 ::::

@@ -149,18 +149,8 @@ b) En tid er målt til $(3.2 \pm 0.1)\ \mathrm{s}$. Finn den relative usikkerhet
 
 c) Hvilken av de to målingene er mest nøyaktig?
 
-::: {.losning}
-a) Vi deler usikkerheten på verdien:
-$$
-\frac{\Delta m}{m} = \frac{2\ \mathrm{g}}{250\ \mathrm{g}} = 0.008 = \underline{\underline{0.8\ \%}}
-$$
-
-b)
-$$
-\frac{\Delta t}{t} = \frac{0.1\ \mathrm{s}}{3.2\ \mathrm{s}} = 0.031 = \underline{\underline{3\ \%}}
-$$
-
-c) Massemålingen har minst relativ usikkerhet og er derfor **mest nøyaktig**. Vi kan ikke sammenligne de absolutte usikkerhetene direkte, fordi de har ulike enheter.
+::: {.fasit}
+$0.8\ \%$ · $3\ \%$
 :::
 :::
 
@@ -173,22 +163,8 @@ b) $\mathrm{g} = 9.8147\ \mathrm{m/s^2}$ med usikkerhet $0.0234\ \mathrm{m/s^2}$
 
 c) $s = 1523.6\ \mathrm{m}$ med usikkerhet $40\ \mathrm{m}$ (bruk prefiks)
 
-::: {.losning}
-a) Usikkerheten rundes til ett gjeldende siffer: $0.38 \to 0.4$, altså tideler. Verdien rundes også til tideler:
-$$
-v = \underline{\underline{(13.5 \pm 0.4)\ \mathrm{m/s}}}
-$$
-
-b) Usikkerheten blir $0.02$ (hundredeler), og verdien rundes til hundredeler:
-$$
-\mathrm{g} = \underline{\underline{(9.81 \pm 0.02)\ \mathrm{m/s^2}}}
-$$
-
-c) Usikkerheten er $40\ \mathrm{m} = 0.04\ \mathrm{km}$, altså hundredeler av en kilometer. Verdien er $1.5236\ \mathrm{km}$, som rundes til $1.52\ \mathrm{km}$:
-$$
-s = \underline{\underline{(1.52 \pm 0.04)\ \mathrm{km}}}
-$$
-Med prefiks blir det tydelig hvor mange siffer som er sikre. Skrevet som «$1520\ \mathrm{m}$» kunne vi ikke se det.
+::: {.fasit}
+a) $(13.5 \pm 0.4)\ \mathrm{m/s}$ · b) $(9.81 \pm 0.02)\ \mathrm{m/s^2}$ · c) $(1.52 \pm 0.04)\ \mathrm{km}$
 :::
 :::
 
@@ -203,15 +179,6 @@ c) Termometeret henger i sola når du skal måle lufttemperaturen.
 
 d) Det blåser litt ujevnt når du måler hvor langt en papirflyver flyr.
 
-::: {.losning}
-a) **Tilfeldig.** Noen ganger trykker du for tidlig, andre ganger for sent. Gjennomsnittet av mange målinger blir bedre.
-
-b) **Systematisk.** Alle målingene blir $5\ \mathrm{g}$ for store. Å gjenta hjelper ikke, men feilen kan rettes ved å nullstille vekta eller trekke fra $5\ \mathrm{g}$.
-
-c) **Systematisk.** Sola varmer termometeret, så det viser for høy temperatur hver gang. Flytt termometeret i skyggen.
-
-d) **Tilfeldig.** Vinden hjelper noen ganger og bremser andre ganger. Mange forsøk gir et bedre gjennomsnitt.
-:::
 :::
 
 ::: {.oppgave tittel="Falltid" niva="Middels"}
@@ -223,26 +190,8 @@ b) Finn den relative usikkerheten.
 
 c) Stoppeklokka viser hundredeler. Hvorfor er usikkerheten likevel større enn $0.01\ \mathrm{s}$?
 
-::: {.losning}
-a) Gjennomsnittet er
-$$
-\bar t = \frac{0.64 + 0.61 + 0.66 + 0.62 + 0.67 + 0.63}{6}\ \mathrm{s} = \frac{3.83}{6}\ \mathrm{s} = 0.638\ \mathrm{s}
-$$
-Halve spredningen er
-$$
-\Delta t = \tfrac{1}{2}(0.67 - 0.61)\ \mathrm{s} = 0.03\ \mathrm{s}
-$$
-Usikkerheten står på hundredeler, så vi runder gjennomsnittet til hundredeler:
-$$
-t = \underline{\underline{(0.64 \pm 0.03)\ \mathrm{s}}}
-$$
-
-b)
-$$
-\frac{\Delta t}{t} = \frac{0.03\ \mathrm{s}}{0.64\ \mathrm{s}} = 0.047 = \underline{\underline{5\ \%}}
-$$
-
-c) Det er ikke klokka som setter grensen, men deg. Reaksjonstiden når du starter og stopper klokka varierer med flere hundredeler fra gang til gang. Det ser vi på spredningen i målingene.
+::: {.fasit}
+$(0.64 \pm 0.03)\ \mathrm{s}$ · $5\ \%$
 :::
 :::
 
@@ -255,13 +204,6 @@ b) Er målingene enige med den kjente verdien $9.81\ \mathrm{m/s^2}$?
 
 c) Gruppe 2 har mye mindre usikkerhet. Hva kan du si om målingen deres?
 
-::: {.losning}
-a) Gruppe 1 gir intervallet fra $9.3$ til $9.9\ \mathrm{m/s^2}$. Gruppe 2 gir intervallet fra $9.87$ til $9.97\ \mathrm{m/s^2}$. Intervallene overlapper mellom $9.87$ og $9.9\ \mathrm{m/s^2}$, så målingene er **enige** med hverandre, men så vidt.
-
-b) $9.81\ \mathrm{m/s^2}$ ligger innenfor intervallet til gruppe 1, så den målingen **stemmer**. Den ligger utenfor intervallet til gruppe 2, så den målingen **stemmer ikke** med den kjente verdien.
-
-c) Gruppe 2 har målt nøyaktig (lite spredning), men treffer ikke den kjente verdien. Det tyder på en **systematisk feil**, for eksempel at avstanden mellom lysportene er målt feil, eller at usikkerheten er undervurdert. Lav usikkerhet betyr ikke automatisk at målingen er riktig.
-:::
 :::
 
 ::::

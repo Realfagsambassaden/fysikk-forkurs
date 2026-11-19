@@ -107,67 +107,24 @@ print("største verdi:", s.max(), " gjennomsnitt:", s.mean())
 <!-- tillegg: Claude -->
 Skriv et program som regner om en fart fra km/h til m/s, og skriver ut svaret for $50$, $80$ og $110\ \mathrm{km/h}$.
 
-::: {.losning}
-```{.python .kjor}
-for v_kmh in [50, 80, 110]:
-    print(f"{v_kmh} km/h = {v_kmh/3.6:.1f} m/s")
-```
-:::
 :::
 
 ::: {.oppgave tittel="Tyngde på planetene"}
 <!-- tillegg: Claude -->
 Tyngdeakselerasjonen er $3.7\ \mathrm{m/s^2}$ på Mars, $24.8\ \mathrm{m/s^2}$ på Jupiter og $1.62\ \mathrm{m/s^2}$ på månen. Lag en funksjon `tyngde(m, g)` og bruk den til å skrive ut tyngden av en person på $70\ \mathrm{kg}$ på jorda og de tre andre stedene.
 
-::: {.losning}
-```{.python .kjor}
-def tyngde(m, g):
-    return m*g
-
-steder = {"jorda": 9.81, "Mars": 3.7, "Jupiter": 24.8, "månen": 1.62}
-for sted, g in steder.items():
-    print(f"{sted:8}: {tyngde(70, g):6.0f} N")
-```
-En `dict` (ordbok) som `steder` kobler navn til verdier.
-:::
 :::
 
 ::: {.oppgave tittel="Lengste kast" niva="Middels"}
 <!-- tillegg: Claude -->
 Bruk funksjonen `kastelengde` og en løkke over alle hele vinkler fra $1^\circ$ til $89^\circ$. Finn vinkelen som gir lengst kast, uten å vite svaret på forhånd.
 
-::: {.losning}
-```{.python .kjor}
-from math import sin, radians
-def kastelengde(v0, vinkel, g=9.81):
-    return v0**2*sin(2*radians(vinkel))/g
-
-best_vinkel, best_lengde = 0, 0
-for vinkel in range(1, 90):
-    L = kastelengde(20, vinkel)
-    if L > best_lengde:
-        best_vinkel, best_lengde = vinkel, L
-print(best_vinkel, "grader gir", round(best_lengde, 1), "m")
-```
-Svaret er $45^\circ$ og $40.8\ \mathrm{m}$.
-:::
 :::
 
 ::: {.oppgave tittel="Halvering time for time" niva="Utfordrende"}
 <!-- tillegg: Claude -->
 En radioaktiv kilde har aktiviteten $1000\ \mathrm{Bq}$ og halveringstid $6.0$ timer. Bruk en `while`-løkke med tidssteg på $1$ time og finn hvor lang tid det tar før aktiviteten er under $10\ \mathrm{Bq}$. Tips: Hver time ganges aktiviteten med $0.5^{1/6}$.
 
-::: {.losning}
-```{.python .kjor}
-A, t = 1000.0, 0
-faktor = 0.5**(1/6)
-while A >= 10:
-    A = A*faktor
-    t = t + 1
-print(f"Etter {t} timer er aktiviteten {A:.1f} Bq")
-```
-Det tar $40$ timer. (Eksakt: $6.0\cdot\log_2100 = 39.9$ timer.)
-:::
 :::
 
 ::::

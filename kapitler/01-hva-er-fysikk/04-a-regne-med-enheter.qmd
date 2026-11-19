@@ -76,12 +76,8 @@ a)  Gjør om farten til m/s. *Hint:* $1\,\mathrm{km} = 10^3\,\mathrm{m}$ og $1\,
 
 b)  Kjøreturen varer i $t = 2.5\,\mathrm{h}$. Finn tilbakelagt strekning i km og i m.
 
-::: {.losning}
-
-**a)** Vi regner om ved å bruke at $1\,\mathrm{km}=10^3\,\mathrm{m}$ og $1\,\mathrm{h}=3600\,\mathrm{s}$: $$v = 90\,\mathrm{km}\,\mathrm{h}^{-1} = \frac{90\cdot 10^3\,\mathrm{m}}{3600\,\mathrm{s}} = \underline{\underline{25\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
-
-**b)** Tilbakelagt strekning er fart multiplisert med tid: $$s = v\cdot t = 90\,\mathrm{km}\,\mathrm{h}^{-1}\cdot2.5\,\mathrm{h} = 225\,\mathrm{km} \approx \underline{\underline{2.3\cdot 10^{2}\,\mathrm{km}}}$$ I meter blir dette $$s = 225\,\mathrm{km}\cdot 10^3\,\frac{\mathrm{m}}{\mathrm{km}} \approx \underline{\underline{2.3\cdot 10^5\,\mathrm{m}}}.$$
-
+::: {.fasit}
+a) $25\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $2.3\cdot 10^{2}\,\mathrm{km}$ · b) $2.3\cdot 10^5\,\mathrm{m}$
 :::
 
 :::
@@ -91,16 +87,8 @@ b)  Kjøreturen varer i $t = 2.5\,\mathrm{h}$. Finn tilbakelagt strekning i km o
 
 Tyngdeakselerasjonen på månen er $\mathrm{g}_\textrm{M} = 1.62\,\mathrm{m}\,\mathrm{s}^{-2}$. Gjør om til $\mathrm{km}\,\mathrm{min}^{-2}$.
 
-::: {.losning}
-
-Vi skal regne om fra $\mathrm{m}\,\mathrm{s}^{-2}$ til $\mathrm{km}\,\mathrm{min}^{-2}$. Det er lurt å regne om lengdeenhet og tidsenhet hver for seg (se *Å regne med enheter*).
-
-Lengde: $1\,\mathrm{m} = 10^{-3}\,\mathrm{km}$.
-
-Tid: $1\,\mathrm{s} = \tfrac{1}{60}\,\mathrm{min}$, så $1\,\mathrm{s}^{2} = \tfrac{1}{3600}\,\mathrm{min}^{2}$, altså $\dfrac{1}{\mathrm{s}^{2}} = 3600\,\dfrac{1}{\mathrm{min}^{2}}$.
-
-Vi setter inn begge omregningene: $$\mathrm{g}_\textrm{M} = 1.62\,\mathrm{m}\,\mathrm{s}^{-2} = 1.62\cdot 10^{-3}\,\mathrm{km}\cdot 3600\,\mathrm{min}^{-2} = \underline{\underline{5.83\,\mathrm{km}\,\mathrm{min}^{-2}}}$$
-
+::: {.fasit}
+$5.83\,\mathrm{km}\,\mathrm{min}^{-2}$
 :::
 
 :::

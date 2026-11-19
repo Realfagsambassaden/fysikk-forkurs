@@ -75,14 +75,8 @@ b)  Finn massetettheten til terningen. Bruk tabellen over til å finne ut hvilke
 
 c)  Hvor stor masse ville en like stor terning av gull hatt?
 
-::: {.losning}
-
-**a)** Volumet til en terning er sidekanten opphøyd i tredje: $$V = (3.0\,\mathrm{cm})^3 = \underline{\underline{27\,\mathrm{cm}^{3}}}$$ Siden $1\,\mathrm{cm} = 1\cdot 10^{-2}\,\mathrm{m}$, er $1\,\mathrm{cm}^{3} = (1\cdot 10^{-2}\,\mathrm{m})^3 = 1\cdot 10^{-6}\,\mathrm{m}^{3}$. Dermed er $$V = 27\cdot1\cdot 10^{-6}\,\mathrm{m}^{3} = \underline{\underline{2.7\cdot 10^{-5}\,\mathrm{m}^{3}}}$$
-
-**b)** Vi bruker definisjonen av massetetthet (se *Massetetthet*): $$\rho = \frac{m}{V} = \frac{73\,\mathrm{g}}{27\,\mathrm{cm}^{3}} = 2.70\,\mathrm{g}\,\mathrm{cm}^{-3} \approx \underline{\underline{2.7\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}}}$$ I tabellen ser vi at dette passer med **aluminium**.
-
-**c)** Gull har $\rho = 19.3\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}$. En terning av gull med samme volum har massen $$m = \rho\cdot V = 19.3\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}\cdot2.7\cdot 10^{-5}\,\mathrm{m}^{3} = 0.521\,\mathrm{kg} \approx \underline{\underline{0.52\,\mathrm{kg}}}$$ Gullterningen ville altså vært omtrent sju ganger så tung som aluminiumsterningen, selv om de er like store.
-
+::: {.fasit}
+a) $27\,\mathrm{cm}^{3}$ · a) $2.7\cdot 10^{-5}\,\mathrm{m}^{3}$ · b) $2.7\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}^{-3}$ · c) $0.52\,\mathrm{kg}$
 :::
 
 :::
@@ -150,16 +144,8 @@ c)  Forklar hvorfor stiften går inn i veggen, men ikke inn i tommelen.
 
 *Hint: Husk at $1\,\mathrm{cm}^{2} = 1\cdot 10^{-4}\,\mathrm{m}^{2}$ og $1\,\mathrm{mm}^{2} = 1\cdot 10^{-6}\,\mathrm{m}^{2}$.*
 
-::: {.losning}
-
-Vi bruker definisjonen av trykk, $p = F/A$ (se *Trykk*).
-
-**a)** Arealet av hodet er $A = 1.0\,\mathrm{cm}^{2} = 1.0\cdot 10^{-4}\,\mathrm{m}^{2}$: $$p_\text{tommel} = \frac{F}{A} = \frac{20\,\mathrm{N}}{1.0\cdot 10^{-4}\,\mathrm{m}^{2}} = \underline{\underline{2.0\cdot 10^{5}\,\mathrm{Pa}}}$$
-
-**b)** Arealet av spissen er $A = 0.10\,\mathrm{mm}^{2} = 0.10\cdot1\cdot 10^{-6}\,\mathrm{m}^{2} = 1.0\cdot 10^{-7}\,\mathrm{m}^{2}$: $$p_\text{vegg} = \frac{F}{A} = \frac{20\,\mathrm{N}}{1.0\cdot 10^{-7}\,\mathrm{m}^{2}} = \underline{\underline{2.0\cdot 10^{8}\,\mathrm{Pa}}}$$
-
-**c)** Kraften er like stor i begge ender av stiften, men spissen har et areal som er tusen ganger mindre enn hodet. Derfor er trykket mot veggen tusen ganger større enn trykket mot tommelen. Det store trykket er nok til at spissen trenger inn i veggen, mens trykket mot tommelen er så lite at det ikke gjør vondt.
-
+::: {.fasit}
+a) $2.0\cdot 10^{5}\,\mathrm{Pa}$ · b) $2.0\cdot 10^{8}\,\mathrm{Pa}$
 :::
 
 :::

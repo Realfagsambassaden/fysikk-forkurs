@@ -91,14 +91,8 @@ a)  Finn massesenteret $x_\text{ms}$ til systemet.
 
 b)  Hvor må du holde staven for at den skal balansere?
 
-::: {.losning}
-
-**a)** Vi bruker definisjonen av massesenter (se *Massesenter*): $$x_\text{ms} = \frac{m_1x_1 + m_2x_2 + m_3x_3}{m_1 + m_2 + m_3}
-    = \frac{1.0\,\mathrm{kg}\cdot 0 + 2.0\,\mathrm{kg}\cdot0.50\,\mathrm{m} + 3.0\,\mathrm{kg}\cdot1.20\,\mathrm{m}}{6.0\,\mathrm{kg}}
-    = \underline{\underline{0.77\,\mathrm{m}}}$$
-
-**b)** Staven balanserer når den støttes i massesenteret. Da blir det totale kraftmomentet fra tyngdekreftene null. Du må holde staven **$0.77\,\mathrm{m}$ fra den venstre enden**.
-
+::: {.fasit}
+$0.77\,\mathrm{m}$
 :::
 
 :::

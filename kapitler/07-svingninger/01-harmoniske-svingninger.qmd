@@ -163,34 +163,16 @@ plt.show()
 ::: {.oppgave tittel="Pulsen"}
 Et hjerte slår 72 slag i minuttet. Se på hjerteslagene som en svingning. Finn frekvensen i hertz og perioden.
 
-::: {.losning}
-Frekvensen er antall slag per sekund. Ett minutt er $60\ \mathrm{s}$:
-$$
-f = \frac{72}{60\ \mathrm{s}} = \underline{\underline{1.2\ \mathrm{Hz}}}
-$$
-Perioden er tiden for ett slag:
-$$
-T = \frac{1}{f} = \frac{60\ \mathrm{s}}{72} = 0.833\ \mathrm{s} \approx \underline{\underline{0.83\ \mathrm{s}}}
-$$
-Pulsen er oppgitt med to gjeldende siffer, så svarene får to.
+::: {.fasit}
+$1.2\ \mathrm{Hz}$ · $0.83\ \mathrm{s}$
 :::
 :::
 
 ::: {.oppgave tittel="Gitarstrengen"}
 Den tykkeste G-strengen på en gitar svinger med frekvensen $196\ \mathrm{Hz}$ når den er stemt. a) Hvor lang er perioden? Bruk et passende prefiks. b) Hvor mange svingninger gjør strengen på $2.00\ \mathrm{s}$?
 
-::: {.losning}
-a) Perioden er
-$$
-T = \frac{1}{f} = \frac{1}{196\ \mathrm{Hz}} = 0.00510\ \mathrm{s} = \underline{\underline{5.10\ \mathrm{ms}}}
-$$
-Med prefikset milli (m) slipper vi de mange nullene.
-
-b) Frekvensen er antall svingninger per sekund, så på $2.00\ \mathrm{s}$ blir det
-$$
-N = f\cdot t = 196\ \mathrm{s^{-1}}\cdot 2.00\ \mathrm{s} = \underline{\underline{392}}
-$$
-svingninger.
+::: {.fasit}
+a) $5.10\ \mathrm{ms}$ · b) $392$
 :::
 :::
 
@@ -201,76 +183,24 @@ x(t) = 0.12\ \mathrm{m}\cdot\cos\!\left(\frac{2\pi}{1.6\ \mathrm{s}}\,t\right).
 $$
 a) Hva er amplituden, perioden og frekvensen? b) Hvor er loddet ved $t = 0.40\ \mathrm{s}$ og ved $t = 0.80\ \mathrm{s}$? Forklar svarene uten kalkulator.
 
-::: {.losning}
-a) Vi sammenligner med $x = A\cos\!\left(\frac{2\pi}{T}t\right)$:
-$$
-A = \underline{\underline{0.12\ \mathrm{m}}}, \qquad T = \underline{\underline{1.6\ \mathrm{s}}}, \qquad f = \frac{1}{T} = \frac{1}{1.6\ \mathrm{s}} = 0.625\ \mathrm{Hz} \approx \underline{\underline{0.63\ \mathrm{Hz}}}
-$$
-
-b) $t = 0.40\ \mathrm{s}$ er en kvart periode. Da er vinkelen $\frac{2\pi}{4} = \frac{\pi}{2}$, og $\cos\frac{\pi}{2} = 0$. Loddet er i **likevektsstillingen**, $\underline{\underline{x = 0}}$.
-
-$t = 0.80\ \mathrm{s}$ er en halv periode. Da er vinkelen $\pi$, og $\cos\pi = -1$. Loddet er i det **andre ytterpunktet**, $\underline{\underline{x = -0.12\ \mathrm{m}}}$.
-
-Det stemmer med figuren: Kurven starter på toppen, krysser likevekt etter en kvart periode og er i bunnen etter en halv.
+::: {.fasit}
+a) $0.12\ \mathrm{m}$ · a) $1.6\ \mathrm{s}$ · a) $0.63\ \mathrm{Hz}$ · b) $x = 0$ · b) $x = -0.12\ \mathrm{m}$
 :::
 :::
 
 ::: {.oppgave tittel="Fra ytterpunkt til likevekt" niva="Middels"}
 Et lodd svinger med amplituden $8.0\ \mathrm{cm}$ og perioden $1.20\ \mathrm{s}$. Klokka startes når loddet er i det øverste punktet. a) Hvor lang tid tar det før loddet passerer likevektsstillingen første gang? b) Hvor er loddet ved $t = 0.20\ \mathrm{s}$? c) Hvor stor er den største farten?
 
-::: {.losning}
-a) Fra ytterpunktet til likevekt er en kvart svingning:
-$$
-t = \frac{T}{4} = \frac{1.20\ \mathrm{s}}{4} = \underline{\underline{0.300\ \mathrm{s}}}
-$$
-
-b) Vinkelen inni cosinus er
-$$
-\frac{2\pi}{T}\,t = \frac{2\pi}{1.20\ \mathrm{s}}\cdot 0.20\ \mathrm{s} = \frac{\pi}{3}\ \mathrm{rad} \quad (= 60^\circ),
-$$
-og $\cos 60^\circ = 0.5$, så
-$$
-x = 8.0\ \mathrm{cm}\cdot 0.5 = \underline{\underline{4.0\ \mathrm{cm}}}
-$$
-over likevekt. Legg merke til at loddet har brukt $0.20\ \mathrm{s}$ på de første $4.0\ \mathrm{cm}$, men bare $0.10\ \mathrm{s}$ på de neste $4.0\ \mathrm{cm}$ inn til likevekt. Det går fortere og fortere mot midten.
-
-c) Den største farten er
-$$
-v_{\text{maks}} = \frac{2\pi A}{T} = \frac{2\pi\cdot 0.080\ \mathrm{m}}{1.20\ \mathrm{s}} = 0.419\ \mathrm{m/s} \approx \underline{\underline{0.42\ \mathrm{m/s}}}
-$$
-Amplituden har to gjeldende siffer, så svaret får to.
+::: {.fasit}
+a) $0.300\ \mathrm{s}$ · b) $4.0\ \mathrm{cm}$ · c) $0.42\ \mathrm{m/s}$
 :::
 :::
 
 ::: {.oppgave tittel="Energien i fjærsvingningen" niva="Utfordrende"}
 Et lodd med massen $0.500\ \mathrm{kg}$ er festet til en fjær med fjærkonstanten $245\ \mathrm{N/m}$ og glir uten friksjon på et vannrett bord. Loddet trekkes $10.0\ \mathrm{cm}$ ut fra likevekt og slippes. a) Hvor stor er den mekaniske energien i svingningen? b) Hvor stor er farten når loddet passerer likevekt? c) Hvor stor er farten når loddet er $5.0\ \mathrm{cm}$ fra likevekt?
 
-::: {.losning}
-**Kjent:** $m = 0.500\ \mathrm{kg}$, $k = 245\ \mathrm{N/m}$, $A = 0.100\ \mathrm{m}$.
-
-a) I ytterpunktet står loddet stille, så all energien er elastisk potensiell energi:
-$$
-E = \tfrac12 kA^2 = \tfrac12\cdot 245\ \mathrm{N/m}\cdot(0.100\ \mathrm{m})^2 = 1.225\ \mathrm{J} \approx \underline{\underline{1.23\ \mathrm{J}}}
-$$
-
-b) I likevekt er all energien kinetisk:
-$$
-\tfrac12 m v_{\text{maks}}^2 = E \quad\Longrightarrow\quad
-v_{\text{maks}} = \sqrt{\frac{2E}{m}} = \sqrt{\frac{2\cdot 1.225\ \mathrm{J}}{0.500\ \mathrm{kg}}} = 2.214\ \mathrm{m/s} \approx \underline{\underline{2.21\ \mathrm{m/s}}}
-$$
-
-c) Når $x = 0.050\ \mathrm{m}$, er den potensielle energien
-$$
-\tfrac12 kx^2 = \tfrac12\cdot 245\ \mathrm{N/m}\cdot(0.050\ \mathrm{m})^2 = 0.306\ \mathrm{J}.
-$$
-Resten er kinetisk energi:
-$$
-\tfrac12 mv^2 = E - \tfrac12 kx^2 = 1.225\ \mathrm{J} - 0.306\ \mathrm{J} = 0.919\ \mathrm{J},
-$$
-$$
-v = \sqrt{\frac{2\cdot 0.919\ \mathrm{J}}{0.500\ \mathrm{kg}}} = 1.917\ \mathrm{m/s} \approx \underline{\underline{1.9\ \mathrm{m/s}}}
-$$
-Utslaget $5.0\ \mathrm{cm}$ har to gjeldende siffer, så svaret får to. Halvveis ut har loddet fortsatt nesten 90 % av den største farten, fordi bare en fjerdedel av energien er potensiell der.
+::: {.fasit}
+a) $1.23\ \mathrm{J}$ · b) $2.21\ \mathrm{m/s}$ · c) $1.9\ \mathrm{m/s}$
 :::
 :::
 

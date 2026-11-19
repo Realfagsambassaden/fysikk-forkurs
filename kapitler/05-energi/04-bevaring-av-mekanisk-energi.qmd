@@ -163,20 +163,8 @@ b)  Hvor stor fart har steinen når den er $5.0\,\mathrm{m}$ over utkastpunktet?
 
 c)  Du fikk ikke oppgitt massen til steinen. Forklar hvorfor du ikke trengte den.
 
-::: {.losning}
-
-Vi velger utkastpunktet som nullnivå. Uten luftmotstand er mekanisk energi bevart.
-
-**a)** På toppen står steinen stille, så all kinetisk energi er blitt potensiell energi: $$\frac{1}{2}mv_0^2 = m\mathrm{g}h
-    \quad\implies\quad
-    h = \frac{v_0^2}{2\mathrm{g}} = \frac{(12\,\mathrm{m}\,\mathrm{s}^{-1})^2}{2\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = \underline{\underline{7.3\,\mathrm{m}}}$$
-
-**b)** $$\frac{1}{2}mv_0^2 = \frac{1}{2}mv^2 + m\mathrm{g}h
-    \quad\implies\quad
-    v = \sqrt{v_0^2 - 2\mathrm{g}h}$$ $$v = \sqrt{(12\,\mathrm{m}\,\mathrm{s}^{-1})^2 - 2\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot5.0\,\mathrm{m}} = \underline{\underline{6.8\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
-
-**c)** Massen $m$ står i alle leddene i energilikningen, så vi kan dele den bort. Svaret blir det samme uansett hvor tung steinen er (så lenge vi ser bort fra luftmotstand).
-
+::: {.fasit}
+a) $7.3\,\mathrm{m}$ · b) $6.8\,\mathrm{m}\,\mathrm{s}^{-1}$
 :::
 
 :::
@@ -192,20 +180,8 @@ b)  Hvor høyt over det laveste punktet er barnet når farten er $3.0\,\mathrm{m
 
 c)  Snora i husken drar hele tiden i barnet, men gjør ikke noe arbeid. Hvorfor ikke? (Hint: hvilken vinkel er det mellom snorkraften og bevegelsesretningen?)
 
-::: {.losning}
-
-Vi velger det laveste punktet som nullnivå.
-
-**a)** All potensiell energi blir til kinetisk energi i det laveste punktet: $$m\mathrm{g}h = \frac{1}{2}mv^2
-    \quad\implies\quad
-    v = \sqrt{2\mathrm{g}h} = \sqrt{2\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot1.2\,\mathrm{m}} = \underline{\underline{4.9\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
-
-**b)** Energibevaring mellom startpunktet og punktet der farten er $v = 3.0\,\mathrm{m}\,\mathrm{s}^{-1}$: $$m\mathrm{g}h_0 = \frac{1}{2}mv^2 + m\mathrm{g}h
-    \quad\implies\quad
-    h = h_0 - \frac{v^2}{2\mathrm{g}} = 1.2\,\mathrm{m} - \frac{(3.0\,\mathrm{m}\,\mathrm{s}^{-1})^2}{2\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}} = \underline{\underline{0.74\,\mathrm{m}}}$$
-
-**c)** Barnet beveger seg langs en sirkelbue, så bevegelsesretningen er hele tiden langs sirkelen. Snora drar inn mot opphengspunktet, altså vinkelrett på bevegelsen. Da er $\cos 90^\circ = 0$, og snorkraften gjør ikke noe arbeid. Derfor kan vi bruke bevaring av mekanisk energi selv om snora drar i barnet.
-
+::: {.fasit}
+a) $4.9\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $0.74\,\mathrm{m}$
 :::
 
 :::

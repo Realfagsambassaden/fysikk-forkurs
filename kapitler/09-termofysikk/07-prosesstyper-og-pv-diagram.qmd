@@ -265,15 +265,6 @@ c)  Du presser stempelet i en sykkelpumpe raskt inn mens du holder for ventilen.
 
 d)  En gass i en metallsylinder som står i et stort vannbad, presses langsomt sammen.
 
-::: {.losning}
-**a)** **Isokor.** Stålflaska har fast volum. Stempel finnes ikke, så **ingen arbeid**. All varmen fra sola går til å øke den indre energien, og trykket stiger.
-
-**b)** **Isobar.** Stempelet glir til trykket inni er like stort som trykket utenfor, så trykket er konstant. Lufta utvider seg og **gjør arbeid** på stempelet.
-
-**c)** **Adiabatisk.** Det går så fort at varmen ikke rekker å strømme ut. **Arbeid gjøres på gassen**, og temperaturen stiger.
-
-**d)** **Isoterm.** Vannbadet holder temperaturen konstant, og langsom kompresjon gir varmen tid til å strømme ut i vannet. **Arbeid gjøres på gassen**, og like mye energi forsvinner ut som varme.
-:::
 :::
 
 ::: {.oppgave tittel="Arbeid i et pV-diagram"}
@@ -285,15 +276,8 @@ b)  Finn arbeidet gassen gjør på omgivelsene. Hva blir $W$ i termodynamikkens 
 
 c)  Under prosessen blir det tilført $1.1\ \mathrm{kJ}$ varme til gassen. Finn endringen i den indre energien til gassen.
 
-::: {.losning}
-**a)** Trykket er konstant, så prosessen er en horisontal linje fra $2.0\ \mathrm{L}$ til $5.0\ \mathrm{L}$. Arealet under linjen er arbeidet gassen gjør.
-
-![](../../bilder/figurer/pv-isobar-oppgave.svg){.tikz-fig style="width:340px" fig-alt="pV-diagram med en vannrett linje ved 150 kPa fra 2 L til 5 L, med pil mot høyre. Rektangelet under linjen er skravert og merket p ganger delta V."}
-<!-- tillegg: Claude: figuren manglet -->
-
-**b)** Arbeidet gassen gjør, er arealet under linjen. Med $\Delta V = 5.0\ \mathrm{L} - 2.0\ \mathrm{L} = 3.0\ \mathrm{L} = 3.0\cdot 10^{-3}\ \mathrm{m}^{3}$: $$W_\text{gass} = p\,\Delta V = 150\cdot 10^{3}\ \mathrm{Pa}\cdot3.0\cdot 10^{-3}\ \mathrm{m}^{3} = \underline{\underline{4.5\cdot 10^{2}\ \mathrm{J}}}$$ I 1. lov er $W$ arbeidet som gjøres *på* gassen. Gassen gjør arbeid på omgivelsene, så $W = \underline{\underline{-4.5\cdot 10^{2}\ \mathrm{J}}}$.
-
-**c)** $$\Delta U = Q + W = 1.1\cdot 10^{3}\ \mathrm{J} - 4.5\cdot 10^{2}\ \mathrm{J} = \underline{\underline{6.5\cdot 10^{2}\ \mathrm{J}}}$$
+::: {.fasit}
+b) $4.5\cdot 10^{2}\ \mathrm{J}$ · b) $-4.5\cdot 10^{2}\ \mathrm{J}$ · c) $6.5\cdot 10^{2}\ \mathrm{J}$
 :::
 :::
 
@@ -308,19 +292,8 @@ c)  Skisser de to prosessene i et $pV$-diagram.
 
 d)  Gjør gassen noe arbeid fra B til C? Begrunn svaret.
 
-::: {.losning}
-**a)** A til B er isoterm ($T$ konstant), så $pV$ er konstant: $$p_\text{A}V_\text{A} = p_\text{B}V_\text{B}
-  \quad\implies\quad
-  p_\text{B} = p_\text{A}\cdot\frac{V_\text{A}}{V_\text{B}} = 100\ \mathrm{kPa}\cdot\frac{4.0\ \mathrm{L}}{1.0\ \mathrm{L}} = \underline{\underline{4.0\cdot 10^{2}\ \mathrm{kPa}}}$$
-
-**b)** B til C er isokor ($V$ konstant), så $p/T$ er konstant. Temperaturen i B er fortsatt $300\ \mathrm{K}$: $$p_\text{C} = p_\text{B}\cdot\frac{T_\text{C}}{T_\text{B}} = 4.0\cdot 10^{2}\ \mathrm{kPa}\cdot\frac{600\ \mathrm{K}}{300\ \mathrm{K}} = \underline{\underline{8.0\cdot 10^{2}\ \mathrm{kPa}}}$$
-
-**c)** Fra A til B følger gassen en isoterm, en kurve der $pV$ er konstant. Fra B til C går gassen rett opp, fordi volumet er konstant.
-
-![](../../bilder/figurer/pv-to-prosesser.svg){.tikz-fig style="width:360px" fig-alt="pV-diagram med to stiplede isotermer for 300 K og 600 K. Gassen går fra A ved 4 L og 100 kPa langs isotermen for 300 K til B ved 1 L og 400 kPa, og derfra rett opp til C ved 1 L og 800 kPa, som ligger på isotermen for 600 K."}
-<!-- tillegg: Claude: figuren manglet -->
-
-**d)** **Nei**. Fra B til C er volumet konstant. Stempelet beveger seg ikke, og arealet under linjen i $pV$-diagrammet er null. Da er $W = 0$, og all varmen som tilføres, går til å øke den indre energien.
+::: {.fasit}
+a) $4.0\cdot 10^{2}\ \mathrm{kPa}$ · b) $8.0\cdot 10^{2}\ \mathrm{kPa}$
 :::
 :::
 
@@ -334,24 +307,8 @@ b)  Finn arbeidet gassen gjør i hvert av de tre stegene.
 
 c)  Finn nettoarbeidet gassen gjør i én runde. Er dette en motor eller et kjøleskap?
 
-::: {.losning}
-**a)** A og B ligger på bunnen ved $100\ \mathrm{kPa}$, og C ligger rett over A. Gassen går mot høyre langs bunnen, skrått opp og til venstre, og så rett ned. Det er **mot klokka**.
-
-**b)** A → B, isobar med $\Delta V = 3.0\ \mathrm{L} = 3.0\cdot10^{-3}\ \mathrm{m^3}$:
-$$
-W_\text{AB} = 100\cdot10^{3}\ \mathrm{Pa}\cdot3.0\cdot10^{-3}\ \mathrm{m^3} = \underline{\underline{3.0\cdot10^{2}\ \mathrm{J}}}
-$$
-B → C: Volumet minker med $3.0\ \mathrm{L}$, så gassen gjør negativt arbeid. Arealet under den skrå linjen er et trapes med gjennomsnittlig høyde $(100 + 400)/2\ \mathrm{kPa} = 250\ \mathrm{kPa}$:
-$$
-W_\text{BC} = -250\cdot10^{3}\ \mathrm{Pa}\cdot3.0\cdot10^{-3}\ \mathrm{m^3} = \underline{\underline{-7.5\cdot10^{2}\ \mathrm{J}}}
-$$
-C → A er isokor: $W_\text{CA} = \underline{\underline{0}}$.
-
-**c)**
-$$
-W_\text{netto} = 3.0\cdot10^{2}\ \mathrm{J} - 7.5\cdot10^{2}\ \mathrm{J} + 0 = \underline{\underline{-4.5\cdot10^{2}\ \mathrm{J}}}
-$$
-Kontroll: Arealet av trekanten er $\tfrac12\cdot3.0\ \mathrm{L}\cdot300\ \mathrm{kPa} = 4.5\cdot10^{2}\ \mathrm{J}$. Fortegnet er negativt fordi prosessen går mot klokka: Omgivelsene må gjøre nettoarbeid på gassen. Det er et **kjøleskap** (eller en varmepumpe), ikke en motor.
+::: {.fasit}
+$3.0\cdot10^{2}\ \mathrm{J}$ · $-7.5\cdot10^{2}\ \mathrm{J}$ · $0$ · $-4.5\cdot10^{2}\ \mathrm{J}$
 :::
 :::
 
@@ -365,19 +322,8 @@ b)  Finn trykket etter kompresjonen.
 
 c)  Hvilket trykk ville du fått hvis kompresjonen var isoterm? Forklar med 1. lov hvorfor den adiabatiske kompresjonen gir høyere trykk.
 
-::: {.losning}
-**a)** Vi bruker kelvin: $T_1 = 293\ \mathrm{K}$, og $V_1/V_2 = 18$.
-$$
-T_2V_2^{0.4} = T_1V_1^{0.4} \quad\implies\quad T_2 = T_1\left(\frac{V_1}{V_2}\right)^{0.4} = 293\ \mathrm{K}\cdot18^{0.4} = 931\ \mathrm{K} \approx \underline{\underline{9.3\cdot10^{2}\ \mathrm{K}}}
-$$
-Det er omtrent $660\ ^\circ\mathrm{C}$, godt over tenningstemperaturen. Dieselen antennes når den sprøytes inn, uten tennplugg.
-
-**b)**
-$$
-p_2 = p_1\left(\frac{V_1}{V_2}\right)^{1.4} = 100\ \mathrm{kPa}\cdot18^{1.4} = 5.72\ \mathrm{MPa} \approx \underline{\underline{5.7\ \mathrm{MPa}}}
-$$
-
-**c)** Isotermt er $pV$ konstant: $p_2 = 100\ \mathrm{kPa}\cdot18 = \underline{\underline{1.8\ \mathrm{MPa}}}$. I den adiabatiske kompresjonen er $Q = 0$, så hele arbeidet stempelet gjør, øker den indre energien: $\Delta U = W > 0$. Temperaturen stiger derfor (her mer enn tre ganger i kelvin), og etter tilstandslikningen gir høyere temperatur ved samme volum høyere trykk. I den isoterme kompresjonen strømmer energien ut som varme, og temperaturen blir den samme.
+::: {.fasit}
+a) $9.3\cdot10^{2}\ \mathrm{K}$ · a) $5.7\ \mathrm{MPa}$ · c) $1.8\ \mathrm{MPa}$
 :::
 :::
 

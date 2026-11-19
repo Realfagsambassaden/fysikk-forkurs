@@ -169,80 +169,40 @@ Formelen for kurven heter Plancks strålingslov. Du trenger ikke kunne den, men 
 ::: {.oppgave tittel="Glødetråden"}
 Glødetråden i en gammeldags lyspære har temperaturen $2800\ \mathrm{K}$. Hvor ligger toppen i strålingen? Er den synlig?
 
-::: {.losning}
-Med Wiens lov:
-$$
-\lambda_{\text{maks}} = \frac{2.90\cdot10^{-3}\ \mathrm{m\,K}}{2800\ \mathrm{K}} = 1.04\cdot10^{-6}\ \mathrm{m} = \underline{\underline{1.04\ \mathrm{\mu m}}}
-$$
-Det er lenger enn $700\ \mathrm{nm}$, altså i infrarødt. Toppen er ikke synlig, og det meste av effekten blir varme. Bare halen av kurven ligger i det synlige området.
+::: {.fasit}
+$1.04\ \mathrm{\mu m}$
 :::
 :::
 
 ::: {.oppgave tittel="Dobbelt så varm"}
 Et legeme varmes opp fra $300\ \mathrm{K}$ til $600\ \mathrm{K}$. a) Hvor mange ganger så mye effekt stråler det ut? b) Hva skjer med $\lambda_{\text{maks}}$? c) Hvorfor ville svaret i a) blitt feil om du regnet med temperaturen i grader celsius?
 
-::: {.losning}
-a) Effekten går som $T^4$. Temperaturen dobles, så effekten blir
-$$
-\left(\frac{600\ \mathrm{K}}{300\ \mathrm{K}}\right)^4 = 2^4 = \underline{\underline{16}}
-$$
-ganger så stor.
-
-b) $\lambda_{\text{maks}}$ er omvendt proporsjonal med $T$, så den **halveres**.
-
-c) I celsius er temperaturene $27\ ^\circ\mathrm{C}$ og $327\ ^\circ\mathrm{C}$, og forholdet ville blitt omtrent 12, som gir et helt feil svar. Lovene gjelder bare med den absolutte temperaturen, fordi strålingen er null først ved det absolutte nullpunktet, $0\ \mathrm{K}$.
+::: {.fasit}
+$16$
 :::
 :::
 
 ::: {.oppgave tittel="En blå stjerne" niva="Middels"}
 Stjernen Rigel ser blåhvit ut. Strålingen fra den har toppen ved omtrent $240\ \mathrm{nm}$. a) Anslå overflatetemperaturen. b) Hvorfor ser stjernen blåhvit ut og ikke ultrafiolett?
 
-::: {.losning}
-a) Vi løser Wiens lov for temperaturen:
-$$
-T = \frac{b}{\lambda_{\text{maks}}} = \frac{2.90\cdot10^{-3}\ \mathrm{m\,K}}{240\cdot10^{-9}\ \mathrm{m}} = 1.21\cdot10^4\ \mathrm{K} \approx \underline{\underline{1.2\cdot10^4\ \mathrm{K}}}
-$$
-Bølgelengden er et anslag med to gjeldende siffer, så svaret får to. Stjernen er omtrent dobbelt så varm som sola.
-
-b) Toppen ligger i UV, som øynene ikke ser. Men kurven er bred, og stjernen stråler også mye synlig lys. Den synlige delen har mest av de korte bølgelengdene (fiolett og blått), så stjernen ser blåhvit ut.
+::: {.fasit}
+$1.2\cdot10^4\ \mathrm{K}$
 :::
 :::
 
 ::: {.oppgave tittel="Kokeplaten" niva="Middels"}
 En kokeplate har overflaten $0.030\ \mathrm{m^2}$ og er skrudd på fullt, så den holder $600\ ^\circ\mathrm{C}$. Emissiviteten er $0.90$, og kjøkkenet holder $20\ ^\circ\mathrm{C}$. Hvor stor er netto effekt plata gir fra seg som stråling?
 
-::: {.losning}
-Temperaturene i kelvin: $T = 873\ \mathrm{K}$ og $T_{\text{omg}} = 293\ \mathrm{K}$.
-$$
-P_{\text{netto}} = \varepsilon\sigma A\left(T^4 - T_{\text{omg}}^4\right) = 0.90\cdot 5.67\cdot10^{-8}\ \mathrm{\tfrac{W}{m^2\,K^4}}\cdot 0.030\ \mathrm{m^2}\cdot\left(873^4 - 293^4\right)\mathrm{K^4}
-$$
-$$
-P_{\text{netto}} = 878\ \mathrm{W} \approx \underline{\underline{0.88\ \mathrm{kW}}}
-$$
-Legg merke til at leddet med $293^4$ nesten ikke betyr noe: $873^4$ er omtrent 80 ganger så stort. Når legemet er mye varmere enn omgivelsene, kan vi se bort fra strålingen inn.
+::: {.fasit}
+$0.88\ \mathrm{kW}$
 :::
 :::
 
 ::: {.oppgave tittel="Hvor varm er en planet uten luft?" niva="Utfordrende"}
 En liten, svart kule henger i rommet i samme avstand fra sola som jorda, der intensiteten av sollyset er $1361\ \mathrm{W/m^2}$. Kula snurrer, slik at hele overflaten får samme temperatur. Sollyset treffer kula som om det traff en sirkelskive med samme radius $R$, men kula stråler ut fra hele kuleflaten. Finn temperaturen kula får når den tar opp like mye effekt som den stråler ut.
 
-::: {.losning}
-Effekten kula tar opp, er intensiteten ganger tverrsnittet $\pi R^2$:
-$$
-P_{\text{inn}} = I\cdot\pi R^2
-$$
-Effekten den stråler ut (svart legeme, $\varepsilon = 1$), fra hele overflaten $4\pi R^2$:
-$$
-P_{\text{ut}} = \sigma\cdot 4\pi R^2\cdot T^4
-$$
-I likevekt er de like store. Radien forkortes bort:
-$$
-I\pi R^2 = 4\pi R^2\sigma T^4 \quad\Rightarrow\quad T = \left(\frac{I}{4\sigma}\right)^{1/4} = \left(\frac{1361\ \mathrm{W/m^2}}{4\cdot 5.67\cdot10^{-8}\ \mathrm{W/(m^2\,K^4)}}\right)^{1/4}
-$$
-$$
-T = 278\ \mathrm{K} \approx \underline{\underline{5\ ^\circ\mathrm{C}}}
-$$
-Svaret er uavhengig av hvor stor kula er. Denne enkle modellen er utgangspunktet for å regne ut temperaturen på jorda, som vi gjør på siden om drivhuseffekten.
+::: {.fasit}
+$5\ ^\circ\mathrm{C}$
 :::
 :::
 

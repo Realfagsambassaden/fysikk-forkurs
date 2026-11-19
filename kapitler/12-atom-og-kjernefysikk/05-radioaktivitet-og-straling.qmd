@@ -131,11 +131,8 @@ Stråling som treffer kroppen, kan ionisere molekyler og skade celler og DNA. Hv
 <!-- tillegg: Claude -->
 En pasient får en dose jod-131 med aktiviteten $400\ \mathrm{MBq}$. Hva er aktiviteten etter $24$ døgn ($T_{1/2} = 8.0$ døgn)?
 
-::: {.losning}
-$24$ døgn er tre halveringstider:
-$$
-A = 400\ \mathrm{MBq}\cdot\left(\tfrac12\right)^3 = \underline{\underline{50\ \mathrm{MBq}}}
-$$
+::: {.fasit}
+$50\ \mathrm{MBq}$
 :::
 :::
 
@@ -143,28 +140,14 @@ $$
 <!-- tillegg: Claude -->
 Radium-226 ($Z = 88$) henfaller med alfastråling. Skriv reaksjonslikningen. (Grunnstoff 86 er radon.)
 
-::: {.losning}
-$$
-^{226}_{\ 88}\mathrm{Ra} \;\to\; ^{222}_{\ 86}\mathrm{Rn} + {}^{4}_{2}\mathrm{He}
-$$
-Det er slik radon dannes i berggrunnen.
-:::
 :::
 
 ::: {.oppgave tittel="Cesium fra Tsjernobyl" niva="Middels"}
 <!-- tillegg: Claude -->
 Tsjernobyl-ulykken skjedde i 1986. Hvor stor andel av cesium-137 fra nedfallet er igjen i 2026? Hvor lenge må vi vente til bare 10 % er igjen?
 
-::: {.losning}
-Det har gått $40$ år:
-$$
-\frac{N}{N_0} = \left(\tfrac12\right)^{40/30} = \underline{\underline{0.40}}
-$$
-Til 10 % er igjen:
-$$
-t = 30\ \text{år}\cdot\frac{\ln10}{\ln2} = \underline{\underline{100\ \text{år}}}
-$$
-altså rundt år 2086.
+::: {.fasit}
+$0.40$ · $100\ \text{år}$
 :::
 :::
 
@@ -172,15 +155,8 @@ altså rundt år 2086.
 <!-- tillegg: Claude -->
 Aktiviteten til en kilde måles hvert tiende minutt: $800$, $580$, $420$, $305$, $220$ og $160$ Bq. Plott målingene, og finn halveringstiden. Tips: Plott $\ln A$ mot $t$ – da blir det en rett linje med stigningstall $-\ln2/T_{1/2}$.
 
-::: {.losning}
-```{.python .kjor}
-import numpy as np
-t = np.array([0, 10, 20, 30, 40, 50])           # min
-A = np.array([800, 580, 420, 305, 220, 160])    # Bq
-a, b = np.polyfit(t, np.log(A), 1)
-print(f"stigningstall {a:.4f} per min, halveringstid {np.log(2)/-a:.1f} min")
-```
-Halveringstiden blir $\underline{\underline{21.5\ \mathrm{min}}}$, altså ca. $22$ minutter. (Aktiviteten halveres fra $800$ til ca. $400$ på litt over $20$ minutter, som stemmer.)
+::: {.fasit}
+$21.5\ \mathrm{min}$
 :::
 :::
 
