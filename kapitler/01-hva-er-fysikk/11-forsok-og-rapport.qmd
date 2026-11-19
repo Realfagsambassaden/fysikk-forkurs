@@ -191,23 +191,6 @@ b) Nevn minst tre kontrollerte variabler.
 
 c) Lag et måleskjema for forsøket.
 
-::: {.losning}
-a) Den **uavhengige variabelen** er slipphøyden $h$ på rampa, fordi det er den du endrer med vilje. Den **avhengige variabelen** er strekningen $s$ bilen ruller bortover gulvet, fordi det er den du måler.
-
-b) Ting som må holdes konstant: samme bil (samme masse og hjul), samme rampe med samme helning, samme gulv (samme underlag), og at bilen slippes uten fart, ikke dyttes. Også at bilen starter rett, så den ikke svinger.
-
-c) For eksempel fem høyder med tre gjentakelser hver:
-
-| $h$ (cm) | $s_1$ (m) | $s_2$ (m) | $s_3$ (m) | $\bar s$ (m) | $\Delta s$ (m) |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 10 | | | | | |
-| 20 | | | | | |
-| 30 | | | | | |
-| 40 | | | | | |
-| 50 | | | | | |
-
-Enheten står i kolonneoverskriften, så tallene i skjemaet kan skrives uten enhet.
-:::
 :::
 
 ::: {.oppgave tittel="Hypotese, naturlov eller teori?"}
@@ -221,15 +204,6 @@ c) Den generelle relativitetsteorien, som forklarer tyngdekraften som krumning a
 
 d) «Jo lengre snor, desto lengre svingetid.»
 
-::: {.losning}
-a) **Hypotese.** En påstand som ennå ikke er testet, og som kan testes med et enkelt forsøk.
-
-b) **Naturlov.** En sammenheng som er bekreftet i et enormt antall forsøk, og som sier *hva* som skjer.
-
-c) **Teori.** Et stort forklaringssystem som binder sammen mange lover og observasjoner og forklarer *hvorfor*.
-
-d) **Hypotese**, så lenge den ikke er testet. Den er lett å teste: Endre snorlengden, hold alt annet konstant og mål svingetiden. (Sammenhengen er velkjent og stemmer, men i et forsøk er det nettopp den du tester.)
-:::
 :::
 
 ::: {.oppgave tittel="Falltid fra måleskjema" niva="Middels"}
@@ -245,32 +219,8 @@ b) Tyngdeakselerasjonen er $\mathrm{g} = \dfrac{2h}{t^2}$. Finn $\mathrm{g}$ med
 
 c) Stemmer resultatet med $9.81\ \mathrm{m/s^2}$? Hva er den største feilkilden, og hvordan kan forsøket forbedres?
 
-::: {.losning}
-a) Middelverdien er
-$$
-\bar t = \frac{0.50 + 0.48 + 0.51 + 0.47 + 0.49 + 0.50}{6}\ \mathrm{s} = \frac{2.95}{6}\ \mathrm{s} = 0.492\ \mathrm{s}
-$$
-og usikkerheten (halve spredningen)
-$$
-\Delta t = \tfrac{1}{2}(0.51 - 0.47)\ \mathrm{s} = 0.02\ \mathrm{s}
-$$
-Falltiden er $t = \underline{\underline{(0.49 \pm 0.02)\ \mathrm{s}}}$.
-
-b) Vi regner videre med den urundede middelverdien:
-$$
-\mathrm{g} = \frac{2 \cdot 1.20\ \mathrm{m}}{(0.492\ \mathrm{s})^2} = 9.93\ \mathrm{m/s^2}
-$$
-Relative usikkerheter legges sammen, og tiden er kvadrert:
-$$
-\frac{\Delta \mathrm{g}}{\mathrm{g}} = \frac{0.01}{1.20} + 2\cdot\frac{0.02}{0.492} = 0.008 + 0.081 = 0.090
-\qquad
-\Delta \mathrm{g} = 0.090 \cdot 9.93\ \mathrm{m/s^2} = 0.9\ \mathrm{m/s^2}
-$$
-$$
-\mathrm{g} = \underline{\underline{(9.9 \pm 0.9)\ \mathrm{m/s^2}}}
-$$
-
-c) Intervallet går fra $9.0$ til $10.8\ \mathrm{m/s^2}$, så $9.81\ \mathrm{m/s^2}$ ligger innenfor, og resultatet **stemmer**. Men usikkerheten er stor. Nesten hele den kommer fra tiden ($8\ \%$ mot under $1\ \%$ for høyden), og den skyldes reaksjonstiden ved start og stopp, en tilfeldig feil. Forsøket blir bedre med en lysport eller en lydopptaker som måler tiden, eller med større fallhøyde, slik at reaksjonstiden blir en mindre del av den målte tiden.
+::: {.fasit}
+a) $(0.49 \pm 0.02)\ \mathrm{s}$ · b) $(9.9 \pm 0.9)\ \mathrm{m/s^2}$
 :::
 :::
 
@@ -281,18 +231,6 @@ Her er et utdrag fra en elevrapport om et pendelforsøk. Finn minst fem ting som
 >
 > **Konklusjon.** Forsøket beviser at g er 10.118779. At svaret ikke ble 9.81, skyldes menneskelige feil.
 
-::: {.losning}
-1. **Bare én måling.** Uten gjentatte målinger kan vi ikke finne middelverdi eller usikkerhet. Tidtakingen burde vært gjentatt flere ganger.
-2. **Ingen usikkerhet.** Verken snorlengden, tiden eller $\mathrm{g}$ har usikkerhet. Uten den kan vi ikke avgjøre om svaret stemmer med $9.81\ \mathrm{m/s^2}$.
-3. **For mange siffer.** Dataene har to–tre gjeldende siffer, så åtte siffer i svaret later som om vi vet mye mer enn vi gjør. Utregningen gir $10.1\ \mathrm{m/s^2}$.
-4. **Enhet mangler** på $\mathrm{g}$, både i resultatet og i konklusjonen.
-5. **Uklart hvor snora er målt.** Det står ikke om $60\ \mathrm{cm}$ er målt til midten av loddet. Det er $L$ til midten som skal inn i formelen.
-6. **«Beviser»** er feil ord. Et forsøk gir en måling med usikkerhet, ikke et bevis.
-7. **«Menneskelige feil»** er ingen feilkilde. Drøftingen bør nevne konkrete feilkilder, for eksempel reaksjonstiden (tilfeldig) eller at snorlengden er målt til toppen av loddet (systematisk, gir for liten $L$), og si hvilken vei de drar svaret.
-8. **Drøftingen mangler.** Konklusjonen inneholder en forklaring på avviket, som hører hjemme i drøftingen.
-
-En bedre konklusjon kunne vært: «Vi målte $\mathrm{g} = (10.1 \pm 0.3)\ \mathrm{m/s^2}$, som stemmer med den kjente verdien innenfor usikkerheten» (med en usikkerhet som er regnet ut fra gjentatte målinger).
-:::
 :::
 
 ::: {.oppgave tittel="Tilfeldig eller systematisk i pendelforsøket?" niva="Middels"}
@@ -306,17 +244,6 @@ c) Kula trekkes ut $40^\circ$ før den slippes. Da blir svingetiden litt lengre 
 
 d) Du teller feil og tar tiden på 9 svingninger, men deler på 10.
 
-::: {.losning}
-Husk at $\mathrm{g} = \dfrac{4\pi^2 L}{T^2}$: For stor $L$ gir for stor $\mathrm{g}$, og for stor $T$ gir for liten $\mathrm{g}$.
-
-a) **Tilfeldig.** Tiden blir noen ganger for lang og noen ganger for kort, så $\mathrm{g}$ kan bli både for stor og for liten. Middelverdien av mange målinger blir bedre.
-
-b) **Systematisk.** Den målte $L$ blir for kort hver gang (med kulas radius), så $\mathrm{g}$ blir **for liten**. Å gjenta hjelper ikke; det må rettes ved å måle til midten av kula.
-
-c) **Systematisk.** Svingetiden blir for lang hver gang, så $\mathrm{g}$ blir **for liten**. Rettes ved å bruke lite utslag, under omtrent $10^\circ$.
-
-d) **Systematisk** (hvis det skjer hver gang) eller en enkeltstående bommert. Tiden for 9 svingninger er kortere enn for 10, så $T$ blir for liten og $\mathrm{g}$ blir **for stor**, omtrent $(10/9)^2 \approx 1.23$ ganger for stor. En slik bommert avsløres ofte ved at én måling skiller seg tydelig ut fra de andre.
-:::
 :::
 
 ::::

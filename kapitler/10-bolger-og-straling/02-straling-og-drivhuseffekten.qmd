@@ -140,73 +140,37 @@ print("Del av spekteret:", del_av_spekteret)
 ::: {.oppgave tittel="Sorter etter bølgelengde"}
 Sorter strålingen fra lengst til kortest bølgelengde: røntgen, synlig lys, mikrobølger, UV, radiobølger, infrarødt. Hvilken har høyest frekvens?
 
-::: {.losning}
-Fra lengst til kortest bølgelengde:
-
-radiobølger → mikrobølger → infrarødt → synlig lys → UV → røntgen
-
-Alle går med samme fart $\mathrm{c}$, og $f = \mathrm{c}/\lambda$. Kortest bølgelengde gir derfor høyest frekvens: **røntgen**.
-:::
 :::
 
 ::: {.oppgave tittel="Grønt lys"}
 En grønn laserpeker sender lys med bølgelengden $530\ \mathrm{nm}$. Finn frekvensen.
 
-::: {.losning}
-Med $\lambda = 530\ \mathrm{nm} = 530\cdot10^{-9}\ \mathrm{m}$:
-$$
-f = \frac{\mathrm{c}}{\lambda} = \frac{3.00\cdot10^8\ \mathrm{m/s}}{530\cdot10^{-9}\ \mathrm{m}} = \underline{\underline{5.66\cdot10^{14}\ \mathrm{Hz}}}
-$$
-Lys svinger altså mer enn en halv billiard ganger i sekundet.
+::: {.fasit}
+$5.66\cdot10^{14}\ \mathrm{Hz}$
 :::
 :::
 
 ::: {.oppgave tittel="Mikrobølgeovnen"}
 En mikrobølgeovn bruker stråling med frekvensen $2.45\ \mathrm{GHz}$. Finn bølgelengden.
 
-::: {.losning}
-Med $f = 2.45\ \mathrm{GHz} = 2.45\cdot10^9\ \mathrm{Hz}$:
-$$
-\lambda = \frac{\mathrm{c}}{f} = \frac{3.00\cdot10^8\ \mathrm{m/s}}{2.45\cdot10^9\ \mathrm{Hz}} = 0.122\ \mathrm{m} = \underline{\underline{12.2\ \mathrm{cm}}}
-$$
-Det stemmer med plasseringen i spekteret: mellom $1\ \mathrm{mm}$ og $1\ \mathrm{m}$.
+::: {.fasit}
+$12.2\ \mathrm{cm}$
 :::
 :::
 
 ::: {.oppgave tittel="Solcellepanelet" niva="Middels"}
 Et solcellepanel har arealet $1.60\ \mathrm{m^2}$ og står vinkelrett på sollyset en klar dag, når intensiteten er $800\ \mathrm{W/m^2}$. Panelet gjør $20.0\ \%$ av energien i lyset om til elektrisk energi. a) Hvor stor elektrisk effekt gir panelet? b) Hvor mye elektrisk energi gir det på $5.0$ timer, i kWh?
 
-::: {.losning}
-a) Effekten i lyset som treffer panelet, er
-$$
-P_{\text{inn}} = I\cdot A = 800\ \mathrm{W/m^2}\cdot 1.60\ \mathrm{m^2} = 1280\ \mathrm{W}
-$$
-Panelet gjør $20.0\ \%$ om til elektrisk effekt:
-$$
-P = 0.200\cdot 1280\ \mathrm{W} = \underline{\underline{256\ \mathrm{W}}}
-$$
-
-b) Energi er effekt ganger tid:
-$$
-E = P t = 0.256\ \mathrm{kW}\cdot 5.0\ \mathrm{h} = 1.28\ \mathrm{kWh} \approx \underline{\underline{1.3\ \mathrm{kWh}}}
-$$
-Tiden har to gjeldende siffer, så svaret får to. (I virkeligheten endres intensiteten gjennom dagen, så dette er et overslag.)
+::: {.fasit}
+a) $256\ \mathrm{W}$ · b) $1.3\ \mathrm{kWh}$
 :::
 :::
 
 ::: {.oppgave tittel="Lampa" niva="Utfordrende"}
 En liten lampe sender ut $3.0\ \mathrm{W}$ synlig lys likt i alle retninger. a) Hva er intensiteten av lyset $2.0\ \mathrm{m}$ fra lampa? b) Du flytter deg til $4.0\ \mathrm{m}$. Hva skjer med intensiteten? Svar uten å regne alt på nytt, og kontroller så med formelen.
 
-::: {.losning}
-a) Lyset fordeler seg på en kuleflate med radius $2.0\ \mathrm{m}$:
-$$
-I = \frac{P}{4\pi r^2} = \frac{3.0\ \mathrm{W}}{4\pi\cdot(2.0\ \mathrm{m})^2} = 0.0597\ \mathrm{W/m^2} \approx \underline{\underline{60\ \mathrm{mW/m^2}}}
-$$
-
-b) Avstanden dobles, så etter kvadratloven blir intensiteten en firedel: omtrent $15\ \mathrm{mW/m^2}$. Kontroll:
-$$
-I = \frac{3.0\ \mathrm{W}}{4\pi\cdot(4.0\ \mathrm{m})^2} = 0.0149\ \mathrm{W/m^2} \approx \underline{\underline{15\ \mathrm{mW/m^2}}}
-$$
+::: {.fasit}
+a) $60\ \mathrm{mW/m^2}$ · b) $15\ \mathrm{mW/m^2}$
 :::
 :::
 

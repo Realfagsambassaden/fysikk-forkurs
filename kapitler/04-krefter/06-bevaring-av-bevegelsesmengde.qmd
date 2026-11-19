@@ -118,14 +118,8 @@ a)  Hva er Pers hastighet etter skyvingen?
 
 b)  Hva er bevegelsesmengden til hvert av dem etter skyvingen? Kommenter svaret.
 
-::: {.losning}
-
-Oda og Per utgjør et isolert system (vi ser bort fra friksjon mot isen), så bevegelsesmengden er bevart (se avsnitten), akkurat som i eksempelet *Rekyl fra gevær*. Før skyvingen er alt i ro, $p_{tot,\,\text{før}}=0$. Vi velger Odas bevegelsesretning som positiv.
-
-**a)** Bevaringslikningen gir $$0 = m_O u_O + m_P u_P \quad\Rightarrow\quad u_P = -\frac{m_O u_O}{m_P} = -\frac{55\,\mathrm{kg}\cdot4.0\,\mathrm{m}\,\mathrm{s}^{-1}}{80\,\mathrm{kg}} = -2.75\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{-2.8\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ Per beveger seg altså med $2.75\,\mathrm{m}\,\mathrm{s}^{-1}$ i *motsatt* retning av Oda.
-
-**b)** Bevegelsesmengden til hver av dem: $$p_O = m_O u_O = 55\,\mathrm{kg}\cdot4.0\,\mathrm{m}\,\mathrm{s}^{-1} = 220\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{2.2\cdot 10^{2}\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ $$p_P = m_P u_P = 80\,\mathrm{kg}\cdot(-2.75\,\mathrm{m}\,\mathrm{s}^{-1}) = -220\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{-2.2\cdot 10^{2}\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ Bevegelsesmengdene er like store og motsatt rettet, slik at summen fortsatt er null – akkurat som før skyvingen. Dette er nøyaktig det bevaringsloven sier skal skje.
-
+::: {.fasit}
+a) $-2.8\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $2.2\cdot 10^{2}\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $-2.2\cdot 10^{2}\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}$
 :::
 
 :::
@@ -139,14 +133,8 @@ a)  Hva er den totale bevegelsesmengden til systemet *før* kollisjonen?
 
 b)  Finn farten og retningen til bilene etter kollisjonen.
 
-::: {.losning}
-
-Vi velger bil 1 sin bevegelsesretning som positiv, slik at $v_1=20\,\mathrm{m}\,\mathrm{s}^{-1}$ og $v_2=-15\,\mathrm{m}\,\mathrm{s}^{-1}$ (motsatt retning). Dette er et fullstendig uelastisk støt (bilene henger fast), analogt med eksempelet *Uelastisk støt: vogner som kolliderer* i avsnitten.
-
-**a)** Total bevegelsesmengde før kollisjonen: $$p_{tot,\,\text{før}} = m_1 v_1 + m_2 v_2 = 1200\,\mathrm{kg}\cdot20\,\mathrm{m}\,\mathrm{s}^{-1} + 1000\,\mathrm{kg}\cdot(-15\,\mathrm{m}\,\mathrm{s}^{-1}) = \underline{\underline{9.0\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
-
-**b)** Siden bevegelsesmengden er bevart, og bilene beveger seg som én masse $m_1+m_2$ etter kollisjonen: $$p_{tot,\,\text{før}} = (m_1+m_2)\,u \quad\Rightarrow\quad u = \frac{p_{tot,\,\text{før}}}{m_1+m_2} = \frac{9000\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}{2200\,\mathrm{kg}} = 4.09\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{4.1\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ Farten er positiv, så bilvraket beveger seg videre i **samme retning som bil 1** (den tyngste og raskeste av de to) etter sammenstøtet.
-
+::: {.fasit}
+a) $9.0\cdot 10^{3}\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $4.1\,\mathrm{m}\,\mathrm{s}^{-1}$
 :::
 
 :::

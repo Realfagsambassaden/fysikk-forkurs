@@ -164,18 +164,8 @@ b)  Finn slutt-temperaturen $t_\text{f}$ i blandingen.
 
 *(Spesifikk varmekapasitet: $c_\text{vann} = c_\text{cola} = 4.2\,\mathrm{kJ/(kg}\,\mathrm{,K)}$, $c_\text{is} = 2.1\,\mathrm{kJ/(kg}\,\mathrm{,K)}$. Spesifikk smeltevarme: $\ell_\text{smelte} = 334\,\mathrm{kJ/kg}$.)*
 
-::: {.losning}
-
-**a)** Først varmer vi isen fra $-5.0\,^\circ$C til $0\,^\circ$C, altså $\Delta T = 5.0\,\mathrm{K}$: $$Q_1 = c_\text{is}\, m_\text{is}\,\Delta T
-      = 2.1\,\mathrm{kJ/(kg}\,\mathrm{,K)}\cdot0.020\,\mathrm{kg}\cdot5.0\,\mathrm{K}
-      = 0.21\,\mathrm{kJ}$$ Så smelter vi isen ved $0\,^\circ$C: $$Q_2 = \ell_\text{smelte}\, m_\text{is}
-      = 334\,\mathrm{kJ/kg}\cdot0.020\,\mathrm{kg}
-      = 6.68\,\mathrm{kJ}$$ Totalt: $$Q_1 + Q_2 = 0.21\,\mathrm{kJ} + 6.68\,\mathrm{kJ} = 6.89\,\mathrm{kJ} \approx \underline{\underline{6.9\,\mathrm{kJ}}}$$ Vi sjekker at all isen smelter. Colaen kan avgi høyst $4.2\cdot 0.350\cdot 20\,\mathrm{kJ} = 29.4\,\mathrm{kJ}$ før den når $0\,^\circ$C. Det er mye mer enn $6.89\,\mathrm{kJ}$, så all isen smelter, og $t_\text{f} > 0\,^\circ$C.
-
-**b)** Varmen colaen avgir, er lik varmen isen (og smeltevannet) tar opp. Smeltevannet varmes fra $0\,^\circ$C til $t_\text{f}$: $$c_\text{cola}\, m_\text{c}\,(20 - t_\text{f}) = Q_1 + Q_2 + c_\text{vann}\, m_\text{is}\,(t_\text{f} - 0)$$ Med tallene inn (energi i kJ, temperatur i $^\circ$C): $$4.2\cdot 0.350\cdot(20 - t_\text{f}) = 6.89 + 4.2\cdot 0.020\cdot t_\text{f}$$ $$29.4 - 1.47\,t_\text{f} = 6.89 + 0.084\,t_\text{f}
-  \quad\implies\quad
-  t_\text{f} = \frac{29.4 - 6.89}{1.47 + 0.084} = 14.5\,{}^{\circ}\mathrm{C} \approx \underline{\underline{14\,{}^{\circ}\mathrm{C}}}$$
-
+::: {.fasit}
+a) $6.9\,\mathrm{kJ}$ · b) $14\,{}^{\circ}\mathrm{C}$
 :::
 
 :::
@@ -191,15 +181,8 @@ b)  Hvor lang tid tar det før vannet koker?
 
 c)  Vannkokeren slår seg ikke av, og koker bort $0.20\,\mathrm{kg}$ vann før du slår den av. Hvor lenge sto den på etter at vannet begynte å koke?
 
-::: {.losning}
-
-**a)** $1.5\,\mathrm{L}$ vann har massen $m = 1.5\,\mathrm{kg}$. Temperaturendringen er $\Delta T = 100 - 12 = 88\,\mathrm{K}$: $$Q = c\, m\,\Delta T = 4.2\,\mathrm{kJ/(kg}\,\mathrm{,K)}\cdot1.5\,\mathrm{kg}\cdot88\,\mathrm{K}
-    = 554\,\mathrm{kJ} \approx \underline{\underline{5.5\cdot 10^{2}\,\mathrm{kJ}}}$$
-
-**b)** Effekt er energi per tid, $P = E/t$: $$t = \frac{Q}{P} = \frac{554\cdot 10^{3}\,\mathrm{J}}{2.0\cdot 10^{3}\,\mathrm{W}} = 277\,\mathrm{s} \approx \underline{\underline{2.8\cdot 10^{2}\,\mathrm{s}}}$$ Det er omtrent $4.6\,\mathrm{min}$.
-
-**c)** Energien som trengs for å fordampe $0.20\,\mathrm{kg}$ vann, er $$Q = \ell_\text{fordamp}\, m = 2259\,\mathrm{kJ/kg}\cdot0.20\,\mathrm{kg} = 452\,\mathrm{kJ}$$ $$t = \frac{Q}{P} = \frac{452\cdot 10^{3}\,\mathrm{J}}{2.0\cdot 10^{3}\,\mathrm{W}} = 226\,\mathrm{s} \approx \underline{\underline{2.3\cdot 10^{2}\,\mathrm{s}}}$$ Det er nesten fire minutter, selv om bare en liten del av vannet koker bort.
-
+::: {.fasit}
+a) $5.5\cdot 10^{2}\,\mathrm{kJ}$ · b) $2.8\cdot 10^{2}\,\mathrm{s}$ · c) $2.3\cdot 10^{2}\,\mathrm{s}$
 :::
 
 :::

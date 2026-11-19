@@ -130,10 +130,8 @@ for navn, Z, A in kjerner:
 <!-- tillegg: Claude -->
 Finn radien til en $^{56}_{26}\mathrm{Fe}$-kjerne i femtometer og i meter.
 
-::: {.losning}
-$$
-r = r_0 A^{1/3} = 1.2\ \mathrm{fm}\cdot56^{1/3} = \underline{\underline{4.6\ \mathrm{fm}}} = \underline{\underline{4.6\cdot10^{-15}\ \mathrm{m}}}
-$$
+::: {.fasit}
+$4.6\ \mathrm{fm}$ · $4.6\cdot10^{-15}\ \mathrm{m}$
 :::
 :::
 
@@ -141,12 +139,8 @@ $$
 <!-- tillegg: Claude -->
 Finn forholdet $N/Z$ for de stabile kjernene $^{16}_{\ 8}\mathrm{O}$, $^{56}_{26}\mathrm{Fe}$ og $^{208}_{\ 82}\mathrm{Pb}$. Forklar hvorfor forholdet øker.
 
-::: {.losning}
-- Oksygen-16: $N = 8$, $N/Z = 8/8 = \underline{\underline{1.00}}$
-- Jern-56: $N = 30$, $N/Z = 30/26 = \underline{\underline{1.15}}$
-- Bly-208: $N = 126$, $N/Z = 126/82 = \underline{\underline{1.54}}$
-
-Den elektriske frastøtningen virker mellom alle protonene, mens den sterke kjernekraften bare virker mellom naboer. Jo flere protoner, desto større blir frastøtningen. Tunge kjerner trenger derfor flere nøytroner, som gir tiltrekning uten å bidra til frastøtningen.
+::: {.fasit}
+$1.00$ · $1.15$ · $1.54$
 :::
 :::
 
@@ -154,9 +148,6 @@ Den elektriske frastøtningen virker mellom alle protonene, mens den sterke kjer
 <!-- tillegg: Claude -->
 Det finnes ingen stabil kjerne med to protoner og ingen nøytroner. Men helium-4, med to protoner og to nøytroner, er svært stabil. Forklar forskjellen.
 
-::: {.losning}
-To protoner frastøter hverandre elektrisk. Den sterke kjernekraften mellom dem alene er ikke nok til å holde dem sammen. Nøytronene i helium-4 gir ekstra tiltrekning med den sterke kjernekraften, men ingen ekstra frastøtning, fordi de ikke har ladning. Da blir den samlede tiltrekningen større enn frastøtningen, og kjernen holder sammen.
-:::
 :::
 
 ::: {.oppgave tittel="Hvilken stråling?" niva="Middels"}
@@ -169,22 +160,8 @@ b) karbon-11, $^{11}_{\ 6}\mathrm{C}$
 
 c) uran-238, $^{238}_{\ 92}\mathrm{U}$
 
-::: {.losning}
-a) Tritium har $Z = 1$ og $N = 2$: for mange nøytroner. Vi venter $\beta^-$. Et nøytron blir til et proton, så $Z$ øker til 2:
-$$
-^{3}_{1}\mathrm{H} \;\to\; \underline{\underline{^{3}_{2}\mathrm{He}}} + {}^{\ \ 0}_{-1}\mathrm{e}
-$$
-
-b) Karbon-11 har $Z = 6$ og $N = 5$: for få nøytroner, altså for mange protoner. Vi venter $\beta^+$. Et proton blir til et nøytron, så $Z$ minker til 5:
-$$
-^{11}_{\ 6}\mathrm{C} \;\to\; \underline{\underline{^{11}_{\ 5}\mathrm{B}}} + {}^{0}_{1}\mathrm{e}
-$$
-
-c) Uran har $Z = 92 > 83$ og er for tung. Vi venter alfastråling:
-$$
-^{238}_{\ 92}\mathrm{U} \;\to\; \underline{\underline{^{234}_{\ 90}\mathrm{Th}}} + {}^{4}_{2}\mathrm{He}
-$$
-Alle tre stemmer med det som måles.
+::: {.fasit}
+a) $^{3}_{2}\mathrm{He}$ · b) $^{11}_{\ 5}\mathrm{B}$ · c) $^{234}_{\ 90}\mathrm{Th}$
 :::
 :::
 
@@ -196,21 +173,8 @@ a) Vis at tettheten i en kjerne er omtrent $2.3\cdot10^{17}\ \mathrm{kg/m^3}$. B
 
 b) Hvor stor radius ville jorda fått?
 
-::: {.losning}
-a) Med $r = r_0 A^{1/3}$ forkortes $A$ bort, så vi kan regne på ett nukleon med radius $r_0$:
-$$
-\rho = \frac{m_\text{nukleon}}{\tfrac43\pi r_0^3} = \frac{1.66\cdot10^{-27}\ \mathrm{kg}}{\tfrac43\pi\,(1.2\cdot10^{-15}\ \mathrm{m})^3} = \underline{\underline{2.3\cdot10^{17}\ \mathrm{kg/m^3}}}
-$$
-
-b) Volumet blir
-$$
-V = \frac{m}{\rho} = \frac{5.97\cdot10^{24}\ \mathrm{kg}}{2.29\cdot10^{17}\ \mathrm{kg/m^3}} = 2.60\cdot10^{7}\ \mathrm{m^3}
-$$
-og radien
-$$
-r = \left(\frac{3V}{4\pi}\right)^{1/3} = \left(\frac{3\cdot2.60\cdot10^{7}\ \mathrm{m^3}}{4\pi}\right)^{1/3} = \underline{\underline{1.8\cdot10^{2}\ \mathrm{m}}}
-$$
-Hele jorda ville fått plass i en kule med diameter under 400 m. Nøytronstjerner er nettopp slike kuler av kjernestoff, med masse som sola og radius rundt 10 km.
+::: {.fasit}
+a) $2.3\cdot10^{17}\ \mathrm{kg/m^3}$ · b) $1.8\cdot10^{2}\ \mathrm{m}$
 :::
 :::
 

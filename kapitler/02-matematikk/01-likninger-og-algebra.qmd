@@ -77,12 +77,8 @@ a)  Beregn $\dfrac{15 + 3^2}{6 - 2}$ for hånd, og sjekk svaret med Python, elle
 
 b)  Bruk Python (eller en kalkulator) til å beregne potensiell energi $E_p = m \cdot \mathrm{g} \cdot h$ for $m = 5.0\,\mathrm{kg}$, $\mathrm{g} = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}$ og $h = 10.0\,\mathrm{m}$.
 
-::: {.losning}
-
-**a)** Vi følger regnerekkefølgen (potenser før addisjon/subtraksjon, og telleren/nevneren regnes ut hver for seg før divisjonen): $$\frac{15+3^2}{6-2} = \frac{15+9}{4} = \frac{24}{4} = \underline{\underline{6}}$$
-
-**b)** Vi setter inn tallverdiene i $E_p = m\cdot \mathrm{g}\cdot h$: $$E_p = 5.0\,\mathrm{kg}\cdot9.81\,\mathrm{m}\,\mathrm{s}^{-2}\cdot10.0\,\mathrm{m} = 490.5\,\mathrm{J} \approx \underline{\underline{4.9\cdot 10^{2}\,\mathrm{J}}}$$ I Python kan dette gjøres med koden under.
-
+::: {.fasit}
+a) $6$ · b) $4.9\cdot 10^{2}\,\mathrm{J}$
 :::
 
 :::
@@ -151,15 +147,8 @@ a)  Sett opp et likningssystem med to likninger og to ukjente som beskriver situ
 
 b)  Løs likningssystemet med innsettingsmetoden. Hvor gamle er Per og Kari?
 
-::: {.losning}
-
-**a)** La $P$ være Pers alder og $K$ være Karis alder. “Per er dobbelt så gammel som Kari” gir $P=2K$. “Kari er 6 år yngre enn Per” gir $K = P-6$. Likningssystemet er dermed $$\begin{cases}
-        P = 2K\\
-        K = P-6
-    \end{cases}$$
-
-**b)** Vi setter det første uttrykket ($P=2K$) inn i det andre: $$K = 2K - 6 \quad\Rightarrow\quad -K = -6 \quad\Rightarrow\quad K = \underline{\underline{6}}$$ Og dermed $P = 2K = 2\cdot 6 = \underline{\underline{12}}$. Per er altså 12 år, og Kari er 6 år.
-
+::: {.fasit}
+$6$ · $12$
 :::
 
 :::

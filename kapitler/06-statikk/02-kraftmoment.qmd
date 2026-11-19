@@ -105,16 +105,8 @@ b)  Hva er kraftmomentet dersom du i stedet trykker på midten av døren ($45\,\
 
 c)  Hva skjer med kraften som trengs for å oppnå det samme momentet dersom armen halveres?
 
-::: {.losning}
-
-Kraften står vinkelrett på døra, så momentarmen er avstanden fra hengslene, og $\tau = d\cdot F$ (se *Kraftmoment*).
-
-**a)** $$\tau = 0.90\,\mathrm{m}\cdot15\,\mathrm{N} = 13.5\,\mathrm{N}\,\mathrm{m} \approx \underline{\underline{14\,\mathrm{N}\,\mathrm{m}}}$$
-
-**b)** $$\tau = 0.45\,\mathrm{m}\cdot15\,\mathrm{N} = 6.75\,\mathrm{N}\,\mathrm{m} \approx \underline{\underline{6.8\,\mathrm{N}\,\mathrm{m}}}$$
-
-**c)** Siden $\tau = d\cdot F$, må $F$ **dobles** når $d$ halveres for at momentet skal bli det samme. Det er derfor det er tungt å åpne en dør ved å dytte nær hengslene.
-
+::: {.fasit}
+a) $14\,\mathrm{N}\,\mathrm{m}$ · b) $6.8\,\mathrm{N}\,\mathrm{m}$
 :::
 
 :::

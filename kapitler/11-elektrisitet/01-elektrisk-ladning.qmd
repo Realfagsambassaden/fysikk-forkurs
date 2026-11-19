@@ -104,10 +104,8 @@ a)  Hvor mange elektroner har ballongen i overskudd?
 
 b)  Hvilken ladning har genseren fått?
 
-::: {.losning}
-**a)** $N = \dfrac{|q|}{\mathrm{e}} = \dfrac{0.20\cdot 10^{-6}\ \mathrm{C}}{1.602\cdot 10^{-19}\ \mathrm{C}} = 1.25\cdot 10^{12} \approx \underline{\underline{1.2\cdot 10^{12}}}$
-
-**b)** Ladningen er bevart, så genseren har fått $\underline{\underline{+0.20\ \mathrm{\mu C}}}$.
+::: {.fasit}
+a) $1.2\cdot 10^{12}$ · b) $+0.20\ \mathrm{\mu C}$
 :::
 :::
 
@@ -115,10 +113,8 @@ b)  Hvilken ladning har genseren fått?
 <!-- tillegg: Claude -->
 Hvor mange elektroner må til for å få ladningen $-1.0\ \mathrm{C}$? Hvorfor møter vi sjelden så store ladninger på ting i hverdagen?
 
-::: {.losning}
-$N = \dfrac{1.0\ \mathrm{C}}{1.602\cdot 10^{-19}\ \mathrm{C}} = \underline{\underline{6.2\cdot 10^{18}}}$
-
-Én coulomb er en enorm ladning å samle på ett legeme. Ladninger med likt fortegn frastøter hverandre så kraftig at de straks ville spre seg eller lade ut gjennom lufta. Typiske ladninger fra gnidning er noen mikrocoulomb eller mindre.
+::: {.fasit}
+$6.2\cdot 10^{18}$
 :::
 :::
 
@@ -126,9 +122,6 @@ $N = \dfrac{1.0\ \mathrm{C}}{1.602\cdot 10^{-19}\ \mathrm{C}} = \underline{\unde
 <!-- tillegg: Claude -->
 Forklar med elektroner hvorfor en ledning er laget av kobber inni og har plast utenpå.
 
-::: {.losning}
-Kobber er en leder: Det har frie elektroner som kan bevege seg gjennom metallet, så strømmen går lett i ledningen. Plast er en isolator: Elektronene sitter fast, så ingen ladning kan gå gjennom plasten. Plasten hindrer at strømmen går gjennom oss eller over til andre ledninger når vi tar på ledningen.
-:::
 :::
 
 ::::

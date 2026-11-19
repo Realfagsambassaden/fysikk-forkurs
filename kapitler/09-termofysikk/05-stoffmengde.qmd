@@ -200,111 +200,48 @@ print(f"Antall:       N = {N:.3g}")
 ::: {.oppgave tittel="Molar masse"}
 Finn den molare massen til a) karbondioksid, $\mathrm{CO_2}$, b) metan, $\mathrm{CH_4}$. c) Hva er massen til ett $\mathrm{CO_2}$-molekyl i kilogram?
 
-::: {.losning}
-Vi legger sammen atommassene fra tabellen.
-
-a)
-$$
-M_{\mathrm{CO_2}} = 12.011\ \mathrm{g/mol} + 2\cdot15.999\ \mathrm{g/mol} = \underline{\underline{44.009\ \mathrm{g/mol}}}
-$$
-
-b)
-$$
-M_{\mathrm{CH_4}} = 12.011\ \mathrm{g/mol} + 4\cdot1.008\ \mathrm{g/mol} = \underline{\underline{16.043\ \mathrm{g/mol}}}
-$$
-
-c) Molekylmassen er $44.009\ \mathrm{u}$. Med $1\ \mathrm{u} = 1.661\cdot10^{-27}\ \mathrm{kg}$:
-$$
-m = 44.009\cdot1.661\cdot10^{-27}\ \mathrm{kg} = \underline{\underline{7.31\cdot10^{-26}\ \mathrm{kg}}}
-$$
-Vi kan også dele den molare massen i $\mathrm{kg/mol}$ på Avogadros tall: $0.044009\ \mathrm{kg/mol}\,/\,6.022\cdot10^{23}\ \mathrm{mol^{-1}} = 7.31\cdot10^{-26}\ \mathrm{kg}$. Det må bli det samme, fordi $1\ \mathrm{u}\cdot\mathrm{N_A} = 1\ \mathrm{g/mol}$.
+::: {.fasit}
+$44.009\ \mathrm{g/mol}$ · $16.043\ \mathrm{g/mol}$ · c) $7.31\cdot10^{-26}\ \mathrm{kg}$
 :::
 :::
 
 ::: {.oppgave tittel="Gullringen"}
 En gullring veier $5.0\ \mathrm{g}$. Gull har atommassen $196.97\ \mathrm{u}$. Hvor mange gullatomer er det i ringen? Anta at ringen er av rent gull.
 
-::: {.losning}
-Den molare massen er $M = 196.97\ \mathrm{g/mol}$. Først stoffmengden:
-$$
-n = \frac{m}{M} = \frac{5.0\ \mathrm{g}}{196.97\ \mathrm{g/mol}} = 0.0254\ \mathrm{mol}
-$$
-Så antallet:
-$$
-N = n\,\mathrm{N_A} = 0.0254\ \mathrm{mol}\cdot6.022\cdot10^{23}\ \mathrm{mol^{-1}} = \underline{\underline{1.5\cdot10^{22}}}
-$$
+::: {.fasit}
+$1.5\cdot10^{22}$
 :::
 :::
 
 ::: {.oppgave tittel="Sukkerbiten"}
 En sukkerbit veier $3.0\ \mathrm{g}$ og består av sukrose, $\mathrm{C_{12}H_{22}O_{11}}$. a) Finn den molare massen til sukrose. b) Hvor mange sukrosemolekyler er det i sukkerbiten?
 
-::: {.losning}
-a)
-$$
-M = 12\cdot12.011\ \mathrm{g/mol} + 22\cdot1.008\ \mathrm{g/mol} + 11\cdot15.999\ \mathrm{g/mol} = \underline{\underline{342.30\ \mathrm{g/mol}}}
-$$
-
-b)
-$$
-n = \frac{m}{M} = \frac{3.0\ \mathrm{g}}{342.30\ \mathrm{g/mol}} = 8.76\cdot10^{-3}\ \mathrm{mol}
-$$
-$$
-N = n\,\mathrm{N_A} = 8.76\cdot10^{-3}\ \mathrm{mol}\cdot6.022\cdot10^{23}\ \mathrm{mol^{-1}} = \underline{\underline{5.3\cdot10^{21}}}
-$$
-Sukrosemolekylet er stort, så det blir færre molekyler per gram enn for vann.
+::: {.fasit}
+$342.30\ \mathrm{g/mol}$ · $5.3\cdot10^{21}$
 :::
 :::
 
 ::: {.oppgave tittel="Utslipp fra en bil" niva="Middels"}
 En bil slipper ut $120\ \mathrm{g}$ $\mathrm{CO_2}$ per kilometer. a) Hvor mange mol $\mathrm{CO_2}$ er det? b) Hvor mange molekyler? c) Hvor stort volum tar gassen ved $20\ ^\circ\mathrm{C}$ og $101.3\ \mathrm{kPa}$?
 
-::: {.losning}
-a) Fra oppgaven om molar masse er $M_{\mathrm{CO_2}} = 44.009\ \mathrm{g/mol}$:
-$$
-n = \frac{m}{M} = \frac{120\ \mathrm{g}}{44.009\ \mathrm{g/mol}} = 2.727\ \mathrm{mol} \approx \underline{\underline{2.73\ \mathrm{mol}}}
-$$
-
-b)
-$$
-N = n\,\mathrm{N_A} = 2.727\ \mathrm{mol}\cdot6.022\cdot10^{23}\ \mathrm{mol^{-1}} = \underline{\underline{1.64\cdot10^{24}}}
-$$
-
-c) Det molare volumet er $V_\mathrm{m} = 24.1\ \mathrm{L/mol}$ ved disse forholdene:
-$$
-V = n\,V_\mathrm{m} = 2.727\ \mathrm{mol}\cdot24.1\ \mathrm{L/mol} = \underline{\underline{65.7\ \mathrm{L}}}
-$$
-Det er omtrent som en stor ryggsekk full av $\mathrm{CO_2}$ for hver kilometer.
+::: {.fasit}
+a) $2.73\ \mathrm{mol}$ · a) $1.64\cdot10^{24}$ · c) $65.7\ \mathrm{L}$
 :::
 :::
 
 ::: {.oppgave tittel="Hvor mye helium?" niva="Middels"}
 En liten festballong skal fylles med $0.50\ \mathrm{g}$ helium. Hvor stort blir volumet ved $20\ ^\circ\mathrm{C}$ og $101.3\ \mathrm{kPa}$?
 
-::: {.losning}
-Vi går fra masse til stoffmengde, og så fra stoffmengde til volum med det molare volumet:
-$$
-n = \frac{m}{M} = \frac{0.50\ \mathrm{g}}{4.003\ \mathrm{g/mol}} = 0.125\ \mathrm{mol}
-$$
-$$
-V = n\,V_\mathrm{m} = 0.125\ \mathrm{mol}\cdot24.1\ \mathrm{L/mol} = \underline{\underline{3.0\ \mathrm{L}}}
-$$
+::: {.fasit}
+$3.0\ \mathrm{L}$
 :::
 :::
 
 ::: {.oppgave tittel="Et glass vann i havet" niva="Utfordrende"}
 Du heller et glass med $250\ \mathrm{g}$ vann ut i havet. Tenk deg at vannet blir jevnt blandet i alle verdenshavene, som har et samlet volum på omtrent $1.3\cdot10^{21}\ \mathrm{L}$. Så fyller du glasset med $0.25\ \mathrm{L}$ havvann. Omtrent hvor mange av de opprinnelige vannmolekylene får du tilbake i glasset?
 
-::: {.losning}
-Antallet molekyler i glasset fant vi i eksempelet med glasset: $N = 8.36\cdot10^{24}$. Når de er jevnt fordelt i hele havet, er antallet per liter
-$$
-\frac{N}{V_\text{hav}} = \frac{8.36\cdot10^{24}}{1.3\cdot10^{21}\ \mathrm{L}} = 6.4\cdot10^{3}\ \mathrm{L^{-1}}
-$$
-I $0.25\ \mathrm{L}$ havvann er det da
-$$
-6.4\cdot10^{3}\ \mathrm{L^{-1}}\cdot0.25\ \mathrm{L} = \underline{\underline{1.6\cdot10^{3}}}
-$$
-Omtrent 1600 av de opprinnelige molekylene kommer tilbake. Selv om glasset er en ørliten dråpe i havet, er det så mange molekyler i det at de finnes overalt etterpå.
+::: {.fasit}
+$1.6\cdot10^{3}$
 :::
 :::
 

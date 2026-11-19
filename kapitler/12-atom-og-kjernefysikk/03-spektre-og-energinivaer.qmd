@@ -115,10 +115,8 @@ for n in range(n_ned + 1, n_ned + 7):
 <!-- tillegg: Claude -->
 Finn energien til et foton med bølgelengde $400\ \mathrm{nm}$, i elektronvolt og i joule.
 
-::: {.losning}
-$$
-E = \frac{1240\ \mathrm{eV\,nm}}{400\ \mathrm{nm}} = \underline{\underline{3.1\ \mathrm{eV}}} = 3.1\cdot1.60\cdot10^{-19}\ \mathrm{J} = \underline{\underline{5.0\cdot10^{-19}\ \mathrm{J}}}
-$$
+::: {.fasit}
+$3.1\ \mathrm{eV}$ · $5.0\cdot10^{-19}\ \mathrm{J}$
 :::
 :::
 
@@ -126,10 +124,8 @@ $$
 <!-- tillegg: Claude -->
 Finn bølgelengden til fotonet når elektronet i hydrogen faller fra $n = 4$ til $n = 2$.
 
-::: {.losning}
-$$
-E = 13.6\ \mathrm{eV}\left(\frac14 - \frac1{16}\right) = 2.55\ \mathrm{eV}, \qquad \lambda = \frac{1240}{2.55}\ \mathrm{nm} = \underline{\underline{486\ \mathrm{nm}}}
-$$
+::: {.fasit}
+$486\ \mathrm{nm}$
 :::
 :::
 
@@ -137,12 +133,8 @@ $$
 <!-- tillegg: Claude -->
 Hva er den lengste bølgelengden et foton kan ha og fortsatt ionisere et hydrogenatom i grunntilstanden? Hvilken del av spekteret er det?
 
-::: {.losning}
-Fotonet må ha minst $13.6\ \mathrm{eV}$. Stor energi betyr kort bølgelengde, så bølgelengden kan **høyst** være
-$$
-\lambda = \frac{1240\ \mathrm{eV\,nm}}{13.6\ \mathrm{eV}} = \underline{\underline{91\ \mathrm{nm}}}
-$$
-Det er ultrafiolett stråling.
+::: {.fasit}
+$91\ \mathrm{nm}$
 :::
 :::
 
@@ -150,11 +142,6 @@ Det er ultrafiolett stråling.
 <!-- tillegg: Claude -->
 Et hydrogenatom er eksitert til $n = 4$. Elektronet kan falle ned i ett hopp eller i flere. Hvor mange forskjellige fotonenergier kan atomet sende ut? Hvilke av dem er synlige?
 
-::: {.losning}
-Mulige hopp: $4\to3$, $4\to2$, $4\to1$, $3\to2$, $3\to1$, $2\to1$, altså **6 forskjellige** linjer.
-
-Synlige er hoppene ned til $n = 2$: $4\to2$ ($486\ \mathrm{nm}$) og $3\to2$ ($656\ \mathrm{nm}$). Hoppene ned til $n = 1$ gir UV, og $4\to3$ gir infrarødt ($0.66\ \mathrm{eV}$, $1.9\ \mathrm{\mu m}$).
-:::
 :::
 
 ::::

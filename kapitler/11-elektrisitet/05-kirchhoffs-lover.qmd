@@ -207,12 +207,8 @@ b)  Finn spenningen over parallellkoblingen.
 
 c)  Finn $I_2$ og $I_3$. Kontroller med strømloven.
 
-::: {.losning}
-**a)** $R_p = \dfrac{10\ \mathrm{\Omega}\cdot 15\ \mathrm{\Omega}}{25\ \mathrm{\Omega}} = 6.0\ \mathrm{\Omega}$, så $R_\text{tot} = 4.0\ \mathrm{\Omega} + 6.0\ \mathrm{\Omega} = \underline{\underline{10\ \mathrm{\Omega}}}$ og $I_0 = \dfrac{20\ \mathrm{V}}{10\ \mathrm{\Omega}} = \underline{\underline{2.0\ \mathrm{A}}}$.
-
-**b)** $U_p = R_pI_0 = 6.0\ \mathrm{\Omega}\cdot 2.0\ \mathrm{A} = \underline{\underline{12\ \mathrm{V}}}$. Kontroll med spenningsloven: Over $R_1$ faller $8.0\ \mathrm{V}$, og $8.0\ \mathrm{V} + 12\ \mathrm{V} = 20\ \mathrm{V}$.
-
-**c)** $I_2 = \dfrac{12\ \mathrm{V}}{10\ \mathrm{\Omega}} = \underline{\underline{1.2\ \mathrm{A}}}$ og $I_3 = \dfrac{12\ \mathrm{V}}{15\ \mathrm{\Omega}} = \underline{\underline{0.80\ \mathrm{A}}}$. Strømloven: $1.2\ \mathrm{A} + 0.80\ \mathrm{A} = 2.0\ \mathrm{A} = I_0$.
+::: {.fasit}
+a) $10\ \mathrm{\Omega}$ · a) $2.0\ \mathrm{A}$ · b) $12\ \mathrm{V}$ · c) $1.2\ \mathrm{A}$ · c) $0.80\ \mathrm{A}$
 :::
 :::
 
@@ -229,14 +225,8 @@ c)  Finn spenningen over parallellkoblingen.
 
 d)  Finn strømmene $I_3$ og $I_4$ gjennom $R_3$ og $R_4$. Kontroller svaret med Kirchhoffs strømlov.
 
-::: {.losning}
-**a)** $R_p = \dfrac{10\ \mathrm{\Omega}\cdot 15\ \mathrm{\Omega}}{10\ \mathrm{\Omega} + 15\ \mathrm{\Omega}} = 6.0\ \mathrm{\Omega}$, og $R_\text{tot} = 2.0\ \mathrm{\Omega} + 4.0\ \mathrm{\Omega} + 6.0\ \mathrm{\Omega} = \underline{\underline{12\ \mathrm{\Omega}}}$.
-
-**b)** $I = \dfrac{24\ \mathrm{V}}{12\ \mathrm{\Omega}} = \underline{\underline{2.0\ \mathrm{A}}}$
-
-**c)** $U_p = R_pI = 6.0\ \mathrm{\Omega}\cdot 2.0\ \mathrm{A} = \underline{\underline{12\ \mathrm{V}}}$
-
-**d)** $I_3 = \dfrac{12\ \mathrm{V}}{10\ \mathrm{\Omega}} = \underline{\underline{1.2\ \mathrm{A}}}$ og $I_4 = \dfrac{12\ \mathrm{V}}{15\ \mathrm{\Omega}} = \underline{\underline{0.80\ \mathrm{A}}}$. Strømloven: $1.2\ \mathrm{A} + 0.80\ \mathrm{A} = 2.0\ \mathrm{A}$, som er strømmen fra batteriet.
+::: {.fasit}
+a) $12\ \mathrm{\Omega}$ · b) $2.0\ \mathrm{A}$ · c) $12\ \mathrm{V}$ · d) $1.2\ \mathrm{A}$ · d) $0.80\ \mathrm{A}$
 :::
 :::
 
@@ -249,12 +239,8 @@ b)  Resistansen $R_1$ er $7.0\ \mathrm{\Omega}$. Hvor stor er strømmen i kretse
 
 c)  Finn $R_2$.
 
-::: {.losning}
-**a)** Spenningsloven: $U_2 = 9.0\ \mathrm{V} - 3.5\ \mathrm{V} = \underline{\underline{5.5\ \mathrm{V}}}$
-
-**b)** $I = \dfrac{U_1}{R_1} = \dfrac{3.5\ \mathrm{V}}{7.0\ \mathrm{\Omega}} = \underline{\underline{0.50\ \mathrm{A}}}$
-
-**c)** Samme strøm i serie: $R_2 = \dfrac{5.5\ \mathrm{V}}{0.50\ \mathrm{A}} = \underline{\underline{11\ \mathrm{\Omega}}}$
+::: {.fasit}
+a) $5.5\ \mathrm{V}$ · b) $0.50\ \mathrm{A}$ · c) $11\ \mathrm{\Omega}$
 :::
 :::
 
@@ -262,12 +248,8 @@ c)  Finn $R_2$.
 <!-- tillegg: Claude -->
 Fire ledninger møtes i et knutepunkt. Strømmene $2.5\ \mathrm{A}$ og $1.2\ \mathrm{A}$ går inn i punktet, og $0.8\ \mathrm{A}$ går ut gjennom den tredje ledningen. Hvor stor strøm går i den fjerde ledningen, og hvilken vei?
 
-::: {.losning}
-Strømloven, med den ukjente strømmen $I$ regnet ut av punktet:
-$$
-2.5\ \mathrm{A} + 1.2\ \mathrm{A} = 0.8\ \mathrm{A} + I \quad\implies\quad I = \underline{\underline{2.9\ \mathrm{A}}}
-$$
-Svaret er positivt, så strømmen går **ut** av knutepunktet.
+::: {.fasit}
+$2.9\ \mathrm{A}$
 :::
 :::
 
@@ -279,18 +261,8 @@ a)  Finn strømmen i kretsen.
 
 b)  Finn spenningen over hver motstand, og vis at spenningsloven stemmer.
 
-::: {.losning}
-**a)** Spenningsloven rundt sløyfa: $U_0 = R_1 I + R_2 I$, så
-$$
-I = \frac{U_0}{R_1 + R_2} = \frac{9.0\ \mathrm{V}}{300\ \mathrm{\Omega}} = 0.030\ \mathrm{A} = \underline{\underline{30\ \mathrm{mA}}}
-$$
-
-**b)**
-$$
-U_1 = R_1 I = 100\ \mathrm{\Omega}\cdot0.030\ \mathrm{A} = \underline{\underline{3.0\ \mathrm{V}}}, \qquad
-U_2 = R_2 I = 200\ \mathrm{\Omega}\cdot0.030\ \mathrm{A} = \underline{\underline{6.0\ \mathrm{V}}}
-$$
-Sjekk: $3.0\ \mathrm{V} + 6.0\ \mathrm{V} = 9.0\ \mathrm{V}$, som er spenningen fra batteriet.
+::: {.fasit}
+$30\ \mathrm{mA}$ · $3.0\ \mathrm{V}$ · $6.0\ \mathrm{V}$
 :::
 :::
 
@@ -304,21 +276,8 @@ b)  Finn strømmen gjennom hver motstand og strømmen fra kilden.
 
 c)  Hvilken enkelt motstand ville gitt samme strøm fra kilden?
 
-::: {.losning}
-**a)** Parallelle grener har samme spenning, så begge har $\underline{\underline{12\ \mathrm{V}}}$.
-
-**b)**
-$$
-I_1 = \frac{12\ \mathrm{V}}{4.0\ \mathrm{\Omega}} = \underline{\underline{3.0\ \mathrm{A}}}, \qquad
-I_2 = \frac{12\ \mathrm{V}}{6.0\ \mathrm{\Omega}} = \underline{\underline{2.0\ \mathrm{A}}}
-$$
-Strømloven gir strømmen fra kilden: $I = I_1 + I_2 = \underline{\underline{5.0\ \mathrm{A}}}$. Mest strøm går gjennom den minste motstanden.
-
-**c)**
-$$
-R = \frac{U}{I} = \frac{12\ \mathrm{V}}{5.0\ \mathrm{A}} = \underline{\underline{2.4\ \mathrm{\Omega}}}
-$$
-Det stemmer med formelen for parallellkobling: $\dfrac{1}{R} = \dfrac{1}{4.0\ \mathrm{\Omega}} + \dfrac{1}{6.0\ \mathrm{\Omega}}$ gir $R = 2.4\ \mathrm{\Omega}$. To motstander i parallell gir *mindre* total motstand enn hver av dem, fordi strømmen får to veier.
+::: {.fasit}
+$12\ \mathrm{V}$ · $3.0\ \mathrm{A}$ · $2.0\ \mathrm{A}$ · $5.0\ \mathrm{A}$ · $2.4\ \mathrm{\Omega}$
 :::
 :::
 
@@ -326,16 +285,8 @@ Det stemmer med formelen for parallellkobling: $\dfrac{1}{R} = \dfrac{1}{4.0\ \m
 <!-- tillegg: Claude -->
 Du har et batteri på $9.0\ \mathrm{V}$, men en sensor trenger $3.0\ \mathrm{V}$. Du kobler to motstander i serie over batteriet og tar ut spenningen over den ene, $R_2 = 1.0\ \mathrm{k\Omega}$. Hvor stor må den andre motstanden $R_1$ være? (Se bort fra strømmen som går inn i sensoren.)
 
-::: {.losning}
-Strømmen gjennom $R_2$ (og dermed gjennom hele seriekretsen) er
-$$
-I = \frac{U_2}{R_2} = \frac{3.0\ \mathrm{V}}{1.0\cdot10^{3}\ \mathrm{\Omega}} = 3.0\ \mathrm{mA}
-$$
-Spenningsloven: Over $R_1$ må resten ligge, $U_1 = 9.0\ \mathrm{V} - 3.0\ \mathrm{V} = 6.0\ \mathrm{V}$. Da er
-$$
-R_1 = \frac{U_1}{I} = \frac{6.0\ \mathrm{V}}{3.0\cdot10^{-3}\ \mathrm{A}} = 2.0\cdot10^{3}\ \mathrm{\Omega} = \underline{\underline{2.0\ \mathrm{k\Omega}}}
-$$
-Spenningen deles i forholdet $6.0 : 3.0 = 2 : 1$, det samme som motstandene.
+::: {.fasit}
+$2.0\ \mathrm{k\Omega}$
 :::
 :::
 
@@ -349,19 +300,8 @@ b)  Finn ladestrømmen.
 
 c)  Hva skjer med strømmen når batteriet etter hvert får spenningen $13.5\ \mathrm{V}$?
 
-::: {.losning}
-**a)** Vi går rundt sløyfa i den retningen laderen driver strømmen. Gjennom laderen går vi fra − til + og får en økning på $14.0\ \mathrm{V}$. Gjennom batteriet går vi fra + til − og får et fall på $12.0\ \mathrm{V}$. I tillegg faller spenningen med $RI$ over ledningene:
-$$
-14.0\ \mathrm{V} - 12.0\ \mathrm{V} - R I = 0
-$$
-
-**b)**
-$$
-I = \frac{14.0\ \mathrm{V} - 12.0\ \mathrm{V}}{0.50\ \mathrm{\Omega}} = \underline{\underline{4.0\ \mathrm{A}}}
-$$
-Strømmen går inn i batteriets pluss-pol, altså «baklengs» gjennom batteriet. Det er det som lader det opp.
-
-**c)** Med $13.5\ \mathrm{V}$ er forskjellen bare $0.5\ \mathrm{V}$, og strømmen blir $I = 0.5\ \mathrm{V}/0.50\ \mathrm{\Omega} = 1\ \mathrm{A}$. Strømmen avtar mens batteriet lades, og den stopper helt når batteriet har samme spenning som laderen.
+::: {.fasit}
+$4.0\ \mathrm{A}$
 :::
 :::
 

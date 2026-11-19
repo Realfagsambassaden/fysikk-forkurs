@@ -212,98 +212,45 @@ plt.show()
 ::: {.oppgave tittel="Virkningsgraden til en dampmaskin"}
 En gammel dampmaskin tar inn $50.0\ \mathrm{kJ}$ varme fra kjelen og gir fra seg $42.5\ \mathrm{kJ}$ varme til lufta. a) Hvor mye arbeid gjør maskinen? b) Finn virkningsgraden.
 
-::: {.losning}
-a) Energien er bevart, $Q_\text{H} = W + Q_\text{L}$, så
-$$
-W = Q_\text{H} - Q_\text{L} = 50.0\ \mathrm{kJ} - 42.5\ \mathrm{kJ} = \underline{\underline{7.5\ \mathrm{kJ}}}
-$$
-
-b) Virkningsgraden er
-$$
-\eta = \frac{W}{Q_\text{H}} = \frac{7.5\ \mathrm{kJ}}{50.0\ \mathrm{kJ}} = \underline{\underline{0.15 = 15\ \%}}
-$$
-Arbeidet har bare to gjeldende siffer etter subtraksjonen (én desimal), så svaret får to. Dampmaskinene på 1800-tallet hadde gjerne enda lavere virkningsgrad enn dette.
+::: {.fasit}
+a) $7.5\ \mathrm{kJ}$ · b) $0.15 = 15\ \%$
 :::
 :::
 
 ::: {.oppgave tittel="Kjøleskapet"}
 Et kjøleskap tar ut $150\ \mathrm{kJ}$ varme fra innsiden og bruker $50.0\ \mathrm{kJ}$ elektrisk energi til det. a) Hvor mye varme gir kjøleskapet fra seg til kjøkkenet? b) Finn effektfaktoren. c) En varm sommerdag setter noen kjøleskapsdøra åpen for å kjøle ned kjøkkenet. Virker det?
 
-::: {.losning}
-a) Kjøleskapet leverer både varmen fra innsiden og den elektriske energien til kjøkkenet:
-$$
-Q_\text{H} = W + Q_\text{L} = 50.0\ \mathrm{kJ} + 150\ \mathrm{kJ} = \underline{\underline{200\ \mathrm{kJ}}}
-$$
-
-b) For et kjøleskap er det varmen som tas ut, som er nyttig:
-$$
-\text{COP}_\text{kjøleskap} = \frac{Q_\text{L}}{W} = \frac{150\ \mathrm{kJ}}{50.0\ \mathrm{kJ}} = \underline{\underline{3.00}}
-$$
-
-c) Nei. Med døra åpen henter kjøleskapet varme fra kjøkkenet foran og gir den tilbake til kjøkkenet bak. I tillegg gir det fra seg den elektriske energien som varme. Kjøkkenet blir derfor litt *varmere*, ikke kaldere. Svaret fra a) viser det: Det kommer ut $200\ \mathrm{kJ}$ bak, men bare $150\ \mathrm{kJ}$ tas inn foran.
+::: {.fasit}
+a) $200\ \mathrm{kJ}$ · b) $3.00$
 :::
 :::
 
 ::: {.oppgave tittel="Jordvarmekraftverk" niva="Middels"}
 Et kraftverk bruker varmt vann fra dypt nede i jorda. Vannet har temperaturen $150\ ^\circ\mathrm{C}$, og kraftverket kjøles med luft på $10\ ^\circ\mathrm{C}$. a) Hva er den største mulige virkningsgraden? b) Hvorfor er virkningsgraden mye lavere enn for et kullkraftverk med damp på over $500\ ^\circ\mathrm{C}$?
 
-::: {.losning}
-a) I kelvin er $T_\text{H} = 150 + 273 = 423\ \mathrm{K}$ og $T_\text{L} = 10 + 273 = 283\ \mathrm{K}$:
-$$
-\eta_\text{maks} = 1 - \frac{T_\text{L}}{T_\text{H}} = 1 - \frac{283\ \mathrm{K}}{423\ \mathrm{K}} = 0.331 = \underline{\underline{33.1\ \%}}
-$$
-
-b) Den største mulige virkningsgraden blir høyere jo større $T_\text{H}$ er sammenlignet med $T_\text{L}$. Jordvarmen er bare $150\ ^\circ\mathrm{C}$, så forholdet $T_\text{L}/T_\text{H}$ blir stort og virkningsgraden liten. Til gjengjeld er varmen fra jorda gratis og fornybar.
+::: {.fasit}
+$33.1\ \%$
 :::
 :::
 
 ::: {.oppgave tittel="En for god oppfinnelse" niva="Middels"}
 En oppfinner påstår at han har laget en motor som tar inn varme ved $400\ \mathrm{K}$, gir fra seg varme ved $300\ \mathrm{K}$ og har virkningsgraden $30.0\ \%$. Bør du investere i oppfinnelsen?
 
-::: {.losning}
-Vi finner den største mulige virkningsgraden for disse temperaturene:
-$$
-\eta_\text{maks} = 1 - \frac{T_\text{L}}{T_\text{H}} = 1 - \frac{300\ \mathrm{K}}{400\ \mathrm{K}} = 0.250 = \underline{\underline{25.0\ \%}}
-$$
-Ingen maskin kan ha høyere virkningsgrad enn dette, og virkelige maskiner ligger alltid under grensen. En virkningsgrad på $30.0\ \%$ ville bryte termodynamikkens 2. lov. Påstanden er feil, så du bør ikke investere.
+::: {.fasit}
+$25.0\ \%$
 :::
 :::
 
 ::: {.oppgave tittel="Rydde rommet"}
 Et rotete rom blir ikke ryddig av seg selv, men du kan rydde det. Betyr det at du bryter termodynamikkens 2. lov når du rydder? Forklar med entropi.
 
-::: {.losning}
-Nei. Entropien i rommet blir mindre når tingene havner på plass, men rommet er ikke et isolert system. For å rydde bruker du energi fra maten. Kroppen din gjør maten om til varme og avfallsstoffer, og den varmen sprer seg i lufta rundt deg. Det øker entropien i omgivelsene mer enn entropien i rommet minker. Totalt øker entropien, akkurat som 2. lov sier. Det er det samme som skjer i et kjøleskap.
-:::
 :::
 
 ::: {.oppgave tittel="Varmepumpe eller panelovn?" niva="Utfordrende"}
 Et hus trenger $30.0\ \mathrm{kWh}$ varme et vinterdøgn. Strømmen koster $1.50$ kroner per kilowattime. a) Hvor mye strøm går med hvis huset varmes med panelovner? b) Hvor mye strøm går med med en varmepumpe som har effektfaktoren $3.2$? c) Hvor mye sparer varmepumpen i kroner det døgnet? d) Ute er det $-10\ ^\circ\mathrm{C}$ og inne $20\ ^\circ\mathrm{C}$. Hva er den største mulige effektfaktoren, og hvorfor er den virkelige mye lavere?
 
-::: {.losning}
-a) En panelovn gjør all strømmen om til varme (all elektrisk energi blir til slutt indre energi). Den trenger altså like mye strøm som huset trenger varme: $\underline{\underline{30.0\ \mathrm{kWh}}}$.
-
-b) Varmepumpen gir $\text{COP} = Q_\text{H}/W$, så
-$$
-W = \frac{Q_\text{H}}{\text{COP}} = \frac{30.0\ \mathrm{kWh}}{3.2} = 9.375\ \mathrm{kWh} \approx \underline{\underline{9.4\ \mathrm{kWh}}}
-$$
-Effektfaktoren har to gjeldende siffer, så svaret får to.
-
-c) Varmepumpen sparer
-$$
-30.0\ \mathrm{kWh} - 9.4\ \mathrm{kWh} = 20.6\ \mathrm{kWh}
-$$
-strøm. Det koster
-$$
-20.6\ \mathrm{kWh}\cdot 1.50\ \text{kr/kWh} = \underline{\underline{30.9\ \text{kr}}}
-$$
-(Med den uavrundede verdien $9.375\ \mathrm{kWh}$ blir det $30.94$ kr, altså det samme avrundet.)
-
-d) I kelvin er $T_\text{H} = 20 + 273 = 293\ \mathrm{K}$ og $T_\text{L} = -10 + 273 = 263\ \mathrm{K}$:
-$$
-\text{COP}_\text{maks} = \frac{T_\text{H}}{T_\text{H} - T_\text{L}} = \frac{293\ \mathrm{K}}{30\ \mathrm{K}} = \underline{\underline{9.8}}
-$$
-Den virkelige effektfaktoren er mye lavere fordi kjølemediet i pumpen må være mye kaldere enn uteluften og mye varmere enn inneluften for at varmen skal gå raskt nok. Da blir temperaturforskjellen pumpen arbeider over, langt større enn $30\ \mathrm{K}$. I tillegg er det friksjon og varmetap i kompressoren.
+::: {.fasit}
+a) $30.0\ \mathrm{kWh}$ · b) $9.4\ \mathrm{kWh}$ · c) $30.9\ \text{kr}$ · d) $9.8$
 :::
 :::
 

@@ -111,10 +111,8 @@ plt.xlabel("$I$ (A)"); plt.ylabel("$U$ (V)"); plt.legend(); plt.grid(); plt.show
 <!-- tillegg: Claude -->
 Et batteri med emf $4.5\ \mathrm{V}$ og indre resistans $0.30\ \mathrm{\Omega}$ er koblet til en lyspære med resistans $8.7\ \mathrm{\Omega}$. Finn strømmen og polspenningen.
 
-::: {.losning}
-$$
-I = \frac{4.5\ \mathrm{V}}{9.0\ \mathrm{\Omega}} = \underline{\underline{0.50\ \mathrm{A}}}, \qquad U = 4.5\ \mathrm{V} - 0.30\ \mathrm{\Omega}\cdot0.50\ \mathrm{A} = \underline{\underline{4.35\ \mathrm{V}}}
-$$
+::: {.fasit}
+$0.50\ \mathrm{A}$ · $4.35\ \mathrm{V}$
 :::
 :::
 
@@ -122,11 +120,8 @@ $$
 <!-- tillegg: Claude -->
 Et batteri gir polspenningen $1.45\ \mathrm{V}$ når strømmen er $0.20\ \mathrm{A}$, og $1.30\ \mathrm{V}$ når strømmen er $0.50\ \mathrm{A}$. Finn den indre resistansen og emf.
 
-::: {.losning}
-Polspenningen synker $0.15\ \mathrm{V}$ når strømmen øker $0.30\ \mathrm{A}$:
-$$
-r = \frac{0.15\ \mathrm{V}}{0.30\ \mathrm{A}} = \underline{\underline{0.50\ \mathrm{\Omega}}}, \qquad \mathcal E = U + rI = 1.45\ \mathrm{V} + 0.50\ \mathrm{\Omega}\cdot0.20\ \mathrm{A} = \underline{\underline{1.55\ \mathrm{V}}}
-$$
+::: {.fasit}
+$0.50\ \mathrm{\Omega}$ · $1.55\ \mathrm{V}$
 :::
 :::
 
@@ -134,11 +129,8 @@ $$
 <!-- tillegg: Claude -->
 Tre batterier, hvert med emf $1.5\ \mathrm{V}$ og indre resistans $0.20\ \mathrm{\Omega}$, kobles i serie og til en motstand på $2.4\ \mathrm{\Omega}$. Finn strømmen og polspenningen over hele batteripakken.
 
-::: {.losning}
-I serie legges både emf og indre resistans sammen: $\mathcal E = 4.5\ \mathrm{V}$ og $r = 0.60\ \mathrm{\Omega}$.
-$$
-I = \frac{4.5\ \mathrm{V}}{3.0\ \mathrm{\Omega}} = \underline{\underline{1.5\ \mathrm{A}}}, \qquad U = 4.5\ \mathrm{V} - 0.60\ \mathrm{\Omega}\cdot1.5\ \mathrm{A} = \underline{\underline{3.6\ \mathrm{V}}}
-$$
+::: {.fasit}
+$1.5\ \mathrm{A}$ · $3.6\ \mathrm{V}$
 :::
 :::
 
@@ -146,12 +138,8 @@ $$
 <!-- tillegg: Claude -->
 Batteriet fra det første eksempelet ($\mathcal E = 9.0\ \mathrm{V}$, $r = 0.50\ \mathrm{\Omega}$) kobles til en motstand $R$. Effekten i motstanden er $P = RI^2 = \dfrac{R\,\mathcal E^2}{(R+r)^2}$. Regn ut $P$ for $R = 0.25$, $0.50$, $1.0$ og $2.0\ \mathrm{\Omega}$ (gjerne med Python). For hvilken $R$ blir effekten størst?
 
-::: {.losning}
-| $R$ ($\Omega$) | 0.25 | 0.50 | 1.0 | 2.0 |
-|---|---|---|---|---|
-| $P$ (W) | 36 | **40.5** | 36 | 26 |
-
-Effekten er størst når $\underline{\underline{R = r = 0.50\ \mathrm{\Omega}}}$, og da er $P = \dfrac{\mathcal E^2}{4r} = 40.5\ \mathrm{W}$. Men da blir like mye effekt til varme inne i batteriet – virkningsgraden er bare 50 %.
+::: {.fasit}
+$R = r = 0.50\ \mathrm{\Omega}$
 :::
 :::
 

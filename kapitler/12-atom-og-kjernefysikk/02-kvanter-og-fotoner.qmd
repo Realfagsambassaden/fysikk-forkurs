@@ -180,14 +180,8 @@ a) Finn grensebølgelengden for cesium.
 
 b) Slipper det ut elektroner når cesium belyses med rødt lys med bølgelengde $650\ \mathrm{nm}$?
 
-::: {.losning}
-a)
-$$
-\lambda_0 = \frac{\mathrm{h}\mathrm{c}}{W} = \frac{1240\ \mathrm{eV\,nm}}{2.1\ \mathrm{eV}} = \underline{\underline{5.9\cdot10^{2}\ \mathrm{nm}}}
-$$
-Det er gult lys.
-
-b) Fotonene i rødt lys har energien $\dfrac{1240\ \mathrm{eV\,nm}}{650\ \mathrm{nm}} = 1.9\ \mathrm{eV}$, som er mindre enn $2.1\ \mathrm{eV}$. Bølgelengden $650\ \mathrm{nm}$ er også lengre enn grensebølgelengden. **Nei, det slipper ikke ut elektroner**, uansett hvor sterkt lyset er.
+::: {.fasit}
+$5.9\cdot10^{2}\ \mathrm{nm}$
 :::
 :::
 
@@ -199,26 +193,14 @@ a) antall elektroner som slipper ut per sekund?
 
 b) den største kinetiske energien til elektronene?
 
-::: {.losning}
-a) Dobbelt så sterkt lys med samme farge betyr dobbelt så mange fotoner per sekund. Hvert foton kan løsrive ett elektron, så **antall elektroner per sekund blir omtrent dobbelt så stort**.
-
-b) Hvert foton har fortsatt energien $\mathrm{h}f$, og hvert elektron får energi fra bare ett foton. $E_\text{k,maks} = \mathrm{h}f - W$ er derfor **uendret**.
-:::
 :::
 
 ::: {.oppgave tittel="Ultrafiolett lys på kobber"}
 <!-- tillegg: Claude -->
 Kobber belyses med ultrafiolett lys med bølgelengde $200\ \mathrm{nm}$. Kobber har løsrivningsarbeidet $4.7\ \mathrm{eV}$. Finn den største kinetiske energien til elektronene, i elektronvolt og i joule.
 
-::: {.losning}
-Fotonenergien er
-$$
-E = \frac{1240\ \mathrm{eV\,nm}}{200\ \mathrm{nm}} = 6.20\ \mathrm{eV}
-$$
-$$
-E_\text{k,maks} = 6.20\ \mathrm{eV} - 4.7\ \mathrm{eV} = \underline{\underline{1.5\ \mathrm{eV}}} = 1.5\cdot1.60\cdot10^{-19}\ \mathrm{J} = \underline{\underline{2.4\cdot10^{-19}\ \mathrm{J}}}
-$$
-Svaret har én desimal fordi $W$ er oppgitt med én desimal.
+::: {.fasit}
+$1.5\ \mathrm{eV}$ · $2.4\cdot10^{-19}\ \mathrm{J}$
 :::
 :::
 
@@ -235,18 +217,8 @@ a) Bruk målingene til å finne Plancks konstant, i $\mathrm{eV\,s}$ og i $\math
 
 b) Finn løsrivningsarbeidet. Hvilket metall er det trolig?
 
-::: {.losning}
-a) Punktene ligger på linja $E_\text{k,maks} = \mathrm{h}f - W$, så $\mathrm{h}$ er stigningstallet:
-$$
-\mathrm{h} = \frac{\Delta E_\text{k,maks}}{\Delta f} = \frac{1.44\ \mathrm{eV} - 0.20\ \mathrm{eV}}{9.0\cdot10^{14}\ \mathrm{Hz} - 6.0\cdot10^{14}\ \mathrm{Hz}} = \frac{1.24\ \mathrm{eV}}{3.0\cdot10^{14}\ \mathrm{Hz}} = \underline{\underline{4.1\cdot10^{-15}\ \mathrm{eV\,s}}}
-$$
-I joulesekund: $4.13\cdot10^{-15}\cdot1.60\cdot10^{-19}\ \mathrm{J\,s} = \underline{\underline{6.6\cdot10^{-34}\ \mathrm{J\,s}}}$, som stemmer med tabellverdien.
-
-b) Fra det første punktet:
-$$
-W = \mathrm{h}f - E_\text{k,maks} = 4.13\cdot10^{-15}\ \mathrm{eV\,s}\cdot6.0\cdot10^{14}\ \mathrm{Hz} - 0.20\ \mathrm{eV} = \underline{\underline{2.3\ \mathrm{eV}}}
-$$
-Det passer med **natrium** ($2.28\ \mathrm{eV}$).
+::: {.fasit}
+a) $4.1\cdot10^{-15}\ \mathrm{eV\,s}$ · a) $6.6\cdot10^{-34}\ \mathrm{J\,s}$ · b) $2.3\ \mathrm{eV}$
 :::
 :::
 
@@ -258,17 +230,8 @@ a) Finn farten til elektronene.
 
 b) Finn de Broglie-bølgelengden. Sammenlign med bølgelengden til synlig lys.
 
-::: {.losning}
-a) Den kinetiske energien er $E_\text{k} = 100\cdot1.60\cdot10^{-19}\ \mathrm{J} = 1.60\cdot10^{-17}\ \mathrm{J}$. Fra $E_\text{k} = \tfrac12 \mathrm{m_e} v^2$:
-$$
-v = \sqrt{\frac{2E_\text{k}}{\mathrm{m_e}}} = \sqrt{\frac{2\cdot1.60\cdot10^{-17}\ \mathrm{J}}{9.11\cdot10^{-31}\ \mathrm{kg}}} = \underline{\underline{5.93\cdot10^{6}\ \mathrm{m/s}}}
-$$
-
-b)
-$$
-\lambda = \frac{\mathrm{h}}{\mathrm{m_e} v} = \frac{6.63\cdot10^{-34}\ \mathrm{J\,s}}{9.11\cdot10^{-31}\ \mathrm{kg}\cdot5.93\cdot10^{6}\ \mathrm{m/s}} = \underline{\underline{1.23\cdot10^{-10}\ \mathrm{m}}} = 0.123\ \mathrm{nm}
-$$
-Synlig lys har bølgelengder på $400$–$700\ \mathrm{nm}$, altså noen tusen ganger lengre. Jo kortere bølgelengde, desto mindre detaljer kan et mikroskop skille. Derfor kan elektronmikroskoper se enkeltmolekyler, mens lysmikroskoper ikke kan.
+::: {.fasit}
+$5.93\cdot10^{6}\ \mathrm{m/s}$ · $1.23\cdot10^{-10}\ \mathrm{m}$
 :::
 :::
 

@@ -166,80 +166,34 @@ plt.show()
 ::: {.oppgave tittel="Tverr eller langs?"}
 Avgjør om bølgene er tverrbølger eller langsbølger: a) en bølge på en gitarstreng, b) lyd fra en høyttaler, c) en «bølge» på en fotballstadion, d) en spiralfjær som ligger på gulvet og dyttes fram og tilbake i den ene enden.
 
-::: {.losning}
-Spør hvilken vei mediet svinger i forhold til retningen bølgen går.
-
-a) Strengen svinger på tvers av strengen, mens bølgen går langs den: **tverrbølge**.
-
-b) Lufta dyttes fram og tilbake i samme retning som lyden går: **langsbølge**.
-
-c) Tilskuerne beveger seg opp og ned, mens bølgen går bortover: **tverrbølge**.
-
-d) Vindingene i fjæra skyves fram og tilbake langs fjæra, i samme retning som bølgen går: **langsbølge**.
-:::
 :::
 
 ::: {.oppgave tittel="Det hørbare området"}
 Mennesker hører lyd med frekvenser fra omtrent $20\ \mathrm{Hz}$ til $20\ \mathrm{kHz}$. Finn bølgelengden i luft for den dypeste og den lyseste tonen. Bruk $v = 343\ \mathrm{m/s}$.
 
-::: {.losning}
-Bølgelengden er $\lambda = v/f$.
-
-Dypeste tone:
-$$
-\lambda = \frac{343\ \mathrm{m/s}}{20\ \mathrm{Hz}} = 17.15\ \mathrm{m} \approx \underline{\underline{17\ \mathrm{m}}}
-$$
-Lyseste tone ($20\ \mathrm{kHz} = 20\cdot10^3\ \mathrm{Hz}$):
-$$
-\lambda = \frac{343\ \mathrm{m/s}}{20\cdot10^3\ \mathrm{Hz}} = 0.01715\ \mathrm{m} \approx \underline{\underline{17\ \mathrm{mm}}}
-$$
-Frekvensene er oppgitt med to gjeldende siffer, så svarene får to. Lydbølgene vi hører, spenner altså fra omtrent en centimeter til høyden på et hus.
+::: {.fasit}
+$17\ \mathrm{m}$ · $17\ \mathrm{mm}$
 :::
 :::
 
 ::: {.oppgave tittel="Lyn og torden"}
 Du ser et lyn, og $3.0\ \mathrm{s}$ senere hører du tordenen. Lyset kommer fram praktisk talt med en gang. Hvor langt unna slo lynet ned? Bruk $v = 343\ \mathrm{m/s}$.
 
-::: {.losning}
-Lyset kommer fram med en gang, så de $3.0\ \mathrm{s}$ er tiden lyden bruker. Lyden går bare én vei:
-$$
-d = v t = 343\ \mathrm{m/s}\cdot 3.0\ \mathrm{s} = 1029\ \mathrm{m} \approx \underline{\underline{1.0\ \mathrm{km}}}
-$$
-Tiden har to gjeldende siffer. En nyttig huskeregel: Tell sekundene og del på tre, så får du omtrent avstanden i kilometer.
+::: {.fasit}
+$1.0\ \mathrm{km}$
 :::
 :::
 
 ::: {.oppgave tittel="To høyttalere" niva="Middels"}
 To høyttalere sender ut samme tone, $440\ \mathrm{Hz}$, i fase. Du står slik at du er $0.39\ \mathrm{m}$ lenger fra den ene høyttaleren enn fra den andre. Lydfarten er $343\ \mathrm{m/s}$. Hører du tonen sterkt eller svakt der du står? Forklar.
 
-::: {.losning}
-Bølgelengden er
-$$
-\lambda = \frac{v}{f} = \frac{343\ \mathrm{m/s}}{440\ \mathrm{Hz}} = 0.780\ \mathrm{m}
-$$
-Forskjellen i veilengde er $0.39\ \mathrm{m}$, som er
-$$
-\frac{0.39\ \mathrm{m}}{0.780\ \mathrm{m}} = 0.50
-$$
-bølgelengder, altså en halv bølgelengde. Bølgene kommer fram i motfase: der den ene har en fortetning, har den andre en fortynning. De slokker hverandre, og du hører tonen **svakt**. (Helt stille blir det sjelden, fordi lyden også reflekteres fra vegger, og fordi lyden fra de to høyttalerne ikke er helt like sterk der du står.)
-:::
 :::
 
 ::: {.oppgave tittel="Ultralyd" niva="Utfordrende"}
 Et ultralydapparat sender lyd med frekvensen $2.0\ \mathrm{MHz}$ inn i kroppen. Lydfarten i bløtvev er omtrent som i vann, $1480\ \mathrm{m/s}$. a) Hva er bølgelengden? b) Lyden reflekteres fra et organ $6.0\ \mathrm{cm}$ inne i kroppen. Hvor lang tid går det fra apparatet sender lyden til ekkoet kommer tilbake?
 
-::: {.losning}
-a) Med $f = 2.0\ \mathrm{MHz} = 2.0\cdot10^6\ \mathrm{Hz}$:
-$$
-\lambda = \frac{v}{f} = \frac{1480\ \mathrm{m/s}}{2.0\cdot10^6\ \mathrm{Hz}} = 7.4\cdot10^{-4}\ \mathrm{m} = \underline{\underline{0.74\ \mathrm{mm}}}
-$$
-Den korte bølgelengden er grunnen til at ultralyd kan vise små detaljer.
-
-b) Lyden går inn og ut igjen, altså $2\cdot 0.060\ \mathrm{m} = 0.120\ \mathrm{m}$:
-$$
-t = \frac{2d}{v} = \frac{0.120\ \mathrm{m}}{1480\ \mathrm{m/s}} = 8.11\cdot10^{-5}\ \mathrm{s} \approx \underline{\underline{81\ \mathrm{\mu s}}}
-$$
-Apparatet regner baklengs fra slike tider for å finne hvor dypt hvert ekko kommer fra.
+::: {.fasit}
+a) $0.74\ \mathrm{mm}$ · b) $81\ \mathrm{\mu s}$
 :::
 :::
 

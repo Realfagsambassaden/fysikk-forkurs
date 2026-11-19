@@ -166,17 +166,8 @@ Resultatet: Ved $10^\circ$ er svingetiden bare $0.2\ \%$ lengre enn $T_0$, så f
 <!-- tillegg: Claude -->
 Fortsett tabellen for Euler–Cromer i eksempelet med ett steg til ($k/m = 40\ \mathrm{s^{-2}}$, $\Delta t = 0.05\ \mathrm{s}$), fra $x = 0.0449\ \mathrm{m}$ og $v = -0.522\ \mathrm{m/s}$. Regn også ut energien.
 
-::: {.losning}
-$$
-a = -40\ \mathrm{s^{-2}}\cdot0.0449\ \mathrm{m} = -1.80\ \mathrm{m/s^2}
-$$
-$$
-v = -0.522\ \mathrm{m/s} - 1.80\ \mathrm{m/s^2}\cdot0.05\ \mathrm{s} = \underline{\underline{-0.612\ \mathrm{m/s}}}, \qquad x = 0.0449\ \mathrm{m} - 0.612\ \mathrm{m/s}\cdot0.05\ \mathrm{s} = \underline{\underline{0.0143\ \mathrm{m}}}
-$$
-$$
-E = \tfrac12\cdot0.50\cdot0.612^2\ \mathrm{J} + \tfrac12\cdot20\cdot0.0143^2\ \mathrm{J} = \underline{\underline{0.096\ \mathrm{J}}}
-$$
-Energien er fortsatt nær $0.100\ \mathrm{J}$. Loddet nærmer seg likevekt, og nesten all energien er bevegelsesenergi.
+::: {.fasit}
+$-0.612\ \mathrm{m/s}$ · $0.0143\ \mathrm{m}$ · $0.096\ \mathrm{J}$
 :::
 :::
 
@@ -188,19 +179,8 @@ E_\text{ny} = \Big(1 + \frac km\,\Delta t^2\Big)E
 $$
 der $E = \tfrac12 mv^2 + \tfrac12 kx^2$. Forklar tallet $10\ \%$ i eksempelet. Tips: Sett inn $x_\text{ny} = x + v\,\Delta t$ og $v_\text{ny} = v - \tfrac km x\,\Delta t$ i $\tfrac12 mv_\text{ny}^2 + \tfrac12 kx_\text{ny}^2$, og gang ut.
 
-::: {.losning}
-Vi ganger ut hvert ledd:
-$$
-\tfrac12 m v_\text{ny}^2 = \tfrac12 m\Big(v^2 - 2\frac km xv\,\Delta t + \frac{k^2}{m^2}x^2\Delta t^2\Big) = \tfrac12 mv^2 - kxv\,\Delta t + \tfrac12\frac{k^2}{m}x^2\Delta t^2
-$$
-$$
-\tfrac12 k x_\text{ny}^2 = \tfrac12 k\big(x^2 + 2xv\,\Delta t + v^2\Delta t^2\big) = \tfrac12 kx^2 + kxv\,\Delta t + \tfrac12 kv^2\Delta t^2
-$$
-Leddene med $kxv\,\Delta t$ forsvinner når vi legger sammen. Det som er igjen, er
-$$
-E_\text{ny} = \tfrac12 mv^2 + \tfrac12 kx^2 + \frac km\,\Delta t^2\Big(\tfrac12 kx^2 + \tfrac12 mv^2\Big) = \Big(1 + \frac km\,\Delta t^2\Big)E
-$$
-I eksempelet er $\tfrac km\Delta t^2 = 40\cdot0.05^2 = 0.10$, så energien vokser med $\underline{\underline{10\ \%}}$ i hvert steg. Faktoren er alltid større enn $1$, så energien vokser uansett hvor lite steget er. Et mindre steg gjør bare veksten langsommere.
+::: {.fasit}
+$10\ \%$
 :::
 :::
 
@@ -208,12 +188,8 @@ I eksempelet er $\tfrac km\Delta t^2 = 40\cdot0.05^2 = 0.10$, så energien vokse
 <!-- tillegg: Claude -->
 En huske har tauene $2.5\ \mathrm{m}$ lange. Bruk programmet for pendelen (endre `L`) og finn svingetiden når husken slippes fra $10^\circ$ og fra $70^\circ$. Hvor mange prosent lengre er den største svingetiden?
 
-::: {.losning}
-For små utslag er
-$$
-T_0 = 2\pi\sqrt{\frac{2.5\ \mathrm{m}}{9.81\ \mathrm{m/s^2}}} = 3.17\ \mathrm{s}
-$$
-Programmet gir $T = \underline{\underline{3.18\ \mathrm{s}}}$ ved $10^\circ$ og $T = \underline{\underline{3.50\ \mathrm{s}}}$ ved $70^\circ$. Den største er omtrent $\underline{\underline{10\ \%}}$ lengre. Svingetiden for en huske avhenger altså litt av hvor høyt du husker, men ikke av hvor tung du er.
+::: {.fasit}
+$3.18\ \mathrm{s}$ · $3.50\ \mathrm{s}$ · $10\ \%$
 :::
 :::
 
@@ -225,31 +201,8 @@ a) Endre programmet for fjærpendelen (Euler–Cromer) og bruk $b = 0.10\ \mathr
 
 b) Teorien sier at amplituden avtar som $A = 0.10\ \mathrm{m}\cdot\mathrm{e}^{-bt/(2m)}$. Hva blir amplituden etter $10\ \mathrm{s}$? Stemmer det med plottet?
 
-::: {.losning}
-**a)** Bare linja med akselerasjonen endres:
-```{.python .kjor}
-import numpy as np
-import matplotlib.pyplot as plt
-m, k, b, dt = 0.50, 20.0, 0.10, 0.001
-x, v, t = 0.10, 0.0, 0.0
-T, X = [t], [x]
-while t < 10:
-    a = (-k*x - b*v) / m
-    v = v + a*dt
-    x = x + v*dt
-    t = t + dt
-    T.append(t); X.append(x)
-T = np.array(T)
-plt.plot(T, X, label="numerisk")
-plt.plot(T, 0.10*np.exp(-b*T/(2*m)), "k--", label="amplitude, teori")
-plt.xlabel("$t$ (s)"); plt.ylabel("$x$ (m)"); plt.legend(); plt.grid(); plt.show()
-```
-
-**b)**
-$$
-A = 0.10\ \mathrm{m}\cdot\mathrm{e}^{-0.10\cdot10/(2\cdot0.50)} = 0.10\ \mathrm{m}\cdot\mathrm{e}^{-1.0} = \underline{\underline{3.7\ \mathrm{cm}}}
-$$
-Toppene i plottet ligger på den stiplede kurven. Svingetiden endres nesten ikke, slik det skal være ved svak demping.
+::: {.fasit}
+$3.7\ \mathrm{cm}$
 :::
 :::
 
@@ -261,14 +214,8 @@ a) Bruk programmet til å finne forholdet $T/T_0$ ved $10^\circ$.
 
 b) Går klokka for fort eller for sakte? Hvor mye feil viser den etter ett døgn?
 
-::: {.losning}
-**a)** Programmet gir $T/T_0 = 1.0020$ (mer nøyaktig $1.00196$).
-
-**b)** Hver svingning tar litt for lang tid, så klokka teller for få svingninger og går **for sakte**. Ett døgn er $24\cdot3600\ \mathrm{s} = 8.64\cdot10^4\ \mathrm{s}$. I løpet av den tiden teller klokka bare svingninger for $8.64\cdot10^4\ \mathrm{s}/1.00196$, så den viser for lite med
-$$
-8.64\cdot10^4\ \mathrm{s}\cdot\Big(1 - \frac{1}{1.00196}\Big) = 169\ \mathrm{s} \approx \underline{\underline{2.8\ \mathrm{min}}}
-$$
-Derfor har gode pendelklokker små utslag, og derfor justeres de etter at de er satt i gang.
+::: {.fasit}
+$2.8\ \mathrm{min}$
 :::
 :::
 

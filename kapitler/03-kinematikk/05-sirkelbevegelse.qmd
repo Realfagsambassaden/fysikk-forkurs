@@ -73,14 +73,8 @@ b)  Finn sentripetalakselerasjonen til syklisten.
 
 c)  Hva skjer med sentripetalakselerasjonen om syklisten dobler farten? Forklar svaret.
 
-::: {.losning}
-
-**a)** Vi gjør om farten til SI-enheter: $$v = 5.4\,\mathrm{km}\,\mathrm{h}^{-1} = \underline{\underline{1.5\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
-
-**b)** Vi bruker formelen for sentripetalakselerasjon (se *Sentripetalakselerasjon*, figuren,): $$a_\perp = \frac{v^2}{r} = \frac{(1.5\,\mathrm{m}\,\mathrm{s}^{-1})^2}{12\,\mathrm{m}} = \underline{\underline{0.19\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
-
-**c)** Siden $a_\perp \propto v^2$, vil en dobling av farten ($v\to 2v$) gi $$a_\perp' = \frac{(2v)^2}{r} = 4\cdot\frac{v^2}{r} = 4a_\perp,$$ altså **firedobles** sentripetalakselerasjonen – den øker med kvadratet av farten, ikke proporsjonalt med farten.
-
+::: {.fasit}
+a) $1.5\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $0.19\,\mathrm{m}\,\mathrm{s}^{-2}$
 :::
 
 :::
@@ -118,14 +112,8 @@ b)  Finn sentripetalakselerasjonen månen opplever ved hjelp av formelen $a_\per
 
 c)  Beregn månens banehastighet $v = 2\pi r / T$ og verifiser svaret ved å bruke $a_\perp = v^2/r$ og sammenlikne med svaret du fikk i b).
 
-::: {.losning}
-
-**a)** Vi gjør om omløpstiden til sekunder: $$T = 27.3\,\mathrm{d}\cdot\frac{24\,\mathrm{h}}{1\,\mathrm{d}}\cdot\frac{3600\,\mathrm{s}}{1\,\mathrm{h}} = \underline{\underline{2.359\cdot 10^{6}\,\mathrm{s}}}$$
-
-**b)** Vi bruker formelen fra *Omløpstid*: $$a_\perp = \frac{4\pi^2 r}{T^2} = \frac{4\pi^2\cdot3.84\cdot 10^{8}\,\mathrm{m}}{(2.359\cdot 10^{6}\,\mathrm{s})^2} = \underline{\underline{2.72\cdot 10^{-3}\,\mathrm{m}\,\mathrm{s}^{-2}}}$$
-
-**c)** Banehastigheten er $$v = \frac{2\pi r}{T} = \frac{2\pi\cdot3.84\cdot 10^{8}\,\mathrm{m}}{2.359\cdot 10^{6}\,\mathrm{s}} = \underline{\underline{1.02\cdot 10^{3}\,\mathrm{m}\,\mathrm{s}^{-1}}} \approx 1.02\,\mathrm{km}\,\mathrm{s}^{-1}$$ Som en verifikasjon bruker vi $a_\perp = v^2/r$: $$a_\perp = \frac{(1.023\cdot 10^{3}\,\mathrm{m}\,\mathrm{s}^{-1})^2}{3.84\cdot 10^{8}\,\mathrm{m}} \approx 2.72\cdot 10^{-3}\,\mathrm{m}\,\mathrm{s}^{-2},$$ som stemmer godt overens med svaret i b).
-
+::: {.fasit}
+a) $2.359\cdot 10^{6}\,\mathrm{s}$ · b) $2.72\cdot 10^{-3}\,\mathrm{m}\,\mathrm{s}^{-2}$ · c) $1.02\cdot 10^{3}\,\mathrm{m}\,\mathrm{s}^{-1}$
 :::
 
 :::

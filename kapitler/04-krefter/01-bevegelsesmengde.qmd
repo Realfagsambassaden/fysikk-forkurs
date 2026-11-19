@@ -42,12 +42,8 @@ a)  Finn bevegelsesmengden til geværkula.
 
 b)  Hvor fort må bilen kjøre for å ha nøyaktig samme bevegelsesmengde som kula? Gi svaret i både $\mathrm{m}\,\mathrm{s}^{-1}$ og $\mathrm{km}\,\mathrm{h}^{-1}$.
 
-::: {.losning}
-
-**a)** Bevegelsesmengden er $p=m\cdot v$ (se *Bevegelsesmengde*). Vi gjør om massen til kg, $m_k=10\,\mathrm{g}=0.010\,\mathrm{kg}$: $$p = m_k v_k = 0.010\,\mathrm{kg}\cdot900\,\mathrm{m}\,\mathrm{s}^{-1} = \underline{\underline{9.0\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
-
-**b)** Bilen skal ha samme bevegelsesmengde, $p = m_b v_b$. Vi løser for $v_b$: $$v_b = \frac{p}{m_b} = \frac{9.0\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}}{1500\,\mathrm{kg}} = \underline{\underline{0.0060\,\mathrm{m}\,\mathrm{s}^{-1}}} = 0.0216\,\mathrm{km}\,\mathrm{h}^{-1} \approx \underline{\underline{0.022\,\mathrm{km}\,\mathrm{h}^{-1}}}$$ Bilen trenger altså bare å kjøre med en helt ubetydelig fart (under 2.2 cm/s!) for å ha samme bevegelsesmengde som den raske, men svært lette, geværkula. Dette illustrerer hvor mye massen betyr for bevegelsesmengden.
-
+::: {.fasit}
+a) $9.0\,\mathrm{kg}\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $0.0060\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $0.022\,\mathrm{km}\,\mathrm{h}^{-1}$
 :::
 
 :::

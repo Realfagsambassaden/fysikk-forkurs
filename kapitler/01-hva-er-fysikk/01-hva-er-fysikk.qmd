@@ -153,32 +153,13 @@ b) En is som smelter i sola.
 c) En mobillader som blir varm.
 d) Lyden av torden som kommer etter lynet.
 
-::: {.losning}
-a) **Mekanikk**: ballen beveger seg fordi en kraft virker på den.
-
-b) **Termofysikk**: isen tar opp varme og endrer seg fra fast stoff til væske.
-
-c) **Elektromagnetisme**: det går strøm gjennom laderen, og strømmen gir varme. (Varmen i seg selv er termofysikk, så her møtes to områder. Det er helt vanlig.)
-
-d) **Bølger**: lyd er en bølge i lufta. Lyset fra lynet kommer fram nesten med en gang, mens lyden bruker omtrent 3 sekunder per kilometer.
-:::
 :::
 
 ::: {.oppgave tittel="Steinen i brønnen"}
 Du slipper en stein ned i en brønn og hører plasket etter $1.5\ \mathrm{s}$. Bruk modellen $s = \tfrac12 \mathrm{g} t^2$ til å finne ut hvor dyp brønnen er ned til vannet. Se bort fra tiden lyden bruker opp igjen.
 
-::: {.losning}
-Vi setter inn $t = 1.5\ \mathrm{s}$:
-
-$$
-s = \tfrac{1}{2}\cdot 9.81\ \mathrm{m/s^2}\cdot(1.5\ \mathrm{s})^2
-  = \tfrac{1}{2}\cdot 9.81\cdot 2.25\ \mathrm{m}
-  = 11.0\ \mathrm{m}
-$$
-
-Brønnen er omtrent $\underline{\underline{11\ \mathrm{m}}}$ dyp.
-
-Modellen ser bort fra luftmotstand (lite viktig for en stein over 11 m) og fra lydens reisetid (omtrent $11/340 \approx 0.03\ \mathrm{s}$, også lite). Svaret er derfor ganske godt.
+::: {.fasit}
+$11\ \mathrm{m}$
 :::
 :::
 
@@ -188,13 +169,6 @@ Modellen $s = \tfrac12 \mathrm{g} t^2$ ser bort fra luftmotstand.
 a) Gi to eksempler der modellen gir gode svar, og to der den gir dårlige svar.
 b) Du slipper en fjær og en hammer fra samme høyde. Hva sier modellen om hvilken som lander først? Hva skjer i virkeligheten?
 
-::: {.losning}
-a) **Gode svar:** en stein som slippes ned i en brønn, en nøkkelknippe som faller ned fra et bord. Begge er tunge og kompakte og faller kort, så lufta bremser lite.
-**Dårlige svar:** en fjær eller et papirark, og en fallskjermhopper etter noen sekunder. Her bremser lufta så mye at farten slutter å øke.
-
-b) I modellen står verken masse eller form, så **modellen sier at de lander samtidig**. I virkeligheten lander hammeren først, fordi lufta bremser fjæra mye mer. Modellen er altså utenfor gyldighetsområdet sitt for fjæra.
-(På månen, der det ikke er luft, har astronauter gjort forsøket – der lander de samtidig.)
-:::
 :::
 
 ::: {.oppgave tittel="Bilturen" niva="Middels"}
@@ -204,17 +178,8 @@ a) Du kjører med farten $80\ \mathrm{km/h}$ i $2.5\ \mathrm{h}$. Hvor langt kom
 b) I virkeligheten kom du bare $185\ \mathrm{km}$. Nevn to ting modellen ser bort fra.
 c) Hvilken gjennomsnittsfart passer med det du faktisk kjørte?
 
-::: {.losning}
-a) $s = v\,t = 80\ \mathrm{km/h}\cdot 2.5\ \mathrm{h} = \underline{\underline{200\ \mathrm{km}}}$.
-Enhetene: $\mathrm{km/h}\cdot\mathrm{h} = \mathrm{km}$.
-
-b) Modellen antar at farten er den samme hele tiden. Den ser for eksempel bort fra
-- at du må bremse i svinger, kryss og tettsteder,
-- at du må stoppe for rødt lys, kø eller en pause.
-
-c) Vi bruker modellen «baklengs»: $v = \dfrac{s}{t} = \dfrac{185\ \mathrm{km}}{2.5\ \mathrm{h}} = \underline{\underline{74\ \mathrm{km/h}}}$.
-
-Slik forbedrer vi modellen: Vi bruker gjennomsnittsfarten i stedet for fartsgrensen. Det er fysikkens metode i det små.
+::: {.fasit}
+a) $200\ \mathrm{km}$ · c) $74\ \mathrm{km/h}$
 :::
 :::
 
@@ -225,19 +190,8 @@ a) Hvor høyt er tårnet ifølge modellen $s = \tfrac12 \mathrm{g} t^2$?
 b) Tårnet er egentlig $10\ \mathrm{m}$ høyt. Hvor lang tid *skulle* fallet tatt ifølge modellen?
 c) Foreslå en grunn til at du målte en annen tid.
 
-::: {.losning}
-a) $s = \tfrac{1}{2}\cdot 9.81\ \mathrm{m/s^2}\cdot(1.4\ \mathrm{s})^2 = \tfrac12\cdot 9.81\cdot 1.96\ \mathrm{m} = 9.6\ \mathrm{m}$, altså omtrent $\underline{\underline{9.6\ \mathrm{m}}}$.
-
-b) Vi må løse modellen for $t$. Gang med 2 og del på $\mathrm{g}$ på begge sider:
-$$
-t^2 = \frac{2s}{\mathrm{g}} \quad\Rightarrow\quad t = \sqrt{\frac{2s}{\mathrm{g}}}
-$$
-Med $s = 10\ \mathrm{m}$:
-$$
-t = \sqrt{\frac{2\cdot 10\ \mathrm{m}}{9.81\ \mathrm{m/s^2}}} = \sqrt{2.04\ \mathrm{s^2}} = \underline{\underline{1.43\ \mathrm{s}}}
-$$
-
-c) Forskjellen er bare $0.03\ \mathrm{s}$. Det er mindre enn hvor nøyaktig en person klarer å starte og stoppe en stoppeklokke (reaksjonstiden er rundt $0.2\ \mathrm{s}$). Målingen og modellen stemmer altså godt overens innenfor måleusikkerheten. I tillegg hopper hun kanskje litt opp før hun faller. Mer om måleusikkerhet kommer senere i dette kapittelet.
+::: {.fasit}
+a) $9.6\ \mathrm{m}$ · b) $1.43\ \mathrm{s}$
 :::
 :::
 

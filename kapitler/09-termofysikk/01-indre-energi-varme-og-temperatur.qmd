@@ -139,22 +139,8 @@ e)  En morgen er det $-5\,^\circ$C, og om ettermiddagen er det $15\,^\circ$C. Hv
 
 f)  Ved hvilken temperatur viser en celsius-skala og en fahrenheit-skala det samme tallet?
 
-::: {.losning}
-
-Vi bruker $T = t + 273$ og $t_\text{F} = \tfrac{9}{5}\,t_\text{C} + 32$.
-
-**a)** $T = 37 + 273 = \underline{\underline{310\,\mathrm{K}}}$
-
-**b)** $t = 77 - 273 = \underline{\underline{-196\,^\circ\mathrm{C}}}$
-
-**c)** $t = 5800 - 273 = 5527\,^\circ\mathrm{C} \approx \underline{\underline{5.5\cdot 10^3\,^\circ\mathrm{C}}}$. Når temperaturen er så høy, spiller det liten rolle om vi bruker kelvin eller celsius.
-
-**d)** Vi løser formelen for $t_\text{C}$: $$t_\text{C} = \frac{5}{9}\,(t_\text{F} - 32) = \frac{5}{9}\,(50 - 32) = \underline{\underline{10\,^\circ\mathrm{C}}}$$
-
-**e)** En grad celsius er like stor som én kelvin, så $$\Delta T = 15 - (-5) = \underline{\underline{20\,\mathrm{K}}}$$
-
-**f)** Vi setter $t_\text{F} = t_\text{C} = t$: $$t = \frac{9}{5}\,t + 32 \quad\implies\quad -\frac{4}{5}\,t = 32 \quad\implies\quad t = \underline{\underline{-40}}$$ Altså er $-40\,^\circ$C det samme som $-40\,^\circ$F.
-
+::: {.fasit}
+a) $310\,\mathrm{K}$ · b) $-196\,^\circ\mathrm{C}$ · c) $5.5\cdot 10^3\,^\circ\mathrm{C}$ · d) $10\,^\circ\mathrm{C}$ · e) $20\,\mathrm{K}$ · f) $-40$
 :::
 
 :::
@@ -164,10 +150,8 @@ Vi bruker $T = t + 273$ og $t_\text{F} = \tfrac{9}{5}\,t_\text{C} + 32$.
 
 En dag stiger temperaturen fra $10\,^\circ$C til $20\,^\circ$C. Hvor mange ganger større har den gjennomsnittlige kinetiske energien til luftmolekylene blitt?
 
-::: {.losning}
-
-Den gjennomsnittlige kinetiske energien er proporsjonal med den absolutte temperaturen, $\bar{E}_\text{K} = \tfrac{3}{2}\mathrm{k_B}T$. Vi må derfor regne i kelvin: $T_1 = 10 + 273 = 283\,\mathrm{K}$ og $T_2 = 20 + 273 = 293\,\mathrm{K}$. Da er $$\frac{\bar{E}_{\text{K},2}}{\bar{E}_{\text{K},1}} = \frac{\tfrac{3}{2}\mathrm{k_B}T_2}{\tfrac{3}{2}\mathrm{k_B}T_1} = \frac{T_2}{T_1} = \frac{293\,\mathrm{K}}{283\,\mathrm{K}} = 1.035 \approx \underline{\underline{1.04}}$$ Energien er altså bare omtrent $3.5\,\%$ større, selv om temperaturen i celsius er dobbelt så høy. Det er bare i kelvin det gir mening å si «dobbelt så høy temperatur».
-
+::: {.fasit}
+$1.04$
 :::
 
 :::
@@ -181,16 +165,8 @@ b)  Finn den gjennomsnittlige kinetiske energien ved $100\,^\circ$C.
 
 c)  Hvor mange prosent større er energien ved $100\,^\circ$C enn ved $0\,^\circ$C?
 
-::: {.losning}
-
-Vi bruker $\bar{E}_\text{K} = \tfrac{3}{2}\mathrm{k_B}T$ med temperaturen i kelvin.
-
-**a)** $T = 0 + 273 = 273\,\mathrm{K}$: $$\bar{E}_\text{K} = \frac{3}{2}\cdot1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot273\,\mathrm{K} = \underline{\underline{5.65\cdot 10^{-21}\,\mathrm{J}}}$$
-
-**b)** $T = 100 + 273 = 373\,\mathrm{K}$: $$\bar{E}_\text{K} = \frac{3}{2}\cdot1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot373\,\mathrm{K} = \underline{\underline{7.72\cdot 10^{-21}\,\mathrm{J}}}$$
-
-**c)** $$\frac{7.72\cdot 10^{-21}\,\mathrm{J}}{5.65\cdot 10^{-21}\,\mathrm{J}} = \frac{373}{273} = 1.37$$ Energien er **$37\,\%$** større. Legg merke til at svaret ikke avhenger av hva slags gass det er.
-
+::: {.fasit}
+a) $5.65\cdot 10^{-21}\,\mathrm{J}$ · b) $7.72\cdot 10^{-21}\,\mathrm{J}$
 :::
 
 :::
@@ -206,14 +182,8 @@ b)  Bruk $\bar{E}_\text{K} = \tfrac{1}{2}mv^2$ til å finne en typisk fart for h
 
 c)  Hvor mange ganger raskere beveger heliumatomene seg?
 
-::: {.losning}
-
-**a)** Den gjennomsnittlige kinetiske energien avhenger bare av temperaturen, $\bar{E}_\text{K} = \tfrac{3}{2}\mathrm{k_B}T$. Begge gassene har samme temperatur, og har derfor **like stor** gjennomsnittlig kinetisk energi: $$\bar{E}_\text{K} = \frac{3}{2}\cdot1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot300\,\mathrm{K} = 6.21\cdot 10^{-21}\,\mathrm{J}$$
-
-**b)** Vi løser $\bar{E}_\text{K} = \tfrac{1}{2}mv^2$ for $v$: $$v = \sqrt{\frac{2\bar{E}_\text{K}}{m}}$$ For helium: $$v_\text{He} = \sqrt{\frac{2\cdot6.21\cdot 10^{-21}\,\mathrm{J}}{6.64\cdot 10^{-27}\,\mathrm{kg}}} = \underline{\underline{1.37\cdot 10^{3}\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ For oksygen: $$v_{\text{O}_2} = \sqrt{\frac{2\cdot6.21\cdot 10^{-21}\,\mathrm{J}}{5.31\cdot 10^{-26}\,\mathrm{kg}}} = \underline{\underline{484\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
-
-**c)** $$\frac{v_\text{He}}{v_{\text{O}_2}} = \frac{1.37\cdot 10^{3}\,\mathrm{m}\,\mathrm{s}^{-1}}{484\,\mathrm{m}\,\mathrm{s}^{-1}} = \underline{\underline{2.83}}$$ Heliumatomene er lettere, og må derfor bevege seg raskere for å ha like stor kinetisk energi.
-
+::: {.fasit}
+b) $1.37\cdot 10^{3}\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $484\,\mathrm{m}\,\mathrm{s}^{-1}$ · c) $2.83$
 :::
 
 :::
@@ -272,17 +242,6 @@ c)  To legemer som har samme temperatur, utveksler ikke varme med hverandre.
 
 d)  Temperaturen til et stoff kan øke uten at vi tilfører varme.
 
-::: {.losning}
-
-**a)** **Galt**. Varme er energi *på vei* mellom to systemer. Kaffen har mye *indre energi*, men den «inneholder» ikke varme. Den kan derimot *avgi* varme til en kaldere omgivelse.
-
-**b)** **Galt**. Varme går alltid fra høy *temperatur* til lav temperatur. Et badekar med lunkent vann har mye mer indre energi enn en kopp kokende vann, men varmen går likevel fra koppen til badevannet hvis vi setter koppen i karet.
-
-**c)** **Riktig**. Varme strømmer bare når det er en temperaturforskjell. To legemer med samme temperatur er i *termisk likevekt*.
-
-**d)** **Riktig**. Vi kan også øke den indre energien ved å gjøre *arbeid* på stoffet, for eksempel med friksjon eller ved å presse sammen en gass, som i en sykkelpumpe.
-
-:::
 
 :::
 

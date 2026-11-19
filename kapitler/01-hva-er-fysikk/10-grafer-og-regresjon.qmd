@@ -237,20 +237,8 @@ b) Hva er konstantleddet, og hva betyr det?
 
 c) Hvilken temperatur forventer du etter $150\ \mathrm{s}$?
 
-::: {.losning}
-a) Stigningstallet er endringen i temperatur delt på endringen i tid:
-$$
-a = \frac{\Delta\theta}{\Delta t} = \frac{66\ ^\circ\mathrm{C} - 18\ ^\circ\mathrm{C}}{120\ \mathrm{s} - 0\ \mathrm{s}} = \frac{48\ ^\circ\mathrm{C}}{120\ \mathrm{s}} = \underline{\underline{0.40\ ^\circ\mathrm{C/s}}}
-$$
-Det betyr at temperaturen stiger med $0.40\ ^\circ\mathrm{C}$ hvert sekund. Det sier noe om hvor raskt vannkokeren varmer.
-
-b) Konstantleddet er temperaturen ved $t = 0$: $b = \underline{\underline{18\ ^\circ\mathrm{C}}}$. Det er starttemperaturen til vannet.
-
-c) Linja er $\theta = 0.40\ ^\circ\mathrm{C/s}\cdot t + 18\ ^\circ\mathrm{C}$, så
-$$
-\theta = 0.40\ ^\circ\mathrm{C/s}\cdot 150\ \mathrm{s} + 18\ ^\circ\mathrm{C} = 60\ ^\circ\mathrm{C} + 18\ ^\circ\mathrm{C} = \underline{\underline{78\ ^\circ\mathrm{C}}}
-$$
-Det forutsetter at oppvarmingen fortsetter like raskt. Nær kokepunktet stemmer ikke det lenger.
+::: {.fasit}
+a) $0.40\ ^\circ\mathrm{C/s}$ · b) $18\ ^\circ\mathrm{C}$ · c) $78\ ^\circ\mathrm{C}$
 :::
 :::
 
@@ -265,17 +253,6 @@ c) Du måler farten $v$ og den kinetiske energien $E_k$ til en ball og vil finne
 
 d) Et lodd med masse $m$ svinger opp og ned i en fjær. Svingetiden er $T = 2\pi\sqrt{m/k}$. Du endrer massen og vil finne fjærstivheten $k$.
 
-::: {.losning}
-a) $G = m\mathrm{g}$ er allerede lineær. Tegn **$G$ mot $m$**. Stigningstallet er $\mathrm{g}$.
-
-b) $s = \tfrac{1}{2}a\cdot t^2$ er lineær i $t^2$. Tegn **$s$ mot $t^2$**. Stigningstallet er $\tfrac{1}{2}a$, så $a$ = 2 · stigningstallet.
-
-c) $E_k = \tfrac{1}{2}m\cdot v^2$. Tegn **$E_k$ mot $v^2$**. Stigningstallet er $\tfrac{1}{2}m$, så $m$ = 2 · stigningstallet.
-
-d) Vi kvadrerer: $T^2 = \dfrac{4\pi^2}{k}\cdot m$. Tegn **$T^2$ mot $m$**. Stigningstallet er $4\pi^2/k$, så $k = 4\pi^2/\text{stigningstallet}$.
-
-I alle tilfellene skal linja gå gjennom origo. Et konstantledd langt fra null tyder på en systematisk feil, eller på at modellen ikke stemmer.
-:::
 :::
 
 ::: {.oppgave tittel="Fritt fall" niva="Middels"}
@@ -291,20 +268,8 @@ b) Regn ut $t^2$ for alle målingene.
 
 c) Regresjon av $s$ mot $t^2$ gir stigningstallet $4.91\ \mathrm{m/s^2}$ og konstantleddet $-0.001\ \mathrm{m}$. Finn $\mathrm{g}$. (Sjekk gjerne regresjonen selv med `np.polyfit(t**2, s, 1)`.)
 
-::: {.losning}
-a) Ved fritt fall fra ro er $s = \tfrac{1}{2}\mathrm{g}t^2$. Det har formen $y = ax$ med $y = s$, $x = t^2$ og $a = \tfrac{1}{2}\mathrm{g}$. Grafen av $s$ mot $t^2$ er altså en rett linje gjennom origo.
-
-b) Vi kvadrerer tidene:
-
-| $s$ (m) | 0.200 | 0.400 | 0.600 | 0.800 | 1.000 |
-|:---|---:|---:|---:|---:|---:|
-| $t^2$ ($\mathrm{s^2}$) | 0.0412 | 0.0812 | 0.1218 | 0.1640 | 0.2034 |
-
-c) Stigningstallet er $\tfrac{1}{2}\mathrm{g}$, så
-$$
-\mathrm{g} = 2\cdot 4.91\ \mathrm{m/s^2} = \underline{\underline{9.82\ \mathrm{m/s^2}}}
-$$
-Konstantleddet er tilnærmet null, slik modellen sier, og svaret ligger svært nær den kjente verdien $9.81\ \mathrm{m/s^2}$.
+::: {.fasit}
+$9.82\ \mathrm{m/s^2}$
 :::
 :::
 
@@ -321,18 +286,8 @@ a) Hva betyr konstantleddet fysisk?
 
 b) Vis at $L = L_0 + \dfrac{F}{k}$, der $L_0$ er lengden uten last, og bruk dette til å finne fjærstivheten $k$.
 
-::: {.losning}
-a) Konstantleddet er lengden når $F = 0$, altså **lengden av fjæra uten last**: $L_0 = \underline{\underline{12.0\ \mathrm{cm}}}$.
-
-b) Forlengelsen er $x = L - L_0$, og Hookes lov gir $F = kx = k(L - L_0)$. Vi løser for $L$:
-$$
-L = L_0 + \frac{1}{k}\cdot F
-$$
-Dette er en rett linje med $y = L$ og $x = F$, der konstantleddet er $L_0$ og stigningstallet er $1/k$. Altså er
-$$
-k = \frac{1}{a} = \frac{1}{0.0400\ \mathrm{m/N}} = \underline{\underline{25.0\ \mathrm{N/m}}}
-$$
-Legg merke til at stigningstallet ikke alltid *er* størrelsen du vil finne. Her er det den omvendte verdien. Enheten $\mathrm{m/N}$ avslører det: En fjærstivhet har enheten $\mathrm{N/m}$.
+::: {.fasit}
+a) $12.0\ \mathrm{cm}$ · b) $25.0\ \mathrm{N/m}$
 :::
 :::
 
@@ -345,26 +300,8 @@ b) Bruk dette til å oppgi farten til vogna med usikkerhet.
 
 c) Hvordan kunne du fått en mindre usikkerhet i farten?
 
-::: {.losning}
-a) Den bratteste linja har stigningstallet
-$$
-a_\text{maks} = \frac{1.30\ \mathrm{m} - 0.18\ \mathrm{m}}{3.0\ \mathrm{s}} = \frac{1.12\ \mathrm{m}}{3.0\ \mathrm{s}} = 0.373\ \mathrm{m/s}
-$$
-og den slakeste
-$$
-a_\text{min} = \frac{1.20\ \mathrm{m} - 0.27\ \mathrm{m}}{3.0\ \mathrm{s}} = \frac{0.93\ \mathrm{m}}{3.0\ \mathrm{s}} = 0.310\ \mathrm{m/s}
-$$
-
-b) Usikkerheten er halve forskjellen:
-$$
-\Delta v = \tfrac{1}{2}(0.373 - 0.310)\ \mathrm{m/s} = 0.032\ \mathrm{m/s} \approx 0.03\ \mathrm{m/s}
-$$
-Med regresjonslinja som beste verdi ($0.342\ \mathrm{m/s}$) og usikkerheten rundet til ett siffer blir
-$$
-v = \underline{\underline{(0.34 \pm 0.03)\ \mathrm{m/s}}}
-$$
-
-c) Feilstolpene bestemmer hvor mye linja kan vippe. Mindre usikkerhet i hver avstandsmåling gir mindre spillerom. Å måle over lengre tid hjelper også: Jo lenger linja er, jo mindre kan den vippe når den skal treffe stolpene i begge ender. Flere målepunkter gjør det i tillegg lettere å se hvor linja skal gå.
+::: {.fasit}
+$(0.34 \pm 0.03)\ \mathrm{m/s}$
 :::
 :::
 

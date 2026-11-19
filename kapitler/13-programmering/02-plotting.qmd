@@ -95,57 +95,18 @@ plt.xlabel("$L$ (m)"); plt.ylabel("$T^2$ (s$^2$)"); plt.legend(); plt.grid(); pl
 <!-- tillegg: Claude -->
 Plott $x(t) = 0.10\cos(2\pi t/0.80)$ for $0 \le t \le 2.4\ \mathrm{s}$, med enheter på aksene. Hvor mange hele svingninger ser du?
 
-::: {.losning}
-```{.python .kjor}
-import numpy as np
-import matplotlib.pyplot as plt
-t = np.linspace(0, 2.4, 400)
-x = 0.10*np.cos(2*np.pi*t/0.80)
-plt.plot(t, x); plt.xlabel("$t$ (s)"); plt.ylabel("$x$ (m)"); plt.grid(); plt.show()
-```
-Perioden er $0.80\ \mathrm{s}$, så det blir **3 hele svingninger**.
-:::
 :::
 
 ::: {.oppgave tittel="Ohms lov fra målinger" niva="Middels"}
 <!-- tillegg: Claude -->
 Du har målt spenning og strøm over en motstand: $U = 0, 2.0, 4.0, 6.0, 8.0\ \mathrm{V}$ og $I = 0, 0.042, 0.081, 0.125, 0.164\ \mathrm{A}$. Plott $U$ mot $I$ som punkter, tilpass en rett linje, og finn resistansen.
 
-::: {.losning}
-```{.python .kjor}
-import numpy as np
-import matplotlib.pyplot as plt
-I = np.array([0, 0.042, 0.081, 0.125, 0.164])
-U = np.array([0, 2.0, 4.0, 6.0, 8.0])
-a, b = np.polyfit(I, U, 1)
-print(f"R = {a:.0f} ohm")
-plt.plot(I, U, "o"); plt.plot(I, a*I + b)
-plt.xlabel("$I$ (A)"); plt.ylabel("$U$ (V)"); plt.grid(); plt.show()
-```
-Stigningstallet er resistansen, $R \approx 49\ \mathrm{\Omega}$.
-:::
 :::
 
 ::: {.oppgave tittel="Avkjøling" niva="Utfordrende"}
 <!-- tillegg: Claude -->
 En kopp te avkjøles. Temperaturen måles hvert femte minutt: $80$, $66$, $55$, $47$, $41$, $36\ ^\circ\mathrm{C}$. Romtemperaturen er $20\ ^\circ\mathrm{C}$. Newtons avkjølingslov sier at $T - 20 = 60\,\mathrm{e}^{-kt}$. Plott $\ln(T-20)$ mot $t$, finn $k$ fra stigningstallet, og tegn modellen sammen med målingene.
 
-::: {.losning}
-```{.python .kjor}
-import numpy as np
-import matplotlib.pyplot as plt
-t = np.array([0, 5, 10, 15, 20, 25])            # min
-T = np.array([80, 66, 55, 47, 41, 36])          # grader C
-a, b = np.polyfit(t, np.log(T - 20), 1)
-k = -a
-print(f"k = {k:.3f} per minutt")
-tm = np.linspace(0, 40, 200)
-plt.plot(t, T, "o", label="målinger")
-plt.plot(tm, 20 + np.exp(b)*np.exp(-k*tm), label="modell")
-plt.xlabel("$t$ (min)"); plt.ylabel("$T$ (°C)"); plt.legend(); plt.grid(); plt.show()
-```
-Vi får $k \approx 0.053\ \mathrm{min^{-1}}$.
-:::
 :::
 
 ::::

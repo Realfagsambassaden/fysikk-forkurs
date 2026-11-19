@@ -78,16 +78,8 @@ a)  Hva er det nye volumet $V_2$?
 
 b)  Hva skjer med den indre energien til gassen? Må gassen få tilført varme?
 
-::: {.losning}
-
-**a)** Antall molekyler og trykket er konstant. Tilstandslikningen $pV = N\mathrm{k_B}T$ gir da at $V/T$ er konstant: $$\frac{V_1}{T_1} = \frac{V_2}{T_2}
-  \quad\implies\quad
-  V_2 = V_1\cdot\frac{T_2}{T_1} = 30\,\mathrm{dm}^{3}\cdot\frac{600\,\mathrm{K}}{300\,\mathrm{K}} = \underline{\underline{60\,\mathrm{dm}^{3}}}$$
-
-**b)** Den absolutte temperaturen dobles, og dermed dobles også den gjennomsnittlige kinetiske energien til molekylene. Den indre energien **øker**, $\Delta U > 0$.
-
-Samtidig utvider gassen seg og skyver stempelet ut. Gassen gjør altså arbeid på omgivelsene, og $W < 0$ i termodynamikkens 1. lov. Da gir $$Q = \Delta U - W$$ at $Q$ er positiv og *større* enn $\Delta U$. Gassen **må få tilført varme**: noe av varmen øker den indre energien, og resten går med til arbeidet på stempelet.
-
+::: {.fasit}
+$60\,\mathrm{dm}^{3}$
 :::
 
 :::
@@ -103,22 +95,8 @@ b)  Hva blir det absolutte trykket i dekket når lufta har fått samme temperatu
 
 c)  En dekktrykkmåler viser *overtrykket*, altså forskjellen mellom trykket i dekket og lufttrykket utenfor, $p_0 = 1.0\cdot 10^{5}\,\mathrm{Pa}$. Hva viser måleren før og etter? Hvor mange prosent har overtrykket sunket?
 
-::: {.losning}
-
-Temperaturene i kelvin er $T_1 = 20 + 273 = 293\,\mathrm{K}$ og $T_2 = -15 + 273 = 258\,\mathrm{K}$.
-
-**a)** Vi løser tilstandslikningen for $N$: $$N = \frac{p_1V}{\mathrm{k_B}T_1} = \frac{3.0\cdot 10^{5}\,\mathrm{Pa}\cdot0.030\,\mathrm{m}^{3}}{1.38\cdot 10^{-23}\,\mathrm{J}\,\mathrm{K}^{-1}\cdot293\,\mathrm{K}} = \underline{\underline{2.2\cdot 10^{24}}}$$
-
-**b)** $N$ og $V$ er konstante, så $p/T$ er konstant: $$\frac{p_1}{T_1} = \frac{p_2}{T_2}
-  \quad\implies\quad
-  p_2 = p_1\cdot\frac{T_2}{T_1} = 3.0\cdot 10^{5}\,\mathrm{Pa}\cdot\frac{258\,\mathrm{K}}{293\,\mathrm{K}} = 2.64\cdot 10^{5}\,\mathrm{Pa} \approx \underline{\underline{2.6\cdot 10^{5}\,\mathrm{Pa}}}$$
-
-**c)** Før: $p_1 - p_0 = 3.0\cdot 10^{5}\,\mathrm{Pa} - 1.0\cdot 10^{5}\,\mathrm{Pa} = \underline{\underline{2.0\cdot 10^{5}\,\mathrm{Pa}}}$.
-
-Etter: $p_2 - p_0 = 2.64\cdot 10^{5}\,\mathrm{Pa} - 1.0\cdot 10^{5}\,\mathrm{Pa} = 1.64\cdot 10^{5}\,\mathrm{Pa} \approx \underline{\underline{1.6\cdot 10^{5}\,\mathrm{Pa}}}$.
-
-Overtrykket har sunket med $$\frac{2.0\cdot 10^{5}\,\mathrm{Pa} - 1.64\cdot 10^{5}\,\mathrm{Pa}}{2.0\cdot 10^{5}\,\mathrm{Pa}} = 0.18 = \underline{\underline{18\,\%}}$$ Det absolutte trykket sank bare med omtrent $12\,\%$, men måleren viser overtrykket, og det synker mer. Derfor bør man sjekke dekktrykket når det blir kaldt.
-
+::: {.fasit}
+a) $2.2\cdot 10^{24}$ · b) $2.6\cdot 10^{5}\,\mathrm{Pa}$ · c) $2.0\cdot 10^{5}\,\mathrm{Pa}$ · c) $1.6\cdot 10^{5}\,\mathrm{Pa}$ · c) $18\,\%$
 :::
 
 :::
