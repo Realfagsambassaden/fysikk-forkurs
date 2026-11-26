@@ -80,18 +80,18 @@ Arbeid krever at noe flytter seg. Det er derfor volum*endringen* $\Delta V$ som 
 I termodynamikkens 1. lov er $W$ arbeidet som gjøres *på* gassen. Når gassen utvider seg ($\Delta V > 0$), gjør den arbeid på omgivelsene, og $W = -p\,\Delta V$ er negativ. Når gassen presses sammen, er $W$ positiv.
 
 ::: {.eksempel}
-**Eksempel: Gass i sylinder.** $Q = 500\,\mathrm{J}$ tilføres en gass i en sylinder. Den indre energien øker med $\Delta U = 100\,\mathrm{J}$.
+**Eksempel: Gass i sylinder.** $Q = 500\ \mathrm{J}$ tilføres en gass i en sylinder. Den indre energien øker med $\Delta U = 100\ \mathrm{J}$.
 
 a)  Hvor stort arbeid gjør stempelet på gassen?
 
-b)  Stempelet sitter på toppen av sylinderen, som i figuren, og har masse $m = 50\,\mathrm{kg}$. Gassen løfter stempelet rett opp. Hvor langt flyttes det? Se bort fra lufttrykket over stempelet og friksjon.
+b)  Stempelet sitter på toppen av sylinderen, som i figuren, og har masse $m = 50\ \mathrm{kg}$. Gassen løfter stempelet rett opp. Hvor langt flyttes det? Se bort fra lufttrykket over stempelet og friksjon.
 
 ::: {.losning}
-**a)** Fra 1. lov løser vi for $W$: $$\Delta U = Q + W \implies W = \Delta U - Q = 100\,\mathrm{J} - 500\,\mathrm{J}
-  = \underline{\underline{-400\,\mathrm{J}}}$$ Det negative fortegnet viser at stempelet *ikke* gjør arbeid på gassen — det er gassen som gjør $400\,\mathrm{J}$ arbeid på stempelet og løfter det oppover.
+**a)** Fra 1. lov løser vi for $W$: $$\Delta U = Q + W \implies W = \Delta U - Q = 100\ \mathrm{J} - 500\ \mathrm{J}
+  = \underline{\underline{-400\ \mathrm{J}}}$$ Det negative fortegnet viser at stempelet *ikke* gjør arbeid på gassen — det er gassen som gjør $400\ \mathrm{J}$ arbeid på stempelet og løfter det oppover.
 
-**b)** Gassen gjør $400\,\mathrm{J}$ arbeid på stempelet. Dette arbeidet brukes til å løfte stempelet mot tyngdekraften ($W = \Delta E_{\text{pot}} = m\mathrm{g}y$): $$y = \frac{W}{m\mathrm{g}} = \frac{400\,\mathrm{J}}{50\,\mathrm{kg}\cdot9.81\,\mathrm{m/s^2}}
-  = \underline{\underline{0.82\,\mathrm{m}}}$$ Stempelet flyttes $82\,\mathrm{cm}$.
+**b)** Gassen gjør $400\ \mathrm{J}$ arbeid på stempelet. Dette arbeidet brukes til å løfte stempelet mot tyngdekraften ($W_\text{gass} = \Delta E_{\text{pot}} = m\mathrm{g}y$): $$y = \frac{W_\text{gass}}{m\mathrm{g}} = \frac{400\ \mathrm{J}}{50\ \mathrm{kg}\cdot9.81\ \mathrm{m/s^2}}
+  = \underline{\underline{0.82\ \mathrm{m}}}$$ Stempelet flyttes $82\ \mathrm{cm}$.
 :::
 :::
 
@@ -140,21 +140,21 @@ e)  En elektrisk mikser rører i en bolle med kakedeig (deigen).
 
 ::: {.oppgave tittel="Sykkelpumpe"}
 
-En sykkelpumpe komprimerer luft raskt, slik at prosessen er tilnærmet adiabatisk. Et arbeid på $W = 30\,\mathrm{J}$ utføres på lufta.
+En sykkelpumpe komprimerer luft raskt, slik at prosessen er tilnærmet adiabatisk. Et arbeid på $W = 30\ \mathrm{J}$ utføres på lufta.
 
 a)  Hva er endringen i den indre energien til lufta?
 
 b)  Stiger eller synker temperaturen i pumpa? Forklar hvorfor.
 
 ::: {.fasit}
-$+30\,\mathrm{J}$
+$+30\ \mathrm{J}$
 :::
 
 :::
 
 ::: {.oppgave tittel="Gass som komprimeres"}
 
-Et stempel presser sammen en gass i en sylinder og gjør et arbeid på $250\,\mathrm{J}$ på gassen. Samtidig avgir gassen $80\,\mathrm{J}$ varme til omgivelsene. Anta at den indre energien til gassen bare avhenger av temperaturen.
+Et stempel presser sammen en gass i en sylinder og gjør et arbeid på $250\ \mathrm{J}$ på gassen. Samtidig avgir gassen $80\ \mathrm{J}$ varme til omgivelsene. Anta at den indre energien til gassen bare avhenger av temperaturen.
 
 a)  Finn endringen $\Delta U$ i den indre energien til gassen.
 
@@ -162,10 +162,10 @@ b)  Stiger eller synker temperaturen til gassen?
 
 c)  Hvor mye varme måtte gassen ha avgitt for at temperaturen skulle vært uendret?
 
-d)  Senere tilføres gassen $600\,\mathrm{J}$ varme. Gassen utvider seg og løfter stempelet, som har masse $25\,\mathrm{kg}$, rett opp. Den indre energien øker med $450\,\mathrm{J}$. Hvor høyt løftes stempelet? Se bort fra lufttrykket over stempelet og friksjon.
+d)  Senere tilføres gassen $600\ \mathrm{J}$ varme. Gassen utvider seg og løfter stempelet, som har masse $25\ \mathrm{kg}$, rett opp. Den indre energien øker med $450\ \mathrm{J}$. Hvor høyt løftes stempelet? Se bort fra lufttrykket over stempelet og friksjon.
 
 ::: {.fasit}
-a) $+170\,\mathrm{J}$ · c) $-250\,\mathrm{J}$ · d) $0.61\,\mathrm{m}$
+a) $+170\ \mathrm{J}$ · c) $-250\ \mathrm{J}$ · d) $0.61\ \mathrm{m}$
 :::
 
 :::

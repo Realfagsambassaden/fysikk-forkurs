@@ -133,7 +133,7 @@ For luft og andre gasser med to atomer i molekylet roterer molekylene også, og 
 | Isokor | $W = 0$ | $\Delta U = Q$: all varme går til å øke temperaturen |
 | Isobar | $W = -p\,\Delta V$ | $\Delta U = Q - p\,\Delta V$: varmen deles mellom $U$ og arbeidet gassen gjør |
 | Isoterm | $W_\text{gass} = n\mathrm{R}T\ln(V_2/V_1)$ | $\Delta U = 0$, så $Q = W_\text{gass}$: all varme blir til arbeid |
-| Adiabatisk | arealet under kurven | $Q = 0$, så $\Delta U = W$: arbeid på gassen gjør den varmere |
+| Adiabatisk | $W_\text{gass}$ = arealet under kurven | $Q = 0$, så $\Delta U = W$: arbeid på gassen gjør den varmere |
 :::
 
 ::: {.eksempel}
@@ -196,15 +196,15 @@ A → B og C → D er isokore, så der er arbeidet null.
 
 B → C er isobar ved $300\ \mathrm{kPa}$, med $\Delta V = 2.0\ \mathrm{L} = 2.0\cdot10^{-3}\ \mathrm{m^3}$:
 $$
-W_\text{BC} = 300\cdot10^{3}\ \mathrm{Pa}\cdot2.0\cdot10^{-3}\ \mathrm{m^3} = 6.0\cdot10^{2}\ \mathrm{J}
+W_\text{gass,BC} = 300\cdot10^{3}\ \mathrm{Pa}\cdot2.0\cdot10^{-3}\ \mathrm{m^3} = 6.0\cdot10^{2}\ \mathrm{J}
 $$
 D → A er isobar ved $100\ \mathrm{kPa}$, og volumet minker med $2.0\ \mathrm{L}$:
 $$
-W_\text{DA} = 100\cdot10^{3}\ \mathrm{Pa}\cdot(-2.0\cdot10^{-3}\ \mathrm{m^3}) = -2.0\cdot10^{2}\ \mathrm{J}
+W_\text{gass,DA} = 100\cdot10^{3}\ \mathrm{Pa}\cdot(-2.0\cdot10^{-3}\ \mathrm{m^3}) = -2.0\cdot10^{2}\ \mathrm{J}
 $$
 Nettoarbeidet gassen gjør, er
 $$
-W_\text{netto} = 6.0\cdot10^{2}\ \mathrm{J} - 2.0\cdot10^{2}\ \mathrm{J} = \underline{\underline{4.0\cdot10^{2}\ \mathrm{J}}}
+W_\text{gass,netto} = 6.0\cdot10^{2}\ \mathrm{J} - 2.0\cdot10^{2}\ \mathrm{J} = \underline{\underline{4.0\cdot10^{2}\ \mathrm{J}}}
 $$
 Det er nøyaktig arealet av rektangelet: $(300 - 100)\ \mathrm{kPa}\cdot2.0\ \mathrm{L} = 4.0\cdot10^{2}\ \mathrm{J}$.
 
@@ -277,7 +277,7 @@ b)  Finn arbeidet gassen gjør på omgivelsene. Hva blir $W$ i termodynamikkens 
 c)  Under prosessen blir det tilført $1.1\ \mathrm{kJ}$ varme til gassen. Finn endringen i den indre energien til gassen.
 
 ::: {.fasit}
-b) $4.5\cdot 10^{2}\ \mathrm{J}$ · b) $-4.5\cdot 10^{2}\ \mathrm{J}$ · c) $6.5\cdot 10^{2}\ \mathrm{J}$
+b) $W_\text{gass} = 4.5\cdot 10^{2}\ \mathrm{J}$, $W = -4.5\cdot 10^{2}\ \mathrm{J}$ · c) $6.5\cdot 10^{2}\ \mathrm{J}$
 :::
 :::
 
@@ -323,7 +323,7 @@ b)  Finn trykket etter kompresjonen.
 c)  Hvilket trykk ville du fått hvis kompresjonen var isoterm? Forklar med 1. lov hvorfor den adiabatiske kompresjonen gir høyere trykk.
 
 ::: {.fasit}
-a) $9.3\cdot10^{2}\ \mathrm{K}$ · a) $5.7\ \mathrm{MPa}$ · c) $1.8\ \mathrm{MPa}$
+a) $9.3\cdot10^{2}\ \mathrm{K}$ · b) $5.7\ \mathrm{MPa}$ · c) $1.8\ \mathrm{MPa}$
 :::
 :::
 
