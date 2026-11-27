@@ -12,7 +12,7 @@ Grunnen til at det ikke finnes mer enn 7 enheter i SI-systemet er at det finnes 
 ::: {.eksempel}
 [Eksempel: Enhet for fart]{.eks-tittel}
 
-Når vi skal gi et variabel-navn til *fart* bruker vi ofte bokstaven $v$ (forkortelse for det engelske *velocity*). La oss si at faren til en bil er $$v=50\,\mathrm{km}\,\mathrm{h}^{-1}=50\,\mathrm{km}\,\mathrm{/}\,\mathrm{h}.$$ Her ser vi at enheten for fart, nemlig $\mathrm{km}\,\mathrm{h}^{-1}$ kan skrives ved hjelp av enhetene for strekning (km) og tid (h, for engelske *hour*[^1]). Vi trenger altså ikke en egen enhet for fart.
+Når vi skal gi et variabel-navn til *fart* bruker vi ofte bokstaven $v$ (forkortelse for det engelske *velocity*). La oss si at faren til en bil er $$v=50\ \mathrm{km}\,\mathrm{h}^{-1}=50\ \mathrm{km}\,\mathrm{/}\,\mathrm{h}.$$ Her ser vi at enheten for fart, nemlig $\mathrm{km}\,\mathrm{h}^{-1}$ kan skrives ved hjelp av enhetene for strekning (km) og tid (h, for engelske *hour*[^1]). Vi trenger altså ikke en egen enhet for fart.
 
 :::
 
@@ -21,12 +21,12 @@ Det vi egentlig gjorde for å finne enheten for fart, er altså at vi brukte en 
 ::: {.eksempel}
 [Eksempel: Sykkel på tog]{.eks-tittel}
 
-I forbindelse med en filminnspilling kjører Tom Cruise en motorsykkel ombord et cruisskip. Det er generelt en veldig dårlig idé. Men han gjør det likevel, og crus-skipet har en fart $v_\textrm{skip}=30\,\mathrm{km}\,\mathrm{h}^{-1}$. Tom har en fart $v_\textrm{T}=70\,\mathrm{km}\,\mathrm{h}^{-1}$ relativ til båten. Både Tom Cruise og cruisskipet kjører rett mot ei kai. Hvor stor fart har Tom i forhold til kaia?
+I forbindelse med en filminnspilling kjører Tom Cruise en motorsykkel ombord et cruisskip. Det er generelt en veldig dårlig idé. Men han gjør det likevel, og crus-skipet har en fart $v_\textrm{skip}=30\ \mathrm{km}\,\mathrm{h}^{-1}$. Tom har en fart $v_\textrm{T}=70\ \mathrm{km}\,\mathrm{h}^{-1}$ relativ til båten. Både Tom Cruise og cruisskipet kjører rett mot ei kai. Hvor stor fart har Tom i forhold til kaia?
 
 ::: {.losning}
 **Løsning:** For å finne ut dette kan vi legge sammen hastighetene.\
 Når begge objektene beveger seg i nøyaktig samme retning kan vi legge sammen størrelsene. $$\begin{aligned}
-    30\,\mathrm{km}\,\mathrm{h}^{-1} + 70\,\mathrm{km}\,\mathrm{h}^{-1} = \underline{\underline{100\,\mathrm{km}\,\mathrm{h}^{-1}}}
+    30\ \mathrm{km}\,\mathrm{h}^{-1} + 70\ \mathrm{km}\,\mathrm{h}^{-1} = \underline{\underline{100\ \mathrm{km}\,\mathrm{h}^{-1}}}
 \end{aligned}$$
 :::
 :::
@@ -43,7 +43,7 @@ Pytagoras læresetning sier at i en rettinklet trekant er:\
 $$\begin{aligned}
    \text{hypotenus} = \sqrt{\text{katet}^2 + \text{katet}^2}.
 \end{aligned}$$ 4 km nord og 3 km vest gir derfor: $$\begin{aligned}
-    \text{luftlinje} = \sqrt{(4\,\mathrm{km})^2 + (3\,\mathrm{km})^2} = \sqrt{(4^2 + 3^2)\mathrm{km}^2}=\sqrt{(4^2 + 3^2)}\mathrm{km}= \underline{\underline{5\,\mathrm{km}}}
+    \text{luftlinje} = \sqrt{(4\ \mathrm{km})^2 + (3\ \mathrm{km})^2} = \sqrt{(4^2 + 3^2)\mathrm{km}^2}=\sqrt{(4^2 + 3^2)}\mathrm{km}= \underline{\underline{5\ \mathrm{km}}}
 \end{aligned}$$
 :::
 :::
@@ -54,7 +54,7 @@ $$\begin{aligned}
 1\) Regn ut hvor mange millimeter det er i 20 meter.
 
 ::: {.losning}
-**Løsning:** For å regne ut dette benytter vi en dekadisk omskriving av meter (mer om dette senere). Merk at $$1\,\mathrm{m}= 10^3\,\mathrm{mm}.$$ Dermed har vi $$20\,\mathrm{m}=20\cdot 10^3\,\mathrm{mm} = \underline{\underline{20\,000\,\mathrm{mm}}}.$$
+**Løsning:** For å regne ut dette benytter vi en dekadisk omskriving av meter (mer om dette senere). Merk at $$1\ \mathrm{m}= 10^3\ \mathrm{mm}.$$ Dermed har vi $$20\ \mathrm{m}=20\cdot 10^3\ \mathrm{mm} = \underline{\underline{2.0\cdot10^{4}\ \mathrm{mm}}}.$$ <!-- tillegg: Claude: notasjon (standardform i stedet for tusenskille) -->
 :::
 :::
 
@@ -70,14 +70,14 @@ $$\begin{aligned}
 ::: {.oppgave tittel="Enhetsregning"}
 [Enhetsregning]{.oppg-tittel}
 
-En bil kjører med fart $v = 90\,\mathrm{km}\,\mathrm{h}^{-1}$.
+En bil kjører med fart $v = 90\ \mathrm{km}\,\mathrm{h}^{-1}$.
 
-a)  Gjør om farten til m/s. *Hint:* $1\,\mathrm{km} = 10^3\,\mathrm{m}$ og $1\,\mathrm{h} = 3600\,\mathrm{s}$.
+a)  Gjør om farten til m/s. *Hint:* $1\ \mathrm{km} = 10^3\ \mathrm{m}$ og $1\ \mathrm{h} = 3600\ \mathrm{s}$.
 
-b)  Kjøreturen varer i $t = 2.5\,\mathrm{h}$. Finn tilbakelagt strekning i km og i m.
+b)  Kjøreturen varer i $t = 2.5\ \mathrm{h}$. Finn tilbakelagt strekning i km og i m.
 
 ::: {.fasit}
-a) $25\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $2.3\cdot 10^{2}\,\mathrm{km}$ · b) $2.3\cdot 10^5\,\mathrm{m}$
+a) $25\ \mathrm{m}\,\mathrm{s}^{-1}$ · b) $2.3\cdot 10^{2}\ \mathrm{km}$ · b) $2.3\cdot 10^5\ \mathrm{m}$
 :::
 
 :::
@@ -85,10 +85,10 @@ a) $25\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $2.3\cdot 10^{2}\,\mathrm{km}$ · b) 
 ::: {.oppgave tittel="Enhetsregning"}
 [Enhetsregning]{.oppg-tittel}
 
-Tyngdeakselerasjonen på månen er $\mathrm{g}_\textrm{M} = 1.62\,\mathrm{m}\,\mathrm{s}^{-2}$. Gjør om til $\mathrm{km}\,\mathrm{min}^{-2}$.
+Tyngdeakselerasjonen på månen er $\mathrm{g}_\textrm{M} = 1.62\ \mathrm{m}\,\mathrm{s}^{-2}$. Gjør om til $\mathrm{km}\,\mathrm{min}^{-2}$.
 
 ::: {.fasit}
-$5.83\,\mathrm{km}\,\mathrm{min}^{-2}$
+$5.83\ \mathrm{km}\,\mathrm{min}^{-2}$
 :::
 
 :::

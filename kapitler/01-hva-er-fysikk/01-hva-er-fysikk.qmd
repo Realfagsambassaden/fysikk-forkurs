@@ -179,7 +179,7 @@ b) I virkeligheten kom du bare $185\ \mathrm{km}$. Nevn to ting modellen ser bor
 c) Hvilken gjennomsnittsfart passer med det du faktisk kjørte?
 
 ::: {.fasit}
-a) $200\ \mathrm{km}$ · c) $74\ \mathrm{km/h}$
+a) $2.0\cdot10^{2}\ \mathrm{km}$ · c) $74\ \mathrm{km/h}$ <!-- tillegg: Claude: notasjon (standardform) -->
 :::
 :::
 
