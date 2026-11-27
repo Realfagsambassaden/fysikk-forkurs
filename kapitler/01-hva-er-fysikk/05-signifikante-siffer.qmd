@@ -19,7 +19,7 @@ Hvor lang er egentlig sauen?
 :::
 ::::
 
-På forkursnivå skal vi ikke se så mye på dette, men vi skal få med oss det mest grunnleggende, nemlig *Signifikante siffer*. Signifikante siffer handler om å bruke riktig antall siffer i en utregning. La oss starte med å se på hvordan vi skal finne antall signifikante siffer. Tallet 459 har tre signifikante siffer, ettersom det består av tre siffer. Tallet 12 001. 03700 har 10 signifikante siffer, etter som det består av 10 siffer. Men merk at tallet 0.00059400 kun har 5 signifikante siffer (nemlig 59400). Antall signifikante siffer telles nemlig fra *første siffer som er forskjellig fra null.*
+På forkursnivå skal vi ikke se så mye på dette, men vi skal få med oss det mest grunnleggende, nemlig *Signifikante siffer*. Signifikante siffer handler om å bruke riktig antall siffer i en utregning. La oss starte med å se på hvordan vi skal finne antall signifikante siffer. Tallet 459 har tre signifikante siffer, ettersom det består av tre siffer. Tallet 12001.03700 har 10 signifikante siffer, etter som det består av 10 siffer. Men merk at tallet 0.00059400 kun har 5 signifikante siffer (nemlig 59400). Antall signifikante siffer telles nemlig fra *første siffer som er forskjellig fra null.*
 
 ::: {.callout-note title="Signifikante siffer"}
 
@@ -50,9 +50,9 @@ Hvor mange signifikante siffer har tallene a) 165.00 b) 0.791400 og c) 14?
 Eline kjører 5.00 km på 6.0 minutter. Hvor fort kjører hun i gjennomsnitt?
 
 ::: {.losning}
-**Løsning:** Gjennomsnittsfart betegnes $\bar{v}$ og er rett og slett tilbakelagt strekning delt på tilbakelagt tid: $$\bar{v}=\frac{5.00\,\mathrm{km}}{6.0\,\mathrm{min}}=0.83333...\mathrm{km}\,\mathrm{min}^{-1}= \underline{\underline{0.83\,\mathrm{km}\,\mathrm{min}^{-1}}}$$ Dette kunne vi også gjort om til km$/$h ved å huske at $\mathrm{min}=h/60.$ Dersom vi setter inn dette får vi
+**Løsning:** Gjennomsnittsfart betegnes $\bar{v}$ og er rett og slett tilbakelagt strekning delt på tilbakelagt tid: $$\bar{v}=\frac{5.00\ \mathrm{km}}{6.0\ \mathrm{min}}=0.83333...\mathrm{km}\,\mathrm{min}^{-1}= \underline{\underline{0.83\ \mathrm{km}\,\mathrm{min}^{-1}}}$$ Dette kunne vi også gjort om til km$/$h ved å huske at $\mathrm{min}=\mathrm{h}/60.$ Dersom vi setter inn dette får vi
 
-$$\bar{v}=0.8333...\frac{\mathrm{km}}{\mathrm{h}/60}=60\cdot 0.8333...\,\mathrm{km}\,\mathrm{h}^{-1}= \underline{\underline{50\,\mathrm{km}\,\mathrm{h}^{-1}}}$$
+$$\bar{v}=0.8333...\frac{\mathrm{km}}{\mathrm{h}/60}=60\cdot 0.8333...\,\mathrm{km}\,\mathrm{h}^{-1}= \underline{\underline{50\ \mathrm{km}\,\mathrm{h}^{-1}}}$$
 :::
 :::
 

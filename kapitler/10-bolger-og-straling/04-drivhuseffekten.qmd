@@ -141,7 +141,7 @@ $2.3\cdot10^2\ \mathrm{K}$
 Jordoverflaten har en gjennomsnittstemperatur på $288\ \mathrm{K}$ og stråler omtrent som et svart legeme i infrarødt. a) Hvor mye stråler hver kvadratmeter av overflaten ut? b) Sammenlikn med de $238\ \mathrm{W/m^2}$ som til slutt går ut i rommet. Hvor blir det av resten?
 
 ::: {.fasit}
-$390\ \mathrm{W/m^2}$
+$3.90\cdot10^{2}\ \mathrm{W/m^2}$ <!-- tillegg: Claude: notasjon (standardform) -->
 :::
 :::
 
@@ -153,7 +153,7 @@ $$
 a) Hvor stort er pådrivet hvis CO₂-innholdet dobles? b) Uten tilbakekoblinger må jorda bli så mye varmere at den stråler ut $\Delta F$ ekstra. For små endringer er $\Delta(\sigma T^4) \approx 4\sigma T^3\,\Delta T$. Anslå $\Delta T$ med $T = 255\ \mathrm{K}$ (der strålingen ut i rommet kommer fra).
 
 ::: {.fasit}
-$3.71\ \mathrm{W/m^2}$ · b) $1\ \mathrm{K}$
+a) $3.71\ \mathrm{W/m^2}$ · b) $0.99\ \mathrm{K}$, altså omtrent $1\ \mathrm{K}$ <!-- tillegg: Claude: notasjon (gjeldende siffer) -->
 :::
 :::
 
