@@ -9,17 +9,18 @@ aliases: ["/forkurs/03-kinematikk/06-ekstraoppgaver.html"]
 
 Oppgavene her kombinerer stoff fra flere delkapitler. Følger du en løype, ser du bare oppgavene du har gått gjennom stoffet til.
 
+<!-- tillegg: Claude: notasjon, mellomrom mellom tall og enhet; overflødig div-lukking fjernet -->
 ::: {.oppgave tittel="Gjennomsnittsfart og gjennomsnittsakselerasjon" krever="kinematikk/posisjon-fart-akselerasjon"}
 [Gjennomsnittsfart og gjennomsnittsakselerasjon]{.oppg-tittel}
 
-En løper springer $400\,\mathrm{m}$ på $52\,\mathrm{s}$.
+En løper springer $400\ \mathrm{m}$ på $52\ \mathrm{s}$.
 
 a)  Hva er løperens gjennomsnittsfart, i $\mathrm{m}\,\mathrm{s}^{-1}$?
 
-b)  Dersom løperen starter fra ro og oppnår toppfart $9.0\,\mathrm{m}\,\mathrm{s}^{-1}$ etter de første $6.0\,\mathrm{s}$, hva er gjennomsnittsakselerasjonen i denne perioden?
+b)  Dersom løperen starter fra ro og oppnår toppfart $9.0\ \mathrm{m}\,\mathrm{s}^{-1}$ etter de første $6.0\ \mathrm{s}$, hva er gjennomsnittsakselerasjonen i denne perioden?
 
 ::: {.fasit}
-a) $7.7\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $1.5\,\mathrm{m}\,\mathrm{s}^{-2}$
+a) $7.7\ \mathrm{m}\,\mathrm{s}^{-1}$ · b) $1.5\ \mathrm{m}\,\mathrm{s}^{-2}$
 :::
 
 :::
@@ -27,7 +28,7 @@ a) $7.7\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $1.5\,\mathrm{m}\,\mathrm{s}^{-2}$
 ::: {.oppgave tittel="Konstant akselerasjon – oppbremsing" krever="kinematikk/konstant-akselerasjon"}
 [Konstant akselerasjon – oppbremsing]{.oppg-tittel}
 
-En bil kjører med fart $v_0 = 25\,\mathrm{m}\,\mathrm{s}^{-1}$ og bremser med konstant akselerasjon $a = -4.0\,\mathrm{m}\,\mathrm{s}^{-2}$.
+En bil kjører med fart $v_0 = 25\ \mathrm{m}\,\mathrm{s}^{-1}$ og bremser med konstant akselerasjon $a = -4.0\ \mathrm{m}\,\mathrm{s}^{-2}$.
 
 a)  Hvor lang tid tar det før bilen stopper?
 
@@ -36,17 +37,16 @@ b)  Hvor langt kjører bilen i løpet av oppbremsingen?
 c)  Skisser fartsgrafen $v(t)$ for bilen fra den begynner å bremse til den stopper.
 
 ::: {.fasit}
-a) $6.3\,\mathrm{s}$ · b) $78\,\mathrm{m}$
+a) $6.3\ \mathrm{s}$ · b) $78\ \mathrm{m}$
 :::
 
 :::
 
-:::
 
 ::: {.oppgave tittel="Stein kastet fra et stup" krever="kinematikk/to-dimensjoner, vektorer/dekomponering"}
 [Stein kastet fra et stup]{.oppg-tittel}
 
-En stein kastes fra toppen av et stup med utgangsfart $v_0 = 15\,\mathrm{m}\,\mathrm{s}^{-1}$ i en vinkel $30^\circ$ over horisontalen. Stupet er $h = 40\,\mathrm{m}$ over vannet. Se bort fra luftmotstand.
+En stein kastes fra toppen av et stup med utgangsfart $v_0 = 15\ \mathrm{m}\,\mathrm{s}^{-1}$ i en vinkel $30^\circ$ over horisontalen. Stupet er $h = 40\ \mathrm{m}$ over vannet. Se bort fra luftmotstand.
 
 a)  Finn de horisontale og vertikale komponentene av $\vec{v}_0$.
 
@@ -57,7 +57,7 @@ c)  Finn hvor langt fra stupkanten steinen treffer vannet.
 d)  Finn farten (størrelsen på hastigheten) steinen har i det den treffer vannet.
 
 ::: {.fasit}
-a) $13\,\mathrm{m}\,\mathrm{s}^{-1}$ · a) $7.5\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $3.7\,\mathrm{s}$ · c) $48\,\mathrm{m}$ · d) $32\,\mathrm{m}\,\mathrm{s}^{-1}$
+a) $13\ \mathrm{m}\,\mathrm{s}^{-1}$ · a) $7.5\ \mathrm{m}\,\mathrm{s}^{-1}$ · b) $3.7\ \mathrm{s}$ · c) $48\ \mathrm{m}$ · d) $32\ \mathrm{m}\,\mathrm{s}^{-1}$
 :::
 
 :::
@@ -65,7 +65,7 @@ a) $13\,\mathrm{m}\,\mathrm{s}^{-1}$ · a) $7.5\,\mathrm{m}\,\mathrm{s}^{-1}$ ·
 ::: {.oppgave tittel="Sirkelbevegelse – pariserhjul" krever="sirkelbevegelse/sentripetal"}
 [Sirkelbevegelse – pariserhjul]{.oppg-tittel}
 
-Et pariserhjul har radius $r = 15\,\mathrm{m}$ og roterer med konstant fart slik at det tar $40\,\mathrm{s}$ å fullføre én runde.
+Et pariserhjul har radius $r = 15\ \mathrm{m}$ og roterer med konstant fart slik at det tar $40\ \mathrm{s}$ å fullføre én runde.
 
 a)  Finn farten $v$ til en passasjer ved kanten av hjulet.
 
@@ -74,7 +74,7 @@ b)  Finn sentripetalakselerasjonen til passasjeren.
 c)  Sammenlikn denne akselerasjonen med tyngdens akselerasjon $\mathrm{g}$. Er den stor eller liten i forhold?
 
 ::: {.fasit}
-a) $2.4\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $0.37\,\mathrm{m}\,\mathrm{s}^{-2}$ · c) $0.038$
+a) $2.4\ \mathrm{m}\,\mathrm{s}^{-1}$ · b) $0.37\ \mathrm{m}\,\mathrm{s}^{-2}$ · c) $0.038$
 :::
 
 :::

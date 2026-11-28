@@ -14,7 +14,8 @@ Oppgavene her kombinerer stoff fra flere delkapitler. Følger du en løype, ser 
 
 a)  En vektor $\vec{v}$ har størrelse $|\vec{v}| = 20$ og danner vinkel $\theta = 30^\circ$ med positiv $x$-akse. Finn komponentene $v_x$ og $v_y$.
 
-b)  En fugl flyr $10\,\mathrm{km}$ i retning N$60^\circ$Ø (det vil si $60^\circ$ øst for nord). Finn de nord- og østkomponentene til forskyvningsvektoren. *Hint:* Vinkelen er målt fra nordaksen, ikke fra østaksen.
+<!-- tillegg: Claude: notasjon, mellomrom mellom tall og enhet -->
+b)  En fugl flyr $10\ \mathrm{km}$ i retning N$60^\circ$Ø (det vil si $60^\circ$ øst for nord). Finn de nord- og østkomponentene til forskyvningsvektoren. *Hint:* Vinkelen er målt fra nordaksen, ikke fra østaksen.
 
 c)  Gitt $\vec{v} = [5,\,-12]$. Finn lengden $|\vec{v}|$ og vinkelen $\theta$ vektoren danner med positiv $x$-akse.
 

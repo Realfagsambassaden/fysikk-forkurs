@@ -89,7 +89,8 @@ Posisjon, fart og akselerasjon regnet ut fra de diskrete målepunktene i Tabelle
 :::
 ::::
 
-Legg merke til at akselerasjonen her er helt konstant, lik $\bar a = 1.0\,\mathrm{m}\,\mathrm{s}^{-2}$. Det er ingen tilfeldighet — måledataene i Tabellen er konstruert nettopp for å gi konstant akselerasjon. Slik bevegelse, med konstant akselerasjon, skal vi se mye mer av snart.
+<!-- tillegg: Claude: notasjon, mellomrom mellom tall og enhet -->
+Legg merke til at akselerasjonen her er helt konstant, lik $\bar a = 1.0\ \mathrm{m}\,\mathrm{s}^{-2}$. Det er ingen tilfeldighet — måledataene i Tabellen er konstruert nettopp for å gi konstant akselerasjon. Slik bevegelse, med konstant akselerasjon, skal vi se mye mer av snart.
 
 
 ::::

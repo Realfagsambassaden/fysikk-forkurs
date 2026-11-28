@@ -68,7 +68,8 @@ $1.001\cdot 10^{2}$
 ::: {.oppgave tittel="Signifikante siffer" krever="maling-og-usikkerhet/gjeldende-siffer, storrelser-og-enheter/enhetsregning"}
 [Signifikante siffer]{.oppg-tittel}
 
-Per kjøper 1523 skruer til garasjen sin. Hver skrue veier $10.1\,\mathrm{g}$. Hvor mange signifikante sifre kan vi angi totalvekten til skruene med?
+<!-- tillegg: Claude: notasjon, mellomrom mellom tall og enhet -->
+Per kjøper 1523 skruer til garasjen sin. Hver skrue veier $10.1\ \mathrm{g}$. Hvor mange signifikante sifre kan vi angi totalvekten til skruene med?
 
 
 :::

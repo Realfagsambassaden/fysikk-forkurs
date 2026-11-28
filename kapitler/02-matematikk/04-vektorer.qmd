@@ -142,28 +142,29 @@ En malingsbombe i prosjektilbevegelse. Posisjonsvektoren $\vec{S}(t)$ peker fra 
 :::
 ::::
 
-Fysikkens lover formuleres ved hjelp av vektorer, og er uavhengig av valg av koordinatsystem. Likevel innfører vi koordinatsystem når vi saktisk skal regne på noe. Dette er fordi lovene lar seg dekomponere i hver enkelt retning. La oss ta fart som eksempel. Dersom akselerasjonen er konstant så er hastigheten $\vec{v}(t)$ ved tidspunkt $t$ gitt ved starthastigheten $\vec{v}_0$ og akselerasjonen $\vec{a}$ ved formelen $$\begin{aligned}
+Fysikkens lover formuleres ved hjelp av vektorer, og er uavhengig av valg av koordinatsystem. Likevel innfører vi koordinatsystem når vi faktisk skal regne på noe. Dette er fordi lovene lar seg dekomponere i hver enkelt retning. La oss ta fart som eksempel. Dersom akselerasjonen er konstant så er hastigheten $\vec{v}(t)$ ved tidspunkt $t$ gitt ved starthastigheten $\vec{v}_0$ og akselerasjonen $\vec{a}$ ved formelen $$\begin{aligned}
 \vec{v}(t) = \vec{v}_0 + \vec{a}t.
 \end{aligned}$$ Dette er en vektorlikning, og den gjelder i alle koordinatsystem. Dersom vi velger et koordinatsystem, så kan vi skrive ut komponentene i hver retning, og dermed få to separate likninger: $$\begin{aligned}
 v_x(t) = v_{0x} + a_x t, \qquad
 v_y(t) = v_{0y} + a_y t.
 \end{aligned}$$
 
+<!-- tillegg: Claude: notasjon, mellomrom mellom tall og enhet -->
 ::: {.eksempel}
 [Eksempel: Dekomponering av hastighet]{.eks-tittel}
 
-En ball kastes med fart $v = 20\,\mathrm{m}\,\mathrm{s}^{-1}$ i en vinkel $\theta = 37°$ over horisonten ($\cos 37° \approx 0.80$, $\sin 37° \approx 0.60$).\
+En ball kastes med fart $v = 20\ \mathrm{m}\,\mathrm{s}^{-1}$ i en vinkel $\theta = 37°$ over horisonten ($\cos 37° \approx 0.80$, $\sin 37° \approx 0.60$).\
 **a)** Finn komponentene $v_x$ og $v_y$.\
-**b)** Verifiser at $|\vec{v}| = \sqrt{v_x^2 + v_y^2} = 20\,\mathrm{m}\,\mathrm{s}^{-1}$.
+**b)** Verifiser at $|\vec{v}| = \sqrt{v_x^2 + v_y^2} = 20\ \mathrm{m}\,\mathrm{s}^{-1}$.
 
 :::
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-**a)** Vi bruker de trigonometriske relasjonene $v_x = v\cos\theta$ og $v_y = v\sin\theta$: $$v_x = 20\,\mathrm{m}\,\mathrm{s}^{-1}\cdot 0.80 = \underline{\underline{16\,\mathrm{m}\,\mathrm{s}^{-1}}},
+**a)** Vi bruker de trigonometriske relasjonene $v_x = v\cos\theta$ og $v_y = v\sin\theta$: $$v_x = 20\ \mathrm{m}\,\mathrm{s}^{-1}\cdot 0.80 = \underline{\underline{16\ \mathrm{m}\,\mathrm{s}^{-1}}},
 \qquad
-v_y = 20\,\mathrm{m}\,\mathrm{s}^{-1}\cdot 0.60 = \underline{\underline{12\,\mathrm{m}\,\mathrm{s}^{-1}}}.$$ **b)** Pythagoras bekrefter: $$\sqrt{v_x^2 + v_y^2} = \sqrt{(16\,\mathrm{m}\,\mathrm{s}^{-1})^2 + (12\,\mathrm{m}\,\mathrm{s}^{-1})^2}
-= \sqrt{256 + 144}\,\mathrm{m}\,\mathrm{s}^{-1} = \sqrt{400}\,\mathrm{m}\,\mathrm{s}^{-1} = \underline{\underline{20\,\mathrm{m}\,\mathrm{s}^{-1}}}\;\checkmark$$
+v_y = 20\ \mathrm{m}\,\mathrm{s}^{-1}\cdot 0.60 = \underline{\underline{12\ \mathrm{m}\,\mathrm{s}^{-1}}}.$$ **b)** Pythagoras bekrefter: $$\sqrt{v_x^2 + v_y^2} = \sqrt{(16\ \mathrm{m}\,\mathrm{s}^{-1})^2 + (12\ \mathrm{m}\,\mathrm{s}^{-1})^2}
+= \sqrt{256 + 144}\ \mathrm{m}\,\mathrm{s}^{-1} = \sqrt{400}\ \mathrm{m}\,\mathrm{s}^{-1} = \underline{\underline{20\ \mathrm{m}\,\mathrm{s}^{-1}}}\;\checkmark$$
 
 :::
 
@@ -195,13 +196,13 @@ Vi har en vektor $\vec{A} = [3,\;4]$ med komponenter $A_x = 3$ og $A_y = 4$.\
 ::: {.oppgave tittel="Dekomponering av vektorer"}
 [Dekomponering av vektorer]{.oppg-tittel}
 
-En ball kastes med startfart $v_0 = 20\,\mathrm{m}\,\mathrm{s}^{-1}$ i en vinkel $\theta = 30°$ over horisonten.
+En ball kastes med startfart $v_0 = 20\ \mathrm{m}\,\mathrm{s}^{-1}$ i en vinkel $\theta = 30°$ over horisonten.
 
 a)  Finn den horisontale startfarten $v_{0x}$.
 
 b)  Finn den vertikale startfarten $v_{0y}$.
 
-c)  Verifiser at $|\vec{v}_0| = \sqrt{v_{0x}^2 + v_{0y}^2} = 20\,\mathrm{m}\,\mathrm{s}^{-1}$.
+c)  Verifiser at $|\vec{v}_0| = \sqrt{v_{0x}^2 + v_{0y}^2} = 20\ \mathrm{m}\,\mathrm{s}^{-1}$.
 
 :::
 
@@ -273,11 +274,11 @@ a)  Finn lengden til $\vec{v} = [5,\,12]$.
 
 b)  Finn lengden til $\vec{u} = [-3,\,4]$.
 
-c)  En fugl flyr $6\,\mathrm{km}$ østover og $8\,\mathrm{km}$ nordover. Hva er luftlinjeavstanden, og hvilken vinkel fra østaksen flyr den?
+c)  En fugl flyr $6\ \mathrm{km}$ østover og $8\ \mathrm{km}$ nordover. Hva er luftlinjeavstanden, og hvilken vinkel fra østaksen flyr den?
 
 d)  Finn vinkelen $\vec{u} = [1,\,\sqrt{3}]$ danner med positiv $x$-akse.
 
-e)  En kraft $\vec{F}$ har størrelse $F = 10\,\mathrm{N}$ og danner vinkel $\theta = 40°$ med horisonten. Finn de horisontale og vertikale komponentene.
+e)  En kraft $\vec{F}$ har størrelse $F = 10\ \mathrm{N}$ og danner vinkel $\theta = 40°$ med horisonten. Finn de horisontale og vertikale komponentene.
 
 :::
 

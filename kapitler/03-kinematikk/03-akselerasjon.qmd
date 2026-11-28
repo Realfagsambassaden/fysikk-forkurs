@@ -35,7 +35,7 @@ Hva tenker du om størrelse og retning på akselerasjonen i følgende to tilfell
 ![](../../bilder/figurer/k3-14-c630de1ab2d1.svg){.tikz-fig style="width:433px"}
 
 ::: caption
-Posisjon, fart og akselerasjon ved *varierende* akselerasjon ($s_0=0$, $v_0=-2\,\mathrm{m/s}$; $a_1=2\,\mathrm{m/s}^2$ for $t\in[0,2\,\mathrm{s}]$ og $a_2=-1\,\mathrm{m/s}^2$ for $t\in[2,5\,\mathrm{s}]$).
+Posisjon, fart og akselerasjon ved *varierende* akselerasjon ($s_0=0$, $v_0=-2\ \mathrm{m/s}$; $a_1=2\ \mathrm{m/s^2}$ for $t\in[0,2\ \mathrm{s}]$ og $a_2=-1\ \mathrm{m/s^2}$ for $t\in[2,5\ \mathrm{s}]$).
 :::
 ::::
 
@@ -59,23 +59,24 @@ Momentanakselerasjonen er grenseverdien av gjennomsnittsakselerasjonen når $\De
 
 :::
 
-Figurene og illustrerer sammenhengen mellom strekning, fart og akselerasjon godt.I hvert panel viser øverste graf posisjonen $s(t)$, midterste graf farten $v(t)$, og nederste graf akselerasjonen $a(t)$. Legg merke til at fartsgrafens stigningstall til enhver tid tilsvarer verdien på akselerasjonsgrafen, og at posisjonsgrafens stigningstall tilsvarer verdien på fartsgrafens graf – slik det følger av derivasjonsrelasjonen.
+Figurene og illustrerer sammenhengen mellom strekning, fart og akselerasjon godt. I hvert panel viser øverste graf posisjonen $s(t)$, midterste graf farten $v(t)$, og nederste graf akselerasjonen $a(t)$. Legg merke til at fartsgrafens stigningstall til enhver tid tilsvarer verdien på akselerasjonsgrafen, og at posisjonsgrafens stigningstall tilsvarer verdien på fartsgrafens graf – slik det følger av derivasjonsrelasjonen.
 
 **Konstant akselerasjon** Når akselerasjonen er konstant, vil gjennomsnittsakselerasjon og momentanakselerasjon være identiske.
 
+<!-- tillegg: Claude: notasjon, mellomrom mellom tall og enhet -->
 ::: {.oppgave tittel="Akselerasjon"}
 [Akselerasjon]{.oppg-tittel}
 
-En bil øker farten fra $v_0 = 20\,\mathrm{m}\,\mathrm{s}^{-1}$ til $v = 30\,\mathrm{m}\,\mathrm{s}^{-1}$ på $\Delta t = 5.0\,\mathrm{s}$.
+En bil øker farten fra $v_0 = 20\ \mathrm{m}\,\mathrm{s}^{-1}$ til $v = 30\ \mathrm{m}\,\mathrm{s}^{-1}$ på $\Delta t = 5.0\ \mathrm{s}$.
 
 a)  Finn gjennomsnittsakselerasjonen.
 
 b)  Er akselerasjonen positiv eller negativ? Hva betyr det?
 
-c)  Dersom akselerasjonen er konstant, hva er farten etter ytterligere $3.0\,\mathrm{s}$?
+c)  Dersom akselerasjonen er konstant, hva er farten etter ytterligere $3.0\ \mathrm{s}$?
 
 ::: {.fasit}
-a) $2.0\,\mathrm{m}\,\mathrm{s}^{-2}$ · c) $36\,\mathrm{m}\,\mathrm{s}^{-1}$
+a) $2.0\ \mathrm{m}\,\mathrm{s}^{-2}$ · c) $36\ \mathrm{m}\,\mathrm{s}^{-1}$
 :::
 
 :::
