@@ -9,9 +9,9 @@ aliases: ["/forkurs/03-kinematikk/02-strekning-s-og-hastighet-v.html"]
 
 {{< video https://www.youtube.com/watch?v=nQ7h4B4D5ig >}}
 
-Dersom all bevegelse er langs samme, rette linje så kallder vi bevegelsen *rettlinjet*. I dette tilfellet kan vi beskrive strekning og fart som skalarer, altså uten vektornotasjon. Dersom bevegelsen er krum, må vi bruke vektorer. Dette refererer vi til som *krumlinjet* bevegelse. Vi skal se på begge deler. Merk derfor følgende notasjon:
+Dersom all bevegelse er langs samme, rette linje så kaller vi bevegelsen *rettlinjet*. I dette tilfellet kan vi beskrive strekning og fart som skalarer, altså uten vektornotasjon. Dersom bevegelsen er krum, må vi bruke vektorer. Dette refererer vi til som *krumlinjet* bevegelse. Vi skal se på begge deler. Merk derfor følgende notasjon:
 
--   $s$ er strekning, altså størrelsen på **avstandsvektoren** $\vec{s}$. Vi kommer nok til å bruke begrep som *posisjon* og *forflytning* i tillegg til strekning og avstand. Poenget er at vi må gjøre forsljell på $s$ *uten* vektortegn og *med* vektortegn.
+-   $s$ er strekning, altså størrelsen på **avstandsvektoren** $\vec{s}$. Vi kommer nok til å bruke begrep som *posisjon* og *forflytning* i tillegg til strekning og avstand. Poenget er at vi må gjøre forskjell på $s$ *uten* vektortegn og *med* vektortegn.
 
 -   $v$ kalles **fart** og er størrelsen på **hastighetsvektoren** $\vec{v}$.
 
@@ -29,7 +29,7 @@ Eksempel på avstand mellom en lyktestolpe og forbipasserende bil.
 :::
 ::::
 
-Vi kan illustrere beveglesen til bilen med grafer for fart og strekning. La oss anta at bilen holder konstant fart på $v=36\,\mathrm{km}\,\mathrm{h}^{-1}=10\,\mathrm{m}\,\mathrm{s}^{-1}$. Da vil strekningen øke med 10 meter hvert sekund, og grafen for strekning vil være en rett linje som stiger jevnt. Grafen for fart vil være en horisontal linje på 10 m/s, siden farten ikke endrer seg. Dette er illustrert i figuren.
+Vi kan illustrere bevegelsen til bilen med grafer for fart og strekning. La oss anta at bilen holder konstant fart på $v=36\ \mathrm{km}\,\mathrm{h}^{-1}=10\ \mathrm{m}\,\mathrm{s}^{-1}$. Da vil strekningen øke med 10 meter hvert sekund, og grafen for strekning vil være en rett linje som stiger jevnt. Grafen for fart vil være en horisontal linje på 10 m/s, siden farten ikke endrer seg. Dette er illustrert i figuren.
 
 :::: figure
 :::: figure
@@ -49,14 +49,14 @@ Posisjonsgraf $s(t)$
 ::::
 
 ::: caption
-Fart- og posisjonsgraf for bil som passerer lyktestolpe med konstant hastighet $v = 10\,\mathrm{m/s}$.
+Fart- og posisjonsgraf for bil som passerer lyktestolpe med konstant hastighet $v = 10\ \mathrm{m/s}$.
 :::
 ::::
 
 {{< video https://www.youtube.com/watch?v=giCcfGv-uTc >}}
 
 Stigningstallet til strekningsgrafen kan vi regne ut momentant ved derivasjon, eller som gjennomsnittet av endring i posisjon over en periode: $$\begin{aligned}
-    \textrm{v} = \frac{\Delta\textrm{s}}{\Delta\textrm{t}} = \frac{10\,\mathrm{m}}{1\,\mathrm{s}} = 10\,\mathrm{m}\,\mathrm{s}^{-1}
+    v = \frac{\Delta s}{\Delta t} = \frac{10\ \mathrm{m}}{1\ \mathrm{s}} = 10\ \mathrm{m}\,\mathrm{s}^{-1}
 \end{aligned}$$ Som vi kan se ut ifra grafene, er farten det samme som stigningstallet til strekningsgrafen. Fart er altså størrelsen som beskriver endring i posisjon, og uformelt skriver vi gjerne “trekantformelen” som mange alt har sett:
 
 $$\begin{aligned}
@@ -69,7 +69,7 @@ Hvordan måler man fart?
 
 :::
 
-Hvilken strekning er det snakk om i formelen over? Og hvilken tid? Når vi skal måle fart i fysikken, så er det alltid over et visst tidsrom, som vi gjerne kaller $\Delta t$. Det kan jo godt være at farten egentlig endret seg underveis i dette tidsrommet, uten at våre målinger fikk det med seg. Et eksempel kan være om du måler tiden Trine bruker på en 60-meter. La oss si at Trine bruker 12 sekunder. Da er den gjennomsnittlige farten hennes $\bar{v}=60\,\mathrm{m}/12\,\mathrm{s}=5\,\mathrm{m}\,\mathrm{s}^{-1}.$ Men det er jo ikke slik å forstå at Trine holdt samme fart hele løpet. I starten var farten gjerne 0m/s, mens den på slutten av løpet kanskje var 10 m/s. Det er derfor viktig å være klar over at når vi snakker om *målt* fart, så handler det alltid om gjennomsnittsfart over et tidsintervall $\Delta t$. Tidsintervallene vi måler på kan være veldig små (slik som i et speedometer), men det er likefullt et gjennomsnitt over dette lille tidsintervallet. For å være litt mer presis definerer vi nå det vi kaller for *gjennomsnittsfart*, som altså er lengden av *gjennomsnittshastighets*-vektoren.
+Hvilken strekning er det snakk om i formelen over? Og hvilken tid? Når vi skal måle fart i fysikken, så er det alltid over et visst tidsrom, som vi gjerne kaller $\Delta t$. Det kan jo godt være at farten egentlig endret seg underveis i dette tidsrommet, uten at våre målinger fikk det med seg. Et eksempel kan være om du måler tiden Trine bruker på en 60-meter. La oss si at Trine bruker 12 sekunder. Da er den gjennomsnittlige farten hennes $\bar{v}=60\ \mathrm{m}/12\ \mathrm{s}=5.0\ \mathrm{m}\,\mathrm{s}^{-1}.$ Men det er jo ikke slik å forstå at Trine holdt samme fart hele løpet. I starten var farten gjerne 0 m/s, mens den på slutten av løpet kanskje var 10 m/s. Det er derfor viktig å være klar over at når vi snakker om *målt* fart, så handler det alltid om gjennomsnittsfart over et tidsintervall $\Delta t$. Tidsintervallene vi måler på kan være veldig små (slik som i et speedometer), men det er likefullt et gjennomsnitt over dette lille tidsintervallet. For å være litt mer presis definerer vi nå det vi kaller for *gjennomsnittsfart*, som altså er lengden av *gjennomsnittshastighets*-vektoren.
 
 ::: {.callout-note title="Definisjon: Gjennomsnittsfart og gjennomsnittshastighet"}
 
@@ -83,39 +83,40 @@ Matematisk kan gjennomsnittshastigheten uttrykkes som: $$\begin{aligned}
 
 Gjennomsnitts*fart* beskriver altså størrelsen på den totale forflytningen til et objekt delt på den totale tiden som har gått. Ettersom forflytning er en vektor, så er gjennomsnitts*hastighet* en vektor. Gjennomsnittsfart er derimot en skalar, siden det er lengden av gjennomsnittshastighetsvektoren.
 
+<!-- tillegg: Claude: notasjon, uten tusenskille, v, s og t i kursiv, mellomrom mellom tall og enhet -->
 ::: {.eksempel}
 [Eksempel: Gjennomsnittsfart i rettlinjet bevegelse]{.eks-tittel}
 
-En bil kjører $60\,\mathrm{km}$ på $1.5\,\mathrm{h}$. Finn gjennomsnittsfarten i km/t. Gjør om til m/s
+En bil kjører $60\ \mathrm{km}$ på $1.5\ \mathrm{h}$. Finn gjennomsnittsfarten i km/t. Gjør om til m/s
 
 :::
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-Vi bruker definisjonen $\bar{v} = \dfrac{\Delta s}{\Delta t}$: $$\bar{v} = \frac{60\,\mathrm{km}}{1.5\,\mathrm{h}} = \underline{\underline{40\,\mathrm{km}\,\mathrm{h}^{-1}}}$$ Vi bruker omregningsfaktoren $1\,\mathrm{km}\,\mathrm{h}^{-1} = \frac{1\,000\,\mathrm{m}}{3\,600\,\mathrm{s}}$: $$\bar{v} = 40\;\mathrm{km}\,\mathrm{h}^{-1} \cdot \frac{1\,000\,\mathrm{m}}{3\,600\,\mathrm{s}} = \frac{40\,000}{3\,600}\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{11\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+Vi bruker definisjonen $\bar{v} = \dfrac{\Delta s}{\Delta t}$: $$\bar{v} = \frac{60\ \mathrm{km}}{1.5\ \mathrm{h}} = \underline{\underline{40\ \mathrm{km}\,\mathrm{h}^{-1}}}$$ Vi bruker omregningsfaktoren $1\ \mathrm{km}\,\mathrm{h}^{-1} = \frac{1000\ \mathrm{m}}{3600\ \mathrm{s}}$: $$\bar{v} = 40\;\mathrm{km}\,\mathrm{h}^{-1} \cdot \frac{1000\ \mathrm{m}}{3600\ \mathrm{s}} = \frac{40000}{3600}\ \mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{11\ \mathrm{m}\,\mathrm{s}^{-1}}}$$
 
 :::
 
 ::: {.oppgave tittel="Gjennomsnittsfart i rettlinjet bevegelse"}
 [Gjennomsnittsfart i rettlinjet bevegelse]{.oppg-tittel}
 
-En bil kjører $120\,\mathrm{km}$ på $1.5\,\mathrm{h}$.
+En bil kjører $120\ \mathrm{km}$ på $1.5\ \mathrm{h}$.
 
 a)  Finn gjennomsnittsfarten i km/t.
 
 b)  Gjør om til m/s.
 
-c)  En annen bil kjører samme strekning på $90\,\mathrm{min}$. Hvem kjørte raskest?
+c)  En annen bil kjører samme strekning på $90\ \mathrm{min}$. Hvem kjørte raskest?
 
 ::: {.fasit}
-a) $80\,\mathrm{km}\,\mathrm{h}^{-1}$ · b) $22\,\mathrm{m}\,\mathrm{s}^{-1}$
+a) $80\ \mathrm{km}\,\mathrm{h}^{-1}$ · b) $22\ \mathrm{m}\,\mathrm{s}^{-1}$
 :::
 
 :::
 
 ## Hastighet og fart i krumlinjet bevegelse {#hastighet-og-fart-i-krumlinjet-bevegelse .unnumbered}
 
-Når et objekt beveger seg krumlinjet, så kommer blir det hele litt mer komplisert enn ved rettlinjet bevegelse. Nå må vi nemlig ta høyde for at forflytningen $\Delta \vec{s}$ endrer retning. Se for deg en kurve gjennom rommet — la oss si det er banen som Erling Braut Haaland følger i en spurt. For ethvert par med tidspunkt så kan vi tegne opp en forskjellsvektor $\Delta\vec{s}$ som viser avstanden mellom posisjonen til Haaland ved de to tidspunktene. Denne vektoren kan vi bruke til å beregne gjennomsnittshastigheten til Haaland mellom de to tidspunktene. Kanskje ser du nå også at dersom vi lar $\Delta t$ gå mot null, så vil $\Delta\vec{s}$ også gå mot null, og vi vil kunne finne den momentane hastigheten til Haaland på et gitt tidspunkt. Denne hastigheten vil for et hvert tidspunkt være tangent til kurva som Haaland løper. Det er som en buss som er ute og kjører. Bussen sin lengde peker alltid i fartsretningen, og hadde vi tegnet en linje gjennom bussen så ville den linja til enhvert tid vært tangent til bussens bane.
+Når et objekt beveger seg krumlinjet, så blir det hele litt mer komplisert enn ved rettlinjet bevegelse. Nå må vi nemlig ta høyde for at forflytningen $\Delta \vec{s}$ endrer retning. Se for deg en kurve gjennom rommet — la oss si det er banen som Erling Braut Haaland følger i en spurt. For ethvert par med tidspunkt så kan vi tegne opp en forskjellsvektor $\Delta\vec{s}$ som viser avstanden mellom posisjonen til Haaland ved de to tidspunktene. Denne vektoren kan vi bruke til å beregne gjennomsnittshastigheten til Haaland mellom de to tidspunktene. Kanskje ser du nå også at dersom vi lar $\Delta t$ gå mot null, så vil $\Delta\vec{s}$ også gå mot null, og vi vil kunne finne den momentane hastigheten til Haaland på et gitt tidspunkt. Denne hastigheten vil for et hvert tidspunkt være tangent til kurva som Haaland løper. Det er som en buss som er ute og kjører. Bussen sin lengde peker alltid i fartsretningen, og hadde vi tegnet en linje gjennom bussen så ville den linja til enhvert tid vært tangent til bussens bane.
 
 :::: figure
 ![](../../bilder/figurer/k3-03-7201c35c3a23.svg){.tikz-fig style="width:387px"}
@@ -155,18 +156,18 @@ To båter skal seile fra punkt $P$ til punkt $R$. Båt 1 seiler i en rett linje 
 ![](../../bilder/figurer/k3-05-1d3019fb0891.svg){.tikz-fig style="width:312px"}
 :::
 
-1.  Forflytningsvektorene (se figur): $$\vec{\Delta s}_{PQ}=[3.0,\;0]\,\mathrm{km},\quad
-                \vec{\Delta s}_{QR}=[0,\;4.0]\,\mathrm{km},\quad
-                \vec{\Delta s}_{PR}=[3.0,\;4.0]\,\mathrm{km}$$
+1.  Forflytningsvektorene (se figur): $$\vec{\Delta s}_{PQ}=[3.0,\;0]\ \mathrm{km},\quad
+                \vec{\Delta s}_{QR}=[0,\;4.0]\ \mathrm{km},\quad
+                \vec{\Delta s}_{PR}=[3.0,\;4.0]\ \mathrm{km}$$
 
-2.  Hastighetsvektorene finner vi ved å dele hver forflytning på tiden som ble brukt på den etappen: $$\vec{v}_{PQ}=\frac{\vec{\Delta s}_{PQ}}{1.0\,\mathrm{h}}=[3.0,\;0]\,\mathrm{km}\,\mathrm{h}^{-1},\quad
-                \vec{v}_{QR}=\frac{\vec{\Delta s}_{QR}}{1.0\,\mathrm{h}}=[0,\;4.0]\,\mathrm{km}\,\mathrm{h}^{-1}$$ $$\vec{v}_{PR}=\frac{\vec{\Delta s}_{PR}}{2.0\,\mathrm{h}}=[1.5,\;2.0]\,\mathrm{km}\,\mathrm{h}^{-1}$$
+2.  Hastighetsvektorene finner vi ved å dele hver forflytning på tiden som ble brukt på den etappen: $$\vec{v}_{PQ}=\frac{\vec{\Delta s}_{PQ}}{1.0\ \mathrm{h}}=[3.0,\;0]\ \mathrm{km}\,\mathrm{h}^{-1},\quad
+                \vec{v}_{QR}=\frac{\vec{\Delta s}_{QR}}{1.0\ \mathrm{h}}=[0,\;4.0]\ \mathrm{km}\,\mathrm{h}^{-1}$$ $$\vec{v}_{PR}=\frac{\vec{\Delta s}_{PR}}{2.0\ \mathrm{h}}=[1.5,\;2.0]\ \mathrm{km}\,\mathrm{h}^{-1}$$
 
-3.  Båt 1 seiler direkte fra $P$ til $R$, så gjennomsnittsfarten er nettopp lengden av $\vec{v}_{PR}$ fra b): $$\bar{v}_1=|\vec{v}_{PR}|=\sqrt{1.5^2+2^2}= \underline{\underline{2.5\,\mathrm{km}\,\mathrm{h}^{-1}}}$$
+3.  Båt 1 seiler direkte fra $P$ til $R$, så gjennomsnittsfarten er nettopp lengden av $\vec{v}_{PR}$ fra b): $$\bar{v}_1=|\vec{v}_{PR}|=\sqrt{1.5^2+2^2}= \underline{\underline{2.5\ \mathrm{km}\,\mathrm{h}^{-1}}}$$
 
-4.  Gjennomsnittsfart per etappe for båt 2 er lengden av de tilhørende hastighetsvektorene fra b): $$\bar{v}_{PQ}=|\vec{v}_{PQ}|=3.0\,\mathrm{km}\,\mathrm{h}^{-1},\quad\bar{v}_{QR}=|\vec{v}_{QR}|=4.0\,\mathrm{km}\,\mathrm{h}^{-1}$$ Den *totale* gjennomsnittsfarten regnes derimot fra totalforflytningen over hele tiden — altså igjen lengden av $\vec{v}_{PR}$: $$\bar{v}_2=|\vec{v}_{PR}|= \underline{\underline{2.5\,\mathrm{km}\,\mathrm{h}^{-1}}}$$ Selv om båt 2 hadde ulik fart på de to etappene, er den totale gjennomsnittsfarten altså identisk med båt 1. Gjennomsnittsfart (forstått som lengden på hastighetsvektoren) avhenger kun av total forflytning og total tid — ikke av hvordan hastighetsvektoren kan ha endret størrelse og retning underveis. Vi ser at det er ikke denne farten vi er interessert i. Det egentlig interessante fartsbegrepet i akkurat denne sammenheng, er banefarten, som vi ser på i neste deloppgave.
+4.  Gjennomsnittsfart per etappe for båt 2 er lengden av de tilhørende hastighetsvektorene fra b): $$\bar{v}_{PQ}=|\vec{v}_{PQ}|=3.0\ \mathrm{km}\,\mathrm{h}^{-1},\quad\bar{v}_{QR}=|\vec{v}_{QR}|=4.0\ \mathrm{km}\,\mathrm{h}^{-1}$$ Den *totale* gjennomsnittsfarten regnes derimot fra totalforflytningen over hele tiden — altså igjen lengden av $\vec{v}_{PR}$: $$\bar{v}_2=|\vec{v}_{PR}|= \underline{\underline{2.5\ \mathrm{km}\,\mathrm{h}^{-1}}}$$ Selv om båt 2 hadde ulik fart på de to etappene, er den totale gjennomsnittsfarten altså identisk med båt 1. Gjennomsnittsfart (forstått som lengden på hastighetsvektoren) avhenger kun av total forflytning og total tid — ikke av hvordan hastighetsvektoren kan ha endret størrelse og retning underveis. Vi ser at det er ikke denne farten vi er interessert i. Det egentlig interessante fartsbegrepet i akkurat denne sammenheng, er banefarten, som vi ser på i neste deloppgave.
 
-5.  Den gjennomsnittlige banefarten ser i stedet på hvor langt båt 2 faktisk har seilt, uavhengig av retning: $$v_{\text{bane},2}=\frac{3.0\,\mathrm{km}+4.0\,\mathrm{km}}{2.0\,\mathrm{h}}= \underline{\underline{3.5\,\mathrm{km}\,\mathrm{h}^{-1}}},$$ altså høyere enn gjennomsnittsfarten på $2.5\,\mathrm{km}\,\mathrm{h}^{-1}$ — nettopp fordi båt 2 seilte en lengre vei enn den rette linja fra $P$ til $R$.
+5.  Den gjennomsnittlige banefarten ser i stedet på hvor langt båt 2 faktisk har seilt, uavhengig av retning: $$v_{\text{bane},2}=\frac{3.0\ \mathrm{km}+4.0\ \mathrm{km}}{2.0\ \mathrm{h}}= \underline{\underline{3.5\ \mathrm{km}\,\mathrm{h}^{-1}}},$$ altså høyere enn gjennomsnittsfarten på $2.5\ \mathrm{km}\,\mathrm{h}^{-1}$ — nettopp fordi båt 2 seilte en lengre vei enn den rette linja fra $P$ til $R$.
 
 :::
 
@@ -187,9 +188,9 @@ Se for deg at Karsten Warholm løper med konstant fart gjennom en sving. Etter 7
 ![](../../bilder/figurer/k3-06-5da3e6d72140.svg){.tikz-fig style="width:236px"}
 :::
 
-1.  Vi legger origo i sentrum av svingen, med $P$ på $x$-aksen og $Q$ på $y$-aksen, slik at $P=(36,\,0)\,\mathrm{m}$ og $Q=(0,\,36)\,\mathrm{m}$. Forflytningsvektoren fra $P$ til $Q$ blir da: $$\vec{\Delta s}_{PQ}=Q-P=\underline{\underline{[-36,\;36]\,\mathrm{m}}}$$ med størrelse $$|\vec{\Delta s}_{PQ}|=\sqrt{36^2+36^2}=36\sqrt{2}\approx \underline{50.9\,\mathrm{m}}.$$ Gjennomsnittshastigheten er forflytningen delt på tiden: $$\vec{\bar{v}}=\frac{\vec{\Delta s}_{PQ}}{7.0\,\mathrm{s}}\approx [-5.14,\;5.14]\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{[-5.1,\;5.1]\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ og gjennomsnittsfarten er størrelsen på denne vektoren: $$\bar{v}=|\vec{\bar{v}}|=\frac{|\vec{\Delta s}_{PQ}|}{7.0\,\mathrm{s}}\approx \underline{\underline{7.3\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ Dette virker påfallende lavt til å beskrive en toppidrettsutøver som spurter gjennom en sving — vi undersøker hvorfor i b).
+1.  Vi legger origo i sentrum av svingen, med $P$ på $x$-aksen og $Q$ på $y$-aksen, slik at $P=(36,\,0)\ \mathrm{m}$ og $Q=(0,\,36)\ \mathrm{m}$. Forflytningsvektoren fra $P$ til $Q$ blir da: $$\vec{\Delta s}_{PQ}=Q-P=\underline{\underline{[-36,\;36]\ \mathrm{m}}}$$ med størrelse $$|\vec{\Delta s}_{PQ}|=\sqrt{36^2+36^2}=36\sqrt{2}\approx \underline{50.9\ \mathrm{m}}.$$ Gjennomsnittshastigheten er forflytningen delt på tiden: $$\vec{\bar{v}}=\frac{\vec{\Delta s}_{PQ}}{7.0\ \mathrm{s}}\approx [-5.14,\;5.14]\ \mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{[-5.1,\;5.1]\ \mathrm{m}\,\mathrm{s}^{-1}}}$$ og gjennomsnittsfarten er størrelsen på denne vektoren: $$\bar{v}=|\vec{\bar{v}}|=\frac{|\vec{\Delta s}_{PQ}|}{7.0\ \mathrm{s}}\approx \underline{\underline{7.3\ \mathrm{m}\,\mathrm{s}^{-1}}}$$ Dette virker påfallende lavt til å beskrive en toppidrettsutøver som spurter gjennom en sving — vi undersøker hvorfor i b).
 
-2.  Farten $|\vec{v}|$ til Karsten er konstant hele veien, men siden banen er krum, er strekningen han faktisk løper lengre enn forflytningen $|\vec{\Delta s}_{PQ}|$ fra a). Buelengden langs en kvart sirkel er: $$\Delta s=\tfrac{1}{4}\cdot 2\pi r=\tfrac{\pi\cdot 36}{2}=18\pi\approx \underline{56.5\,\mathrm{m}}$$ Banefarten bruker denne strekningen — altså hvor langt Karsten faktisk har løpt — i stedet for forflytningen: $$v_{\text{bane}}=\frac{18\pi\,\mathrm{m}}{7.0\,\mathrm{s}}\approx \underline{\underline{8.1\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ Banefarten på $8.1\,\mathrm{m}\,\mathrm{s}^{-1}$ er altså høyere enn gjennomsnittsfarten på $7.3\,\mathrm{m}\,\mathrm{s}^{-1}$ fra a) — nettopp fordi gjennomsnittsfarten kun ser på nettoforflytningen $PQ$, og ikke fanger opp at Karsten faktisk løper en lengre, krum bane. Gjennomsnittsfarten, forstått som lengden av hastighetsvektoren,er derfor et dårlig mål på farten hans når tidsintervallet vi tar gjennomsnittet over, blir for stort.
+2.  Farten $|\vec{v}|$ til Karsten er konstant hele veien, men siden banen er krum, er strekningen han faktisk løper lengre enn forflytningen $|\vec{\Delta s}_{PQ}|$ fra a). Buelengden langs en kvart sirkel er: $$\Delta s=\tfrac{1}{4}\cdot 2\pi r=\tfrac{\pi\cdot 36}{2}=18\pi\approx \underline{56.5\ \mathrm{m}}$$ Banefarten bruker denne strekningen — altså hvor langt Karsten faktisk har løpt — i stedet for forflytningen: $$v_{\text{bane}}=\frac{18\pi\,\mathrm{m}}{7.0\ \mathrm{s}}\approx \underline{\underline{8.1\ \mathrm{m}\,\mathrm{s}^{-1}}}$$ Banefarten på $8.1\ \mathrm{m}\,\mathrm{s}^{-1}$ er altså høyere enn gjennomsnittsfarten på $7.3\ \mathrm{m}\,\mathrm{s}^{-1}$ fra a) — nettopp fordi gjennomsnittsfarten kun ser på nettoforflytningen $PQ$, og ikke fanger opp at Karsten faktisk løper en lengre, krum bane. Gjennomsnittsfarten, forstått som lengden av hastighetsvektoren, er derfor et dårlig mål på farten hans når tidsintervallet vi tar gjennomsnittet over, blir for stort.
 
 :::
 
@@ -204,17 +205,17 @@ La oss tilslutt ta med et eksempel der vi vet retningen til en hastighetsvektor 
 ::: {.eksempel}
 [Eksempel: Dekomponering av hastighet]{.eks-tittel}
 
-En fugl flyr med fart $v = 15\,\mathrm{m}\,\mathrm{s}^{-1}$ i en retning som utgjør $\theta = 37°$ over horisontalplanet ($\cos 37° \approx 0.80$, $\sin 37° \approx 0.60$).\
+En fugl flyr med fart $v = 15\ \mathrm{m}\,\mathrm{s}^{-1}$ i en retning som utgjør $\theta = 37°$ over horisontalplanet ($\cos 37° \approx 0.80$, $\sin 37° \approx 0.60$).\
 **a)** Finn den horisontale komponenten $v_x$ og den vertikale komponenten $v_y$ av hastigheten.\
-**b)** Verifiser at $|\vec{v}| = \sqrt{v_x^2 + v_y^2} = 15\,\mathrm{m}\,\mathrm{s}^{-1}$.
+**b)** Verifiser at $|\vec{v}| = \sqrt{v_x^2 + v_y^2} = 15\ \mathrm{m}\,\mathrm{s}^{-1}$.
 
 :::
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-1.  Vi dekomponerer langs de to aksene (se figur): $$v_x = v\cos\theta = 15\cdot 0.80 = \underline{\underline{12\,\mathrm{m}\,\mathrm{s}^{-1}}}$$ $$v_y = v\sin\theta = 15\cdot 0.60 = \underline{\underline{9.0\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+1.  Vi dekomponerer langs de to aksene (se figur): $$v_x = v\cos\theta = 15\cdot 0.80 = \underline{\underline{12\ \mathrm{m}\,\mathrm{s}^{-1}}}$$ $$v_y = v\sin\theta = 15\cdot 0.60 = \underline{\underline{9.0\ \mathrm{m}\,\mathrm{s}^{-1}}}$$
 
-2.  Pythagoras bekrefter: $$\sqrt{v_x^2+v_y^2}=\sqrt{12^2+9^2}=\sqrt{144+81}=\sqrt{225}= \underline{\underline{15\,\mathrm{m}\,\mathrm{s}^{-1}}}\;\checkmark$$
+2.  Pythagoras bekrefter: $$\sqrt{v_x^2+v_y^2}=\sqrt{12^2+9^2}=\sqrt{144+81}=\sqrt{225}= \underline{\underline{15\ \mathrm{m}\,\mathrm{s}^{-1}}}\;\checkmark$$
 
 Merk at dette er det samme $9$-$12$-$15$-trekantforholdet (skalert $3$-$4$-$5$) som dukket opp i et tidligere eksempel, men nå brukt til å gå fra totalfart til komponenter.
 
@@ -258,8 +259,8 @@ Den store forskjellen mellom momentanfart og gjennomsnittsfart er at momentanfar
 
 Posisjonen til en firhjuling på et jorde er gitt ved $\vec{s}(t) = (2t^2, 3t)$ i meter og sekunder.\
 **a)** Vis at uttrykket for momentanhastigheten $\vec{v}(t)$ til firhjulingen er gitt ved $\vec{v}(t) = (4t, 3)$.\
-**b)** Hva er momentanhastigheten ved $t = 2\,\mathrm{s}$?\
-**c)** Ved hvilken tid er momentanhastigheten $\vec{v} = (16, 12)\,\mathrm{m}\,\mathrm{s}^{-1}$?
+**b)** Hva er momentanhastigheten ved $t = 2\ \mathrm{s}$?\
+**c)** Ved hvilken tid er momentanhastigheten $\vec{v} = (16, 12)\ \mathrm{m}\,\mathrm{s}^{-1}$?
 
 :::
 
@@ -268,9 +269,9 @@ Posisjonen til en firhjuling på et jorde er gitt ved $\vec{s}(t) = (2t^2, 3t)$ 
 a)  Vi deriverer hver komponent for seg med potensregelen $\frac{\mathrm{d}}{\mathrm{d}t}(t^n) = nt^{n-1}$: $$\vec{v}(t) = \left(\frac{\mathrm{d}}{\mathrm{d}t}(2t^2),\ \frac{\mathrm{d}}{\mathrm{d}t}(3t)\right) = (4t,\ 3)
           \quad\checkmark$$
 
-b)  Vi setter inn $t = 2\,\mathrm{s}$: $$\vec{v}(2) = (4\cdot 2,\ 3) = \underline{\underline{(8,\ 3)\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+b)  Vi setter inn $t = 2\ \mathrm{s}$: $$\vec{v}(2) = (4\cdot 2,\ 3) = \underline{\underline{(8,\ 3)\ \mathrm{m}\,\mathrm{s}^{-1}}}$$
 
-c)  $x$-komponenten gir $4t = 16$, altså $t = 4\,\mathrm{s}$. Men $y$-komponenten er alltid $3\,\mathrm{m}\,\mathrm{s}^{-1}$, og blir aldri $12\,\mathrm{m}\,\mathrm{s}^{-1}$. Firhjulingen har derfor **aldri** hastigheten $(16, 12)\,\mathrm{m}\,\mathrm{s}^{-1}$.
+c)  $x$-komponenten gir $4t = 16$, altså $t = 4\ \mathrm{s}$. Men $y$-komponenten er alltid $3\ \mathrm{m}\,\mathrm{s}^{-1}$, og blir aldri $12\ \mathrm{m}\,\mathrm{s}^{-1}$. Firhjulingen har derfor **aldri** hastigheten $(16, 12)\ \mathrm{m}\,\mathrm{s}^{-1}$.
 
 :::
 
@@ -281,46 +282,46 @@ Et legeme beveger seg etter posisjonslikningen $s(t) = 3t^2 + 2t$ (i meter og se
 
 a)  For den som kan derivere: Vis at momentanfarten er gitt ved $v(t) = 6t + 2$.
 
-b)  Hva er momentanhastigheten ved $t = 2\,\mathrm{s}$?
+b)  Hva er momentanhastigheten ved $t = 2\ \mathrm{s}$?
 
-c)  Ved hvilken tid er momentanfarten $v = 20\,\mathrm{m}\,\mathrm{s}^{-1}$?
+c)  Ved hvilken tid er momentanfarten $v = 20\ \mathrm{m}\,\mathrm{s}^{-1}$?
 
 ::: {.fasit}
-a) $6t+2$ · b) $14\,\mathrm{m}\,\mathrm{s}^{-1}$ · c) $3\,\mathrm{s}$
+a) $6t+2$ · b) $14\ \mathrm{m}\,\mathrm{s}^{-1}$ · c) $3\ \mathrm{s}$
 :::
 
 :::
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-a)  Vi deriverer $s(t) = 3t^2 + 2t$ ledd for ledd med potensregelen $\frac{\mathrm{d}}{\mathrm{d}t}(t^n) = nt^{n-1}$: $$v(t) = \frac{\mathrm{d}s}{\mathrm{d}t} = 3 \cdot 2t^{2-1} + 2 \cdot 1 = 6t + 2\,\mathrm{m}\,\mathrm{s}^{-1}
+a)  Vi deriverer $s(t) = 3t^2 + 2t$ ledd for ledd med potensregelen $\frac{\mathrm{d}}{\mathrm{d}t}(t^n) = nt^{n-1}$: $$v(t) = \frac{\mathrm{d}s}{\mathrm{d}t} = 3 \cdot 2t^{2-1} + 2 \cdot 1 = 6t + 2\ \mathrm{m}\,\mathrm{s}^{-1}
           \quad\checkmark$$
 
-b)  Vi setter inn $t = 2\,\mathrm{s}$: $$v(2) = 6 \cdot 2 + 2 = 12 + 2 = \underline{\underline{14\,\mathrm{m}\,\mathrm{s}^{-1}}}$$
+b)  Vi setter inn $t = 2\ \mathrm{s}$: $$v(2) = 6 \cdot 2 + 2 = 12 + 2 = \underline{\underline{14\ \mathrm{m}\,\mathrm{s}^{-1}}}$$
 
-c)  Vi løser likningen $v(t) = 20\,\mathrm{m}\,\mathrm{s}^{-1}$: $$6t + 2 = 20
+c)  Vi løser likningen $v(t) = 20\ \mathrm{m}\,\mathrm{s}^{-1}$: $$6t + 2 = 20
           \implies 6t = 18
-          \implies t = \underline{\underline{3\,\mathrm{s}}}$$
+          \implies t = \underline{\underline{3\ \mathrm{s}}}$$
 
 :::
 
 ### Konstant fart
 
-Vi kan tilslutt merke oss at desom farten ikke endrer seg, men er konstant, da er *momentanfarten* til enhver tid den samme som *gjennomsnittlig banefart*.
+Vi kan tilslutt merke oss at dersom farten ikke endrer seg, men er konstant, da er *momentanfarten* til enhver tid den samme som *gjennomsnittlig banefart*.
 
 ::: {.oppgave tittel="Konstant hastighet"}
 [Konstant hastighet]{.oppg-tittel}
 
-En syklist kjører med konstant fart $v = 8.0\,\mathrm{m}\,\mathrm{s}^{-1}$ i rettlinjet bevegelse.
+En syklist kjører med konstant fart $v = 8.0\ \mathrm{m}\,\mathrm{s}^{-1}$ i rettlinjet bevegelse.
 
-a)  Hvor langt har syklisten kjørt etter $t = 10\,\mathrm{s}$?
+a)  Hvor langt har syklisten kjørt etter $t = 10\ \mathrm{s}$?
 
-b)  Hvor langt har syklisten kjørt etter $t = 2\,\mathrm{min}$?
+b)  Hvor langt har syklisten kjørt etter $t = 2\ \mathrm{min}$?
 
-c)  Hvor lang tid tar det å tilbakelegge $s = 2.0\,\mathrm{km}$?
+c)  Hvor lang tid tar det å tilbakelegge $s = 2.0\ \mathrm{km}$?
 
 ::: {.fasit}
-a) $80\,\mathrm{m}$ · b) $9.6\cdot 10^{2}\,\mathrm{m}$ · c) $2.5\cdot 10^{2}\,\mathrm{s}$
+a) $80\ \mathrm{m}$ · b) $9.6\cdot 10^{2}\ \mathrm{m}$ · c) $2.5\cdot 10^{2}\ \mathrm{s}$
 :::
 
 :::
@@ -328,14 +329,14 @@ a) $80\,\mathrm{m}$ · b) $9.6\cdot 10^{2}\,\mathrm{m}$ · c) $2.5\cdot 10^{2}\,
 ::: {.oppgave tittel="En oppgave til"}
 [En oppgave til]{.oppg-tittel}
 
-En båt beveger seg med fart $v=5.0$ knopp i Nord-Østlig retning. Én knop er definert som $1.852$ km/h.
+En båt beveger seg med fart $v=5.0$ knop i Nord-Østlig retning. Én knop er definert som $1.852$ km/h.
 
 a)  Finn farta i nordlig retning ($v_\text{N}$) og farta i østlig retning ($v_\text{Ø}$).
 
 b)  Oppgi farten $v$ i km/h.
 
 ::: {.fasit}
-a) $6.5\,\mathrm{km}\,\mathrm{h}^{-1}$ · b) $9.3\,\mathrm{km}\,\mathrm{h}^{-1}$
+a) $6.5\ \mathrm{km}\,\mathrm{h}^{-1}$ · b) $9.3\ \mathrm{km}\,\mathrm{h}^{-1}$
 :::
 
 :::

@@ -14,12 +14,12 @@ Noe av det vi kommer til å gjøre mest i fysikken er å sette opp likninger og 
 ::: {.eksempel}
 [Eksempel: Finne gjennomsnittsfart $\bar{v}$]{.eks-tittel}
 
-Jakob Ingebrigtsen er ute og løper. Han løper $s_1 = 5.0\,\mathrm{km}$ på $t_1 = 20\,\mathrm{min}$. Deretter skrur han opp tempo litt og løper en strekning $s_2 = 4.0\,\mathrm{km}$ på $t_2 = 18\,\mathrm{min}$. Hva er gjennomsnittsfarten $\bar{v}$?
+Jakob Ingebrigtsen er ute og løper. Han løper $s_1 = 5.0\ \mathrm{km}$ på $t_1 = 20\ \mathrm{min}$. Deretter skrur han opp tempo litt og løper en strekning $s_2 = 4.0\ \mathrm{km}$ på $t_2 = 18\ \mathrm{min}$. Hva er gjennomsnittsfarten $\bar{v}$?
 
 ::: {.losning}
 **Løsning:** Gjennomsnittsfart $\bar{v}$ er også et begrep vi ikke har lært ennå, men det er rett fram, og de fleste kjenner det intuitivt igjen fra erfaring: $$\bar{v} = \frac{\text{total strekning}}{\text{total tid}}.$$ Vi må derfor finne total strekning og total tid før vi kan regne ut gjennomsnittsfarten.
 
-Først finner vi total strekning og total tid: $$s_{\text{total}} = s_1 + s_2 = 5.0\,\mathrm{km} + 4.0\,\mathrm{km} = 9.0\,\mathrm{km},$$ $$t_{\text{total}} = t_1 + t_2 = 20\,\mathrm{min} + 18\,\mathrm{min} = 38\,\mathrm{min}.$$ Gjennomsnittsfarten er da: $$\bar{v} = \frac{s_{\text{total}}}{t_{\text{total}}} = \frac{9.0\,\mathrm{km}}{38\,\mathrm{min}} = 0.237\,\mathrm{km}\,\mathrm{min}^{-1} \approx \underline{\underline{0.24\,\mathrm{km}\,\mathrm{min}^{-1}}}.$$ I $\mathrm{m}\,\mathrm{s}^{-1}$ blir dette $$\bar{v} = 0.237\cdot\frac{1000\,\mathrm{m}}{60\,\mathrm{s}} = 3.95\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{3.9\,\mathrm{m}\,\mathrm{s}^{-1}}}.$$ Greier du å gjøre dette om til km/t?
+Først finner vi total strekning og total tid: $$s_{\text{total}} = s_1 + s_2 = 5.0\ \mathrm{km} + 4.0\ \mathrm{km} = 9.0\ \mathrm{km},$$ $$t_{\text{total}} = t_1 + t_2 = 20\ \mathrm{min} + 18\ \mathrm{min} = 38\ \mathrm{min}.$$ Gjennomsnittsfarten er da: $$\bar{v} = \frac{s_{\text{total}}}{t_{\text{total}}} = \frac{9.0\ \mathrm{km}}{38\ \mathrm{min}} = 0.237\ \mathrm{km}\,\mathrm{min}^{-1} \approx \underline{\underline{0.24\ \mathrm{km}\,\mathrm{min}^{-1}}}.$$ I $\mathrm{m}\,\mathrm{s}^{-1}$ blir dette $$\bar{v} = 0.237\cdot\frac{1000\ \mathrm{m}}{60\ \mathrm{s}} = 3.95\ \mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{3.9\ \mathrm{m}\,\mathrm{s}^{-1}}}.$$ Greier du å gjøre dette om til km/t?
 :::
 :::
 
@@ -29,19 +29,19 @@ Et annet eksempel kan være Newtons 2. lov, som gir sammenhengen mellom det vi k
 [Eksempel: Løse for akselerasjon $a$]{.eks-tittel}
 
 <!-- tillegg: Claude: notasjon, tusenskille fjernet (1 200 kg → 1.2·10³ kg, 4 800 N → 4.8 kN, 1 000 m → 1000 m) -->
-Newtons 2. lov sier $F = m \cdot a$. En bil med masse $m = 1.2\cdot10^3\,\mathrm{kg}$ utsettes for en kraft $F = 4.8\,\mathrm{kN}$. Finn akselerasjonen $a$.
+Newtons 2. lov sier $F = m \cdot a$. En bil med masse $m = 1.2\cdot10^3\ \mathrm{kg}$ utsettes for en kraft $F = 4.8\ \mathrm{kN}$. Finn akselerasjonen $a$.
 
 ::: {.losning}
-**Løsning:** Del begge sider på $m$: $$a = \frac{F}{m} = \frac{4.8\cdot10^3\,\mathrm{N}}{1.2\cdot10^3\,\mathrm{kg}} = \underline{\underline{4.0\,\mathrm{m}\,\mathrm{s}^{-2}}}.$$
+**Løsning:** Del begge sider på $m$: $$a = \frac{F}{m} = \frac{4.8\cdot10^3\ \mathrm{N}}{1.2\cdot10^3\ \mathrm{kg}} = \underline{\underline{4.0\ \mathrm{m}\,\mathrm{s}^{-2}}}.$$
 :::
 :::
 
-**Python som kalkulator:** Python er ikke nødvendig på forkursnivå, men du kommer nok til å trenge det senere, så det er greit å bli vant med det først som sist. La oss starte med å se et eksempe hvor vi enkelt og greit bruker Python til å utføre noe vi kunne gjort på en gammeldags kalkulator.
+**Python som kalkulator:** Python er ikke nødvendig på forkursnivå, men du kommer nok til å trenge det senere, så det er greit å bli vant med det først som sist. La oss starte med å se et eksempel hvor vi enkelt og greit bruker Python til å utføre noe vi kunne gjort på en gammeldags kalkulator.
 
 ::: {.eksempel}
 [Eksempel: Kinetisk energi]{.eks-tittel}
 
-Beregn den kinetiske energien $E_\text{K}=\frac{1}{2}mv^2$ til en gjenstand med masse $m = 2.0\,\mathrm{kg}$ som beveger seg med fart $v = 5.0\,\mathrm{m}\,\mathrm{s}^{-1}$.
+Beregn den kinetiske energien $E_\text{K}=\frac{1}{2}mv^2$ til en gjenstand med masse $m = 2.0\ \mathrm{kg}$ som beveger seg med fart $v = 5.0\ \mathrm{m}\,\mathrm{s}^{-1}$.
 
 ::: {.losning}
 **Løsning:** Vi bruker Python som kalkulator og definerer variablene $m$ og $v$, som vist i koden under.
@@ -62,7 +62,7 @@ print(f"Kinetisk energi: {E_k} J")
 Kinetisk energi: 25.0 J
 ```
 
-Den kinetiske energien er altså $E_\text{K} = \underline{\underline{25\,\mathrm{J}}}$.
+Den kinetiske energien er altså $E_\text{K} = \underline{\underline{25\ \mathrm{J}}}$.
 
 *Kodefil: [K2_algebra_beregning.ipynb](https://github.com/kosmoben/TRES0312/blob/main/TRES0312%20Python/Kap2_MatematiskeVerktoyViTrenger/K2_algebra_beregning.ipynb)*
 
@@ -75,23 +75,23 @@ Kodeeksemplene kan du kjøre direkte på siden med **Kjør**-knappen. De finnes 
 
 a)  Beregn $\dfrac{15 + 3^2}{6 - 2}$ for hånd, og sjekk svaret med Python, eller kalkulator.
 
-b)  Bruk Python (eller en kalkulator) til å beregne potensiell energi $E_p = m \cdot \mathrm{g} \cdot h$ for $m = 5.0\,\mathrm{kg}$, $\mathrm{g} = 9.81\,\mathrm{m}\,\mathrm{s}^{-2}$ og $h = 10.0\,\mathrm{m}$.
+b)  Bruk Python (eller en kalkulator) til å beregne potensiell energi $E_p = m \cdot \mathrm{g} \cdot h$ for $m = 5.0\ \mathrm{kg}$, $\mathrm{g} = 9.81\ \mathrm{m}\,\mathrm{s}^{-2}$ og $h = 10.0\ \mathrm{m}$.
 
 ::: {.fasit}
-a) $6$ · b) $4.9\cdot 10^{2}\,\mathrm{J}$
+a) $6$ · b) $4.9\cdot 10^{2}\ \mathrm{J}$
 :::
 
 :::
 
 ::: {.callout-tip title="Merk"}
-Om du ikke kjenner til formlene vi her har brukt, som $F=ma$, $E_\text{K} = \frac{1}{2}mv^2$ og $E_p = m\mathrm{g}h$, så er det ikke noe problem. Vi kommer tilbake til dem senere. Det viktigste akkurat nå er at du har kontroll på algebaraen.
+Om du ikke kjenner til formlene vi her har brukt, som $F=ma$, $E_\text{K} = \frac{1}{2}mv^2$ og $E_p = m\mathrm{g}h$, så er det ikke noe problem. Vi kommer tilbake til dem senere. Det viktigste akkurat nå er at du har kontroll på algebraen.
 :::
 
-Det aller viktiste så langt er at du forstår at fysikkens språk er matematikk, og at vi derfor skriver ned likninger som beskriver sammenhenger mellom størrelser. Vi kan da løse for en ukjent ved å bruke algebra-regler.
+Det aller viktigste så langt er at du forstår at fysikkens språk er matematikk, og at vi derfor skriver ned likninger som beskriver sammenhenger mellom størrelser. Vi kan da løse for en ukjent ved å bruke algebra-regler.
 
 ::: {.callout-note title="Algebraregler"}
 
--   Det du gjør på ett ledd i en likningmå du gjøre på alle ledd.
+-   Det du gjør på ett ledd i en likning, må du gjøre på alle ledd.
 
 -   Husk at du alltid kan multiplisere med 1.
 :::
@@ -118,10 +118,11 @@ Disse bør også sitte i fingrene.
 
 I fysikken må vi ofte sette opp flere likninger for å beskrive en situasjon riktig. For å finne det vi er ute etter, må vi da gjerne løse et *likningssystem* — altså flere likninger med flere ukjente. Vi kommer tilbake til dette i senere kapitler, men her er et eksempel på hvordan man kan løse et slikt system.
 
+<!-- tillegg: Claude: notasjon, standardform for 3000 N og 1200 kg, mellomrom mellom tall og enhet -->
 ::: {.eksempel}
 [Eksempel: Redningsbil drar en bil]{.eks-tittel}
 
-En redningsbil drar en bil som i utgangspunktet står i ro, med en konstant kraft $F = 3000\,\mathrm{N}$ i horisontal retning. Massen til bilen er $m = 1200\,\mathrm{kg}$. Hva er farten $v$ til bilen etter $t = 5.0\,\mathrm{s}$?
+En redningsbil drar en bil som i utgangspunktet står i ro, med en konstant kraft $F = 3.0\ \mathrm{kN}$ i horisontal retning. Massen til bilen er $m = 1.2\cdot10^3\ \mathrm{kg}$. Hva er farten $v$ til bilen etter $t = 5.0\ \mathrm{s}$?
 
 :::
 
@@ -130,7 +131,7 @@ En redningsbil drar en bil som i utgangspunktet står i ro, med en konstant kraf
 Vi kjenner to sammenhenger som begge må være oppfylt samtidig — et likningssystem med to likninger og to ukjente ($a$ og $v$): $$\begin{cases}
 F = ma \\
 v = v_0 + at
-\end{cases}$$ Vi løser systemet med innsettingsmetoden. Fra den første likningen finner vi et *uttrykk* for akselerasjonen — vi setter ikke inn tall ennå: $$a = \frac{F}{m}.$$ Vi setter dette uttrykket for $a$ inn i den andre likningen, og løser for $v$. Vi finner $$v = v_0 + at = v_0+\frac{F}{m}t.$$ Først nå, når vi har uttrykket klart, setter vi inn tallverdiene: Siden bilen starter i ro er $v_0 = 0$. Videre er både massen $m$ og kraften $F$ oppgitt. Vi finner $$v = \frac{3000\,\mathrm{N}}{1200\,\mathrm{kg}} \cdot 5.0\,\mathrm{s} = 12.5\,\mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{13\,\mathrm{m}\,\mathrm{s}^{-1}}}.$$
+\end{cases}$$ Vi løser systemet med innsettingsmetoden. Fra den første likningen finner vi et *uttrykk* for akselerasjonen — vi setter ikke inn tall ennå: $$a = \frac{F}{m}.$$ Vi setter dette uttrykket for $a$ inn i den andre likningen, og løser for $v$. Vi finner $$v = v_0 + at = v_0+\frac{F}{m}t.$$ Først nå, når vi har uttrykket klart, setter vi inn tallverdiene: Siden bilen starter i ro er $v_0 = 0$. Videre er både massen $m$ og kraften $F$ oppgitt. Vi finner $$v = \frac{3.0\cdot10^3\ \mathrm{N}}{1.2\cdot10^3\ \mathrm{kg}} \cdot 5.0\ \mathrm{s} = 12.5\ \mathrm{m}\,\mathrm{s}^{-1} \approx \underline{\underline{13\ \mathrm{m}\,\mathrm{s}^{-1}}}.$$
 
 :::
 

@@ -9,7 +9,7 @@ aliases: ["/forkurs/01-hva-er-fysikk/05-tall-pa-standardform.html", "06-tall-pa-
 
 {{< video https://www.youtube.com/watch?v=UP4GI5vN_-A >}}
 
-Standardform er en måte å skrive tall på som tydeliggjør både antall siffer og størrelsesorden. Et tall $T$ skrevet på standardform har følgende form: $$\textrm{T}=t \cdot 10^n,$$ hvor $t$ er et flyt-tall mellom 1 og 10. Eksemplet under tydeliggjør forhåpentligvis konseptet.
+Standardform er en måte å skrive tall på som tydeliggjør både antall siffer og størrelsesorden. Et tall $T$ skrevet på standardform har følgende form: $$T=t \cdot 10^n,$$ hvor $t$ er et flyt-tall mellom 1 og 10. Eksemplet under tydeliggjør forhåpentligvis konseptet.
 
 ::: {.eksempel}
 [Eksempel: Standardform]{.eks-tittel}
@@ -78,32 +78,33 @@ a) $4.5\cdot10^{-5}$ · b) $3.75\cdot10^{6}$ · c) $1.00\cdot10^{-1}$ · d) $2.9
 
 : SI-prefikser for potenser av ti.
 
+<!-- tillegg: Claude: notasjon, mellomrom mellom tall og enhet, µm oppreist -->
 ::: {.eksempel}
 [Eksempel: Dekadiske prefikser]{.eks-tittel}
 
-En viruspartikkel har diameter $d = 90\,\mathrm{nm}$.
+En viruspartikkel har diameter $d = 90\ \mathrm{nm}$.
 
-a)  Skriv diameteren i mikrometer ($\mu\mathrm{m}$).
+a)  Skriv diameteren i mikrometer ($\mathrm{\mu m}$).
 
 b)  Skriv diameteren på standardform i meter.
 
 ::: {.losning}
 **Løsning:**
 
-**a)** Siden $1\,\mathrm{\mu m} = 10^{3}\,\mathrm{nm}$, får vi $$90\,\mathrm{nm} = \frac{90}{1000}\,\mathrm{\mu m} = \underline{\underline{0.090\,\mathrm{\mu m}}}.$$
+**a)** Siden $1\ \mathrm{\mu m} = 10^{3}\ \mathrm{nm}$, får vi $$90\ \mathrm{nm} = \frac{90}{1000}\ \mathrm{\mu m} = \underline{\underline{0.090\ \mathrm{\mu m}}}.$$
 
-**b)** Vi vet at $1\,\mathrm{nm} = 10^{-9}\,\mathrm{m}$, så $$90\,\mathrm{nm} = 90 \cdot 10^{-9}\,\mathrm{m} = \underline{\underline{9.0 \cdot 10^{-8}\,\mathrm{m}}}.$$
+**b)** Vi vet at $1\ \mathrm{nm} = 10^{-9}\ \mathrm{m}$, så $$90\ \mathrm{nm} = 90 \cdot 10^{-9}\ \mathrm{m} = \underline{\underline{9.0 \cdot 10^{-8}\ \mathrm{m}}}.$$
 :::
 :::
 
 ::: {.oppgave tittel="Dekadiske prefikser"}
 [Dekadiske prefikser]{.oppg-tittel}
 
-a)  Et batteri har kapasitet $4\,200\,\mathrm{mA}\,\mathrm{h}$ (milliamperetimer). Skriv dette som et tall i Ah og på standardform.
+a)  Et batteri har kapasitet $4\,200\ \mathrm{mA}\,\mathrm{h}$ (milliamperetimer). Skriv dette som et tall i Ah og på standardform.
 
-b)  En avstand måles til $0.043\,\mathrm{mm}$. Skriv dette i $\mu\textrm{m}$ (mikrometer) og i nm (nanometer).
+b)  En avstand måles til $0.043\ \mathrm{mm}$. Skriv dette i $\mathrm{\mu m}$ (mikrometer) og i nm (nanometer).
 
-c)  Lyset bruker ca. $499\,\mathrm{s}$ fra solen til jorda. Lyset har fart $\mathrm{c} = 3.00 \cdot 10^8\,\mathrm{m}\,\mathrm{s}^{-1}$. Finn avstanden fra solen til jorda i km og skriv svaret på standardform.
+c)  Lyset bruker ca. $499\ \mathrm{s}$ fra solen til jorda. Lyset har fart $\mathrm{c} = 3.00 \cdot 10^8\ \mathrm{m}\,\mathrm{s}^{-1}$. Finn avstanden fra solen til jorda i km og skriv svaret på standardform.
 
 <!-- tillegg: Claude: løsning lagt til -->
 ::: {.fasit}

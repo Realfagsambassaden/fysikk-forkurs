@@ -45,27 +45,28 @@ Sentripetalakselerasjonen er akselerasjonen inn mot sentrum i ren sirkelbevegels
 
 {{< video https://www.youtube.com/watch?v=fVp15sFO1sE >}}
 
-Sentripetalakselerasjonen peker alltid mot sentrum av sirkelen, selv om objektet hele tiden beveger seg langs kanten av sirkelen. Dette er en viktig idé å forstå når vi ser på bevegelse i sirkulære baner. Men... hva om bilen også øker farten sin langs sirkelbanen, og ikke bare endrer retning? I det tilfelel vil bilen både ha en akselerasjon inn mot sentrum (sentripetalakselerasjonen) og en akselerasjon i kjøreretningen (tangentialakselerasjonen). Den totale akselerasjonsvektoren kan da skrives som en sum av disse to komponentene: $$\vec{a} = \vec{a}_\perp + \vec{a}_\parallel,$$ hvor $\vec{a}_\perp$ er sentripetalakselerasjonen og $\vec{a}_\parallel$ er tangentialakselerasjonen. I dette faget skal vi ikke se på slike tilfeller, men det er greit å ha sett sammenhengen.
+Sentripetalakselerasjonen peker alltid mot sentrum av sirkelen, selv om objektet hele tiden beveger seg langs kanten av sirkelen. Dette er en viktig idé å forstå når vi ser på bevegelse i sirkulære baner. Men... hva om bilen også øker farten sin langs sirkelbanen, og ikke bare endrer retning? I det tilfellet vil bilen både ha en akselerasjon inn mot sentrum (sentripetalakselerasjonen) og en akselerasjon i kjøreretningen (tangentialakselerasjonen). Den totale akselerasjonsvektoren kan da skrives som en sum av disse to komponentene: $$\vec{a} = \vec{a}_\perp + \vec{a}_\parallel,$$ hvor $\vec{a}_\perp$ er sentripetalakselerasjonen og $\vec{a}_\parallel$ er tangentialakselerasjonen. Her skal vi ikke se på slike tilfeller, men det er greit å ha sett sammenhengen.
 
+<!-- tillegg: Claude: notasjon, mellomrom mellom tall og enhet; forholdet til g rettet (6.0·10⁻⁴); fasit for omløpstiden med tre siffer -->
 ::: {.eksempel}
 [Eksempel: Bil i rundkjøring]{.eks-tittel}
 
-En bil kjører gjennom en rundkjøring med konstant fart $v = 36\,\mathrm{km}\,\mathrm{h}^{-1}$ og radius $r = 20\,\mathrm{m}$. Hva er sentripetalakselerasjonen til bilen?
+En bil kjører gjennom en rundkjøring med konstant fart $v = 36\ \mathrm{km}\,\mathrm{h}^{-1}$ og radius $r = 20\ \mathrm{m}$. Hva er sentripetalakselerasjonen til bilen?
 
 :::
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-Vi starter med å gjøre om farten til $\mathrm{m}\,\mathrm{s}^{-1}$: $$v = 36\,\mathrm{km}\,\mathrm{h}^{-1} = 10\,\mathrm{m}\,\mathrm{s}^{-1}$$ Deretter bruker vi formelen for sentripetalakselerasjon: $$a_\perp = \frac{v^2}{r} = \frac{(10\,\mathrm{m}\,\mathrm{s}^{-1})^2}{20\,\mathrm{m}}
-    = \frac{100\,\mathrm{m}^{2}\,\mathrm{s}^{-2}}{20\,\mathrm{m}}
-    = \underline{\underline{5.0\,\mathrm{m}\,\mathrm{s}^{-2}}}$$ Akselerasjonen peker hele tiden inn mot sentrum av rundkjøringen, selv om bilen beveger seg fremover.
+Vi starter med å gjøre om farten til $\mathrm{m}\,\mathrm{s}^{-1}$: $$v = 36\ \mathrm{km}\,\mathrm{h}^{-1} = 10\ \mathrm{m}\,\mathrm{s}^{-1}$$ Deretter bruker vi formelen for sentripetalakselerasjon: $$a_\perp = \frac{v^2}{r} = \frac{(10\ \mathrm{m}\,\mathrm{s}^{-1})^2}{20\ \mathrm{m}}
+    = \frac{100\ \mathrm{m}^{2}\ \mathrm{s}^{-2}}{20\ \mathrm{m}}
+    = \underline{\underline{5.0\ \mathrm{m}\,\mathrm{s}^{-2}}}$$ Akselerasjonen peker hele tiden inn mot sentrum av rundkjøringen, selv om bilen beveger seg fremover.
 
 :::
 
 ::: {.oppgave tittel="Sykkel i sving"}
 [Sykkel i sving]{.oppg-tittel}
 
-En syklist kjører gjennom en sirkulær sving med radius $r = 12\,\mathrm{m}$ og konstant fart $v = 5.4\,\mathrm{km}\,\mathrm{h}^{-1}$.
+En syklist kjører gjennom en sirkulær sving med radius $r = 12\ \mathrm{m}$ og konstant fart $v = 5.4\ \mathrm{km}\,\mathrm{h}^{-1}$.
 
 a)  Gjør om farten til $\mathrm{m}\,\mathrm{s}^{-1}$.
 
@@ -74,37 +75,37 @@ b)  Finn sentripetalakselerasjonen til syklisten.
 c)  Hva skjer med sentripetalakselerasjonen om syklisten dobler farten? Forklar svaret.
 
 ::: {.fasit}
-a) $1.5\,\mathrm{m}\,\mathrm{s}^{-1}$ · b) $0.19\,\mathrm{m}\,\mathrm{s}^{-2}$
+a) $1.5\ \mathrm{m}\,\mathrm{s}^{-1}$ · b) $0.19\ \mathrm{m}\,\mathrm{s}^{-2}$
 :::
 
 :::
 
 ## Omløpstid
 
-Når vi snakker om legemer som har periodisk bevegelse, slik som en satelitt rundt jorda, en planet eller en drill i en borerigg, så er det praktisk å definere begrepet *periode*, $T$, også kalt *omløpstid*. Dette er rett og slett tiden brukt på ett omløp (én runde), Det viser seg at vi nå kan skrive om uttrykket for sentripetalakselerasjonen ved hjelp av omløpstiden. Farten i konstant sirkelbevegelse må nesten kunne uttrykkes som avstanden rundt sirkelen (omkretsen) delt på tiden det tar å fullføre ett omløp, altså $T$. Vi får $$v = \frac{2\pi r}{T}.$$ Ved å sette dette uttrykket for $v$ inn i formelen for sentripetalakselerasjon, får vi $$\begin{aligned}
+Når vi snakker om legemer som har periodisk bevegelse, slik som en satellitt rundt jorda, en planet eller en drill i en borerigg, så er det praktisk å definere begrepet *periode*, $T$, også kalt *omløpstid*. Dette er rett og slett tiden brukt på ett omløp (én runde), Det viser seg at vi nå kan skrive om uttrykket for sentripetalakselerasjonen ved hjelp av omløpstiden. Farten i konstant sirkelbevegelse må nesten kunne uttrykkes som avstanden rundt sirkelen (omkretsen) delt på tiden det tar å fullføre ett omløp, altså $T$. Vi får $$v = \frac{2\pi r}{T}.$$ Ved å sette dette uttrykket for $v$ inn i formelen for sentripetalakselerasjon, får vi $$\begin{aligned}
         \colorbox{black!7}{$\displaystyle a_\perp = \dfrac{4\pi^2 r}{T^2}$}
 \end{aligned}$$
 
 ::: {.eksempel}
 [Eksempel: Jorda rundt sola]{.eks-tittel}
 
-Jorda beveger seg i en tilnærmet sirkulær bane rundt sola med gjennomsnittlig radius $r = 1.496\cdot 10^{11}\,\mathrm{m}$ og omløpstid $T = 365.25\,\mathrm{d}$. Hva er den gjennomsnittlige sentripetalakselerasjonen jorda opplever?
+Jorda beveger seg i en tilnærmet sirkulær bane rundt sola med gjennomsnittlig radius $r = 1.496\cdot 10^{11}\ \mathrm{m}$ og omløpstid $T = 365.25\ \mathrm{d}$. Hva er den gjennomsnittlige sentripetalakselerasjonen jorda opplever?
 
 :::
 
 ::: {.callout-note .svar collapse="true" title="Vis løsning"}
 
-Vi starter med å gjøre om omløpstiden til sekunder: $$T = 365.25\,\mathrm{d} \cdot \frac{24\,\mathrm{h}}{1\,\mathrm{d}} \cdot \frac{3600\,\mathrm{s}}{1\,\mathrm{h}}
-    = 3.156\cdot 10^{7}\,\mathrm{s}$$ Deretter setter vi inn i formelen for sentripetalakselerasjon: $$a_\perp = \frac{4\pi^2 r}{T^2}
-    = \frac{4\pi^2 \cdot 1.496\cdot 10^{11}\,\mathrm{m}}{\left(3.156\cdot 10^{7}\,\mathrm{s}\right)^2}
-    = \underline{\underline{5.930\cdot 10^{-3}\,\mathrm{m}\,\mathrm{s}^{-2}}}$$ Dette er omtrent $6.1\cdot10^{-3}$ ganger tyngdeakselerasjonen $\mathrm{g}$. Selv om akselerasjonen er svært liten, er det nok til å holde jorda i bane rundt sola — fordi tyngdekraften virker over en enorm avstand.
+Vi starter med å gjøre om omløpstiden til sekunder: $$T = 365.25\ \mathrm{d} \cdot \frac{24\ \mathrm{h}}{1\ \mathrm{d}} \cdot \frac{3600\ \mathrm{s}}{1\ \mathrm{h}}
+    = 3.156\cdot 10^{7}\ \mathrm{s}$$ Deretter setter vi inn i formelen for sentripetalakselerasjon: $$a_\perp = \frac{4\pi^2 r}{T^2}
+    = \frac{4\pi^2 \cdot 1.496\cdot 10^{11}\ \mathrm{m}}{\left(3.156\cdot 10^{7}\ \mathrm{s}\right)^2}
+    = \underline{\underline{5.930\cdot 10^{-3}\ \mathrm{m}\,\mathrm{s}^{-2}}}$$ Dette er omtrent $6.0\cdot10^{-4}$ ganger tyngdeakselerasjonen $\mathrm{g}$. Selv om akselerasjonen er svært liten, er det nok til å holde jorda i bane rundt sola — fordi tyngdekraften virker over en enorm avstand.
 
 :::
 
 ::: {.oppgave tittel="Sirkelbevegelse og omløpstid"}
 [Sirkelbevegelse og omløpstid]{.oppg-tittel}
 
-Månens gjennomsnittlige avstand fra jorda er $r = 3.84 \cdot 10^8\,\mathrm{m}$, og omløpstiden er $T = 27.3\,\textrm{dager}$.
+Månens gjennomsnittlige avstand fra jorda er $r = 3.84 \cdot 10^8\ \mathrm{m}$, og omløpstiden er $T = 27.3\ \textrm{dager}$.
 
 a)  Gjør om omløpstiden til sekunder.
 
@@ -113,7 +114,7 @@ b)  Finn sentripetalakselerasjonen månen opplever ved hjelp av formelen $a_\per
 c)  Beregn månens banehastighet $v = 2\pi r / T$ og verifiser svaret ved å bruke $a_\perp = v^2/r$ og sammenlikne med svaret du fikk i b).
 
 ::: {.fasit}
-a) $2.359\cdot 10^{6}\,\mathrm{s}$ · b) $2.72\cdot 10^{-3}\,\mathrm{m}\,\mathrm{s}^{-2}$ · c) $1.02\cdot 10^{3}\,\mathrm{m}\,\mathrm{s}^{-1}$
+a) $2.36\cdot 10^{6}\ \mathrm{s}$ · b) $2.72\cdot 10^{-3}\ \mathrm{m}\,\mathrm{s}^{-2}$ · c) $1.02\cdot 10^{3}\ \mathrm{m}\,\mathrm{s}^{-1}$
 :::
 
 :::

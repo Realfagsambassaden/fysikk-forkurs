@@ -11,7 +11,7 @@ Trigonometri er veldig nyttig redskap i fysikken, ettersom vi hele veien har bru
 
 **I en rettvinklet trekant** navngir vi sidene i forhold til en valgt vinkel $\theta$:
 
--   **Hypotenus** ($c$) — den lengste siden, alltid overfor den rette vinkelen ($90-$graders vinkelen). Denen sidekanten vil utgjøre det ene benet ivinkelen $\theta$.
+-   **Hypotenus** ($c$) — den lengste siden, alltid overfor den rette vinkelen ($90-$graders vinkelen). Denne sidekanten vil utgjøre det ene benet i vinkelen $\theta$.
 
 -   **Hosliggende katet** (a) — sidekanten som utgjør det andre benet i $\theta$-vinkelen.
 
@@ -41,9 +41,9 @@ For en vinkel $\theta$ i en rettvinklet trekant med hypotenus $c$ har vi nå fø
 
 :::
 
-Ut ifra formlene over så se vi at vi får følgende formlerfor katetene $a$ og $b$: $$\text{a} = c\cos\theta, \qquad \text{b} = c\sin\theta.$$ Dette er uttrykk som vi kommer til å benytte oss av veldig mye. Jeg anbefaler å pugge uttrykkene i den grønne boksen, og alltid utlede ting på nytt derifra når du trenger det.
+Ut ifra formlene over ser vi at vi får følgende formler for katetene $a$ og $b$: $$a = c\cos\theta, \qquad b = c\sin\theta.$$ Dette er uttrykk som vi kommer til å benytte oss av veldig mye. Jeg anbefaler å pugge uttrykkene i definisjonsboksen, og alltid utlede ting på nytt derifra når du trenger det.
 
-**Enhetssirkelen** er et veldig nyttig verktøy når man jobber med trigonometriske funksjoner. Enhetssirklene er rett og slett en sirkel med radius 1, slik at katetene i trekanten med vinkel $\theta$ skrevet inn i enhetssirkelen, blir $\cos\theta$ og $\sin\theta$. Da ser vi også umiddelbart fra Pythagoras læesetning at $$\begin{aligned}
+**Enhetssirkelen** er et veldig nyttig verktøy når man jobber med trigonometriske funksjoner. Enhetssirkelen er rett og slett en sirkel med radius 1, slik at katetene i trekanten med vinkel $\theta$ skrevet inn i enhetssirkelen, blir $\cos\theta$ og $\sin\theta$. Da ser vi også umiddelbart fra Pythagoras læresetning at $$\begin{aligned}
     \cos^2\theta + \sin^2\theta = 1.
 \end{aligned}$$ Denne formelen er mye brukt, så den kan du bare lære deg med det samme. Tabellen under viser noen eksakte verdier for de trigonometriske funksjonene. De fleste vinklene har ikke eksakte uttrykk på denne formen, men disse er mye brukte vinkler, og det kan derfor være kjekt å kjenne til dem. Jeg anbefaler likevel ikke å bruke tid på å pugge de.
 
@@ -57,16 +57,17 @@ Ut ifra formlene over så se vi at vi får følgende formlerfor katetene $a$ og 
 
 : Viktige trigonometriske verdier.
 
+<!-- tillegg: Claude: notasjon, sidene a og b i kursiv, mellomrom mellom tall og enhet, ingen fargehenvisning -->
 ::: {.eksempel}
 [Eksempel: Trigonometri: stige mot vegg]{.eks-tittel}
 
-En stige av lengde $h = 5.0\,\mathrm{m}$ lener seg mot en vegg i vinkel $\theta = 37^\circ$ med gulvet. Finn den horisontale og vertikale komponenten til stigen.
+En stige av lengde $h = 5.0\ \mathrm{m}$ lener seg mot en vegg i vinkel $\theta = 37^\circ$ med gulvet. Finn den horisontale og vertikale komponenten til stigen.
 
 ::: {.losning}
 **Løsning:** $$\begin{aligned}
-x &= h\cos\theta = 5.0\cdot\cos 37^\circ \approx 5.0\cdot 0.799 \approx \underline{\underline{4.0\,\mathrm{m}}} \\
-y &= h\sin\theta = 5.0\cdot\sin 37^\circ \approx 5.0\cdot 0.602 \approx \underline{\underline{3.0\,\mathrm{m}}}
-\end{aligned}$$ Dette er nøyaktig et $(3,4,5)$-trekant skalert med $1\,\mathrm{m}$.
+x &= h\cos\theta = 5.0\cdot\cos 37^\circ \approx 5.0\cdot 0.799 \approx \underline{\underline{4.0\ \mathrm{m}}} \\
+y &= h\sin\theta = 5.0\cdot\sin 37^\circ \approx 5.0\cdot 0.602 \approx \underline{\underline{3.0\ \mathrm{m}}}
+\end{aligned}$$ Dette er nøyaktig en $(3,4,5)$-trekant skalert med $1\ \mathrm{m}$.
 :::
 :::
 
@@ -107,9 +108,9 @@ Begge er positive i **første kvadrant** ($0^\circ < \theta < 90^\circ$), og beg
 ::: {.oppgave tittel="Trigonometri"}
 [Trigonometri]{.oppg-tittel}
 
-a)  Les av $\sin 30^\circ$, $\cos 45^\circ$ og $\tan 60^\circ$ fra Tabell .
+a)  Les av $\sin 30^\circ$, $\cos 45^\circ$ og $\tan 60^\circ$ fra tabellen over.
 
-b)  En trekant har hypotenus $c = 10\,\mathrm{m}$ og vinkel $\theta = 53^\circ$. Finn lengden av den motstående kateten $b$ og den hosliggende kateten $a$.
+b)  En trekant har hypotenus $c = 10\ \mathrm{m}$ og vinkel $\theta = 53^\circ$. Finn lengden av den motstående kateten $b$ og den hosliggende kateten $a$.
 
 c)  Vis at $\sin^2 30^\circ + \cos^2 30^\circ = 1$.
 
